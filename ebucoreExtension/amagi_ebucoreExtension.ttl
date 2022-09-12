@@ -1,0 +1,50 @@
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix ebucoreext: <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+
+# An asset either episode or feature will be associated with exactly one resource of class type AIAugmentedMeta
+# The above constraint means that the urriId for AIAugmentedMeta instance will be equal to fn(asset_uri_id, constant) where
+# asset_uri_id is the uriId of the asset with which the AIAugmentedMeta instance is associated. 
+# In the below example
+#   A744595 = fn(A1234, "AIMLAugmenedMeta"), fn could be md5sum hash
+#
+# Example of AIAugmentedMeta is as follows
+# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode ;
+#         ebucore:hasAssetRelatedResource <https://compass.amagi.tv/gms/entity/A744595> .
+# <https://compass.amagi.tv/gms/entity/A744595> a ebucoreext:AIAugmentedMeta ;
+#         ebucoreext:hasAnnotation _:mm1 ;
+#         ebucoreext:hasAnnotation _:mm2 ;
+#         ebucoreext:hasAnnotation _:v1 .
+# _:mm1 a ebucore:Annotation ;
+#         ebucore:annotationType ebucore:Keyword ;
+#         ebucore:hasAnnotationBody "Russia"@en ;
+#         ebucore:annotaionConfidence "3.4" ;
+#         ebucore:annotationId <https://www.wikidata.org/wiki/Q34266> .
+# _:mm2 a ebucore:Annotation ;
+#         ebucore:annotationType ebucore:Topic ;
+#         ebucore:annotaionConfidence "2.1" ;
+#         ebucore:annotationId <http://cv.iptc.org/newscodes/mediatopic/20000642> .
+# _:v1 a ebucoreext:VideoAnnotation
+#      ebucore:hasAnnotationRelatedArtefact <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> .
+
+
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> a rdfs:Class ;
+    rdfs:label "AIAugmentedMeta"@en ;
+    rdfs:comment """To capture auto generated metadata concepts using AI and machine 
+                    learning techniques"""@en ;
+    rdfs:subClassOf <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> .
+
+# Is this property really required. There is a way in which ebucore:hasAnnotationTarget can be used
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAnnotation> a rdf:Property ;
+    rdfs:label "hasAnnotation"@en ;
+    rdfs:comment "To associate annotation with an Asset"@en ;
+    rdfs:domain <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+    rdfs:range <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#VideoAnnotation> a rdfs:Class ;
+    rdfs:label "VideoAnnotation"@en ;
+    rdfs:comment "A class specific to the annotation of a video asset."@en ;
+    rdfs:subClassOf <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
