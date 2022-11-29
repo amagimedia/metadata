@@ -9,7 +9,7 @@ Repository to capture all schemas for metadata representation.
 mkdocs gh-deploy
 ```
 
-## Conversion from ttl to XMD/RDF
+## Conversion from ttl to XML/RDF
 
 rapper can be installed using `brew install raptor`
 
