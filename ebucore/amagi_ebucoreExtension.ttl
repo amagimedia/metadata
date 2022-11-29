@@ -1,6 +1,8 @@
 @prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
 @prefix ebucoreext: <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 
 
@@ -11,23 +13,24 @@
 #   A744595 = fn(A1234, "AIMLAugmenedMeta"), fn could be md5sum hash
 #
 # Example of AIAugmentedMeta is as follows
-# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode ;
-#         ebucore:hasAssetRelatedResource <https://compass.amagi.tv/gms/entity/A744595> .
+# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode .
+#
 # <https://compass.amagi.tv/gms/entity/A744595> a ebucoreext:AIAugmentedMeta ;
-#         ebucoreext:hasAnnotation _:mm1 ;
-#         ebucoreext:hasAnnotation _:mm2 ;
-#         ebucoreext:hasAnnotation _:v1 .
-# _:mm1 a ebucore:Annotation ;
-#         ebucore:annotationType ebucore:Keyword ;
-#         ebucore:hasAnnotationBody "Russia"@en ;
-#         ebucore:annotaionConfidence "3.4" ;
-#         ebucore:annotationId <https://www.wikidata.org/wiki/Q34266> .
-# _:mm2 a ebucore:Annotation ;
-#         ebucore:annotationType ebucore:Topic ;
-#         ebucore:annotaionConfidence "2.1" ;
-#         ebucore:annotationId <http://cv.iptc.org/newscodes/mediatopic/20000642> .
-# _:v1 a ebucoreext:VideoAnnotation
-#      ebucore:hasAnnotationRelatedArtefact <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> .
+#         ebucore:hasRelatedAsset <https://compass.amagi.tv/gms/entity/A1234>;
+#         ebucoreext:hasAnnotation [ a ebucore:Annotation ;
+#                                ebucore:annotationType ebucore:Keyword ;
+#                                ebucore:annotationName "Russia"@en ;
+#                                ebucore:annotaionConfidence "3.4" ;
+#                                ebucore:annotationId <https://www.wikidata.org/wiki/Q34266> .
+#                                ] ;
+#         ebucoreext:hasAnnotation [ a ebucore:Annotation ;
+#                                    ebucore:annotationType ebucore:Topic ;
+#                                    ebucore:annotaionConfidence "2.1" ;
+#                                    bucore:annotationId <http://cv.iptc.org/newscodes/mediatopic/20000642> .] ;
+#         ebucoreext:hasAnnotation  [ a ebucoreext:VideoAnnotation;
+#                                     ebucore:hasAnnotationRelatedArtefact <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> . ] .
+#        
+#       
 
 
 
