@@ -1,0 +1,35 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS>
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    rdfs:label "EBU SKOS Classification Scheme for media IdentifierType"@en .
+
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_3.0>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Gracenote TMSID. Check https://www.gracenote.com/gracenote-id/"""@en ;
+    skos:example "" ;
+    skos:historyNote "2022-11-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "TMSID"@en .
+
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_4.0>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """The universal media identifier. Check https://www.eidr.org/"""@en ;
+    skos:example "" ;
+    skos:historyNote "2022-11-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "EIDR"@en .
