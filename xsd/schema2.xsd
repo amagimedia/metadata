@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://api.wurl.com/wurlrss/1.0" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://api.wurl.com/wurlrss/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema0.xsd" />
+  <xs:simpleType name="myString">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="series">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="officialTitle" minOccurs="1" type="tns:myString" />
+        <xs:element ref="link" minOccurs="0"/>
+        <xs:element name="startYear" type="xs:gYear" minOccurs="0"/>
+        <xs:element name="season" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="seasonNumber" minOccurs="1" type="tns:myString" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="episode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="officialTitle" type="tns:myString" minOccurs="1" />
+        <xs:element name="seasonNumber" type="tns:myString" minOccurs="0" />
+        <xs:element name="episodeNumber" type="tns:myString" minOccurs="0" />
+        <xs:element name="firstAired" type="tns:myString" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="movie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="officialTitle" type="tns:myString" minOccurs="1" />
+        <xs:element ref="link" minOccurs="0" />
+        <xs:element name="year" type="xs:gYear" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cuepoints" type="tns:myString" />
+</xs:schema>
