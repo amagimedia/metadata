@@ -1,0 +1,762 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Metadata RDFS and XML Schemas" name="description"/>
+<meta content="Shashidhar" name="author"/>
+<link href="https://squidfunk.github.io/mkdocs-material/amgrss_schemas/o.html" rel="canonical"/>
+<link href="../assets/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.2.2, mkdocs-material-7.2.1" name="generator"/>
+<title>O - Metadata RDFS and XML Schemas</title>
+<link href="../assets/stylesheets/main.1118c9be.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.ba0d045b.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+<script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Metadata RDFS and XML Schemas" class="md-header__button md-logo" data-md-component="logo" href="../index.html" title="Metadata RDFS and XML Schemas">
+<svg viewbox="0 0 89 89" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z"></path>
+<path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5"></path>
+<path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z"></path>
+<path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25"></path>
+</svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Metadata RDFS and XML Schemas
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              O
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="red" data-md-color-media="" data-md-color-primary="red" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/amagimedia/metadata" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    amagimedia/metadata
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Metadata RDFS and XML Schemas" class="md-nav__button md-logo" data-md-component="logo" href="../index.html" title="Metadata RDFS and XML Schemas">
+<svg viewbox="0 0 89 89" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z"></path>
+<path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5"></path>
+<path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z"></path>
+<path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25"></path>
+</svg>
+</a>
+    Metadata RDFS and XML Schemas
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/amagimedia/metadata" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    amagimedia/metadata
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../index.html">
+        Overview
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../amgrss.html">
+        AMGRSS Specification
+      </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>O</h1>
+<table>
+<thead>
+<tr>
+<th>xpath</th>
+<th>description</th>
+<th>valueType</th>
+<th>exampleValues</th>
+<th>mappingRequired</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/rss</td>
+<td><a href="https://www.rssboard.org/rss-draft-1#element-rss">https://www.rssboard.org/rss-draft-1#element-rss</a></td>
+<td>n/a</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel</td>
+<td><a href="https://www.rssboard.org/rss-draft-1#element-channel">https://www.rssboard.org/rss-draft-1#element-channel</a></td>
+<td>n/a</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]</td>
+<td><a href="https://www.rssboard.org/rss-draft-1#element-channel-item">https://www.rssboard.org/rss-draft-1#element-channel-item</a></td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:type</td>
+<td>Type of media item. Whether it a feature or an episode of serties etc</td>
+<td>xs:enumeration "{Feature Episode}"</td>
+<td>"Feature"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:assetid</td>
+<td>Asset id assigned in the publisher's CMS</td>
+<td>xs:string</td>
+<td>"123456"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:broadcastDate</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
+<td>xs:string</td>
+<td>"2019-01-01"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[<em>]/amg:cuepoint[</em>]</td>
+<td>Identifies the cue point in seconds offset. Cue points are places in time where an ad can be inserted in the video</td>
+<td>xs:float</td>
+<td>60.320</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[<em>]/amg:keyword[</em>]</td>
+<td>Highly relevant keywords describing the media object. Max 10 elements Ref: <a href="https://www.rssboard.org/media-rss#media-keywords">https://www.rssboard.org/media-rss#media-keywords</a></td>
+<td>xs:string</td>
+<td>"prison"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:longDescription</td>
+<td>Long description describing media object</td>
+<td>xs:string</td>
+<td>"movie on stock. Set in time persion 1929-1935"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:rights</td>
+<td>Element to express rights associated with the media object</td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:rights/amg:rightsEndDateTime</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
+<td>xs:dateTime</td>
+<td>"2019-01-01T00:00:00Z"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:rights/amg:rightsLink</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
+<td>xs:string</td>
+<td>"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:rights/amg:rightsStartDateTime</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
+<td>xs:dateTime</td>
+<td>"2019-01-01T00:00:00Z"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:rights/amg:service</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:rights/amg:service/amg:serviceId</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:rights/amg:service/amg:serviceName</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
+<td>xs:string</td>
+<td>"Roku"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:rights/amg:service/amg:serviceType</td>
+<td>Service type</td>
+<td avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
+<td>"AVOD"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[<em>]/amg:rights/amgt:rightsTerritoryExcludes[</em>]</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[<em>]/amg:rights/amgt:rightsTerritoryIncludes[</em>]</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season</td>
+<td>Element to express season specific information</td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:broadcastDate</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
+<td>xs:string</td>
+<td>"2019-01-01"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights</td>
+<td>Element to express rights associated with the media object</td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights/amg:rightsEndDateTime</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
+<td>xs:dateTime</td>
+<td>"2019-01-01T00:00:00Z"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights/amg:rightsLink</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
+<td>xs:string</td>
+<td>"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights/amg:rightsStartDateTime</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
+<td>xs:dateTime</td>
+<td>"2019-01-01T00:00:00Z"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights/amg:service</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceId</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceName</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
+<td>xs:string</td>
+<td>"Roku"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceType</td>
+<td>Service type</td>
+<td avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
+<td>"AVOD"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights/amgt:rightsTerritoryExcludes</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:rights/amgt:rightsTerritoryIncludes</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:seasonNumber</td>
+<td>Season number with first season being 1</td>
+<td>xs:integer</td>
+<td>"1"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:seasonThumbnail</td>
+<td>Url pointing to season specific thumbnail</td>
+<td>xs:anyUri</td>
+<td>"<a href="https://www.example.com/season1.jpg">https://www.example.com/season1.jpg</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:season/amg:seasonTitle</td>
+<td>Title of the season</td>
+<td>xs:string</td>
+<td>"Season 1"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series</td>
+<td>Element to express series specific information</td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:broadcastDate</td>
+<td>Date when series was aired first. <a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
+<td>xs:string</td>
+<td>"2019-01-01"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[<em>]/amg:series/amg:keyword[</em>]</td>
+<td>Highly relevant keywords describing the series. Max 10 elements Ref: <a href="https://www.rssboard.org/media-rss#media-keywords">https://www.rssboard.org/media-rss#media-keywords</a></td>
+<td>xs:string</td>
+<td>"prison"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:productionCompany</td>
+<td>Name of the production company or studio</td>
+<td>xs:string</td>
+<td>"Lionsgate"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights</td>
+<td>Element to express rights associated with the media object</td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights/amg:rightsEndDateTime</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
+<td>xs:dateTime</td>
+<td>"2019-01-01T00:00:00Z"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights/amg:rightsLink</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
+<td>xs:string</td>
+<td>"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights/amg:rightsStartDateTime</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
+<td>xs:dateTime</td>
+<td>"2019-01-01T00:00:00Z"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights/amg:service</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceId</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceName</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
+<td>xs:string</td>
+<td>"Roku"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceType</td>
+<td>Service type</td>
+<td avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
+<td>"AVOD"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights/amgt:rightsTerritoryExcludes</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:rights/amgt:rightsTerritoryIncludes</td>
+<td><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:seriesDescription</td>
+<td>Description of the series</td>
+<td>xs:string</td>
+<td>"A prison drama"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:seriesThumbnail</td>
+<td>Url pointing to series specific thumbnail</td>
+<td>xs:anyUri</td>
+<td>"<a href="https://www.example.com/series.jpg">https://www.example.com/series.jpg</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/amg:series/amg:seriesTitle</td>
+<td>Title of the series</td>
+<td>xs:string</td>
+<td>"Prison Break"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[<em>]/amgt:genre[</em>]</td>
+<td>Genre of the media object. <a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Genre.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Genre.html</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:description</td>
+<td>Short description of the media object</td>
+<td>xs:string</td>
+<td>"A prison drama"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group</td>
+<td><a href="https://www.rssboard.org/media-rss#media-group">https://www.rssboard.org/media-rss#media-group</a></td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content</td>
+<td><a href="https://www.rssboard.org/media-rss#media-content">https://www.rssboard.org/media-rss#media-content</a></td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/bitrate" title="GitHub User: bitrate">@bitrate</a></td>
+<td>kilobits per second rate of media object</td>
+<td>xs:integer</td>
+<td>"1000"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/duration" title="GitHub User: duration">@duration</a></td>
+<td>the number of seconds the media object plays</td>
+<td>xs:integer</td>
+<td>"1500"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/fileSize" title="GitHub User: fileSize">@fileSize</a></td>
+<td>the number of bytes of the media object</td>
+<td>xs:integer</td>
+<td>"1000000"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/framerate" title="GitHub User: framerate">@framerate</a></td>
+<td>the number of frames per second for the media object</td>
+<td>xs:integer</td>
+<td>"30"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
+<td>the height of the media object</td>
+<td>xs:integer</td>
+<td>"1080"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
+<td>the primary language encapsulated in the media object as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/medium" title="GitHub User: medium">@medium</a></td>
+<td>the type of object that is encased in the media object</td>
+<td audio="audio" document="document" executable="executable" image="image" video="video">xs:enumeration</td>
+<td>"video"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/type" title="GitHub User: type">@type</a></td>
+<td>the standard MIME type of the object</td>
+<td>xs:string</td>
+<td>"video/mp4"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
+<td>should specify the direct URL to the media object</td>
+<td>xs:anyUri</td>
+<td>"<a href="https://www.example.com/video.mp4">https://www.example.com/video.mp4</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
+<td>the width of the media object</td>
+<td>xs:integer</td>
+<td>"1920"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:thumbnail</td>
+<td><a href="https://www.rssboard.org/media-rss#media-thumbnails">https://www.rssboard.org/media-rss#media-thumbnails</a></td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
+<td>specifies the url of the thumbnail</td>
+<td>xs:anyUri</td>
+<td>"<a href="https://www.example.com/thumbnail.jpg">https://www.example.com/thumbnail.jpg</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
+<td>specifies the height of the thumbnail</td>
+<td>xs:integer</td>
+<td>"1080"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
+<td>specifies the width of the thumbnail</td>
+<td>xs:integer</td>
+<td>"1920"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:title</td>
+<td><a href="https://www.rssboard.org/media-rss#media-title">https://www.rssboard.org/media-rss#media-title</a></td>
+<td>xs:string</td>
+<td>"Prison Break"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[<em>]/media:credit[</em>]</td>
+<td><a href="https://www.rssboard.org/media-rss#media-credit">https://www.rssboard.org/media-rss#media-credit</a></td>
+<td>xs:complexType</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[<em>]/media:credit[</em>]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:role</td>
+<td>Role as defined in <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9</a>"</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>/rss/channel/item[<em>]/media:credit[</em>]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/scheme" title="GitHub User: scheme">@scheme</a></td>
+<td>Fixed value <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:rating</td>
+<td><a href="https://www.rssboard.org/media-rss#media-rating">https://www.rssboard.org/media-rss#media-rating</a> Rating value will belong to <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:rating/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/scheme" title="GitHub User: scheme">@scheme</a></td>
+<td>Fixed value <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:subTitle</td>
+<td><a href="https://www.rssboard.org/media-rss#media-subtitle">https://www.rssboard.org/media-rss#media-subtitle</a></td>
+<td>n/a</td>
+<td>n/a</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:subTitle/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/href" title="GitHub User: href">@href</a></td>
+<td>specifies the url of the subtitle</td>
+<td>xs:anyUri</td>
+<td>"<a href="https://www.example.com/subtitle.srt">https://www.example.com/subtitle.srt</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:subTitle/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
+<td>specifies the language of the subtitle as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf</a></td>
+<td>xs:anyUri</td>
+<td>"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng</a>"</td>
+<td>no</td>
+</tr>
+<tr>
+<td>/rss/channel/item[*]/media:subTitle/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/type" title="GitHub User: type">@type</a></td>
+<td>the standard MIME type of the object</td>
+<td>xs:string</td>
+<td>"text/srt"</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+</article>
+</div>
+</div>
+<a class="md-top md-icon" data-md-component="top" data-md-state="hidden" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-footer-copyright">
+<div class="md-footer-copyright__highlight">
+            Copyright © 2016 - 2022 Amagi Media Labs
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+          Material for MkDocs
+        </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.tabs.link", "navigation.sections", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.53c85856.min.js", "version": null}</script>
+<script src="../assets/javascripts/bundle.716f8af4.min.js"></script>
+<script src="../javascripts/config.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

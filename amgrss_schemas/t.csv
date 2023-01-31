@@ -1,0 +1,28 @@
+xpath, description, valueType, exampleValues, mappingRequired
+/rss/channel/item[*]/amgt:genre[*], Genre of the media object. https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Genre.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", no
+/rss/channel/item[*]/media:description, Short description of the media object, xs:string, "A prison drama", no
+/rss/channel/item[*]/media:group, https://www.rssboard.org/media-rss#media-group, xs:complexType, n/a, no
+/rss/channel/item[*]/media:group/media:content, https://www.rssboard.org/media-rss#media-content, xs:complexType, n/a, no
+/rss/channel/item[*]/media:group/media:content/@bitrate, kilobits per second rate of media object, xs:integer, "1000", no
+/rss/channel/item[*]/media:group/media:content/@duration, the number of seconds the media object plays, xs:integer, "1500", no
+/rss/channel/item[*]/media:group/media:content/@fileSize, the number of bytes of the media object, xs:integer, "1000000", no
+/rss/channel/item[*]/media:group/media:content/@framerate, the number of frames per second for the media object, xs:integer, "30", no
+/rss/channel/item[*]/media:group/media:content/@height, the height of the media object, xs:integer, "1080", no
+/rss/channel/item[*]/media:group/media:content/@amg:lang, the primary language encapsulated in the media object as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", no
+/rss/channel/item[*]/media:group/media:content/@medium, the type of object that is encased in the media object, xs:enumeration {image audio video document executable}, "video", no
+/rss/channel/item[*]/media:group/media:content/@type, the standard MIME type of the object, xs:string, "video/mp4", no
+/rss/channel/item[*]/media:group/media:content/@url, should specify the direct URL to the media object, xs:anyUri, "https://www.example.com/video.mp4", no
+/rss/channel/item[*]/media:group/media:content/@width, the width of the media object, xs:integer, "1920", no
+/rss/channel/item[*]/media:thumbnail, https://www.rssboard.org/media-rss#media-thumbnails, xs:complexType, n/a, no
+/rss/channel/item[*]/media:thumbnail/@url, specifies the url of the thumbnail, xs:anyUri, "https://www.example.com/thumbnail.jpg", no
+/rss/channel/item[*]/media:thumbnail/@height, specifies the height of the thumbnail, xs:integer, "1080", no
+/rss/channel/item[*]/media:thumbnail/@width, specifies the width of the thumbnail, xs:integer, "1920", no
+/rss/channel/item[*]/media:title, https://www.rssboard.org/media-rss#media-title, xs:string, "Prison Break", no
+/rss/channel/item[*]/media:credit[*], https://www.rssboard.org/media-rss#media-credit, xs:complexType, n/a, no
+/rss/channel/item[*]/media:credit[*]/@scheme, Fixed value https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm, xs:anyUri, "https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm", no
+/rss/channel/item[*]/media:rating, https://www.rssboard.org/media-rss#media-rating Rating value will belong to https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14", no
+/rss/channel/item[*]/media:rating/@scheme, Fixed value https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm, xs:anyUri, "https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm", no
+/rss/channel/item[*]/media:subTitle, https://www.rssboard.org/media-rss#media-subtitle, n/a, n/a, no
+/rss/channel/item[*]/media:subTitle/@href, specifies the url of the subtitle, xs:anyUri, "https://www.example.com/subtitle.srt", no
+/rss/channel/item[*]/media:subTitle/@amg:lang, specifies the language of the subtitle as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", no
+/rss/channel/item[*]/media:subTitle/@typethe standard MIME type of the object, xs:string, "text/srt", no

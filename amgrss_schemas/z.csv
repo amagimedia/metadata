@@ -1,0 +1,14 @@
+xpath, description, valueType, exampleValues, mappingRequired
+/rss/channel/item[*]/media:thumbnail, https://www.rssboard.org/media-rss#media-thumbnails, xs:complexType, n/a, no
+/rss/channel/item[*]/media:thumbnail/@url, specifies the url of the thumbnail, xs:anyUri, "https://www.example.com/thumbnail.jpg", no
+/rss/channel/item[*]/media:thumbnail/@height, specifies the height of the thumbnail, xs:integer, "1080", no
+/rss/channel/item[*]/media:thumbnail/@width, specifies the width of the thumbnail, xs:integer, "1920", no
+/rss/channel/item[*]/media:title, https://www.rssboard.org/media-rss#media-title, xs:string, "Prison Break", no
+/rss/channel/item[*]/media:credit[*], https://www.rssboard.org/media-rss#media-credit, xs:complexType, n/a, no
+/rss/channel/item[*]/media:credit[*]/@scheme, Fixed value https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm, xs:anyUri, "https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm", no
+/rss/channel/item[*]/media:rating, https://www.rssboard.org/media-rss#media-rating Rating value will belong to https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14", no
+/rss/channel/item[*]/media:rating/@scheme, Fixed value https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm, xs:anyUri, "https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm", no
+/rss/channel/item[*]/media:subTitle, https://www.rssboard.org/media-rss#media-subtitle, n/a, n/a, no
+/rss/channel/item[*]/media:subTitle/@href, specifies the url of the subtitle, xs:anyUri, "https://www.example.com/subtitle.srt", no
+/rss/channel/item[*]/media:subTitle/@amg:lang, specifies the language of the subtitle as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", no
+/rss/channel/item[*]/media:subTitle/@type, the standard MIME type of the object, xs:string, "text/srt", no
