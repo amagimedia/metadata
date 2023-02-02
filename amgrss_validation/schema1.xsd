@@ -19,7 +19,7 @@
             <xs:attribute name="label" type="tns:myString" use="required"/>
         </xs:complexType>
     </xs:element>
-
+    
     <xs:element name="rating">
         <xs:complexType>
             <xs:simpleContent>
