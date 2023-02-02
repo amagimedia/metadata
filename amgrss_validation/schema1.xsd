@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://search.yahoo.com/mrss/" attributeFormDefault="unqualified" elementFormDefault="qualified"
            targetNamespace="http://search.yahoo.com/mrss/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:import schemaLocation="schema3.xsd" namespace="https://www.amagi.com/rss/03" />
+    <xs:import schemaLocation="schema2.xsd" namespace="http://www.amagi.com/amgrss/" />
     <xs:import schemaLocation="schema0.xsd"/>
+
     <xs:simpleType name="myString">
         <xs:restriction base="xs:string">
             <xs:minLength value="1"/>
         </xs:restriction>
     </xs:simpleType>
+
     <xs:element name="title" type="tns:myString"/>
     <xs:element name="description" type="tns:myString"/>
+
     <xs:element name="category">
         <xs:complexType>
             <xs:attribute name="scheme" type="tns:myString" use="required"/>
             <xs:attribute name="label" type="tns:myString" use="required"/>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="rating">
         <xs:complexType>
             <xs:simpleContent>
@@ -26,27 +30,29 @@
             </xs:simpleContent>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="credit">
         <xs:complexType>
             <xs:simpleContent>
                 <xs:extension base="tns:myString">
                     <xs:attribute name="scheme" type="tns:myString" use="required"/>
-                    <xs:attribute name="role" type="tns:myString" use="required"/>
+                    <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:role" use="required"/>
                     <xs:attribute name="code" type="tns:decimalOrEmpty" use="required"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
     </xs:element>
+
     <xs:element name="thumbnail">
         <xs:complexType>
             <xs:attribute name="url" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>
-    <xs:element name="keywords" type="tns:myString"/>
+   
     <xs:element name="subTitle">
         <xs:complexType>
             <xs:attribute name="type" type="xs:string" use="optional"/>
-            <xs:attribute xmlns:q1="https://www.amagi.com/rss/03" ref="q1:lang" use="optional" />
+            <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
             <xs:attribute name="href" type="tns:myString" use="required"/>
         </xs:complexType>
     </xs:element>
@@ -82,77 +88,20 @@
             <xs:sequence>
                 <xs:element name="content" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="hash" minOccurs="1">
-                                <xs:complexType>
-                                    <xs:simpleContent>
-                                        <xs:extension base="xs:string">
-                                            <xs:attribute name="algo" type="xs:string" use="optional"/>
-                                        </xs:extension>
-                                    </xs:simpleContent>
-                                </xs:complexType>
-                            </xs:element>
-                        </xs:sequence>
                         <xs:attribute name="url" type="tns:myString" use="required"/>
-                        <xs:attribute name="fileSize" type="tns:longOrEmpty" use="optional"/>
-                        <xs:attribute name="type" type="xs:string" use="optional"/>
                         <xs:attribute name="medium" type="xs:string" use="optional"/>
-                        <xs:attribute name="isDefault" type="xs:string" use="optional"/>
-                        <xs:attribute name="expression" type="xs:string" use="optional"/>
-                        <xs:attribute name="bitrate" type="tns:decimalOrEmpty" use="optional"/>
-                        <xs:attribute name="framerate" type="tns:decimalOrEmpty" use="optional"/>
-                        <xs:attribute name="samplingrate" type="tns:decimalOrEmpty" use="optional"/>
-                        <xs:attribute name="channels" type="tns:byteOrEmpty" use="optional"/>
                         <xs:attribute name="duration" type="tns:intOrDecimalOrStringOrEmpty" use="optional"/>
                         <xs:attribute name="height" type="tns:intOrEmpty" use="optional"/>
                         <xs:attribute name="width" type="tns:intOrEmpty" use="optional"/>
-                        <xs:attribute xmlns:q2="https://www.amagi.com/rss/03" ref="q2:lang" use="optional" />
+                        <xs:attribute name="fileSize" type="tns:longOrEmpty" use="optional"/>
+                        <xs:attribute name="lang" type="xs:string" use="optional" />
+                        <xs:attribute name="type" type="xs:string" use="optional"/>
+                        <xs:attribute name="bitrate" type="tns:decimalOrEmpty" use="optional"/>
+                        <xs:attribute name="framerate" type="tns:decimalOrEmpty" use="optional"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
 
-    <xs:element name="scenes">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="scene" minOccurs="1" maxOccurs="unbounded">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element ref="sceneTitle" minOccurs="0"/>
-                            <xs:element ref="sceneDescription" minOccurs="0"/>
-                            <xs:element ref="sceneStartTime" minOccurs="1"/>
-                            <xs:element ref="sceneEndTime" minOccurs="0"/>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="content">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="hash">
-                    <xs:complexType>
-                        <xs:simpleContent>
-                            <xs:extension base="xs:string">
-                                <xs:attribute name="algo" type="xs:string" use="optional"/>
-                            </xs:extension>
-                        </xs:simpleContent>
-                    </xs:complexType>
-                </xs:element>
-            </xs:sequence>
-            <xs:attribute name="url" type="xs:string" use="optional"/>
-            <xs:attribute name="fileSize" type="tns:intOrEmpty" use="optional"/>
-            <xs:attribute name="type" type="xs:string" use="optional"/>
-            <xs:attribute name="medium" type="xs:string" use="optional"/>
-            <xs:attribute name="expression" type="xs:string" use="optional"/>
-            <xs:attribute name="bitrate" type="tns:intOrEmpty" use="optional"/>
-            <xs:attribute name="samplingrate" type="tns:decimalOrEmpty" use="optional"/>
-            <xs:attribute name="channels" type="tns:byteOrEmpty" use="optional"/>
-            <xs:attribute name="duration" type="tns:intOrEmpty" use="optional"/>
-            <xs:attribute xmlns:q3="https://www.amagi.com/rss/03" ref="q3:lang" use="optional" />
-        </xs:complexType>
-    </xs:element>
 </xs:schema>

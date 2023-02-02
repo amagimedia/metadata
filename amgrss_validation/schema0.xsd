@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:wurl="http://api.wurl.com/wurlrss/1.0" xmlns:media="http://search.yahoo.com/mrss/"
-           xmlns:amg="https://www.amagi.com/rss/03" attributeFormDefault="unqualified" elementFormDefault="qualified"
+<xs:schema xmlns:media="http://search.yahoo.com/mrss/"
+           xmlns:amg="http://www.amagi.com/amgrss/" attributeFormDefault="unqualified" elementFormDefault="qualified"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:import schemaLocation="schema1.xsd" namespace="http://search.yahoo.com/mrss/"/>
-    <xs:import schemaLocation="schema2.xsd" namespace="http://api.wurl.com/wurlrss/1.0"/>
-    <xs:import schemaLocation="schema3.xsd" namespace="https://www.amagi.com/rss/03"/>
+    <xs:import schemaLocation="schema2.xsd" namespace="http://www.amagi.com/amgrss/"/>
 
     <xs:element name="rss">
         <xs:complexType>
@@ -12,42 +11,29 @@
                 <xs:element name="channel">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="title" type="xs:string" minOccurs="0" />
-                            <xs:element name="link" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-                            <xs:element name="description" type="xs:string" minOccurs="0" />
-                            <xs:element name="pubDate" type="xs:string" minOccurs="0" />
-                            <xs:element name="image" minOccurs="0">
-                                <xs:complexType>
-                                    <xs:attribute name="url" type="xs:string" use="optional" />
-                                </xs:complexType>
-                            </xs:element>
                             <xs:element name="item" minOccurs="1" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="guid" type="xs:string"/>
-                                        <xs:element ref="amg:language" minOccurs="0"/>
-                                        <xs:element name="link" type="xs:string" minOccurs="0"/>
-                                        <xs:element ref="media:title"/>
-                                        <xs:element ref="media:description" minOccurs="0"/>
-                                        <xs:element ref="media:category" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="media:rating" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="media:credit" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="media:thumbnail" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="media:keywords" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="media:subTitle" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="media:group" minOccurs="0" maxOccurs="1"/>
-                                        <xs:element ref="media:scenes" minOccurs="0" maxOccurs="1"/>
-                                        <xs:element ref="wurl:series" minOccurs="0" maxOccurs="1"/>
-                                        <xs:element ref="wurl:episode" minOccurs="0" maxOccurs="1"/>
-                                        <xs:element ref="wurl:movie" minOccurs="0" maxOccurs="1"/>
-                                        <xs:element ref="wurl:cuepoints" minOccurs="0"/>
-                                        <xs:element ref="amg:territoryallowed" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="amg:territorydenied" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="amg:audiotracks" minOccurs="0" maxOccurs="1"/>
                                         <xs:element ref="amg:assetid" minOccurs="1"/>
+                                        <xs:element ref="amg:keyword" minOccurs="0" maxOccurs="unbounded"/>
                                         <xs:element ref="amg:genre" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element ref="amg:language" minOccurs="0"/>
+                                        <xs:element ref="amg:longDescription" minOccurs="0"/>
+                                        <xs:element ref="media:description" minOccurs="0"/>
+                                        <xs:element ref="media:group" minOccurs="0"/>
+                                        <xs:element ref="media:thumbnail" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element ref="media:title" minOccurs="0"/>
+                                        <xs:element ref="media:rating" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element ref="media:subTitle" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element ref="media:credit" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element ref="amg:rights" minOccurs="0"/>
+                                        <xs:element ref="amg:season" minOccurs="0"/>
+                                        <xs:element ref="amg:series" minOccurs="0"/>
+                                        <xs:element ref="amg:cuepoint" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element ref="amg:broadcastDate" minOccurs="0"/>
+                                        <xs:element ref="media:category" minOccurs="0" maxOccurs="unbounded"/>
                                     </xs:sequence>
-                                    <xs:attribute ref="amg:asset_type" use="required" />
+                                    <xs:attribute name="type" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -57,9 +43,4 @@
             <xs:attribute name="version" type="xs:decimal" use="optional"/>
         </xs:complexType>
     </xs:element>
-    <xs:element name="sceneTitle" type="xs:string"/>
-    <xs:element name="sceneDescription" type="xs:string"/>
-    <xs:element name="sceneStartTime" type="xs:string"/>
-    <xs:element name="sceneEndTime" type="xs:string"/>
-    <xs:element name="link" type="xs:string"/>
 </xs:schema>
