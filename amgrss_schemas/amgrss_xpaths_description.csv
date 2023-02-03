@@ -2,7 +2,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss, https://www.rssboard.org/rss-draft-1#element-rss, n/a, n/a, no
 /rss/channel, https://www.rssboard.org/rss-draft-1#element-channel, n/a, n/a, no
 /rss/channel/item[*], https://www.rssboard.org/rss-draft-1#element-channel-item, xs:complexType, n/a, no
-/rss/channel/item[*]/@amg:type, Type of media item. Whether it a feature or an episode of serties etc, xs:enumeration "{Feature Episode}", "Feature", no
+/rss/channel/item[*]/@amg:type, Type of media item. Whether it a feature or an episode of serties etc, xs:enumeration {Feature Episode}, "Feature", no
 /rss/channel/item[*]/amg:assetid, Asset id assigned in the publisher's CMS, xs:string, "123456", no
 /rss/channel/item[*]/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:string, "2019-01-01", no
 /rss/channel/item[*]/amg:cuepoint[*], Identifies the cue point in seconds offset. Cue points are places in time where an ad can be inserted in the video, xs:float, 60.320, no
