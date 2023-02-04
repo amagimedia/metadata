@@ -16,8 +16,8 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:rights/amg:service/amg:serviceId, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html, xs:anyUri, "https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku", no
 /rss/channel/item[*]/amg:rights/amg:service/amg:serviceName, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html, xs:string, "Roku", no
 /rss/channel/item[*]/amg:rights/amg:service/amg:serviceType, Service type, xs:enumeration {AVOD SVOD TVOD DTH Cable}, "AVOD", no
-/rss/channel/item[*]/amg:rights/amgt:rightsTerritoryExcludes[*], https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
-/rss/channel/item[*]/amg:rights/amgt:rightsTerritoryIncludes[*], https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
+/rss/channel/item[*]/amg:rights/amg:rightsTerritoryExcludes[*], https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
+/rss/channel/item[*]/amg:rights/amg:rightsTerritoryIncludes[*], https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
 /rss/channel/item[*]/amg:season, Element to express season specific information, xs:complexType, n/a, no
 /rss/channel/item[*]/amg:season/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:string, "2019-01-01", no
 /rss/channel/item[*]/amg:season/amg:rights, Element to express rights associated with the media object, xs:complexType, n/a, no
@@ -28,8 +28,8 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceId, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html, xs:anyUri, "https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku", no
 /rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceName, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html, xs:string, "Roku", no
 /rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceType, Service type, xs:enumeration {AVOD SVOD TVOD DTH Cable}, "AVOD", no
-/rss/channel/item[*]/amg:season/amg:rights/amgt:rightsTerritoryExcludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
-/rss/channel/item[*]/amg:season/amg:rights/amgt:rightsTerritoryIncludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
+/rss/channel/item[*]/amg:season/amg:rights/amg:rightsTerritoryExcludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
+/rss/channel/item[*]/amg:season/amg:rights/amg:rightsTerritoryIncludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
 /rss/channel/item[*]/amg:season/amg:seasonNumber, Season number with first season being 1, xs:integer, "1", no
 /rss/channel/item[*]/amg:season/amg:seasonThumbnail, Url pointing to season specific thumbnail, xs:anyUri, "https://www.example.com/season1.jpg", no
 /rss/channel/item[*]/amg:season/amg:seasonTitle, Title of the season, xs:string, "Season 1", no
@@ -45,12 +45,12 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceId, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html, xs:anyUri, "https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku", no
 /rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceName, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html, xs:string, "Roku", no
 /rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceType, Service type, xs:enumeration {AVOD SVOD TVOD DTH Cable}, "AVOD", no
-/rss/channel/item[*]/amg:series/amg:rights/amgt:rightsTerritoryExcludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
-/rss/channel/item[*]/amg:series/amg:rights/amgt:rightsTerritoryIncludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
+/rss/channel/item[*]/amg:series/amg:rights/amg:rightsTerritoryExcludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
+/rss/channel/item[*]/amg:series/amg:rights/amg:rightsTerritoryIncludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
 /rss/channel/item[*]/amg:series/amg:seriesDescription, Description of the series, xs:string, "A prison drama", no
 /rss/channel/item[*]/amg:series/amg:seriesThumbnail, Url pointing to series specific thumbnail, xs:anyUri, "https://www.example.com/series.jpg", no
 /rss/channel/item[*]/amg:series/amg:seriesTitle, Title of the series, xs:string, "Prison Break", no
-/rss/channel/item[*]/amgt:genre[*], Genre of the media object. https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Genre.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", yes
+/rss/channel/item[*]/amg:genre[*], Genre of the media object. https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Genre.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", yes
 /rss/channel/item[*]/media:description, Short description of the media object, xs:string, "A prison drama", no
 /rss/channel/item[*]/media:group, https://www.rssboard.org/media-rss#media-group, xs:complexType, n/a, no
 /rss/channel/item[*]/media:group/media:content, https://www.rssboard.org/media-rss#media-content, xs:complexType, n/a, no
