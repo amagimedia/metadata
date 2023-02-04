@@ -2,7 +2,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss, https://www.rssboard.org/rss-draft-1#element-rss, n/a, n/a, no
 /rss/channel, https://www.rssboard.org/rss-draft-1#element-channel, n/a, n/a, no
 /rss/channel/item[*], https://www.rssboard.org/rss-draft-1#element-channel-item, xs:complexType, n/a, no
-/rss/channel/item[*]/@amg:itemType, Type of media item. Whether it a feature or an episode of serties etc, xs:enumeration {Feature Episode}, "Feature", no
+/rss/channel/item[*]/@amg:itemType, Type of media item. Whether it a feature or an episode of series etc, xs:enumeration {Feature Episode}, "Feature", no
 /rss/channel/item[*]/amg:assetid, Asset id assigned in the publisher's CMS, xs:string, "123456", no
 /rss/channel/item[*]/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:string, "2019-01-01", no
 /rss/channel/item[*]/amg:cuepoint[*], Identifies the cue point in seconds offset. Cue points are places in time where an ad can be inserted in the video, xs:float, 60.320, no
@@ -53,7 +53,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:series/amg:seriesTitle, Title of the series, xs:string, "Prison Break", no
 /rss/channel/item[*]/amg:genre[*], Genre of the media object. https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Genre.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", yes
 /rss/channel/item[*]/media:description, Short description of the media object, xs:string, "A prison drama", no
-/rss/channel/item[*]/amg:longDescription/@amg:lang, the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", yes
+/rss/channel/item[*]/media:description/@amg:lang, the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", yes
 /rss/channel/item[*]/media:group, https://www.rssboard.org/media-rss#media-group, xs:complexType, n/a, no
 /rss/channel/item[*]/media:group/media:content, https://www.rssboard.org/media-rss#media-content, xs:complexType, n/a, no
 /rss/channel/item[*]/media:group/media:content/@bitrate, kilobits per second rate of media object, xs:integer, "1000", no
