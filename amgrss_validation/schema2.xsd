@@ -3,10 +3,23 @@
   <xs:import schemaLocation="schema1.xsd" namespace="http://search.yahoo.com/mrss/" />
 
   <xs:attribute name="asset_type" type="xs:string" />
-<!--  for media:subTitle amg:lang-->
+
+  <!--  for media:subTitle amg:lang-->
   <xs:attribute name="lang" type="xs:string" />
-<!--  for media:credit amg:role-->
-  <xs:attribute name="role" type="xs:string" />
+
+  <!--  for media:credit amg:role-->
+  <xs:attribute name="role" type="xs:anyURI" />
+
+  <!--  for /channel/item amg:itemType-->
+  <xs:attribute name="itemType">
+    <xs:simpleType>
+      <xs:restriction base="tns:myString">
+        <xs:enumeration value="Feature"/>
+        <xs:enumeration value="Episode"/>
+        <!-- Add additional enumeration values as needed -->
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
 
   <xs:simpleType name="myString">
       <xs:restriction base="xs:string">
@@ -29,7 +42,16 @@
   <xs:element name="broadcastDate" type="xs:gYear"/>
   <xs:element name="assetid" type="tns:myString"/>
   <xs:element name="keyword" type="tns:myString"/>
-  <xs:element name="longDescription" type="tns:myString"/>
+
+  <xs:element name="longDescription">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="tns:myString">
+          <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
   
   <xs:element name="rights">
     <xs:complexType>
@@ -42,7 +64,18 @@
             <xs:element name="service" minOccurs="0">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="serviceType" minOccurs="0" type="xs:string"/>
+                        <xs:element name="serviceType" minOccurs="0">
+                          <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                              <xs:enumeration value="AVOD"/>
+                              <xs:enumeration value="SVOD"/>
+                              <xs:enumeration value="TVOD"/>
+                              <xs:enumeration value="DTH"/>
+                              <xs:enumeration value="Cable"/>
+                              <!-- Add additional enumeration values as needed -->
+                            </xs:restriction>
+                          </xs:simpleType>
+                        </xs:element>
                         <xs:element name="serviceName" minOccurs="0" type="xs:string"/>
                         <xs:element name="serviceId" minOccurs="0" type="xs:string"/>
                     </xs:sequence>
@@ -58,7 +91,7 @@
         <xs:element name="seasonNumber" type="xs:unsignedByte" />
         <xs:element name="seasonTitle" type="xs:string" />
         <xs:element name="seasonThumbnail" type="xs:string" />
-        <xs:element name="broadcastDate" type="xs:unsignedShort" />
+        <xs:element name="broadcastDate" type="xs:gYear" />
         <xs:element name="rights">
           <xs:complexType>
             <xs:sequence>
@@ -70,7 +103,18 @@
               <xs:element name="service" minOccurs="0">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="serviceType" minOccurs="0" type="xs:string"/>
+                    <xs:element name="serviceType" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="AVOD"/>
+                          <xs:enumeration value="SVOD"/>
+                          <xs:enumeration value="TVOD"/>
+                          <xs:enumeration value="DTH"/>
+                          <xs:enumeration value="Cable"/>
+                          <!-- Add additional enumeration values as needed -->
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
                     <xs:element name="serviceName" minOccurs="0" type="xs:string"/>
                     <xs:element name="serviceId" minOccurs="0" type="xs:string"/>
                   </xs:sequence>
@@ -89,8 +133,8 @@
         <xs:element name="seriesTitle" type="xs:string" />
         <xs:element name="seriesDescription" type="xs:string" />
         <xs:element name="seriesThumbnail" type="xs:string" />
-        <xs:element maxOccurs="unbounded" name="keyword" type="xs:string" />
-        <xs:element name="broadcastDate" type="xs:unsignedShort" />
+        <xs:element name="keyword" maxOccurs="unbounded" type="xs:string" />
+        <xs:element name="broadcastDate" type="xs:gYear" />
         <xs:element name="productionCompany" type="xs:string" />
         <xs:element name="rights">
           <xs:complexType>
@@ -103,7 +147,18 @@
               <xs:element name="service" minOccurs="0">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="serviceType" minOccurs="0" type="xs:string"/>
+                    <xs:element name="serviceType" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="AVOD"/>
+                          <xs:enumeration value="SVOD"/>
+                          <xs:enumeration value="TVOD"/>
+                          <xs:enumeration value="DTH"/>
+                          <xs:enumeration value="Cable"/>
+                          <!-- Add additional enumeration values as needed -->
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
                     <xs:element name="serviceName" minOccurs="0" type="xs:string"/>
                     <xs:element name="serviceId" minOccurs="0" type="xs:string"/>
                   </xs:sequence>
@@ -119,9 +174,8 @@
   <xs:element name="genre">
     <xs:complexType>
       <xs:simpleContent>
-        <xs:extension base="xs:string">
-          <xs:attribute name="scheme" type="xs:string" fixed="https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm" use="optional" />
-          <xs:attribute name="label" type="xs:string" use="required" />
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="label" type="tns:myString" use="required" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
