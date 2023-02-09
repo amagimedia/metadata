@@ -41,6 +41,7 @@
   <xs:element name="cuepoint" type="xs:decimal"/>
   <xs:element name="broadcastDate" type="xs:gYear"/>
   <xs:element name="assetid" type="tns:myString"/>
+  <xs:element name="episodeNumber" type="xs:integer"/>
   <xs:element name="keyword" type="tns:myString"/>
 
   <xs:element name="longDescription">
@@ -88,11 +89,11 @@
   <xs:element name="season">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="seasonNumber" type="xs:unsignedByte" />
-        <xs:element name="seasonTitle" type="tns:myString" />
-        <xs:element name="seasonThumbnail" type="tns:myString" />
-        <xs:element name="broadcastDate" type="xs:gYear" />
-        <xs:element name="rights">
+        <xs:element name="seasonNumber" type="xs:unsignedByte" minOccurs="0" />
+        <xs:element name="seasonTitle" type="tns:myString" minOccurs="0" />
+        <xs:element name="seasonThumbnail" type="tns:myString" minOccurs="0" />
+        <xs:element name="broadcastDate" type="xs:gYear" minOccurs="0" />
+        <xs:element name="rights" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="rightsStartDateTime" minOccurs="0" type="xs:dateTime"/>
@@ -130,13 +131,21 @@
   <xs:element name="series">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="seriesTitle" type="tns:myString" />
-        <xs:element name="seriesDescription" type="tns:myString" />
-        <xs:element name="seriesThumbnail" type="tns:myString" />
-        <xs:element name="keyword" maxOccurs="unbounded" type="tns:myString" />
-        <xs:element name="broadcastDate" type="xs:gYear" />
-        <xs:element name="productionCompany" type="tns:myString" />
-        <xs:element name="rights">
+        <xs:element name="seriesTitle" minOccurs="0">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="tns:myString">
+                <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="seriesDescription" type="tns:myString" minOccurs="0" />
+        <xs:element name="seriesThumbnail" type="tns:myString" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="keyword" type="tns:myString" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="broadcastDate" type="xs:gYear" minOccurs="0" />
+        <xs:element name="productionCompany" type="tns:myString" minOccurs="0" />
+        <xs:element name="rights" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="rightsStartDateTime" minOccurs="0" type="xs:dateTime"/>

@@ -2,6 +2,9 @@
 <rss xmlns:amagi="http://www.amagi.com/rss/namespace" xmlns:amg="http://www.amagi.com/amgrss/" xmlns:amgt="http://www.amagi.com/amgrss/transient/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:mediat="http://www.amagi.com/mrss/transient/">
     <!--A_ovp-->
     <channel>
+        <media:title>UAT: Adventure TV</media:title>
+        <media:description>Amagi virtual channel distribution for Discovery Adventure TV</media:description>
+        <amg:language scheme="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.htm" label="English">eng</amg:language>
         <item amg:itemType="Feature">
             <amg:assetid>ccdd57d1-6106-452a-8508-a63e1b6d8924</amg:assetid>
             <amg:keyword>amagi_o&amp;o_virtual_channel</amg:keyword>
@@ -15,10 +18,10 @@
             <media:title>Time Traveler's Wife, The (UAT - 20200827) test</media:title>
             <media:rating label="U" scheme="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.1</media:rating>
             <media:subTitle type="text/srt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCodeCS#_eng" href="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/captions/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_cc_en.srt"/>
-            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Mary-Louise Parker</media:credit>
-            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Elizabeth Perkins</media:credit>
-            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Justin Kirk</media:credit>
-            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.1" scheme="urn:ebu">Craig Zisk</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" label="actor" scheme="urn:ebu">Mary-Louise Parker</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" label="actor" scheme="urn:ebu">Elizabeth Perkins</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" label="actor" scheme="urn:ebu">Justin Kirk</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.1" label="director" scheme="urn:ebu">Craig Zisk</media:credit>
             <amg:rights>
                 <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                 <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
@@ -56,11 +59,11 @@
             <media:title>Cankles</media:title>
             <media:rating label="TV-MA" scheme="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
             <media:subTitle type="text/vtt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng" href="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/captions/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_cc_eng.vtt"/>
-            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Mary-Louise Parker</media:credit>
-            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Elizabeth Perkins</media:credit>
-            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Justin Kirk</media:credit>
-            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.1" scheme="urn:ebu">Craig Zisk</media:credit>
-            <amg:season> 
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" label="actor" scheme="urn:ebu">Mary-Louise Parker</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" label="actor" scheme="urn:ebu">Elizabeth Perkins</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" label="actor" scheme="urn:ebu">Justin Kirk</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.1" label="director" scheme="urn:ebu">Craig Zisk</media:credit>
+            <amg:season>
                 <amg:seasonNumber>3</amg:seasonNumber>
                 <amg:seasonTitle>Season-3 Title</amg:seasonTitle>
                 <amg:seasonThumbnail>http://www.myvideosite.com/thumbnails/123.jpg</amg:seasonThumbnail>
@@ -89,8 +92,8 @@
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
-                    <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
-                    <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
+                    <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_IN</amg:rightsTerritoryIncludes>
+                    <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_AF</amg:rightsTerritoryExcludes>
                     <amg:rightsLink>https://rightsline.com/123456</amg:rightsLink>
                     <amg:service>
                         <amg:serviceType>SVOD</amg:serviceType>

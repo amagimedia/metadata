@@ -32,8 +32,12 @@
 
     <xs:element name="category">
         <xs:complexType>
-            <xs:attribute name="scheme" type="tns:myString" use="required"/>
-            <xs:attribute name="label" type="tns:myString" use="required"/>
+            <xs:simpleContent>
+                <xs:extension base="tns:myString">
+                    <xs:attribute name="scheme" type="tns:myString" use="optional"/>
+                    <xs:attribute name="label" type="tns:myString" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
         </xs:complexType>
     </xs:element>
 
@@ -41,7 +45,7 @@
         <xs:complexType>
             <xs:simpleContent>
                 <xs:extension base="xs:anyURI">
-                    <xs:attribute name="scheme" type="xs:anyURI" use="required"/>
+                    <xs:attribute name="scheme" type="xs:anyURI" use="optional"/>
                     <xs:attribute name="label" type="tns:myString" use="required"/>
                 </xs:extension>
             </xs:simpleContent>
@@ -52,8 +56,9 @@
         <xs:complexType>
             <xs:simpleContent>
                 <xs:extension base="tns:myString">
-                    <xs:attribute name="scheme" type="xs:anyURI" use="required"/>
+                    <xs:attribute name="scheme" type="xs:anyURI" use="optional"/>
                     <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:role" use="required"/>
+                    <xs:attribute name="label" type="tns:myString" use="required"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
