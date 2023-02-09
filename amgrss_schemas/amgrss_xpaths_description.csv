@@ -7,6 +7,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:string, "2019-01-01", no
 /rss/channel/item[*]/amg:cuepoint[*], Identifies the cue point in seconds offset. Cue points are places in time where an ad can be inserted in the video, xs:float, 60.320, no
 /rss/channel/item[*]/amg:keyword[*], Highly relevant keywords describing the media object. Max 10 elements. amg:keyword is unlooped representation of media:keywords. Ref: https://www.rssboard.org/media-rss#media-keywords, xs:string, "prison", no
+/rss/channel/item[*]/amg:episodeNumber, Episode number of an episodic item in the season is season is present otherwise episode number in the series, xs:integer, 1, no
 /rss/channel/item[*]/amg:longDescription, Long description describing media object, xs:string, "movie on stock. Set in time persion 1929-1935", no
 /rss/channel/item[*]/amg:longDescription/@amg:lang, the language of the longDescription as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", yes
 /rss/channel/item[*]/amg:rights, Element to express rights associated with the media object, xs:complexType, n/a, no
@@ -32,8 +33,12 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:season/amg:rights/amg:rightsTerritoryExcludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
 /rss/channel/item[*]/amg:season/amg:rights/amg:rightsTerritoryIncludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
 /rss/channel/item[*]/amg:season/amg:seasonNumber, Season number with first season being 1, xs:integer, "1", no
-/rss/channel/item[*]/amg:season/amg:seasonThumbnail, Url pointing to season specific thumbnail, xs:anyUri, "https://www.example.com/season1.jpg", no
+/rss/channel/item[*]/amg:season/amg:seasonThumbnail, Element to declare season thumbnail Has only attributes and no value, xs:complexType, n/a, no
+/rss/channel/item[*]/amg:series/amg:seasonThumbnail/@amg:url, specifies the url of the thumbnail, xs:anyUri, "https://www.example.com/season1.jpg", no
+/rss/channel/item[*]/amg:series/amg:seasonThumbnail/@amg:height, specifies the height of the thumbnail, xs:integer, "1080", no
+/rss/channel/item[*]/amg:series/amg:seasonThumbnail/@amg:width, specifies the width of the thumbnail, xs:integer, "1920", no
 /rss/channel/item[*]/amg:season/amg:seasonTitle, Title of the season, xs:string, "Season 1", no
+/rss/channel/item[*]/amg:series/amg:seasonTitle/amg:lang, specifies the language of the season title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", yes
 /rss/channel/item[*]/amg:series, Element to express series specific information, xs:complexType, n/a, no
 /rss/channel/item[*]/amg:series/amg:broadcastDate, Date when series was aired first. https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:string, "2019-01-01", no
 /rss/channel/item[*]/amg:series/amg:keyword[*], Highly relevant keywords describing the series. Max 10 elements Ref: https://www.rssboard.org/media-rss#media-keywords, xs:string, "prison", no
@@ -49,23 +54,29 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:series/amg:rights/amg:rightsTerritoryExcludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
 /rss/channel/item[*]/amg:series/amg:rights/amg:rightsTerritoryIncludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
 /rss/channel/item[*]/amg:series/amg:seriesDescription, Description of the series, xs:string, "A prison drama", no
-/rss/channel/item[*]/amg:series/amg:seriesThumbnail, Url pointing to series specific thumbnail, xs:anyUri, "https://www.example.com/series.jpg", no
+/rss/channel/item[*]/amg:series/amg:seriesThumbnail, Element to declare series thumbnail. Has only attributes and no value, xs:complexType, n/a, no 
+/rss/channel/item[*]/amg:series/amg:seriesThumbnail/@amg:url, specifies the url of the thumbnail, xs:anyUri, "https://www.example.com/series.jpg", no
+/rss/channel/item[*]/amg:series/amg:seriesThumbnail/@amg:height, specifies the height of the thumbnail, xs:integer, "1080", no
+/rss/channel/item[*]/amg:series/amg:seriesThumbnail/@amg:width, specifies the width of the thumbnail, xs:integer, "1920", no
 /rss/channel/item[*]/amg:series/amg:seriesTitle, Title of the series, xs:string, "Prison Break", no
-/rss/channel/item[*]/amg:genre[*], Genre of the media object. https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Genre.html, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", yes
+/rss/channel/item[*]/amg:series/amg:seriesTitle/amg:lang, specifies the language of the series title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", yes
+/rss/channel/item[*]/amg:series/amg:description, Short description of the series, xs:string, "A prison drama", no
+/rss/channel/item[*]/amg:series/amg:description/@amg:lang, the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", yes
+/rss/channel/item[*]/amg:genre[*], Genre of the media object. https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", yes
+/rss/channel/item[*]/amg:genre[*]/amg:label, Label of the genre which is the same as the corresponding skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf, xs:string, "Drama", no
 /rss/channel/item[*]/media:description, Short description of the media object, xs:string, "A prison drama", no
 /rss/channel/item[*]/media:description/@amg:lang, the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", yes
-/rss/channel/item[*]/media:group, https://www.rssboard.org/media-rss#media-group, xs:complexType, n/a, no
-/rss/channel/item[*]/media:group/media:content, https://www.rssboard.org/media-rss#media-content, xs:complexType, n/a, no
-/rss/channel/item[*]/media:group/media:content/@bitrate, kilobits per second rate of media object, xs:integer, "1000", no
-/rss/channel/item[*]/media:group/media:content/@duration, the number of seconds the media object plays, xs:integer, "1500", no
-/rss/channel/item[*]/media:group/media:content/@fileSize, the number of bytes of the media object, xs:integer, "1000000", no
-/rss/channel/item[*]/media:group/media:content/@framerate, the number of frames per second for the media object, xs:integer, "30", no
-/rss/channel/item[*]/media:group/media:content/@height, the height of the media object, xs:integer, "1080", no
-/rss/channel/item[*]/media:group/media:content/@amg:lang, the primary language encapsulated in the media object as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", no
-/rss/channel/item[*]/media:group/media:content/@medium, the type of object that is encased in the media object, xs:enumeration {image audio video document executable}, "video", no
-/rss/channel/item[*]/media:group/media:content/@type, the standard MIME type of the object, xs:string, "video/mp4", no
-/rss/channel/item[*]/media:group/media:content/@url, should specify the direct URL to the media object, xs:anyUri, "https://www.example.com/video.mp4", no
-/rss/channel/item[*]/media:group/media:content/@width, the width of the media object, xs:integer, "1920", no
+/rss/channel/item[*]/media:content, https://www.rssboard.org/media-rss#media-content, xs:complexType, n/a, no
+/rss/channel/item[*]/media:content/@bitrate, kilobits per second rate of media object, xs:integer, "1000", no
+/rss/channel/item[*]/media:content/@duration, the number of seconds the media object plays, xs:integer, "1500", no
+/rss/channel/item[*]/media:content/@fileSize, the number of bytes of the media object, xs:integer, "1000000", no
+/rss/channel/item[*]/media:content/@framerate, the number of frames per second for the media object, xs:integer, "30", no
+/rss/channel/item[*]/media:content/@height, the height of the media object, xs:integer, "1080", no
+/rss/channel/item[*]/media:content/@amg:lang, the primary language encapsulated in the media object as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", no
+/rss/channel/item[*]/media:content/@medium, the type of object that is encased in the media object, xs:enumeration {image audio video document executable}, "video", no
+/rss/channel/item[*]/media:content/@type, the standard MIME type of the object, xs:string, "video/mp4", no
+/rss/channel/item[*]/media:content/@url, should specify the direct URL to the media object, xs:anyUri, "https://www.example.com/video.mp4", no
+/rss/channel/item[*]/media:content/@width, the width of the media object, xs:integer, "1920", no
 /rss/channel/item[*]/media:thumbnail, https://www.rssboard.org/media-rss#media-thumbnails, xs:complexType, n/a, no
 /rss/channel/item[*]/media:thumbnail/@url, specifies the url of the thumbnail, xs:anyUri, "https://www.example.com/thumbnail.jpg", no
 /rss/channel/item[*]/media:thumbnail/@height, specifies the height of the thumbnail, xs:integer, "1080", no
@@ -75,6 +86,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/media:credit[*], https://www.rssboard.org/media-rss#media-credit, xs:complexType, n/a, no
 /rss/channel/item[*]/media:credit[*]/@amg:role, Role as defined in http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9", yes
 /rss/channel/item[*]/media:rating, https://www.rssboard.org/media-rss#media-rating Rating value will belong to https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14", yes
+/rss/channel/item[*]/media:rating/@amg:label, specifies the label of the rating which is same as skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf, xs:string, "PG-13", no
 /rss/channel/item[*]/media:subTitle, https://www.rssboard.org/media-rss#media-subtitle, n/a, n/a, no
 /rss/channel/item[*]/media:subTitle/@href, specifies the url of the subtitle, xs:anyUri, "https://www.example.com/subtitle.srt", no
 /rss/channel/item[*]/media:subTitle/@amg:lang, specifies the language of the subtitle as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng", yes 
