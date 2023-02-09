@@ -33,7 +33,7 @@
                                         <xs:element ref="amg:broadcastDate" minOccurs="0"/>
                                         <xs:element ref="media:category" minOccurs="0" maxOccurs="unbounded"/>
                                     </xs:sequence>
-                                    <xs:attribute name="type" type="xs:string" use="required" />
+                                    <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:itemType" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
