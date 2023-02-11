@@ -1,0 +1,2699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:iso6391="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#">
+   <owl:Ontology
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1_LanguageCodeCS.rdf">
+      <dct:title xml:lang="en">EBU SKOS Classification Scheme for Language Codes 639-1</dct:title>
+      <dct:contributor>EBU metadata community experts</dct:contributor>
+      <dct:description xml:lang="en">An RDF vocabulary defining Language Codes
+         639-1</dct:description>
+      <dct:creator>Jean-Pierre Evain, EBU, metadata@ebu.ch</dct:creator>
+      <dct:publisher>EBU</dct:publisher>
+      <dct:rights>http://creativecommons.org/licenses/by-nc-sa/3.0/</dct:rights>
+      <rdfs:seeAlso rdf:resource="http://www.iso.org/iso/home/standards/language_codes.htm"/>
+   </owl:Ontology>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for Language Codes 639-1</rdfs:label>
+      <rdfs:isDefinedBy
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_aa"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ab"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_af"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ak"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sq"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_am"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ar"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_an"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hy"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_as"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_av"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ae"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ay"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_az"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ba"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bm"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_eu"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_be"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bn"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bh"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bi"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bs"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_br"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bg"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_my"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ca"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ch"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ce"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_zh"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cu"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cv"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kw"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_co"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cr"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cs"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cy"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_da"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_dv"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nl"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_dz"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_eo"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_et"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_eu"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fo"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fa"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fj"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fi"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fy"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ff"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ka"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_de"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gd"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ga"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gl"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gv"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_el"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gn"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gu"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ht"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ha"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_he"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hz"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hi"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ho"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hr"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hu"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ig"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_io"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ii"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_iu"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ie"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ia"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_id"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ik"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_is"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_it"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_jv"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ja"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kl"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kn"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ks"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kr"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kk"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_km"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ki"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_rw"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ky"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kv"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kg"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ko"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kj"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ku"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lo"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_la"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lv"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_li"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ln"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lt"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lb"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lu"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lg"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mh"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ml"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mi"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mr"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mk"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mg"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mt"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mo"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mn"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ms"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_na"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nv"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nr"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nd"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ng"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ne"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nn"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nb"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_no"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ny"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_oc"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_oj"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_or"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_om"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_os"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_pa"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_pi"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_pl"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_pt"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ps"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_qu"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_rm"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ro"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_rn"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ru"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sg"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sa"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_si"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sk"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sl"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_se"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sm"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sn"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sd"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_so"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_st"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_es"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sc"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sr"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ss"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_su"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sw"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sv"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ty"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ta"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tt"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_te"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tg"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tl"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_th"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bo"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ti"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_to"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tn"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ts"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tk"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tr"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tw"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ug"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_uk"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ur"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_uz"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ve"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_vi"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_vo"/>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_aa">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Afar</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">afar</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ab">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Abkhazian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">abkhaze</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_af">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Afrikaans</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">afrikaans</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ak">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Akan</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">akan</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sq">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Albanian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">albanais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_am">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Amharic</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">amharique</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ar">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Arabic</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">arabe</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_an">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Aragonese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">aragonais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hy">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Armenian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">armenien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_as">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Assamese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">assamais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_av">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Avaric</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">avar</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ae">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Avestan</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">avestique</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ay">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Aymara</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">aymara</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_az">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Azerbaijani</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">azeri</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ba">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Bashkir</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">bachkir</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bm">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Bambara</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">bambara</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_eu">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Basque</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">basque</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_be">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Belarusian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">bielorusse</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bn">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Bengali</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">bengali</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bh">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Bihari</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">bihari</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bi">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Bislama</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">bichlamar</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bs">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Bosnian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">bosniaque</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_br">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Breton</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">breton</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bg">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Bulgarian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">bulgare</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_my">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Burmese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">birman</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ca">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Catalan; Valencian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">catalan; valencien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ch">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Chamorro</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">chamorro</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ce">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Chechen</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tchetchene</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_zh">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Chinese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">chinois</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cu">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old
+         Church Slavonic</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">slavon d'eglise; vieux slave; slavon liturgique; vieux
+         bulgare</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cv">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Chuvash</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tchouvache</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kw">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Cornish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">cornique</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_co">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Corsican</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">corse</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cr">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Cree</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">cree</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cs">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Czech</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tcheque</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_cy">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Welsh</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">gallois</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_da">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Danish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">danois</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_dv">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Divehi; Dhivehi; Maldivian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">maldivien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nl">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Dutch; Flemish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">neerlandais; flamand</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_dz">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Dzongkha</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">dzongkha</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">English</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">anglais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_eo">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Esperanto</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">esperanto</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_et">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Estonian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">estonien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_eu">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Basque</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">basque</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fo">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Faroese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">feroien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fa">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Persian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">persan</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fj">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Fijian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">fidjien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fi">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Finnish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">finnois</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">French</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">français</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fy">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Western Frisian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">frison occidental</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ff">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Fulah</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">peul</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ka">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Georgian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">georgien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_de">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">German</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">allemand</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gd">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Gaelic; Scottish Gaelic</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">gaelique; gaelique ecossais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ga">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Irish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">irlandais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gl">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Galician</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">galicien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gv">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Manx</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">manx; mannois</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_el">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Greek, Modern (1453-)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">grec moderne (apres 1453)</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gn">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Guarani</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">guarani</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_gu">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Gujarati</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">goudjrati</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ht">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Haitian; Haitian Creole</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">haitien; creole haitien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ha">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Hausa</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">haoussa</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_he">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Hebrew</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">hebreu</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hz">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Herero</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">herero</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hi">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Hindi</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">hindi</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ho">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Hiri Motu</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">hiri motu</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hr">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Croatian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">croate</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_hu">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Hungarian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">hongrois</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ig">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Igbo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">igbo</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_io">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Ido</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ido</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ii">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Sichuan Yi</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">yi de Sichuan</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_iu">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Inuktitut</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">inuktitut</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ie">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Interlingue</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">interlingue</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ia">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Interlingua (International Auxiliary Language
+         Association)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">interlingua (langue auxiliaire internationale)</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_id">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Indonesian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">indonesien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ik">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Inupiaq</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">inupiaq</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_is">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Icelandic</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">islandais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_it">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Italian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">italien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_jv">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Javanese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">javanais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ja">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Japanese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">japonais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kl">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kalaallisut; Greenlandic</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">groenlandais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kn">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kannada</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kannada</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ks">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kashmiri</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kashmiri</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kr">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kanuri</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kanouri</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kk">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kazakh</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kazakh</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_km">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Central Khmer</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">khmer central</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ki">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kikuyu; Gikuyu</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kikuyu</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_rw">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kinyarwanda</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">rwanda</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ky">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kirghiz; Kyrgyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kirghiz</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kv">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Komi</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kom</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kg">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kongo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kongo</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ko">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Korean</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">coreen</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_kj">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kuanyama; Kwanyama</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kuanyama; kwanyama</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ku">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Kurdish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">kurde</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lo">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Lao</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">lao</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_la">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Latin</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">latin</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lv">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Latvian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">letton</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_li">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Limburgan; Limburger; Limburgish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">limbourgeois</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ln">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Lingala</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">lingala</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lt">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Lithuanian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">lituanien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lb">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Luxembourgish; Letzeburgesch</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">luxembourgeois</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lu">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Luba-Katanga</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">luba-katanga</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_lg">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Ganda</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ganda</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mh">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Marshallese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">marshall</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ml">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Malayalam</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">malayalam</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mi">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Maori</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">maori</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mr">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Marathi</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">marathe</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mk">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Macedonian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">macedonien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mg">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Malagasy</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">malgache</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mt">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Maltese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">maltais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mo">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Moldavian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">moldave</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_mn">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Mongolian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">mongol</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ms">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Malay</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">malais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_na">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Nauru</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">nauruan</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nv">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Navajo; Navaho</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">navaho</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nr">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Ndebele, South; South Ndebele</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ndebele du Sud</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nd">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Ndebele, North; North Ndebele</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ndebele du Nord</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ng">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Ndonga</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ndonga</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ne">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Nepali</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">nepalais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nn">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Norwegian Nynorsk; Nynorsk, Norwegian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">norvegien nynorsk; nynorsk, norvegien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_nb">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Bokmal, Norwegian; Norwegian Bokmal</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">norvegien bokmal</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_no">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Norwegian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">norvegien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ny">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Chichewa; Chewa; Nyanja</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">chichewa; chewa; nyanja</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_oc">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Occitan (post 1500); Provençal</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">occitan (apres 1500); provençal</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_oj">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Ojibwa</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ojibwa</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_or">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Oriya</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">oriya</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_om">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Oromo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">galla</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_os">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Ossetian; Ossetic</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ossete</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_pa">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Panjabi; Punjabi</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">pendjabi</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_pi">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Pali</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">pali</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_pl">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Polish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">polonais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_pt">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Portuguese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">portugais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ps">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Pushto</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">pachto</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_qu">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Quechua</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">quechua</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_rm">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Romansh</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">romanche</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ro">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Romanian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">roumain</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_rn">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Rundi</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">rundi</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ru">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Russian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">russe</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sg">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Sango</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">sango</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sa">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Sanskrit</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">sanskrit</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_si">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Sinhala; Sinhalese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">singhalais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sk">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Slovak</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">slovaque</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sl">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Slovenian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">slovene</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_se">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Northern Sami</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">sami du Nord</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sm">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Samoan</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">samoan</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sn">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Shona</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">shona</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sd">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Sindhi</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">sindhi</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_so">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Somali</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">somali</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_st">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Sotho, Southern</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">sotho du Sud</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_es">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Spanish; Castilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">espagnol; castillan</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sc">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Sardinian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">sarde</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sr">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Serbian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">serbe</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ss">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Swati</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">swati</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_su">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Sundanese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">soundanais</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sw">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Swahili</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">swahili</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_sv">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Swedish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">suedois</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ty">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tahitian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tahitien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ta">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tamil</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tamoul</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tt">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tatar</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tatar</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_te">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Telugu</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">telougou</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tg">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tajik</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tadjik</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tl">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tagalog</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tagalog</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_th">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Thai</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">thai</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_bo">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tibetan</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tibetain</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ti">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tigrinya</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tigrigna</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_to">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tonga (Tonga Islands)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tongan (iles Tonga)</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tn">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tswana</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tswana</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ts">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Tsonga</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">tsonga</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tk">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Turkmen</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">turkmene</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tr">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Turkish</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">turc</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_tw">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Twi</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">twi</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ug">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Uighur; Uyghur</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ouigour</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_uk">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Ukrainian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ukrainien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ur">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Urdu</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ourdou</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_uz">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Uzbek</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">ouszbek</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_ve">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Venda</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">venda</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_vi">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Vietnamese</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">vietnamien</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_vo">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+      <skos:prefLabel xml:lang="en">Volapük</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">volapük</skos:prefLabel>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML. First version
+         date is version date from ISO</skos:changeNote>
+      <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+</rdf:RDF>
