@@ -13,18 +13,18 @@
     rdfs:label "EBU SKOS Classification Scheme for media IdentifierType"@en .
 
 
-<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_3.0>
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid>
     a ebucore:IdentifierType ;
     skos:changeNote """First version""" ;
-    skos:definition """Gracenote TMSID. Check https://www.gracenote.com/gracenote-id/"""@en ;
-    skos:example "" ;
+    skos:definition """Gracenote TMSID. Check https://en.wikipedia.org/wiki/TMS_(entertainment_data) and https://www.gracenote.com/gracenote-id/"""@en ;
+    skos:example "MV003331980000" ;
     skos:historyNote "2022-11-29" ;
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "TMSID"@en .
 
 
-<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_4.0>
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_eidr>
     a ebucore:IdentifierType ;
     skos:changeNote """First version""" ;
     skos:definition """The universal media identifier. Check https://www.eidr.org/"""@en ;

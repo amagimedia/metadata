@@ -233,9 +233,9 @@
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:type</td>
-<td align="left">Type of media item. Whether it a feature or an episode of serties etc</td>
-<td align="left">xs:enumeration "{Feature Episode}"</td>
+<td align="left">/rss/channel/item[*]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:itemType</td>
+<td align="left">Type of media item. Whether it a feature or an episode of series etc</td>
+<td align="left" episode="Episode" feature="Feature">xs:enumeration</td>
 <td align="left">"Feature"</td>
 <td align="left">no</td>
 </tr>
@@ -249,22 +249,29 @@
 <tr>
 <td align="left">/rss/channel/item[*]/amg:broadcastDate</td>
 <td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
-<td align="left">xs:string</td>
+<td align="left">xs:date</td>
 <td align="left">"2019-01-01"</td>
-<td align="left">no</td>
+<td align="left">yes</td>
 </tr>
 <tr>
 <td align="left">/rss/channel/item[<em>]/amg:cuepoint[</em>]</td>
-<td align="left">Identifies the cue point in seconds offset. Cue points are places in time where an ad can be inserted in the video</td>
+<td align="left">Identifies the cue point in seconds offset. Cue points are time instances where an ad can be inserted in the video</td>
 <td align="left">xs:float</td>
 <td align="left">60.320</td>
 <td align="left">no</td>
 </tr>
 <tr>
 <td align="left">/rss/channel/item[<em>]/amg:keyword[</em>]</td>
-<td align="left">Highly relevant keywords describing the media object. Max 10 elements Ref: <a href="https://www.rssboard.org/media-rss#media-keywords">https://www.rssboard.org/media-rss#media-keywords</a></td>
+<td align="left">Highly relevant keywords describing the media object. Max 10 elements. amg:keyword is unlooped representation of media:keywords. Ref: <a href="https://www.rssboard.org/media-rss#media-keywords">https://www.rssboard.org/media-rss#media-keywords</a></td>
 <td align="left">xs:string</td>
 <td align="left">"prison"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:episodeNumber</td>
+<td align="left">Episode number of an episodic item in the season is season is present otherwise episode number in the series</td>
+<td align="left">xs:integer</td>
+<td align="left">1</td>
 <td align="left">no</td>
 </tr>
 <tr>
@@ -275,304 +282,38 @@
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/amg:rights</td>
-<td align="left">Element to express rights associated with the media object</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:rightsEndDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:rightsLink</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
-<td align="left">xs:string</td>
-<td align="left">"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:rightsStartDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:service</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:service/amg:serviceId</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
+<td align="left">/rss/channel/item[*]/amg:longDescription/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
+<td align="left">the language of the longDescription as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
 <td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:service/amg:serviceName</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Roku"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:service/amg:serviceType</td>
-<td align="left">Service type</td>
-<td align="left" avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
-<td align="left">"AVOD"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:rights/amgt:rightsTerritoryExcludes[</em>]</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
 <td align="left">yes</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[<em>]/amg:rights/amgt:rightsTerritoryIncludes[</em>]</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season</td>
-<td align="left">Element to express season specific information</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:broadcastDate</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
-<td align="left">xs:string</td>
-<td align="left">"2019-01-01"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights</td>
-<td align="left">Element to express rights associated with the media object</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsEndDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsLink</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
-<td align="left">xs:string</td>
-<td align="left">"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsStartDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceId</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceName</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Roku"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceType</td>
-<td align="left">Service type</td>
-<td align="left" avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
-<td align="left">"AVOD"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amgt:rightsTerritoryExcludes</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amgt:rightsTerritoryIncludes</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:seasonNumber</td>
-<td align="left">Season number with first season being 1</td>
-<td align="left">xs:integer</td>
-<td align="left">"1"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:seasonThumbnail</td>
-<td align="left">Url pointing to season specific thumbnail</td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://www.example.com/season1.jpg">https://www.example.com/season1.jpg</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:seasonTitle</td>
-<td align="left">Title of the season</td>
-<td align="left">xs:string</td>
-<td align="left">"Season 1"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series</td>
-<td align="left">Element to express series specific information</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:broadcastDate</td>
-<td align="left">Date when series was aired first. <a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
-<td align="left">xs:string</td>
-<td align="left">"2019-01-01"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:series/amg:keyword[</em>]</td>
-<td align="left">Highly relevant keywords describing the series. Max 10 elements Ref: <a href="https://www.rssboard.org/media-rss#media-keywords">https://www.rssboard.org/media-rss#media-keywords</a></td>
-<td align="left">xs:string</td>
-<td align="left">"prison"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:productionCompany</td>
-<td align="left">Name of the production company or studio</td>
-<td align="left">xs:string</td>
-<td align="left">"Lionsgate"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights</td>
-<td align="left">Element to express rights associated with the media object</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsEndDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsLink</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
-<td align="left">xs:string</td>
-<td align="left">"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsStartDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceId</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceName</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Roku"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceType</td>
-<td align="left">Service type</td>
-<td align="left" avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
-<td align="left">"AVOD"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amgt:rightsTerritoryExcludes</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amgt:rightsTerritoryIncludes</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:seriesDescription</td>
-<td align="left">Description of the series</td>
-<td align="left">xs:string</td>
-<td align="left">"A prison drama"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:seriesThumbnail</td>
-<td align="left">Url pointing to series specific thumbnail</td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://www.example.com/series.jpg">https://www.example.com/series.jpg</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:seriesTitle</td>
-<td align="left">Title of the series</td>
-<td align="left">xs:string</td>
-<td align="left">"Prison Break"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amgt:genre[</em>]</td>
-<td align="left">Genre of the media object. <a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Genre.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Genre.html</a></td>
+<td align="left">/rss/channel/item[<em>]/amg:genre[</em>]</td>
+<td align="left">Genre of the media object. <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm</a></td>
 <td align="left">xs:anyUri</td>
 <td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:genre[</em>]/amg:label</td>
+<td align="left">Label of the genre which is the same as the corresponding skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf</a></td>
+<td align="left">xs:string</td>
+<td align="left">"Drama"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:externalId[</em>]</td>
+<td align="left">Standard external ID of an asset as defined by 3<sup>rd</sup> party orgs like imdb eidr etc.</td>
+<td align="left">xs:string</td>
+<td align="left">"tt3501074"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:externalId[</em>]/amg:idType</td>
+<td align="left">IRI as defined in <a href="https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf">https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf</a></td>
+<td align="left">xs:anuUri</td>
+<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid">https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid</a>"</td>
 <td align="left">yes</td>
 </tr>
 <tr>
@@ -583,84 +324,84 @@
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-group">https://www.rssboard.org/media-rss#media-group</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
+<td align="left">/rss/channel/item[*]/media:description/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
+<td align="left">the language of the description as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
+<td align="left">yes</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content</td>
+<td align="left">/rss/channel/item[*]/media:content</td>
 <td align="left"><a href="https://www.rssboard.org/media-rss#media-content">https://www.rssboard.org/media-rss#media-content</a></td>
 <td align="left">xs:complexType</td>
 <td align="left">n/a</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/bitrate" title="GitHub User: bitrate">@bitrate</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/bitrate" title="GitHub User: bitrate">@bitrate</a></td>
 <td align="left">kilobits per second rate of media object</td>
 <td align="left">xs:integer</td>
 <td align="left">"1000"</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/duration" title="GitHub User: duration">@duration</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/duration" title="GitHub User: duration">@duration</a></td>
 <td align="left">the number of seconds the media object plays</td>
 <td align="left">xs:integer</td>
 <td align="left">"1500"</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/fileSize" title="GitHub User: fileSize">@fileSize</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/fileSize" title="GitHub User: fileSize">@fileSize</a></td>
 <td align="left">the number of bytes of the media object</td>
 <td align="left">xs:integer</td>
 <td align="left">"1000000"</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/framerate" title="GitHub User: framerate">@framerate</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/framerate" title="GitHub User: framerate">@framerate</a></td>
 <td align="left">the number of frames per second for the media object</td>
 <td align="left">xs:integer</td>
 <td align="left">"30"</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
 <td align="left">the height of the media object</td>
 <td align="left">xs:integer</td>
 <td align="left">"1080"</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
-<td align="left">the primary language encapsulated in the media object as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
+<td align="left">the primary language encapsulated in the media object as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
 <td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng</a>"</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/medium" title="GitHub User: medium">@medium</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/medium" title="GitHub User: medium">@medium</a></td>
 <td align="left">the type of object that is encased in the media object</td>
 <td align="left" audio="audio" document="document" executable="executable" image="image" video="video">xs:enumeration</td>
 <td align="left">"video"</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/type" title="GitHub User: type">@type</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/type" title="GitHub User: type">@type</a></td>
 <td align="left">the standard MIME type of the object</td>
 <td align="left">xs:string</td>
 <td align="left">"video/mp4"</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
 <td align="left">should specify the direct URL to the media object</td>
 <td align="left">xs:anyUri</td>
 <td align="left">"<a href="https://www.example.com/video.mp4">https://www.example.com/video.mp4</a>"</td>
 <td align="left">no</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:group/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
+<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
 <td align="left">the width of the media object</td>
 <td align="left">xs:integer</td>
 <td align="left">"1920"</td>
@@ -702,38 +443,38 @@
 <td align="left">no</td>
 </tr>
 <tr>
+<td align="left">/rss/channel/item[*]/media:title/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
+<td align="left">specifies the language of the title as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
 <td align="left">/rss/channel/item[<em>]/media:credit[</em>]</td>
 <td align="left"><a href="https://www.rssboard.org/media-rss#media-credit">https://www.rssboard.org/media-rss#media-credit</a></td>
 <td align="left">xs:complexType</td>
-<td align="left">n/a</td>
+<td align="left">"Tom Cruise"</td>
 <td align="left">no</td>
 </tr>
 <tr>
 <td align="left">/rss/channel/item[<em>]/media:credit[</em>]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:role</td>
-<td align="left">Role as defined in <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf</a></td>
+<td align="left">Role as defined in <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a></td>
 <td align="left">xs:anyUri</td>
 <td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9</a>"</td>
 <td align="left">yes</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[<em>]/media:credit[</em>]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/scheme" title="GitHub User: scheme">@scheme</a></td>
-<td align="left">Fixed value <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
 <td align="left">/rss/channel/item[*]/media:rating</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-rating">https://www.rssboard.org/media-rss#media-rating</a> Rating value will belong to <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a></td>
+<td align="left"><a href="https://www.rssboard.org/media-rss#media-rating">https://www.rssboard.org/media-rss#media-rating</a> Rating value will belong to <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a></td>
 <td align="left">xs:anyUri</td>
 <td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14</a>"</td>
 <td align="left">yes</td>
 </tr>
 <tr>
-<td align="left">/rss/channel/item[*]/media:rating/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/scheme" title="GitHub User: scheme">@scheme</a></td>
-<td align="left">Fixed value <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a>"</td>
+<td align="left">/rss/channel/item[*]/media:rating/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:label</td>
+<td align="left">specifies the label of the rating which is same as skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a></td>
+<td align="left">xs:string</td>
+<td align="left">"PG-13"</td>
 <td align="left">no</td>
 </tr>
 <tr>
@@ -752,9 +493,9 @@
 </tr>
 <tr>
 <td align="left">/rss/channel/item[*]/media:subTitle/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
-<td align="left">specifies the language of the subtitle as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.rdf</a></td>
+<td align="left">specifies the language of the subtitle as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
 <td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCS#_eng</a>"</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
 <td align="left">yes</td>
 </tr>
 <tr>
@@ -762,6 +503,461 @@
 <td align="left">the standard MIME type of the object</td>
 <td align="left">xs:string</td>
 <td align="left">"text/srt"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:rights</td>
+<td align="left">Element to express rights associated with the media object</td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:rights/amg:rightsEndDateTime</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
+<td align="left">xs:dateTime</td>
+<td align="left">"2019-01-01T00:00:00Z"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:rights/amg:rightsLink</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
+<td align="left">xs:string</td>
+<td align="left">"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:rights/amg:rightsStartDateTime</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
+<td align="left">xs:dateTime</td>
+<td align="left">"2019-01-01T00:00:00Z"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:rights/amg:service</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:rights/amg:service/amg:serviceId</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:rights/amg:service/amg:serviceName</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
+<td align="left">xs:string</td>
+<td align="left">"Roku"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:rights/amg:service/amg:serviceType</td>
+<td align="left">Service type</td>
+<td align="left" avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
+<td align="left">"AVOD"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:rights/amg:rightsTerritoryExcludes[</em>]</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:rights/amg:rightsTerritoryIncludes[</em>]</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season</td>
+<td align="left">Element to express season specific information</td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:broadcastDate</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
+<td align="left">xs:date</td>
+<td align="left">"2019-01-01"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights</td>
+<td align="left">Element to express rights associated with the media object</td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsEndDateTime</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
+<td align="left">xs:dateTime</td>
+<td align="left">"2019-01-01T00:00:00Z"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsLink</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
+<td align="left">xs:string</td>
+<td align="left">"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsStartDateTime</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
+<td align="left">xs:dateTime</td>
+<td align="left">"2019-01-01T00:00:00Z"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceId</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceName</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
+<td align="left">xs:string</td>
+<td align="left">"Roku"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceType</td>
+<td align="left">Service type</td>
+<td align="left" avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
+<td align="left">"AVOD"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsTerritoryExcludes</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsTerritoryIncludes</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/amg:seasonNumber</td>
+<td align="left">Season number with first season being 1</td>
+<td align="left">xs:integer</td>
+<td align="left">"1"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:title</td>
+<td align="left">Season specific title if any See: <a href="https://www.rssboard.org/media-rss#media-title">https://www.rssboard.org/media-rss#media-title</a></td>
+<td align="left">xs:string</td>
+<td align="left">"Prison Break"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:title/amg:lang</td>
+<td align="left">specifies the language of the season title as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:description</td>
+<td align="left">Short description of the season</td>
+<td align="left">xs:string</td>
+<td align="left">"A prison drama"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:description/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
+<td align="left">the language of the description as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:thumbnail</td>
+<td align="left">Element to declare season thumbnail. Has only attributes and no value</td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
+<td align="left">specifies the url of season specific  thumbnail</td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="https://www.example.com/season1.jpg">https://www.example.com/season1.jpg</a>"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
+<td align="left">specifies the height of the thumbnail</td>
+<td align="left">xs:integer</td>
+<td align="left">"1080"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
+<td align="left">specifies the width of the thumbnail</td>
+<td align="left">xs:integer</td>
+<td align="left">"1920"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:season/media:credit[</em>]</td>
+<td align="left">Season level credit info <a href="https://www.rssboard.org/media-rss#media-credit">https://www.rssboard.org/media-rss#media-credit</a></td>
+<td align="left">xs:complexType</td>
+<td align="left">"Tom Cruise"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:season/media:credit[</em>]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:role</td>
+<td align="left">Role as defined in <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:rating</td>
+<td align="left"><a href="https://www.rssboard.org/media-rss#media-rating">https://www.rssboard.org/media-rss#media-rating</a> Rating value at season level will belong to <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:season/media:rating/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:label</td>
+<td align="left">specifies the label of the rating which is same as skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a></td>
+<td align="left">xs:string</td>
+<td align="left">"PG-13"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series</td>
+<td align="left">Element to express series specific information</td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:broadcastDate</td>
+<td align="left">Date when series was aired first. <a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
+<td align="left">xs:date</td>
+<td align="left">"2019-01-01"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:series/amg:keyword[</em>]</td>
+<td align="left">Highly relevant keywords describing the series. Max 10 elements Ref: <a href="https://www.rssboard.org/media-rss#media-keywords">https://www.rssboard.org/media-rss#media-keywords</a></td>
+<td align="left">xs:string</td>
+<td align="left">"prison"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:productionCompany</td>
+<td align="left">Name of the production company or studio</td>
+<td align="left">xs:string</td>
+<td align="left">"Lionsgate"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights</td>
+<td align="left">Element to express rights associated with the media object</td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsEndDateTime</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
+<td align="left">xs:dateTime</td>
+<td align="left">"2019-01-01T00:00:00Z"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsLink</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
+<td align="left">xs:string</td>
+<td align="left">"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsStartDateTime</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
+<td align="left">xs:dateTime</td>
+<td align="left">"2019-01-01T00:00:00Z"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceId</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceName</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
+<td align="left">xs:string</td>
+<td align="left">"Roku"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceType</td>
+<td align="left">Service type</td>
+<td align="left" avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
+<td align="left">"AVOD"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsTerritoryExcludes</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsTerritoryIncludes</td>
+<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:thumbnail</td>
+<td align="left">Element to declare series thumbnail. Has only attributes and no value</td>
+<td align="left">xs:complexType</td>
+<td align="left">n/a</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
+<td align="left">specifies the url of a series thumbnail</td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="https://www.example.com/series.jpg">https://www.example.com/series.jpg</a>"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
+<td align="left">specifies the height of the thumbnail</td>
+<td align="left">xs:integer</td>
+<td align="left">"1080"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
+<td align="left">specifies the width of the thumbnail</td>
+<td align="left">xs:integer</td>
+<td align="left">"1920"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:title</td>
+<td align="left">Series title if any See: <a href="https://www.rssboard.org/media-rss#media-title">https://www.rssboard.org/media-rss#media-title</a></td>
+<td align="left">xs:string</td>
+<td align="left">"Prison Break"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:title/amg:lang</td>
+<td align="left">specifies the language of the series title as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:description</td>
+<td align="left">Short description of the series</td>
+<td align="left">xs:string</td>
+<td align="left">"A prison drama"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:description/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
+<td align="left">the language of the description as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:series/amg:genre[</em>]</td>
+<td align="left">Genre of the series <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:series/amg:genre[</em>]/amg:label</td>
+<td align="left">Label of the genre which is the same as the corresponding skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf</a></td>
+<td align="left">xs:string</td>
+<td align="left">"Drama"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:series/media:credit[</em>]</td>
+<td align="left">Series level credit info <a href="https://www.rssboard.org/media-rss#media-credit">https://www.rssboard.org/media-rss#media-credit</a></td>
+<td align="left">xs:complexType</td>
+<td align="left">"Tom Cruise"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:series/media:credit[</em>]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:role</td>
+<td align="left">Role as defined in <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:series/amg:externalId[</em>]</td>
+<td align="left">Standard external ID of a series as defined by 3<sup>rd</sup> party orgs like imdb eidr etc.</td>
+<td align="left">xs:string</td>
+<td align="left">"tt3501074"</td>
+<td align="left">no</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[<em>]/amg:series/amg:externalId[</em>]/amg:idType</td>
+<td align="left">IRI as defined in <a href="https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf">https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf</a></td>
+<td align="left">xs:anuUri</td>
+<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid">https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:rating</td>
+<td align="left"><a href="https://www.rssboard.org/media-rss#media-rating">https://www.rssboard.org/media-rss#media-rating</a> Rating value at season level will belong to <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a></td>
+<td align="left">xs:anyUri</td>
+<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14</a>"</td>
+<td align="left">yes</td>
+</tr>
+<tr>
+<td align="left">/rss/channel/item[*]/amg:series/media:rating/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:label</td>
+<td align="left">specifies the label of the rating which is same as skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a></td>
+<td align="left">xs:string</td>
+<td align="left">"PG-13"</td>
 <td align="left">no</td>
 </tr>
 </tbody>

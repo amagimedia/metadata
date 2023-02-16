@@ -2,18 +2,18 @@
 <rss xmlns:amagi="http://www.amagi.com/rss/namespace" xmlns:amg="http://www.amagi.com/amgrss/" xmlns:amgt="http://www.amagi.com/amgrss/transient/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:mediat="http://www.amagi.com/mrss/transient/">
     <!--A_ovp-->
     <channel>
-        <item type="Feature">
+        <item amg:itemType="Feature">
             <amg:assetid>ccdd57d1-6106-452a-8508-a63e1b6d8924</amg:assetid>
             <amg:keyword>amagi_o&amp;o_virtual_channel</amg:keyword>
             <amg:keyword>beekeeper_uat</amg:keyword>
-            <amg:genre>http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4</amg:genre>
+            <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
             <media:description>Clare desperately tries to build a life with her one true love, despite the fact that his time traveling forces them apart with no warning, never knowing when they will be reunited.</media:description>
             <media:group>
-                <mediat:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/mp4/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="6441" height="1080" width="1920" fileSize="546873760" lang="en" type="video/mp4" bitrate="1500" framerate="23.976"/>
+                <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/mp4/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="6441" height="1080" width="1920" fileSize="546873760" amg:lang="en" type="video/mp4" bitrate="1500" framerate="23.976"/>
             </media:group>
             <media:thumbnail url="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/images/TheTimeTravelersWife_2047070_KeyArt_800x450.jpg"/>
             <media:title>Time Traveler's Wife, The (UAT - 20200827) test</media:title>
-            <media:rating scheme="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.1</media:rating>
+            <media:rating label="U" scheme="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.1</media:rating>
             <media:subTitle type="text/srt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCodeCS#_eng" href="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/captions/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_cc_en.srt"/>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Mary-Louise Parker</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Elizabeth Perkins</media:credit>
@@ -40,21 +40,21 @@
             <amg:cuepoint>5800.5</amg:cuepoint>
             <amg:broadcastDate>2015</amg:broadcastDate>
         </item>
-        <item type="Episode">
+        <item amg:itemType="Episode">
             <amg:assetid>5cb9f349-5375-4c91-b355-a6c06ec5535f</amg:assetid>
             <amg:keyword>drama</amg:keyword>
             <amg:keyword>licensed</amg:keyword>
             <amg:keyword>comedy</amg:keyword>
-            <amgt:genre>drama</amgt:genre>
-            <amgt:genre>comedy</amgt:genre>
+            <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
+            <amg:genre label="broken comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
             <amg:longDescription>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</amg:longDescription>
             <media:description>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</media:description>
             <media:group>
-                <mediat:content url="s3://ovp-destination-886239521314/5cb9f349-5375-4c91-b355-a6c06ec5535f/mp4/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="1502" framerate="23.97"/>
+                <media:content url="s3://ovp-destination-886239521314/5cb9f349-5375-4c91-b355-a6c06ec5535f/mp4/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="1502" framerate="23.97"/>
             </media:group>
             <media:thumbnail url="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/images/LG_WEEDS_311.jpg"/>
             <media:title>Cankles</media:title>
-            <media:rating scheme="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
+            <media:rating label="TV-MA" scheme="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
             <media:subTitle type="text/vtt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng" href="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/captions/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_cc_eng.vtt"/>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Mary-Louise Parker</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Elizabeth Perkins</media:credit>
@@ -89,8 +89,8 @@
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
-                    <amgt:rightsTerritoryIncludes></amgt:rightsTerritoryIncludes>
-                    <amgt:rightsTerritoryExcludes></amgt:rightsTerritoryExcludes>
+                    <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
+                    <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
                     <amg:rightsLink>https://rightsline.com/123456</amg:rightsLink>
                     <amg:service>
                         <amg:serviceType>SVOD</amg:serviceType>
