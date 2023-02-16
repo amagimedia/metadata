@@ -10,6 +10,7 @@
 
 - **ebu_ContentGenreCS.rdf**: Source -> http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf
 - **ebu_RoleCodeCS.rdf**: Source -> http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf
+- **ebu_Iso3166_CountryCodeCS.rdf**  : Source -> https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.rdf
 
 
 ## RDF compare
