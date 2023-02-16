@@ -33,7 +33,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/media:thumbnail/@width, specifies the width of the thumbnail, xs:integer, "1920", no
 /rss/channel/item[*]/media:title, https://www.rssboard.org/media-rss#media-title, xs:string, "Prison Break", no
 /rss/channel/item[*]/media:title/@amg:lang, specifies the language of the title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
-/rss/channel/item[*]/media:credit[*], https://www.rssboard.org/media-rss#media-credit, xs:complexType, n/a, no
+/rss/channel/item[*]/media:credit[*], https://www.rssboard.org/media-rss#media-credit, xs:complexType, "Tom Cruise", no
 /rss/channel/item[*]/media:credit[*]/@amg:role, Role as defined in http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9", yes
 /rss/channel/item[*]/media:rating, https://www.rssboard.org/media-rss#media-rating Rating value will belong to https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14", yes
 /rss/channel/item[*]/media:rating/@amg:label, specifies the label of the rating which is same as skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf, xs:string, "PG-13", no
@@ -72,7 +72,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:season/media:thumbnail/@url, specifies the url of season specific  thumbnail, xs:anyUri, "https://www.example.com/season1.jpg", no
 /rss/channel/item[*]/amg:season/media:thumbnail/@height, specifies the height of the thumbnail, xs:integer, "1080", no
 /rss/channel/item[*]/amg:season/media:thumbnail/@width, specifies the width of the thumbnail, xs:integer, "1920", no
-/rss/channel/item[*]/amg:season/media:credit[*], Season level credit info https://www.rssboard.org/media-rss#media-credit, xs:complexType, n/a, no
+/rss/channel/item[*]/amg:season/media:credit[*], Season level credit info https://www.rssboard.org/media-rss#media-credit, xs:complexType, "Tom Cruise", no
 /rss/channel/item[*]/amg:season/media:credit[*]/@amg:role, Role as defined in http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9", yes
 /rss/channel/item[*]/amg:season/media:rating, https://www.rssboard.org/media-rss#media-rating Rating value at season level will belong to https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14", yes
 /rss/channel/item[*]/amg:season/media:rating/@amg:label, specifies the label of the rating which is same as skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf, xs:string, "PG-13", no
@@ -100,7 +100,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:series/media:description/@amg:lang, the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item[*]/amg:series/amg:genre[*], Genre of the series https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", yes
 /rss/channel/item[*]/amg:series/amg:genre[*]/amg:label, Label of the genre which is the same as the corresponding skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf, xs:string, "Drama", no
-/rss/channel/item[*]/amg:series/media:credit[*], Series level credit info https://www.rssboard.org/media-rss#media-credit, xs:complexType, n/a, no
+/rss/channel/item[*]/amg:series/media:credit[*], Series level credit info https://www.rssboard.org/media-rss#media-credit, xs:complexType, "Tom Cruise", no
 /rss/channel/item[*]/amg:series/media:credit[*]/@amg:role, Role as defined in http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9", yes
 /rss/channel/item[*]/amg:series/amg:externalId[*], Standard external ID of a series as defined by 3rd party orgs like imdb, eidr etc., xs:string, "tt3501074", no
 /rss/channel/item[*]/amg:series/amg:externalId[*]/amg:idType, IRI as defined in https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf, xs:anuUri, "https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid", yes
