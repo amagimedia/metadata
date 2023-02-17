@@ -14,7 +14,7 @@
         <xs:complexType>
             <xs:simpleContent>
                 <xs:extension base="tns:myString">
-                    <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
+                    <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="required" />
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -24,7 +24,7 @@
         <xs:complexType>
             <xs:simpleContent>
                 <xs:extension base="tns:myString">
-                    <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
+                    <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="required" />
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -32,17 +32,21 @@
 
     <xs:element name="category">
         <xs:complexType>
-            <xs:attribute name="scheme" type="tns:myString" use="required"/>
-            <xs:attribute name="label" type="tns:myString" use="required"/>
+            <xs:simpleContent>
+                <xs:extension base="tns:myString">
+                    <xs:attribute name="scheme" type="tns:myString" use="optional"/>
+                    <xs:attribute name="label" type="tns:myString" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
         </xs:complexType>
     </xs:element>
 
     <xs:element name="rating">
         <xs:complexType>
             <xs:simpleContent>
-                <xs:extension base="xs:anyURI">
-                    <xs:attribute name="scheme" type="xs:anyURI" use="required"/>
-                    <xs:attribute name="label" type="tns:myString" use="required"/>
+                <xs:extension base="tns:myString">
+                    <xs:attribute name="scheme" type="xs:anyURI" use="optional"/>
+                    <xs:attribute name="label" type="tns:myString" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -52,8 +56,9 @@
         <xs:complexType>
             <xs:simpleContent>
                 <xs:extension base="tns:myString">
-                    <xs:attribute name="scheme" type="xs:anyURI" use="required"/>
+                    <xs:attribute name="scheme" type="xs:anyURI" use="optional"/>
                     <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:role" use="required"/>
+                    <xs:attribute name="label" type="tns:myString" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -70,8 +75,8 @@
     <xs:element name="subTitle">
         <xs:complexType>
             <xs:attribute name="type" type="xs:string" use="optional"/>
-            <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
-            <xs:attribute name="href" type="xs:anyURI" use="required"/>
+            <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="required" />
+            <xs:attribute name="href" type="xs:anyURI" use="optional"/>
         </xs:complexType>
     </xs:element>
 
@@ -101,25 +106,19 @@
         <xs:union memberTypes="xs:unsignedLong tns:emptyString"/>
     </xs:simpleType>
 
-    <xs:element name="group">
+
+        <xs:element name="content">
         <xs:complexType>
-            <xs:sequence>
-                <xs:element name="content" minOccurs="1" maxOccurs="unbounded">
-                    <xs:complexType>
-                        <xs:attribute name="url" type="tns:myString" use="required"/>
-                        <xs:attribute name="medium" type="xs:string" use="optional"/>
-                        <xs:attribute name="duration" type="tns:intOrDecimalOrStringOrEmpty" use="optional"/>
-                        <xs:attribute name="height" type="tns:intOrEmpty" use="optional"/>
-                        <xs:attribute name="width" type="tns:intOrEmpty" use="optional"/>
-                        <xs:attribute name="fileSize" type="tns:longOrEmpty" use="optional"/>
-                        <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
-                        <xs:attribute name="type" type="xs:string" use="optional"/>
-                        <xs:attribute name="bitrate" type="tns:decimalOrEmpty" use="optional"/>
-                        <xs:attribute name="framerate" type="tns:decimalOrEmpty" use="optional"/>
-                    </xs:complexType>
-                </xs:element>
-            </xs:sequence>
+            <xs:attribute name="url" type="tns:myString" use="required"/>
+            <xs:attribute name="medium" type="xs:string" use="optional"/>
+            <xs:attribute name="duration" type="tns:intOrDecimalOrStringOrEmpty" use="optional"/>
+            <xs:attribute name="height" type="tns:intOrEmpty" use="optional"/>
+            <xs:attribute name="width" type="tns:intOrEmpty" use="optional"/>
+            <xs:attribute name="fileSize" type="tns:longOrEmpty" use="optional"/>
+            <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="required" />
+            <xs:attribute name="type" type="xs:string" use="optional"/>
+            <xs:attribute name="bitrate" type="tns:decimalOrEmpty" use="optional"/>
+            <xs:attribute name="framerate" type="tns:decimalOrEmpty" use="optional"/>
         </xs:complexType>
     </xs:element>
-
 </xs:schema>

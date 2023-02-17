@@ -7,12 +7,10 @@
             <amg:keyword>amagi_o&amp;o_virtual_channel</amg:keyword>
             <amg:keyword>beekeeper_uat</amg:keyword>
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
-            <media:description>Clare desperately tries to build a life with her one true love, despite the fact that his time traveling forces them apart with no warning, never knowing when they will be reunited.</media:description>
-            <media:group>
-                <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/mp4/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="6441" height="1080" width="1920" fileSize="546873760" amg:lang="en" type="video/mp4" bitrate="1500" framerate="23.976"/>
-            </media:group>
+            <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng">Clare desperately tries to build a life with her one true love, despite the fact that his time traveling forces them apart with no warning, never knowing when they will be reunited.</media:description>
+            <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/mp4/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="6441" height="1080" width="1920" fileSize="546873760" amg:lang="en" type="video/mp4" bitrate="1500" framerate="23.976"/>
             <media:thumbnail url="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/images/TheTimeTravelersWife_2047070_KeyArt_800x450.jpg"/>
-            <media:title>Time Traveler's Wife, The (UAT - 20200827) test</media:title>
+            <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng">Time Traveler's Wife, The (UAT - 20200827) test</media:title>
             <media:rating label="U" scheme="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.1</media:rating>
             <media:subTitle type="text/srt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCodeCS#_eng" href="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/captions/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_cc_en.srt"/>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Mary-Louise Parker</media:credit>
@@ -47,13 +45,11 @@
             <amg:keyword>comedy</amg:keyword>
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
             <amg:genre label="broken comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
-            <amg:longDescription>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</amg:longDescription>
-            <media:description>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</media:description>
-            <media:group>
-                <media:content url="s3://ovp-destination-886239521314/5cb9f349-5375-4c91-b355-a6c06ec5535f/mp4/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="1502" framerate="23.97"/>
-            </media:group>
+            <amg:longDescription amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng">Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</amg:longDescription>
+            <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng">Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</media:description>
+            <media:content url="s3://ovp-destination-886239521314/5cb9f349-5375-4c91-b355-a6c06ec5535f/mp4/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="1502" framerate="23.97" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng"/>
             <media:thumbnail url="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/images/LG_WEEDS_311.jpg"/>
-            <media:title>Cankles</media:title>
+            <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng">Cankles</media:title>
             <media:rating label="TV-MA" scheme="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
             <media:subTitle type="text/vtt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng" href="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/captions/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_cc_eng.vtt"/>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9" scheme="urn:ebu">Mary-Louise Parker</media:credit>
@@ -62,15 +58,14 @@
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.1" scheme="urn:ebu">Craig Zisk</media:credit>
             <amg:season> 
                 <amg:seasonNumber>3</amg:seasonNumber>
-                <amg:seasonTitle>Season-3 Title</amg:seasonTitle>
-                <amg:seasonThumbnail>http://www.myvideosite.com/thumbnails/123.jpg</amg:seasonThumbnail>
+                <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng">Season-3 Title</media:title>
+                <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng">http://www.myvideosite.com/thumbnails/123.jpg</media:description>
                 <amg:broadcastDate>2015</amg:broadcastDate>
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
                     <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
                     <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
-                    <amg:rightsLink></amg:rightsLink>
                     <amg:service>
                         <amg:serviceType>SVOD</amg:serviceType>
                         <amg:serviceName>Netflix</amg:serviceName>
@@ -79,8 +74,8 @@
                 </amg:rights>
             </amg:season>
             <amg:series>
-                <amg:seriesTitle>Weeds</amg:seriesTitle>
-                <amg:seriesDescription>This series is a single-camera comedy about a single mother who makes ends meet by selling marijuana in the fictional suburb of Agrestic, California. The series exposes the dirty little secrets...</amg:seriesDescription>
+                <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng">Weeds</media:title>
+                <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_eng">This series is a single-camera comedy about a single mother who makes ends meet by selling marijuana in the fictional suburb of Agrestic, California. The series exposes the dirty little secrets...</media:description>
                 <amg:seriesThumbnail>http://www.myvideosite.com/thumbnails/123.jpg</amg:seriesThumbnail>
                 <amg:keyword>drugs</amg:keyword>
                 <amg:keyword>crime</amg:keyword>

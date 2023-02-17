@@ -10,6 +10,9 @@
   <!--  for media:credit amg:role-->
   <xs:attribute name="role" type="xs:anyURI" />
 
+  <!--  for amg:serviceId amg:label-->
+  <xs:attribute name="label" type="xs:string" />
+
   <!--  for /channel/item amg:itemType-->
   <xs:attribute name="itemType">
     <xs:simpleType>
@@ -27,12 +30,12 @@
       </xs:restriction>
   </xs:simpleType>
 
-  <xs:element name="language">
+  <xs:element name="lang">
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="tns:myString">
-          <xs:attribute name="scheme" type="tns:myString" fixed="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.htm" use="required" />
-          <xs:attribute name="label" type="tns:myString" use="required" />
+          <xs:attribute name="scheme" type="tns:myString" fixed="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_2LanguageCodeCS.htm" use="optional" />
+          <xs:attribute name="label" type="tns:myString" use="optional" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
@@ -41,13 +44,14 @@
   <xs:element name="cuepoint" type="xs:decimal"/>
   <xs:element name="broadcastDate" type="xs:gYear"/>
   <xs:element name="assetid" type="tns:myString"/>
+  <xs:element name="episodeNumber" type="xs:integer"/>
   <xs:element name="keyword" type="tns:myString"/>
 
   <xs:element name="longDescription">
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="tns:myString">
-          <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
+          <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="required" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
@@ -77,7 +81,15 @@
                           </xs:simpleType>
                         </xs:element>
                         <xs:element name="serviceName" minOccurs="0" type="tns:myString"/>
-                        <xs:element name="serviceId" minOccurs="0" type="tns:myString"/>
+                        <xs:element name="serviceId" minOccurs="0">
+                          <xs:complexType>
+                            <xs:simpleContent>
+                              <xs:extension base="tns:myString">
+                                <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:label" use="optional" />
+                              </xs:extension>
+                            </xs:simpleContent>
+                          </xs:complexType>
+                        </xs:element>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -88,11 +100,13 @@
   <xs:element name="season">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="seasonNumber" type="xs:unsignedByte" />
-        <xs:element name="seasonTitle" type="tns:myString" />
-        <xs:element name="seasonThumbnail" type="tns:myString" />
-        <xs:element name="broadcastDate" type="xs:gYear" />
-        <xs:element name="rights">
+        <xs:element name="seasonNumber" type="xs:unsignedByte" minOccurs="0" />
+        <xs:element xmlns:q2="http://search.yahoo.com/mrss/" ref="q2:title" minOccurs="0" />
+        <xs:element xmlns:q2="http://search.yahoo.com/mrss/" ref="q2:description" minOccurs="0" />
+        <xs:element xmlns:q2="http://search.yahoo.com/mrss/" ref="q2:thumbnail" minOccurs="0" />
+        <xs:element xmlns:q2="http://search.yahoo.com/mrss/" ref="q2:credit" minOccurs="0" />
+        <xs:element name="broadcastDate" type="xs:gYear" minOccurs="0" />
+        <xs:element name="rights" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="rightsStartDateTime" minOccurs="0" type="xs:dateTime"/>
@@ -116,7 +130,15 @@
                       </xs:simpleType>
                     </xs:element>
                     <xs:element name="serviceName" minOccurs="0" type="tns:myString"/>
-                    <xs:element name="serviceId" minOccurs="0" type="tns:myString"/>
+                    <xs:element name="serviceId" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="tns:myString">
+                            <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:label" use="optional" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
@@ -130,13 +152,16 @@
   <xs:element name="series">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="seriesTitle" type="tns:myString" />
-        <xs:element name="seriesDescription" type="tns:myString" />
-        <xs:element name="seriesThumbnail" type="tns:myString" />
-        <xs:element name="keyword" maxOccurs="unbounded" type="tns:myString" />
-        <xs:element name="broadcastDate" type="xs:gYear" />
-        <xs:element name="productionCompany" type="tns:myString" />
-        <xs:element name="rights">
+        <xs:element xmlns:q2="http://search.yahoo.com/mrss/" ref="q2:title" minOccurs="0" />
+        <xs:element xmlns:q2="http://search.yahoo.com/mrss/" ref="q2:description" minOccurs="0" />
+        <xs:element xmlns:q2="http://search.yahoo.com/mrss/" ref="q2:thumbnail" minOccurs="0" />
+        <xs:element xmlns:q2="http://search.yahoo.com/mrss/" ref="q2:credit" minOccurs="0" />
+        <xs:element xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:genre" minOccurs="0" />
+        <xs:element name="seriesThumbnail" type="tns:myString" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="keyword" type="tns:myString" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="broadcastDate" type="xs:gYear" minOccurs="0" />
+        <xs:element name="productionCompany" type="tns:myString" minOccurs="0" />
+        <xs:element name="rights" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="rightsStartDateTime" minOccurs="0" type="xs:dateTime"/>
@@ -160,7 +185,15 @@
                       </xs:simpleType>
                     </xs:element>
                     <xs:element name="serviceName" minOccurs="0" type="tns:myString"/>
-                    <xs:element name="serviceId" minOccurs="0" type="tns:myString"/>
+                    <xs:element name="serviceId" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="tns:myString">
+                            <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:label" use="optional" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
