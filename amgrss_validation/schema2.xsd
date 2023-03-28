@@ -89,10 +89,10 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element name="seasonNumber" type="xs:unsignedByte" />
-        <xs:element name="seasonTitle" type="tns:myString" />
-        <xs:element name="seasonThumbnail" type="tns:myString" />
-        <xs:element name="broadcastDate" type="xs:gYear" />
-        <xs:element name="rights">
+        <xs:element name="seasonTitle" minOccurs="0" maxOccurs="1" type="tns:myString" />
+        <xs:element name="seasonThumbnail" minOccurs="0" maxOccurs="1" type="tns:myString" />
+        <xs:element name="broadcastDate" minOccurs="0" maxOccurs="1" type="xs:gYear" />
+        <xs:element name="rights" minOccurs="0" maxOccurs="unbounded" >
           <xs:complexType>
             <xs:sequence>
               <xs:element name="rightsStartDateTime" minOccurs="0" type="xs:dateTime"/>
