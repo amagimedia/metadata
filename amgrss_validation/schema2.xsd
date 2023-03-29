@@ -88,9 +88,10 @@
   <xs:element name="season">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="seasonNumber" type="xs:unsignedByte" />
-        <xs:element name="seasonTitle" minOccurs="0" maxOccurs="1" type="tns:myString" />
-        <xs:element name="seasonThumbnail" minOccurs="0" maxOccurs="1" type="tns:myString" />
+        <xs:element name="number" minOccurs="0" maxOccurs="1" type="xs:unsignedByte" />
+        <xs:element name="title" minOccurs="0" maxOccurs="1" type="tns:myString" />
+        <xs:element name="description" minOccurs="0" maxOccurs="1" type="tns:myString" />
+        <xs:element name="thumbnail" minOccurs="0" maxOccurs="1" type="tns:myString" />
         <xs:element name="broadcastDate" minOccurs="0" maxOccurs="1" type="xs:gYear" />
         <xs:element name="rights" minOccurs="0" maxOccurs="unbounded" >
           <xs:complexType>
@@ -130,9 +131,9 @@
   <xs:element name="series">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="seriesTitle" type="tns:myString" />
-        <xs:element name="seriesDescription" type="tns:myString" />
-        <xs:element name="seriesThumbnail" type="tns:myString" />
+        <xs:element name="title" minOccurs="0" maxOccurs="1" type="tns:myString" />
+        <xs:element name="description" minOccurs="0" maxOccurs="1" type="tns:myString" />
+        <xs:element name="thumbnail" minOccurs="0" maxOccurs="1" type="tns:myString" />
         <xs:element name="keyword" maxOccurs="unbounded" type="tns:myString" />
         <xs:element name="broadcastDate" type="xs:gYear" />
         <xs:element name="productionCompany" type="tns:myString" />
