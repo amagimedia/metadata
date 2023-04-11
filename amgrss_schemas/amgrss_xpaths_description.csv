@@ -3,7 +3,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel, https://www.rssboard.org/rss-draft-1#element-channel, n/a, n/a, no
 /rss/channel/item, https://www.rssboard.org/rss-draft-1#element-channel-item, xs:complexType, n/a, no
 /rss/channel/item/@amg:itemType, Type of media item. Whether it a feature or an episode of series etc, xs:enumeration {Feature Episode}, "Feature", no
-/rss/channel/item/amg:assetid, Asset id assigned in the publisher's CMS, xs:string, "123456", no
+/rss/channel/item/amg:assetId, Asset id assigned in the publisher's CMS, xs:string, "123456", no
 /rss/channel/item/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:date, "2019-01-01", yes
 /rss/channel/item/amg:cuepoint, Identifies the cue point in seconds offset. Cue points are time instances where an ad can be inserted in the video, xs:float, 60.320, no
 /rss/channel/item/amg:keyword, Highly relevant keywords describing the media object. Max 10 elements. amg:keyword is unlooped representation of media:keywords. Ref: https://www.rssboard.org/media-rss#media-keywords, xs:string, "prison", no
@@ -11,7 +11,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:longDescription, Long description describing media object, xs:string, "movie on stock. Set in time persion 1929-1935", no
 /rss/channel/item/amg:longDescription/@amg:lang, the language of the longDescription as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item/amg:genre, Genre of the media object. https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", yes
-/rss/channel/item/amg:genre/amg:label, Label of the genre which is the same as the corresponding skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf, xs:string, "Drama", no
+/rss/channel/item/amg:genre/@amg:label, Label of the genre which is the same as the corresponding skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf, xs:string, "Drama", no
 /rss/channel/item/amg:externalId, Standard external ID of an asset as defined by 3rd party orgs like imdb eidr etc., xs:string, "tt3501074", no
 /rss/channel/item/amg:externalId/@amg:idType, IRI as defined in https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf, xs:anuUri, "https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid", yes
 /rss/channel/item/media:description, Short description of the media object, xs:string, "A prison drama", no
@@ -99,7 +99,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:series/media:description, Short description of the series, xs:string, "A prison drama", no
 /rss/channel/item/amg:series/media:description/@amg:lang, the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item/amg:series/amg:genre, Genre of the series https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", yes
-/rss/channel/item/amg:series/amg:genre/amg:label, Label of the genre which is the same as the corresponding skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf, xs:string, "Drama", no
+/rss/channel/item/amg:series/amg:genre/@amg:label, Label of the genre which is the same as the corresponding skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf, xs:string, "Drama", no
 /rss/channel/item/amg:series/media:credit, Series level credit info https://www.rssboard.org/media-rss#media-credit, xs:complexType, "Tom Cruise", no
 /rss/channel/item/amg:series/media:credit/@amg:role, Role as defined in http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9", yes
 /rss/channel/item/amg:series/amg:externalId, Standard external ID of a series as defined by 3rd party orgs like imdb eidr etc., xs:string, "tt3501074", no
