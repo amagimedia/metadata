@@ -65,7 +65,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item[*]/amg:season/amg:rights/amg:rightsTerritoryIncludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
 /rss/channel/item[*]/amg:season/amg:seasonNumber, Season number with first season being 1, xs:integer, "1", no
 /rss/channel/item[*]/amg:season/media:title, Season specific title if any See: https://www.rssboard.org/media-rss#media-title, xs:string, "Prison Break", no
-/rss/channel/item[*]/amg:season/media:title/amg:lang, specifies the language of the season title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
+/rss/channel/item[*]/amg:season/media:title/@amg:lang, specifies the language of the season title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item[*]/amg:season/media:description, Short description of the season, xs:string, "A prison drama", no
 /rss/channel/item[*]/amg:season/media:description/@amg:lang, the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item[*]/amg:season/media:thumbnail, Element to declare season thumbnail. Has only attributes and no value, xs:complexType, n/a, no 
