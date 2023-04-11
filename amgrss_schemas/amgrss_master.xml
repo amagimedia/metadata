@@ -4,7 +4,7 @@
     <channel>
         <item amg:itemType="Feature">
             <amg:assetid>ccdd57d1-6106-452a-8508-a63e1b6d8924</amg:assetid>
-            <amg:externalId amg:idType="tms">61d998bf96902939f574e0677734b326</amg:externalId>
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt8783930</amg:externalId>
             <amg:keyword>amagi_o&amp;o_virtual_channel</amg:keyword>
             <amg:keyword>beekeeper_uat</amg:keyword>
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
@@ -41,7 +41,7 @@
         </item>
         <item amg:itemType="Episode">
             <amg:assetid>5cb9f349-5375-4c91-b355-a6c06ec5535f</amg:assetid>
-            <amg:externalId amg:idType="tms">2c19ce862b6ae8f79050c1d3706875</amg:externalId>
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt1106488</amg:externalId>
             <amg:keyword>drama</amg:keyword>
             <amg:keyword>licensed</amg:keyword>
             <amg:keyword>comedy</amg:keyword>
@@ -79,7 +79,7 @@
                 </amg:rights>
             </amg:season>
             <amg:series>
-                <amg:externalId amg:idType="tms">1f3a531d250842ec89e4f26f129090</amg:externalId>
+                <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0439100</amg:externalId>
                 <media:title>Weeds</media:title>
                 <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_fr">mauvaises herbes</media:title>
                 <media:description>This series is a single-camera comedy about a single mother who makes ends meet by selling marijuana in the fictional suburb of Agrestic, California. The series exposes the dirty little secrets...</media:description>
