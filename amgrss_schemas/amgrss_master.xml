@@ -48,7 +48,7 @@
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
             <amg:genre label="broken comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
             <amg:longDescription>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</amg:longDescription>
-            <amg:longDescription amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_2LanguageCode#_fr">Silas découvre quelque chose sur Tara. La fusion Majestic et Agrestic laisse certaines personnes sans emploi. Shane installe un système de sécurité. Nancy découvre qu'elle est filée.</amg:longDescription>
+            <amg:longDescription amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">Silas découvre quelque chose sur Tara. La fusion Majestic et Agrestic laisse certaines personnes sans emploi. Shane installe un système de sécurité. Nancy découvre qu'elle est filée.</amg:longDescription>
             <media:description>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</media:description>
             <media:content url="s3://ovp-destination-886239521314/5cb9f349-5375-4c91-b355-a6c06ec5535f/mp4/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="1502" framerate="23.97"/>
             <media:thumbnail url="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/images/LG_WEEDS_311.jpg"/>
