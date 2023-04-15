@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:amagi="http://www.amagi.com/rss/namespace" xmlns:amg="http://www.amagi.com/amgrss/" xmlns:amgt="http://www.amagi.com/amgrss/transient/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:mediat="http://www.amagi.com/mrss/transient/">
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
     <!--A_ovp-->
     <channel>
         <item amg:itemType="Feature">
-            <amg:assetid>ccdd57d1-6106-452a-8508-a63e1b6d8924</amg:assetid>
+            <amg:assetId>ccdd57d1-6106-452a-8508-a63e1b6d8924</amg:assetId>
             <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt8783930</amg:externalId>
             <amg:keyword>amagi_o&amp;o_virtual_channel</amg:keyword>
             <amg:keyword>beekeeper_uat</amg:keyword>
@@ -40,7 +40,7 @@
             <amg:broadcastDate>2015</amg:broadcastDate>
         </item>
         <item amg:itemType="Episode">
-            <amg:assetid>5cb9f349-5375-4c91-b355-a6c06ec5535f</amg:assetid>
+            <amg:assetId>5cb9f349-5375-4c91-b355-a6c06ec5535f</amg:assetId>
             <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt1106488</amg:externalId>
             <amg:keyword>drama</amg:keyword>
             <amg:keyword>licensed</amg:keyword>

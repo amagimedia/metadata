@@ -15,6 +15,8 @@ AMGRSS_MASTER_FILE=$DIRNAME/../amgrss_schemas/amgrss_master.xml
 
 #----[options]---------------------------------------------------------------
 
+OPT_INVERT=0
+
 #----[temp files and termination]--------------------------------------------
 
 function fnxOnEnd
@@ -51,6 +53,10 @@ OPTIONS
 
     -h
        displays help and quits.
+
+    -i
+       invert option. Lists xpaths in $(basename $AMGRSS_MASTER_FILE) 
+       not in $(basename $XPATHS_SPEC_FILE).
 EOD
 }
 
@@ -62,12 +68,13 @@ EOD
 #| argument processing |
 #+---------------------+
 
-TEMP=`getopt -o "h" -n "$0" -- "$@"`
+TEMP=`getopt -o "ih" -n "$0" -- "$@"`
 eval set -- "$TEMP"
 
 while true 
 do
 	case "$1" in
+        -i) OPT_INVERT=1; shift ;;
         -h) usage; exit 0;;
 		--) shift ; break ;;
 		*) echo "Internal error!" ; exit 1 ;;
@@ -87,5 +94,10 @@ cat $XPATHS_SPEC_FILE | sed '1d' | gawk -F ',' '{ print $1; }' | sort | uniq > $
 xmlstarlet el -a $AMGRSS_MASTER_FILE | sort | uniq | sed 's/^/\//' > $TMP2
 #cat $TMP2
 
-comm -23 $TMP1 $TMP2
+if ((OPT_INVERT))
+then
+    comm -13 $TMP1 $TMP2
+else
+    comm -23 $TMP1 $TMP2
+fi
 
