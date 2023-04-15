@@ -25,26 +25,12 @@ rapper -i turtle -o rdfxml amagi_ebucoreExtension.ttl > amagi_ebucoreExtension.r
 riot --out=RDF/XML amagi_ebucoreExtension.ttl > amagi_ebucoreExtension.rd
 ```
 
-## Python virtual env.
-
-### creating 
+## List omissions in amgrss_master.xml
 
 ```
 $ cd .../metadata
-$ python3 -m venv venv
-```
-
-### entering 
-
-```
-$ cd .../metadata
-$ . ./venv/bin/activate
-```
-
-### exitting
-```
-$ cd .../metadata
-$ deactivate
+$ ./scripts/report_masterxml_omissions.sh -h
+$ ./scripts/report_masterxml_omissions.sh
 ```
 
 ## References:
