@@ -9,6 +9,7 @@
             <amg:keyword>beekeeper_uat</amg:keyword>
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
             <media:description>Clare desperately tries to build a life with her one true love, despite the fact that his time traveling forces them apart with no warning, never knowing when they will be reunited.</media:description>
+            <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">Clare essaie désespérément de construire une vie avec son seul véritable amour, malgré le fait que son temps de voyage les sépare sans avertissement, ne sachant jamais quand ils seront réunis.</media:description>
             <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/mp4/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="6441" height="1080" width="1920" fileSize="546873760" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" type="video/mp4" bitrate="1500" framerate="23.976"/>
             <media:thumbnail url="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/images/TheTimeTravelersWife_2047070_KeyArt_800x450.jpg" height="1080" width="1920"/>
             <media:title>Time Traveler's Wife, The (UAT - 20200827) test</media:title>
@@ -90,6 +91,7 @@
                 <media:title>Weeds</media:title>
                 <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">mauvaises herbes</media:title>
                 <media:description>This series is a single-camera comedy about a single mother who makes ends meet by selling marijuana in the fictional suburb of Agrestic, California. The series exposes the dirty little secrets...</media:description>
+                <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">Cette série est une comédie à caméra unique sur une mère célibataire qui joint les deux bouts en vendant de la marijuana dans la banlieue fictive d'Agrestic, en Californie. La série dévoile les sales petits secrets</media:description>
                 <amg:genre label="FICTION/DRAMA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4</amg:genre>
                 <media:thumbnail url="http://www.myvideosite.com/thumbnails/123.jpg" height="1280" width="720"/>
                 <amg:keyword>drugs</amg:keyword>
