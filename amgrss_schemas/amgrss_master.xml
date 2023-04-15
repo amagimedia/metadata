@@ -15,6 +15,7 @@
             <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">Épouse du voyageur temporel, Le (UAT - 20200827) test</media:title>
             <media:rating label="U">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.1</media:rating>
             <media:subTitle type="text/srt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" href="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/captions/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_cc_en.srt"/>
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Robert Schwentke</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Mary-Louise Parker</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Elizabeth Perkins</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Justin Kirk</media:credit>
@@ -69,6 +70,7 @@
                 <amg:broadcastDate>2015</amg:broadcastDate>
                 <media:description>The third season of Weeds begins with several subplots involving the fallout from the botched drug deal of the season two finale.</media:description>
                 <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">La troisième saison de Weeds commence avec plusieurs intrigues secondaires impliquant les retombées de l'affaire de drogue bâclée de la finale de la saison deux</media:description>
+                <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Craig Zisk</media:credit>
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
@@ -87,11 +89,13 @@
                 <media:title>Weeds</media:title>
                 <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">mauvaises herbes</media:title>
                 <media:description>This series is a single-camera comedy about a single mother who makes ends meet by selling marijuana in the fictional suburb of Agrestic, California. The series exposes the dirty little secrets...</media:description>
+                <amg:genre label="FICTION/DRAMA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4</amg:genre>
                 <media:thumbnail url="http://www.myvideosite.com/thumbnails/123.jpg" height="1280" width="720"/>
                 <amg:keyword>drugs</amg:keyword>
                 <amg:keyword>crime</amg:keyword>
                 <amg:broadcastDate>2012</amg:broadcastDate>
                 <amg:productionCompany>Lionsgate Television</amg:productionCompany>
+                <media:credit role="Writer/Conceptualist" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Jenji Kohan</media:credit>
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
