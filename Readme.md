@@ -25,6 +25,27 @@ rapper -i turtle -o rdfxml amagi_ebucoreExtension.ttl > amagi_ebucoreExtension.r
 riot --out=RDF/XML amagi_ebucoreExtension.ttl > amagi_ebucoreExtension.rd
 ```
 
+## Python virtual env.
+
+### creating 
+
+```
+$ cd .../metadata
+$ python3 -m venv venv
+```
+
+### entering 
+
+```
+$ cd .../metadata
+$ . ./venv/bin/activate
+```
+
+### exitting
+```
+$ cd .../metadata
+$ deactivate
+```
 
 ## References:
 
