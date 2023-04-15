@@ -71,6 +71,7 @@
                 <media:description>The third season of Weeds begins with several subplots involving the fallout from the botched drug deal of the season two finale.</media:description>
                 <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">La troisième saison de Weeds commence avec plusieurs intrigues secondaires impliquant les retombées de l'affaire de drogue bâclée de la finale de la saison deux</media:description>
                 <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Craig Zisk</media:credit>
+                <media:rating label="TV-MA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
@@ -96,6 +97,7 @@
                 <amg:broadcastDate>2012</amg:broadcastDate>
                 <amg:productionCompany>Lionsgate Television</amg:productionCompany>
                 <media:credit role="Writer/Conceptualist" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Jenji Kohan</media:credit>
+                <media:rating label="TV-MA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
