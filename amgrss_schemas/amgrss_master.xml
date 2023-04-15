@@ -21,6 +21,8 @@
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Elizabeth Perkins</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Justin Kirk</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.1">Craig Zisk</media:credit>
+            <media:category>science fiction</media:category>
+            <media:category>romance</media:category>
             <amg:rights>
                 <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                 <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
@@ -100,6 +102,9 @@
                 <amg:productionCompany>Lionsgate Television</amg:productionCompany>
                 <media:credit role="Writer/Conceptualist" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Jenji Kohan</media:credit>
                 <media:rating label="TV-MA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
+                <media:category>black comedy</media:category>
+                <media:category>comedy drama</media:category>
+                <media:category>satire</media:category>
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
