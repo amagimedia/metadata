@@ -5,7 +5,7 @@ set -u
 
 #----[globals]------------------------------------------------------------------------
 
-DIRNAME=$(readlink -e $(dirname $0))
+DIRNAME=$(realpath -e $(dirname $0))
 MODNAME=$(basename $0)
 
 XPATHS_SPEC_FILE=$DIRNAME/../amgrss_schemas/amgrss_xpaths_description.csv
