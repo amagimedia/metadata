@@ -16,6 +16,7 @@ AMGRSS_MASTER_FILE=$DIRNAME/../amgrss_schemas/amgrss_master.xml
 #----[options]---------------------------------------------------------------
 
 OPT_INVERT=0
+OPT_XML_FILE=$AMGRSS_MASTER_FILE
 
 #----[temp files and termination]--------------------------------------------
 
@@ -57,6 +58,11 @@ OPTIONS
     -i
        invert option. Lists xpaths in $(basename $AMGRSS_MASTER_FILE) 
        not in $(basename $XPATHS_SPEC_FILE).
+
+    -x xml_file
+       this can be used to specify a file other than 
+       $OPT_XML_FILE. 
+       this is optional.
 EOD
 }
 
@@ -68,30 +74,34 @@ EOD
 #| argument processing |
 #+---------------------+
 
-TEMP=`getopt -o "ih" -n "$0" -- "$@"`
+TEMP=`getopt -o "ix:h" -n "$0" -- "$@"`
 eval set -- "$TEMP"
 
 while true 
 do
 	case "$1" in
         -i) OPT_INVERT=1; shift ;;
+        -x) OPT_XML_FILE="$2"; shift 2;;
         -h) usage; exit 0;;
 		--) shift ; break ;;
 		*) echo "Internal error!" ; exit 1 ;;
 	esac
 done
 
+if [[ ! -f $OPT_XML_FILE ]]
+then
+    echo "$OPT_XML_FILE not present"
+    exit 1
+fi
+
 #+------+
 #| main |
 #+------+
 
-XPATHS_SPEC_FILE=$DIRNAME/../amgrss_schemas/amgrss_xpaths_description.csv
-AMGRSS_MASTER_FILE=$DIRNAME/../amgrss_schemas/amgrss_master.xml
-
 cat $XPATHS_SPEC_FILE | sed '1d' | gawk -F ',' '{ print $1; }' | sort | uniq > $TMP1
 #cat $TMP1
 
-xmlstarlet el -a $AMGRSS_MASTER_FILE | sort | uniq | sed 's/^/\//' > $TMP2
+xmlstarlet el -a $OPT_XML_FILE | sort | uniq | sed 's/^/\//' > $TMP2
 #cat $TMP2
 
 if ((OPT_INVERT))
