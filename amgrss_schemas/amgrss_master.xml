@@ -48,6 +48,7 @@
             <amg:keyword>drama</amg:keyword>
             <amg:keyword>licensed</amg:keyword>
             <amg:keyword>comedy</amg:keyword>
+            <amg:lang>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_en</amg:lang>
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
             <amg:genre label="broken comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
             <amg:longDescription>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</amg:longDescription>
@@ -101,6 +102,8 @@
                 <media:category>black comedy</media:category>
                 <media:category>comedy drama</media:category>
                 <media:category>satire</media:category>
+                <amg:longDescription>Comedian Richard Ayoade travels the globe with his famous friends and enjoys the well-known attractions as well as less familiar ones in each city he stops in.</amg:longDescription>
+                <amg:longDescription amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">L'humoriste Richard Ayoade parcourt le monde avec ses célèbres amis et profite des attractions connues comme des attractions moins familières dans chaque ville où il s'arrête.</amg:longDescription>
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
