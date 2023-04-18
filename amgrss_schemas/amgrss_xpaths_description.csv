@@ -3,7 +3,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel, https://www.rssboard.org/rss-draft-1#element-channel, n/a, n/a, no
 /rss/channel/item, https://www.rssboard.org/rss-draft-1#element-channel-item, xs:complexType, n/a, no
 /rss/channel/item/@amg:itemType, Type of media item. Whether it a feature or an episode of series etc, xs:enumeration {Feature Episode}, "Feature", no
-/rss/channel/item/amg:lamg, Language of the media item as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
+/rss/channel/item/amg:lang, Language of the media item as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item/amg:assetId, Asset id assigned in the publisher's CMS, xs:string, "123456", no
 /rss/channel/item/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:date, "2019-01-01", yes
 /rss/channel/item/amg:cuepoint, Identifies the cue point in seconds offset. Cue points are time instances where an ad can be inserted in the video, xs:float, 60.320, no
