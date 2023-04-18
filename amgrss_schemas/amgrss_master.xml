@@ -30,11 +30,9 @@
                 <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA</amg:rightsTerritoryIncludes>
                 <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
                 <amg:rightsLink>https://rightsline.com/123456</amg:rightsLink>
-                <amg:service>
-                    <amg:serviceType>AVOD</amg:serviceType>
-                    <amg:serviceName>Roku</amg:serviceName>
-                    <amg:serviceId>Roku-1</amg:serviceId>
-                </amg:service>
+                <amg:serviceType>AVOD</amg:serviceType>
+                <amg:serviceName>Roku</amg:serviceName>
+                <amg:serviceId>Roku-1</amg:serviceId>
             </amg:rights>
             <amg:cuepoint>55.5</amg:cuepoint>
             <amg:cuepoint>540.7</amg:cuepoint>
@@ -81,11 +79,9 @@
                     <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
                     <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
                     <amg:rightsLink></amg:rightsLink>
-                    <amg:service>
-                        <amg:serviceType>SVOD</amg:serviceType>
-                        <amg:serviceName>Netflix</amg:serviceName>
-                        <amg:serviceId>Netflix-1</amg:serviceId>
-                    </amg:service>
+                    <amg:serviceType>SVOD</amg:serviceType>
+                    <amg:serviceName>Netflix</amg:serviceName>
+                    <amg:serviceId>Netflix-1</amg:serviceId>
                 </amg:rights>
             </amg:season>
             <amg:series>
@@ -111,11 +107,9 @@
                     <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
                     <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
                     <amg:rightsLink>https://rightsline.com/123456</amg:rightsLink>
-                    <amg:service>
-                        <amg:serviceType>SVOD</amg:serviceType>
-                        <amg:serviceName>Roku</amg:serviceName>
-                        <amg:serviceId>Roku-1</amg:serviceId>
-                    </amg:service>
+                    <amg:serviceType>SVOD</amg:serviceType>
+                    <amg:serviceName>Roku</amg:serviceName>
+                    <amg:serviceId>Roku-1</amg:serviceId>
                 </amg:rights>
             </amg:series>
             <amg:cuepoint>55.5</amg:cuepoint>
