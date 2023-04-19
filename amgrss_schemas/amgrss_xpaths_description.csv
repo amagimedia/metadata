@@ -6,7 +6,10 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:lang, Language of the media item as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item/amg:assetId, Asset id assigned in the publisher's CMS, xs:string, "123456", no
 /rss/channel/item/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:date, "2019-01-01", yes
-/rss/channel/item/amg:cuepoint, Identifies the cue point in seconds offset. Cue points are time instances where an ad can be inserted in the video, xs:float, 60.320, no
+/rss/channel/item/amg:cuepoint, Identifies the cue point in seconds offset. Cue points are time instances where an ad can be inserted in the video. Value you either be SMPTE timecode offset or normal play time offset. Ref: https://www.ietf.org/rfc/rfc2326.txt Section3.5 and 3.6, xs:string, 60.320, no
+/rss/channel/item/amg:segment, Identifies a segment inerval of a media item, xs:complexType, n/a, no
+/rss/channel/item/amg:segment/@start, Start of the segment interval. Value can either be SMPTE timecode offset or normal play time offset. Ref: https://www.ietf.org/rfc/rfc2326.txt Section3.5 and 3.6. Also refer http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#start, xs:string, n/a, no
+/rss/channel/item/amg:segment/@end, End of the segment interval. Value can either be SMPTE timecode offset or normal play time offset. Ref: https://www.ietf.org/rfc/rfc2326.txt Section3.5 and 3.6. Also refer http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#end, xs:string, n/a, no
 /rss/channel/item/amg:keyword, Highly relevant keywords describing the media object. Max 10 elements. amg:keyword is unlooped representation of media:keywords. Ref: https://www.rssboard.org/media-rss#media-keywords, xs:string, "prison", no
 /rss/channel/item/amg:episodeNumber, Episode number of an episodic item in the season is season is present otherwise episode number in the series, xs:integer, 1, no
 /rss/channel/item/amg:longDescription, Long description describing media object, xs:string, "movie on stock. Set in time persion 1929-1935", no
