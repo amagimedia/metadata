@@ -1486,6 +1486,7 @@
       <skos:historyNote>2007-04-12</skos:historyNote>
       <skos:example/>
       <skos:note>Valid</skos:note>
+      <skos:hiddenLabel xml:lang="en">UK</skos:hiddenLabel>
    </rdf:Description>
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_GD">

@@ -2,22 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/index.html</loc>
-         <lastmod>2023-02-16</lastmod>
+         <lastmod>2023-04-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/amgrss.html</loc>
-         <lastmod>2023-02-16</lastmod>
+         <lastmod>2023-04-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/amgrss_schemas/o.html</loc>
-         <lastmod>2023-02-16</lastmod>
+         <lastmod>2023-04-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://squidfunk.github.io/mkdocs-material/ebucore/Readme.html</loc>
+         <lastmod>2023-04-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/skos/Readme.html</loc>
-         <lastmod>2023-02-16</lastmod>
+         <lastmod>2023-04-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

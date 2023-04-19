@@ -200,768 +200,128 @@
 <article class="md-content__inner md-typeset">
 <h1 id="amgrss-specification">AMGRSS Specification<a class="headerlink" href="#amgrss-specification" title="Permanent link">¶</a></h1>
 <h2 id="amgrss-xpath-specification">Amgrss Xpath specification<a class="headerlink" href="#amgrss-xpath-specification" title="Permanent link">¶</a></h2>
-<table>
-<thead>
-<tr>
-<th align="left">xpath</th>
-<th align="left">description</th>
-<th align="left">valueType</th>
-<th align="left">exampleValues</th>
-<th align="left">mappingRequired</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">/rss</td>
-<td align="left"><a href="https://www.rssboard.org/rss-draft-1#element-rss">https://www.rssboard.org/rss-draft-1#element-rss</a></td>
-<td align="left">n/a</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel</td>
-<td align="left"><a href="https://www.rssboard.org/rss-draft-1#element-channel">https://www.rssboard.org/rss-draft-1#element-channel</a></td>
-<td align="left">n/a</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]</td>
-<td align="left"><a href="https://www.rssboard.org/rss-draft-1#element-channel-item">https://www.rssboard.org/rss-draft-1#element-channel-item</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:itemType</td>
-<td align="left">Type of media item. Whether it a feature or an episode of series etc</td>
-<td align="left" episode="Episode" feature="Feature">xs:enumeration</td>
-<td align="left">"Feature"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:assetid</td>
-<td align="left">Asset id assigned in the publisher's CMS</td>
-<td align="left">xs:string</td>
-<td align="left">"123456"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:broadcastDate</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
-<td align="left">xs:date</td>
-<td align="left">"2019-01-01"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:cuepoint[</em>]</td>
-<td align="left">Identifies the cue point in seconds offset. Cue points are time instances where an ad can be inserted in the video</td>
-<td align="left">xs:float</td>
-<td align="left">60.320</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:keyword[</em>]</td>
-<td align="left">Highly relevant keywords describing the media object. Max 10 elements. amg:keyword is unlooped representation of media:keywords. Ref: <a href="https://www.rssboard.org/media-rss#media-keywords">https://www.rssboard.org/media-rss#media-keywords</a></td>
-<td align="left">xs:string</td>
-<td align="left">"prison"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:episodeNumber</td>
-<td align="left">Episode number of an episodic item in the season is season is present otherwise episode number in the series</td>
-<td align="left">xs:integer</td>
-<td align="left">1</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:longDescription</td>
-<td align="left">Long description describing media object</td>
-<td align="left">xs:string</td>
-<td align="left">"movie on stock. Set in time persion 1929-1935"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:longDescription/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
-<td align="left">the language of the longDescription as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:genre[</em>]</td>
-<td align="left">Genre of the media object. <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:genre[</em>]/amg:label</td>
-<td align="left">Label of the genre which is the same as the corresponding skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Drama"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:externalId[</em>]</td>
-<td align="left">Standard external ID of an asset as defined by 3<sup>rd</sup> party orgs like imdb eidr etc.</td>
-<td align="left">xs:string</td>
-<td align="left">"tt3501074"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:externalId[</em>]/amg:idType</td>
-<td align="left">IRI as defined in <a href="https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf">https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf</a></td>
-<td align="left">xs:anuUri</td>
-<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid">https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:description</td>
-<td align="left">Short description of the media object</td>
-<td align="left">xs:string</td>
-<td align="left">"A prison drama"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:description/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
-<td align="left">the language of the description as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-content">https://www.rssboard.org/media-rss#media-content</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/bitrate" title="GitHub User: bitrate">@bitrate</a></td>
-<td align="left">kilobits per second rate of media object</td>
-<td align="left">xs:integer</td>
-<td align="left">"1000"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/duration" title="GitHub User: duration">@duration</a></td>
-<td align="left">the number of seconds the media object plays</td>
-<td align="left">xs:integer</td>
-<td align="left">"1500"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/fileSize" title="GitHub User: fileSize">@fileSize</a></td>
-<td align="left">the number of bytes of the media object</td>
-<td align="left">xs:integer</td>
-<td align="left">"1000000"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/framerate" title="GitHub User: framerate">@framerate</a></td>
-<td align="left">the number of frames per second for the media object</td>
-<td align="left">xs:integer</td>
-<td align="left">"30"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
-<td align="left">the height of the media object</td>
-<td align="left">xs:integer</td>
-<td align="left">"1080"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
-<td align="left">the primary language encapsulated in the media object as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/medium" title="GitHub User: medium">@medium</a></td>
-<td align="left">the type of object that is encased in the media object</td>
-<td align="left" audio="audio" document="document" executable="executable" image="image" video="video">xs:enumeration</td>
-<td align="left">"video"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/type" title="GitHub User: type">@type</a></td>
-<td align="left">the standard MIME type of the object</td>
-<td align="left">xs:string</td>
-<td align="left">"video/mp4"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
-<td align="left">should specify the direct URL to the media object</td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://www.example.com/video.mp4">https://www.example.com/video.mp4</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:content/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
-<td align="left">the width of the media object</td>
-<td align="left">xs:integer</td>
-<td align="left">"1920"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:thumbnail</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-thumbnails">https://www.rssboard.org/media-rss#media-thumbnails</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
-<td align="left">specifies the url of the thumbnail</td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://www.example.com/thumbnail.jpg">https://www.example.com/thumbnail.jpg</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
-<td align="left">specifies the height of the thumbnail</td>
-<td align="left">xs:integer</td>
-<td align="left">"1080"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
-<td align="left">specifies the width of the thumbnail</td>
-<td align="left">xs:integer</td>
-<td align="left">"1920"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:title</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-title">https://www.rssboard.org/media-rss#media-title</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Prison Break"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:title/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
-<td align="left">specifies the language of the title as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/media:credit[</em>]</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-credit">https://www.rssboard.org/media-rss#media-credit</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">"Tom Cruise"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/media:credit[</em>]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:role</td>
-<td align="left">Role as defined in <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:rating</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-rating">https://www.rssboard.org/media-rss#media-rating</a> Rating value will belong to <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:rating/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:label</td>
-<td align="left">specifies the label of the rating which is same as skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a></td>
-<td align="left">xs:string</td>
-<td align="left">"PG-13"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:subTitle</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-subtitle">https://www.rssboard.org/media-rss#media-subtitle</a></td>
-<td align="left">n/a</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:subTitle/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/href" title="GitHub User: href">@href</a></td>
-<td align="left">specifies the url of the subtitle</td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://www.example.com/subtitle.srt">https://www.example.com/subtitle.srt</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:subTitle/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
-<td align="left">specifies the language of the subtitle as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/media:subTitle/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/type" title="GitHub User: type">@type</a></td>
-<td align="left">the standard MIME type of the object</td>
-<td align="left">xs:string</td>
-<td align="left">"text/srt"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights</td>
-<td align="left">Element to express rights associated with the media object</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:rightsEndDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:rightsLink</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
-<td align="left">xs:string</td>
-<td align="left">"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:rightsStartDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:service</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:service/amg:serviceId</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:service/amg:serviceName</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Roku"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:rights/amg:service/amg:serviceType</td>
-<td align="left">Service type</td>
-<td align="left" avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
-<td align="left">"AVOD"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:rights/amg:rightsTerritoryExcludes[</em>]</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:rights/amg:rightsTerritoryIncludes[</em>]</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season</td>
-<td align="left">Element to express season specific information</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:broadcastDate</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
-<td align="left">xs:date</td>
-<td align="left">"2019-01-01"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights</td>
-<td align="left">Element to express rights associated with the media object</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsEndDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsLink</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
-<td align="left">xs:string</td>
-<td align="left">"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsStartDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceId</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceName</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Roku"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:service/amg:serviceType</td>
-<td align="left">Service type</td>
-<td align="left" avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
-<td align="left">"AVOD"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsTerritoryExcludes</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:rights/amg:rightsTerritoryIncludes</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/amg:seasonNumber</td>
-<td align="left">Season number with first season being 1</td>
-<td align="left">xs:integer</td>
-<td align="left">"1"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:title</td>
-<td align="left">Season specific title if any See: <a href="https://www.rssboard.org/media-rss#media-title">https://www.rssboard.org/media-rss#media-title</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Prison Break"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:title/amg:lang</td>
-<td align="left">specifies the language of the season title as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:description</td>
-<td align="left">Short description of the season</td>
-<td align="left">xs:string</td>
-<td align="left">"A prison drama"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:description/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
-<td align="left">the language of the description as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:thumbnail</td>
-<td align="left">Element to declare season thumbnail. Has only attributes and no value</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
-<td align="left">specifies the url of season specific  thumbnail</td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://www.example.com/season1.jpg">https://www.example.com/season1.jpg</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
-<td align="left">specifies the height of the thumbnail</td>
-<td align="left">xs:integer</td>
-<td align="left">"1080"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
-<td align="left">specifies the width of the thumbnail</td>
-<td align="left">xs:integer</td>
-<td align="left">"1920"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:season/media:credit[</em>]</td>
-<td align="left">Season level credit info <a href="https://www.rssboard.org/media-rss#media-credit">https://www.rssboard.org/media-rss#media-credit</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">"Tom Cruise"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:season/media:credit[</em>]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:role</td>
-<td align="left">Role as defined in <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:rating</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-rating">https://www.rssboard.org/media-rss#media-rating</a> Rating value at season level will belong to <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:season/media:rating/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:label</td>
-<td align="left">specifies the label of the rating which is same as skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a></td>
-<td align="left">xs:string</td>
-<td align="left">"PG-13"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series</td>
-<td align="left">Element to express series specific information</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:broadcastDate</td>
-<td align="left">Date when series was aired first. <a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html</a></td>
-<td align="left">xs:date</td>
-<td align="left">"2019-01-01"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:series/amg:keyword[</em>]</td>
-<td align="left">Highly relevant keywords describing the series. Max 10 elements Ref: <a href="https://www.rssboard.org/media-rss#media-keywords">https://www.rssboard.org/media-rss#media-keywords</a></td>
-<td align="left">xs:string</td>
-<td align="left">"prison"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:productionCompany</td>
-<td align="left">Name of the production company or studio</td>
-<td align="left">xs:string</td>
-<td align="left">"Lionsgate"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights</td>
-<td align="left">Element to express rights associated with the media object</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsEndDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsLink</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html</a> This could point to a rightsLine URL</td>
-<td align="left">xs:string</td>
-<td align="left">"<a href="https://rightsline.com/123456">https://rightsline.com/123456</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsStartDateTime</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html</a></td>
-<td align="left">xs:dateTime</td>
-<td align="left">"2019-01-01T00:00:00Z"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_Service.html</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceId</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku">https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceName</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Roku"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:service/amg:serviceType</td>
-<td align="left">Service type</td>
-<td align="left" avod="AVOD" cable="Cable" dth="DTH" svod="SVOD" tvod="TVOD">xs:enumeration</td>
-<td align="left">"AVOD"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsTerritoryExcludes</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/amg:rights/amg:rightsTerritoryIncludes</td>
-<td align="left"><a href="https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html">https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html</a> Value as in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:thumbnail</td>
-<td align="left">Element to declare series thumbnail. Has only attributes and no value</td>
-<td align="left">xs:complexType</td>
-<td align="left">n/a</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/url" title="GitHub User: url">@url</a></td>
-<td align="left">specifies the url of a series thumbnail</td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="https://www.example.com/series.jpg">https://www.example.com/series.jpg</a>"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/height" title="GitHub User: height">@height</a></td>
-<td align="left">specifies the height of the thumbnail</td>
-<td align="left">xs:integer</td>
-<td align="left">"1080"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:thumbnail/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/width" title="GitHub User: width">@width</a></td>
-<td align="left">specifies the width of the thumbnail</td>
-<td align="left">xs:integer</td>
-<td align="left">"1920"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:title</td>
-<td align="left">Series title if any See: <a href="https://www.rssboard.org/media-rss#media-title">https://www.rssboard.org/media-rss#media-title</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Prison Break"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:title/amg:lang</td>
-<td align="left">specifies the language of the series title as defiend in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:description</td>
-<td align="left">Short description of the series</td>
-<td align="left">xs:string</td>
-<td align="left">"A prison drama"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:description/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:lang</td>
-<td align="left">the language of the description as specified in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en">http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:series/amg:genre[</em>]</td>
-<td align="left">Genre of the series <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:series/amg:genre[</em>]/amg:label</td>
-<td align="left">Label of the genre which is the same as the corresponding skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf</a></td>
-<td align="left">xs:string</td>
-<td align="left">"Drama"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:series/media:credit[</em>]</td>
-<td align="left">Series level credit info <a href="https://www.rssboard.org/media-rss#media-credit">https://www.rssboard.org/media-rss#media-credit</a></td>
-<td align="left">xs:complexType</td>
-<td align="left">"Tom Cruise"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:series/media:credit[</em>]/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:role</td>
-<td align="left">Role as defined in <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:series/amg:externalId[</em>]</td>
-<td align="left">Standard external ID of a series as defined by 3<sup>rd</sup> party orgs like imdb eidr etc.</td>
-<td align="left">xs:string</td>
-<td align="left">"tt3501074"</td>
-<td align="left">no</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[<em>]/amg:series/amg:externalId[</em>]/amg:idType</td>
-<td align="left">IRI as defined in <a href="https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf">https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf</a></td>
-<td align="left">xs:anuUri</td>
-<td align="left">"<a href="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid">https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:rating</td>
-<td align="left"><a href="https://www.rssboard.org/media-rss#media-rating">https://www.rssboard.org/media-rss#media-rating</a> Rating value at season level will belong to <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a> See: <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm">https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm</a></td>
-<td align="left">xs:anyUri</td>
-<td align="left">"<a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14</a>"</td>
-<td align="left">yes</td>
-</tr>
-<tr>
-<td align="left">/rss/channel/item[*]/amg:series/media:rating/<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amg" title="GitHub User: amg">@amg</a>:label</td>
-<td align="left">specifies the label of the rating which is same as skos:prefLabel in <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf</a></td>
-<td align="left">xs:string</td>
-<td align="left">"PG-13"</td>
-<td align="left">no</td>
-</tr>
-</tbody>
-</table>
+<p><a href="amgrss_xpaths.html">Link to amgrss csv specification</a></p>
+<!--| xpath                                                               |  description                                                                                                                                                                                                                                             |  valueType                                             |  exampleValues                                                                                                                                                                                                                                                                                                                                      |  mappingRequired   |
+|:--------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
+| /rss                                                                | https://www.rssboard.org/rss-draft-1#element-rss                                                                                                                                                                                                         | n/a                                                    | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel                                                        | https://www.rssboard.org/rss-draft-1#element-channel                                                                                                                                                                                                     | n/a                                                    | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item                                                   | https://www.rssboard.org/rss-draft-1#element-channel-item                                                                                                                                                                                                | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/@amg:itemType                                     | Type of media item. Whether it a feature or an episode of series etc                                                                                                                                                                                     | xs:enumeration {Feature Episode}                       | "Feature"                                                                                                                                                                                                                                                                                                                                           | no                 |
+| /rss/channel/item/amg:lang                                          | Language of the media item as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                                    | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                |
+| /rss/channel/item/amg:assetId                                       | Asset id assigned in the publisher's CMS                                                                                                                                                                                                                 | xs:string                                              | "123456"                                                                                                                                                                                                                                                                                                                                            | no                 |
+| /rss/channel/item/amg:broadcastDate                                 | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html                                                                                                                                                                                | xs:date                                                | "2019-01-01"                                                                                                                                                                                                                                                                                                                                        | yes                |
+| /rss/channel/item/amg:cuepoint                                      | Identifies the cue point in seconds offset. Cue points are time instances where an ad can be inserted in the video. Value you either be SMPTE timecode offset or normal play time offset. Ref: https://www.ietf.org/rfc/rfc2326.txt Section3.5 and 3.6   | xs:string                                              | 60.320                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:segment                                       | Identifies a segment inerval of a media item                                                                                                                                                                                                             | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:segment/@start                                | Start of the segment interval. Value can either be SMPTE timecode offset or normal play time offset. Ref: https://www.ietf.org/rfc/rfc2326.txt Section3.5 and 3.6. Also refer http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#start                | xs:string                                              | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:segment/@end                                  | End of the segment interval. Value can either be SMPTE timecode offset or normal play time offset. Ref: https://www.ietf.org/rfc/rfc2326.txt Section3.5 and 3.6. Also refer http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#end                    | xs:string                                              | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:keyword                                       | Highly relevant keywords describing the media object. Max 10 elements. amg:keyword is unlooped representation of media:keywords. Ref: https://www.rssboard.org/media-rss#media-keywords                                                                  | xs:string                                              | "prison"                                                                                                                                                                                                                                                                                                                                            | no                 |
+| /rss/channel/item/amg:episodeNumber                                 | Episode number of an episodic item in the season is season is present otherwise episode number in the series                                                                                                                                             | xs:integer                                             | 1                                                                                                                                                                                                                                                                                                                                                   | no                 |
+| /rss/channel/item/amg:longDescription                               | Long description describing media object                                                                                                                                                                                                                 | xs:string                                              | "movie on stock. Set in time persion 1929-1935"                                                                                                                                                                                                                                                                                                     | no                 |
+| /rss/channel/item/amg:longDescription/@amg:lang                     | the language of the longDescription as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                           | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                |
+| /rss/channel/item/amg:genre                                         | Genre of the media object. https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm                                                                                                                                                            | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4"                                                                                                                                                                                                                                                                                | yes                |
+| /rss/channel/item/amg:genre/@label                                  | Label of the genre which is the same as the corresponding skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf                                                                                                           | xs:string                                              | "Drama"                                                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/amg:externalId                                    | Standard external ID of an asset as defined by 3rd party orgs like imdb eidr etc.                                                                                                                                                                        | xs:string                                              | "tt3501074"                                                                                                                                                                                                                                                                                                                                         | no                 |
+| /rss/channel/item/amg:externalId/@amg:idType                        | IRI as defined in https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf                                                                                                                                                   | xs:anuUri                                              | "https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid"                                                                                                                                                                                                                                                                                  | yes                |
+| /rss/channel/item/media:description                                 | Short description of the media object                                                                                                                                                                                                                    | xs:string                                              | "A prison drama"                                                                                                                                                                                                                                                                                                                                    | no                 |
+| /rss/channel/item/media:description/@amg:lang                       | the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                               | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                |
+| /rss/channel/item/media:content                                     | https://www.rssboard.org/media-rss#media-content                                                                                                                                                                                                         | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/media:content/@bitrate                            | kilobits per second rate of media object                                                                                                                                                                                                                 | xs:integer                                             | "1000"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/media:content/@duration                           | the number of seconds the media object plays                                                                                                                                                                                                             | xs:integer                                             | "1500"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/media:content/@fileSize                           | the number of bytes of the media object                                                                                                                                                                                                                  | xs:integer                                             | "1000000"                                                                                                                                                                                                                                                                                                                                           | no                 |
+| /rss/channel/item/media:content/@framerate                          | the number of frames per second for the media object                                                                                                                                                                                                     | xs:integer                                             | "30"                                                                                                                                                                                                                                                                                                                                                | no                 |
+| /rss/channel/item/media:content/@height                             | the height of the media object                                                                                                                                                                                                                           | xs:integer                                             | "1080"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/media:content/@amg:lang                           | the primary language encapsulated in the media object as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                         | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/media:content/@medium                             | the type of object that is encased in the media object                                                                                                                                                                                                   | xs:enumeration {image audio video document executable} | "video"                                                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/media:content/@type                               | the standard MIME type of the object                                                                                                                                                                                                                     | xs:string                                              | "video/mp4"                                                                                                                                                                                                                                                                                                                                         | no                 |
+| /rss/channel/item/media:content/@url                                | should specify the direct URL to the media object                                                                                                                                                                                                        | xs:anyUri                                              | "https://www.example.com/video.mp4"                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/media:content/@width                              | the width of the media object                                                                                                                                                                                                                            | xs:integer                                             | "1920"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/media:category                                    | https://www.rssboard.org/media-rss#media-category                                                                                                                                                                                                        | xs:complexType                                         | <media:category scheme="http://search.yahoo.com/mrss/category_ schema">music/artist/album/song</media:category> <media:category scheme="urn:flickr:tags">mobile</media:category> <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_ -_Pet_Detective</media:category> | no                 |
+| /rss/channel/item/media:category/@label                             | specifies a human readable label for display                                                                                                                                                                                                             | xs:string                                              | "Ace Ventura - Pet Detective"                                                                                                                                                                                                                                                                                                                       | no                 |
+| /rss/channel/item/media:category/@scheme                            | specifies the categorization scheme via a URI                                                                                                                                                                                                            | xs:anyUri                                              | "http://dmoz.org"                                                                                                                                                                                                                                                                                                                                   | no                 |
+| /rss/channel/item/media:thumbnail                                   | https://www.rssboard.org/media-rss#media-thumbnails                                                                                                                                                                                                      | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/media:thumbnail/@url                              | specifies the url of the thumbnail                                                                                                                                                                                                                       | xs:anyUri                                              | "https://www.example.com/thumbnail.jpg"                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/media:thumbnail/@height                           | specifies the height of the thumbnail                                                                                                                                                                                                                    | xs:integer                                             | "1080"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/media:thumbnail/@width                            | specifies the width of the thumbnail                                                                                                                                                                                                                     | xs:integer                                             | "1920"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/media:title                                       | https://www.rssboard.org/media-rss#media-title                                                                                                                                                                                                           | xs:string                                              | "Prison Break"                                                                                                                                                                                                                                                                                                                                      | no                 |
+| /rss/channel/item/media:title/@amg:lang                             | specifies the language of the title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                             | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                |
+| /rss/channel/item/media:credit                                      | https://www.rssboard.org/media-rss#media-credit                                                                                                                                                                                                          | xs:complexType                                         | "Tom Cruise"                                                                                                                                                                                                                                                                                                                                        | no                 |
+| /rss/channel/item/media:credit/@amg:role                            | Role as defined in http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm                                                                                                     | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9"                                                                                                                                                                                                                                                                                   | yes                |
+| /rss/channel/item/media:credit/@role                                | Role label as defined in https://www.rssboard.org/media-rss#media-credit                                                                                                                                                                                 | xs:string                                              | "actor"                                                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/media:rating                                      | https://www.rssboard.org/media-rss#media-rating Rating value will belong to https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm                 | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14"                                                                                                                                                                                                                                                                           | yes                |
+| /rss/channel/item/media:rating/@label                               | specifies the label of the rating which is same as skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf                                                                                                            | xs:string                                              | "PG-13"                                                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/media:subTitle                                    | https://www.rssboard.org/media-rss#media-subtitle                                                                                                                                                                                                        | n/a                                                    | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/media:subTitle/@href                              | specifies the url of the subtitle                                                                                                                                                                                                                        | xs:anyUri                                              | "https://www.example.com/subtitle.srt"                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/media:subTitle/@amg:lang                          | specifies the language of the subtitle as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                          | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                |
+| /rss/channel/item/media:subTitle/@type                              | the standard MIME type of the object                                                                                                                                                                                                                     | xs:string                                              | "text/srt"                                                                                                                                                                                                                                                                                                                                          | no                 |
+| /rss/channel/item/amg:rights                                        | Element to express rights associated with the media object                                                                                                                                                                                               | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:rights/amg:rightsEndDateTime                  | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html                                                                                                                                                                            | xs:dateTime                                            | "2019-01-01T00:00:00Z"                                                                                                                                                                                                                                                                                                                              | yes                |
+| /rss/channel/item/amg:rights/amg:rightsLink                         | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html This could point to a rightsLine URL                                                                                                                                              | xs:string                                              | "https://rightsline.com/123456"                                                                                                                                                                                                                                                                                                                     | no                 |
+| /rss/channel/item/amg:rights/amg:rightsStartDateTime                | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html                                                                                                                                                                          | xs:dateTime                                            | "2019-01-01T00:00:00Z"                                                                                                                                                                                                                                                                                                                              | yes                |
+| /rss/channel/item/amg:rights/amg:serviceId                          | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html                                                                                                                                                                                    | xs:anyUri                                              | "https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku"                                                                                                                                                                                                                                                                                        | yes                |
+| /rss/channel/item/amg:rights/amg:serviceName                        | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html                                                                                                                                                                                  | xs:string                                              | "Roku"                                                                                                                                                                                                                                                                                                                                              | yes                |
+| /rss/channel/item/amg:rights/amg:serviceType                        | Service type                                                                                                                                                                                                                                             | xs:enumeration {AVOD SVOD TVOD DTH Cable}              | "AVOD"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:rights/amg:rightsTerritoryExcludes            | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm                                                                                | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"                                                                                                                                                                                                                                                                          | yes                |
+| /rss/channel/item/amg:rights/amg:rightsTerritoryIncludes            | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm                                                                                | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"                                                                                                                                                                                                                                                                          | yes                |
+| /rss/channel/item/amg:season                                        | Element to express season specific information                                                                                                                                                                                                           | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:season/amg:broadcastDate                      | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html                                                                                                                                                                                | xs:date                                                | "2019-01-01"                                                                                                                                                                                                                                                                                                                                        | yes                |
+| /rss/channel/item/amg:season/amg:rights                             | Element to express rights associated with the media object                                                                                                                                                                                               | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:season/amg:rights/amg:rightsEndDateTime       | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html                                                                                                                                                                            | xs:dateTime                                            | "2019-01-01T00:00:00Z"                                                                                                                                                                                                                                                                                                                              | yes                |
+| /rss/channel/item/amg:season/amg:rights/amg:rightsLink              | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html This could point to a rightsLine URL                                                                                                                                              | xs:string                                              | "https://rightsline.com/123456"                                                                                                                                                                                                                                                                                                                     | no                 |
+| /rss/channel/item/amg:season/amg:rights/amg:rightsStartDateTime     | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html                                                                                                                                                                          | xs:dateTime                                            | "2019-01-01T00:00:00Z"                                                                                                                                                                                                                                                                                                                              | yes                |
+| /rss/channel/item/amg:season/amg:rights/amg:serviceId               | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html                                                                                                                                                                                    | xs:anyUri                                              | "https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku"                                                                                                                                                                                                                                                                                        | no                 |
+| /rss/channel/item/amg:season/amg:rights/amg:serviceName             | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html                                                                                                                                                                                  | xs:string                                              | "Roku"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:season/amg:rights/amg:serviceType             | Service type                                                                                                                                                                                                                                             | xs:enumeration {AVOD SVOD TVOD DTH Cable}              | "AVOD"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:season/amg:rights/amg:rightsTerritoryExcludes | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm                                                                                | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"                                                                                                                                                                                                                                                                          | yes                |
+| /rss/channel/item/amg:season/amg:rights/amg:rightsTerritoryIncludes | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm                                                                                | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"                                                                                                                                                                                                                                                                          | yes                |
+| /rss/channel/item/amg:season/amg:seasonNumber                       | Season number with first season being 1                                                                                                                                                                                                                  | xs:integer                                             | "1"                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:season/media:title                            | Season specific title if any See: https://www.rssboard.org/media-rss#media-title                                                                                                                                                                         | xs:string                                              | "Prison Break"                                                                                                                                                                                                                                                                                                                                      | no                 |
+| /rss/channel/item/amg:season/media:title/@amg:lang                  | specifies the language of the season title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                      | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                |
+| /rss/channel/item/amg:season/media:description                      | Short description of the season                                                                                                                                                                                                                          | xs:string                                              | "A prison drama"                                                                                                                                                                                                                                                                                                                                    | no                 |
+| /rss/channel/item/amg:season/media:description/@amg:lang            | the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                               | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                |
+| /rss/channel/item/amg:season/media:thumbnail                        | Element to declare season thumbnail. Has only attributes and no value                                                                                                                                                                                    | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:season/media:thumbnail/@url                   | specifies the url of season specific  thumbnail                                                                                                                                                                                                          | xs:anyUri                                              | "https://www.example.com/season1.jpg"                                                                                                                                                                                                                                                                                                               | no                 |
+| /rss/channel/item/amg:season/media:thumbnail/@height                | specifies the height of the thumbnail                                                                                                                                                                                                                    | xs:integer                                             | "1080"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:season/media:thumbnail/@width                 | specifies the width of the thumbnail                                                                                                                                                                                                                     | xs:integer                                             | "1920"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:season/media:credit                           | Season level credit info https://www.rssboard.org/media-rss#media-credit                                                                                                                                                                                 | xs:complexType                                         | "Tom Cruise"                                                                                                                                                                                                                                                                                                                                        | no                 |
+| /rss/channel/item/amg:season/media:credit/@amg:role                 | Role as defined in http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm                                                                                                     | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9"                                                                                                                                                                                                                                                                                   | yes                |
+| /rss/channel/item/amg:season/media:credit/@role                     | Role label as defined in https://www.rssboard.org/media-rss#media-credit                                                                                                                                                                                 | xs:string                                              | "actor"                                                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/amg:season/media:rating                           | https://www.rssboard.org/media-rss#media-rating Rating value at season level will belong to https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14"                                                                                                                                                                                                                                                                           | yes                |
+| /rss/channel/item/amg:season/media:rating/@label                    | specifies the label of the rating which is same as skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf                                                                                                            | xs:string                                              | "PG-13"                                                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/amg:series                                        | Element to express series specific information                                                                                                                                                                                                           | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:series/amg:broadcastDate                      | Date when series was aired first. https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html                                                                                                                                              | xs:date                                                | "2019-01-01"                                                                                                                                                                                                                                                                                                                                        | yes                |
+| /rss/channel/item/amg:series/amg:keyword                            | Highly relevant keywords describing the series. Max 10 elements Ref: https://www.rssboard.org/media-rss#media-keywords                                                                                                                                   | xs:string                                              | "prison"                                                                                                                                                                                                                                                                                                                                            | no                 |
+| /rss/channel/item/amg:series/amg:productionCompany                  | Name of the production company or studio                                                                                                                                                                                                                 | xs:string                                              | "Lionsgate"                                                                                                                                                                                                                                                                                                                                         | no                 |
+| /rss/channel/item/amg:series/amg:rights                             | Element to express rights associated with the media object                                                                                                                                                                                               | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:series/amg:rights/amg:rightsEndDateTime       | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html                                                                                                                                                                            | xs:dateTime                                            | "2019-01-01T00:00:00Z"                                                                                                                                                                                                                                                                                                                              | yes                |
+| /rss/channel/item/amg:series/amg:rights/amg:rightsLink              | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html This could point to a rightsLine URL                                                                                                                                              | xs:string                                              | "https://rightsline.com/123456"                                                                                                                                                                                                                                                                                                                     | no                 |
+| /rss/channel/item/amg:series/amg:rights/amg:rightsStartDateTime     | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html                                                                                                                                                                          | xs:dateTime                                            | "2019-01-01T00:00:00Z"                                                                                                                                                                                                                                                                                                                              | yes                |
+| /rss/channel/item/amg:series/amg:rights/amg:serviceId               | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceId.html                                                                                                                                                                                    | xs:anyUri                                              | "https://metadata.amagi.tv/skos/amagi_ebu_serviceIdCS#_roku"                                                                                                                                                                                                                                                                                        | no                 |
+| /rss/channel/item/amg:series/amg:rights/amg:serviceName             | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_serviceName.html                                                                                                                                                                                  | xs:string                                              | "Roku"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:series/amg:rights/amg:serviceType             | Service type                                                                                                                                                                                                                                             | xs:enumeration {AVOD SVOD TVOD DTH Cable}              | "AVOD"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:series/amg:rights/amg:rightsTerritoryExcludes | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryExcludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm                                                                                | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"                                                                                                                                                                                                                                                                          | yes                |
+| /rss/channel/item/amg:series/amg:rights/amg:rightsTerritoryIncludes | https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm                                                                                | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"                                                                                                                                                                                                                                                                          | yes                |
+| /rss/channel/item/amg:series/media:thumbnail                        | Element to declare series thumbnail. Has only attributes and no value                                                                                                                                                                                    | xs:complexType                                         | n/a                                                                                                                                                                                                                                                                                                                                                 | no                 |
+| /rss/channel/item/amg:series/media:thumbnail/@url                   | specifies the url of a series thumbnail                                                                                                                                                                                                                  | xs:anyUri                                              | "https://www.example.com/series.jpg"                                                                                                                                                                                                                                                                                                                | no                 |
+| /rss/channel/item/amg:series/media:thumbnail/@height                | specifies the height of the thumbnail                                                                                                                                                                                                                    | xs:integer                                             | "1080"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:series/media:thumbnail/@width                 | specifies the width of the thumbnail                                                                                                                                                                                                                     | xs:integer                                             | "1920"                                                                                                                                                                                                                                                                                                                                              | no                 |
+| /rss/channel/item/amg:series/media:title                            | Series title if any See: https://www.rssboard.org/media-rss#media-title                                                                                                                                                                                  | xs:string                                              | "Prison Break"                                                                                                                                                                                                                                                                                                                                      | no                 |
+| /rss/channel/item/amg:series/media:title/@amg:lang                  | specifies the language of the series title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                      | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                |
+| /rss/channel/item/amg:series/media:description                      | Short description of the series                                                                                                                                                                                                                          | xs:string                                              | "A prison drama"                                                                                                                                                                                                                                                                                                                                    | no                 |
+| /rss/channel/item/amg:series/media:description/@amg:lang            | the language of the description as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                               | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                |
+| /rss/channel/item/amg:series/amg:genre                              | Genre of the series https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm                                                                                                                                                                   | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4"                                                                                                                                                                                                                                                                                | yes                |
+| /rss/channel/item/amg:series/amg:genre/@label                       | Label of the genre which is the same as the corresponding skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf                                                                                                           | xs:string                                              | "Drama"                                                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/amg:series/media:credit                           | Series level credit info https://www.rssboard.org/media-rss#media-credit                                                                                                                                                                                 | xs:complexType                                         | "Tom Cruise"                                                                                                                                                                                                                                                                                                                                        | no                 |
+| /rss/channel/item/amg:series/media:credit/@amg:role                 | Role as defined in http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm                                                                                                     | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9"                                                                                                                                                                                                                                                                                   | yes                |
+| /rss/channel/item/amg:series/media:credit/@role                     | Role label as defined in https://www.rssboard.org/media-rss#media-credit                                                                                                                                                                                 | xs:string                                              | "actor"                                                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/amg:series/amg:externalId                         | Standard external ID of a series as defined by 3rd party orgs like imdb eidr etc.                                                                                                                                                                        | xs:string                                              | "tt3501074"                                                                                                                                                                                                                                                                                                                                         | no                 |
+| /rss/channel/item/amg:series/amg:externalId/@amg:idType             | IRI as defined in https://github.com/amagimedia/metadata/blob/main/skos/amagi_ebu_IdentifierTypeCS.rdf                                                                                                                                                   | xs:anuUri                                              | "https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid"                                                                                                                                                                                                                                                                                  | yes                |
+| /rss/channel/item/amg:series/media:rating                           | https://www.rssboard.org/media-rss#media-rating Rating value at season level will belong to https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_PictureDisplayFormatCodeCS.htm | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode#_14"                                                                                                                                                                                                                                                                           | yes                |
+| /rss/channel/item/amg:series/media:rating/@label                    | specifies the label of the rating which is same as skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf                                                                                                            | xs:string                                              | "PG-13"                                                                                                                                                                                                                                                                                                                                             | no                 |
+| /rss/channel/item/amg:series/media:category                         | https://www.rssboard.org/media-rss#media-category                                                                                                                                                                                                        | xs:complexType                                         | <media:category scheme="http://search.yahoo.com/mrss/category_ schema">music/artist/album/song</media:category> <media:category scheme="urn:flickr:tags">mobile</media:category> <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_ -_Pet_Detective</media:category> | no                 |
+| /rss/channel/item/amg:series/media:category/@label                  | specifies a human readable label for display                                                                                                                                                                                                             | xs:string                                              | "Ace Ventura - Pet Detective"                                                                                                                                                                                                                                                                                                                       | no                 |
+| /rss/channel/item/amg:series/media:category/@scheme                 | specifies the categorization scheme via a URI                                                                                                                                                                                                            | xs:anyUri                                              | "http://dmoz.org"                                                                                                                                                                                                                                                                                                                                   | no                 |
+| /rss/channel/item/amg:series/amg:longDescription                    | Long description describing media object                                                                                                                                                                                                                 | xs:string                                              | "series on stock. Set in time persion 1929-1935"                                                                                                                                                                                                                                                                                                    | no                 |
+| /rss/channel/item/amg:series/amg:longDescription/@amg:lang          | the language of the longDescription as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf                                                                                                                           | xs:anyUri                                              | "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en"                                                                                                                                                                                                                                                                             | yes                | -->
 </article>
 </div>
 </div>

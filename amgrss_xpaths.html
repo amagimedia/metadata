@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table {
+            border-collapse: collapse;
+            border-radius: 5px;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            font-family: "Quicksand", sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        th {
+            background: #009578;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        th,
+        td {
+        padding: 10px 20px;
+        }
+
+        tr:nth-child(even) {
+        background: #eeeeee;
+        }
+    </style>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSV Viewer with HTML, CSS & JavaScript</title>
+
+    </head>
+    <body>
+        <table id="csvRoot"></table>
+      
+      <script src="https://cdn.jsdelivr.net/npm/papaparse@5.2.0/papaparse.min.js"></script>
+      <script src="./table_render.js"></script>
+    </body>
+</html>
