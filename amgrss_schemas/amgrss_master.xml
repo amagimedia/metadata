@@ -40,6 +40,11 @@
             <amg:cuepoint>2700.5</amg:cuepoint>
             <amg:cuepoint>4200.5</amg:cuepoint>
             <amg:cuepoint>5800.5</amg:cuepoint>
+            <amg:segment start="55.5"   end="540.7"/>
+            <amg:segment start="540.7"  end="1400.4"/>
+            <amg:segment start="1400.4" end="2700.5"/>
+            <amg:segment start="2700.5" end="4200.5"/>
+            <amg:segment start="4200.5" end="5800.5"/>
             <amg:broadcastDate>2015</amg:broadcastDate>
         </item>
         <item amg:itemType="Episode">
@@ -120,6 +125,10 @@
             <amg:cuepoint>350.4</amg:cuepoint>
             <amg:cuepoint>900.5</amg:cuepoint>
             <amg:cuepoint>1345.5</amg:cuepoint>
+            <amg:segment start="55.5"   end="140.7"/>
+            <amg:segment start="140.7"  end="350.4"/>
+            <amg:segment start="350.4" end="900.5"/>
+            <amg:segment start="900.5" end="1345.5"/>
         </item>
     </channel>
 </rss>
