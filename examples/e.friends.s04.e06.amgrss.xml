@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Episode">
+            <media:title>The One with the Dirty Girl</media:title>
+
+            <media:description>Ross's new girlfriend is nearly perfect until he discovers her apartment is very dirty. Chandler buys a better birthday present for Kathy than Joey. Phoebe helps Monica cater an event. Rachel is obsessed at finishing a crossword puzzle by herself.</media:description>
+
+            <amg:longDescription>Chandler has gone to extreme trouble to get Kathy the ideal birthday gift, a special edition of her favorite book; Ross points out he can't totally outdo her boyfriend Joey - who didn't even plan to give her anything - so he must get an even cooler gift. Phoebe tells Monica not to turn down a major funeral catering event for lack of equipment and advances the money, but wants it straight back before there's nearly enough profit; so they become active business partners - which proves good, as their first client, a widow, would never have paid without Phoebe's street persistence. Ross' foxy girlfriend Cheryl's flat turns out to be sloppier than a bachelor frat room, and yet she says his place has a weird smell. He is just relieved when the creeping creature he kills in disgust is not her hamster, but 'just a rat'. Since Joey can't find anything better than a pen annex clock, Chandler lets him give the 'Velveteen Rabbit'; fortunately Kathy guesses the truth.</amg:longDescription>
+
+            <amg:keyword>birthday gift</amg:keyword>
+            <amg:keyword>special edition of favorite book</amg:keyword>
+            <amg:keyword>gift</amg:keyword>
+            <amg:keyword>funeral catering event</amg:keyword>
+            <amg:keyword>money advance</amg:keyword>
+            <amg:keyword>profit</amg:keyword>
+            <amg:keyword>business partners</amg:keyword>
+            <amg:keyword>street persistence</amg:keyword>
+            <amg:keyword>girlfriend</amg:keyword>
+            <amg:keyword>sloppy flat</amg:keyword>
+            <amg:keyword>weird smell</amg:keyword>
+            <amg:keyword>creeping creature</amg:keyword>
+            <amg:keyword>pen annex clock</amg:keyword>
+
+            <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+
+            <media:rating label="TV-PG">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.5</media:rating>
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Shelly Jensen</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Scott Silveri</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Paget Brewster</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Rebecca Romijn</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Gretchen Wyler</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">James Michael Tyler</media:credit>
+
+            <amg:broadcastDate>1997-11-06</amg:broadcastDate>
+
+            <amg:episodeNumber>6</amg:episodeNumber> 
+                
+            <amg:assetId>7fe91a74-efc1-4a78-be9b-e1378a81a296</amg:assetId>
+
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0583595</amg:externalId>
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.2">0000-0001-8B45-0061-M-0000-0000-8</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/friends_preview_s04_e06.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="82" 
+                height="470" 
+                width="854" 
+                bitrate="569" 
+                framerate="25"
+                fileSize="5860775"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s04_e06.png"
+                height="480" 
+                width="640"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s04_e06.webp"
+                height="480" 
+                width="640"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s04_e06.en.vtt"/>
+
+            <media:subTitle 
+                type="text/srt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s04_e06.en.srt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+
+            <amg:season> 
+                <amg:seasonNumber>4</amg:seasonNumber>
+                <media:title>Friends Season 4</media:title>
+                <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">David Crane</media:credit>
+                <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Marta Kauffman</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Courteney Cox</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Lisa Kudrow</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matt LeBlanc</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">David Schwimmer</media:credit>
+            </amg:season>
+
+            <amg:series> 
+                <media:title>Friends</media:title>
+                <media:description>It's about sex, love, relationships, careers, a time in your life when everything's possible. And it's about friendship because when you're single and in the city, your friends are your family. Episodes depict the friends' comedic and romantic adventures and career issues.</media:description>
+                <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+                <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+                <amg:genre label="Sitcom">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.3</amg:genre>
+            </amg:series> 
+        </item>
+    </channel>
+</rss>

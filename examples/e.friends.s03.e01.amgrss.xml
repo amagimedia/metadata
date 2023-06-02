@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Episode">
+            <media:title>The One with the Princess Leia Fantasy</media:title>
+
+            <media:description>Monica suffers from insomnia and depression following her breakup with Richard. Joey struggles to accept Chandler and Janice's relationship. Ross confides in Rachel about one of his fantasies.</media:description>
+
+            <amg:longDescription>Monica is a wandering zombie after dumping Richard for not sharing her child-wish. Ross confides in Rachel his sexual fantasy is princess Leia's gold bikini in Star Wars, but doesn't appreciate her telling it to blabbermouth Phoebe; when Rachel assures him boys miss out on true bonding because they don't tell each-other intimate details, he tries it with Chandler who brings up a very unfit confidence. As Joey really can't handle the prospect of Chandler not dumping Janice as usual, the two try spending whole 'day of fun' together for their common friend Chandler's sake.</amg:longDescription>
+
+            <amg:keyword>zombie</amg:keyword>
+            <amg:keyword>sexual fantasy</amg:keyword>
+            <amg:keyword>princess Leia's</amg:keyword>
+            <amg:keyword>gold bikini</amg:keyword>
+            <amg:keyword>blabbermouth</amg:keyword>
+            <amg:keyword>true bonding</amg:keyword>
+            <amg:keyword>intimate details</amg:keyword>
+
+            <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+
+            <media:rating label="TV-PG">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.5</media:rating>
+
+            <media:credit role="Producer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.1">Kevin S. Bright</media:credit>
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Gail Mancuso</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">David Crane</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Marta Kauffman</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Micheal Curtis</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Courteney Cox</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Lisa Kudrow</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matt LeBlanc</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">David Schwimmer</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Maggie Wheeler</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Christina Pickles</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Elliott Gould</media:credit>
+                
+            <amg:broadcastDate>1996-09-16</amg:broadcastDate>
+
+            <amg:episodeNumber>1</amg:episodeNumber> 
+                
+            <amg:assetId>8e1abc7a-d708-4b53-9127-9ce024da5e77</amg:assetId>
+
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0583634</amg:externalId>
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.2">0000-0001-8B45-0042-S-0000-0000-R</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/friends_preview_s03_e01.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="60" 
+                height="1080" 
+                width="1920" 
+                bitrate="1642" 
+                framerate="23.98"
+                fileSize="13452605"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s01_e01.png"
+                height="480" 
+                width="640"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s01_e01.webp"
+                height="480" 
+                width="640"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s03_e01.en.vtt"/>
+
+            <media:subTitle 
+                type="text/srt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s03_e01.en.srt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+
+            <amg:season> 
+                <amg:seasonNumber>3</amg:seasonNumber>
+                <media:title>Friends Season 3</media:title>
+            </amg:season>
+
+            <amg:series> 
+                <media:title>Friends</media:title>
+                <media:description>It's about sex, love, relationships, careers, a time in your life when everything's possible. And it's about friendship because when you're single and in the city, your friends are your family. Episodes depict the friends' comedic and romantic adventures and career issues.</media:description>
+                <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+                <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+                <amg:genre label="Sitcom">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.3</amg:genre>
+            </amg:series> 
+        </item>
+    </channel>
+</rss>

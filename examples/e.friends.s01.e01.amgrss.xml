@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Episode">
+            <media:title>The One Where Monica Gets a Roommate</media:title>
+
+            <media:description>Monica and the gang introduce Rachel to the "real world" after she leaves her fiancé at the altar.</media:description>
+
+            <amg:longDescription>In a New York City coffee house called Central Perk, we're introduced to six friends: chef Monica Geller, data controller Chandler Bing who lives across the hall from Monica, Chandler's roommate/actor Joey Tribbiani, Monica's brother Ross Geller, new ageist Phoebe Buffay, and "born to be a wife" Rachel Green. One of the friends is just getting into a relationship and two are just getting out of one each. Monica is in the former category, going on a real/not-so-real date, dates with guys she's interested in being a rare occurrence. But she is excited by her upcoming one with Paul the Wine Guy from her place of work. Out on their date, their intimate conversation includes the fact that trauma from his last relationship has left him sexually incapable, something that only the right woman like Monica can fix, and she apparently does. Later however she finds that it was just a line to get her into bed, and thus her streak with the "wrong guy" continues. Ross is one of the two in the getting out of a relationship category. He and his ex-wife Carol broke up when she found out she was a lesbian. However waltzing into town is his old crush and Monica's best friend from high school Rachel, who is the second friend on a break-up: she has just left her fiancé Barry at the altar, she still in her wedding dress when she first shows up at the coffee house. This move was based on the fact that she realized she was more interested in being married than in being with Mr. Potato Head lookalike Barry. She and Monica had not seen each other since high school, she turning to Monica now since Monica is the only person she knows in the city. Rachel barges into Monica's life since she has no skills, no job and no money - up to this point in her life, she has lived off the wealth of her father - but needs to flee the direction of her life with Barry and her parents. Although she now has a place to stay with Monica, she needs a job and she needs a new support network. As old flames die slow and reignite easily, Ross hopes to be one of her more intimate supports</amg:longDescription>
+
+            <amg:keyword>new roommate</amg:keyword>
+            <amg:keyword>wedding dress</amg:keyword>
+            <amg:keyword>bride</amg:keyword>
+            <amg:keyword>wedding day</amg:keyword>
+
+            <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+
+            <media:rating label="TV-PG">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.5</media:rating>
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">James Burrows</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">David Crane</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Marta Kauffman</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Courteney Cox</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Lisa Kudrow</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matt LeBlanc</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">David Schwimmer</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">John Allen Nelson </media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Clea Lewis</media:credit>
+            <media:credit role="Composer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_17.1.7">Jackson Browne</media:credit>
+                
+            <amg:broadcastDate>1994-09-22</amg:broadcastDate>
+
+            <amg:episodeNumber>1</amg:episodeNumber> 
+                
+            <amg:assetId>a835721c-44d2-470a-8983-47a195add99e</amg:assetId>
+
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0583459</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/friends_preview_s01_e01.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="95" 
+                height="1080" 
+                width="1920" 
+                bitrate="2597" 
+                framerate="30"
+                fileSize="32525048"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s01_e01.webp"
+                height="720" 
+                width="1280"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s01_e01.en.vtt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+
+            <amg:season> 
+                <amg:seasonNumber>1</amg:seasonNumber>
+                <media:title>Friends Season 1</media:title>
+            </amg:season>
+
+            <amg:series> 
+                <media:title>Friends</media:title>
+                <media:description>It's about sex, love, relationships, careers, a time in your life when everything's possible. And it's about friendship because when you're single and in the city, your friends are your family. Episodes depict the friends' comedic and romantic adventures and career issues.</media:description>
+                <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+                <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+                <amg:genre label="Sitcom">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.3</amg:genre>
+            </amg:series> 
+
+
+        </item>
+    </channel>
+</rss>

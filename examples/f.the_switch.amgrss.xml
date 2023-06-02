@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Feature">
+            <media:title>The Switch</media:title>
+
+            <media:description>Seven years after the fact, a man comes to the realization that he was the sperm donor for his best friend's boy.</media:description>
+
+            <amg:longDescription>Kassie (Jennifer Aniston) and Wally (Jason Bateman) are best friends. Being unlucky in love, Kassie has decided to have a child using artificial insemination. Wally doesn't like this idea, but he isn't capable of admitting to himself, let alone to Kassie, that he's in love with her. At Kassie's artificial insemination party, Wally gets very drunk and spies the sperm donor's sample in the bathroom. Wally was way too drunk to know what he did that night, and Kassie has moved away because she doesn't feel that New York City is a place to raise a child. Now 7 years later, Kassie has moved back with her son Sebastian. While she is looking to get Roland (the sperm donor) more involved in their lives, Wally can't help but notice the many striking similarities that he and Sebastian share.</amg:longDescription>
+
+            <amg:keyword>artificial insemination</amg:keyword>
+            <amg:keyword>best friend</amg:keyword>
+            <amg:keyword>father son relationship</amg:keyword>
+            <amg:keyword>male female friendship</amg:keyword>
+            <amg:keyword>mother son relationship</amg:keyword>
+            <amg:keyword>new york city</amg:keyword>
+            <amg:keyword>sperm donor</amg:keyword>
+            <amg:keyword>striking similarity</amg:keyword>
+
+            <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
+            <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+
+            <media:rating label="12A">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_36.1.3</media:rating>
+
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Josh Gordon</media:credit>
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Will Spec</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Jeffrey Eugenides</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Allan Loeb</media:credit>
+            <media:credit role="Composer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_17.1.7">Alex Wurman</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jason Bateman</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Patrick Wilson</media:credit>
+                
+            <amg:broadcastDate>2010-08-19</amg:broadcastDate>
+                
+            <amg:assetId>81971dcc-06b3-4f2f-abc6-a0ecb148f578</amg:assetId>
+            
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0889573</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/the_switch_movie_trailer.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="151" 
+                height="720" 
+                width="1280" 
+                bitrate="924" 
+                framerate="23.98"
+                fileSize="19955803"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/the_switch_movie_trailer.jpg"
+                height="360" 
+                width="480"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/the_switch_movie_trailer.en.vtt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+        </item>
+    </channel>
+</rss>

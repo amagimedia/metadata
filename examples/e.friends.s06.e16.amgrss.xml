@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Episode">
+            <media:title>The One That Could Have Been - Part II</media:title>
+
+            <media:description>The gang continue to think about how different their lives could have been.</media:description>
+
+            <amg:longDescription>In the continuing imagination, fat Monica dates pedantic Dr. Roger again without result. She exchanges desperate conquest talk with Chandler. Ross still doesn't get it even when Carol is courted by Susan at his place. Rachel almost cheats on her husband with star Joey. Workaholic Phoebe slips out of hospital only to hear she was just fired.</amg:longDescription>
+
+            <amg:keyword>
+            </amg:keyword>
+                imagination
+            <amg:keyword>
+            </amg:keyword>
+                dating
+            <amg:keyword>
+            </amg:keyword>
+                pedantic 
+            <amg:keyword>
+            </amg:keyword>
+                conquest talk 
+            <amg:keyword>
+            </amg:keyword>
+                courting 
+            <amg:keyword>
+            </amg:keyword>
+                cheats on her husband 
+            <amg:keyword>
+            </amg:keyword>
+                workaholic
+            <amg:keyword>
+            </amg:keyword>
+                hospital
+            <amg:keyword>
+            </amg:keyword>
+                fired from work
+
+            <amg:keyword>dancer</amg:keyword>
+            <amg:keyword>Australia</amg:keyword>
+            <amg:keyword>jogging</amg:keyword>
+            <amg:keyword>runs like an elephant</amg:keyword>
+            <amg:keyword>embarrassing</amg:keyword>
+            <amg:keyword>flirt</amg:keyword>
+            <amg:keyword>complicated</amg:keyword>
+            <amg:keyword>furniture</amg:keyword>
+            <amg:keyword>repel</amg:keyword>
+            <amg:keyword>doesn't care about people staring</amg:keyword>
+
+            <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+
+            <media:rating label="TV-PG">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.5</media:rating>
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Gary Halvorson</media:credit> 
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Sherry Bilsing</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Elle Macpherson</media:credit>
+
+
+            <amg:broadcastDate>1999-11-11</amg:broadcastDate>
+
+            <amg:episodeNumber>7</amg:episodeNumber> 
+                
+            <amg:assetId>cb2614d3-edf7-4333-b19e-a8b4db02dccb</amg:assetId>
+
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0583468</amg:externalId>
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.2">0000-0001-8B45-008C-R-0000-0000-U</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/friends_preview_s06_e07.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="46" 
+                height="1080" 
+                width="1920" 
+                bitrate="3442" 
+                framerate="30"
+                fileSize="20053404"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s06_e07.png"
+                height="720" 
+                width="1280"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s06_e07.webp"
+                height="720" 
+                width="1280"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s06_e07.en.vtt"/>
+
+            <media:subTitle 
+                type="text/srt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s06_e07.en.srt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+
+            <amg:season> 
+                <amg:seasonNumber>6</amg:seasonNumber>
+
+                <media:title>Friends Season 6</media:title>
+            </amg:season>
+
+            <amg:series> 
+                <media:title>Friends</media:title>
+
+                <media:description>It's about sex, love, relationships, careers, a time in your life when everything's possible. And it's about friendship because when you're single and in the city, your friends are your family. Episodes depict the friends' comedic and romantic adventures and career issues.</media:description>
+
+                <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+                <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+                <amg:genre label="Sitcom">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.3</amg:genre>
+
+                <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">David Crane</media:credit>
+                <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Marta Kauffman</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Courteney Cox</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Lisa Kudrow</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matt LeBlanc</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">David Schwimmer</media:credit>
+            </amg:series> 
+        </item>
+    </channel>
+</rss>

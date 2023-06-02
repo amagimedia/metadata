@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Feature">
+            <media:title>Birds of America</media:title>
+
+            <media:description>A regular guy struggles with a repressive home and professional life, as well as making amends for the trouble his free-spirited brother and sister cause about town.</media:description>
+
+            <amg:longDescription>When Morrie was a teenager, his parents died, leaving him a house, an irritable bowel, and siblings Jay and Ida to raise. Jump ahead 20 years: Jay is homeless, fits poorly into society, and was recently injured; Ida is jobless and sleeps with strangers; Morrie is married to the long-suffering Betty who is waiting for Morrie to get tenure before having children. They constantly have to kiss up to their holier-than-thou neighbors, one of whom is Morrie's department head. Morrie brings Jay home to recover, Ida decides to visit, the siblings make the neighbors ill at ease, a strange woman visits, and the cops want to talk to Jay. What about Morrie's irritated bowels?</amg:longDescription>
+
+
+            <amg:keyword>teenager</amg:keyword>
+            <amg:keyword>irritable bowel</amg:keyword>
+            <amg:keyword>siblings</amg:keyword>
+            <amg:keyword>homeless</amg:keyword>
+            <amg:keyword>jobless </amg:keyword>
+            <amg:keyword>long-suffering</amg:keyword>
+            <amg:keyword>holier-than-thou neighbors</amg:keyword>
+            <amg:keyword>recover</amg:keyword>
+            <amg:keyword>strange woman visits</amg:keyword>
+            <amg:keyword>cops</amg:keyword>
+
+
+            <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
+
+            <media:rating label="R">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.4</media:rating>
+
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Craig Lucas</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Elsie Friedman</media:credit>
+            <media:credit role="Composer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_17.1.7">Ahrin Mishan</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Ben Foster</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Ginnifer Goodwin</media:credit>
+                
+            <amg:broadcastDate>2008</amg:broadcastDate>
+                
+            <amg:assetId>e9c118a7-466d-4501-9920-cb923c206731</amg:assetId>
+            
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt1029134</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/birds_of_america_movie_trailer.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="76" 
+                height="360" 
+                width="640" 
+                bitrate="284" 
+                framerate="29.90"
+                fileSize="3917495"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/birds_of_america_movie_trailer.jpg"
+                height="360" 
+                width="480"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/birds_of_america_movie_trailer.en.vtt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+        </item>
+    </channel>
+</rss>

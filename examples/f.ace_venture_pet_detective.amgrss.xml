@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Feature">
+            <media:title>Ace Ventura: Pet Detective</media:title>
+
+            <media:description>A goofy detective specializing in animals goes in search of the missing mascot of the Miami Dolphins.</media:description>
+
+            <amg:longDescription>To be a Pet Detective, you have to understand both the criminals and animals. Ace Ventura goes even further... He behaves like a criminal animal. When a football team's mascot (a dolphin) is stolen just before the Superbowl, Ace Ventura is put on the case. Now, who would want to steal a dolphin, and why?</amg:longDescription>
+
+            <amg:keyword>nudity</amg:keyword>
+            <amg:keyword>stupidity</amg:keyword>
+            <amg:keyword>detective</amg:keyword>
+            <amg:keyword>master dog relationship</amg:keyword>
+            <amg:keyword>detective as protagonist</amg:keyword>
+            <amg:keyword>dolphin</amg:keyword>
+            <amg:keyword>shark</amg:keyword>
+            <amg:keyword>catching a bullet in one's teeth</amg:keyword>
+            <amg:keyword>farce</amg:keyword>
+            <amg:keyword>police</amg:keyword>
+            <amg:keyword>private detective</amg:keyword>
+            <amg:keyword>immature adult</amg:keyword>
+            <amg:keyword>kidnapping</amg:keyword>
+            <amg:keyword>underwear</amg:keyword>
+            <amg:keyword>undercover</amg:keyword>
+            <amg:keyword>sex scene</amg:keyword>
+            <amg:keyword>male rear nudity</amg:keyword>
+            <amg:keyword>panties</amg:keyword>
+            <amg:keyword>male nudity</amg:keyword>
+            <amg:keyword>obscene finger gesture</amg:keyword>
+
+            <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:genre label="American Football">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.3.1</amg:genre>
+
+            <media:rating label="12">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_36.1.3</media:rating>
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Tom Shadyac</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Jack Bernstein</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Tom Shadyac</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Jim Carrey</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jim Carrey</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Courteney Cox</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Sean Young</media:credit>
+
+            <amg:broadcastDate>1994-02-04</amg:broadcastDate>
+                
+            <amg:assetId>cefdfa3d-11ed-4eee-8d61-1052f28fa6eb</amg:assetId>
+
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0109040</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/ace_ventura_pet_detactive_movie_trailer.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="136" 
+                height="1080" 
+                width="1920" 
+                bitrate="2237" 
+                framerate="23.98"
+                fileSize="40226340"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/ace_ventura_pet_detactive_movie_trailer.webp"
+                height="720" 
+                width="1280"/>
+
+            <!--TODO
+            <media:subTitle> : deliberately left off
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+        </item>
+    </channel>
+</rss>
