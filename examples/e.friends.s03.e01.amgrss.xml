@@ -26,12 +26,6 @@
             <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">David Crane</media:credit>
             <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Marta Kauffman</media:credit>
             <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Micheal Curtis</media:credit>
-            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
-            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Courteney Cox</media:credit>
-            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Lisa Kudrow</media:credit>
-            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matt LeBlanc</media:credit>
-            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
-            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">David Schwimmer</media:credit>
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Maggie Wheeler</media:credit>
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Christina Pickles</media:credit>
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Elliott Gould</media:credit>
@@ -90,11 +84,21 @@
             </amg:season>
 
             <amg:series> 
+
                 <media:title>Friends</media:title>
+
                 <media:description>It's about sex, love, relationships, careers, a time in your life when everything's possible. And it's about friendship because when you're single and in the city, your friends are your family. Episodes depict the friends' comedic and romantic adventures and career issues.</media:description>
+
                 <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
                 <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
                 <amg:genre label="Sitcom">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.3</amg:genre>
+
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Courteney Cox</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Lisa Kudrow</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matt LeBlanc</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">David Schwimmer</media:credit>
             </amg:series> 
         </item>
     </channel>

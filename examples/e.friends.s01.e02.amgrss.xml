@@ -38,8 +38,6 @@
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Anita Barone</media:credit>
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jessica Hecht</media:credit>
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Mitchell Whitfield</media:credit>
-            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">
-
             <media:credit role="Art Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_5.3.1">John Shaffner</media:credit>
                 
             <amg:broadcastDate>1994-09-29</amg:broadcastDate>
