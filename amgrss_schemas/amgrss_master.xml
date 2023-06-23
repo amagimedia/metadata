@@ -40,6 +40,11 @@
             <amg:cuepoint>2700.5</amg:cuepoint>
             <amg:cuepoint>4200.5</amg:cuepoint>
             <amg:cuepoint>5800.5</amg:cuepoint>
+            <amg:segment start="55.5"   end="540.7"/>
+            <amg:segment start="540.7"  end="1400.4"/>
+            <amg:segment start="1400.4" end="2700.5"/>
+            <amg:segment start="2700.5" end="4200.5"/>
+            <amg:segment start="4200.5" end="5800.5"/>
             <amg:broadcastDate>2015</amg:broadcastDate>
         </item>
         <item amg:itemType="Episode">
@@ -48,6 +53,7 @@
             <amg:keyword>drama</amg:keyword>
             <amg:keyword>licensed</amg:keyword>
             <amg:keyword>comedy</amg:keyword>
+            <amg:lang>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_en</amg:lang>
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
             <amg:genre label="broken comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
             <amg:longDescription>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</amg:longDescription>
@@ -101,6 +107,8 @@
                 <media:category>black comedy</media:category>
                 <media:category>comedy drama</media:category>
                 <media:category>satire</media:category>
+                <amg:longDescription>Comedian Richard Ayoade travels the globe with his famous friends and enjoys the well-known attractions as well as less familiar ones in each city he stops in.</amg:longDescription>
+                <amg:longDescription amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr">L'humoriste Richard Ayoade parcourt le monde avec ses célèbres amis et profite des attractions connues comme des attractions moins familières dans chaque ville où il s'arrête.</amg:longDescription>
                 <amg:rights>
                     <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
                     <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
@@ -117,6 +125,10 @@
             <amg:cuepoint>350.4</amg:cuepoint>
             <amg:cuepoint>900.5</amg:cuepoint>
             <amg:cuepoint>1345.5</amg:cuepoint>
+            <amg:segment start="55.5"   end="140.7"/>
+            <amg:segment start="140.7"  end="350.4"/>
+            <amg:segment start="350.4" end="900.5"/>
+            <amg:segment start="900.5" end="1345.5"/>
         </item>
     </channel>
 </rss>
