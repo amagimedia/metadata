@@ -420,7 +420,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_3.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">PG</skos:altLabel>
       <skos:prefLabel xml:lang="en">Parental Guidance</skos:prefLabel>
       <skos:definition xml:lang="en">PG classified films and computer games may contain material
          that needs to be explained to children therefore parental guidance is recommended. The
@@ -1263,7 +1263,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_9.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">PG</skos:altLabel>
       <skos:prefLabel xml:lang="en">Parental Guidance</skos:prefLabel>
       <skos:definition xml:lang="en">Parental guidance advised. Theme or content may not be suitable
          for all children.</skos:definition>
@@ -1378,7 +1378,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_10.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">PG</skos:altLabel>
       <skos:prefLabel xml:lang="en">Parental Guidance</skos:prefLabel>
       <skos:definition xml:lang="en">Parental guidance advised. Theme or content may not be suitable
          for all children.</skos:definition>
@@ -1591,7 +1591,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_12.4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">PG</skos:altLabel>
       <skos:prefLabel xml:lang="en">Parental Guidance</skos:prefLabel>
       <skos:definition xml:lang="en">This programming, while intended for a general audience, may
          not be suitable for younger children (under the age of 8). Parents/guardians should be
@@ -1977,7 +1977,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_16.1.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">PG</skos:altLabel>
       <skos:prefLabel xml:lang="en">Parental Guidance</skos:prefLabel>
       <skos:definition xml:lang="en">Programmes classified "PG" may contain adult themes or concepts
          but must remain suitable for children to watch under the guidance of a parent or
@@ -4658,7 +4658,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_36.1.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">PG</skos:altLabel>
       <skos:prefLabel xml:lang="en">Parental Guidance</skos:prefLabel>
       <skos:definition xml:lang="en">the themes or content of the film may not, in the opinion of
          the board, be suitable for all children.</skos:definition>
@@ -5170,7 +5170,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_39.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">PG</skos:altLabel>
       <skos:prefLabel xml:lang="en">Parental Guidance</skos:prefLabel>
       <skos:definition xml:lang="en">Parental guidance recommended for younger viewers (awarded by
          the Film and Video Labelling Body and the Office of Film and Literature
@@ -5788,7 +5788,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_45.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">PG</skos:altLabel>
       <skos:prefLabel xml:lang="en">Parental Guidance</skos:prefLabel>
       <skos:definition xml:lang="en">Parental supervision is advised</skos:definition>
       <skos:broader
@@ -6693,7 +6693,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">PG</skos:altLabel>
       <skos:prefLabel xml:lang="en">Parental Guidance</skos:prefLabel>
       <skos:definition xml:lang="en">Parental guidance suggested. Theme or content may not be
          suitable for children.</skos:definition>
