@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://search.yahoo.com/mrss/" attributeFormDefault="unqualified" elementFormDefault="qualified"
-           targetNamespace="http://search.yahoo.com/mrss/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:import schemaLocation="schema2.xsd" namespace="http://www.amagi.com/amgrss/" />
-    <xs:import schemaLocation="schema0.xsd"/>
+  targetNamespace="http://search.yahoo.com/mrss/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema2.xsd" namespace="http://www.amagi.com/amgrss/" />
+  <xs:import schemaLocation="schema0.xsd"/>
 
-    <xs:simpleType name="myString">
-        <xs:restriction base="xs:string">
-            <xs:minLength value="1"/>
-        </xs:restriction>
-    </xs:simpleType>
+  <xs:simpleType name="myString">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-    <xs:element name="title">
-        <xs:complexType>
-            <xs:simpleContent>
-                <xs:extension base="tns:myString">
-                    <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
-                </xs:extension>
-            </xs:simpleContent>
-        </xs:complexType>
-    </xs:element>
+  <xs:element name="title">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="tns:myString">
+          <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
 
-    <xs:element name="description">
-        <xs:complexType>
-            <xs:simpleContent>
-                <xs:extension base="tns:myString">
-                    <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional" />
-                </xs:extension>
-            </xs:simpleContent>
-        </xs:complexType>
-    </xs:element>
+  <xs:element name="description">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="tns:myString">
+          <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:lang" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+
+    <!-- TODO: add xs:restriction on alternate media:descrption elements to have an amg:lang attribute with EBU core LanguageCode IRI value -->
+    <xs:annotation>
+      <xs:appinfo>
+        Descriptions in additional languages need amg:lang attribute with an EBU core LanguageCode IRI value
+      </xs:appinfo>
+      <xs:documentation>
+        Multiple description elements are allowed, one per language specified with amg:lang attribute. This attribute must be a valid EBU core LanguageCode IRI such as "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCode#_fr".
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
 
     <xs:element name="category">
         <xs:complexType>
@@ -104,6 +114,7 @@
     <xs:element name="group">
         <xs:complexType>
             <xs:sequence>
+              <!-- TODO: media:content element - add restrictions for url/medium/duration/height/width/fileSize/amg:lang/type/bitrate/framerate attributes -->
                 <xs:element name="content" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:attribute name="url" type="tns:myString" use="required"/>
