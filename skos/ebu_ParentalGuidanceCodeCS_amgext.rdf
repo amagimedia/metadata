@@ -8752,7 +8752,7 @@
    </rdf:Description>
        
 
-   <!-- defaultSchemesList: Default PG Schemes Collection -->
+   <!-- defaultSchemesList: Default PG Schemes List -->
 
   <rdf:Description rdf:nodeID="genid1">
     <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_31"/>
