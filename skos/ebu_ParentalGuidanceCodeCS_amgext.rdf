@@ -8750,4 +8750,57 @@
       <skos:historyNote/>
       <skos:example/>
    </rdf:Description>
+       
+
+   <!-- defaultSchemesList: Default PG Schemes Collection -->
+
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:rest rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <rdf:rest rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid4">
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid4">
+    <rdf:rest rdf:nodeID="genid3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid5">
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid5">
+    <rdf:rest rdf:nodeID="genid4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid6">
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid6">
+    <rdf:rest rdf:nodeID="genid5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#defaultSchemesList">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#OrderedCollection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#defaultSchemesList">
+    <rdfs:label xml:lang="en">Default PG Schemes List</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#defaultSchemesList">
+    <skos:definition xml:lang="en">The ordered list of Parental Guidance top concepts to be considered when no scheme is provided for a rating</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#defaultSchemesList">
+    <skos:memberList rdf:nodeID="genid6"/>
+  </rdf:Description>
+       
 </rdf:RDF>
