@@ -153,6 +153,8 @@
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_65"/>
       <skos:hasTopConcept
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_66"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_67"/>
    </rdf:Description>
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_1">
@@ -3324,6 +3326,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">GB-BBFC</skos:prefLabel>
+      <skos:altLabel xml:lang="en">www.bbfc.co.uk</skos:altLabel>
       <skos:scopeNote xml:lang="">Region:Britain</skos:scopeNote>
       <skos:definition xml:lang="en">British Board of Film Classification</skos:definition>
       <skos:inScheme
@@ -6754,6 +6757,21 @@
       <skos:hiddenLabel xml:lang="en">adult</skos:hiddenLabel>
    </rdf:Description>
    <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.6">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">NR</skos:prefLabel>
+      <skos:altLabel xml:lang="en">UR</skos:altLabel>
+      <skos:definition xml:lang="en">Not rated or Unrated</skos:definition>
+      <skos:broader
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48"/>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
+      <skos:changeNote xml:lang=""/>
+      <skos:historyNote/>
+      <skos:example/>
+      <skos:hiddenLabel xml:lang="en">adult</skos:hiddenLabel>
+   </rdf:Description>
+   <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_49">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">US-RIAA</skos:prefLabel>
@@ -6789,6 +6807,7 @@
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">US-TVPG</skos:prefLabel>
       <skos:altLabel xml:lang="en">V-Chip</skos:altLabel>
+      <skos:altLabel xml:lang="en">USA_PR</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:United States</skos:scopeNote>
       <skos:definition xml:lang="en">The TV Parental Guidelines</skos:definition>
       <skos:inScheme
@@ -8750,6 +8769,44 @@
       <skos:changeNote xml:lang=""/>
       <skos:historyNote/>
       <skos:example/>
+   </rdf:Description>
+
+   <!-- for urn:simple see https://validator.w3.org/feed/docs/error/InvalidMediaRating.html -->
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_67">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">simple</skos:prefLabel>
+      <skos:definition xml:lang="en"/>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
+      <skos:narrower
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_67.1"/>
+      <skos:narrower
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_67.2"/>
+      <skos:historyNote>2023-07-13</skos:historyNote>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_67.1">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">nonadult</skos:prefLabel>
+      <skos:altLabel xml:lang="en">family</skos:altLabel>
+      <skos:altLabel xml:lang="en">children</skos:altLabel>
+      <skos:definition xml:lang="en">Viewing for all ages</skos:definition>
+      <skos:broader
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_67"/>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
+   </rdf:Description>
+   <rdf:Description
+      rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_67.2">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">adult</skos:prefLabel>
+      <skos:definition xml:lang="en">Only for adult viewing</skos:definition>
+      <skos:broader
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_67"/>
+      <skos:inScheme
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
    </rdf:Description>
        
 
