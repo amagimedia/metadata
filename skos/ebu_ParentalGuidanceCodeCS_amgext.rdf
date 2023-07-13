@@ -504,6 +504,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">AU-ACMA</skos:prefLabel>
+      <skos:altLabel xml:lang="en">www.acma.gov.au</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Australia</skos:scopeNote>
       <skos:definition xml:lang="en">Australian Communications and Media Authority</skos:definition>
       <skos:inScheme
@@ -1527,6 +1528,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_12">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">CA-CBSC-CCNR-English and third-languages</skos:prefLabel>
+      <skos:altLabel xml:lang="en">www.cbsc.ca</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Canada</skos:scopeNote>
       <skos:definition xml:lang="en">Ratings Classification for Canadian English-Language and
          Third-Language Broadcasters</skos:definition>
@@ -2380,6 +2382,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">DE-FSK</skos:prefLabel>
+      <skos:altLabel xml:lang="en">www.fsk.de</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Germany</skos:scopeNote>
       <skos:definition xml:lang="en">Voluntary Self-Control of the Film Business'
          rating</skos:definition>
