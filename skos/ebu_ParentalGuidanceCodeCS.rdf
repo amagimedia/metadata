@@ -6778,6 +6778,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">US-TVPG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">V-Chip</skos:altLabel>
       <skos:definition xml:lang="en">United States</skos:definition>
       <skos:definition xml:lang="en">The TV Parental Guidelines</skos:definition>
       <skos:inScheme
