@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Feature">
+            <media:title>The Ron Clark Story</media:title>
+
+            <media:description>A small-town teacher relocates to one of the toughest classrooms in the country.</media:description>
+
+            <amg:longDescription>Ron Clark, still relatively early in his career, leaves his stable life teaching at an elementary school in his suburban North Carolina hometown, the school where he is appreciated by both his fellow teachers and his students for his innovative teaching methods which results in raising test scores. Instead, he decides to look for a teaching job at a tough New York inner city school where he feels he can be more useful. He eventually finds a job at Inner Harlem Elementary School, where the students are segregated according to their potential. As Clark is white and "nice" looking, Principal Turner wants to assign him to the honors class, especially as Turner's job security depends on good test scores. Clark, however, wants to take the most disadvantaged class. He quickly learns that it will be a battle of wills between himself and his disruptive students to see who can outlast the other. But he also learns that he has to understand them, both individually and collectively, on their level to be able to get through to them before he can teach them the standardized materials. But even the best laid plans can be turned askew by unforeseen events, such as illness and the behavior of others outside of his control. And he has to overcome the self-fulfilling prophecy of failure to instill a sense of worth within the students. Through it all, he is supported by Marissa Vega, the beautiful waitress at the restaurant where he works part-time.</amg:longDescription>
+
+            <amg:keyword>student</amg:keyword>
+            <amg:keyword>test score</amg:keyword>
+            <amg:keyword>clark</amg:keyword>
+            <amg:keyword>tough new york inner city school</amg:keyword>
+            <amg:keyword>good test score</amg:keyword>
+            <amg:keyword>innovative teaching method</amg:keyword>
+            <amg:keyword>stable life teaching</amg:keyword>
+            <amg:keyword>inner harlem elementary school</amg:keyword>
+            <amg:keyword>suburban north carolina hometown</amg:keyword>
+            <amg:keyword>battle of wills</amg:keyword>
+
+            <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
+            <amg:genre label="Biographical drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.18,Biographical drama</amg:genre>
+
+            <media:rating label="TV-PG">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.5</media:rating>
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Randa Haines</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Ernie Hudson</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Melissa De Sousa</media:credit>
+            <media:credit role="Composer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_17.1.7">Mark Adler</media:credit>
+
+            <amg:broadcastDate>2006</amg:broadcastDate>
+
+            <amg:assetId>8b914e59-93e1-4dbe-a6c7-9d8cd6420d54</amg:assetId>
+
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0473389</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/the_ron_clark_story_movie_trailer.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="160" 
+                height="360" 
+                width="480" 
+                bitrate="368" 
+                framerate="29.97"
+                fileSize="10149203"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/the_ron_clark_story_movie_trailer.webp"
+                height="360" 
+                width="480"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/the_ron_clark_story_movie_trailer.en.vtt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+        </item>
+    </channel>
+</rss>

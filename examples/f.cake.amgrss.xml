@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Feature">
+            <media:title>Cake</media:title>
+
+            <media:description>The acerbic, hilarious Claire Bennett becomes fascinated by the suicide of a woman in her chronic pain support group. As she uncovers the details of Nina's suicide and develops a poignant relationship with Nina's husband, she also grapples with her own, very raw personal tragedy.</media:description>
+
+            <amg:keyword>chronic pain</amg:keyword>
+            <amg:keyword>drug addiction</amg:keyword>
+            <amg:keyword>loneliness</amg:keyword>
+            <amg:keyword>death of wife</amg:keyword>
+            <amg:keyword>suicide attempt</amg:keyword>
+            <amg:keyword>dead child</amg:keyword>
+            <amg:keyword>rear entry sex</amg:keyword>
+            <amg:keyword>dead wife</amg:keyword>
+            <amg:keyword>runaway girl</amg:keyword>
+            <amg:keyword>money</amg:keyword>
+            <amg:keyword>suicide by jumping</amg:keyword>
+            <amg:keyword>crying woman</amg:keyword>
+            <amg:keyword>personal assistant</amg:keyword>
+            <amg:keyword>sex with a gardener</amg:keyword>
+            <amg:keyword>gardener</amg:keyword>
+            <amg:keyword>cake</amg:keyword>
+            <amg:keyword>swimming pool</amg:keyword>
+            <amg:keyword>shouting</amg:keyword>
+
+            <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
+
+            <media:rating label="R">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.4</media:rating>
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Daniel Barns</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Patrick Tobin</media:credit>
+            <media:credit role="Composer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_17.1.7">Christophe Beck</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Adriana Barraza</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Anna Kendrick</media:credit>
+                
+            <amg:broadcastDate>2014</amg:broadcastDate>
+                
+            <amg:assetId>26e18abf-5ee5-476e-8098-9aaffdc7e495</amg:assetId>
+
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt3442006</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/cake_movie_trailer.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="148" 
+                height="1080" 
+                width="1920" 
+                bitrate="1548" 
+                framerate="30"
+                fileSize="31230332"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/cake_movie_trailer.webp"
+                height="720" 
+                width="1280"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/cake_movie_trailer.en.vtt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+        </item>
+    </channel>
+</rss>

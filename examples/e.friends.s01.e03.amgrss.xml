@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Episode">
+            <media:title>The One with the Thumb</media:title>
+
+            <media:description>Monica becomes irritated when everyone likes her new boyfriend more than she does. Chandler resumes his smoking habit. Phoebe is given $7000 when she finds a thumb in a can of soda.</media:description>
+
+            <amg:longDescription>Monica is reluctant to introduce her new boyfriend, Alan, to her friends because they've mocked all of the boyfriend they've met before. To her surprise, they love Alan. However, she realizes she doesn't feel a spark with Alan and breaks up with him. Her friends take the news very hard, but Alan is relieved (since he couldn't stand her friends). Chandler resumes his smoking habit. Phoebe encounters a problem with her bank account, when a bank error in her favor nets her $1,000. She gives the money (and a complementary football phone) away to a homeless friend, who in turn buys her a soda. When Phoebe opens it, she sees a thumb, so the soda company gives her $7,000.</amg:longDescription>
+
+            <amg:keyword>boyfriend</amg:keyword>
+            <amg:keyword>mocked</amg:keyword>
+            <amg:keyword>spark</amg:keyword>
+            <amg:keyword>relieved</amg:keyword>
+            <amg:keyword>smoking habit</amg:keyword>
+            <amg:keyword>problem with bank account</amg:keyword>
+            <amg:keyword>favor</amg:keyword>
+            <amg:keyword>homeless friend</amg:keyword>
+            <amg:keyword>soda</amg:keyword>
+            <amg:keyword>award</amg:keyword>
+
+            <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+
+            <media:rating label="TV-PG">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.5</media:rating>
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">James Burrows</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">David Crane</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Marta Kauffman</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Jeff Astroff</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Courteney Cox</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Lisa Kudrow</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matt LeBlanc</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">David Schwimmer</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Geoffrey Lower</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Beth Grant</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jenifer Lewis</media:credit>
+                
+            <amg:broadcastDate>1994-10-06</amg:broadcastDate>
+
+            <amg:episodeNumber>3</amg:episodeNumber> 
+                
+            <amg:assetId>52c5aa23-2312-416b-aaa7-83f251bb3eb1</amg:assetId>
+
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0583653</amg:externalId>
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.2">0000-0001-8B45-001B-M-0000-0000-8</amg:externalId>
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/friends_preview_s01_e03.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="78" 
+                height="1080" 
+                width="1920" 
+                bitrate="2565" 
+                framerate="30"
+                fileSize="26430290"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s01_e03.webp"
+                height="720" 
+                width="1280"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s01_e03.en.vtt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+
+            <amg:season> 
+                <amg:seasonNumber>1</amg:seasonNumber>
+                <media:title>Friends Season 1</media:title>
+            </amg:season>
+
+            <amg:series> 
+                <media:title>Friends</media:title>
+                <media:description>It's about sex, love, relationships, careers, a time in your life when everything's possible. And it's about friendship because when you're single and in the city, your friends are your family. Episodes depict the friends' comedic and romantic adventures and career issues.</media:description>
+                <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+                <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+                <amg:genre label="Sitcom">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.3</amg:genre>
+            </amg:series> 
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:amg="http://www.amagi.com/amgrss/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <item amg:itemType="Episode">
+            <media:title>The One with the 'Cuffs</media:title>
+
+            <media:description>Monica tries to avoid criticism when she caters a party for her mother. Chandler ends up half naked and handcuffed to a chair in Rachel's boss's office. Joey tries to get educated from a salesman trying to sell him a set of encyclopedias.</media:description>
+
+            <amg:longDescription>Chandler sleeps with Rachel's boss Joanna. Rachel makes him end it. Monica needs money so she agrees to cater her mother's party. Monica loses a fake fingernail in the quiche and discovers her mother bet with her dad that Monica would screw up catering the event. Chandler goes to break up with Joanna but ends up being handcuffed to the chair in her office half naked. Rachel has to uncuff him because Joanna is stuck with her boss and isn't coming back. But Rachel has to handcuff him back the way he was, otherwise Joanna will know Rachel was in her office. Monica impresses her mum with a wonderful dish for her guests after all and they finally get along.</amg:longDescription>
+
+            <amg:keyword>sleeps with boss</amg:keyword>
+            <amg:keyword>mother's party</amg:keyword>
+            <amg:keyword>fake fingernail</amg:keyword>
+            <amg:keyword>catering</amg:keyword>
+            <amg:keyword>uncuff</amg:keyword>
+            <amg:keyword>wonderful dish</amg:keyword>
+
+            <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+
+            <media:rating label="TV-PG">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.5</media:rating>
+
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Peter Bonerz</media:credit>
+            <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Seth Curland</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Alison La Placa</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Penn Jillette</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Laura Dean</media:credit>
+            <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Christina Pickles</media:credit>
+
+            <amg:broadcastDate>1997-10-09</amg:broadcastDate>
+
+            <amg:episodeNumber>3</amg:episodeNumber> 
+                
+            <amg:assetId>47bae0ad-30a0-48ad-91c1-ff970deeed91</amg:assetId>
+
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0583571</amg:externalId>
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.2">0000-0001-8B45-005F-X-0000-0000-C</amg:externalId>
+
+
+ Duration: 00:00:34.92, start: 0.000000, bitrate: 693 kb/s
+    Stream #0:0(eng): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 638x360 [SAR 1:1 DAR 319:180], 562 kb/s, 24.18 fps, 24.18 tbr, 12089 tbn, 48.36 tbc (default)
+    Metadata:
+
+            <media:content 
+                url="gs://sb-aiml/metadata_test/friends_preview_s03_e03.mp4"
+                medium="video" 
+                type="video/mp4"
+                duration="34" 
+                height="360" 
+                width="638" 
+                bitrate="562" 
+                framerate="24.18"
+                fileSize="3029350"
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s04_e03.png"
+                height="480" 
+                width="640"/>
+
+            <media:thumbnail 
+                url="gs://sb-aiml/metadata_test/friends_preview_s04_e03.webp"
+                height="480" 
+                width="640"/>
+
+            <media:subTitle 
+                type="text/vtt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s04_e03.en.vtt"/>
+
+            <media:subTitle 
+                type="text/srt" 
+                amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" 
+                href="gs://sb-aiml/metadata_test/friends_preview_s04_e03.en.srt"/>
+
+            <!--TODO
+            <media:category>
+            <amg:rights>
+            <amg:cuepoint>
+            <amg:segment>
+            -->
+
+            <amg:season> 
+                <amg:seasonNumber>4</amg:seasonNumber>
+                <media:title>Friends Season 4</media:title>
+                <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">David Crane</media:credit>
+                <media:credit role="Writer" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Marta Kauffman</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Jennifer Aniston</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Courteney Cox</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Lisa Kudrow</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matt LeBlanc</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Matthew Perry</media:credit>
+                <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">David Schwimmer</media:credit>
+            </amg:season>
+
+            <amg:series> 
+                <media:title>Friends</media:title>
+                <media:description>It's about sex, love, relationships, careers, a time in your life when everything's possible. And it's about friendship because when you're single and in the city, your friends are your family. Episodes depict the friends' comedic and romantic adventures and career issues.</media:description>
+                <amg:genre label="Comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+                <amg:genre label="Romance">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.3</amg:genre>
+                <amg:genre label="Sitcom">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.3</amg:genre>
+            </amg:series> 
+        </item>
+    </channel>
+</rss>
