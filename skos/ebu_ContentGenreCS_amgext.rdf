@@ -5230,7 +5230,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.1.2.2.4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
-      <skos:prefLabel xml:lang="en">10,000 m</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">10000 m</skos:prefLabel>
       <skos:definition xml:lang="en">Running over a distance of 10,000 metres with the fastest time
          winning</skos:definition>
       <skos:broader
@@ -10756,7 +10756,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.8.9">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
-      <skos:prefLabel xml:lang="en">Tractor pulling,</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Tractor pulling</skos:prefLabel>
       <skos:definition xml:lang=""/>
       <skos:broader
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.8"/>
@@ -14652,7 +14652,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.2.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
-      <skos:prefLabel xml:lang="en">Soap special,</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Soap special</skos:prefLabel>
       <skos:definition xml:lang=""/>
       <skos:broader
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.2"/>
@@ -20715,7 +20715,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.8.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
-      <skos:prefLabel xml:lang="en">Cookery, Food, Drink</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Cookery / Food / Drink</skos:prefLabel>
       <skos:definition xml:lang=""/>
       <skos:broader
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.8"/>
