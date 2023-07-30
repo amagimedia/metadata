@@ -6156,6 +6156,7 @@
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
       <skos:prefLabel xml:lang="en">Basketball</skos:prefLabel>
       <skos:hiddenLabel xml:lang="en">basketball 3x3</skos:hiddenLabel>
+      <skos:hiddenLabel xml:lang="en">3x3 basketball</skos:hiddenLabel>
       <skos:hiddenLabel xml:lang="en">basketballx</skos:hiddenLabel>
       <skos:definition xml:lang=""/>
       <skos:broader
@@ -12165,6 +12166,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.12.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
       <skos:prefLabel xml:lang="en">Extreme sports</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Action sports</skos:altLabel>
       <skos:definition xml:lang=""/>
       <skos:broader
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.12"/>
@@ -15117,6 +15119,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.10">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
       <skos:prefLabel xml:lang="en">Musical</skos:prefLabel>
+      <skos:hiddenLabel xml:lang="en">music based</skos:hiddenLabel>
       <skos:definition xml:lang="en">e.g. Mary Poppins,</skos:definition>
       <skos:broader
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4"/>
@@ -21644,6 +21647,18 @@
       <skos:changeNote xml:lang="">First version after conversion of P/META into
          XML</skos:changeNote>
       <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.11">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+      <skos:prefLabel xml:lang="en">KID</skos:prefLabel>
+      <skos:hiddenLabel xml:lang="en">child</skos:hiddenLabel>
+      <skos:hiddenLabel xml:lang="en">children</skos:hiddenLabel>
+      <skos:definition xml:lang=""/>
+      <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+      <skos:changeNote xml:lang="">Introduced for Amagi. Context amgrss_xslts</skos:changeNote>
+      <skos:historyNote>2023-07-30</skos:historyNote>
       <skos:example/>
       <skos:note>Valid</skos:note>
    </rdf:Description>
