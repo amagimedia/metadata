@@ -20983,6 +20983,8 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.8.5.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
       <skos:prefLabel xml:lang="en">Craft/Handicraft</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Craft How-to</skos:altLabel>
+      <skos:altLabel xml:lang="en">Crafts How-to</skos:altLabel>
       <skos:definition xml:lang="en">needlework, model making, sewing, etc</skos:definition>
       <skos:broader
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.8.5"/>
