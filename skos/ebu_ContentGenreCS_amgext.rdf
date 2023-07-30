@@ -37,6 +37,8 @@
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.8"/>
       <skos:hasTopConcept
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.9"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.10"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.0">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
@@ -21650,12 +21652,13 @@
       <skos:example/>
       <skos:note>Valid</skos:note>
    </rdf:Description>
-   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.11">
+   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.10">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
       <skos:prefLabel xml:lang="en">KID</skos:prefLabel>
       <skos:hiddenLabel xml:lang="en">child</skos:hiddenLabel>
       <skos:hiddenLabel xml:lang="en">children</skos:hiddenLabel>
       <skos:definition xml:lang=""/>
+      <skos:definition xml:lang="en">children and kids</skos:definition>
       <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
       <skos:changeNote xml:lang="">Introduced for Amagi. Context amgrss_xslts</skos:changeNote>
       <skos:historyNote>2023-07-30</skos:historyNote>
