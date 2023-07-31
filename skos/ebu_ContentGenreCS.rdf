@@ -15105,7 +15105,6 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.10">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
       <skos:prefLabel xml:lang="en">Musical</skos:prefLabel>
-      <skos:altLabel xml:lang="en">music based</skos:altLabel>
       <skos:definition xml:lang="en">e.g. Mary Poppins,</skos:definition>
       <skos:broader
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4"/>
