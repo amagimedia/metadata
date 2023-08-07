@@ -892,6 +892,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_6.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="po">A</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">A</skos:prefLabel>
       <skos:definition xml:lang="en">When the film confirms the ideals of humanism or popularizes
          the national and world cultures or contributes to upbringing children</skos:definition>
       <skos:broader
@@ -936,6 +937,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_6.4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="po">D</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">D</skos:prefLabel>
       <skos:definition xml:lang="en">For 16 and over - When the film contains quite a number of
          erotic scenes or scenes with drinking, taking drugs or stimulants or a considerable number
          of scenes showing violence</skos:definition>
@@ -950,7 +952,8 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_6.5">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="po">X</skos:prefLabel>
+      <skos:prefLabel xml:lang="po">D</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">X</skos:prefLabel>
       <skos:definition xml:lang="en">When the film is naturalistically erotic or shows violence in
          an ostentatious manner</skos:definition>
       <skos:broader
@@ -1465,6 +1468,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_11.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">G</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">G</skos:prefLabel>
       <skos:definition xml:lang="fr">General</skos:definition>
       <skos:definition xml:lang="fr">Le film peut être vu, loué ou acheté sans risque par des
@@ -1481,6 +1485,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_11.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">13+</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">13+</skos:prefLabel>
       <skos:definition xml:lang="fr">Le film ne peut être vu, acheté ou loué que par des personnes
          de 13 ans et plus. Les enfants de moins de 13 ans peuvent y avoir accès s’ils sont
@@ -1497,6 +1502,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_11.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">16+</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">16+</skos:prefLabel>
       <skos:definition xml:lang="fr">Le film ne peut être vu, acheté ou loué que par des personnes
          de 16 ans et plus.</skos:definition>
@@ -1512,6 +1518,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_11.4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">18+</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">18+</skos:prefLabel>
       <skos:definition xml:lang="fr">Le film ne peut être vu, acheté ou loué que par des personnes
          de 18 ans et plus.</skos:definition>
@@ -1662,6 +1669,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_13.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">G</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">G</skos:prefLabel>
       <skos:definition xml:lang="fr">General</skos:definition>
       <skos:definition xml:lang="fr">Le film peut être vu, loué ou acheté sans risque par des
@@ -1678,6 +1686,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_13.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">8+</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">8+</skos:prefLabel>
       <skos:definition xml:lang="fr">General, non approprié pour jeunes enfants de moins e 8
          ans</skos:definition>
@@ -1693,6 +1702,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_13.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">13+</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">13+</skos:prefLabel>
       <skos:definition xml:lang="fr">Le film ne peut être vu, acheté ou loué que par des personnes
          de 13 ans et plus. Les enfants de moins de 13 ans peuvent y avoir accès s’ils sont
@@ -1709,6 +1719,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_13.4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">16+</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">16+</skos:prefLabel>
       <skos:definition xml:lang="fr">Le film ne peut être vu, acheté ou loué que par des personnes
          de 16 ans et plus.</skos:definition>
@@ -1724,6 +1735,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_13.5">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">18+</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">18+</skos:prefLabel>
       <skos:definition xml:lang="fr">Le film ne peut être vu, acheté ou loué que par des personnes
          de 18 ans et plus.</skos:definition>
@@ -1740,6 +1752,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_14">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="es">CL-ANATEL</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">CL-ANATEL</skos:prefLabel>
       <skos:scopeNote xml:lang="en">Region:Chile</skos:scopeNote>
       <skos:definition xml:lang="es">Asociación Nacional de Televisión</skos:definition>
       <skos:definition xml:lang="en">National Broadcasting Association rating
@@ -1853,6 +1866,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_15">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">CL-CCC</skos:prefLabel>
       <skos:prefLabel xml:lang="es">CL-CCC</skos:prefLabel>
       <skos:scopeNote xml:lang="en">Region:Chile</skos:scopeNote>
       <skos:definition xml:lang="en">Movie ratings as defined by the Chilean Council of
@@ -2205,6 +2219,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_17.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">T</skos:prefLabel>
       <skos:prefLabel xml:lang="es">T</skos:prefLabel>
       <skos:definition xml:lang="es">Todos</skos:definition>
       <skos:definition xml:lang="en">All Audiences</skos:definition>
@@ -2310,6 +2325,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">0</skos:prefLabel>
       <skos:prefLabel xml:lang="de">0</skos:prefLabel>
       <skos:definition xml:lang="en">For all ages</skos:definition>
       <skos:definition xml:lang="de">Ohne Altersbeschränkung</skos:definition>
@@ -2324,6 +2340,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">6</skos:prefLabel>
       <skos:prefLabel xml:lang="de">6</skos:prefLabel>
       <skos:definition xml:lang="en">No one under 6 years admitted</skos:definition>
       <skos:definition xml:lang="de">Freigegeben ab 6 Jahren</skos:definition>
@@ -2338,6 +2355,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">12</skos:prefLabel>
       <skos:prefLabel xml:lang="de">12</skos:prefLabel>
       <skos:definition xml:lang="en">People 12 or older admitted, children between 6 and 11 only
          when accompanied by parent or legal guardian</skos:definition>
@@ -2353,6 +2371,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18.4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">16</skos:prefLabel>
       <skos:prefLabel xml:lang="de">16</skos:prefLabel>
       <skos:definition xml:lang="en">People 16 or older admitted</skos:definition>
       <skos:definition xml:lang="de">Freigegeben ab 16 Jahren</skos:definition>
@@ -2367,6 +2386,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18.5">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">18</skos:prefLabel>
       <skos:prefLabel xml:lang="de">18</skos:prefLabel>
       <skos:definition xml:lang="en">"No youth admitted", only adults</skos:definition>
       <skos:definition xml:lang="de">Keine Jugendfreigabe</skos:definition>
@@ -2408,6 +2428,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">FSK 0</skos:prefLabel>
       <skos:prefLabel xml:lang="de">FSK 0</skos:prefLabel>
       <skos:definition xml:lang="en">For all ages</skos:definition>
       <skos:definition xml:lang="de">Ohne Altersbeschränkung</skos:definition>
@@ -2422,6 +2443,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">FSK 6</skos:prefLabel>
       <skos:prefLabel xml:lang="de">FSK 6</skos:prefLabel>
       <skos:definition xml:lang="en">No one under 6 years admitted</skos:definition>
       <skos:definition xml:lang="de">Freigegeben ab 6 Jahren</skos:definition>
@@ -2436,6 +2458,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">FSK 12</skos:prefLabel>
       <skos:prefLabel xml:lang="de">FSK 12</skos:prefLabel>
       <skos:definition xml:lang="en">People 12 or older admitted, children between 6 and 11 only
          when accompanied by parent or legal guardian</skos:definition>
@@ -2452,6 +2475,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19.4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">FSK 16</skos:prefLabel>
       <skos:prefLabel xml:lang="de">FSK 16</skos:prefLabel>
       <skos:definition xml:lang="en">People 16 or older admitted</skos:definition>
       <skos:definition xml:lang="de">Freigegeben ab 16 Jahren</skos:definition>
@@ -2467,6 +2491,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19.5">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">FSK 18</skos:prefLabel>
       <skos:prefLabel xml:lang="de">FSK 18</skos:prefLabel>
       <skos:definition xml:lang="en">"No youth admitted", only adults</skos:definition>
       <skos:definition xml:lang="de">Keine Jugendfreigabe</skos:definition>
@@ -5060,6 +5085,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_38.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">All</skos:prefLabel>
       <skos:prefLabel xml:lang="no">Alle</skos:prefLabel>
       <skos:definition xml:lang="no">Tillaten for alle</skos:definition>
       <skos:definition xml:lang="en">For all</skos:definition>
@@ -5992,8 +6018,8 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_46.2.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="tr">Olumsuz örnek oluşturabilecek davranışlar
-         içerir</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Olumsuz örnek oluşturabilecek davranışlar içerir</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Negative behaviour</skos:prefLabel>
       <skos:broader
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_46.2"/>
       <skos:inScheme
@@ -6683,6 +6709,8 @@
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.4"/>
       <skos:narrower
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.5"/>
+      <skos:narrower
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.6"/>
       <skos:changeNote xml:lang="">Update</skos:changeNote>
       <skos:historyNote>2009-07-27</skos:historyNote>
       <skos:example/>
@@ -6772,7 +6800,9 @@
       <skos:changeNote xml:lang=""/>
       <skos:historyNote/>
       <skos:example/>
+      <!--
       <skos:hiddenLabel xml:lang="en">adult</skos:hiddenLabel>
+      -->
    </rdf:Description>
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_49">
@@ -7195,6 +7225,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_52.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">ALL</skos:prefLabel>
       <skos:prefLabel xml:lang="de">ALL AGES</skos:prefLabel>
       <skos:definition xml:lang="en">For all ages</skos:definition>
       <skos:definition xml:lang="de">Ohne Altersbeschränkung</skos:definition>
@@ -7209,6 +7240,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_52.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">6+</skos:prefLabel>
       <skos:prefLabel xml:lang="de">6+</skos:prefLabel>
       <skos:definition xml:lang="en">No one under 6 years admitted</skos:definition>
       <skos:definition xml:lang="de">Freigegeben ab 6 Jahren</skos:definition>
@@ -7223,6 +7255,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_52.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">12+</skos:prefLabel>
       <skos:prefLabel xml:lang="de">12+</skos:prefLabel>
       <skos:definition xml:lang="en">People 12 or older admitted, children between 6 and 11 only
          when accompanied by parent or legal guardian</skos:definition>
@@ -7238,6 +7271,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_52.4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">16+</skos:prefLabel>
       <skos:prefLabel xml:lang="de">16+</skos:prefLabel>
       <skos:definition xml:lang="en">People 16 or older admitted</skos:definition>
       <skos:definition xml:lang="de">Freigegeben ab 16 Jahren</skos:definition>
@@ -7252,6 +7286,7 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_52.5">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+      <skos:prefLabel xml:lang="en">18+</skos:prefLabel>
       <skos:prefLabel xml:lang="de">18+</skos:prefLabel>
       <skos:definition xml:lang="en">"No youth admitted", only adults</skos:definition>
       <skos:definition xml:lang="de">Keine Jugendfreigabe</skos:definition>
