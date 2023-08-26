@@ -1,0 +1,213 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ast_type: <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#> .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS.rdf>
+        rdf:type         owl:Ontology ;
+        dct:title        "EBU Based SKOS Classification Scheme for Asset Types"@en ;
+        dct:contributor  "Amagi metadata community" ;
+        dct:description  "An RDF vocabulary defining additional types to be used for assets"@en ;
+        dct:creator      "Shashidhar, Amagi, shashidhar@amagi.com" ;
+        dct:publisher    "EBU" ;
+        dct:rights       "http://creativecommons.org/licenses/by-nc-sa/3.0/" .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS>
+        rdf:type            skos:ConceptScheme ;
+        rdfs:label          "EBU SKOS Classification Scheme for Asset Type"@en ;
+        rdfs:isDefinedBy    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:hasTopConcept  ast_type:_1 ;
+        skos:hasTopConcept  ast_type:_2 .
+
+ast_type:_1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Video"@en ;
+        skos:definition   "Video Asset Type Top Concept" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:narrower    ast_type:_1.1 ;
+        skos:narrower    ast_type:_1.2 ;
+        skos:narrower    ast_type:_1.3 ;
+        skos:narrower    ast_type:_1.4 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" . 
+
+ast_type:_1.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Movie"@en ;
+        skos:definition   "Asset Type Movie" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.2
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Short Movie"@en ;
+        skos:definition   "Asset Type Shorts Video" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.3
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Program"@en ;
+        skos:definition   "Asset Type TV Program or a Show" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.4
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Advertisement"@en ;
+        skos:altLabel  "Ad"@en ;
+        skos:definition   "Ad videos" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.5
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Trailer"@en ;
+        skos:definition   "Asset Type Trailer" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.6
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Promo"@en ;
+        skos:definition   "Asset Type Promo" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.7
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Interstitial"@en ;
+        skos:definition   "Asset Type Interstitial" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.8
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Bumper"@en ;
+        skos:definition   "Asset Type Bumper" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.9
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Rescue"@en ;
+        skos:definition   "Asset Type Rescue" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.10 
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Other"@en ;
+        skos:definition   "Asset Type Other" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+
+ast_type:_2
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Audio"@en ;
+        skos:definition   "Audio Only Asset Type Top Concept" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:narrower    ast_type:_2.1 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" . 
+
+ast_type:_2.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Podcast"@en ;
+        skos:definition   "Audio Podacast" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_2 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_3 
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Image"@en ;
+        skos:definition   "Image Asset Type Top Concept" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:narrower    ast_type:_3.1 ;
+        skos:narrower    ast_type:_3.2 ;
+        skos:narrower    ast_type:_3.3 ;
+        skos:narrower    ast_type:_3.4 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" . 
+
+ast_type:_3.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Poster"@en ;
+        skos:altLabel  "Banner"@en ;
+        skos:definition   "Poster Image" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_3.2
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Logo"@en ;
+        skos:definition   "Logo Image" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_3.3
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Thumbnail"@en ;
+        skos:definition   "Thumbnail Image" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_3.4
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Other"@en ;
+        skos:definition   "Other Image" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3 ;
+        skos:changeNode "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .

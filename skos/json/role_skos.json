@@ -1,0 +1,3607 @@
+{
+  "type": "ebucsprofile",
+  "source": "ebu_RoleCodeCS_amgext.rdf",
+  "language": "en",
+  "profile": {
+    "profile_name": "all",
+    "include_concepts": [
+      "5",
+      "17",
+      "20",
+      "25",
+      "28"
+    ],
+    "exclude_concepts": []
+  },
+  "scheme": {
+    "iri": "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS",
+    "top_level_concepts": [
+      "5",
+      "17",
+      "20",
+      "25",
+      "28"
+    ],
+    "concepts": {
+      "5": {
+        "pref_labels": [
+          "ART DEPARTMENT"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "5.1",
+          "5.2",
+          "5.3",
+          "5.4",
+          "5.5",
+          "5.6",
+          "5.7",
+          "5.8",
+          "5.9",
+          "5.10"
+        ],
+        "definitions": [
+          "Art department in movie terms means the section of a\n         production's crew concerned with visual artistry. Working under the supervision of the\n         production designer and/or art director, the art department is responsible for arranging\n         the overall look of the film (i.e. modern/high-tech, rustic, futuristic, etc.) as desired\n         by the film director. The Art Department in a major section of a production with several\n         key sub departments."
+        ]
+      },
+      "5.1": {
+        "pref_labels": [
+          "Production Designer / Draughtsman / Draftsman"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "production designer",
+          "draughtsman",
+          "draftsman"
+        ],
+        "broader": [
+          "5"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Responsible for sets, props and costumes. An artist responsible\n         for designing the overall visual appearance of a programme in collaboration with the\n         director, art director, technical director and cinematographer."
+        ]
+      },
+      "5.2": {
+        "pref_labels": [
+          "Assistant Production Designer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.3": {
+        "pref_labels": [
+          "Art"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [
+          "5.3.1",
+          "5.3.2",
+          "5.3.3",
+          "5.3.4",
+          "5.3.5",
+          "5.3.6",
+          "5.3.7",
+          "5.3.8"
+        ],
+        "definitions": [
+          "Department where the sets are designed and graphic art is\n         created."
+        ]
+      },
+      "5.3.1": {
+        "pref_labels": [
+          "Art Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "An art director, in the hierarchical structure of a film art\n         department, works directly below the production designer, and above the set designer, but\n         on the same level as the set decorator. He oversees the artists and craftspeople who build\n         the sets"
+        ]
+      },
+      "5.3.2": {
+        "pref_labels": [
+          "Supervising Art Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.3.3": {
+        "pref_labels": [
+          "Assistant Art Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Often involved in measuring locations, creating graphics and\n         paper props, collecting information for the production designer and drawing\n         sets."
+        ]
+      },
+      "5.3.4": {
+        "pref_labels": [
+          "Art Department Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.3.5": {
+        "pref_labels": [
+          "Art Department Coordinator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.3.6": {
+        "pref_labels": [
+          "Art Department Assistant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.3.7": {
+        "pref_labels": [
+          "Art Department Researcher"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.3.8": {
+        "pref_labels": [
+          "Graphic Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.4": {
+        "pref_labels": [
+          "Sets"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [
+          "5.4.1",
+          "5.4.2",
+          "5.4.3",
+          "5.4.4",
+          "5.4.5",
+          "5.4.6",
+          "5.4.7"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.4.1": {
+        "pref_labels": [
+          "Set Decorator / Set Designer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "set decorator",
+          "set designer"
+        ],
+        "broader": [
+          "5.4"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A set decorator is in charge of the set dressing on a film set,\n         which includes the furnishings, wallpaper, lighting fixtures, and many of the other objects\n         that will be seen in the film. The set designer reports to the art\n         director."
+        ]
+      },
+      "5.4.2": {
+        "pref_labels": [
+          "Set Decorator Assistant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.4"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The set decorator assistant works closely with the set\n         decorator and / or production designer in coordination with the art\n         director"
+        ]
+      },
+      "5.4.3": {
+        "pref_labels": [
+          "Set Decoration Buyer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.4"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The buyer is the number two person in the set department below\n         the set decorator. The buyer locates, and then purchases or rents the set\n         dressing."
+        ]
+      },
+      "5.4.4": {
+        "pref_labels": [
+          "Leadman / Leadperson / Set Supervisor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "leadman",
+          "leadperson",
+          "set supervisor"
+        ],
+        "broader": [
+          "5.4"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Member of the art department who is in charge of the groups in\n         the art department that construct and take down a set (swing gangs), and/or set dressers\n         and reports to the set decorator."
+        ]
+      },
+      "5.4.5": {
+        "pref_labels": [
+          "Set Dresser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.4"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who has total charge of decorating the set for\n         shooting with all furnishings, drapery, interior plants, and anything seen on indoor or\n         outdoor sets."
+        ]
+      },
+      "5.4.6": {
+        "pref_labels": [
+          "Set Maker"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.4"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who makes the set with the specifications dictated by\n         the set designer"
+        ]
+      },
+      "5.4.7": {
+        "pref_labels": [
+          "Set Painter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.4"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.5": {
+        "pref_labels": [
+          "Props / Properties"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "props",
+          "properties"
+        ],
+        "broader": [
+          "5"
+        ],
+        "narrower": [
+          "5.5.1",
+          "5.5.2",
+          "5.5.3",
+          "5.5.4",
+          "5.5.5"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.5.1": {
+        "pref_labels": [
+          "Prop Manager / Prop Master / Property Manager / Property\n         Master"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "prop manager",
+          "prop master",
+          "property manager",
+          "property master"
+        ],
+        "broader": [
+          "5.5"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The person responsible for the supply, maintenance and storage\n         of any props which are used for a production."
+        ]
+      },
+      "5.5.2": {
+        "pref_labels": [
+          "Prop Buyer / Hirer / Property Buyer / Property\n         Hirer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "prop buyer",
+          "hirer",
+          "prop hirer",
+          "property buyer",
+          "property hirer"
+        ],
+        "broader": [
+          "5.5"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.5.3": {
+        "pref_labels": [
+          "Prop Builder / Prop Maker / Property Builder / Property\n         Maker"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "prop builder",
+          "prop maker",
+          "property builder",
+          "property maker"
+        ],
+        "broader": [
+          "5.5"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The props builder, as the name implies, builds the props that\n         are used for the film. Props builders are often technicians skilled in construction,\n         plastics casting, machining, and electronics."
+        ]
+      },
+      "5.5.4": {
+        "pref_labels": [
+          "Prop Assistant / Property Assistant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "prop assistant",
+          "property assistant"
+        ],
+        "broader": [
+          "5.5"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Responsible for the placement and maintenance of props on a\n         set"
+        ]
+      },
+      "5.5.5": {
+        "pref_labels": [
+          "Armourer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.5"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The person responsible for the supply and safety of any weapons\n         used in a production. The armourer's role is to ensure that any ordinance, firearms or\n         other weapons are safely stored and safely used. Note: not to be confused with Fight\n         Director"
+        ]
+      },
+      "5.6": {
+        "pref_labels": [
+          "Construction"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [
+          "5.6.1",
+          "5.6.2",
+          "5.6.3",
+          "5.6.4",
+          "5.6.5",
+          "5.6.6",
+          "5.6.7",
+          "5.6.8",
+          "5.6.9",
+          "5.6.10",
+          "5.6.11",
+          "5.6.12",
+          "5.6.13",
+          "5.6.14",
+          "5.6.15",
+          "5.6.16",
+          "5.6.17",
+          "5.6.18",
+          "5.6.19",
+          "5.6.20"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.1": {
+        "pref_labels": [
+          "Construction Buyer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.2": {
+        "pref_labels": [
+          "Construction Coordinator / Construction Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "construction coordinator",
+          "construction manager"
+        ],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.3": {
+        "pref_labels": [
+          "Gang Boss / Foreman"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "gang boss",
+          "foreman"
+        ],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.4": {
+        "pref_labels": [
+          "Swing Gang"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.5": {
+        "pref_labels": [
+          "Laborer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.6": {
+        "pref_labels": [
+          "Lead Painter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.7": {
+        "pref_labels": [
+          "Paint Coordinator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.8": {
+        "pref_labels": [
+          "Paint Foreman"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.9": {
+        "pref_labels": [
+          "Paint Labor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.10": {
+        "pref_labels": [
+          "Stand-by Painter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.11": {
+        "pref_labels": [
+          "Plaster Gang Boss"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.12": {
+        "pref_labels": [
+          "Plaster Foreman"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.13": {
+        "pref_labels": [
+          "Plasterer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.14": {
+        "pref_labels": [
+          "Draper"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.15": {
+        "pref_labels": [
+          "Welder"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.16": {
+        "pref_labels": [
+          "Sign Writer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.17": {
+        "pref_labels": [
+          "Tool Maintenance / Tool Person"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "tool maintenance",
+          "tool person"
+        ],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.6.18": {
+        "pref_labels": [
+          "Manufacturer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person or organisation responsible for manufacturing a piece\n         of technical equipment or a device used in the production, storage, or publication of\n         material."
+        ]
+      },
+      "5.6.19": {
+        "pref_labels": [
+          "Head Carpenter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The head carpenter is the foreman of a \"gang\" of carpenters and\n         labourers."
+        ]
+      },
+      "5.6.20": {
+        "pref_labels": [
+          "Carpenter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person employed to carry out any woodwork which the\n         production may require (e.g. for set building)"
+        ]
+      },
+      "5.7": {
+        "pref_labels": [
+          "Scenic"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [
+          "5.7.1",
+          "5.7.2",
+          "5.7.3",
+          "5.7.4"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.7.1": {
+        "pref_labels": [
+          "Scenic Designer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Scenic Designers are responsible for creating scale models of\n         the scenery as well as scale drawings."
+        ]
+      },
+      "5.7.2": {
+        "pref_labels": [
+          "Key Scenic Artist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The key scenic artist is responsible for the surface treatments\n         of the sets. This includes special paint treatments such as aging and gilding, as well as\n         simulating the appearance of wood, stone, brick, metal, stained glassanything called for by\n         the production designer. The key scenic artist supervises the crew of painters, and is\n         often a master craftsperson."
+        ]
+      },
+      "5.7.3": {
+        "pref_labels": [
+          "Scenic Artist / Painter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.7"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.7.4": {
+        "pref_labels": [
+          "Scenic Operative"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Scenic Operatives set, rig, strike and dress studio sets. This\n         can also involve erecting rostra, audience seating etc and making running repairs or\n         painting floors and scenery."
+        ]
+      },
+      "5.8": {
+        "pref_labels": [
+          "Greens"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [
+          "5.8.1"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.8.1": {
+        "pref_labels": [
+          "Greensman"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.8"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The greensman is a specialised set dresser dealing with the\n         artistic arrangement of plant material, sometimes real and sometimes artificial. Depending\n         on the scope of the greens work in a film, the greensman may report to the set decorator or\n         may report directly to the production designer."
+        ]
+      },
+      "5.9": {
+        "pref_labels": [
+          "Specialist Editors"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [
+          "5.9.1",
+          "5.9.2",
+          "5.9.3",
+          "5.9.4",
+          "5.9.5",
+          "5.9.6",
+          "5.9.7",
+          "5.9.8",
+          "5.9.9",
+          "5.9.10",
+          "5.9.11",
+          "5.9.12",
+          "5.9.13",
+          "5.9.14",
+          "5.9.15",
+          "5.9.16"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.9.1": {
+        "pref_labels": [
+          "TV Graphic Designer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.9.2": {
+        "pref_labels": [
+          "Graphic Editor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.9.3": {
+        "pref_labels": [
+          "Graphic Designer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person responsible for the design and realisation of original\n         graphic material. This includes developing design concepts, using working drawings,\n         storyboards and electronic paint images. They also design title\n         sequences."
+        ]
+      },
+      "5.9.4": {
+        "pref_labels": [
+          "Graphic Assistant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person involved in making day-to-day paintbox pictures, and\n         drawing completely or partially synthetic picture elements as content for programmes with\n         existing graphic design format. Note: not to be confused with Graphic Designer,\n         Illustrator"
+        ]
+      },
+      "5.9.5": {
+        "pref_labels": [
+          "Illustrator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person responsible for the illustrations used in the programme\n         Note: not to be confused with Graphic Assistant"
+        ]
+      },
+      "5.9.6": {
+        "pref_labels": [
+          "Layout Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.9.7": {
+        "pref_labels": [
+          "Layout Designer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.9.8": {
+        "pref_labels": [
+          "Layout Superviser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.9.9": {
+        "pref_labels": [
+          "Layout Artist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Designs the backgrounds, lighting, and camera\n         angles."
+        ]
+      },
+      "5.9.10": {
+        "pref_labels": [
+          "Background Artist / Background Stylist / Background\n         Painter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "background artist",
+          "background stylist",
+          "background painter"
+        ],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.9.11": {
+        "pref_labels": [
+          "Compositing Superviser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.9.12": {
+        "pref_labels": [
+          "Compositor / Compositing Artist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "compositor",
+          "compositing artist"
+        ],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Artists composing scenes often specialised in software and\n         applications such as Inferno or Flame and known as Inferno or Flame artists. Digital\n         compositing is the process of assembling multiple images to make a final image, typically\n         for print, motion pictures or screen display."
+        ]
+      },
+      "5.9.13": {
+        "pref_labels": [
+          "CG Lead"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Computer graphics (CG) Lead"
+        ]
+      },
+      "5.9.14": {
+        "pref_labels": [
+          "CG Supervisor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Computer graphics (CG) Supervisor"
+        ]
+      },
+      "5.9.15": {
+        "pref_labels": [
+          "CG Artist / CG Designer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "cg artist",
+          "cg designer"
+        ],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "An artist who produces computer graphics (CG) where one\n         utilizes computers both to generate visual images synthetically and to integrate or alter\n         visual and spatial information sampled from the real world"
+        ]
+      },
+      "5.9.16": {
+        "pref_labels": [
+          "Dialogue Editor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The dialogue editor assembles, synchronises, and edits all the\n         dialogue in a film or television production"
+        ]
+      },
+      "5.10": {
+        "pref_labels": [
+          "Special Effects (SFX)"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [
+          "5.10.1",
+          "5.10.2",
+          "5.10.3",
+          "5.10.4",
+          "5.10.5",
+          "5.10.6",
+          "5.10.7",
+          "5.10.8",
+          "5.10.9",
+          "5.10.10",
+          "5.10.11",
+          "5.10.12",
+          "5.10.13",
+          "5.10.14",
+          "5.10.15",
+          "5.10.16",
+          "5.10.17",
+          "5.10.18",
+          "5.10.19",
+          "5.10.20"
+        ],
+        "definitions": [
+          "Special effects (abbreviated SPFX or SFX) are used in the film,\n         television, and entertainment industry to visualize scenes that cannot be achieved by\n         normal means, such as space travel. They are also used when creating the effect by normal\n         means is prohibitively expensive, such as an enormous explosion. They are also used to\n         enhance previously filmed elements, by adding, removing or enhancing objects within the\n         scene. Special Effects are those effects which are created during filming on-set, such as\n         bullet hits, fire, flame, and explosions, wind, rain, etc."
+        ]
+      },
+      "5.10.1": {
+        "pref_labels": [
+          "Special Effects (SFX) Assistant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who makes an artificial effect used to create an\n         illusion in a program including technicians"
+        ]
+      },
+      "5.10.2": {
+        "pref_labels": [
+          "Special Effects (SFX) Supervisor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.3": {
+        "pref_labels": [
+          "Special Effects buyer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.4": {
+        "pref_labels": [
+          "Special Effects (SFX) Supervisor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person responsible for the artificial effects produced on the\n         set and used to create an illusion in a movie. Note: not to be confused with visual\n         effects"
+        ]
+      },
+      "5.10.5": {
+        "pref_labels": [
+          "Special Effects (SFX) Coordinator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.6": {
+        "pref_labels": [
+          "Special Effects (SFX) Foreman"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.7": {
+        "pref_labels": [
+          "Special Effects (SFX) Technician"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.8": {
+        "pref_labels": [
+          "Special Effects (SFX) Hair"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.9": {
+        "pref_labels": [
+          "Mechanical Special Effects (SFX)"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.10": {
+        "pref_labels": [
+          "Atmospheric Special Effects (SFX)"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.11": {
+        "pref_labels": [
+          "Electronic Special Effects (SFX)"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.12": {
+        "pref_labels": [
+          "Special Effects (SFX) Makeup Shop Supervisor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.13": {
+        "pref_labels": [
+          "Special Effects (SFX) Makeup Supervisor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.14": {
+        "pref_labels": [
+          "Special Effects (SFX) Makeup Coordinator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.15": {
+        "pref_labels": [
+          "Special Effects (SFX) Pre-visualisation"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.16": {
+        "pref_labels": [
+          "Pyrotechnician"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A member of the crew with expertise in fire or explosions.\n         Note: not to be confused with"
+        ]
+      },
+      "5.10.17": {
+        "pref_labels": [
+          "Machinist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.18": {
+        "pref_labels": [
+          "Simulation and Effects Superviser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.19": {
+        "pref_labels": [
+          "Matte Artist / Bluescreen Editor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "matte artist",
+          "bluescreen editor"
+        ],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "5.10.20": {
+        "pref_labels": [
+          "Matte Painter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who creates artwork (usually for the background or\n         forreground of a shot) which is included in the movie either via a matte shot or optical\n         printing. It can be computer generated. A travelling matte allows the shape and position of\n         the matte to be altered from frame to frame."
+        ]
+      },
+      "17": {
+        "pref_labels": [
+          "MUSIC DEPARTMENT"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "17.1",
+          "17.2"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1": {
+        "pref_labels": [
+          "Production"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17"
+        ],
+        "narrower": [
+          "17.1.1",
+          "17.1.2",
+          "17.1.3",
+          "17.1.4",
+          "17.1.5",
+          "17.1.6",
+          "17.1.7",
+          "17.1.8",
+          "17.1.9",
+          "17.1.10",
+          "17.1.11",
+          "17.1.12",
+          "17.1.13",
+          "17.1.14",
+          "17.1.15",
+          "17.1.16",
+          "17.1.17",
+          "17.1.18"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.1": {
+        "pref_labels": [
+          "Music Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.2": {
+        "pref_labels": [
+          "Executive Music Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.3": {
+        "pref_labels": [
+          "Song Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.4": {
+        "pref_labels": [
+          "Music Supervisor / Coordinator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "music supervisor",
+          "coordinator"
+        ],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The music supervisor, or \"music director\", works with composer,\n         mixers and editors to create and integrate the film's music."
+        ]
+      },
+      "17.1.5": {
+        "pref_labels": [
+          "Music Assistant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.6": {
+        "pref_labels": [
+          "Music Coordinator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.7": {
+        "pref_labels": [
+          "Composer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person/cooperation responsible for composing the music used in\n         the programme, and in particular the score"
+        ]
+      },
+      "17.1.8": {
+        "pref_labels": [
+          "Theme Song Composer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.9": {
+        "pref_labels": [
+          "Librettist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The writer of the text of an opera, oratorio,\n         etc."
+        ]
+      },
+      "17.1.10": {
+        "pref_labels": [
+          "Lyricist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [
+          "17.1.10.1"
+        ],
+        "definitions": [
+          "The writer of the text of a song."
+        ]
+      },
+      "17.1.10.1": {
+        "pref_labels": [
+          "Special Lyricist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1.10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The writer of the text of a song."
+        ]
+      },
+      "17.1.11": {
+        "pref_labels": [
+          "Orchestrator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.12": {
+        "pref_labels": [
+          "Conductor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who conducts a musical work by directing a performing\n         group such as orchestra, chorus, opera, etc."
+        ]
+      },
+      "17.1.13": {
+        "pref_labels": [
+          "Music Arranger"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who takes a pre-written piece and writes a new score\n         to present the original piece of music in a particular way. The arranger will write parts\n         for all the individual instruments and voices which they want to appear in their version of\n         the piece."
+        ]
+      },
+      "17.1.14": {
+        "pref_labels": [
+          "Music Programmer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.15": {
+        "pref_labels": [
+          "Electronic Music Engineer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.16": {
+        "pref_labels": [
+          "Score Mixer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Music Director responsible for the film score.A film score is\n         the background music in a film, generally specially written for the film and often used to\n         heighten emotions provoked by the imagery on the screen or by the\n         dialogue"
+        ]
+      },
+      "17.1.17": {
+        "pref_labels": [
+          "Score Recordist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.1.18": {
+        "pref_labels": [
+          "Score Engineer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.2": {
+        "pref_labels": [
+          "Performers"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17"
+        ],
+        "narrower": [
+          "17.2.1",
+          "17.2.2",
+          "17.2.3",
+          "17.2.4",
+          "17.2.5",
+          "17.2.6",
+          "17.2.7"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "17.2.1": {
+        "pref_labels": [
+          "Musician / Instrumentalist / Player"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "musician",
+          "instrumentalist",
+          "player"
+        ],
+        "broader": [
+          "17.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Someone who plays a musical instrument (as a profession)\n         including instrumentalits or other instrument player"
+        ]
+      },
+      "17.2.2": {
+        "pref_labels": [
+          "Choir"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "An organised company of singers"
+        ]
+      },
+      "17.2.3": {
+        "pref_labels": [
+          "Ensemble"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A group of musicians playing or singing together. Especially\n         for classical music."
+        ]
+      },
+      "17.2.4": {
+        "pref_labels": [
+          "Music Group"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A group of musicians playing and singing together. Especially\n         for popular music (pop/rock)."
+        ]
+      },
+      "17.2.5": {
+        "pref_labels": [
+          "Orchestra"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A group of musicians performing in a concerted manner.\n         Typically a band suitable for the performance of synphonies, ouvertures, etc., as well as\n         for the accompaniment of operas, oratorios, cantatas, masses, and the like, or of vocal and\n         instrumental solos."
+        ]
+      },
+      "17.2.6": {
+        "pref_labels": [
+          "Singer / Vocalist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "singer",
+          "vocalist"
+        ],
+        "broader": [
+          "17.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who uses his or her voice with or without instrumental\n         accompaniment to produce music. A singer's performance may or may not include actual\n         words."
+        ]
+      },
+      "17.2.7": {
+        "pref_labels": [
+          "Synthesis Musician"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "20": {
+        "pref_labels": [
+          "PRODUCTION"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "20.1",
+          "20.2",
+          "20.3",
+          "20.4",
+          "20.5",
+          "20.6",
+          "20.7",
+          "20.8",
+          "20.9",
+          "20.10",
+          "20.11",
+          "20.12",
+          "20.13",
+          "20.14",
+          "20.15",
+          "20.16",
+          "20.17",
+          "20.18",
+          "20.19",
+          "20.20",
+          "20.21",
+          "20.22",
+          "20.23",
+          "20.24",
+          "20.25",
+          "20.26",
+          "20.27",
+          "20.28",
+          "20.29",
+          "20.30",
+          "20.31",
+          "20.32",
+          "20.33",
+          "20.34",
+          "20.35",
+          "20.36",
+          "20.37",
+          "20.38",
+          "20.39",
+          "20.40",
+          "20.41",
+          "20.42",
+          "20.43",
+          "20.44",
+          "20.45",
+          "20.46",
+          "20.47",
+          "20.48",
+          "20.49",
+          "20.50",
+          "20.51"
+        ],
+        "definitions": [
+          "These include the \"front office\" staff such as the Production\n         Manager, the Production Coordinator, and their assistants; the accounting staff; the\n         various Assistant Directors; and sometimes the Locations Manager and his or her assistants.\n         The Director is considered to be a separate entity, not within the departmental\n         structure."
+        ]
+      },
+      "20.1": {
+        "pref_labels": [
+          "Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who is responsible for the making of an audio-visual\n         work, including business aspects, management of the productions, and the commercial success\n         of the work within scheduled deadlines."
+        ]
+      },
+      "20.2": {
+        "pref_labels": [
+          "Executive Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The person primarily in charge of the financial aspects of a\n         overall production and who may also make major creative decisions. He is not involved in\n         any technical aspects of the filmmaking process. Typically an executive producer handles\n         business and legal issues. He may supervise one or more producers or\n         co-producers."
+        ]
+      },
+      "20.3": {
+        "pref_labels": [
+          "Supervising Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The supervising producer coordinates the activities of more\n         than one producer under the authority of the executive producer."
+        ]
+      },
+      "20.4": {
+        "pref_labels": [
+          "Assistant Executive Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Assistant to the Executive Producer"
+        ]
+      },
+      "20.5": {
+        "pref_labels": [
+          "Line Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The line producer works with the production manager on\n         operating and more particulaly financial aspects.Line Producer: He approves expenses,\n         including locations, actors, and crew."
+        ]
+      },
+      "20.6": {
+        "pref_labels": [
+          "Associate Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The top assistant to the producer, usually the intermediary\n         between the Producer and the shooting crew."
+        ]
+      },
+      "20.7": {
+        "pref_labels": [
+          "Co-Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Producer participating in a collaborative production effort\n         with other co-producers"
+        ]
+      },
+      "20.8": {
+        "pref_labels": [
+          "Segment Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The segment producer is in charge of supervising the production\n         of one or more segments of a programme or film"
+        ]
+      },
+      "20.9": {
+        "pref_labels": [
+          "Assistant Producer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Assistant Producers assist Producers in the production of\n         programmes or series. They are responsible for defining the best format corresponding to\n         the programme / film intention and targeted audience. Assistant Producers set up filming,\n         find interviewees, archive material and locations, and on some productions they suggest and\n         book studio guests. They supervise the post-production process, being involved in editing,\n         dubbing and compilation. Note: not to be confused with Production Assistant."
+        ]
+      },
+      "20.10": {
+        "pref_labels": [
+          "Production Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The individual under the producer and director who supervises\n         and coordinates all of the business and technical aspects of production. Production Manager\n         Organises and oversees a production including keeping a tight rein on the budget. Organises\n         all the essential support facilities - accommodation, catering, transport, etc. and will\n         roster crews, equipment and facilities. The Production Manager often works under the\n         supervision of a line producer and directly supervises the Production\n         Coordinator"
+        ]
+      },
+      "20.11": {
+        "pref_labels": [
+          "Unit Manager / Second Unit Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "unit manager",
+          "second unit manager"
+        ],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The person acting as production manager in charge of the second\n         unit. This is a group charged with filming the less important scenes in a production. Note:\n         not to be confused with Assistant Director."
+        ]
+      },
+      "20.12": {
+        "pref_labels": [
+          "Assistant Unit Manager / Assistant Second Unit Manager / Unit\n         Manager / Unit Production Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "assistant unit manager",
+          "assistant second unit manager",
+          "unit manager",
+          "unit production manager"
+        ],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Assist with the day-to-day financial operation of the shooting\n         unit."
+        ]
+      },
+      "20.13": {
+        "pref_labels": [
+          "Mobile Unit Supervisor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The unit supervisor is under the responsibility of a unit\n         manager for secondary \"mobile unit\" shooting."
+        ]
+      },
+      "20.14": {
+        "pref_labels": [
+          "Production Coordinator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The Production Coordinator is at the heart of the production\n         process under the responsibility of the production manager, responsible for organizing all\n         the logistics from hiring crew, renting equipment, booking talent, etc."
+        ]
+      },
+      "20.15": {
+        "pref_labels": [
+          "Assistant Coordinator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Assitant to the Production Coordinator."
+        ]
+      },
+      "20.16": {
+        "pref_labels": [
+          "Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "He controls the action and dialogue in front of the camera. The\n         person mainly responsible for the artistic result of the work, including controlling the\n         content and flow of the film's plot, directing the performances of actors, organizing and\n         selecting the locations in which the film will be shot (shooting script), and managing\n         technical details such as the positioning of cameras, the use of lighting, and the timing\n         and content of the film's soundtrack, that is for taking the script to the very end of the\n         production process. The director role may differ whether it is for television or film, e.g.\n         one shoots on set while the other direct from the galley. The television director views the\n         action on the studio floor through a bank of screens, each one linked to one of the studio\n         cameras, while issuing instructions down to the Floor Manager. In television, the creative\n         part in the hands of the producer."
+        ]
+      },
+      "20.17": {
+        "pref_labels": [
+          "First Assistant Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The first assistant director assists the director and\n         production manager. He runs the set, plans the cost-efficient scheduling of locations and\n         talent, schedules the days’ shooting and is responsible for carrying out the director’s\n         instructions."
+        ]
+      },
+      "20.18": {
+        "pref_labels": [
+          "Second Assistant Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The second assistant director handles paperwork relating to the\n         number of hours worked, scheduling, booking, etc. He is occasionally in charge of\n         production assistants as chief assistant."
+        ]
+      },
+      "20.19": {
+        "pref_labels": [
+          "Associate Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "20.20": {
+        "pref_labels": [
+          "Artistic Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The person mainly responsible for the artistic result of the\n         work, including controlling the content and flow of the film's plot, directing the\n         performances of actors, organizing and selecting the locations in which the film will be\n         shot (shooting script), and managing technical details such as the positioning of cameras,\n         the use of lighting, and the timing and content of the film's soundtrack, that is for\n         taking the script to the very end of the production process. The director role may differ\n         whether it is for television or film, e.g. one shoots on set while the other direct from\n         the galley. The television director views the action on the studio floor through a bank of\n         screens, each one linked to one of the studio cameras, while issuing instructions down to\n         the Floor Manager. In television, the creative part in the hands of the\n         producer."
+        ]
+      },
+      "20.21": {
+        "pref_labels": [
+          "Segment Director",
+          "Production Assistant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "",
+          "He brings a specific production together. Chooses the\n         screenplay, arranges financing, hires a director, helps in the casting process, coordinates\n         the production teams, contributors and artists, and is responsible for the day-to-day\n         operation of the shoot on set or from a studio galley (shot calling, shot-listing, making\n         recording notes, cueing, liaison with Presentation / VT, timing and continuity noting;\n         preparing operational and post-production documentation including programme scripts, camera\n         scripts / cards; recording orders, script breakdowns, schedules edit notes and post\n         production scripts). He is involved with the editing and all post-production and may also\n         consult on marketing and distribution. This function is different from the one of assistant\n         producer. In television, they are responsible for communication with the broadcasting\n         channel during a live show, counting down the time before transmission aloud to the crew\n         via the studio microphone. They also count down time remaining for sections of a programme,\n         such as an interview or an advert break. Prior to a production, he is responsible for\n         preparing and timing the script, noting pre-recorded inserts, sound effects and suchlike,\n         and for clearing copyright and other administrative issues."
+        ]
+      },
+      "20.22": {
+        "pref_labels": [
+          "Television Galley / Control Room Team",
+          "Production Researcher"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "television galley",
+          "control room team"
+        ],
+        "broader": [
+          "20"
+        ],
+        "narrower": [
+          "20.22.1",
+          "20.22.2",
+          "20.22.3"
+        ],
+        "definitions": [
+          "The following crew positions are only utilised on a\n         multi-camera production. The Gallery or \"Control Room\" is a separate darkened area away\n         from the studio floor where the action can be viewed across multiple monitors and\n         controlled from a single source.",
+          "A Person who carries out research required for the making of a\n         production. This may be research to do with the subject matter of the programme such as\n         nackground information, supporting material, or in finding persons to take\n         part."
+        ]
+      },
+      "20.22.1": {
+        "pref_labels": [
+          "Vision Mixer / Vision Switcher"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "vision mixer",
+          "vision switcher"
+        ],
+        "broader": [
+          "20.22"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The person responsible for mixing video feeds in a live\n         programme, such as a news broadcast. The Vision Mixer is also responsible for the actual\n         switching between different video sources, such as camera shots and video inserts. They\n         also maintain colour and contrast balance between the studio cameras."
+        ]
+      },
+      "20.22.2": {
+        "pref_labels": [
+          "Aston Operator / Graphics Operator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "aston operator",
+          "graphics operator"
+        ],
+        "broader": [
+          "20.22"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The Aston Operator prepares and displays on-screen\n         graphics."
+        ]
+      },
+      "20.22.3": {
+        "pref_labels": [
+          "VT Operator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20.22"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The VT Operator cues and prepares video inserts into a\n         programme. Heavily used in sports programming, they are also responsible for action replays\n         and quickly editing highlights while a show is in progress."
+        ]
+      },
+      "20.23": {
+        "pref_labels": [
+          "Production Assistant Researcher"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A Person who carries out research required for the making of a\n         production. This may be research to do with the subject matter of the programme such as\n         nackground information, supporting material, or in finding persons to take part."
+        ]
+      },
+      "20.24": {
+        "pref_labels": [
+          "Senior Researcher"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "20.25": {
+        "pref_labels": [
+          "Production Auditor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "20.26": {
+        "pref_labels": [
+          "Production Secretary"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Fulfils traditional secretarial duties assigned to the\n         production and provides general administrative support."
+        ]
+      },
+      "20.27": {
+        "pref_labels": [
+          "Production Steward"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "20.28": {
+        "pref_labels": [
+          "Production Company"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Organisation responsible for producing the\n         material"
+        ]
+      },
+      "20.29": {
+        "pref_labels": [
+          "Production Department"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Department of the production company, or of the commissioning\n         broadcaster, responsible for producing the material"
+        ]
+      },
+      "20.30": {
+        "pref_labels": [
+          "Production Unit"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "It is composed of camera crew, lighting/electrical department,\n         sound crew, etc."
+        ]
+      },
+      "20.31": {
+        "pref_labels": [
+          "Commissioning Broadcaster"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "uploader"
+        ],
+        "broader": [
+          "20"
+        ],
+        "narrower": [
+          "20.31.1",
+          "20.31.2"
+        ],
+        "definitions": [
+          "Original broadcaster commissioning the\n         material."
+        ]
+      },
+      "20.31.1": {
+        "pref_labels": [
+          "Commissioning Channel"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20.31"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Channel commissioning the material."
+        ]
+      },
+      "20.31.2": {
+        "pref_labels": [
+          "Commissioning Brand"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20.31"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Brand commissioning the material."
+        ]
+      },
+      "20.32": {
+        "pref_labels": [
+          "Technical Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Television production. In a production control room, the\n         technical director has overall responsibility for the operations. The technical director is\n         responsible for the proper working of all the equipment in the PCR. They also matches the\n         quality and the output of all the cameras on the studio floor through the camera control\n         units. It is their responsibility to supervise all the other crew members working in the\n         PCR. The technical director also coordinates the working of the whole crew and looks into\n         any technical problem which arises before, during or after the shooting of a\n         project"
+        ]
+      },
+      "20.33": {
+        "pref_labels": [
+          "Script Editor / Story Editor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A script editor — a position sometimes known as story editor —\n         is a member of the production team of scripted television programmes, usually dramas and\n         comedies. The script editor's main job is to work with the writers of the programme to\n         ensure that the scripts are suitable for production — the script editor, unlike the\n         writers, will usually be a full-time member of the production team, working closely with\n         the producer"
+        ]
+      },
+      "20.34": {
+        "pref_labels": [
+          "Resource Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "20.35": {
+        "pref_labels": [
+          "Shop Lead"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "20.36": {
+        "pref_labels": [
+          "Floor Manager / Stage Manager / Foreman"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "floor manager",
+          "stage manager",
+          "foreman"
+        ],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For television, the Floor Manager is the Director's\n         representative on the studio floor, and is responsible for giving instruction and direction\n         to crew, cast and guests. The Floor Manager is responsible for everything that happens on\n         the floor and acts as liaison between the director and studio staff."
+        ]
+      },
+      "20.37": {
+        "pref_labels": [
+          "Assistant Floor Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "An Assistant Floor Manager is responsible for setting a stage\n         and prompting contributors on the studio floor and ensuring that everyone knows their place\n         in the script, freeing the Floor Manager for other duties. They often oversee a team of\n         Runners. Increasingly, Assistant Floor Managers are being asked to assist with the design\n         and preparation of props, as well as setting and resetting the action on the studio\n         floor."
+        ]
+      },
+      "20.38": {
+        "pref_labels": [
+          "Scheduling Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Scheduling directors organize the production schedule. They\n         prepare an efficient schedule for shooting scenes, taking into account the individual\n         schedules of each crew and cast member and the availability of the set\n         location."
+        ]
+      },
+      "20.39": {
+        "pref_labels": [
+          "Runner"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Runners are the most junior members of a television or film\n         crew. The job can include holding back onlookers, getting coffee, answering phones in the\n         production office, escorting actors to locations, acting as a stand-in while a short is\n         worked out, or performing any other tasks helping the production in any\n         way."
+        ]
+      },
+      "20.40": {
+        "pref_labels": [
+          "Location Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The location manager assists the Director and the Production\n         designer in finding, securing, and coordinating filming locations. Locations is often\n         considered to be a separate department. He works with local officials to coordinate\n         shooting schedules, and is responsible for the condition of the locations after shooting is\n         finished. He often acts as location scout during the pre-production\n         period"
+        ]
+      },
+      "20.41": {
+        "pref_labels": [
+          "Assistant Location Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "20.42": {
+        "pref_labels": [
+          "Location Scout"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Same role as location manager to find filimng locations in\n         particular during the pre-production period"
+        ]
+      },
+      "20.43": {
+        "pref_labels": [
+          "Third Assistant Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person that works on set with the 1st and sometimes 2nd\n         Assistant Director. For major productions only."
+        ]
+      },
+      "20.44": {
+        "pref_labels": [
+          "Format Deviser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person who devises the format of a programme, including\n         development of the main elements of the programme, such as concept, characters, sometimes\n         which actors, performers or crew should be involved."
+        ]
+      },
+      "20.45": {
+        "pref_labels": [
+          "Music Adviser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person who provides advice on the music used in a\n         programme."
+        ]
+      },
+      "20.46": {
+        "pref_labels": [
+          "Stage Designer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person responsible for look of a production (e.g. set, props,\n         costumes). Theatrical productions only."
+        ]
+      },
+      "20.47": {
+        "pref_labels": [
+          "Stage Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person responsible for supervising all audience-visible\n         components of show. Theatrical productions only."
+        ]
+      },
+      "20.48": {
+        "pref_labels": [
+          "Stage Lighting Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person who is responsible for lighting the set. Theatrical\n         productions only."
+        ]
+      },
+      "20.49": {
+        "pref_labels": [
+          "Stage Production Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person responsible overall for stage management. Theatrical\n         productions only."
+        ]
+      },
+      "20.50": {
+        "pref_labels": [
+          "Production Assistant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "He brings a specific production together. Chooses the\n         screenplay, arranges financing, hires a director, helps in the casting process, coordinates\n         the production teams, contributors and artists, and is responsible for the day-to-day\n         operation of the shoot on set or from a studio galley (shot calling, shot-listing, making\n         recording notes, cueing, liaison with Presentation / VT, timing and continuity noting;\n         preparing operational and post-production documentation including programme scripts, camera\n         scripts / cards; recording orders, script breakdowns, schedules edit notes and post\n         production scripts). He is involved with the editing and all post-production and may also\n         consult on marketing and distribution. This function is different from the one of assistant\n         producer. In television, they are responsible for communication with the broadcasting\n         channel during a live show, counting down the time before transmission aloud to the crew\n         via the studio microphone. They also count down time remaining for sections of a programme,\n         such as an interview or an advert break. Prior to a production, he is responsible for\n         preparing and timing the script, noting pre-recorded inserts, sound effects and suchlike,\n         and for clearing copyright and other administrative issues."
+        ]
+      },
+      "20.51": {
+        "pref_labels": [
+          "Production Researcher"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A Person who carries out research required for the making of a\n         production. This may be research to do with the subject matter of the programme such as\n         nackground information, supporting material, or in finding persons to take\n         part."
+        ]
+      },
+      "25": {
+        "pref_labels": [
+          "TALENT"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "25.1",
+          "25.2",
+          "25.3",
+          "25.4",
+          "25.5",
+          "25.6",
+          "25.7",
+          "25.8",
+          "25.9",
+          "25.10",
+          "25.11",
+          "25.12",
+          "25.13",
+          "25.14",
+          "25.15",
+          "25.16",
+          "25.17",
+          "25.18",
+          "25.19",
+          "25.20",
+          "25.21",
+          "25.22",
+          "25.23",
+          "25.24"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.1": {
+        "pref_labels": [
+          "Key Character"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A character whose appearance in the production is of major\n         importance and who is likely to be an important factor in attracting an audience. Key\n         characters may be real or fictional, and may be animated or played by actors. Examples of\n         Key Characters include Bugs Bunny, Mickey Mouse, Robin Hood, James Bond and Hannibal\n         Lecter."
+        ]
+      },
+      "25.2": {
+        "pref_labels": [
+          "Key Talents"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person performing as a leading character in a fiction\n         programme. The presence of this person within the production is regarded as a 'selling\n         point'. That is, the person's presence in the production is expected to be a major\n         attraction to the audience. The classification of a person as a 'key talent' within any\n         given production is an editorial decision and may change over time."
+        ]
+      },
+      "25.3": {
+        "pref_labels": [
+          "Scenarist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.4": {
+        "pref_labels": [
+          "Essayist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.5": {
+        "pref_labels": [
+          "Sculptor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.6": {
+        "pref_labels": [
+          "Variety Artist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.7": {
+        "pref_labels": [
+          "Voice Over Artist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.8": {
+        "pref_labels": [
+          "Artist / Performer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "artist",
+          "performer"
+        ],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who plays the role of a character. A person who\n         principally exhibits acting skills in a musical or dramatic presentation or entertainment."
+        ]
+      },
+      "25.9": {
+        "pref_labels": [
+          "Actor / Actress / Histrion / Thespian / Role\n         Player"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "actor",
+          "actress",
+          "histrion",
+          "thespian",
+          "role player",
+          "cast"
+        ],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who plays the role of a character. A person who\n         principally exhibits acting skills in a musical or dramatic presentation or entertainment.\n         It covers the actress or histrion or player or thespian or other role\n         player"
+        ]
+      },
+      "25.10": {
+        "pref_labels": [
+          "Anchor / Moderator / Presenter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "anchor",
+          "moderator",
+          "presenter"
+        ],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who introduces, hosts a progarmme or who acts as the\n         central moderator of the programme, responsible for following the programme script towards\n         the audience."
+        ]
+      },
+      "25.11": {
+        "pref_labels": [
+          "Interviewer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who interviews, especially one who obtains an\n         interview with another person for the purpose of eliciting his opinions."
+        ]
+      },
+      "25.12": {
+        "pref_labels": [
+          "Interviewed Guest"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person invited as a guest in a non fiction programme for an\n         interview"
+        ]
+      },
+      "25.13": {
+        "pref_labels": [
+          "Guest"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.14": {
+        "pref_labels": [
+          "Host"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.15": {
+        "pref_labels": [
+          "Narrator / Storyteller / Reader"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "narrator",
+          "storyteller",
+          "reader"
+        ],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who tells a story"
+        ]
+      },
+      "25.16": {
+        "pref_labels": [
+          "Speaker / Lecturer / Causeur"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "speaker",
+          "lecturer",
+          "causeur"
+        ],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person who gives an informal lecture, typically on\n         Radio."
+        ]
+      },
+      "25.17": {
+        "pref_labels": [
+          "Choreographer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who is responsible for composition and arrangement of\n         dance for a musical or dramatic presentation or entertainment."
+        ]
+      },
+      "25.18": {
+        "pref_labels": [
+          "Dancer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who principally exhibits dancing skills in a musical\n         or dramatic presentation or enternainment"
+        ]
+      },
+      "25.19": {
+        "pref_labels": [
+          "Participant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who occasionally performs in a non-fiction programme\n         with an active role."
+        ]
+      },
+      "25.20": {
+        "pref_labels": [
+          "Panelist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.21": {
+        "pref_labels": [
+          "Commentator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who provides interpretation, analysis, or a discussioh\n         of the subject matter on a recording, motion picture, or other audiovisual\n         medium"
+        ]
+      },
+      "25.22": {
+        "pref_labels": [
+          "Dubber"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "An actor who adds new dialogue to an audio-visual work either\n         in a different language or in place of original dialogue."
+        ]
+      },
+      "25.23": {
+        "pref_labels": [
+          "Dance Director"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "25.24": {
+        "pref_labels": [
+          "Question Setter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person who provides the questions for (e.g.) a panel show or\n         quiz."
+        ]
+      },
+      "28": {
+        "pref_labels": [
+          "WARDROBE DEPARTMENT"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "28.1",
+          "28.2",
+          "28.3",
+          "28.4",
+          "28.5",
+          "28.6",
+          "28.7",
+          "28.8",
+          "28.9",
+          "28.10",
+          "28.11",
+          "28.12",
+          "28.13",
+          "28.14",
+          "28.15",
+          "28.16",
+          "28.17",
+          "28.18",
+          "28.19",
+          "28.20",
+          "28.21",
+          "28.22",
+          "28.23",
+          "28.24",
+          "28.25",
+          "28.26"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.1": {
+        "pref_labels": [
+          "Costume Designer / Illustrator"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The Costume designer is the person whose responsibility is to\n         design costumes for a film or stage production. The Costume Designer forms an\n         interpretation of mood and characterisation in relation to dramatic content, artists, set\n         and lighting. The work involves a lot of research to gain a thorough knowledge of period\n         and etiquette."
+        ]
+      },
+      "28.2": {
+        "pref_labels": [
+          "Tailor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.3": {
+        "pref_labels": [
+          "Cutter"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.4": {
+        "pref_labels": [
+          "Assistant Cutter / First Hand"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "assistant cutter",
+          "first hand"
+        ],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.5": {
+        "pref_labels": [
+          "Stitcher"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.6": {
+        "pref_labels": [
+          "Costume Buyer / Costume Hirer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "costume buyer",
+          "costume hirer"
+        ],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.7": {
+        "pref_labels": [
+          "Wardrobe Manager"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person responsible for managing the collection of clothes\n         and/or costumes."
+        ]
+      },
+      "28.8": {
+        "pref_labels": [
+          "Wardrobe Assistant"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person assisting the wardrobe manager"
+        ]
+      },
+      "28.9": {
+        "pref_labels": [
+          "Wardrobe Superviser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.10": {
+        "pref_labels": [
+          "Wardrobe"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.11": {
+        "pref_labels": [
+          "Standby Wardrobe"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.12": {
+        "pref_labels": [
+          "Costume Supervisor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.13": {
+        "pref_labels": [
+          "Set Costume Supervisor"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person responsible for handling the costumes worn by\n         actors"
+        ]
+      },
+      "28.14": {
+        "pref_labels": [
+          "Key Set Costumer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.15": {
+        "pref_labels": [
+          "Set Costumer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who handles the costumes worn by\n         actors."
+        ]
+      },
+      "28.16": {
+        "pref_labels": [
+          "Specialty Set Costumer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who handles the costumes worn by\n         actors."
+        ]
+      },
+      "28.17": {
+        "pref_labels": [
+          "Costumer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who handles the costumes worn by\n         actors."
+        ]
+      },
+      "28.18": {
+        "pref_labels": [
+          "Lead Dresser / Lead On-set Dresser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "lead dresser",
+          "lead on-set dresser"
+        ],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Person leading dressers"
+        ]
+      },
+      "28.19": {
+        "pref_labels": [
+          "Dresser / On-set Dresser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "dresser",
+          "on-set dresser"
+        ],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person responsible for helping actors and actresses to put on\n         and take off their costumes."
+        ]
+      },
+      "28.20": {
+        "pref_labels": [
+          "Textile Artist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Expert in processing textile in order to render specific\n         effects, e.g. aging cloth."
+        ]
+      },
+      "28.21": {
+        "pref_labels": [
+          "Fabric Printer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.22": {
+        "pref_labels": [
+          "Fabric Dyer"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.23": {
+        "pref_labels": [
+          "Embroidery"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.24": {
+        "pref_labels": [
+          "Pattern Maker"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "28.25": {
+        "pref_labels": [
+          "Milliner"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A person who designs, makes, or sells women's\n         hats"
+        ]
+      },
+      "28.26": {
+        "pref_labels": [
+          "Stylist"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      }
+    }
+  }
+}
