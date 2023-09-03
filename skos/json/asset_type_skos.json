@@ -196,6 +196,54 @@
         "narrower": [],
         "definitions": []
       },
+      "1.14": {
+        "pref_labels": [
+          "Special"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "1.13": {
+        "pref_labels": [
+          "Longform"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "1.12": {
+        "pref_labels": [
+          "Shortform"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "1.11": {
+        "pref_labels": [
+          "Episode"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
       "1.1": {
         "pref_labels": [
           "Movie"
@@ -228,6 +276,10 @@
         "hidden_labels": [],
         "broader": [],
         "narrower": [
+          "1.14",
+          "1.13",
+          "1.12",
+          "1.11",
           "1.4",
           "1.2",
           "1.3",
