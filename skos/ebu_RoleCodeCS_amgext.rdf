@@ -883,8 +883,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_4.49">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Background Artist / Background Stylist / Background
-         Painter</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Background Artist / Background Stylist / Background Painter</skos:prefLabel>
       <skos:definition xml:lang="en">A background artist or sometimes called a background stylist or
          background painter is one who is involved in the process of animation who establishes the
          color, style, and mood of a scene drawn by an animation layout artist. He paint the sets
@@ -1299,8 +1298,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_5.5.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Prop Manager / Prop Master / Property Manager / Property
-         Master</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Prop Manager / Prop Master / Property Manager / Property Master</skos:prefLabel>
       <skos:definition xml:lang="en">The person responsible for the supply, maintenance and storage
          of any props which are used for a production.</skos:definition>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_5.5"/>
@@ -1316,8 +1314,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_5.5.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Prop Buyer / Hirer / Property Buyer / Property
-         Hirer</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Prop Buyer / Hirer / Property Buyer / Property Hirer</skos:prefLabel>
       <skos:definition xml:lang="en"/>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_5.5"/>
       <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
@@ -1333,8 +1330,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_5.5.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Prop Builder / Prop Maker / Property Builder / Property
-         Maker</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Prop Builder / Prop Maker / Property Builder / Property Maker</skos:prefLabel>
       <skos:definition xml:lang="en">The props builder, as the name implies, builds the props that
          are used for the film. Props builders are often technicians skilled in construction,
          plastics casting, machining, and electronics.</skos:definition>
@@ -1888,8 +1884,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_5.9.10">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Background Artist / Background Stylist / Background
-         Painter</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Background Artist / Background Stylist / Background Painter</skos:prefLabel>
       <skos:definition xml:lang="en"/>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_5.9"/>
       <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
@@ -2398,8 +2393,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_6.2.5">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Second Assistant Camera / Clap Boy / Clapper
-         Loader</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Second Assistant Camera / Clap Boy / Clapper Loader</skos:prefLabel>
       <skos:definition xml:lang="en">Operates the clapperboard at the beginning of each take and
          loads the raw film stock into the camera magazines between takes. Also in charge of
          delivering film material to development labs, he oversees organization of camera equipment
@@ -2635,8 +2629,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_6.3.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Camera Tracking Superviser / Matchmove
-         Superviser</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Camera Tracking Superviser / Matchmove Superviser</skos:prefLabel>
       <skos:definition xml:lang="en"/>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_6.3"/>
       <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
@@ -3598,8 +3591,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_11.1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Editor / Visual Editor / Film Editor / Video
-         Editor</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Editor / Visual Editor / Film Editor / Video Editor</skos:prefLabel>
       <skos:definition xml:lang="en">The editor is the person who assembles the various shots into a
          coherent film, following the screnplay, with the help of the director.</skos:definition>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_11"/>
@@ -3848,8 +3840,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_11.22">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Audio Editor / Sound Editor / Audio Mixer / Sound
-         Mixer</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Audio Editor / Sound Editor / Audio Mixer / Sound Mixer</skos:prefLabel>
       <skos:definition xml:lang="en">A sound editor is a creative professional responsible for
          selecting and assembling sound recordings in preparation for the final sound mixing or
          mastering of a television program or motion picture.</skos:definition>
@@ -4592,8 +4583,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_15.11">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Lighting Operator / Lighting Technician / Lighting
-         Assistant</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Lighting Operator / Lighting Technician / Lighting Assistant</skos:prefLabel>
       <skos:definition xml:lang="en">A member of the electrical department who installs, operates,
          and maintains lights and lighting equipment on a set.</skos:definition>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_15"/>
@@ -5385,8 +5375,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_19.6">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Post-production Coordinator / Clearance
-         Coordinator</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Post-production Coordinator / Clearance Coordinator</skos:prefLabel>
       <skos:definition xml:lang="en"/>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_19"/>
       <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
@@ -5667,8 +5656,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.12">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Assistant Unit Manager / Assistant Second Unit Manager / Unit
-         Manager / Unit Production Manager</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Assistant Unit Manager / Assistant Second Unit Manager / Unit Manager / Unit Production Manager</skos:prefLabel>
       <skos:definition xml:lang="en">Assist with the day-to-day financial operation of the shooting
          unit.</skos:definition>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20"/>
@@ -6417,8 +6405,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_22.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Author / Screenplay / Scriptwriter / Adaptor /
-         Dramatiser</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Author / Screenplay / Scriptwriter / Adaptor / Dramatiser</skos:prefLabel>
       <skos:definition xml:lang="en">A screenplay or script is a blueprint for producing a motion
          picture or broadcast drama. It can be adapted from a previous work such as a novel, play or
          short story, or it may be an original work in and of itself. A screenplay differs from a
@@ -6603,8 +6590,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_23.3">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Audio Engineer / Sound Engineer / Audio
-         Operator</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Audio Engineer / Sound Engineer / Audio Operator</skos:prefLabel>
       <skos:definition xml:lang="en">recording and reproduction of sound through mechanical and
          electronic means.</skos:definition>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_23"/>
@@ -6977,8 +6963,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Actor / Actress / Histrion / Thespian / Role
-         Player</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Actor / Actress / Histrion / Thespian / Role Player</skos:prefLabel>
       <skos:definition xml:lang="en">A person who plays the role of a character. A person who
          principally exhibits acting skills in a musical or dramatic presentation or entertainment.
          It covers the actress or histrion or player or thespian or other role
