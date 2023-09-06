@@ -1,3 +1,4 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
 @prefix ebucoreext: <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -5,6 +6,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> rdf:type owl:Ontology ;
+                owl:imports <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore> .
 
 # An asset either episode or feature will be associated with exactly one resource of class type AIAugmentedMeta
 # The above constraint means that the urriId for AIAugmentedMeta instance will be equal to fn(asset_uri_id, constant) where
