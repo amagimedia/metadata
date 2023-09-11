@@ -8,6 +8,7 @@
             <amg:keyword>amagi_o&amp;o_virtual_channel</amg:keyword>
             <amg:keyword>beekeeper_uat</amg:keyword>
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
+            <amg:assetType label="Movie">https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.1</amg:assetType>
             <media:description>Clare desperately tries to build a life with her one true love, despite the fact that his time traveling forces them apart with no warning, never knowing when they will be reunited.</media:description>
             <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Clare essaie désespérément de construire une vie avec son seul véritable amour, malgré le fait que son temps de voyage les sépare sans avertissement, ne sachant jamais quand ils seront réunis.</media:description>
             <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/mp4/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="6441" height="1080" width="1920" fileSize="546873760" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" type="video/mp4" bitrate="1500" framerate="23.976"/>
@@ -56,6 +57,7 @@
             <amg:lang>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en</amg:lang>
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
             <amg:genre label="broken comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
+            <amg:assetType label="Episode">https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2</amg:assetType>
             <amg:longDescription>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</amg:longDescription>
             <amg:longDescription amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Silas découvre quelque chose sur Tara. La fusion Majestic et Agrestic laisse certaines personnes sans emploi. Shane installe un système de sécurité. Nancy découvre qu'elle est filée.</amg:longDescription>
             <media:description>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</media:description>
