@@ -9,6 +9,22 @@
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> rdf:type owl:Ontology ;
                 owl:imports <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore> .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#scopeNote>
+    a rdf:Property, owl:AnnotationProperty ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label "scopeNote"@en ;
+    skos:definition "A note to denote the scope of a grounded entity. Specifically useful to denote the manual-edits, active-meta"@en ;
+    skos:scopeNote "This property may be used directly to annotate any owl:thing within ebucore scope"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#width>
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#integer> ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#height>
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#integer> ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
+
+
 # An asset either episode or feature will be associated with exactly one resource of class type AIAugmentedMeta
 # The above constraint means that the urriId for AIAugmentedMeta instance will be equal to fn(asset_uri_id, constant) where
 # asset_uri_id is the uriId of the asset with which the AIAugmentedMeta instance is associated. 
