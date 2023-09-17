@@ -24,6 +24,15 @@
         rdfs:range              <http://www.w3.org/2001/XMLSchema#integer> ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isAttributedTo>
+    a rdf:Property ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#anyURI> ;
+    rdfs:domain             ebucore:Asset ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label "SourceAttribution"@en ;
+    skos:definition "This property allows to denote the attribution of an asset's metadata to its source url. The source urls could be media rss feed url or a source csv location."@en .
+
 
 # An asset either episode or feature will be associated with exactly one resource of class type AIAugmentedMeta
 # The above constraint means that the urriId for AIAugmentedMeta instance will be equal to fn(asset_uri_id, constant) where
