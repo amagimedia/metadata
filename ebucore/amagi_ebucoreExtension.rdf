@@ -18,9 +18,30 @@
     <rdfs:label xml:lang="en">hasAnnotation</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isAttributedTo">
+    <skos:definition xml:lang="en">This property allows to denote the attribution of an asset's metadata to its source url. The source urls could be media rss feed url or a source csv location.</skos:definition>
+    <rdfs:label xml:lang="en">SourceAttribution</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#height">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension">
     <owl:imports rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#scopeNote">
+    <skos:scopeNote xml:lang="en">This property may be used directly to annotate any owl:thing within ebucore scope</skos:scopeNote>
+    <skos:definition xml:lang="en">A note to denote the scope of a grounded entity. Specifically useful to denote the manual-edits, active-meta</skos:definition>
+    <rdfs:label xml:lang="en">scopeNote</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta">
     <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource"/>
@@ -28,5 +49,9 @@
                     learning techniques</rdfs:comment>
     <rdfs:label xml:lang="en">AIAugmentedMeta</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#width">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
 </rdf:RDF>
