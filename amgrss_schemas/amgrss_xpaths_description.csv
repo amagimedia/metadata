@@ -14,6 +14,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:episodeNumber, Episode number of an episodic item in the season is season is present otherwise episode number in the series, xs:integer, 1, no
 /rss/channel/item/amg:longDescription, Long description describing media object, xs:string, "movie on stock. Set in time persion 1929-1935", no
 /rss/channel/item/amg:longDescription/@amg:lang, the language of the longDescription as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
+/rss/channel/item/amg:assetType, Asset Type of the title, xs:anyUri, "https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.1 (Movie)", yes
 /rss/channel/item/amg:genre, Genre of the media object. https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4", yes
 /rss/channel/item/amg:genre/@label, Label of the genre which is the same as the corresponding skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf, xs:string, "Drama", no
 /rss/channel/item/amg:externalId, Standard external ID of an asset as defined by 3rd party orgs like imdb eidr etc., xs:string, "tt3501074", no
@@ -31,7 +32,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:content/@type, the standard MIME type of the object, xs:string, "video/mp4", no
 /rss/channel/item/media:content/@url, should specify the direct URL to the media object, xs:anyUri, "https://www.example.com/video.mp4", no
 /rss/channel/item/media:content/@width, the width of the media object, xs:integer, "1920", no
-/rss/channel/item/media:category, https://www.rssboard.org/media-rss#media-category, xs:complexType, <media:category scheme="http://search.yahoo.com/mrss/category_ schema">music/artist/album/song</media:category> <media:category scheme="urn:flickr:tags">mobile</media:category> <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_ -_Pet_Detective</media:category>, no
+/rss/channel/item/media:category, https://www.rssboard.org/media-rss#media-category, xs:complexType, <media:category scheme="http://search.yahoo.com/mrss/category_schema">music/artist/album/song</media:category> <media:category scheme="urn:flickr:tags">mobile</media:category> <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_-_Pet_Detective</media:category>, no
 /rss/channel/item/media:category/@label, specifies a human readable label for display, xs:string, "Ace Ventura - Pet Detective", no
 /rss/channel/item/media:category/@scheme, specifies the categorization scheme via a URI, xs:anyUri, "http://dmoz.org", no
 /rss/channel/item/media:thumbnail, https://www.rssboard.org/media-rss#media-thumbnails, xs:complexType, n/a, no

@@ -179,6 +179,11 @@
   </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="#json-representations">
+    Json representations
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#rdf-compare">
     RDF compare
   </a>
@@ -202,6 +207,13 @@
 <li><strong>ebu_ContentGenreCS.rdf</strong>: Source -&gt; <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.rdf</a></li>
 <li><strong>ebu_RoleCodeCS.rdf</strong>: Source -&gt; <a href="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf">http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf</a></li>
 <li><strong>ebu_Iso3166_CountryCodeCS.rdf</strong>  : Source -&gt; <a href="https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.rdf">https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.rdf</a></li>
+</ul>
+<h2 id="json-representations">Json representations<a class="headerlink" href="#json-representations" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>json/role_skos.json</strong>: Command to generate <code>amgrss-tool ebucs-rdf-2-json -i /Users/shashidhar/sb_work/sb_github/metadata/skos/ebu_RoleCodeCS_amgext.rdf -p all -n 5,17,20,25,28 -o role.json</code></li>
+<li><strong>json/asset_type_skos.json</strong>: Command to generate <code>amgrss-tool ebucs-rdf-2-json -i /Users/shashidhar/sb_work/sb_github/metadata/skos/amagi_ebu_AssetTypeCS.rdf -o asset_type.json</code></li>
+<li><strong>json/genre_skos.json</strong>: Json representation of ebu_ContentGenreCS_amgext.rdf</li>
+<li><strong>json/parental_guidance_skos.json</strong>: Json representation of ebu_ParentalGuidanceCodeCS_amgext.rdf </li>
 </ul>
 <h2 id="rdf-compare">RDF compare<a class="headerlink" href="#rdf-compare" title="Permanent link">¶</a></h2>
 <p><strong>rdfdiff</strong>: Jena cli tool. <a href="https://jena.apache.org/documentation/tools/index.html">Install instructions</a></p>

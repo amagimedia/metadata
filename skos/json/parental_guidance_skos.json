@@ -1,0 +1,8160 @@
+{
+  "type": "ebucs",
+  "source": "ebu_ParentalGuidanceCodeCS_amgext.rdf",
+  "language": "en",
+  "scheme": {
+    "iri": "http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS",
+    "top_level_concepts": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67"
+    ],
+    "concepts": {
+      "1": {
+        "pref_labels": [
+          "AR-INCAA"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5",
+          "1.6"
+        ],
+        "definitions": [
+          "Institute of Film and Audiovisual Arts through the Advisory\n         Commission of Cinematographic Exhibition"
+        ]
+      },
+      "1.1": {
+        "pref_labels": [
+          "ATP"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "1.2": {
+        "pref_labels": [
+          "13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not under 13"
+        ]
+      },
+      "1.3": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not under 16"
+        ]
+      },
+      "1.4": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not under 18"
+        ]
+      },
+      "1.5": {
+        "pref_labels": [
+          "X"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Explicit"
+        ]
+      },
+      "1.6": {
+        "pref_labels": [
+          "E"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Exempt: sports, music, etc."
+        ]
+      },
+      "2": {
+        "pref_labels": [
+          "AT-BMUKK"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5",
+          "2.6"
+        ],
+        "definitions": [
+          "Federal Ministry for Education, the Arts and\n         Culture"
+        ]
+      },
+      "2.1": {
+        "pref_labels": [
+          "None"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "2.2": {
+        "pref_labels": [
+          "6"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "6 years and above"
+        ]
+      },
+      "2.3": {
+        "pref_labels": [
+          "10"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "10 years and above"
+        ]
+      },
+      "2.4": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "12 years and above"
+        ]
+      },
+      "2.5": {
+        "pref_labels": [
+          "14"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "14 years and above"
+        ]
+      },
+      "2.6": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "16 years and above"
+        ]
+      },
+      "3": {
+        "pref_labels": [
+          "AU-OFLC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "3.6"
+        ],
+        "definitions": [
+          "Office of Film and Literature Classification"
+        ]
+      },
+      "3.1": {
+        "pref_labels": [
+          "G",
+          "General"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "G classified films and computer games are for general viewing.\n         Many of the films and computer games contain content that would be of no interest to\n         children. The impact of the content is very mild."
+        ]
+      },
+      "3.2": {
+        "pref_labels": [
+          "Parental Guidance"
+        ],
+        "alt_labels": [
+          "PG"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "PG classified films and computer games may contain material\n         that needs to be explained to children therefore parental guidance is recommended. The\n         impact of the content is mild."
+        ]
+      },
+      "3.3": {
+        "pref_labels": [
+          "M",
+          "Mature"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The M category is recommended for mature audiences. A mature\n         perspective is required to view this material. The impact of the content is\n         moderate."
+        ]
+      },
+      "3.4": {
+        "pref_labels": [
+          "MA15+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The MA 15+ category is a legally restricted category. The\n         impact of the content is strong. A person under the age of 15 years must be accompanied by\n         a parent or adult guardian if viewing or buying a film or computer game classified MA\n         15+."
+        ]
+      },
+      "3.5": {
+        "pref_labels": [
+          "R18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "R 18+ classified films are legally restricted to persons 18\n         years and over because of the high impact content. Some material in this classification may\n         be offensive to some sections of the adult community."
+        ]
+      },
+      "3.6": {
+        "pref_labels": [
+          "X18+",
+          "Restricted to 18 and over"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The X 18+ classification only applies to films that contain\n         sexually explicit material between consenting adults. It is restricted to persons aged 18\n         years and over and can only be sold or hired legally in the ACT and the Northern Territory.\n         The possession and supply of X 18+ films is prohibited in prescribed areas of the Northern\n         Territory."
+        ]
+      },
+      "4": {
+        "pref_labels": [
+          "AU-ACMA"
+        ],
+        "alt_labels": [
+          "www.acma.gov.au"
+        ],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "4.1",
+          "4.2"
+        ],
+        "definitions": [
+          "Australian Communications and Media Authority"
+        ]
+      },
+      "4.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4"
+        ],
+        "narrower": [
+          "4.1.1",
+          "4.1.2",
+          "4.1.3",
+          "4.1.4",
+          "4.1.5",
+          "4.1.6",
+          "4.1.7"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "4.1.1": {
+        "pref_labels": [
+          "P"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Pre-school"
+        ]
+      },
+      "4.1.2": {
+        "pref_labels": [
+          "C"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Children"
+        ]
+      },
+      "4.1.3": {
+        "pref_labels": [
+          "G"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "General"
+        ]
+      },
+      "4.1.4": {
+        "pref_labels": [
+          "PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental Guidance"
+        ]
+      },
+      "4.1.5": {
+        "pref_labels": [
+          "M"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Mature"
+        ]
+      },
+      "4.1.6": {
+        "pref_labels": [
+          "MA15+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "15 or older"
+        ]
+      },
+      "4.1.7": {
+        "pref_labels": [
+          "AV15+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "15 or older with violent content"
+        ]
+      },
+      "4.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4"
+        ],
+        "narrower": [
+          "4.2.1",
+          "4.2.2",
+          "4.2.3",
+          "4.2.4",
+          "4.2.5",
+          "4.2.6",
+          "4.2.7",
+          "4.2.8",
+          "4.2.9",
+          "4.2.10",
+          "4.2.11"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "4.2.1": {
+        "pref_labels": [
+          "A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Adult"
+        ]
+      },
+      "4.2.2": {
+        "pref_labels": [
+          "V"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Violence"
+        ]
+      },
+      "4.2.3": {
+        "pref_labels": [
+          "L"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Language"
+        ]
+      },
+      "4.2.4": {
+        "pref_labels": [
+          "S"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Sex"
+        ]
+      },
+      "4.2.5": {
+        "pref_labels": [
+          "H"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Horror"
+        ]
+      },
+      "4.2.6": {
+        "pref_labels": [
+          "D"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Drugs"
+        ]
+      },
+      "4.2.7": {
+        "pref_labels": [
+          "N"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Nudity"
+        ]
+      },
+      "4.2.8": {
+        "pref_labels": [
+          "SN"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Supernatural"
+        ]
+      },
+      "4.2.9": {
+        "pref_labels": [
+          "M"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Medical"
+        ]
+      },
+      "4.2.10": {
+        "pref_labels": [
+          "W"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "War"
+        ]
+      },
+      "4.2.11": {
+        "pref_labels": [
+          "B"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "4.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Colorful behaviour"
+        ]
+      },
+      "5": {
+        "pref_labels": [
+          "BE"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "5.1",
+          "5.2"
+        ],
+        "definitions": []
+      },
+      "5.1": {
+        "pref_labels": [
+          "Children Allowed"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Children admitted - Suitable for all"
+        ]
+      },
+      "5.2": {
+        "pref_labels": [
+          "Children Not Allowed"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "5"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Children not admitted (below 16 years of age)"
+        ]
+      },
+      "6": {
+        "pref_labels": [
+          "BG-FIA"
+        ],
+        "alt_labels": [
+          "BG-NFRC"
+        ],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "6.1",
+          "6.2",
+          "6.3",
+          "6.4",
+          "6.5"
+        ],
+        "definitions": [
+          "Film Industry Act",
+          "National Film Rating Committee"
+        ]
+      },
+      "6.1": {
+        "pref_labels": [
+          "A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "6"
+        ],
+        "narrower": [],
+        "definitions": [
+          "When the film confirms the ideals of humanism or popularizes\n         the national and world cultures or contributes to upbringing children"
+        ]
+      },
+      "6.2": {
+        "pref_labels": [
+          "B"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "6"
+        ],
+        "narrower": [],
+        "definitions": [
+          "All ages - When the film is in no way contrary to the universal\n         rules of morality in this country, has no restrictive recommendations from the Committee\n         and does not fall in rating A"
+        ]
+      },
+      "6.3": {
+        "pref_labels": [
+          "C"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "6"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For 12 and over - When the film contains certain erotic scenes\n         or scenes with drinking, taking drugs or stimulants or a few scenes of\n         violence"
+        ]
+      },
+      "6.4": {
+        "pref_labels": [
+          "D"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "6"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For 16 and over - When the film contains quite a number of\n         erotic scenes or scenes with drinking, taking drugs or stimulants or a considerable number\n         of scenes showing violence"
+        ]
+      },
+      "6.5": {
+        "pref_labels": [
+          "X"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "6"
+        ],
+        "narrower": [],
+        "definitions": [
+          "When the film is naturalistically erotic or shows violence in\n         an ostentatious manner"
+        ]
+      },
+      "7": {
+        "pref_labels": [
+          "BR-DJCTQ"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "7.1",
+          "7.2",
+          "7.3",
+          "7.4",
+          "7.5",
+          "7.6",
+          "7.7"
+        ],
+        "definitions": [
+          "Department of Justice, Rating, Titles and\n         Qualification"
+        ]
+      },
+      "7.1": {
+        "pref_labels": [
+          "ER"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Especially Recommended for Children and Adolescents. This\n         rating means that the film is especially advised for children and adolescents. Contains\n         educational material, and doesn't have any inappropriate content."
+        ]
+      },
+      "7.2": {
+        "pref_labels": [
+          "L"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This rating means that the film/game can be watched/played by\n         anyone and doesn't have any inappropriate content"
+        ]
+      },
+      "7.3": {
+        "pref_labels": [
+          "10"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This film/game is recommended for persons with or over 10 years\n         of age. May contain a little inappropriate language, sexual innuendo, or mild\n         violence."
+        ]
+      },
+      "7.4": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This film/game is recommended for persons with or over 12 years\n         of age. May contain a little inappropriate language, sexual innuendo, or mild\n         violence."
+        ]
+      },
+      "7.5": {
+        "pref_labels": [
+          "14"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This film/game is recommended for persons with or over 14 years\n         of age. May contain inappropriate language, sexual innuendo and/or mild sex with no nudity\n         or the act being explicit shown, violence, mention to drug use."
+        ]
+      },
+      "7.6": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This film/game is recommended for persons with or over 16 years\n         of age. May contain strong language, sexual innuendo and/or mild sex with or without mild\n         nudity, strong violence, drug use."
+        ]
+      },
+      "7.7": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This film/game is forbidden for people under 18 years of age.\n         It may contain strong language, intense sex, strong nudity, strong violence, intense drug\n         use. It is also used to rate pornographic films.."
+        ]
+      },
+      "8": {
+        "pref_labels": [
+          "CA-CHVRS"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "8.1",
+          "8.2",
+          "8.3",
+          "8.4",
+          "8.5",
+          "8.6"
+        ],
+        "definitions": [
+          "Canadian Home Video Rating System"
+        ]
+      },
+      "8.1": {
+        "pref_labels": [
+          "G - General"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "8"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for viewing by all ages"
+        ]
+      },
+      "8.2": {
+        "pref_labels": [
+          "PG - Parental Guidance"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "8"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental guidance advised. Theme or content may not be suitable\n         for all children."
+        ]
+      },
+      "8.3": {
+        "pref_labels": [
+          "14A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "8"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people 14 years of age or older. Those under 14\n         should view with an adult. No rental or purchase by those under 14 where prohibited by law.\n         Parents cautioned. May contain violence, coarse language and/or sexually suggestive\n         scenes."
+        ]
+      },
+      "8.4": {
+        "pref_labels": [
+          "18A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "8"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people 18 years of age or older. Persons under 18\n         should view with an adult. No rental or purchase by those under 18. Parents strongly\n         cautioned. Will likely contain explicit violence, frequent coarse language, sexual activity\n         and/or horror."
+        ]
+      },
+      "8.5": {
+        "pref_labels": [
+          "R - Restricted"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "8"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Restricted to 18 years and older. No rental or purchase by\n         those under 18. Contents not suitable for minors. Contains frequent sexual activity,\n         brutality/graphic violence, intense horror, and/or other disturbing content."
+        ]
+      },
+      "8.6": {
+        "pref_labels": [
+          "E - Exempt"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "8"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Contains material not subject to classification, such as\n         documentaries, nature, travel, music, arts and culture, sports and leisure, educational and\n         instructional information."
+        ]
+      },
+      "9": {
+        "pref_labels": [
+          "CA-AFR"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "9.5",
+          "9.6"
+        ],
+        "definitions": [
+          "Alberta Film rating"
+        ]
+      },
+      "9.1": {
+        "pref_labels": [
+          "G",
+          "General"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for viewing by all ages"
+        ]
+      },
+      "9.2": {
+        "pref_labels": [
+          "Parental Guidance"
+        ],
+        "alt_labels": [
+          "PG"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental guidance advised. Theme or content may not be suitable\n         for all children."
+        ]
+      },
+      "9.3": {
+        "pref_labels": [
+          "14A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people 14 years of age or older. Those under 14\n         should view with an adult. No rental or purchase by those under 14 where prohibited by law.\n         Parents cautioned. May contain violence, coarse language and/or sexually suggestive\n         scenes."
+        ]
+      },
+      "9.4": {
+        "pref_labels": [
+          "18A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people 18 years of age or older. Persons under 18\n         should view with an adult. No rental or purchase by those under 18. Parents strongly\n         cautioned. Will likely contain explicit violence, frequent coarse language, sexual activity\n         and/or horror."
+        ]
+      },
+      "9.5": {
+        "pref_labels": [
+          "R",
+          "Restricted"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Restricted to 18 years and older. No rental or purchase by\n         those under 18. Contents not suitable for minors. Contains frequent sexual activity,\n         brutality/graphic violence, intense horror, and/or other disturbing content."
+        ]
+      },
+      "9.6": {
+        "pref_labels": [
+          "A",
+          "Adult"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "9"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Admittance restricted to persons 18 years of age or older.\n         Content not suitable for minors. Contains predominantly sexually explicit activity."
+        ]
+      },
+      "10": {
+        "pref_labels": [
+          "CA-OFRB"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "10.1",
+          "10.2",
+          "10.3",
+          "10.4",
+          "10.5"
+        ],
+        "definitions": [
+          "Ontario Film Review Board"
+        ]
+      },
+      "10.1": {
+        "pref_labels": [
+          "G",
+          "General"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for viewing by all ages"
+        ]
+      },
+      "10.2": {
+        "pref_labels": [
+          "Parental Guidance"
+        ],
+        "alt_labels": [
+          "PG"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental guidance advised. Theme or content may not be suitable\n         for all children."
+        ]
+      },
+      "10.3": {
+        "pref_labels": [
+          "14A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people 14 years of age or older. Those under 14\n         should view with an adult. No rental or purchase by those under 14 where prohibited by law.\n         Parents cautioned. May contain violence, coarse language and/or sexually suggestive\n         scenes."
+        ]
+      },
+      "10.4": {
+        "pref_labels": [
+          "18A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people 18 years of age or older. Persons under 18\n         should view with an adult. No rental or purchase by those under 18. Parents strongly\n         cautioned. Will likely contain explicit violence, frequent coarse language, sexual activity\n         and/or horror."
+        ]
+      },
+      "10.5": {
+        "pref_labels": [
+          "R",
+          "Restricted"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "10"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Restricted to 18 years and older. No rental or purchase by\n         those under 18. Contents not suitable for minors. Contains frequent sexual activity,\n         brutality/graphic violence, intense horror, and/or other disturbing content."
+        ]
+      },
+      "11": {
+        "pref_labels": [
+          "CA-RCQ"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "11.1",
+          "11.2",
+          "11.3",
+          "11.4"
+        ],
+        "definitions": []
+      },
+      "11.1": {
+        "pref_labels": [
+          "G"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "11"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "11.2": {
+        "pref_labels": [
+          "13+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "11"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For 13 and older in presence of an adult"
+        ]
+      },
+      "11.3": {
+        "pref_labels": [
+          "16+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "11"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Only for 16 and older"
+        ]
+      },
+      "11.4": {
+        "pref_labels": [
+          "18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "11"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Only for 18 and older"
+        ]
+      },
+      "12": {
+        "pref_labels": [
+          "CA-CBSC-CCNR-English and third-languages"
+        ],
+        "alt_labels": [
+          "www.cbsc.ca"
+        ],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "12.1",
+          "12.2",
+          "12.3",
+          "12.4",
+          "12.5",
+          "12.6"
+        ],
+        "definitions": [
+          "Ratings Classification for Canadian English-Language and\n         Third-Language Broadcasters"
+        ]
+      },
+      "12.1": {
+        "pref_labels": [
+          "C"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "12"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Children"
+        ]
+      },
+      "12.2": {
+        "pref_labels": [
+          "C8"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "12"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Children over 8 years"
+        ]
+      },
+      "12.3": {
+        "pref_labels": [
+          "G",
+          "General"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "12"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Considered acceptable for all age groups. Appropriate viewing\n         for the entire family."
+        ]
+      },
+      "12.4": {
+        "pref_labels": [
+          "Parental Guidance"
+        ],
+        "alt_labels": [
+          "PG"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "12"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This programming, while intended for a general audience, may\n         not be suitable for younger children (under the age of 8). Parents/guardians should be\n         aware that there might be content elements which some could consider inappropriate for\n         unsupervised viewing by children in the 8-13 age range."
+        ]
+      },
+      "12.5": {
+        "pref_labels": [
+          "14+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "12"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Over 14 Years"
+        ]
+      },
+      "12.6": {
+        "pref_labels": [
+          "18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "12"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Over 18 Years"
+        ]
+      },
+      "13": {
+        "pref_labels": [
+          "CA-CBSC-CCNR-French"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "13.1",
+          "13.2",
+          "13.3",
+          "13.4",
+          "13.5"
+        ],
+        "definitions": [
+          "Ratings Classification for Canadian French-Language\n         Broadcasters"
+        ]
+      },
+      "13.1": {
+        "pref_labels": [
+          "G"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "13"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "13.2": {
+        "pref_labels": [
+          "8+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "13"
+        ],
+        "narrower": [],
+        "definitions": [
+          "General – Not Suitable for Young Children"
+        ]
+      },
+      "13.3": {
+        "pref_labels": [
+          "13+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "13"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For 13 and older in presence of an adult"
+        ]
+      },
+      "13.4": {
+        "pref_labels": [
+          "16+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "13"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Only for 16 and older"
+        ]
+      },
+      "13.5": {
+        "pref_labels": [
+          "18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "13"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Only for 18 and older"
+        ]
+      },
+      "14": {
+        "pref_labels": [
+          "CL-ANATEL"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "14.1",
+          "14.2",
+          "14.3",
+          "14.4",
+          "14.5",
+          "14.6"
+        ],
+        "definitions": [
+          "National Broadcasting Association rating\n         system"
+        ]
+      },
+      "14.1": {
+        "pref_labels": [
+          "I"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "14"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "14.2": {
+        "pref_labels": [
+          "I7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "14"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For ages 7 and older"
+        ]
+      },
+      "14.3": {
+        "pref_labels": [
+          "I12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "14"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For ages 12 and older"
+        ]
+      },
+      "14.4": {
+        "pref_labels": [
+          "F"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "14"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Shows suitable for all ages, regardless of specific\n         content."
+        ]
+      },
+      "14.5": {
+        "pref_labels": [
+          "R"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "14"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Shared responsibility - Children accompanied by an\n         adult."
+        ]
+      },
+      "14.6": {
+        "pref_labels": [
+          "A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "14"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For adult audiences only (ages 18 or older). Shows that contain\n         explicit language, sex scenes, explicit situations"
+        ]
+      },
+      "15": {
+        "pref_labels": [
+          "CL-CCC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "15.1",
+          "15.2",
+          "15.3",
+          "15.4",
+          "15.5"
+        ],
+        "definitions": [
+          "Movie ratings as defined by the Chilean Council of\n         Cinematographic Classification"
+        ]
+      },
+      "15.1": {
+        "pref_labels": [
+          "TE"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "15"
+        ],
+        "narrower": [],
+        "definitions": [
+          "All Audiences"
+        ]
+      },
+      "15.2": {
+        "pref_labels": [
+          "14"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "15"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Inappropriate for children under 14"
+        ]
+      },
+      "15.3": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "15"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people aged 18 and over"
+        ]
+      },
+      "15.4": {
+        "pref_labels": [
+          "18/S"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "15"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people aged 18 and over with sexually explicit\n         content"
+        ]
+      },
+      "15.5": {
+        "pref_labels": [
+          "18/V"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "15"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people aged 18 and over with extreme violence\n         content"
+        ]
+      },
+      "16": {
+        "pref_labels": [
+          "CN-HK-HKBA"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "16.1",
+          "16.2"
+        ],
+        "definitions": [
+          "Hong-Kong Broadcasting Authority"
+        ]
+      },
+      "16.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16"
+        ],
+        "narrower": [
+          "16.1.1",
+          "16.1.2"
+        ],
+        "definitions": []
+      },
+      "16.1.1": {
+        "pref_labels": [
+          "Parental Guidance"
+        ],
+        "alt_labels": [
+          "PG"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "16.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Programmes classified \"PG\" may contain adult themes or concepts\n         but must remain suitable for children to watch under the guidance of a parent or\n         guardian."
+        ]
+      },
+      "16.1.2": {
+        "pref_labels": [
+          "M",
+          "Mature"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Programmes classified \"M\" are recommended for viewing by\n         grown-up members of the family only."
+        ]
+      },
+      "16.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16"
+        ],
+        "narrower": [
+          "16.2.1",
+          "16.2.2",
+          "16.2.3",
+          "16.2.4",
+          "16.2.5",
+          "16.2.6",
+          "16.2.7",
+          "16.2.8",
+          "16.2.9",
+          "16.2.10",
+          "16.2.11"
+        ],
+        "definitions": []
+      },
+      "16.2.1": {
+        "pref_labels": [
+          "Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.2": {
+        "pref_labels": [
+          "Language"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.3": {
+        "pref_labels": [
+          "Sex and nudity"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.4": {
+        "pref_labels": [
+          "Sexual Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.5": {
+        "pref_labels": [
+          "Drugs and alcohol"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.6": {
+        "pref_labels": [
+          "Dangerous behaviour"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.7": {
+        "pref_labels": [
+          "Hanging scenes"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.8": {
+        "pref_labels": [
+          "Bad taste and indecency"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.9": {
+        "pref_labels": [
+          "Scenes of extreme suffering and distress"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.10": {
+        "pref_labels": [
+          "Exorcism, psychic or occultic practice and depiction of the\n         supernatural"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "16.2.11": {
+        "pref_labels": [
+          "Triad expressions and ceremonies"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "16.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "17": {
+        "pref_labels": [
+          "CO"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "17.1",
+          "17.2",
+          "17.3",
+          "17.4",
+          "17.5",
+          "17.6"
+        ],
+        "definitions": [
+          "Movie ratings as defined by the Colombian Ministry of\n         Culture"
+        ]
+      },
+      "17.1": {
+        "pref_labels": [
+          "T"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17"
+        ],
+        "narrower": [],
+        "definitions": [
+          "All Audiences"
+        ]
+      },
+      "17.2": {
+        "pref_labels": [
+          "7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people aged 7 and over"
+        ]
+      },
+      "17.3": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people aged 12 and over"
+        ]
+      },
+      "17.4": {
+        "pref_labels": [
+          "15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people aged 15 and over"
+        ]
+      },
+      "17.5": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for people aged 18 and over"
+        ]
+      },
+      "17.6": {
+        "pref_labels": [
+          "X"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "17"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Adult - Pornographic Content"
+        ]
+      },
+      "18": {
+        "pref_labels": [
+          "DE-FSF"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "18.1",
+          "18.2",
+          "18.3",
+          "18.4",
+          "18.5"
+        ],
+        "definitions": [
+          "German TV content classification"
+        ]
+      },
+      "18.1": {
+        "pref_labels": [
+          "0"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "18"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "18.2": {
+        "pref_labels": [
+          "6"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "18"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under 6 years admitted"
+        ]
+      },
+      "18.3": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "18"
+        ],
+        "narrower": [],
+        "definitions": [
+          "People 12 or older admitted, children between 6 and 11 only\n         when accompanied by parent or legal guardian"
+        ]
+      },
+      "18.4": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "18"
+        ],
+        "narrower": [],
+        "definitions": [
+          "People 16 or older admitted"
+        ]
+      },
+      "18.5": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "18"
+        ],
+        "narrower": [],
+        "definitions": [
+          "\"No youth admitted\", only adults"
+        ]
+      },
+      "19": {
+        "pref_labels": [
+          "DE-FSK"
+        ],
+        "alt_labels": [
+          "www.fsk.de"
+        ],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "19.1",
+          "19.2",
+          "19.3",
+          "19.4",
+          "19.5"
+        ],
+        "definitions": [
+          "Voluntary Self-Control of the Film Business'\n         rating",
+          "Freiwillige Selbstkontrolle der Filmwirtschaft\n         Altersfreigabe"
+        ]
+      },
+      "19.1": {
+        "pref_labels": [
+          "FSK 0"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "19"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "19.2": {
+        "pref_labels": [
+          "FSK 6"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "19"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under 6 years admitted"
+        ]
+      },
+      "19.3": {
+        "pref_labels": [
+          "FSK 12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "12"
+        ],
+        "broader": [
+          "19"
+        ],
+        "narrower": [],
+        "definitions": [
+          "People 12 or older admitted, children between 6 and 11 only\n         when accompanied by parent or legal guardian"
+        ]
+      },
+      "19.4": {
+        "pref_labels": [
+          "FSK 16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "16"
+        ],
+        "broader": [
+          "19"
+        ],
+        "narrower": [],
+        "definitions": [
+          "People 16 or older admitted"
+        ]
+      },
+      "19.5": {
+        "pref_labels": [
+          "FSK 18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "19"
+        ],
+        "narrower": [],
+        "definitions": [
+          "\"No youth admitted\", only adults"
+        ]
+      },
+      "20": {
+        "pref_labels": [
+          "DK-MBU"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "20.1",
+          "20.2",
+          "20.3",
+          "20.4"
+        ],
+        "definitions": [
+          "Medieradet for barn och unga - Media Advice for Children and\n         Youths (Denmark)",
+          "Scheme as defined by the Danish Media Council for Children and\n         Young People"
+        ]
+      },
+      "20.1": {
+        "pref_labels": [
+          "A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Approval of the film for general admittance"
+        ]
+      },
+      "20.2": {
+        "pref_labels": [
+          "7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Approval of the film for general admittance, but not\n         recommended for children under the age of 7"
+        ]
+      },
+      "20.3": {
+        "pref_labels": [
+          "11"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Approval of the film for admittance of children from the age of\n         11"
+        ]
+      },
+      "20.4": {
+        "pref_labels": [
+          "15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "20"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Approval of the film for admittance of children from the age of\n         15"
+        ]
+      },
+      "21": {
+        "pref_labels": [
+          "DK-DR"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "21.1",
+          "21.2",
+          "21.3"
+        ],
+        "definitions": [
+          "Denmark Radio"
+        ]
+      },
+      "21.1": {
+        "pref_labels": [
+          "Green"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "21"
+        ],
+        "narrower": [],
+        "definitions": [
+          "All ages"
+        ]
+      },
+      "21.2": {
+        "pref_labels": [
+          "Yellow"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "21"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Adult supervision"
+        ]
+      },
+      "21.3": {
+        "pref_labels": [
+          "Red"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "21"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Adult"
+        ]
+      },
+      "22": {
+        "pref_labels": [
+          "ES"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "22.1",
+          "22.2",
+          "22.3",
+          "22.4",
+          "22.5"
+        ],
+        "definitions": []
+      },
+      "22.1": {
+        "pref_labels": [
+          "ERI"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "22"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Specially recommended for children under 7"
+        ]
+      },
+      "22.2": {
+        "pref_labels": [
+          "TP"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "22"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Todos los publicos",
+          "Suitable for the general public"
+        ]
+      },
+      "22.3": {
+        "pref_labels": [
+          "7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "22"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For 7 and older"
+        ]
+      },
+      "22.4": {
+        "pref_labels": [
+          "13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "22"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For 13 and older"
+        ]
+      },
+      "22.5": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "22"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For 18 and older"
+        ]
+      },
+      "23": {
+        "pref_labels": [
+          "EU-PEGI"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "23.1",
+          "23.2"
+        ],
+        "definitions": [
+          "Pan European Game Information"
+        ]
+      },
+      "23.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23"
+        ],
+        "narrower": [
+          "23.1.1",
+          "23.1.2",
+          "23.1.3",
+          "23.1.4",
+          "23.1.5"
+        ],
+        "definitions": []
+      },
+      "23.1.1": {
+        "pref_labels": [
+          "3+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for ages 3 and over. Contains very mild violence or\n         suggestive themes."
+        ]
+      },
+      "23.1.2": {
+        "pref_labels": [
+          "7+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "These games are the same as Early Childhood ratings but may\n         include content descriptors like mild violence and in a rare case, very mild action\n         violence."
+        ]
+      },
+      "23.1.3": {
+        "pref_labels": [
+          "12+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable only for persons of over ages 12 and older. This\n         rating contains mild action violence or suggestive themes and mildly suggestive song\n         lyrics."
+        ]
+      },
+      "23.1.4": {
+        "pref_labels": [
+          "16+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This rating is suitable only for persons of 16 years of age or\n         older. Some situations include strong action violence, mild references to gambling, and\n         rude humor."
+        ]
+      },
+      "23.1.5": {
+        "pref_labels": [
+          "18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This rating is suitable only for persons 18 years of age and\n         older with graphic violence, strong sexual content, explicit references to gambling, and\n         vulgar language (spoken and used in song lyrics)"
+        ]
+      },
+      "23.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23"
+        ],
+        "narrower": [
+          "23.2.1",
+          "23.2.2",
+          "23.2.3",
+          "23.2.4",
+          "23.2.5",
+          "23.2.6",
+          "23.2.7"
+        ],
+        "definitions": []
+      },
+      "23.2.1": {
+        "pref_labels": [
+          "Profanity"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "23.2.2": {
+        "pref_labels": [
+          "Discrimination"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "23.2.3": {
+        "pref_labels": [
+          "Drugs"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "23.2.4": {
+        "pref_labels": [
+          "Fear"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "23.2.5": {
+        "pref_labels": [
+          "Sex"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "23.2.6": {
+        "pref_labels": [
+          "Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "23.2.7": {
+        "pref_labels": [
+          "Gambling"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "23.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "24": {
+        "pref_labels": [
+          "FI-VET"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "24.1",
+          "24.2",
+          "24.3",
+          "24.4",
+          "24.5",
+          "24.6",
+          "24.7"
+        ],
+        "definitions": [
+          "Finnish Board of Film Classification"
+        ]
+      },
+      "24.1": {
+        "pref_labels": [
+          "S"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "24.2": {
+        "pref_labels": [
+          "K-3"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "24.3": {
+        "pref_labels": [
+          "K-7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24"
+        ],
+        "narrower": [
+          "24.3.1"
+        ],
+        "definitions": [
+          "For people aged 7 years and above"
+        ]
+      },
+      "24.3.1": {
+        "pref_labels": [
+          "PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"
+        ]
+      },
+      "24.4": {
+        "pref_labels": [
+          "K-11"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24"
+        ],
+        "narrower": [
+          "24.4.1"
+        ],
+        "definitions": [
+          "For people aged 11 years and above"
+        ]
+      },
+      "24.4.1": {
+        "pref_labels": [
+          "PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24.4"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"
+        ]
+      },
+      "24.5": {
+        "pref_labels": [
+          "K-13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24"
+        ],
+        "narrower": [
+          "24.5.1"
+        ],
+        "definitions": [
+          "For people aged 13 years and above"
+        ]
+      },
+      "24.5.1": {
+        "pref_labels": [
+          "PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24.5"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"
+        ]
+      },
+      "24.6": {
+        "pref_labels": [
+          "K-15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24"
+        ],
+        "narrower": [
+          "24.6.1"
+        ],
+        "definitions": [
+          "For people aged 15 years and above"
+        ]
+      },
+      "24.6.1": {
+        "pref_labels": [
+          "PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24.6"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"
+        ]
+      },
+      "24.7": {
+        "pref_labels": [
+          "K-18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24"
+        ],
+        "narrower": [
+          "24.7.1"
+        ],
+        "definitions": [
+          "For people aged 18 years and above"
+        ]
+      },
+      "24.7.1": {
+        "pref_labels": [
+          "PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "24.7"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"
+        ]
+      },
+      "25": {
+        "pref_labels": [
+          "FR-CNC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "25.1",
+          "25.2",
+          "25.3",
+          "25.4",
+          "25.5"
+        ],
+        "definitions": [
+          "Centre National de Cinematographie"
+        ]
+      },
+      "25.1": {
+        "pref_labels": [
+          "For all audiences"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all audiences"
+        ]
+      },
+      "25.2": {
+        "pref_labels": [
+          "-12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Unsuitable for minors under 12"
+        ]
+      },
+      "25.3": {
+        "pref_labels": [
+          "-16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Unsuitable for minors under 16"
+        ]
+      },
+      "25.4": {
+        "pref_labels": [
+          "-18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Unsuitable for minors under 18, may apply to works with\n         non-simulated sexual acts or extreme violence, but do not apply to X rating due to the\n         nature of the theme being treated or the way it has been filmed"
+        ]
+      },
+      "25.5": {
+        "pref_labels": [
+          "X"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "25"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Adult only, pornographic content"
+        ]
+      },
+      "26": {
+        "pref_labels": [
+          "FR-CSA"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "26.1",
+          "26.2",
+          "26.3",
+          "26.4",
+          "26.5"
+        ],
+        "definitions": [
+          "Conseil Superieur de l'Audiovisuel"
+        ]
+      },
+      "26.1": {
+        "pref_labels": [
+          "-10"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "26"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not Recommended for children under 10"
+        ]
+      },
+      "26.2": {
+        "pref_labels": [
+          "-12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "26"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not Recommended for children under 12"
+        ]
+      },
+      "26.3": {
+        "pref_labels": [
+          "-16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "26"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not Recommended for children under 16"
+        ]
+      },
+      "26.4": {
+        "pref_labels": [
+          "-18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "26"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Unsuitable for minors under 18, may apply to works with\n         non-simulated sexual acts or extreme violence, but do not apply to X rating due to the\n         nature of the theme being treated or the way it has been filmed"
+        ]
+      },
+      "26.5": {
+        "pref_labels": [
+          "X"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "26"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Adult, pornographic content"
+        ]
+      },
+      "27": {
+        "pref_labels": [
+          "GB-BBFC"
+        ],
+        "alt_labels": [
+          "www.bbfc.co.uk"
+        ],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "27.1",
+          "27.2",
+          "27.3",
+          "27.4",
+          "27.5",
+          "27.6"
+        ],
+        "definitions": [
+          "British Board of Film Classification"
+        ]
+      },
+      "27.1": {
+        "pref_labels": [
+          "U"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "27"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all"
+        ]
+      },
+      "27.2": {
+        "pref_labels": [
+          "PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "27"
+        ],
+        "narrower": [],
+        "definitions": [
+          "General viewing but some scenes may be unsuitable for young\n         children"
+        ]
+      },
+      "27.3": {
+        "pref_labels": [
+          "12A/12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "12"
+        ],
+        "broader": [
+          "27"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for 12 years and older. No 12 year old child may see a\n         12A film without the presence of an accompanying adult."
+        ]
+      },
+      "27.4": {
+        "pref_labels": [
+          "15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "27"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under 15 years of age may see a \"15\" film or rent or buy\n         a \"15\" video"
+        ]
+      },
+      "27.5": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "27"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable only for adults"
+        ]
+      },
+      "27.6": {
+        "pref_labels": [
+          "R18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "27"
+        ],
+        "narrower": [],
+        "definitions": [
+          "To be supplied only in licensed sex shops or cinemas to adults\n         of not less than 18 years of age"
+        ]
+      },
+      "28": {
+        "pref_labels": [
+          "IE-IFCO"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "28.1",
+          "28.2",
+          "28.3",
+          "28.4",
+          "28.5",
+          "28.6"
+        ],
+        "definitions": [
+          "Irish Film Classification Office"
+        ]
+      },
+      "28.1": {
+        "pref_labels": [
+          "G"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "'A film classified as 'General' should be suitable for children\n         of school going age."
+        ]
+      },
+      "28.2": {
+        "pref_labels": [
+          "PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A film with a 'PG' cert may be watched by unaccompanied\n         children of any age."
+        ]
+      },
+      "28.3": {
+        "pref_labels": [
+          "12A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Films classified in this category are considered to be suitable\n         for those of twelve and upwards. They may also be seen by younger children provided a\n         parent or adult guardian accompanies them."
+        ]
+      },
+      "28.4": {
+        "pref_labels": [
+          "15A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Films classified in this category are considered to be suitable\n         for those of fifteen and upwards. They may also be seen by younger children provided a\n         parent or adult guardian accompanies them."
+        ]
+      },
+      "28.5": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Films classified in this category are considered to be suitable\n         for persons of sixteen or over. Children under this age cannot be admitted to\n         cinemas."
+        ]
+      },
+      "28.6": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "28"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Adults only"
+        ]
+      },
+      "29": {
+        "pref_labels": [
+          "IE-RTE"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "29.1",
+          "29.2",
+          "29.3",
+          "29.4",
+          "29.5"
+        ],
+        "definitions": [
+          "Irish Film Classification Office"
+        ]
+      },
+      "29.1": {
+        "pref_labels": [
+          "GA",
+          "General Audience"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "29"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A programme that would be acceptable to all ages and\n         tastes."
+        ]
+      },
+      "29.2": {
+        "pref_labels": [
+          "CH",
+          "Children"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "29"
+        ],
+        "narrower": [],
+        "definitions": [
+          "a programme aimed specifically at children ages 5–10. May\n         contain mild cartoon or fantasy violence."
+        ]
+      },
+      "29.3": {
+        "pref_labels": [
+          "YA",
+          "Young Adult"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "29"
+        ],
+        "narrower": [],
+        "definitions": [
+          "a programme aimed at an adolescent audience. That is to say it\n         would not be of great interest to an adult. However, it might deal with issues which affect\n         the teenage and late preteen audience, e.g. relationships, sexual activity, sexuality, soft\n         drugs. Parents and guardians could expect that \"YA\" programmes might contain such material\n         and may choose to limit their children's access."
+        ]
+      },
+      "29.4": {
+        "pref_labels": [
+          "PS",
+          "Parental Supervision"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "29"
+        ],
+        "narrower": [],
+        "definitions": [
+          "a programme aimed at a mature audience (i.e. It might deal with\n         adult themes, be moderately violent, frightening or contain an occasional swear word.) and\n         the classification label invites parents or guardians to consider restricting children's\n         access."
+        ]
+      },
+      "29.5": {
+        "pref_labels": [
+          "MA",
+          "Mature Audience"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "29"
+        ],
+        "narrower": [],
+        "definitions": [
+          "a typical \"post-watershed\" program which might contain scenes\n         of strong sexual activity and heavy violence, or the dialogue might be\n         profane."
+        ]
+      },
+      "30": {
+        "pref_labels": [
+          "IT-RAI"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "30.1",
+          "30.2",
+          "30.3"
+        ],
+        "definitions": [
+          "Rating used by Radio Televisione Italiana"
+        ]
+      },
+      "30.1": {
+        "pref_labels": [
+          "Green"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "30"
+        ],
+        "narrower": [],
+        "definitions": [
+          "All audiences allowed"
+        ]
+      },
+      "30.2": {
+        "pref_labels": [
+          "Yellow"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "30"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Children allowed, but parental guidance is strongly\n         advised."
+        ]
+      },
+      "30.3": {
+        "pref_labels": [
+          "Red"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "30"
+        ],
+        "narrower": [
+          "30.3.1"
+        ],
+        "definitions": [
+          "adults only."
+        ]
+      },
+      "30.3.1": {
+        "pref_labels": [
+          "VM14"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "30.3"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 14 admitted"
+        ]
+      },
+      "31": {
+        "pref_labels": [
+          "JA-CERO"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "31.1",
+          "31.2"
+        ],
+        "definitions": [
+          "Computer Entertainment Rating Organization"
+        ]
+      },
+      "31.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31"
+        ],
+        "narrower": [
+          "31.1.1",
+          "31.1.2",
+          "31.1.3",
+          "31.1.4",
+          "31.1.5"
+        ],
+        "definitions": []
+      },
+      "31.1.1": {
+        "pref_labels": [
+          "A",
+          "Black"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "All ages"
+        ]
+      },
+      "31.1.2": {
+        "pref_labels": [
+          "B",
+          "Green"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "12 and over"
+        ]
+      },
+      "31.1.3": {
+        "pref_labels": [
+          "C",
+          "Blue"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "15 and over"
+        ]
+      },
+      "31.1.4": {
+        "pref_labels": [
+          "D",
+          "Orange"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "17 and over"
+        ]
+      },
+      "31.1.5": {
+        "pref_labels": [
+          "Z",
+          "Red"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "18 and over"
+        ]
+      },
+      "31.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31"
+        ],
+        "narrower": [
+          "31.2.1",
+          "31.2.2",
+          "31.2.3",
+          "31.2.4",
+          "31.2.5",
+          "31.2.6",
+          "31.2.7",
+          "31.2.8",
+          "31.2.9"
+        ],
+        "definitions": []
+      },
+      "31.2.1": {
+        "pref_labels": [
+          "Love"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "31.2.2": {
+        "pref_labels": [
+          "Sex"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "31.2.3": {
+        "pref_labels": [
+          "Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "31.2.4": {
+        "pref_labels": [
+          "Surnatural"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "31.2.5": {
+        "pref_labels": [
+          "Alcohol & Tobacco"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "31.2.6": {
+        "pref_labels": [
+          "Gambling"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "31.2.7": {
+        "pref_labels": [
+          "Murder"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "31.2.8": {
+        "pref_labels": [
+          "Drugs"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "31.2.9": {
+        "pref_labels": [
+          "Strong vocabulary"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "31.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "32": {
+        "pref_labels": [
+          "KR-KBS"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "32.1",
+          "32.2",
+          "32.3",
+          "32.4",
+          "32.5"
+        ],
+        "definitions": [
+          "Scheme as defined by the Korea Broadcasting\n         Station"
+        ]
+      },
+      "32.1": {
+        "pref_labels": [
+          "All"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "32"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all ages"
+        ]
+      },
+      "32.2": {
+        "pref_labels": [
+          "7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "32"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This rating is for programming that may contain material\n         inappropriate for children younger than 7, and parental discretion should be\n         used."
+        ]
+      },
+      "32.3": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "32"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This rating is for programs that may contain material\n         inappropriate for those younger than 12, and parental discretion should be used. Usually\n         used for animations that have stronger themes or violence then those designed for\n         childrens, or for reality variety programs that have mild violence, theme, or\n         language."
+        ]
+      },
+      "32.4": {
+        "pref_labels": [
+          "15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "32"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This rating is for programs that contain material that may be\n         inappropriate for children under 15, and that parental discretion should be\n         used."
+        ]
+      },
+      "32.5": {
+        "pref_labels": [
+          "19"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "32"
+        ],
+        "narrower": [],
+        "definitions": [
+          "This rating is for programs that are not recommended to those\n         younger than 19."
+        ]
+      },
+      "33": {
+        "pref_labels": [
+          "KR-KMRB"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "33.1",
+          "33.2",
+          "33.3",
+          "33.4",
+          "33.5"
+        ],
+        "definitions": [
+          "Scheme as defined by the Korea Media Rating\n         Board"
+        ]
+      },
+      "33.1": {
+        "pref_labels": [
+          "All"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "33"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all ages"
+        ]
+      },
+      "33.2": {
+        "pref_labels": [
+          "12+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "33"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for those aged 12 and over"
+        ]
+      },
+      "33.3": {
+        "pref_labels": [
+          "15+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "33"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for those aged 15 and over"
+        ]
+      },
+      "33.4": {
+        "pref_labels": [
+          "Teenager Restricted"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "33"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Unsuitable for those aged under 18"
+        ]
+      },
+      "33.5": {
+        "pref_labels": [
+          "Restricted"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "33"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for those aged 18 and over"
+        ]
+      },
+      "34": {
+        "pref_labels": [
+          "MV-NBC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "34.1",
+          "34.2"
+        ],
+        "definitions": [
+          "National Bureau of Classification"
+        ]
+      },
+      "34.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34"
+        ],
+        "narrower": [
+          "34.1.1",
+          "34.1.2",
+          "34.1.3",
+          "34.1.4",
+          "34.1.5"
+        ],
+        "definitions": []
+      },
+      "34.1.1": {
+        "pref_labels": [
+          "G",
+          "General",
+          "Green"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all ages"
+        ]
+      },
+      "34.1.2": {
+        "pref_labels": [
+          "12+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Ages 12 and above"
+        ]
+      },
+      "34.1.3": {
+        "pref_labels": [
+          "15+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for ages 15 and above"
+        ]
+      },
+      "34.1.4": {
+        "pref_labels": [
+          "18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for ages 18 and above"
+        ]
+      },
+      "34.1.5": {
+        "pref_labels": [
+          "PU"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For Professional Use Only"
+        ]
+      },
+      "34.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34"
+        ],
+        "narrower": [
+          "34.2.1",
+          "34.2.2",
+          "34.2.3",
+          "34.2.4",
+          "34.2.5",
+          "34.2.6",
+          "34.2.7"
+        ],
+        "definitions": []
+      },
+      "34.2.1": {
+        "pref_labels": [
+          "Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "34.2.2": {
+        "pref_labels": [
+          "Sexual acts"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "34.2.3": {
+        "pref_labels": [
+          "Scary"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "34.2.4": {
+        "pref_labels": [
+          "Nudity"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "34.2.5": {
+        "pref_labels": [
+          "Drugs abuse"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "34.2.6": {
+        "pref_labels": [
+          "Harshness of language"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "34.2.7": {
+        "pref_labels": [
+          "Religion"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "34.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "35": {
+        "pref_labels": [
+          "MX-RTC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "35.1",
+          "35.2"
+        ],
+        "definitions": [
+          "Dirección General de Radio, Televisión y\n         Cinematografía"
+        ]
+      },
+      "35.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35"
+        ],
+        "narrower": [
+          "35.1.1",
+          "35.1.2",
+          "35.1.3",
+          "35.1.4",
+          "35.1.5",
+          "35.1.6"
+        ],
+        "definitions": []
+      },
+      "35.1.1": {
+        "pref_labels": [
+          "AA"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "35.1.2": {
+        "pref_labels": [
+          "A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "35.1.3": {
+        "pref_labels": [
+          "B"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For teenagers (ages 12 and older) and adults"
+        ]
+      },
+      "35.1.4": {
+        "pref_labels": [
+          "B15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For ages 15 and older preferably in presence of supervising\n         adults"
+        ]
+      },
+      "35.1.5": {
+        "pref_labels": [
+          "C"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For ages 18 and above"
+        ]
+      },
+      "35.1.6": {
+        "pref_labels": [
+          "D"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For ages 18 and above, strictly"
+        ]
+      },
+      "35.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35"
+        ],
+        "narrower": [
+          "35.2.1",
+          "35.2.2",
+          "35.2.3",
+          "35.2.4"
+        ],
+        "definitions": []
+      },
+      "35.2.1": {
+        "pref_labels": [
+          "Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "35.2.2": {
+        "pref_labels": [
+          "Sexuality"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "35.2.3": {
+        "pref_labels": [
+          "Language"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "35.2.4": {
+        "pref_labels": [
+          "Drugs and aclohol"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "35.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "36": {
+        "pref_labels": [
+          "NG-NFVCB"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "36.1",
+          "36.2"
+        ],
+        "definitions": [
+          "Natioanl Film and Video Censor Board"
+        ]
+      },
+      "36.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36"
+        ],
+        "narrower": [
+          "36.1.1",
+          "36.1.2",
+          "36.1.3",
+          "36.1.4",
+          "36.1.5",
+          "36.1.6"
+        ],
+        "definitions": []
+      },
+      "36.1.1": {
+        "pref_labels": [
+          "G",
+          "General"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "The content is considered by the board to be suitable for\n         viewing by persons of all ages."
+        ]
+      },
+      "36.1.2": {
+        "pref_labels": [
+          "Parental Guidance"
+        ],
+        "alt_labels": [
+          "PG"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "36.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "the themes or content of the film may not, in the opinion of\n         the board, be suitable for all children."
+        ]
+      },
+      "36.1.3": {
+        "pref_labels": [
+          "12A/12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for viewing by persons 12 years of age or older but\n         not for children under 12 years of age unless accompanied by an adult"
+        ]
+      },
+      "36.1.4": {
+        "pref_labels": [
+          "15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for viewing by persons over 15 years of\n         age"
+        ]
+      },
+      "36.1.5": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for viewing by persons over 18 years of\n         ages"
+        ]
+      },
+      "36.1.6": {
+        "pref_labels": [
+          "RE"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "not suitable for viewing by persons under 18 years of age with\n         certain sensitvities to classification criteria"
+        ]
+      },
+      "36.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36"
+        ],
+        "narrower": [
+          "36.2.1",
+          "36.2.2",
+          "36.2.3",
+          "36.2.4",
+          "36.2.5"
+        ],
+        "definitions": []
+      },
+      "36.2.1": {
+        "pref_labels": [
+          "Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "36.2.2": {
+        "pref_labels": [
+          "Sex"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "36.2.3": {
+        "pref_labels": [
+          "Coarse language"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "36.2.4": {
+        "pref_labels": [
+          "Strong themes"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "36.2.5": {
+        "pref_labels": [
+          "Horror or ritual scenes"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "36.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "37": {
+        "pref_labels": [
+          "NL-NICAM"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "37.1",
+          "37.2"
+        ],
+        "definitions": [
+          "Nederlands Institute for the Classification of Audio-visual\n         Media"
+        ]
+      },
+      "37.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37"
+        ],
+        "narrower": [
+          "37.1.1",
+          "37.1.2",
+          "37.1.3",
+          "37.1.4",
+          "37.1.5"
+        ],
+        "definitions": []
+      },
+      "37.1.1": {
+        "pref_labels": [
+          "AL"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all ages"
+        ]
+      },
+      "37.1.2": {
+        "pref_labels": [
+          "6"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not recommended for viewers younger than 6\n         years"
+        ]
+      },
+      "37.1.3": {
+        "pref_labels": [
+          "9"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not recommended for viewers younger than 9\n         years"
+        ]
+      },
+      "37.1.4": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not recommended for viewers younger than 12\n         years"
+        ]
+      },
+      "37.1.5": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Movie shops/cinemas aren't allowed to show these movies to\n         people younger than 16 years"
+        ]
+      },
+      "37.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37"
+        ],
+        "narrower": [
+          "37.2.1",
+          "37.2.2",
+          "37.2.3",
+          "37.2.4",
+          "37.2.5",
+          "37.2.6"
+        ],
+        "definitions": []
+      },
+      "37.2.1": {
+        "pref_labels": [
+          "Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "37.2.2": {
+        "pref_labels": [
+          "Sex"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "37.2.3": {
+        "pref_labels": [
+          "Scary"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "37.2.4": {
+        "pref_labels": [
+          "Discrimination"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "37.2.5": {
+        "pref_labels": [
+          "Drugs & alcohol"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "37.2.6": {
+        "pref_labels": [
+          "Bad language"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "37.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "38": {
+        "pref_labels": [
+          "NO-Medietilsynet-Om_aldersgrenser"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "38.1",
+          "38.2",
+          "38.3",
+          "38.4",
+          "38.5"
+        ],
+        "definitions": [
+          "Scheme as defined by the Medietilsynet"
+        ]
+      },
+      "38.1": {
+        "pref_labels": [
+          "All"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "38"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all"
+        ]
+      },
+      "38.2": {
+        "pref_labels": [
+          "7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "38"
+        ],
+        "narrower": [],
+        "definitions": [
+          "7 and older or from 4 in presence of an accompanying\n         adult"
+        ]
+      },
+      "38.3": {
+        "pref_labels": [
+          "11"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "38"
+        ],
+        "narrower": [],
+        "definitions": [
+          "11 and older or from 8 in presence of an accompanying\n         adult"
+        ]
+      },
+      "38.4": {
+        "pref_labels": [
+          "15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "38"
+        ],
+        "narrower": [],
+        "definitions": [
+          "15 and older, not under 12, above 12 in presence of an\n         accompanying adult"
+        ]
+      },
+      "38.5": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "38"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not under 18"
+        ]
+      },
+      "39": {
+        "pref_labels": [
+          "NZ-OFLC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "39.1",
+          "39.2",
+          "39.3",
+          "39.4",
+          "39.5",
+          "39.6",
+          "39.7",
+          "39.8"
+        ],
+        "definitions": [
+          "Office of Film and Literature Classification"
+        ]
+      },
+      "39.1": {
+        "pref_labels": [
+          "G",
+          "General"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "39"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for general audiences (awarded by the Film and Video\n         Labelling Body and the Office of Film and Literature Classification)"
+        ]
+      },
+      "39.2": {
+        "pref_labels": [
+          "Parental Guidance"
+        ],
+        "alt_labels": [
+          "PG"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "39"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental guidance recommended for younger viewers (awarded by\n         the Film and Video Labelling Body and the Office of Film and Literature\n         Classification)"
+        ]
+      },
+      "39.3": {
+        "pref_labels": [
+          "M",
+          "Mature"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "39"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for (but not restricted to) mature audiences 16 years\n         and over (awarded by the Film and Video Labelling Body and the Office of Film and\n         Literature Classification)"
+        ]
+      },
+      "39.4": {
+        "pref_labels": [
+          "R13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "39"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable to persons 13 years of age and over (awarded by the\n         Office of Film and Literature Classification only)"
+        ]
+      },
+      "39.5": {
+        "pref_labels": [
+          "R15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "39"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable to persons 15 years of age and over (awarded by the\n         Office of Film and Literature Classification only)"
+        ]
+      },
+      "39.6": {
+        "pref_labels": [
+          "R16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "39"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable to persons 16 years of age and over (awarded by the\n         Office of Film and Literature Classification only)"
+        ]
+      },
+      "39.7": {
+        "pref_labels": [
+          "R18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "39"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable to persons 18 years of age and over (awarded by the\n         Office of Film and Literature Classification only)"
+        ]
+      },
+      "39.8": {
+        "pref_labels": [
+          "R",
+          "Restricted"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "39"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Restricted to a particular class of persons, or for particular\n         purposes, or both, specified by the Office of Film and Literature\n         Classification"
+        ]
+      },
+      "40": {
+        "pref_labels": [
+          "PH-MTRCB"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "40.1",
+          "40.2",
+          "40.3",
+          "40.4"
+        ],
+        "definitions": [
+          "Movie and Television Review and Classification\n         Board"
+        ]
+      },
+      "40.1": {
+        "pref_labels": [
+          "G"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "40"
+        ],
+        "narrower": [],
+        "definitions": [
+          "General Patronage. All ages admitted."
+        ]
+      },
+      "40.2": {
+        "pref_labels": [
+          "PG-13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "40"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Viewers below 13 years old must be accompanied by a parent or\n         an adult."
+        ]
+      },
+      "40.3": {
+        "pref_labels": [
+          "R-13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "40"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Only those who are 13 and above may view an “R-13”\n         film."
+        ]
+      },
+      "40.4": {
+        "pref_labels": [
+          "R-18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "40"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Only those who are 13 and above may view an “R-13”\n         film."
+        ]
+      },
+      "41": {
+        "pref_labels": [
+          "PL-RTP"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "41.1",
+          "41.2",
+          "41.3",
+          "41.4",
+          "41.5"
+        ],
+        "definitions": [
+          "Scheme as used by the Radio Telewisja Polska"
+        ]
+      },
+      "41.1": {
+        "pref_labels": [
+          "G"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "41"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all audiences"
+        ]
+      },
+      "41.2": {
+        "pref_labels": [
+          "7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "41"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 10 and above. Parental Guidance is\n         suggested."
+        ]
+      },
+      "41.3": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "41"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 12 and above. Parental Guidance is\n         suggested."
+        ]
+      },
+      "41.4": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "41"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 16 and above."
+        ]
+      },
+      "41.5": {
+        "pref_labels": [
+          "R"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "41"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Adults only (18 and over)"
+        ]
+      },
+      "42": {
+        "pref_labels": [
+          "PT-CCE"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "42.1",
+          "42.2",
+          "42.3",
+          "42.4",
+          "42.5",
+          "42.6",
+          "42.7"
+        ],
+        "definitions": [
+          "Scheme as defined by the Comissão de Classificação de\n         Espectáculos"
+        ]
+      },
+      "42.1": {
+        "pref_labels": [
+          "M/4"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "42"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 4 and above"
+        ]
+      },
+      "42.2": {
+        "pref_labels": [
+          "M/6"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "42"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 6 and above"
+        ]
+      },
+      "42.3": {
+        "pref_labels": [
+          "M/12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "42"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 12 and above"
+        ]
+      },
+      "42.4": {
+        "pref_labels": [
+          "M/16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "42"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 16 and above"
+        ]
+      },
+      "42.5": {
+        "pref_labels": [
+          "M/18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "42"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 18 and above"
+        ]
+      },
+      "42.6": {
+        "pref_labels": [
+          "Pornográficos"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "42"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 18 and above, sexual\n         content"
+        ]
+      },
+      "42.7": {
+        "pref_labels": [
+          "De Qualidade"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "42"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Of quality from an artistic, thematic, pedagogic or technical\n         realisation perspective"
+        ]
+      },
+      "43": {
+        "pref_labels": [
+          "PT-RTP"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "43.1",
+          "43.2",
+          "43.3",
+          "43.4"
+        ],
+        "definitions": [
+          "Scheme as defined by the Radio Televisão\n         Portugal"
+        ]
+      },
+      "43.1": {
+        "pref_labels": [
+          "T"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "43"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all audiences"
+        ]
+      },
+      "43.2": {
+        "pref_labels": [
+          "10"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "43"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 10 and above. Parental Guidance is\n         suggested."
+        ]
+      },
+      "43.3": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "43"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 12 and above. Parental Guidance is\n         suggested."
+        ]
+      },
+      "43.4": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "43"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For persons of age 16 and above."
+        ]
+      },
+      "44": {
+        "pref_labels": [
+          "SE-SB"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "44.1",
+          "44.2",
+          "44.3",
+          "44.4",
+          "44.5"
+        ],
+        "definitions": [
+          "Swedish National Board of Film Censors"
+        ]
+      },
+      "44.1": {
+        "pref_labels": [
+          "Btl"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "44"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all ages"
+        ]
+      },
+      "44.2": {
+        "pref_labels": [
+          "7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "44"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for children of at least 7 years of\n         age"
+        ]
+      },
+      "44.3": {
+        "pref_labels": [
+          "11"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "44"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for children of at least 11 years of\n         age"
+        ]
+      },
+      "44.4": {
+        "pref_labels": [
+          "15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "44"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under 15 years of age admitted"
+        ]
+      },
+      "44.5": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "44"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under 18 years of age admitted"
+        ]
+      },
+      "45": {
+        "pref_labels": [
+          "SG-MDA"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "45.1",
+          "45.2",
+          "45.3",
+          "45.4",
+          "45.5"
+        ],
+        "definitions": [
+          "Media Development Authority"
+        ]
+      },
+      "45.1": {
+        "pref_labels": [
+          "G",
+          "General"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "45"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all ages and audiences"
+        ]
+      },
+      "45.2": {
+        "pref_labels": [
+          "Parental Guidance"
+        ],
+        "alt_labels": [
+          "PG"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "45"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental supervision is advised"
+        ]
+      },
+      "45.3": {
+        "pref_labels": [
+          "NC16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "45"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No children below 16 years old"
+        ]
+      },
+      "45.4": {
+        "pref_labels": [
+          "M18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "45"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Mature 18 for persons 18 years and above"
+        ]
+      },
+      "45.5": {
+        "pref_labels": [
+          "R21"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "45"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Restricted to persons 21 years and above"
+        ]
+      },
+      "46": {
+        "pref_labels": [
+          "TR-AISS"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "46.1",
+          "46.2"
+        ],
+        "definitions": [
+          "Symbol system for content rating"
+        ]
+      },
+      "46.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "46"
+        ],
+        "narrower": [
+          "46.1.1",
+          "46.1.2",
+          "46.1.3",
+          "46.1.4"
+        ],
+        "definitions": []
+      },
+      "46.1.1": {
+        "pref_labels": [
+          "All"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "46.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all ages"
+        ]
+      },
+      "46.1.2": {
+        "pref_labels": [
+          "7+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "46.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for children of at least 7 years of\n         age"
+        ]
+      },
+      "46.1.3": {
+        "pref_labels": [
+          "13+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "46.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for children of at least 11 years of\n         age"
+        ]
+      },
+      "46.1.4": {
+        "pref_labels": [
+          "18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "46.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under 15 years of age admitted"
+        ]
+      },
+      "46.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "46"
+        ],
+        "narrower": [
+          "46.2.1",
+          "46.2.2",
+          "46.2.3"
+        ],
+        "definitions": []
+      },
+      "46.2.1": {
+        "pref_labels": [
+          "Sexual content"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "46.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "46.2.2": {
+        "pref_labels": [
+          "Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "46.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "46.2.3": {
+        "pref_labels": [
+          "Negative behaviour"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "46.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47": {
+        "pref_labels": [
+          "US-ESRB"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "47.1",
+          "47.2"
+        ],
+        "definitions": [
+          "Entertainment Software Rating Board scheme"
+        ]
+      },
+      "47.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47"
+        ],
+        "narrower": [
+          "47.1.1",
+          "47.1.2",
+          "47.1.3",
+          "47.1.4",
+          "47.1.5",
+          "47.1.6",
+          "47.1.7"
+        ],
+        "definitions": []
+      },
+      "47.1.1": {
+        "pref_labels": [
+          "EC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.1.2": {
+        "pref_labels": [
+          "E"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.1.3": {
+        "pref_labels": [
+          "E10+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.1.4": {
+        "pref_labels": [
+          "T"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.1.5": {
+        "pref_labels": [
+          "M"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.1.6": {
+        "pref_labels": [
+          "AO"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.1.7": {
+        "pref_labels": [
+          "RP"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.1"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47"
+        ],
+        "narrower": [
+          "47.2.1",
+          "47.2.2",
+          "47.2.3",
+          "47.2.4",
+          "47.2.5",
+          "47.2.6",
+          "47.2.7",
+          "47.2.8",
+          "47.2.9",
+          "47.2.10",
+          "47.2.11",
+          "47.2.12",
+          "47.2.13",
+          "47.2.14",
+          "47.2.15",
+          "47.2.16",
+          "47.2.17",
+          "47.2.18",
+          "47.2.19",
+          "47.2.20",
+          "47.2.21",
+          "47.2.22",
+          "47.2.23",
+          "47.2.24",
+          "47.2.25",
+          "47.2.26",
+          "47.2.27",
+          "47.2.28",
+          "47.2.29",
+          "47.2.30",
+          "47.2.31",
+          "47.2.32"
+        ],
+        "definitions": []
+      },
+      "47.2.1": {
+        "pref_labels": [
+          "Alcohol Reference"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.2": {
+        "pref_labels": [
+          "Animated Blood"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.3": {
+        "pref_labels": [
+          "Blood"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.4": {
+        "pref_labels": [
+          "Blood and Gore"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.5": {
+        "pref_labels": [
+          "Cartoon Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.6": {
+        "pref_labels": [
+          "Comic Mischief"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.7": {
+        "pref_labels": [
+          "Crude Humour"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.8": {
+        "pref_labels": [
+          "Drug Reference"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.9": {
+        "pref_labels": [
+          "Edutainment"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.10": {
+        "pref_labels": [
+          "Fantasy Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.11": {
+        "pref_labels": [
+          "Informational"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.12": {
+        "pref_labels": [
+          "Intense Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.13": {
+        "pref_labels": [
+          "Language"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.14": {
+        "pref_labels": [
+          "Lyrics"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.15": {
+        "pref_labels": [
+          "Mature Humour"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.16": {
+        "pref_labels": [
+          "Mild Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.17": {
+        "pref_labels": [
+          "Nudity"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.18": {
+        "pref_labels": [
+          "Partial Nudity"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.19": {
+        "pref_labels": [
+          "Real Gambling"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.20": {
+        "pref_labels": [
+          "Sexual Themes"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.21": {
+        "pref_labels": [
+          "Sexual Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.22": {
+        "pref_labels": [
+          "Simulated Gambling"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.23": {
+        "pref_labels": [
+          "Some Adult Assistance May Be Needed"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.24": {
+        "pref_labels": [
+          "Strong Language"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.25": {
+        "pref_labels": [
+          "Strong Lyrics"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.26": {
+        "pref_labels": [
+          "Strong Sexual Content"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.27": {
+        "pref_labels": [
+          "Suggestive Themes"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.28": {
+        "pref_labels": [
+          "Tobacco Reference"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.29": {
+        "pref_labels": [
+          "Use of Drugs"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.30": {
+        "pref_labels": [
+          "Use of Alcohol"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.31": {
+        "pref_labels": [
+          "Use of Tobacco"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "47.2.32": {
+        "pref_labels": [
+          "Violence"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "47.2"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "48": {
+        "pref_labels": [
+          "US-MPAA"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "48.1",
+          "48.2",
+          "48.3",
+          "48.4",
+          "48.5",
+          "48.6"
+        ],
+        "definitions": [
+          "Motion Picture Association of America movie rating\n         scheme"
+        ]
+      },
+      "48.1": {
+        "pref_labels": [
+          "G",
+          "General"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "48"
+        ],
+        "narrower": [],
+        "definitions": [
+          "General audiences. All ages admitted."
+        ]
+      },
+      "48.2": {
+        "pref_labels": [
+          "Parental Guidance"
+        ],
+        "alt_labels": [
+          "PG"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "48"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental guidance suggested. Theme or content may not be\n         suitable for children."
+        ]
+      },
+      "48.3": {
+        "pref_labels": [
+          "PG-13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "48"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parents strongly cautioned",
+          "Some material may be inappropriate for children under 13."
+        ]
+      },
+      "48.4": {
+        "pref_labels": [
+          "R",
+          "Restricted"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "48"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Under 17 requires accompyning parent or adult guardian."
+        ]
+      },
+      "48.5": {
+        "pref_labels": [
+          "NC-17"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "adult"
+        ],
+        "broader": [
+          "48"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not one 17 and under admitted."
+        ]
+      },
+      "48.6": {
+        "pref_labels": [
+          "NR"
+        ],
+        "alt_labels": [
+          "UR"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "48"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not rated or Unrated"
+        ]
+      },
+      "49": {
+        "pref_labels": [
+          "US-RIAA"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "49.1"
+        ],
+        "definitions": [
+          "Recording Industry Association of America scheme. Scheme for\n         music rating as defined by the Recording Industry Association of America"
+        ]
+      },
+      "49.1": {
+        "pref_labels": [
+          "Parental Advisory"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "49"
+        ],
+        "narrower": [],
+        "definitions": []
+      },
+      "50": {
+        "pref_labels": [
+          "US-TVPG"
+        ],
+        "alt_labels": [
+          "V-Chip",
+          "USA_PR"
+        ],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "50.1",
+          "50.2",
+          "50.3",
+          "50.4",
+          "50.5",
+          "50.6",
+          "50.7"
+        ],
+        "definitions": [
+          "The TV Parental Guidelines"
+        ]
+      },
+      "50.1": {
+        "pref_labels": [
+          "TV-Y"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "50"
+        ],
+        "narrower": [],
+        "definitions": [
+          "All children"
+        ]
+      },
+      "50.2": {
+        "pref_labels": [
+          "TV-Y7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "50"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Directed to other children above 7"
+        ]
+      },
+      "50.3": {
+        "pref_labels": [
+          "TV-Y7-FV"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "50"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Directed to other children above 7 due to fantasy and violent\n         content"
+        ]
+      },
+      "50.4": {
+        "pref_labels": [
+          "TV-G"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "50"
+        ],
+        "narrower": [],
+        "definitions": [
+          "General Audience - All ages admitted"
+        ]
+      },
+      "50.5": {
+        "pref_labels": [
+          "TV-PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "50"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental guidance suggested"
+        ]
+      },
+      "50.6": {
+        "pref_labels": [
+          "TV-14"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "50"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parents strongly cautioned"
+        ]
+      },
+      "50.7": {
+        "pref_labels": [
+          "TV-MA"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [
+          "adult"
+        ],
+        "broader": [
+          "50"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Mature audience only"
+        ]
+      },
+      "51": {
+        "pref_labels": [
+          "ZA-FPB"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "51.1",
+          "51.2"
+        ],
+        "definitions": [
+          "Film and Publication Board"
+        ]
+      },
+      "51.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51"
+        ],
+        "narrower": [
+          "51.1.1",
+          "51.1.2",
+          "51.1.3",
+          "51.1.4",
+          "51.1.5",
+          "51.1.6",
+          "51.1.7"
+        ],
+        "definitions": []
+      },
+      "51.1.1": {
+        "pref_labels": [
+          "A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "All ages"
+        ]
+      },
+      "51.1.2": {
+        "pref_labels": [
+          "PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "A category with content that may be disturbing to or\n         inappropriate for children"
+        ]
+      },
+      "51.1.3": {
+        "pref_labels": [
+          "10M"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Children under the age of 10 years must be accompanied by an\n         adult"
+        ]
+      },
+      "51.1.4": {
+        "pref_labels": [
+          "10M-13PG"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Persons under the age of 13 must be accompanied by an adult to\n         any filem classfied 13M, while a DVB or VHS or an interactive computer game classfied 13 PG\n         requires Parental Guidance for persons under the age of 13"
+        ]
+      },
+      "51.1.5": {
+        "pref_labels": [
+          "10"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "10 years and older only"
+        ]
+      },
+      "51.1.6": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "16 years and older only"
+        ]
+      },
+      "51.1.7": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Adults only"
+        ]
+      },
+      "51.2": {
+        "pref_labels": [
+          "Criteria"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51"
+        ],
+        "narrower": [
+          "51.2.1",
+          "51.2.2",
+          "51.2.3",
+          "51.2.4",
+          "51.2.5",
+          "51.2.6"
+        ],
+        "definitions": []
+      },
+      "51.2.1": {
+        "pref_labels": [
+          "D"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Drug and alocohol abuse"
+        ]
+      },
+      "51.2.2": {
+        "pref_labels": [
+          "L"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Strong language"
+        ]
+      },
+      "51.2.3": {
+        "pref_labels": [
+          "N"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Nudity"
+        ]
+      },
+      "51.2.4": {
+        "pref_labels": [
+          "P"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Biased or prejudiced with regard to race, ethnicity, gender,\n         religion, or other group identifiable characteristics"
+        ]
+      },
+      "51.2.5": {
+        "pref_labels": [
+          "S"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Sex"
+        ]
+      },
+      "51.2.6": {
+        "pref_labels": [
+          "V"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "51.2"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Violence"
+        ]
+      },
+      "52": {
+        "pref_labels": [
+          "DE-USK"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "52.1",
+          "52.2",
+          "52.3",
+          "52.4",
+          "52.5"
+        ],
+        "definitions": [
+          "Entertianment and software self control"
+        ]
+      },
+      "52.1": {
+        "pref_labels": [
+          "ALL"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "52"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all ages"
+        ]
+      },
+      "52.2": {
+        "pref_labels": [
+          "6+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "52"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under 6 years admitted"
+        ]
+      },
+      "52.3": {
+        "pref_labels": [
+          "12+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "52"
+        ],
+        "narrower": [],
+        "definitions": [
+          "People 12 or older admitted, children between 6 and 11 only\n         when accompanied by parent or legal guardian"
+        ]
+      },
+      "52.4": {
+        "pref_labels": [
+          "16+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "52"
+        ],
+        "narrower": [],
+        "definitions": [
+          "People 16 or older admitted"
+        ]
+      },
+      "52.5": {
+        "pref_labels": [
+          "18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "52"
+        ],
+        "narrower": [],
+        "definitions": [
+          "\"No youth admitted\", only adults"
+        ]
+      },
+      "53": {
+        "pref_labels": [
+          "CZ-Film"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "53.1"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "53.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "53"
+        ],
+        "narrower": [
+          "53.1.1",
+          "53.1.2",
+          "53.1.3",
+          "53.1.4",
+          "53.1.5"
+        ],
+        "definitions": []
+      },
+      "53.1.1": {
+        "pref_labels": [
+          "U"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "53.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all audiences"
+        ]
+      },
+      "53.1.2": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "53.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "53.1.3": {
+        "pref_labels": [
+          "15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "53.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "53.1.4": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "53.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "53.1.5": {
+        "pref_labels": [
+          "E"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "53.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Exempt from classification"
+        ]
+      },
+      "54": {
+        "pref_labels": [
+          "HU-Film"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "54.1"
+        ],
+        "definitions": [
+          "National Film Office"
+        ]
+      },
+      "54.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "54"
+        ],
+        "narrower": [
+          "54.1.1",
+          "54.1.2",
+          "54.1.3",
+          "54.1.4",
+          "54.1.5"
+        ],
+        "definitions": []
+      },
+      "54.1.1": {
+        "pref_labels": [
+          "KN"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "54.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "suitable for all (category I.)"
+        ]
+      },
+      "54.1.2": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "54.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "parental guidance suggested for children under 12. (category\n         II.)"
+        ]
+      },
+      "54.1.3": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "54.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "not suitable for children under 16. (category III.)"
+        ]
+      },
+      "54.1.4": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "54.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "not suitable for people under 18. (category IV.)"
+        ]
+      },
+      "54.1.5": {
+        "pref_labels": [
+          "X"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "54.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "only for adults (category V.)"
+        ]
+      },
+      "55": {
+        "pref_labels": [
+          "IS-Smais"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "55.1"
+        ],
+        "definitions": [
+          "National Film Office"
+        ]
+      },
+      "55.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "55"
+        ],
+        "narrower": [
+          "55.1.1",
+          "55.1.2",
+          "55.1.3",
+          "55.1.4",
+          "55.1.5",
+          "55.1.6"
+        ],
+        "definitions": []
+      },
+      "55.1.1": {
+        "pref_labels": [
+          "L"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "55.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for all"
+        ]
+      },
+      "55.1.2": {
+        "pref_labels": [
+          "7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "55.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Passed only for 7 and older"
+        ]
+      },
+      "55.1.3": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "55.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Passed only for 12 and older"
+        ]
+      },
+      "55.1.4": {
+        "pref_labels": [
+          "14"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "55.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Passed only for 14 and older"
+        ]
+      },
+      "55.1.5": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "55.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Passed only for 16 and older"
+        ]
+      },
+      "55.1.6": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "55.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Passed only for 18 and older"
+        ]
+      },
+      "56": {
+        "pref_labels": [
+          "IN-CFBC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "56.1"
+        ],
+        "definitions": [
+          "Film Board"
+        ]
+      },
+      "56.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "56"
+        ],
+        "narrower": [
+          "56.1.1",
+          "56.1.2",
+          "56.1.3",
+          "56.1.4"
+        ],
+        "definitions": []
+      },
+      "56.1.1": {
+        "pref_labels": [
+          "U"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "56.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Unrestricted Public Exhibition throughout\n         India,"
+        ]
+      },
+      "56.1.2": {
+        "pref_labels": [
+          "U/A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "56.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Unrestricted public exhibition with parental guidance for\n         children below the age of 12"
+        ]
+      },
+      "56.1.3": {
+        "pref_labels": [
+          "A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "56.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Public exhibition restricted to adults above 18 years only,"
+        ]
+      },
+      "56.1.4": {
+        "pref_labels": [
+          "S"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "56.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Exhibition to restricted audience such as doctors\n         etc."
+        ]
+      },
+      "57": {
+        "pref_labels": [
+          "EG-Film"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "57.1"
+        ],
+        "definitions": [
+          "Film Board"
+        ]
+      },
+      "57.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "57"
+        ],
+        "narrower": [
+          "57.1.1",
+          "57.1.2",
+          "57.1.3"
+        ],
+        "definitions": []
+      },
+      "57.1.1": {
+        "pref_labels": [
+          "General Audience"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "57.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Everyone is admitted"
+        ]
+      },
+      "57.1.2": {
+        "pref_labels": [
+          "Adults Only"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "57.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Restricted to audiences aged 18 and above"
+        ]
+      },
+      "57.1.3": {
+        "pref_labels": [
+          "Exempt from classification"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "57.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "58": {
+        "pref_labels": [
+          "ES-Film"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "58.1"
+        ],
+        "definitions": [
+          "Film Board"
+        ]
+      },
+      "58.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "58"
+        ],
+        "narrower": [
+          "58.1.1",
+          "58.1.2",
+          "58.1.3",
+          "58.1.4",
+          "58.1.5",
+          "58.1.6",
+          "58.1.7",
+          "58.1.8"
+        ],
+        "definitions": []
+      },
+      "58.1.1": {
+        "pref_labels": [
+          "Pere"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "58.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Family film"
+        ]
+      },
+      "58.1.2": {
+        "pref_labels": [
+          "L"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "58.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For all audiences"
+        ]
+      },
+      "58.1.3": {
+        "pref_labels": [
+          "MS-6"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "58.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Younger than 6 Not Recommended"
+        ]
+      },
+      "58.1.4": {
+        "pref_labels": [
+          "MS-12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "58.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Younger than 12 Not Recommended"
+        ]
+      },
+      "58.1.5": {
+        "pref_labels": [
+          "K-12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "58.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Younger than 12 Prohibited"
+        ]
+      },
+      "58.1.6": {
+        "pref_labels": [
+          "K-14"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "58.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Younger than 14 Prohibited"
+        ]
+      },
+      "58.1.7": {
+        "pref_labels": [
+          "K-16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "58.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Younger than 16 Prohibited"
+        ]
+      },
+      "58.1.8": {
+        "pref_labels": [
+          "K-6"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "58.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Younger than 6 Prohibited. Commonly know as\n         K-E"
+        ]
+      },
+      "59": {
+        "pref_labels": [
+          "GR-Film"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "59.1"
+        ],
+        "definitions": [
+          "Film Board"
+        ]
+      },
+      "59.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "59"
+        ],
+        "narrower": [
+          "59.1.1",
+          "59.1.2",
+          "59.1.3",
+          "59.1.4"
+        ],
+        "definitions": []
+      },
+      "59.1.1": {
+        "pref_labels": [
+          "K"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "59.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable film for everyone, including children. The film does\n         not contain violence, drug abuse, or sexual content."
+        ]
+      },
+      "59.1.2": {
+        "pref_labels": [
+          "K-13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "59.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable film for children over the age of 13. The film may\n         contain mild violence and adult themes."
+        ]
+      },
+      "59.1.3": {
+        "pref_labels": [
+          "K-17"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "59.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable film for adults over the age of 17. The film may\n         contain violence, drug abuse, and mild pornographic scenes. An ID card certifying the age\n         is required in all Greek cinemas and DVD rental shops in order to get a cinema ticket or\n         rent a DVD of a \"K-17\" rated film. This category is legally restricted."
+        ]
+      },
+      "59.1.4": {
+        "pref_labels": [
+          "E"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "59.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Exempt from classification"
+        ]
+      },
+      "60": {
+        "pref_labels": [
+          "ID-LSF"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "60.1"
+        ],
+        "definitions": [
+          "Lembaga Sensor Film"
+        ]
+      },
+      "60.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "60"
+        ],
+        "narrower": [
+          "60.1.1",
+          "60.1.2",
+          "60.1.3",
+          "60.1.4",
+          "60.1.5"
+        ],
+        "definitions": []
+      },
+      "60.1.1": {
+        "pref_labels": [
+          "SU"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "60.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "(Semua Umur): All ages"
+        ]
+      },
+      "60.1.2": {
+        "pref_labels": [
+          "A"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "60.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "(Anak-anak): Children (3–12 years)"
+        ]
+      },
+      "60.1.3": {
+        "pref_labels": [
+          "BO"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "60.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "BO (Bimbingan Orangtua): Parental Guidance (parental\n         supervision is recommended for persons under 13 years)"
+        ]
+      },
+      "60.1.4": {
+        "pref_labels": [
+          "R"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "60.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Remaja): Teen (13–15 years and over)"
+        ]
+      },
+      "60.1.5": {
+        "pref_labels": [
+          "D"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "60.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "(Dewasa): Mature (17 years and over)"
+        ]
+      },
+      "61": {
+        "pref_labels": [
+          "LV-NCC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "61.1"
+        ],
+        "definitions": [
+          "National Cinema Center"
+        ]
+      },
+      "61.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "61"
+        ],
+        "narrower": [
+          "61.1.1",
+          "61.1.2",
+          "61.1.3",
+          "61.1.4",
+          "61.1.5",
+          "61.1.6"
+        ],
+        "definitions": []
+      },
+      "61.1.1": {
+        "pref_labels": [
+          "U"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "61.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "rated for all ages (added in July 2007)."
+        ]
+      },
+      "61.1.2": {
+        "pref_labels": [
+          "7+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "61.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not recommended until 7"
+        ]
+      },
+      "61.1.3": {
+        "pref_labels": [
+          "12+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "61.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not recommended until 12"
+        ]
+      },
+      "61.1.4": {
+        "pref_labels": [
+          "16+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "61.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not recommended until 16"
+        ]
+      },
+      "61.1.5": {
+        "pref_labels": [
+          "18+ (blue)"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "61.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Not recommended until 18"
+        ]
+      },
+      "61.1.6": {
+        "pref_labels": [
+          "18+ (red)"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "61.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Prohibited for minors"
+        ]
+      },
+      "62": {
+        "pref_labels": [
+          "MA-FCB"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "62.1"
+        ],
+        "definitions": [
+          "Film Censorship Board"
+        ]
+      },
+      "62.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "62"
+        ],
+        "narrower": [
+          "62.1.1",
+          "62.1.2",
+          "62.1.3"
+        ],
+        "definitions": []
+      },
+      "62.1.1": {
+        "pref_labels": [
+          "U"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "62.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "General viewing for all ages."
+        ]
+      },
+      "62.1.2": {
+        "pref_labels": [
+          "PG13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "62.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Parental guidance is suggested for viewers under\n         13"
+        ]
+      },
+      "62.1.3": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "62.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For aged 18 and above only"
+        ]
+      },
+      "63": {
+        "pref_labels": [
+          "MA-BBFC"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "63.1"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "63.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "63"
+        ],
+        "narrower": [
+          "63.1.1",
+          "63.1.2",
+          "63.1.3",
+          "63.1.4",
+          "63.1.5",
+          "63.1.6",
+          "63.1.7"
+        ],
+        "definitions": []
+      },
+      "63.1.1": {
+        "pref_labels": [
+          "U /Universal)"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "63.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "General viewing for all ages."
+        ]
+      },
+      "63.1.2": {
+        "pref_labels": [
+          "PG (Parental Guidance)"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "63.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Some material may be unsuitable for younger children. Children\n         under the age of 12 are to be accompanied by an adult."
+        ]
+      },
+      "63.1.3": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "63.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable only for persons 12 years and older. No one under this\n         age is admitted."
+        ]
+      },
+      "63.1.4": {
+        "pref_labels": [
+          "14"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "63.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable only for persons 14 years and older. No one under this\n         age is admitted."
+        ]
+      },
+      "63.1.5": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "63.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable only for persons 16 years and older. No one under this\n         age is admitted."
+        ]
+      },
+      "63.1.6": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "63.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable only for persons 18 years and older. No one under this\n         age is admitted."
+        ]
+      },
+      "63.1.7": {
+        "pref_labels": [
+          "Banned"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "63.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          ""
+        ]
+      },
+      "64": {
+        "pref_labels": [
+          "CH"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "64.1"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "64.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "64"
+        ],
+        "narrower": [
+          "64.1.1",
+          "64.1.2",
+          "64.1.3",
+          "64.1.4",
+          "64.1.5",
+          "64.1.6",
+          "64.1.7"
+        ],
+        "definitions": []
+      },
+      "64.1.1": {
+        "pref_labels": [
+          "0"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "64.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "General viewing for all ages."
+        ]
+      },
+      "64.1.2": {
+        "pref_labels": [
+          "7"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "64.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 7 admitted"
+        ]
+      },
+      "64.1.3": {
+        "pref_labels": [
+          "10"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "64.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 10 admitted"
+        ]
+      },
+      "64.1.4": {
+        "pref_labels": [
+          "12"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "64.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 12 admitted"
+        ]
+      },
+      "64.1.5": {
+        "pref_labels": [
+          "14"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "64.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 14 admitted"
+        ]
+      },
+      "64.1.6": {
+        "pref_labels": [
+          "16"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "64.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 16 admitted"
+        ]
+      },
+      "64.1.7": {
+        "pref_labels": [
+          "18"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "64.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 18 admitted"
+        ]
+      },
+      "65": {
+        "pref_labels": [
+          "TH"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "65.1"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "65.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "65"
+        ],
+        "narrower": [
+          "65.1.1",
+          "65.1.2",
+          "65.1.3",
+          "65.1.4",
+          "65.1.5",
+          "65.1.6"
+        ],
+        "definitions": []
+      },
+      "65.1.1": {
+        "pref_labels": [
+          "P"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "65.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Promotional, film is educational and viewing is encouraged for\n         all Thai people.."
+        ]
+      },
+      "65.1.2": {
+        "pref_labels": [
+          "G"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "65.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for general audiences"
+        ]
+      },
+      "65.1.3": {
+        "pref_labels": [
+          "13+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "65.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 13 admitted"
+        ]
+      },
+      "65.1.4": {
+        "pref_labels": [
+          "15+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "65.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 15 admitted"
+        ]
+      },
+      "65.1.5": {
+        "pref_labels": [
+          "18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "65.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 18 admitted"
+        ]
+      },
+      "65.1.6": {
+        "pref_labels": [
+          "20+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "65.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "For views over 20 years old only"
+        ]
+      },
+      "66": {
+        "pref_labels": [
+          "UAB"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "66.1"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "66.1": {
+        "pref_labels": [
+          "Rating"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "66"
+        ],
+        "narrower": [
+          "66.1.1",
+          "66.1.2",
+          "66.1.3",
+          "66.1.4",
+          "66.1.5"
+        ],
+        "definitions": []
+      },
+      "66.1.1": {
+        "pref_labels": [
+          "G"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "66.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Suitable for general audiences"
+        ]
+      },
+      "66.1.2": {
+        "pref_labels": [
+          "PG-13"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "66.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Under 13 not admitted unless accompanied by an individual over\n         13. Some material may not be suitable for children"
+        ]
+      },
+      "66.1.3": {
+        "pref_labels": [
+          "PG15"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "66.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Under 15 not admitted unless accompanied by an individual over\n         15. Some material may not be suitable for children"
+        ]
+      },
+      "66.1.4": {
+        "pref_labels": [
+          "15+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "66.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 15 admitted"
+        ]
+      },
+      "66.1.5": {
+        "pref_labels": [
+          "18+"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "66.1"
+        ],
+        "narrower": [],
+        "definitions": [
+          "No one under the age of 18 admitted"
+        ]
+      },
+      "67": {
+        "pref_labels": [
+          "simple"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [],
+        "narrower": [
+          "67.1",
+          "67.2"
+        ],
+        "definitions": [
+          ""
+        ]
+      },
+      "67.1": {
+        "pref_labels": [
+          "nonadult"
+        ],
+        "alt_labels": [
+          "family",
+          "children"
+        ],
+        "hidden_labels": [],
+        "broader": [
+          "67"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Viewing for all ages"
+        ]
+      },
+      "67.2": {
+        "pref_labels": [
+          "adult"
+        ],
+        "alt_labels": [],
+        "hidden_labels": [],
+        "broader": [
+          "67"
+        ],
+        "narrower": [],
+        "definitions": [
+          "Only for adult viewing"
+        ]
+      }
+    }
+  }
+}
