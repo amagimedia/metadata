@@ -10,19 +10,25 @@
             <xs:sequence>
                 <xs:element name="channel">
                     <xs:complexType>
-                        <xs:sequence>
+                        <xs:all>
+                            <xs:element ref="media:title" minOccurs="0"/>
+                            <xs:element ref="media:description" minOccurs="0"/>
+                            <xs:element ref="amg:lang" minOccurs="0"/>
+                            <xs:element name="link" minOccurs="0"/>
+                            <xs:element ref="media:thumbnail" minOccurs="0"/>
                             <xs:element name="item" minOccurs="1" maxOccurs="unbounded">
                                 <xs:complexType>
-                                    <xs:sequence>
+                                    <xs:all>
                                         <xs:element ref="amg:assetid" minOccurs="1"/>
+                                        <xs:element ref="amg:externalId" minOccurs="0"/>
                                         <xs:element ref="amg:keyword" minOccurs="0" maxOccurs="unbounded"/>
                                         <xs:element ref="amg:genre" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="amg:language" minOccurs="0"/>
-                                        <xs:element ref="amg:longDescription" minOccurs="0"/>
-                                        <xs:element ref="media:description" minOccurs="0"/>
-                                        <xs:element ref="media:group" minOccurs="0"/>
+                                        <xs:element ref="amg:lang" minOccurs="0"/>
+                                        <xs:element ref="amg:longDescription" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element ref="media:description" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element ref="media:content" minOccurs="0"/>
                                         <xs:element ref="media:thumbnail" minOccurs="0" maxOccurs="unbounded"/>
-                                        <xs:element ref="media:title" minOccurs="0"/>
+                                        <xs:element ref="media:title" minOccurs="0" maxOccurs="unbounded"/>
                                         <xs:element ref="media:rating" minOccurs="0" maxOccurs="unbounded"/>
                                         <xs:element ref="media:subTitle" minOccurs="0" maxOccurs="unbounded"/>
                                         <xs:element ref="media:credit" minOccurs="0" maxOccurs="unbounded"/>
@@ -31,12 +37,13 @@
                                         <xs:element ref="amg:series" minOccurs="0"/>
                                         <xs:element ref="amg:cuepoint" minOccurs="0" maxOccurs="unbounded"/>
                                         <xs:element ref="amg:broadcastDate" minOccurs="0"/>
+                                        <xs:element ref="amg:episodeNumber" minOccurs="0"/>
                                         <xs:element ref="media:category" minOccurs="0" maxOccurs="unbounded"/>
-                                    </xs:sequence>
+                                    </xs:all>
                                     <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:itemType" use="required" />
                                 </xs:complexType>
                             </xs:element>
-                        </xs:sequence>
+                        </xs:all>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
