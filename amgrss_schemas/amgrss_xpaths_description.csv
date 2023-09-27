@@ -32,7 +32,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:content/@type, the standard MIME type of the object, xs:string, "video/mp4", no
 /rss/channel/item/media:content/@url, should specify the direct URL to the media object, xs:anyUri, "https://www.example.com/video.mp4", no
 /rss/channel/item/media:content/@width, the width of the media object, xs:integer, "1920", no
-/rss/channel/item/media:category, https://www.rssboard.org/media-rss#media-category, xs:complexType, <media:category scheme="http://search.yahoo.com/mrss/category_ schema">music/artist/album/song</media:category> <media:category scheme="urn:flickr:tags">mobile</media:category> <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_ -_Pet_Detective</media:category>, no
+/rss/channel/item/media:category, https://www.rssboard.org/media-rss#media-category, xs:complexType, <media:category scheme="http://search.yahoo.com/mrss/category_schema">music/artist/album/song</media:category> <media:category scheme="urn:flickr:tags">mobile</media:category> <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_-_Pet_Detective</media:category>, no
 /rss/channel/item/media:category/@label, specifies a human readable label for display, xs:string, "Ace Ventura - Pet Detective", no
 /rss/channel/item/media:category/@scheme, specifies the categorization scheme via a URI, xs:anyUri, "http://dmoz.org", no
 /rss/channel/item/media:thumbnail, https://www.rssboard.org/media-rss#media-thumbnails, xs:complexType, n/a, no

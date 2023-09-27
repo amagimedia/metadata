@@ -33,3 +33,13 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "EIDR"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_IMDb>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """IMDb identifier. Check https://www.imdb.org/"""@en ;
+    skos:example "" ;
+    skos:historyNote "2022-11-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "IMDb"@en .

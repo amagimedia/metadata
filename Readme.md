@@ -16,6 +16,11 @@ rapper can be installed using `brew install raptor`
 mkdocs gh-deploy
 ```
 
+## Protege View Ontology
+
+- Open Protege
+- File -> Open .../ebucore/amagi_ebucoreExtension.ttl
+
 ## Conversion from ttl to XML/RDF
 
 To convert run the following command
