@@ -35,18 +35,30 @@
                 <amg:serviceName>Roku</amg:serviceName>
                 <amg:serviceId>Roku-1</amg:serviceId>
             </amg:rights>
+            <amg:rights>
+                <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
+                <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
+                <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
+                <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA</amg:rightsTerritoryIncludes>
+                <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
+                <amg:channelType>Linear</amg:channelType>
+                <amg:channelName>Tastemade Travel</amg:channelName>
+                <amg:channelId>AMG09822C1</amg:channelId>
+            </amg:rights>            
             <amg:cuepoint>55.5</amg:cuepoint>
             <amg:cuepoint>540.7</amg:cuepoint>
             <amg:cuepoint>1400.4</amg:cuepoint>
             <amg:cuepoint>2700.5</amg:cuepoint>
             <amg:cuepoint>4200.5</amg:cuepoint>
             <amg:cuepoint>5800.5</amg:cuepoint>
-            <amg:segment start="55.5"   end="540.7"/>
-            <amg:segment start="540.7"  end="1400.4"/>
-            <amg:segment start="1400.4" end="2700.5"/>
-            <amg:segment start="2700.5" end="4200.5"/>
-            <amg:segment start="4200.5" end="5800.5"/>
-            <amg:broadcastDate>2015</amg:broadcastDate>
+            <amg:segment id="1" start="0.0"   end="55.5"/>
+            <amg:segment id="2" start="55.5"   end="540.7"/>
+            <amg:segment id="3" start="540.7"  end="1400.4"/>
+            <amg:segment id="4" start="1400.4" end="2700.5"/>
+            <amg:segment id="5" start="2700.5" end="4200.5"/>
+            <amg:segment id="6" start="4200.5" end="5800.5"/>
+            <amg:segment id="7" start="5800.5" end="6441.0"/>
+            <amg:broadcastDate>2015-08-21</amg:broadcastDate>
         </item>
         <item amg:itemType="Episode">
             <amg:assetId>5cb9f349-5375-4c91-b355-a6c06ec5535f</amg:assetId>
@@ -76,7 +88,7 @@
                 <media:title>Season-3 Title</media:title>
                 <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Titre de la saison 3</media:title>
                 <media:thumbnail url="http://www.myvideosite.com/thumbnails/123.jpg" height="1280" width="720"/>
-                <amg:broadcastDate>2015</amg:broadcastDate>
+                <amg:broadcastDate>2015-09-30</amg:broadcastDate>
                 <media:description>The third season of Weeds begins with several subplots involving the fallout from the botched drug deal of the season two finale.</media:description>
                 <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">La troisième saison de Weeds commence avec plusieurs intrigues secondaires impliquant les retombées de l'affaire de drogue bâclée de la finale de la saison deux</media:description>
                 <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Craig Zisk</media:credit>
@@ -91,6 +103,15 @@
                     <amg:serviceName>Netflix</amg:serviceName>
                     <amg:serviceId>Netflix-1</amg:serviceId>
                 </amg:rights>
+                <amg:rights>
+                    <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
+                    <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
+                    <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
+                    <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
+                    <amg:channelType>Linear</amg:channelType>
+                    <amg:channelName>Tastemade Travel</amg:channelName>
+                    <amg:channelId>AMG09822C1</amg:channelId>
+                </amg:rights>                
             </amg:season>
             <amg:series>
                 <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0439100</amg:externalId>
@@ -102,7 +123,7 @@
                 <media:thumbnail url="http://www.myvideosite.com/thumbnails/123.jpg" height="1280" width="720"/>
                 <amg:keyword>drugs</amg:keyword>
                 <amg:keyword>crime</amg:keyword>
-                <amg:broadcastDate>2012</amg:broadcastDate>
+                <amg:broadcastDate>2012-11-02</amg:broadcastDate>
                 <amg:productionCompany>Lionsgate Television</amg:productionCompany>
                 <media:credit role="Writer/Conceptualist" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Jenji Kohan</media:credit>
                 <media:rating label="TV-MA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
@@ -121,16 +142,27 @@
                     <amg:serviceName>Roku</amg:serviceName>
                     <amg:serviceId>Roku-1</amg:serviceId>
                 </amg:rights>
+                <amg:rights>
+                    <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
+                    <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
+                    <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
+                    <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
+                    <amg:channelType>Linear</amg:channelType>
+                    <amg:channelName>Tastemade Travel</amg:channelName>
+                    <amg:channelId>AMG09822C1</amg:channelId>
+                </amg:rights>                
             </amg:series>
             <amg:cuepoint>55.5</amg:cuepoint>
             <amg:cuepoint>140.7</amg:cuepoint>
             <amg:cuepoint>350.4</amg:cuepoint>
             <amg:cuepoint>900.5</amg:cuepoint>
             <amg:cuepoint>1345.5</amg:cuepoint>
-            <amg:segment start="55.5"   end="140.7"/>
-            <amg:segment start="140.7"  end="350.4"/>
-            <amg:segment start="350.4" end="900.5"/>
-            <amg:segment start="900.5" end="1345.5"/>
+            <amg:segment id= "1" start="0.0"   end="55.5"/>
+            <amg:segment id= "2" start="55.5"   end="140.7"/>
+            <amg:segment id= "3" start="140.7"  end="350.4"/>
+            <amg:segment id= "4" start="350.4" end="900.5"/>
+            <amg:segment id= "5" start="900.5" end="1345.5"/>
+            <amg:segment id= "6" start="1345.5" end="1502.0"/>
         </item>
     </channel>
 </rss>
