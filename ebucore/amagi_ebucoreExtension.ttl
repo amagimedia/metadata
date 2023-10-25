@@ -41,12 +41,13 @@
 #   A744595 = fn(A1234, "AIMLAugmenedMeta"), fn could be md5sum hash
 #
 # Example of AIAugmentedMeta is as follows
-# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode .
+# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode ;
+#     ebucoreexr:hasAIAugmentedMeta <https://compass.amagi.tv/gms/entity/A1234#AIAugmentedMeta> .
 #
-# <https://compass.amagi.tv/gms/entity/A744595> a ebucoreext:AIAugmentedMeta ;
+# <https://compass.amagi.tv/gms/entity/A1234#AIAugmentedMeta> a ebucoreext:AIAugmentedMeta ;
 #         ebucore:hasRelatedAsset <https://compass.amagi.tv/gms/entity/A1234>;
 #         ebucoreext:hasAnnotation [ a ebucore:Annotation ;
-#                                ebucore:annotationType ebucore:Keyword ;
+#                                ebucore:annotationType ebucoreext:Entity ;
 #                                ebucore:annotationName "Russia"@en ;
 #                                ebucore:annotaionConfidence "3.4" ;
 #                                ebucore:annotationId <https://www.wikidata.org/wiki/Q34266> .
@@ -60,22 +61,65 @@
 #        
 #       
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Entity>
+        rdf:type             rdfs:Class ;
+        rdfs:comment         "To proivde key entites associated with an asset."@en ;
+        rdfs:subClassOf      skos:Concept ;
+        owl:equivalentClass  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Keyword> ;
+        rdfs:label           "Entity"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta>
+        rdf:type         rdfs:Class ;
+        rdfs:label       "AIAugmentedMeta"@en ;
+        rdfs:comment     "To provide AI augmented metadata for an asset."@en ;
+        rdfs:subClassOf  owl:Thing .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> a rdfs:Class ;
-    rdfs:label "AIAugmentedMeta"@en ;
-    rdfs:comment """To capture auto generated metadata concepts using AI and machine 
-                    learning techniques"""@en ;
-    rdfs:subClassOf <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> .
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAIAugmentedMeta>
+        rdf:type      rdf:Property ;
+        rdfs:range              <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "hasAIAugmentedMeta"@en ;
+        rdfs:comment            "Property to associate an asset with its AI augmented metadata."@en .
 
-# Is this property really required. There is a way in which ebucore:hasAnnotationTarget can be used
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasPart>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:comment  "To define Parts (segments, fragments, shots, etc.)\n            within an EditorialObject."@en ;
+    rdfs:label    "Part"@en ;
+    rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAnnotation> a rdf:Property ;
-    rdfs:label "hasAnnotation"@en ;
-    rdfs:comment "To associate annotation with an Asset"@en ;
-    rdfs:domain <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
-    rdfs:range <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
+    rdfs:label      "hasAnnotation"@en ;
+    rdfs:comment    "To associate annotation with an Asset"@en ;
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:range      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#VideoAnnotation> a rdfs:Class ;
-    rdfs:label "VideoAnnotation"@en ;
-    rdfs:comment "A class specific to the annotation of a video asset."@en ;
+    rdfs:label      "VideoAnnotation"@en ;
+    rdfs:comment    "A class specific to the annotation of a video asset."@en ;
     rdfs:subClassOf <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
+
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#maxPublicationEvents>
+    a               rdf:Property ;
+    rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
+    rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions> ;
+    rdfs:label      "maxPublicationEvents"@en ;
+    rdfs:comment    "To express restriction on the maximum number of publication events for an asset in a given date range."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCap>
+    a               rdf:Property ;
+    rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
+    rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions> ;
+    rdfs:label      "publicationCap"@en ;
+    rdfs:comment    "To express restriction on total number of times the media can be published for the given publication unit"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationUnit>
+    a               rdf:Property ;
+    rdfs:range      <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions> ;
+    rdfs:label      "publicationUnit"@en ;
+    rdfs:comment    "To express unit time interval on which a given publicationCap value applies to. E.g. 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H->hours, M is month, D is day, W is week"@en .
+
+
+
