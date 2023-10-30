@@ -100,6 +100,11 @@
     rdfs:subClassOf <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
 
 
+######################################################################
+# Properties aded for usage restrictions to express limits on the 
+# number of times an asset can be published
+######################################################################
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#maxPublicationEvents>
     a               rdf:Property ;
     rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
