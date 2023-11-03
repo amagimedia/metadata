@@ -33,6 +33,8 @@
     rdfs:label "SourceAttribution"@en ;
     skos:definition "This property allows to denote the attribution of an asset's metadata to its source url. The source urls could be media rss feed url or a source csv location."@en .
 
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#annotationId> 
+    rdfs:range     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier> .      
 
 # An asset either episode or feature will be associated with exactly one resource of class type AIAugmentedMeta
 # The above constraint means that the urriId for AIAugmentedMeta instance will be equal to fn(asset_uri_id, constant) where
@@ -50,12 +52,20 @@
 #                                ebucore:annotationType ebucoreext:Entity ;
 #                                ebucore:annotationName "Russia"@en ;
 #                                ebucore:annotaionConfidence "3.4" ;
-#                                ebucore:annotationId <https://www.wikidata.org/wiki/Q34266> .
+#                                ebucore:annotationId [ 
+#                                       a ebucore:Identifier ;
+#                                       ebucore:identifierValue "Q34266" ;
+#                                       ebucore:identifierType <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wikidata>
+#   a ebucore:IdentifierType ] ;
 #                                ] ;
 #         ebucoreext:hasAnnotation [ a ebucore:Annotation ;
 #                                    ebucore:annotationType ebucore:Topic ;
 #                                    ebucore:annotaionConfidence "2.1" ;
-#                                    bucore:annotationId <http://cv.iptc.org/newscodes/mediatopic/20000642> .] ;
+#                                   ebucore:annotationId [
+#                                       a ebucore:Identifier ;
+#                                       ebucore:identifierValue "http://cv.iptc.org/newscodes/mediatopic/20000642" ;
+#                                       ebucore:identifierType <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iptcmediatopic>
+#                                   ] ;
 #         ebucoreext:hasAnnotation  [ a ebucoreext:VideoAnnotation;
 #                                     ebucore:hasAnnotationRelatedArtefact <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> . ] .
 #        
@@ -117,7 +127,7 @@
     rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
     rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions> ;
     rdfs:label      "publicationCap"@en ;
-    rdfs:comment    "To express restriction on total number of times the media can be published for the given publication unit"@en .
+    rdfs:comment    "To express restriction on total number of times the media can be published for a given interval(publicationUnit)"@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationUnit>
     a               rdf:Property ;
