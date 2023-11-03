@@ -12,6 +12,16 @@
     rdfs:isDefinedBy <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     rdfs:label "EBU SKOS Classification Scheme for media IdentifierType"@en .
 
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_amgastid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """unique identifier for asset ingested using amagi"""@en ;
+    skos:example "" ;
+    skos:historyNote "2023-11-03" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "AMAGI-ASSETID"@en .
+
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid>
     a ebucore:IdentifierType ;
@@ -34,12 +44,32 @@
     skos:note "Valid" ;
     skos:prefLabel "EIDR"@en .
 
-<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_IMDb>
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_imdb>
     a ebucore:IdentifierType ;
     skos:changeNote """First version""" ;
-    skos:definition """IMDb identifier. Check https://www.imdb.org/"""@en ;
+    skos:definition """IMDB identifier. Check https://www.imdb.org/"""@en ;
     skos:example "" ;
     skos:historyNote "2022-11-29" ;
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
-    skos:prefLabel "IMDb"@en .
+    skos:prefLabel "IMDB"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wikidata>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Wikidata identifier. Check https://www.wikidata.org/"""@en ;
+    skos:example "" ;
+    skos:historyNote "2023-10-25" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "WIKI"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iptcmediatopic>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """iptc mediatopic identifier. Check http://cv.iptc.org/newscodes/mediatopic/"""@en ;
+    skos:example "" ;
+    skos:historyNote "2023-11-03" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "IPTC-MEDIATOPIC"@en .
