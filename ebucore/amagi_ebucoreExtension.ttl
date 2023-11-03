@@ -137,4 +137,70 @@
     rdfs:comment    "To express unit time interval on which a given publicationCap value applies to. E.g. 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H->hours, M is month, D is day, W is week"@en .
 
 
+# References for SportsEvent
+# https://www.wikidata.org/wiki/Wikidata:WikiProject_Sports
+# https://schema.org/SportsEvent
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Sports event"@en ;
+        rdfs:comment     "To describe a sports event."@en .
 
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MusicalEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Musical event"@en ;
+        rdfs:comment     "To describe a musical event."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PoliticalEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Political event"@en ;
+        rdfs:comment     "To describe a political event, e.g. election campaign, debate etc."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#superEvent>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify parent event to which an event belongs to. Equivalent to https://schema.org/superEvent"@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label    "superEvent"@en .
+
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#eventNumber>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The event number in a superEvent. e.g. match number, game number"@en ;
+        rdfs:label    "eventNumber"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#organizer>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent> ;
+        rdfs:comment  "Organizer of an event. Equivalent to https://schema.org/organizer. Example: FIFA is organizer of 2014 FIFA World Cup"@en ;
+        rdfs:label    "organizer"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#sponsor>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent> ;
+        rdfs:comment  "Sponsor of an event. Equivalent to https://schema.org/sponsor. Example: Adidas AG is sponsor of 2014 FIFA World Cup"@en ;
+        rdfs:label    "sponsor"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasParticipatingTeam>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify participating Agents."@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Team> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label    "Participating Team"@en ;
+        rdfs:comment  "range: Agent or string"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent> .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasEventGenre>
+        rdf:type      rdf:Property ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label    "Event genre"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:comment  "The genre of content associated with the Event."@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre> ;
+        rdfs:comment  "Range: string or Genre"@en .
