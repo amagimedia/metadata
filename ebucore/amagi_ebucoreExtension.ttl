@@ -204,3 +204,10 @@
         rdfs:comment  "The genre of content associated with the Event."@en ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre> ;
         rdfs:comment  "Range: string or Genre"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasEventRelatedPicture>
+        rdf:type        rdf:Property ;
+        rdfs:label      "Event Related picture"@en ;
+        rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Picture> ;
+        rdfs:comment  "A link/locator to a picture related to an Event."@en .
