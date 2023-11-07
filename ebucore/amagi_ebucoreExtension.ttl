@@ -56,7 +56,6 @@
 #                                       a ebucore:Identifier ;
 #                                       ebucore:identifierValue "Q34266" ;
 #                                       ebucore:identifierType <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wikidata>
-#   a ebucore:IdentifierType ] ;
 #                                ] ;
 #         ebucoreext:hasAnnotation [ a ebucore:Annotation ;
 #                                    ebucore:annotationType ebucore:Topic ;
@@ -66,8 +65,8 @@
 #                                       ebucore:identifierValue "http://cv.iptc.org/newscodes/mediatopic/20000642" ;
 #                                       ebucore:identifierType <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iptcmediatopic>
 #                                   ] ;
-#         ebucoreext:hasAnnotation  [ a ebucoreext:VideoAnnotation;
-#                                     ebucore:hasAnnotationRelatedArtefact <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> . ] .
+#         ebucoreext:hasEtcAnnotationLocation  <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/etc_output.json> ; 
+#         ebucoreext:hasVideoAnnotationLocation  <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> . 
 #        
 #       
 
@@ -90,6 +89,21 @@
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label              "hasAIAugmentedMeta"@en ;
         rdfs:comment            "Property to associate an asset with its AI augmented metadata."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasVideoAnnotationLocation>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:range     <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment   "Range: A uri pointing to AI generated video metadata"@en ;
+    rdfs:label    "hasVideoAnnotationLocation"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasEtcAnnotationLocation>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:range     <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment   "Range: A uri pointing to AI generated etc(entity, topic, categories) metadata"@en ;
+    rdfs:label    "hasEtcAnnotationLocation"@en .
+
 
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasPart>
     rdf:type      rdf:Property ;
