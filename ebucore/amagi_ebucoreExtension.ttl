@@ -225,3 +225,9 @@
         rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:range      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Picture> ;
         rdfs:comment  "A link/locator to a picture related to an Event."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Category>
+        rdf:type         rdfs:Class ;
+        rdfs:comment     "A term describing the high level categorization of content covered by the\n            BusinessObject or resource. This is provided as free text in an annotation label or as an identifier pointing to a term in a classification scheme e.g. https://cv.iptc.org/newscodes/mediatopic"@en ;
+        rdfs:subClassOf  skos:Concept ;
+        rdfs:label       "Subject"@en .
