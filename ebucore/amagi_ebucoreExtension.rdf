@@ -5,12 +5,6 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#VideoAnnotation">
-    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation"/>
-    <rdfs:comment xml:lang="en">A class specific to the annotation of a video asset.</rdfs:comment>
-    <rdfs:label xml:lang="en">VideoAnnotation</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAnnotation">
     <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation"/>
     <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta"/>
@@ -18,9 +12,96 @@
     <rdfs:label xml:lang="en">hasAnnotation</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent">
+    <rdfs:comment xml:lang="en">To describe a sports event.</rdfs:comment>
+    <rdfs:label xml:lang="en">Sports event</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PoliticalEvent">
+    <rdfs:comment xml:lang="en">To describe a political event, e.g. election campaign, debate etc.</rdfs:comment>
+    <rdfs:label xml:lang="en">Political event</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#height">
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#organizer">
+    <rdfs:label xml:lang="en">organizer</rdfs:label>
+    <rdfs:comment xml:lang="en">Organizer of an event. Equivalent to https://schema.org/organizer. Example: FIFA is organizer of 2014 FIFA World Cup</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#sponsor">
+    <rdfs:label xml:lang="en">sponsor</rdfs:label>
+    <rdfs:comment xml:lang="en">Sponsor of an event. Equivalent to https://schema.org/sponsor. Example: Adidas AG is sponsor of 2014 FIFA World Cup</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationUnit">
+    <rdfs:comment xml:lang="en">To express unit time interval on which a given publicationCap value applies to. E.g. 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H-&gt;hours, M is month, D is day, W is week</rdfs:comment>
+    <rdfs:label xml:lang="en">publicationUnit</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCap">
+    <rdfs:comment xml:lang="en">To express restriction on total number of times the media can be published for a given interval(publicationUnit)</rdfs:comment>
+    <rdfs:label xml:lang="en">publicationCap</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasParticipatingTeam">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent"/>
+    <rdfs:comment xml:lang="en">range: Agent or string</rdfs:comment>
+    <rdfs:label xml:lang="en">Participating Team</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Team"/>
+    <rdfs:comment xml:lang="en">To identify participating Agents.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#superEvent">
+    <rdfs:label xml:lang="en">superEvent</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdfs:comment xml:lang="en">To identify parent event to which an event belongs to. Equivalent to https://schema.org/superEvent</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAIAugmentedMeta">
+    <rdfs:comment xml:lang="en">Property to associate an asset with its AI augmented metadata.</rdfs:comment>
+    <rdfs:label xml:lang="en">hasAIAugmentedMeta</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension">
+    <owl:imports rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasEtcAnnotationLocation">
+    <rdfs:label xml:lang="en">hasEtcAnnotationLocation</rdfs:label>
+    <rdfs:comment xml:lang="en">Range: A uri pointing to AI generated etc(entity, topic, categories) metadata</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#VideoAnnotation">
+    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation"/>
+    <rdfs:comment xml:lang="en">A class specific to the annotation of a video asset.</rdfs:comment>
+    <rdfs:label xml:lang="en">VideoAnnotation</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasVideoAnnotationLocation">
+    <rdfs:label xml:lang="en">hasVideoAnnotationLocation</rdfs:label>
+    <rdfs:comment xml:lang="en">Range: A uri pointing to AI generated video metadata</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#maxPublicationEvents">
     <rdfs:comment xml:lang="en">To express restriction on the maximum number of publication events for an asset in a given date range.</rdfs:comment>
@@ -37,18 +118,26 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationUnit">
-    <rdfs:comment xml:lang="en">To express unit time interval on which a given publicationCap value applies to. E.g. 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H-&gt;hours, M is month, D is day, W is week</rdfs:comment>
-    <rdfs:label xml:lang="en">publicationUnit</rdfs:label>
-    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions"/>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasEventGenre">
+    <rdfs:comment xml:lang="en">Range: string or Genre</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+    <rdfs:comment xml:lang="en">The genre of content associated with the Event.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdfs:label xml:lang="en">Event genre</rdfs:label>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCap">
-    <rdfs:comment xml:lang="en">To express restriction on total number of times the media can be published for the given publication unit</rdfs:comment>
-    <rdfs:label xml:lang="en">publicationCap</rdfs:label>
-    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MusicalEvent">
+    <rdfs:comment xml:lang="en">To describe a musical event.</rdfs:comment>
+    <rdfs:label xml:lang="en">Musical event</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#eventNumber">
+    <rdfs:label xml:lang="en">eventNumber</rdfs:label>
+    <rdfs:comment xml:lang="en">The event number in a superEvent. e.g. match number, game number</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isAttributedTo">
@@ -60,21 +149,27 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension">
-    <owl:imports rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAIAugmentedMeta">
-    <rdfs:comment xml:lang="en">Property to associate an asset with its AI augmented metadata.</rdfs:comment>
-    <rdfs:label xml:lang="en">hasAIAugmentedMeta</rdfs:label>
-    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
-    <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta"/>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasEventRelatedPicture">
+    <rdfs:comment xml:lang="en">A link/locator to a picture related to an Event.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Picture"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdfs:label xml:lang="en">Event Related picture</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#annotationId">
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta">
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdfs:comment xml:lang="en">To provide AI augmented metadata for an asset.</rdfs:comment>
     <rdfs:label xml:lang="en">AIAugmentedMeta</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Category">
+    <rdfs:label xml:lang="en">Subject</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:comment xml:lang="en">A term describing the high level categorization of content covered by the
+            BusinessObject or resource. This is provided as free text in an annotation label or as an identifier pointing to a term in a classification scheme e.g. https://cv.iptc.org/newscodes/mediatopic</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasPart">

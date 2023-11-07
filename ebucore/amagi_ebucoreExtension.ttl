@@ -56,7 +56,6 @@
 #                                       a ebucore:Identifier ;
 #                                       ebucore:identifierValue "Q34266" ;
 #                                       ebucore:identifierType <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wikidata>
-#   a ebucore:IdentifierType ] ;
 #                                ] ;
 #         ebucoreext:hasAnnotation [ a ebucore:Annotation ;
 #                                    ebucore:annotationType ebucore:Topic ;
@@ -66,8 +65,8 @@
 #                                       ebucore:identifierValue "http://cv.iptc.org/newscodes/mediatopic/20000642" ;
 #                                       ebucore:identifierType <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iptcmediatopic>
 #                                   ] ;
-#         ebucoreext:hasAnnotation  [ a ebucoreext:VideoAnnotation;
-#                                     ebucore:hasAnnotationRelatedArtefact <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> . ] .
+#         ebucoreext:hasEtcAnnotationLocation  <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/etc_output.json> ; 
+#         ebucoreext:hasVideoAnnotationLocation  <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> . 
 #        
 #       
 
@@ -90,6 +89,21 @@
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label              "hasAIAugmentedMeta"@en ;
         rdfs:comment            "Property to associate an asset with its AI augmented metadata."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasVideoAnnotationLocation>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:range     <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment   "Range: A uri pointing to AI generated video metadata"@en ;
+    rdfs:label    "hasVideoAnnotationLocation"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasEtcAnnotationLocation>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:range     <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment   "Range: A uri pointing to AI generated etc(entity, topic, categories) metadata"@en ;
+    rdfs:label    "hasEtcAnnotationLocation"@en .
+
 
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasPart>
     rdf:type      rdf:Property ;
@@ -137,4 +151,83 @@
     rdfs:comment    "To express unit time interval on which a given publicationCap value applies to. E.g. 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H->hours, M is month, D is day, W is week"@en .
 
 
+# References for SportsEvent
+# https://www.wikidata.org/wiki/Wikidata:WikiProject_Sports
+# https://schema.org/SportsEvent
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Sports event"@en ;
+        rdfs:comment     "To describe a sports event."@en .
 
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MusicalEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Musical event"@en ;
+        rdfs:comment     "To describe a musical event."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PoliticalEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Political event"@en ;
+        rdfs:comment     "To describe a political event, e.g. election campaign, debate etc."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#superEvent>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify parent event to which an event belongs to. Equivalent to https://schema.org/superEvent"@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label    "superEvent"@en .
+
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#eventNumber>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The event number in a superEvent. e.g. match number, game number"@en ;
+        rdfs:label    "eventNumber"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#organizer>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent> ;
+        rdfs:comment  "Organizer of an event. Equivalent to https://schema.org/organizer. Example: FIFA is organizer of 2014 FIFA World Cup"@en ;
+        rdfs:label    "organizer"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#sponsor>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent> ;
+        rdfs:comment  "Sponsor of an event. Equivalent to https://schema.org/sponsor. Example: Adidas AG is sponsor of 2014 FIFA World Cup"@en ;
+        rdfs:label    "sponsor"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasParticipatingTeam>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify participating Agents."@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Team> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label    "Participating Team"@en ;
+        rdfs:comment  "range: Agent or string"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent> .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasEventGenre>
+        rdf:type      rdf:Property ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label    "Event genre"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:comment  "The genre of content associated with the Event."@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre> ;
+        rdfs:comment  "Range: string or Genre"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasEventRelatedPicture>
+        rdf:type        rdf:Property ;
+        rdfs:label      "Event Related picture"@en ;
+        rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Picture> ;
+        rdfs:comment  "A link/locator to a picture related to an Event."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Category>
+        rdf:type         rdfs:Class ;
+        rdfs:comment     "A term describing the high level categorization of content covered by the\n            BusinessObject or resource. This is provided as free text in an annotation label or as an identifier pointing to a term in a classification scheme e.g. https://cv.iptc.org/newscodes/mediatopic"@en ;
+        rdfs:subClassOf  skos:Concept ;
+        rdfs:label       "Subject"@en .
