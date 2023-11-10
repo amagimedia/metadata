@@ -73,3 +73,13 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "IPTC-MEDIATOPIC"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iab30>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """iab 3.0 content taxonomy. Check https://github.com/InteractiveAdvertisingBureau/Taxonomies/blob/main/Content%20Taxonomies/Content%20Taxonomy%203.0.tsv"""@en ;
+    skos:example "" ;
+    skos:historyNote "2023-11-10" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "IAB-3.0"@en .

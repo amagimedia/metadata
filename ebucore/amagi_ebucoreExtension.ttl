@@ -77,6 +77,12 @@
         owl:equivalentClass  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Keyword> ;
         rdfs:label           "Entity"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Category>
+        rdf:type         rdfs:Class ;
+        rdfs:comment     "A term describing the high level categorization of content covered by the\n            BusinessObject or resource. This is provided as free text in an annotation label or as an identifier pointing to a term in a classification scheme e.g. https://cv.iptc.org/newscodes/mediatopic"@en ;
+        rdfs:subClassOf  skos:Concept ;
+        rdfs:label       "Subject"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta>
         rdf:type         rdfs:Class ;
         rdfs:label       "AIAugmentedMeta"@en ;
@@ -154,25 +160,25 @@
 # References for SportsEvent
 # https://www.wikidata.org/wiki/Wikidata:WikiProject_Sports
 # https://schema.org/SportsEvent
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#SportsEvent>
         rdf:type         rdfs:Class ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:label       "Sports event"@en ;
         rdfs:comment     "To describe a sports event."@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MusicalEvent>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#MusicalEvent>
         rdf:type         rdfs:Class ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:label       "Musical event"@en ;
         rdfs:comment     "To describe a musical event."@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PoliticalEvent>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#PoliticalEvent>
         rdf:type         rdfs:Class ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:label       "Political event"@en ;
         rdfs:comment     "To describe a political event, e.g. election campaign, debate etc."@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#superEvent>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#superEvent>
         rdf:type      rdf:Property ;
         rdfs:comment  "To identify parent event to which an event belongs to. Equivalent to https://schema.org/superEvent"@en ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
@@ -180,28 +186,28 @@
         rdfs:label    "superEvent"@en .
 
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#eventNumber>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#eventNumber>
         rdf:type      rdf:Property ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "The event number in a superEvent. e.g. match number, game number"@en ;
         rdfs:label    "eventNumber"@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#organizer>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#organizer>
         rdf:type      rdf:Property ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent> ;
         rdfs:comment  "Organizer of an event. Equivalent to https://schema.org/organizer. Example: FIFA is organizer of 2014 FIFA World Cup"@en ;
         rdfs:label    "organizer"@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#sponsor>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#sponsor>
         rdf:type      rdf:Property ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent> ;
         rdfs:comment  "Sponsor of an event. Equivalent to https://schema.org/sponsor. Example: Adidas AG is sponsor of 2014 FIFA World Cup"@en ;
         rdfs:label    "sponsor"@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasParticipatingTeam>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasParticipatingTeam>
         rdf:type      rdf:Property ;
         rdfs:comment  "To identify participating Agents."@en ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Team> ;
@@ -210,7 +216,7 @@
         rdfs:comment  "range: Agent or string"@en ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent> .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasEventGenre>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#hasEventGenre>
         rdf:type      rdf:Property ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:label    "Event genre"@en ;
@@ -219,15 +225,11 @@
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre> ;
         rdfs:comment  "Range: string or Genre"@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasEventRelatedPicture>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasEventRelatedPicture>
         rdf:type        rdf:Property ;
         rdfs:label      "Event Related picture"@en ;
         rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:range      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Picture> ;
         rdfs:comment  "A link/locator to a picture related to an Event."@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Category>
-        rdf:type         rdfs:Class ;
-        rdfs:comment     "A term describing the high level categorization of content covered by the\n            BusinessObject or resource. This is provided as free text in an annotation label or as an identifier pointing to a term in a classification scheme e.g. https://cv.iptc.org/newscodes/mediatopic"@en ;
-        rdfs:subClassOf  skos:Concept ;
-        rdfs:label       "Subject"@en .
+
