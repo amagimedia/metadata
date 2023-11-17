@@ -135,6 +135,58 @@
 # number of times an asset can be published
 ######################################################################
 
+# Example of usage and publication restrictions
+# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode ;
+#         ebucoreext:hasPublicationRestrictions [
+#                 a ebucoreext:PublicationRestrictions ;
+#                 ebucoreext:publicationCap "1"^^xsd:integer ;
+#                 ebucoreext:publicationCapPeriod "1D"^^xsd:string ;
+#                 ],
+#                 [
+#                 a ebucoreext:PublicationRestrictions ;
+#                 ebucoreext:publicationCap "10"^^xsd:integer ;
+#                 ebucoreext:publicationCapPeriod "1W"^^xsd:string ;
+#                 ] ;
+#         ebucore:hasUsageRestrictions [
+#                 a ebucore:UsageRestrictions ;
+#                 ebucoreext:maxPublicationEvents "10"^^xsd:integer ;
+#                 ] .
+
+# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode ;
+#         ebucore:isDistributedOn [ a ebucore:Platform ;
+#             ebucore:offers [ a ebucore:PublicationEvent ;
+#                     ebucore:hasCoverageRestrictions [ a ebucore:CoverageRestrictions ;
+#                             ebucore:rightsEndDateTime "2025-12-03T05:00:00+00:00" ] ] ;
+#             ebucore:serviceId "sling" ;
+#             ebucore:serviceName "sling" ;
+#             ebucore:serviceType "SVOD" ],
+#         [ a ebucore:Platform ;
+#             ebucore:offers [ a ebucore:PublicationEvent ;
+#                     ebucore:hasCoverageRestrictions [ a ebucore:CoverageRestrictions ;
+#                             ebucore:rightsEndDateTime "2025-12-03T05:00:00+00:00" ] ;
+#                     ebucoreext:hasPublicationRestrictions [
+#                                 a ebucoreext:PublicationRestrictions ;
+#                                 ebucoreext:publicationCap "1"^^xsd:integer ;
+#                                 ebucoreext:publicationCapPeriod "1D"^^xsd:string ;
+#                         ],
+#                         [
+#                                 a ebucoreext:PublicationRestrictions ;
+#                                 ebucoreext:publicationCap "10"^^xsd:integer ;
+#                                 ebucoreext:publicationCapPeriod "1W"^^xsd:string ;
+#                         ] ;
+#                         ebucore:hasUsageRestrictions [
+#                                a ebucore:UsageRestrictions ;
+#                                ebucoreext:maxPublicationEvents "10"^^xsd:integer ;
+#                                ] ] ;
+#             ebucore:serviceId "apple" ;
+#             ebucore:serviceName "apple" ;
+#             ebucore:serviceType "SVOD" ] .
+        
+
+
+
+
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#maxPublicationEvents>
     a               rdf:Property ;
     rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
@@ -142,18 +194,36 @@
     rdfs:label      "maxPublicationEvents"@en ;
     rdfs:comment    "To express restriction on the maximum number of publication events for an asset in a given date range."@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPublicationRestrictions>
+        rdf:type            rdf:Property ;
+        rdfs:range          <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationEvent> ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:comment        "PublicationRestrictions."@en ;
+        rdfs:comment        "To express publication restrictions like limits to airing"@en ;
+        rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy> ;
+        rdfs:label          "Publication restrictions"@en ;
+        rdfs:range          <http://www.w3.org/2001/XMLSchema#string> .
+
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions>
+        rdf:type         rdfs:Class ; 
+        rdfs:label       "PublicationRestrictions"@en ;
+        rdfs:comment     "To express restriction on the number of times an asset can be published."@en ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions> .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCap>
     a               rdf:Property ;
     rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
-    rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions> ;
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
     rdfs:label      "publicationCap"@en ;
-    rdfs:comment    "To express restriction on total number of times the media can be published for a given interval(publicationUnit)"@en .
+    rdfs:comment    "To express restriction on total number of times the media can be published for a given interval(publicationCapPeriod)"@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationUnit>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCapPeriod>
     a               rdf:Property ;
     rdfs:range      <http://www.w3.org/2001/XMLSchema#string> ;
-    rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions> ;
-    rdfs:label      "publicationUnit"@en ;
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
+    rdfs:label      "publicationCapPeriod"@en ;
     rdfs:comment    "To express unit time interval on which a given publicationCap value applies to. E.g. 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H->hours, M is month, D is day, W is week"@en .
 
 
@@ -233,3 +303,10 @@
         rdfs:comment  "A link/locator to a picture related to an Event."@en .
 
 
+# Graphics
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic>
+        rdf:type         rdfs:Class ;
+        rdfs:label       "Graphic"@en ;
+        rdfs:comment     "Entity to represent the graphic to be used as overlay"@en ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> .

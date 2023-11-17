@@ -167,5 +167,10 @@
             <amg:segment id= "5" start="900.5" end="1345.5"/>
             <amg:segment id= "6" start="1345.5" end="1502.0"/>
         </item>
+        <item amg:itemType="Graphic">
+            <amg:assetId>ccdd57d1-6106-452a-8508-a63e1b6d8924</amg:assetId>
+            <amg:assetType label="Movie">https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.1</amg:assetType>
+            <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/mp4/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="6441" height="1080" width="1920" fileSize="546873760" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" type="video/mp4" bitrate="1500" framerate="23.976"/>
+        </item>
     </channel>
 </rss>
