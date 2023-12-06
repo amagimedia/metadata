@@ -35,6 +35,8 @@
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Ginnifer Goodwin</media:credit>
                 
             <amg:broadcastDate>2008</amg:broadcastDate>
+
+            <amg:releaseDate>1994-08-22</amg:releaseDate>
                 
             <amg:assetId>e9c118a7-466d-4501-9920-cb923c206731</amg:assetId>
             

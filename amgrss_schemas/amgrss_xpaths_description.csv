@@ -6,6 +6,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:lang, Language of the media item as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item/amg:assetId, Asset id assigned in the publisher's CMS, xs:string, "123456", no
 /rss/channel/item/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:date, "2019-01-01", yes
+/rss/channel/item/amg:releaseDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateReleased.html, xs:date, "2020-02-01", yes
 /rss/channel/item/amg:cuepoint, Identifies the cue point in seconds offset. Cue points are time instances where an ad can be inserted in the video. Value you either be SMPTE timecode offset or normal play time offset. Ref: https://www.ietf.org/rfc/rfc2326.txt Section3.5 and 3.6, xs:string, 60.320, no
 /rss/channel/item/amg:segment, Identifies a segment inerval of a media item, xs:complexType, n/a, no
 /rss/channel/item/amg:segment/@id, Start of the segment interval. Value can either be SMPTE timecode offset or normal play time offset. Ref: https://www.ietf.org/rfc/rfc2326.txt Section3.5 and 3.6. Also refer http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#start, xs:string, n/a, no
@@ -65,6 +66,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:rights/amg:rightsTerritoryIncludes, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsTerritoryIncludes.html Value as in https://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US", yes
 /rss/channel/item/amg:season, Element to express season specific information, xs:complexType, n/a, no
 /rss/channel/item/amg:season/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:date, "2019-01-01", yes
+/rss/channel/item/amg:season/amg:releaseDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateReleased.html, xs:date, "2020-02-01", yes
 /rss/channel/item/amg:season/amg:rights, Element to express rights associated with the media object, xs:complexType, n/a, no
 /rss/channel/item/amg:season/amg:rights/amg:rightsEndDateTime, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html, xs:dateTime, "2019-01-01T00:00:00Z", yes
 /rss/channel/item/amg:season/amg:rights/amg:rightsLink, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html This could point to a rightsLine URL, xs:string, "https://rightsline.com/123456", no
@@ -90,6 +92,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:season/media:rating/@label, specifies the label of the rating which is same as skos:prefLabel in https://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCode.rdf, xs:string, "PG-13", no
 /rss/channel/item/amg:series, Element to express series specific information, xs:complexType, n/a, no
 /rss/channel/item/amg:series/amg:broadcastDate, Date when series was aired first. https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:date, "2019-01-01", yes
+/rss/channel/item/amg:series/amg:releaseDate, Date when series was released first. https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateReleased.html, xs:date, "2019-01-01", yes
 /rss/channel/item/amg:series/amg:keyword, Highly relevant keywords describing the series. Max 10 elements Ref: https://www.rssboard.org/media-rss#media-keywords, xs:string, "prison", no
 /rss/channel/item/amg:series/amg:productionCompany, Name of the production company or studio, xs:string, "Lionsgate", no
 /rss/channel/item/amg:series/amg:rights, Element to express rights associated with the media object, xs:complexType, n/a, no

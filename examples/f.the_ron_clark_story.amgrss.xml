@@ -32,6 +32,8 @@
 
             <amg:broadcastDate>2006</amg:broadcastDate>
 
+            <amg:releaseDate>1994-08-22</amg:releaseDate>
+
             <amg:assetId>8b914e59-93e1-4dbe-a6c7-9d8cd6420d54</amg:assetId>
 
             <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0473389</amg:externalId>
