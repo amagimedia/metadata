@@ -43,6 +43,8 @@
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Sean Young</media:credit>
 
             <amg:broadcastDate>1994-02-04</amg:broadcastDate>
+
+            <amg:releaseDate>1994-08-22</amg:releaseDate>
                 
             <amg:assetId>cefdfa3d-11ed-4eee-8d61-1052f28fa6eb</amg:assetId>
 

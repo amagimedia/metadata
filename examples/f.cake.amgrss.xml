@@ -37,6 +37,8 @@
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Anna Kendrick</media:credit>
                 
             <amg:broadcastDate>2014</amg:broadcastDate>
+
+            <amg:releaseDate>1994-08-22</amg:releaseDate>
                 
             <amg:assetId>26e18abf-5ee5-476e-8098-9aaffdc7e495</amg:assetId>
 

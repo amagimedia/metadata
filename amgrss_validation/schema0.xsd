@@ -31,6 +31,7 @@
                                         <xs:element ref="amg:series" minOccurs="0"/>
                                         <xs:element ref="amg:cuepoint" minOccurs="0" maxOccurs="unbounded"/>
                                         <xs:element ref="amg:broadcastDate" minOccurs="0"/>
+                                        <xs:element ref="amg:releaseDate" minOccurs="0"/>
                                         <xs:element ref="media:category" minOccurs="0" maxOccurs="unbounded"/>
                                     </xs:sequence>
                                     <xs:attribute xmlns:q1="http://www.amagi.com/amgrss/" ref="q1:itemType" use="required" />

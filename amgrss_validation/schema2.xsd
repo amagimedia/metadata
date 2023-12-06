@@ -40,6 +40,7 @@
 
   <xs:element name="cuepoint" type="xs:decimal"/>
   <xs:element name="broadcastDate" type="xs:gYear"/>
+  <xs:element name="releaseDate" type="xs:gYear"/>
   <xs:element name="assetid" type="tns:myString"/>
   <xs:element name="keyword" type="tns:myString"/>
 
@@ -92,6 +93,7 @@
         <xs:element name="seasonTitle" type="tns:myString" />
         <xs:element name="seasonThumbnail" type="tns:myString" />
         <xs:element name="broadcastDate" type="xs:gYear" />
+        <xs:element name="releaseDate" type="xs:gYear"/>
         <xs:element name="rights">
           <xs:complexType>
             <xs:sequence>
@@ -135,6 +137,7 @@
         <xs:element name="seriesThumbnail" type="tns:myString" />
         <xs:element name="keyword" maxOccurs="unbounded" type="tns:myString" />
         <xs:element name="broadcastDate" type="xs:gYear" />
+        <xs:element name="releaseDate" type="xs:gYear"/>
         <xs:element name="productionCompany" type="tns:myString" />
         <xs:element name="rights">
           <xs:complexType>

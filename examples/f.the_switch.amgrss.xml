@@ -34,6 +34,8 @@
             <media:credit role="Actor" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Patrick Wilson</media:credit>
                 
             <amg:broadcastDate>2010-08-19</amg:broadcastDate>
+
+            <amg:releaseDate>1994-08-22</amg:releaseDate>
                 
             <amg:assetId>81971dcc-06b3-4f2f-abc6-a0ecb148f578</amg:assetId>
             
