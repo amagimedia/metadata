@@ -33,6 +33,14 @@
     rdfs:label "SourceAttribution"@en ;
     skos:definition "This property allows to denote the attribution of an asset's metadata to its source url. The source urls could be media rss feed url or a source csv location."@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#mediaResourceName>
+        rdf:type      rdf:Property ;
+        rdfs:label    "Resource name"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The name given to a media resource."@en .
+
+
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#annotationId> 
     rdfs:range     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier> .      
 
@@ -214,17 +222,12 @@
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCap>
     a               rdf:Property ;
-    rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
-    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
-    rdfs:label      "publicationCap"@en ;
-    rdfs:comment    "To express restriction on total number of times the media can be published for a given interval(publicationCapPeriod)"@en .
-
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCapPeriod>
-    a               rdf:Property ;
     rdfs:range      <http://www.w3.org/2001/XMLSchema#string> ;
     rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
-    rdfs:label      "publicationCapPeriod"@en ;
-    rdfs:comment    "To express unit time interval on which a given publicationCap value applies to. E.g. 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H->hours, M is month, D is day, W is week"@en .
+    rdfs:label      "publicationCap"@en ;
+    rdfs:comment    """To express restriction on total number of times the media can be published per interval. 
+                The values are of the form <integer>/<period>. Period examples 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H->hours, M is month, D is day, W is week.
+                PublicationCap example values '6/1W' means 6 times in 1 week, '10/1M' means 10 time a month"""@en .
 
 
 # References for SportsEvent
