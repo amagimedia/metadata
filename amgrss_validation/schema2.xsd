@@ -94,6 +94,7 @@
         <xs:element name="seasonThumbnail" type="tns:myString" />
         <xs:element name="broadcastDate" type="xs:gYear" />
         <xs:element name="releaseDate" type="xs:gYear"/>
+		<xs:element name="totalNumberOfEpisodes" type="ns:unsignedByte"/>
         <xs:element name="rights">
           <xs:complexType>
             <xs:sequence>

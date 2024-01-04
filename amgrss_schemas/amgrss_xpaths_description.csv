@@ -68,6 +68,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:season/amg:broadcastDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateBroadcast.html, xs:date, "2019-01-01", yes
 /rss/channel/item/amg:season/amg:releaseDate, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_dateReleased.html, xs:date, "2020-02-01", yes
 /rss/channel/item/amg:season/amg:rights, Element to express rights associated with the media object, xs:complexType, n/a, no
+/rss/channel/item/amg:totalNumberOfEpisodes, http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#totalNumberOfGroupMembers, xs:integer, "1", no
 /rss/channel/item/amg:season/amg:rights/amg:rightsEndDateTime, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsEndDateTime.html, xs:dateTime, "2019-01-01T00:00:00Z", yes
 /rss/channel/item/amg:season/amg:rights/amg:rightsLink, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html This could point to a rightsLine URL, xs:string, "https://rightsline.com/123456", no
 /rss/channel/item/amg:season/amg:rights/amg:rightsStartDateTime, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsStartDateTime.html, xs:dateTime, "2019-01-01T00:00:00Z", yes
