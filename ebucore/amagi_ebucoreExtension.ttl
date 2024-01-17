@@ -16,6 +16,10 @@
     skos:definition "A note to denote the scope of a grounded entity. Specifically useful to denote the manual-edits, active-meta"@en ;
     skos:scopeNote "This property may be used directly to annotate any owl:thing within ebucore scope"@en .
 
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image>
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> .
+
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#width>
         rdfs:range              <http://www.w3.org/2001/XMLSchema#integer> ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
@@ -210,7 +214,7 @@
         rdfs:comment        "PublicationRestrictions."@en ;
         rdfs:comment        "To express publication restrictions like limits to airing"@en ;
         rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy> ;
-        rdfs:label          "Publication restrictions"@en ;
+        rdfs:label          "hasPublicationRestrictions"@en ;
         rdfs:range          <http://www.w3.org/2001/XMLSchema#string> .
 
 
@@ -218,16 +222,21 @@
         rdf:type         rdfs:Class ; 
         rdfs:label       "PublicationRestrictions"@en ;
         rdfs:comment     "To express restriction on the number of times an asset can be published."@en ;
-        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions> .
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Rights> .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCap>
     a               rdf:Property ;
     rdfs:range      <http://www.w3.org/2001/XMLSchema#string> ;
     rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
     rdfs:label      "publicationCap"@en ;
-    rdfs:comment    """To express restriction on total number of times the media can be published per interval. 
-                The values are of the form <integer>/<period>. Period examples 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H->hours, M is month, D is day, W is week.
-                PublicationCap example values '6/1W' means 6 times in 1 week, '10/1M' means 10 time a month"""@en .
+    rdfs:comment    """To express restriction on total number of times the media can be published per interval. """@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationPeriod>
+    a               rdf:Property ;
+    rdfs:range      <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
+    rdfs:label      "publicationPeriod"@en ;
+    rdfs:comment    """The publication period associated with the publicationCap for a given PublicationRestrictions instance. Period examples 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H->hours, M is month, D is day, W is week."""@en .
 
 
 # References for SportsEvent
