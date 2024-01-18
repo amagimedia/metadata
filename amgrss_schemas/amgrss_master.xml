@@ -167,5 +167,10 @@
             <amg:segment id= "5" start="900.5" end="1345.5"/>
             <amg:segment id= "6" start="1345.5" end="1502.0"/>
         </item>
+        <item amg:itemType="Graphic">
+            <amg:assetId>ccdd57d1-6106-452a-8508-a63e1b6d8924</amg:assetId>
+            <amg:assetType label="StaticAnimated">https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.2</amg:assetType>
+            <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/graphics/2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401.zip" medium="image" type="application/zip"/>
+        </item>
     </channel>
 </rss>
