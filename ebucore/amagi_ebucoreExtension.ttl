@@ -151,14 +151,16 @@
 # <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode ;
 #         ebucoreext:hasPublicationRestrictions [
 #                 a ebucoreext:PublicationRestrictions ;
-#                 ebucoreext:publicationCap "1"^^xsd:integer ;
-#                 ebucoreext:publicationCapPeriod "1D"^^xsd:string ;
-#                 ],
-#                 [
-#                 a ebucoreext:PublicationRestrictions ;
-#                 ebucoreext:publicationCap "10"^^xsd:integer ;
-#                 ebucoreext:publicationCapPeriod "1W"^^xsd:string ;
-#                 ] ;
+#                ebucoreext:hasPublicationCap [
+#                                         a ebucoreext:PublicationCap ;
+#                                         ebucoreext:publicationCap "1"^^xsd:integer ;
+#                                         ebucoreext:publicationPeriod "1D"^^xsd:string ;
+#                                 ],
+#                                 [
+#                                         a ebucoreext:PublicationCap ;
+#                                         ebucoreext:publicationCap "10"^^xsd:integer ;
+#                                         ebucoreext:publicationPeriod "1W"^^xsd:string ;
+#                                 ] ;
 #         ebucore:hasUsageRestrictions [
 #                 a ebucore:UsageRestrictions ;
 #                 ebucoreext:maxPublicationEvents "10"^^xsd:integer ;
@@ -183,12 +185,12 @@
 #                                  ebucoreext:hasPublicationCap [
 #                                         a ebucoreext:PublicationCap ;
 #                                         ebucoreext:publicationCap "1"^^xsd:integer ;
-#                                         ebucoreext:publicationCapPeriod "1D"^^xsd:string ;
+#                                         ebucoreext:publicationPeriod "1D"^^xsd:string ;
 #                                 ],
 #                                 [
 #                                         a ebucoreext:PublicationCap ;
 #                                         ebucoreext:publicationCap "10"^^xsd:integer ;
-#                                         ebucoreext:publicationCapPeriod "1W"^^xsd:string ;
+#                                         ebucoreext:publicationPeriod "1W"^^xsd:string ;
 #                                 ] ;
 #                         ebucore:hasUsageRestrictions [
 #                                a ebucore:UsageRestrictions ;
