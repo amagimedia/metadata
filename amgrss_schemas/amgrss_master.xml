@@ -59,7 +59,8 @@
             <amg:segment id="6" start="4200.5" end="5800.5"/>
             <amg:segment id="7" start="5800.5" end="6441.0"/>
             <amg:broadcastDate>2015-08-21</amg:broadcastDate>
-            <amg:releaseDate>2016-09-22</amg:releaseDate>
+	    <amg:release date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	    <amg:release date="2016-11-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
         </item>
         <item amg:itemType="Episode">
             <amg:assetId>5cb9f349-5375-4c91-b355-a6c06ec5535f</amg:assetId>
@@ -90,7 +91,8 @@
                 <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Titre de la saison 3</media:title>
                 <media:thumbnail url="http://www.myvideosite.com/thumbnails/123.jpg" height="1280" width="720"/>
                 <amg:broadcastDate>2015-09-30</amg:broadcastDate>
-                <amg:releaseDate>2016-09-22</amg:releaseDate>
+	        <amg:release date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	        <amg:release date="2016-11-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
                 <media:description>The third season of Weeds begins with several subplots involving the fallout from the botched drug deal of the season two finale.</media:description>
                 <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">La troisième saison de Weeds commence avec plusieurs intrigues secondaires impliquant les retombées de l'affaire de drogue bâclée de la finale de la saison deux</media:description>
                 <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Craig Zisk</media:credit>
@@ -126,7 +128,8 @@
                 <amg:keyword>drugs</amg:keyword>
                 <amg:keyword>crime</amg:keyword>
                 <amg:broadcastDate>2012-11-02</amg:broadcastDate>
-                <amg:releaseDate>2016-09-22</amg:releaseDate>
+	        <amg:release date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	        <amg:release date="2016-11-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
                 <amg:productionCompany>Lionsgate Television</amg:productionCompany>
                 <media:credit role="Writer/Conceptualist" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.4">Jenji Kohan</media:credit>
                 <media:rating label="TV-MA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>

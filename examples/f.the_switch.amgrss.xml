@@ -35,7 +35,8 @@
                 
             <amg:broadcastDate>2010-08-19</amg:broadcastDate>
 
-            <amg:releaseDate>1994-08-22</amg:releaseDate>
+	    <amg:release date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	    <amg:release date="2016-11-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
                 
             <amg:assetId>81971dcc-06b3-4f2f-abc6-a0ecb148f578</amg:assetId>
             

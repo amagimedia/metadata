@@ -36,7 +36,8 @@
 
             <amg:broadcastDate>1997-11-06</amg:broadcastDate>
 
-            <amg:releaseDate>1994-08-22</amg:releaseDate>
+	    <amg:release date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	    <amg:release date="2016-11-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
 
             <amg:episodeNumber>6</amg:episodeNumber> 
                 
