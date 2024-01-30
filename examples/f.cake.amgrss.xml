@@ -38,8 +38,11 @@
                 
             <amg:broadcastDate>2014</amg:broadcastDate>
 
-	    <amg:release date="2013-01-04" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
-	    <amg:release date="2013-01-12" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
+	    <amg:releaseDate date="2013-01-04" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	    <amg:releaseDate date="2013-01-12" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
+
+	    <amg:countryOfOrigin>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:countryOfOrigin>
+	    <amg:productionCountry>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:productionCountry>
                 
             <amg:assetId>26e18abf-5ee5-476e-8098-9aaffdc7e495</amg:assetId>
 

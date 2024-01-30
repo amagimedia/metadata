@@ -35,8 +35,11 @@
                 
             <amg:broadcastDate>2010-08-19</amg:broadcastDate>
 
-	    <amg:release date="2010-06-04" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
-	    <amg:release date="2005-07-12" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
+	    <amg:releaseDate date="2010-06-04" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	    <amg:releaseDate date="2005-07-12" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
+
+	    <amg:countryOfOrigin>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:countryOfOrigin>
+	    <amg:productionCountry>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:productionCountry>
                 
             <amg:assetId>81971dcc-06b3-4f2f-abc6-a0ecb148f578</amg:assetId>
             

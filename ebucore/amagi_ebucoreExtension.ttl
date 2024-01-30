@@ -314,6 +314,48 @@
         rdfs:range      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Picture> ;
         rdfs:comment  "A link/locator to a picture related to an Event."@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#countryOfOrigin>
+    a rdf:Property ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CountryCode> ;
+    rdfs:domain             ebucore:Asset ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label "countryOfOrigin"@en ;
+    skos:definition "This property denotes the country where the content was filmed."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#productionCountry>
+    a rdf:Property ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CountryCode> ;
+    rdfs:domain             ebucore:Asset ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label "productionCountry"@en ;
+    skos:definition "This property denotes the country of the production studio."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release>
+    rdf:type         rdfs:Class ;
+    rdfs:label       "Release"@en ;
+    rdfs:comment     "To provide release metadata for an asset."@en ;
+    rdfs:subClassOf  owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasRelease>
+    rdf:type      rdf:Property ;
+    rdfs:range    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release> ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:label    "hasRelease"@en ;
+    rdfs:comment  "Property to associate an asset with its release metadata."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#dateReleased>
+    rdfs:domain    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#releaseCountry>
+    a rdf:Property ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CountryCode> ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release> ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label    "releaseCountry"@en ;
+    skos:definition "This property denotes the country where the asset is released."@en .
 
 # Graphics
 

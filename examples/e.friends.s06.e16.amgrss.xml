@@ -59,8 +59,11 @@
 
             <amg:broadcastDate>1999-11-11</amg:broadcastDate>
 
-	    <amg:release date="1999-09-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
-	    <amg:release date="1999-10-30" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
+	    <amg:releaseDate date="1999-09-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	    <amg:releaseDate date="1999-10-30" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
+
+	    <amg:countryOfOrigin>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:countryOfOrigin>
+	    <amg:productionCountry>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:productionCountry>
 
             <amg:episodeNumber>7</amg:episodeNumber> 
                 
