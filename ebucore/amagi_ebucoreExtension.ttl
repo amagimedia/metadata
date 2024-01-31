@@ -314,22 +314,22 @@
         rdfs:range      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Picture> ;
         rdfs:comment  "A link/locator to a picture related to an Event."@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#countryOfOrigin>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCountryOfOrigin>
     a rdf:Property ;
     rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
     rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CountryCode> ;
     rdfs:domain             ebucore:Asset ;
     rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
-    rdfs:label "countryOfOrigin"@en ;
+    rdfs:label "Country Of Origin"@en ;
     skos:definition "This property denotes the country where the content was filmed."@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#productionCountry>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasProductionCountry>
     a rdf:Property ;
     rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
     rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CountryCode> ;
     rdfs:domain             ebucore:Asset ;
     rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
-    rdfs:label "productionCountry"@en ;
+    rdfs:label "Production Country"@en ;
     skos:definition "This property denotes the country of the production studio."@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release>
