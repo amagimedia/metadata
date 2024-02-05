@@ -29,7 +29,11 @@
 
             <amg:broadcastDate>1997-10-09</amg:broadcastDate>
 
-            <amg:releaseDate>1994-08-22</amg:releaseDate>
+	    <amg:releaseDate date="1997-08-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	    <amg:releaseDate date="1997-09-30" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
+
+	    <amg:countryOfOrigin>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:countryOfOrigin>
+	    <amg:productionCountry>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:productionCountry>
 
             <amg:episodeNumber>3</amg:episodeNumber> 
                 
