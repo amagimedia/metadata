@@ -58,7 +58,8 @@
             <amg:segment id="5" start="2700.5" end="4200.5"/>
             <amg:segment id="6" start="4200.5" end="5800.5"/>
             <amg:segment id="7" start="5800.5" end="6441.0"/>
-            <amg:broadcastDate>2015-08-21</amg:broadcastDate>
+	    <amg:broadcastDate>2015-08-21</amg:broadcastDate>
+	    <amg:startNormalPlayTime>3559.0</amg:startNormalPlayTime>
 	    <amg:releaseDate date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
 	    <amg:releaseDate date="2016-11-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
 	    <amg:countryOfOrigin>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:countryOfOrigin>
@@ -175,6 +176,7 @@
             <amg:segment id= "4" start="350.4" end="900.5"/>
             <amg:segment id= "5" start="900.5" end="1345.5"/>
             <amg:segment id= "6" start="1345.5" end="1502.0"/>
+	    <amg:startNormalPlayTime>3559.0</amg:startNormalPlayTime>
 	    <amg:releaseDate date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
 	    <amg:releaseDate date="2016-11-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
 	    <amg:countryOfOrigin>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:countryOfOrigin>
@@ -182,8 +184,52 @@
         </item>
         <item amg:itemType="Graphic">
             <amg:assetId>ccdd57d1-6106-452a-8508-a63e1b6d8924</amg:assetId>
+            <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt8783930</amg:externalId>
+            <amg:keyword>amagi_o&amp;o_virtual_channel</amg:keyword>
+            <amg:keyword>beekeeper_uat</amg:keyword>
+            <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
             <amg:assetType label="StaticAnimated">https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.2</amg:assetType>
+            <media:description>Clare desperately tries to build a life with her one true love, despite the fact that his time traveling forces them apart with no warning, never knowing when they will be reunited.</media:description>
+            <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Clare essaie désespérément de construire une vie avec son seul véritable amour, malgré le fait que son temps de voyage les sépare sans avertissement, ne sachant jamais quand ils seront réunis.</media:description>
             <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/graphics/2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401.zip" medium="image" type="application/zip"/>
-        </item>
+            <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/mp4/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="6441" height="1080" width="1920" fileSize="546873760" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" type="video/mp4" bitrate="1500" framerate="23.976"/>
+            <media:thumbnail url="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/images/TheTimeTravelersWife_2047070_KeyArt_800x450.jpg" height="1080" width="1920"/>
+            <media:title>Time Traveler's Wife, The (UAT - 20200827) test</media:title>
+            <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Épouse du voyageur temporel, Le (UAT - 20200827) test</media:title>
+            <media:rating label="U">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.1</media:rating>
+            <media:credit role="Director" amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.16">Robert Schwentke</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Mary-Louise Parker</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Elizabeth Perkins</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Justin Kirk</media:credit>
+            <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.1">Craig Zisk</media:credit>
+            <media:category>science fiction</media:category>
+            <media:category>romance</media:category>
+            <amg:rights>
+                <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
+                <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
+                <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
+                <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA</amg:rightsTerritoryIncludes>
+                <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
+                <amg:rightsLink>https://rightsline.com/123456</amg:rightsLink>
+                <amg:serviceType>AVOD</amg:serviceType>
+                <amg:serviceName>Roku</amg:serviceName>
+                <amg:serviceId>Roku-1</amg:serviceId>
+            </amg:rights>
+            <amg:rights>
+                <amg:rightsStartDateTime>2015-01-01T00:00:00Z</amg:rightsStartDateTime>
+                <amg:rightsEndDateTime>2035-01-01T00:00:00Z</amg:rightsEndDateTime>
+                <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:rightsTerritoryIncludes>
+                <amg:rightsTerritoryIncludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA</amg:rightsTerritoryIncludes>
+                <amg:rightsTerritoryExcludes>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_MX</amg:rightsTerritoryExcludes>
+                <amg:channelType>Linear</amg:channelType>
+                <amg:channelName>Tastemade Travel</amg:channelName>
+                <amg:channelId>AMG09822C1</amg:channelId>
+            </amg:rights>            
+            <amg:broadcastDate>2015-08-21</amg:broadcastDate>
+	    <amg:releaseDate date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
+	    <amg:releaseDate date="2016-11-22"/>
+	    <amg:countryOfOrigin>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:countryOfOrigin>
+	    <amg:productionCountry>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:productionCountry>
+    	</item>
     </channel>
 </rss>
