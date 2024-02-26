@@ -1,0 +1,129 @@
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_eidr">
+    <skos:prefLabel xml:lang="en">EIDR</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2022-11-29</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">The universal media identifier. Check https://www.eidr.org/</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wikidata">
+    <skos:prefLabel xml:lang="en">WIKI</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2023-10-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">Wikidata identifier. Check https://www.wikidata.org/</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid">
+    <skos:prefLabel xml:lang="en">TMSID</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2022-11-29</skos:historyNote>
+    <skos:example>MV003331980000</skos:example>
+    <skos:definition xml:lang="en">Gracenote TMSID. Check https://en.wikipedia.org/wiki/TMS_(entertainment_data) and https://www.gracenote.com/gracenote-id/</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS">
+    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for media IdentifierType</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_imdb">
+    <skos:prefLabel xml:lang="en">IMDB</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2022-11-29</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">IMDB identifier. Check https://www.imdb.org/</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_eidr">
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+    <skos:changeNote>First version</skos:changeNote>
+    <skos:definition xml:lang="en">The universal media identifier. Check https://www.eidr.org/</skos:definition>
+    <skos:example></skos:example>
+    <skos:historyNote>2022-11-29</skos:historyNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:note>Valid</skos:note>
+    <skos:prefLabel xml:lang="en">EIDR</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wikidata">
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+    <skos:changeNote>First version</skos:changeNote>
+    <skos:definition xml:lang="en">Wikidata identifier. Check https://www.wikidata.org/</skos:definition>
+    <skos:example></skos:example>
+    <skos:historyNote>2023-10-25</skos:historyNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:note>Valid</skos:note>
+    <skos:prefLabel xml:lang="en">WIKI</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iptcmediatopic">
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+    <skos:changeNote>First version</skos:changeNote>
+    <skos:definition xml:lang="en">iptc mediatopic identifier. Check http://cv.iptc.org/newscodes/mediatopic/</skos:definition>
+    <skos:example></skos:example>
+    <skos:historyNote>2023-11-03</skos:historyNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:note>Valid</skos:note>
+    <skos:prefLabel xml:lang="en">IPTC-MEDIATOPIC</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iab30">
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+    <skos:changeNote>First version</skos:changeNote>
+    <skos:definition xml:lang="en">iab 3.0 content taxonomy. Check https://github.com/InteractiveAdvertisingBureau/Taxonomies/blob/main/Content%20Taxonomies/Content%20Taxonomy%203.0.tsv</skos:definition>
+    <skos:example></skos:example>
+    <skos:historyNote>2023-11-10</skos:historyNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:note>Valid</skos:note>
+    <skos:prefLabel xml:lang="en">IAB-3.0</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid">
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+    <skos:changeNote>First version</skos:changeNote>
+    <skos:definition xml:lang="en">Gracenote TMSID. Check https://en.wikipedia.org/wiki/TMS_(entertainment_data) and https://www.gracenote.com/gracenote-id/</skos:definition>
+    <skos:example>MV003331980000</skos:example>
+    <skos:historyNote>2022-11-29</skos:historyNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:note>Valid</skos:note>
+    <skos:prefLabel xml:lang="en">TMSID</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_amgastid">
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+    <skos:changeNote>First version</skos:changeNote>
+    <skos:definition xml:lang="en">unique identifier for asset ingested using amagi</skos:definition>
+    <skos:example></skos:example>
+    <skos:historyNote>2023-11-03</skos:historyNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:note>Valid</skos:note>
+    <skos:prefLabel xml:lang="en">AMAGI-ASSETID</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_imdb">
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+    <skos:changeNote>First version</skos:changeNote>
+    <skos:definition xml:lang="en">IMDB identifier. Check https://www.imdb.org/</skos:definition>
+    <skos:example></skos:example>
+    <skos:historyNote>2022-11-29</skos:historyNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:note>Valid</skos:note>
+    <skos:prefLabel xml:lang="en">IMDB</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for media IdentifierType</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
