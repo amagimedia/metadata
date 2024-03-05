@@ -388,11 +388,27 @@
     rdfs:label	    "hasCuepoint"@en ;
     rdfs:comment    "Property to associate an asset with its cuepoint metadata."@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#tag>
-    rdfs:domain	    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint> .
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepointType>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "A type of Cuepoint."@en ;
+    rdfs:range    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint_Type> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#anyURI> ;
+    rdfs:label    "Cuepoint type"@en .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#startEditUnits>
-    rdfs:domain	    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint> .
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint_Type>
+    rdf:type         rdfs:Class ;
+    rdfs:comment     "To define a type or cuepoint."@en ;
+    rdfs:subClassOf  skos:Concept ;
+    rdfs:label       "Cuepoint type"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "The time when the Cuepoint occurs."@en ;
+    rdfs:label    "Cuepoint timestamp"@en .
 
 # Graphics
 

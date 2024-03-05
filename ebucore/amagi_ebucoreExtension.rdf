@@ -593,11 +593,53 @@
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepoint">
     <rdfs:comment xml:lang="en">Property to associate an asset with its cuepoint metadata.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#tag">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepointType">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepointType">
     <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#startEditUnits">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepointType">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepointType">
+    <rdfs:comment xml:lang="en">A type of Cuepoint.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepointType">
+    <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepointType">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepointType">
+    <rdfs:label xml:lang="en">Cuepoint type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint_Type">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint_Type">
+    <rdfs:comment xml:lang="en">To define a type or cuepoint.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint_Type">
+    <rdfs:label xml:lang="en">Cuepoint type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp">
     <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp">
+    <rdfs:comment xml:lang="en">The time when the Cuepoint occurs.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp">
+    <rdfs:label xml:lang="en">Cuepoint timestamp</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
