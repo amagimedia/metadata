@@ -636,7 +636,7 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp">
-    <rdfs:comment xml:lang="en">The time when the Cuepoint occurs.</rdfs:comment>
+    <rdfs:comment xml:lang="en">The time when the Cuepoint occurs. Cuepoint examples 12.0, 55.55, 105.6. These float values are converted to strings</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp">
     <rdfs:label xml:lang="en">Cuepoint timestamp</rdfs:label>

@@ -407,7 +407,7 @@
     rdf:type      rdf:Property ;
     rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint> ;
     rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
-    rdfs:comment  "The time when the Cuepoint occurs."@en ;
+    rdfs:comment  "The time when the Cuepoint occurs. Cuepoint examples 12.0, 55.55, 105.6. These float values are converted to strings"@en ;
     rdfs:label    "Cuepoint timestamp"@en .
 
 # Graphics
