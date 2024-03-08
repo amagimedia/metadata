@@ -37,6 +37,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:content/@amg:lang, the primary language encapsulated in the media object as specified in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", no
 /rss/channel/item/media:content/@medium, the type of object that is encased in the media object, xs:enumeration {image audio video document executable}, "video", no
 /rss/channel/item/media:content/@type, the standard MIME type of the object, xs:string, "video/mp4", no
+/rss/channel/item/media:content/@kind, media kind of the resource, xs:string, "preview, original, processed", no
 /rss/channel/item/media:content/@url, should specify the direct URL to the media object, xs:anyUri, "https://www.example.com/video.mp4", no
 /rss/channel/item/media:content/@width, the width of the media object, xs:integer, "1920", no
 /rss/channel/item/media:category, https://www.rssboard.org/media-rss#media-category, xs:complexType, '<media:category scheme="http://search.yahoo.com/mrss/category_schema">music/artist/album/song</media:category> <media:category scheme="urn:flickr:tags">mobile</media:category> <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_-_Pet_Detective</media:category>', no
