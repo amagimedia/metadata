@@ -160,6 +160,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">AR-INCAA</skos:prefLabel>
+      <skos:altLabel xml:lang="es">Instituto Nacional de Cine y Artes Audiovisuales</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Argentina</skos:scopeNote>
       <skos:definition xml:lang="en">Institute of Film and Audiovisual Arts through the Advisory
          Commission of Cinematographic Exhibition</skos:definition>
@@ -503,7 +504,8 @@
    <rdf:Description
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_4">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-      <skos:prefLabel xml:lang="en">AU-ACMA</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Australian Classification Board</skos:prefLabel>
+      <skos:altLabel xml:lang="en">www.acma.gov.au</skos:altLabel>
       <skos:altLabel xml:lang="en">www.acma.gov.au</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Australia</skos:scopeNote>
       <skos:definition xml:lang="en">Australian Communications and Media Authority</skos:definition>
@@ -968,6 +970,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_7">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">BR-DJCTQ</skos:prefLabel>
+      <skos:altLabel xml:lang="pt-BR">Departamento de JustiÃ§a, ClassificaÃ§Ã£o, TÃ­tulos e QualificaÃ§Ã£o</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Brazil</skos:scopeNote>
       <skos:definition xml:lang="en">Department of Justice, Rating, Titles and
          Qualification</skos:definition>
@@ -1117,6 +1120,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_8">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">CA-CHVRS</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Canadian Parental Rating</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Canada</skos:scopeNote>
       <skos:definition xml:lang="en">Canadian Home Video Rating System</skos:definition>
       <skos:inScheme
@@ -1231,6 +1235,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_9">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">CA-AFR</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Alberta's Film Classification Board</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Canada</skos:scopeNote>
       <skos:definition xml:lang="en">Alberta Film rating</skos:definition>
       <skos:inScheme
@@ -1348,6 +1353,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_10">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">CA-OFRB</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Ontario Film Authority</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Canada</skos:scopeNote>
       <skos:definition xml:lang="en">Ontario Film Review Board</skos:definition>
       <skos:inScheme
@@ -1753,6 +1759,7 @@
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="es">CL-ANATEL</skos:prefLabel>
       <skos:prefLabel xml:lang="en">CL-ANATEL</skos:prefLabel>
+      <skos:altLabel xml:lang="es">Consejo Nacional de TelevisiÃ³n</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Chile</skos:scopeNote>
       <skos:definition xml:lang="es">Asociación Nacional de Televisión</skos:definition>
       <skos:definition xml:lang="en">National Broadcasting Association rating
@@ -1868,6 +1875,7 @@
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">CL-CCC</skos:prefLabel>
       <skos:prefLabel xml:lang="es">CL-CCC</skos:prefLabel>
+      <skos:altLabel xml:lang="es">Consejo de Calificacion Cinematografica</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Chile</skos:scopeNote>
       <skos:definition xml:lang="en">Movie ratings as defined by the Chilean Council of
          Cinematographic Classification</skos:definition>
@@ -2301,6 +2309,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">DE-FSF</skos:prefLabel>
+      <skos:altLabel xml:lang="de">Freiwillige Selbstkontrolle Fernsehen</skos:altLabel>
       <skos:definition xml:lang="de">Freiwillige Selbskontrolle Fernsehen
          Altersfreigabe</skos:definition>
       <skos:scopeNote xml:lang="en">Region:Germany</skos:scopeNote>
@@ -2403,6 +2412,7 @@
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">DE-FSK</skos:prefLabel>
       <skos:altLabel xml:lang="en">www.fsk.de</skos:altLabel>
+      <skos:altLabel xml:lang="de">Freiwillige Selbstkontrolle der Filmwirtschaft</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Germany</skos:scopeNote>
       <skos:definition xml:lang="en">Voluntary Self-Control of the Film Business'
          rating</skos:definition>
@@ -2644,6 +2654,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_22">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">ES</skos:prefLabel>
+      <skos:altLabel xml:lang="es">Instituto de CinematografÃ­a y de las Artes Visuales</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Spain</skos:scopeNote>
       <skos:inScheme
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
@@ -2956,6 +2967,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">FI-VET</skos:prefLabel>
+      <skos:altLabel xml:lang="fi">Mediakasvatus- ja kuvaohjelmayksikkÃ¶</skos:altLabel>
       <skos:scopeNote xml:lang="fi">Region:Finland</skos:scopeNote>
       <skos:definition xml:lang="fi">Valtion elokuvatarkastamo</skos:definition>
       <skos:definition xml:lang="en">Finnish Board of Film Classification</skos:definition>
@@ -3155,6 +3167,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">FR-CNC</skos:prefLabel>
+      <skos:altLabel  xml:lang="fr">Centre national du cinéma et de l'image animée</skos:altLabel>
       <skos:scopeNote xml:lang="">Region:France</skos:scopeNote>
       <skos:definition xml:lang="en">Centre National de Cinematographie</skos:definition>
       <skos:inScheme
@@ -3256,6 +3269,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_26">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">FR-CSA</skos:prefLabel>
+      <skos:altLabel xml:lang="fr">Conseil Superieur de l'Audiovisuel</skos:altLabel>
       <skos:scopeNote xml:lang="">Region:France</skos:scopeNote>
       <skos:definition xml:lang="en">Conseil Superieur de l'Audiovisuel</skos:definition>
       <skos:inScheme
@@ -3354,6 +3368,8 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">GB-BBFC</skos:prefLabel>
+      <skos:altLabel xml:lang="en">UK Content Provider</skos:altLabel>
+      <skos:altLabel xml:lang="en">British Board of Film Classification</skos:altLabel>
       <skos:altLabel xml:lang="en">www.bbfc.co.uk</skos:altLabel>
       <skos:scopeNote xml:lang="">Region:Britain</skos:scopeNote>
       <skos:definition xml:lang="en">British Board of Film Classification</skos:definition>
@@ -3463,6 +3479,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_28">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">IE-IFCO</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Irish Film Classification Office</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Ireland</skos:scopeNote>
       <skos:definition xml:lang="en">Irish Film Classification Office</skos:definition>
       <skos:inScheme
@@ -3683,6 +3700,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_30">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">IT-RAI</skos:prefLabel>
+      <skos:altLabel xml:lang="it">Ministero della Cultura</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Italy</skos:scopeNote>
       <skos:definition xml:lang="en">Rating used by Radio Televisione Italiana</skos:definition>
       <skos:inScheme
@@ -4847,6 +4865,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_37">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">NL-NICAM</skos:prefLabel>
+      <skos:altLabel xml:lang="nl">Kijkwijzer</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Netherlands</skos:scopeNote>
       <skos:definition xml:lang="en">Nederlands Institute for the Classification of Audio-visual
          Media</skos:definition>
@@ -5063,6 +5082,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_38">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">NO-Medietilsynet-Om_aldersgrenser</skos:prefLabel>
+      <skos:altLabel xml:lang="no">Medietilsynet</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Norway</skos:scopeNote>
       <skos:definition xml:lang="en">Scheme as defined by the Medietilsynet</skos:definition>
       <skos:inScheme
@@ -5163,6 +5183,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_39">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">NZ-OFLC</skos:prefLabel>
+      <skos:altLabel xml:lang="en">NZ Office Of Film &amp; Literature Classification</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:New Zealand</skos:scopeNote>
       <skos:definition xml:lang="en">Office of Film and Literature Classification</skos:definition>
       <skos:inScheme
@@ -5311,6 +5332,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_40">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">PH-MTRCB</skos:prefLabel>
+      <skos:altLabel xml:lang="en">The Movie and Television Review and Classification Board</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Philippines</skos:scopeNote>
       <skos:definition xml:lang="en">Movie and Television Review and Classification
          Board</skos:definition>
@@ -5390,6 +5412,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_41">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">PL-RTP</skos:prefLabel>
+      <skos:altLabel xml:lang="pl">Krajowa Rada Radiofonii i Telewizji</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Portugal</skos:scopeNote>
       <skos:definition xml:lang="en">Scheme as used by the Radio Telewisja Polska</skos:definition>
       <skos:inScheme
@@ -5480,6 +5503,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_42">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">PT-CCE</skos:prefLabel>
+      <skos:altLabel xml:lang="pt">Comissão de Classificação de Espectáculos</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Portugal</skos:scopeNote>
       <skos:definition xml:lang="en">Scheme as defined by the Comissão de Classificação de
          Espectáculos</skos:definition>
@@ -5697,6 +5721,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_44">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">SE-SB</skos:prefLabel>
+      <skos:altLabel xml:lang="sv">Statens medierÃ¥d</skos:altLabel>
       <skos:scopeNote xml:lang="">Region:Sweden</skos:scopeNote>
       <skos:definition xml:lang="en">Swedish National Board of Film Censors</skos:definition>
       <skos:definition xml:lang="sv">Statens biografbyrå</skos:definition>
@@ -6694,6 +6719,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">US-MPAA</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Motion Picture Association</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:United States</skos:scopeNote>
       <skos:definition xml:lang="en">Motion Picture Association of America movie rating
          scheme</skos:definition>
@@ -6839,6 +6865,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">US-TVPG</skos:prefLabel>
+      <skos:altLabel xml:lang="en">USA Parental Rating</skos:altLabel>
       <skos:altLabel xml:lang="en">V-Chip</skos:altLabel>
       <skos:altLabel xml:lang="en">USA_PR</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:United States</skos:scopeNote>
@@ -7624,6 +7651,8 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_56">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">IN-CFBC</skos:prefLabel>
+      <skos:altLabel xml:lang="en">India Content Provider Ratings</skos:altLabel>
+      <skos:altLabel xml:lang="en">Central Board of Film Certification</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:India</skos:scopeNote>
       <skos:definition xml:lang="en">Film Board</skos:definition>
       <skos:inScheme
@@ -8026,6 +8055,7 @@
       rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_60">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
       <skos:prefLabel xml:lang="en">ID-LSF</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Lembaga Sensor Film</skos:altLabel>
       <skos:scopeNote xml:lang="en">Region:Indonesia</skos:scopeNote>
       <skos:definition xml:lang="en">Lembaga Sensor Film</skos:definition>
       <skos:inScheme
