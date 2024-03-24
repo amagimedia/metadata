@@ -52,7 +52,21 @@
 
 
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#annotationId> 
-    rdfs:range     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier> .      
+    rdfs:range     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#startAssetOffsetIndex>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify the asset index whose start is the start of a collection part "@en ;
+        rdfs:label    "startAssetOffsetIndex"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#endAssetOffsetIndex>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify the asset index whose start is the end of a collection part. It may have 'eos' to indicate end is the end of the last asset in a collection "@en ;
+        rdfs:label    "endAssetOffsetIndex"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> .
 
 # An asset either episode or feature will be associated with exactly one resource of class type AIAugmentedMeta
 # The above constraint means that the urriId for AIAugmentedMeta instance will be equal to fn(asset_uri_id, constant) where
