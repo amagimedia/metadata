@@ -40,6 +40,14 @@ contentgenre:_3.0  rdf:type  ebucore:Genre ;
         skos:example      "" ;
         skos:note         "Valid" .
 
+contentgenre:_3.0.0  rdf:type  ebucore:Genre ;
+        skos:definition   "For use where proprietary extensions are required, or the use\n         of keywords that do not fit in any classification below; Amagi Extension Undefined"@en ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
+        skos:changeNote   "First version after conversion of P/META into\n         XML" ;
+        skos:historyNote  "2024-04-03" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
 contentgenre:_3.1  rdf:type  ebucore:Genre ;
         skos:prefLabel    "NON-FICTION/INFORMATION"@en ;
         skos:definition   "format (non fiction) and content\n         (Information)"@en ;
