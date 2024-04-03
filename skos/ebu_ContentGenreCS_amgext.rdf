@@ -16389,6 +16389,18 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.13.2.1"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.13.2.7"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.0.0">
+    <skos:note>Valid</skos:note>
+    <skos:prefLabel></skos:prefLabel>
+    <skos:example></skos:example>
+    <skos:historyNote>2024-04-03</skos:historyNote>
+    <skos:changeNote>First version after conversion of P/META into
+         XML</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:definition xml:lang="en">For use where proprietary extensions are required, or the use
+         of keywords that do not fit in any classification below; Amagi Extension Undefined</skos:definition>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.3.1">
     <skos:historyNote>2007-04-12</skos:historyNote>
     <skos:example></skos:example>
