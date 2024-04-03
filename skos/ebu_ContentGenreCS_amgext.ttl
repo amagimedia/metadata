@@ -46,6 +46,7 @@ contentgenre:_3.0.0  rdf:type  ebucore:Genre ;
         skos:changeNote   "First version after conversion of P/META into\n         XML" ;
         skos:historyNote  "2024-04-03" ;
         skos:example      "" ;
+        skos:prefLabel    "" ;
         skos:note         "Valid" .
 
 contentgenre:_3.1  rdf:type  ebucore:Genre ;
