@@ -3397,7 +3397,6 @@ contentgenre:_3.1.10  rdf:type  ebucore:Genre ;
         skos:narrower     contentgenre:_3.1.10.10 ;
         skos:narrower     contentgenre:_3.1.10.11 ;
         skos:narrower     contentgenre:_3.1.10.12 ;
-        skos:narrower     contentgenre:_3.1.10.13 ;
         skos:changeNote   "First version after conversion of P/META into\n         XML" ;
         skos:historyNote  "2007-04-12" ;
         skos:example      "" ;
@@ -3607,16 +3606,6 @@ contentgenre:_3.1.10.12
         skos:example      "" ;
         skos:note         "Valid" .
 
-contentgenre:_3.1.10.13
-        rdf:type          ebucore:Genre ;
-        skos:prefLabel    "New media"@en ;
-        skos:definition   "" ;
-        skos:broader      contentgenre:_3.1.10 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
-        skos:changeNote   "Duplication with 3.1.10.5" ;
-        skos:historyNote  "2008-08-20" ;
-        skos:example      "" ;
-        skos:note         "Obsolete" .
 
 contentgenre:_3.1.11  rdf:type  ebucore:Genre ;
         skos:prefLabel    "Listings"@en ;
@@ -5744,27 +5733,6 @@ contentgenre:_3.2.6.3.1.10
         skos:example      "" ;
         skos:note         "Valid" .
 
-contentgenre:_3.2.6.3.1.11
-        rdf:type          ebucore:Genre ;
-        skos:prefLabel    "K-1 500 m"@en ;
-        skos:definition   "Kayak single"@en ;
-        skos:broader      contentgenre:_3.2.6.3.1 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
-        skos:changeNote   "First version after conversion of P/META into\n         XML" ;
-        skos:historyNote  "2007-04-12" ;
-        skos:example      "" ;
-        skos:note         "Valid" .
-
-contentgenre:_3.2.6.3.1.12
-        rdf:type          ebucore:Genre ;
-        skos:prefLabel    "K-2 500 m"@en ;
-        skos:definition   "Kayak double"@en ;
-        skos:broader      contentgenre:_3.2.6.3.1 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
-        skos:changeNote   "First version after conversion of P/META into\n         XML" ;
-        skos:historyNote  "2007-04-12" ;
-        skos:example      "" ;
-        skos:note         "Valid" .
 
 contentgenre:_3.2.6.3.2
         rdf:type          ebucore:Genre ;
@@ -5984,17 +5952,6 @@ contentgenre:_3.2.6.5
         skos:historyNote  "2007-04-12" ;
         skos:example      "" ;
         skos:note         "Valid" .
-
-contentgenre:_3.2.6.6
-        rdf:type          ebucore:Genre ;
-        skos:prefLabel    "Water Polo"@en ;
-        skos:definition   "" ;
-        skos:broader      contentgenre:_3.2.6 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
-        skos:changeNote   "Duplication with 3.2.6.13" ;
-        skos:historyNote  "2008-08-20" ;
-        skos:example      "" ;
-        skos:note         "Obsolete" .
 
 contentgenre:_3.2.6.7
         rdf:type          ebucore:Genre ;
@@ -11007,17 +10964,6 @@ contentgenre:_3.4.6.12
         skos:example      "" ;
         skos:note         "Valid" .
 
-contentgenre:_3.4.6.13
-        rdf:type          ebucore:Genre ;
-        skos:prefLabel    "Epic"@en ;
-        skos:definition   "Dramatized narrative about the deeds of a traditional or\n         historical hero or heroes and/or dealing with or characterized by events of historical or\n         legendary importance e.g. El Cid"@en ;
-        skos:broader      contentgenre:_3.4.6 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
-        skos:changeNote   "See duplication with 3.4.6.5" ;
-        skos:historyNote  "2007-04-12" ;
-        skos:example      "" ;
-        skos:note         "Obsolete" .
-
 contentgenre:_3.4.6.14
         rdf:type          ebucore:Genre ;
         skos:prefLabel    "Film-Noir"@en ;
@@ -11490,16 +11436,6 @@ contentgenre:_3.5.7.6.2
         skos:example      "" ;
         skos:note         "Valid" .
 
-contentgenre:_3.5.7.6.3
-        rdf:type          ebucore:Genre ;
-        skos:prefLabel    "Surprise"@en ;
-        skos:definition   ""@en ;
-        skos:broader      contentgenre:_3.5.7.6 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
-        skos:changeNote   "See 3.5.4" ;
-        skos:historyNote  "2008-08-20" ;
-        skos:example      "" ;
-        skos:note         "Obsolete" .
 
 contentgenre:_3.5.7.7
         rdf:type          ebucore:Genre ;
@@ -11569,16 +11505,7 @@ contentgenre:_3.5.7.12
         skos:hiddenLabel  "science-fiction comedy"@en ;
         skos:hiddenLabel  "sci-fi comedy"@en .
 
-contentgenre:_3.5.7.13
-        rdf:type          ebucore:Genre ;
-        skos:prefLabel    "Slapstick"@en ;
-        skos:definition   ""@en ;
-        skos:broader      contentgenre:_3.5.7 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
-        skos:changeNote   "Update Wikipedia" ;
-        skos:historyNote  "2013-06-10" ;
-        skos:example      "" ;
-        skos:note         "Obsolete" .
+
 
 contentgenre:_3.5.10  rdf:type  ebucore:Genre ;
         skos:prefLabel    "Magic/Hypnotism"@en ;
@@ -12115,33 +12042,7 @@ contentgenre:_3.6.2.3
         skos:hiddenLabel  "blues"@en ;
         skos:hiddenLabel  "soul jazz"@en .
 
-contentgenre:_3.6.2.4
-        rdf:type          ebucore:Genre ;
-        skos:prefLabel    "Bop/Hard bop/Bebop/Postbop"@en ;
-        skos:definition   "e.g. Sonny Rollings, Oscar Peterson, J. Coltrane, T.\n         Monk"@en ;
-        skos:broader      contentgenre:_3.6.2 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
-        skos:changeNote   "Duplication, changed in 3.6.2.11" ;
-        skos:historyNote  "2008-08-20" ;
-        skos:example      "" ;
-        skos:note         "Obsolete" ;
-        skos:hiddenLabel  "bop"@en ;
-        skos:hiddenLabel  "hard bop"@en ;
-        skos:hiddenLabel  "bebop"@en ;
-        skos:hiddenLabel  "postbop"@en .
 
-contentgenre:_3.6.2.5
-        rdf:type          ebucore:Genre ;
-        skos:prefLabel    "Traditional/Smooth"@en ;
-        skos:definition   "" ;
-        skos:broader      contentgenre:_3.6.2 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
-        skos:changeNote   "Duplicate, changed into 3.6.2.12" ;
-        skos:historyNote  "2008-08-20" ;
-        skos:example      "" ;
-        skos:note         "Obsolete" ;
-        skos:hiddenLabel  "traditional"@en ;
-        skos:hiddenLabel  "smooth"@en .
 
 contentgenre:_3.6.2.6
         rdf:type          ebucore:Genre ;
