@@ -83,3 +83,43 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "IAB-3.0"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_gracenote>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Gracenote TMSID. Check https://en.wikipedia.org/wiki/TMS_(entertainment_data) and https://www.gracenote.com/gracenote-id"""@en ;
+    skos:example "MV003331980000" ;
+    skos:historyNote "2023-11-10" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "gracenote"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_provider_guid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Unique id from the provider"""@en ;
+    skos:example "tmk-video-2779f930951347e0ad939b05f43a8ff8" ;
+    skos:historyNote "2023-11-10" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "provider_guid"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tastemade>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """external id provided from tastemade"""@en ;
+    skos:example "37190" ;
+    skos:historyNote "2023-11-10" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "tastemade"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_amagi>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """external id provided by amagi"""@en ;
+    skos:example "ACm1io6d5z76aehcyESGbki" ;
+    skos:historyNote "2023-11-10" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "Amagi"@en .
