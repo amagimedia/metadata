@@ -9128,6 +9128,17 @@
     <skos:prefLabel xml:lang="en">Liberal Arts and Science</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.20">
+    <skos:note>Valid</skos:note>
+    <skos:example></skos:example>
+    <skos:historyNote>2024-04-10</skos:historyNote>
+    <skos:changeNote>Created. Refer: https://www.movielabs.com/md/md/common_genre.html</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5"/>
+    <skos:definition></skos:definition>
+    <skos:prefLabel xml:lang="en">Anime</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.1.1.1">
     <skos:note>Valid</skos:note>
     <skos:example></skos:example>
@@ -15647,6 +15658,18 @@
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.7.15.1"/>
     <skos:definition xml:lang="en">15 or 50 km for Men and 10 or 30 km for women</skos:definition>
     <skos:prefLabel xml:lang="en">Individual</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.19">
+    <skos:note>Valid</skos:note>
+    <skos:example>Tom and Jerry, The Simpsons, South Park</skos:example>
+    <skos:historyNote>2024-04-10</skos:historyNote>
+    <skos:changeNote>First version after conversion of P/META into
+         XML</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5"/>
+    <skos:definition></skos:definition>
+    <skos:prefLabel xml:lang="en">Animation</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.1.2.1.1">

@@ -11679,6 +11679,27 @@ contentgenre:_3.5.18  rdf:type  ebucore:Genre ;
         skos:inScheme    <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
         skos:note        "Valid" .
 
+contentgenre:_3.5.19  rdf:type  ebucore:Genre ;
+        skos:prefLabel    "Animation"@en ;
+        skos:definition   "" ;
+        skos:broader      contentgenre:_3.5 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
+        skos:changeNote   "First version after conversion of P/META into\n         XML" ;
+        skos:historyNote  "2024-04-10" ;
+        skos:example      "Tom and Jerry, The Simpsons, South Park" ;
+        skos:note         "Valid" .
+
+contentgenre:_3.5.20  rdf:type  ebucore:Genre ;
+        skos:prefLabel    "Anime"@en ;
+        skos:definition   "" ;
+        skos:broader      contentgenre:_3.5 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
+        skos:changeNote   "Created. Refer: https://www.movielabs.com/md/md/common_genre.html" ;
+        skos:historyNote  "2024-04-10" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
+
 contentgenre:_3.6  rdf:type  ebucore:Genre ;
         skos:prefLabel    "MUSIC"@en ;
         skos:definition   "Expressing emotion or message through instruments or voice\n         using different sounds, tones, harmonies and the like"@en ;
