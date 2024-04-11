@@ -67,6 +67,10 @@
     <skos:prefLabel xml:lang="en">VM14</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:rest rdf:nodeID="A1"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.4">
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
@@ -105,10 +109,6 @@
     <skos:prefLabel xml:lang="en">-18</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdf:rest rdf:nodeID="A1"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_49">
     <skos:definition xml:lang="en">Recording Industry Association of America scheme. Scheme for
          music rating as defined by the Recording Industry Association of America</skos:definition>
@@ -141,6 +141,7 @@
     <skos:definition xml:lang="en">Nederlands Institute for the Classification of Audio-visual
          Media</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Netherlands</skos:scopeNote>
+    <skos:altLabel xml:lang="nl">Kijkwijzer</skos:altLabel>
     <skos:changeNote>Update</skos:changeNote>
     <skos:note>Valid</skos:note>
     <skos:historyNote>2009-07-28</skos:historyNote>
@@ -175,6 +176,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25.5"/>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25.3"/>
+    <skos:altLabel xml:lang="fr">Centre national du cinéma et de l'image animée</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25.1"/>
     <skos:definition xml:lang="en">Centre National de Cinematographie</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25.4"/>
@@ -224,17 +226,6 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_13.3"/>
     <skos:note>Valid</skos:note>
     <skos:historyNote>2009-07-27</skos:historyNote>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.7">
-    <skos:example></skos:example>
-    <skos:historyNote></skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.7.1"/>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24"/>
-    <skos:definition xml:lang="en">For people aged 18 years and above</skos:definition>
-    <skos:prefLabel xml:lang="en">K-18</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_8.5">
     <skos:example></skos:example>
@@ -388,6 +379,7 @@
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_38">
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_38.3"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_38.1"/>
+    <skos:altLabel xml:lang="no">Medietilsynet</skos:altLabel>
     <skos:example></skos:example>
     <skos:definition xml:lang="en">Scheme as defined by the Medietilsynet</skos:definition>
     <skos:note>Valid</skos:note>
@@ -416,6 +408,7 @@
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_26">
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:note>Valid</skos:note>
+    <skos:altLabel xml:lang="fr">Conseil Superieur de l'Audiovisuel</skos:altLabel>
     <skos:scopeNote>Region:France</skos:scopeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_26.4"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_26.2"/>
@@ -440,10 +433,12 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_14.2"/>
     <skos:definition xml:lang="en">National Broadcasting Association rating
          system</skos:definition>
+    <skos:altLabel xml:lang="es">Consejo Nacional de Televisión</skos:altLabel>
     <skos:note>Valid</skos:note>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_14.5"/>
     <skos:definition xml:lang="es">Asociación Nacional de Televisión</skos:definition>
     <skos:historyNote>2009-07-27</skos:historyNote>
+    <skos:altLabel xml:lang="en">Chilean National Television Association</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_14.3"/>
     <skos:changeNote>Update</skos:changeNote>
     <skos:example></skos:example>
@@ -626,8 +621,8 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.5.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24"/>
-    <skos:definition xml:lang="en">For people aged 13 years and above</skos:definition>
-    <skos:prefLabel xml:lang="en">K-13</skos:prefLabel>
+    <skos:definition xml:lang="en">For people aged 16 years and above</skos:definition>
+    <skos:prefLabel xml:lang="en">K-16</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_11">
@@ -954,13 +949,13 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.6"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Motion Picture Association of America movie rating
-         scheme</skos:definition>
     <skos:prefLabel xml:lang="en">US-MPAA</skos:prefLabel>
     <skos:scopeNote xml:lang="en">Region:United States</skos:scopeNote>
     <skos:changeNote>Update</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.4"/>
+    <skos:definition xml:lang="en">Motion Picture Association of America movie rating scheme</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.2"/>
+    <skos:altLabel xml:lang="en">Motion Picture Association</skos:altLabel>
     <skos:example></skos:example>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48.5"/>
     <skos:historyNote>2009-07-27</skos:historyNote>
@@ -974,8 +969,8 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.6.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24"/>
-    <skos:definition xml:lang="en">For people aged 15 years and above</skos:definition>
-    <skos:prefLabel xml:lang="en">K-15</skos:prefLabel>
+    <skos:definition xml:lang="en">For people aged 18 years and above</skos:definition>
+    <skos:prefLabel xml:lang="en">K-18</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_8.4">
@@ -1015,9 +1010,11 @@
     <skos:example></skos:example>
     <skos:changeNote>Update</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.4"/>
+    <skos:altLabel xml:lang="fi">Mediakasvatus- ja kuvaohjelmakeskus</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.6"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.2"/>
     <skos:historyNote>2009-07-28</skos:historyNote>
+    <skos:altLabel xml:lang="en">FI_MEKU</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.7"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.5"/>
     <skos:prefLabel xml:lang="en">FI-VET</skos:prefLabel>
@@ -1390,6 +1387,7 @@
     <skos:changeNote>Update</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_22.1"/>
     <skos:example></skos:example>
+    <skos:altLabel xml:lang="es">Instiuto de la Cinematografía y de las Artes Audiovisuales (ICAA)</skos:altLabel>
     <skos:historyNote>2009-07-28</skos:historyNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_22.4"/>
     <skos:note>Valid</skos:note>
@@ -1398,13 +1396,15 @@
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_22.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_22.3"/>
+    <skos:altLabel xml:lang="en">ES-ICAA</skos:altLabel>
     <skos:prefLabel xml:lang="en">ES</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_10">
     <skos:historyNote>2009-07-27</skos:historyNote>
     <skos:prefLabel xml:lang="en">CA-OFRB</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_10.3"/>
+    <skos:altLabel xml:lang="en">Ontario Film Authority</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_10.5"/>
+    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_10.3"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_10.2"/>
@@ -1783,8 +1783,10 @@
     <skos:example></skos:example>
     <skos:historyNote>2010-08-03</skos:historyNote>
     <skos:prefLabel xml:lang="en">IN-CFBC</skos:prefLabel>
+    <skos:altLabel xml:lang="en">India Content Provider</skos:altLabel>
     <skos:note>Valid</skos:note>
     <skos:scopeNote xml:lang="en">Region:India</skos:scopeNote>
+    <skos:altLabel xml:lang="en">Central Board of Film Certification</skos:altLabel>
     <skos:definition xml:lang="en">Film Board</skos:definition>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
@@ -2189,11 +2191,13 @@
     <skos:changeNote>Update</skos:changeNote>
     <skos:note>Valid</skos:note>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_3.6"/>
+    <skos:altLabel xml:lang="en">Australian Classification Board</skos:altLabel>
     <skos:prefLabel xml:lang="en">AU-OFLC</skos:prefLabel>
     <skos:historyNote>2009-07-27</skos:historyNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_3.5"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_3.2"/>
+    <skos:altLabel xml:lang="en">AU-NCS</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_3.1"/>
     <skos:definition xml:lang="en">Office of Film and Literature Classification</skos:definition>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
@@ -2313,6 +2317,10 @@
     <skos:prefLabel xml:lang="en">R</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:rest rdf:nodeID="A0"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_47.1.7">
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
@@ -2400,19 +2408,18 @@
     <skos:historyNote>2009-07-28</skos:historyNote>
     <skos:note>Valid</skos:note>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19.2"/>
+    <skos:altLabel xml:lang="de">Freiwillige Selbstkontrolle der Filmwirtschaft</skos:altLabel>
     <skos:changeNote>Update</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19.4"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Voluntary Self-Control of the Film Business'
-         rating</skos:definition>
     <skos:altLabel xml:lang="en">www.fsk.de</skos:altLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+    <skos:definition xml:lang="en">Voluntary Self-Control of the Film Business' rating</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Germany</skos:scopeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19.1"/>
+    <skos:definition xml:lang="en">Freiwillige Selbstkontrolle der Filmwirtschaft Altersfreigabe</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19.5"/>
     <skos:example></skos:example>
-    <skos:definition xml:lang="en">Freiwillige Selbstkontrolle der Filmwirtschaft
-         Altersfreigabe</skos:definition>
     <skos:prefLabel xml:lang="en">DE-FSK</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_47.2.3">
@@ -2520,26 +2527,21 @@
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_1">
     <skos:example></skos:example>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_1.6"/>
+    <skos:definition xml:lang="en">National Institute of Cinema and Audiovisual Arts</skos:definition>
     <skos:prefLabel xml:lang="en">AR-INCAA</skos:prefLabel>
     <skos:changeNote>Update</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_1.5"/>
-    <skos:definition xml:lang="en">Institute of Film and Audiovisual Arts through the Advisory
-         Commission of Cinematographic Exhibition</skos:definition>
     <skos:note>Valid</skos:note>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_1.3"/>
     <skos:historyNote>2009-07-27</skos:historyNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="es">Instituto de Cine y Artes Audiovisuales, Comisión Asesora de
-         Exhibición Cinematográfica</skos:definition>
+    <skos:altLabel xml:lang="es">Instituto Nacional de Cine y Artes Audiovisuales</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_1.4"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_1.2"/>
+    <skos:definition xml:lang="es">Instituto Nacional de Cine y Artes Audiovisuales</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Argentina</skos:scopeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_1.1"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdf:rest rdf:nodeID="A2"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_4.1.6">
     <skos:example></skos:example>
@@ -2559,17 +2561,6 @@
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_4.2"/>
     <skos:definition xml:lang="en">Language</skos:definition>
     <skos:prefLabel xml:lang="en">L</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.3.1">
-    <skos:example></skos:example>
-    <skos:historyNote></skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.3"/>
-    <skos:definition xml:lang="en">Parental Guidance option - children 2 years of age under the K
-         limits may access the show in presence of an accompanying adult</skos:definition>
-    <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_22.4">
@@ -2944,8 +2935,8 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.4.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24"/>
-    <skos:definition xml:lang="en">For people aged 11 years and above</skos:definition>
-    <skos:prefLabel xml:lang="en">K-11</skos:prefLabel>
+    <skos:definition xml:lang="en">For people aged 12 years and above</skos:definition>
+    <skos:prefLabel xml:lang="en">K-12</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25.1">
@@ -3046,11 +3037,11 @@
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
     <skos:changeNote>Update</skos:changeNote>
     <skos:definition xml:lang="en">German TV content classification</skos:definition>
-    <skos:definition xml:lang="de">Freiwillige Selbskontrolle Fernsehen
-         Altersfreigabe</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18.5"/>
     <skos:historyNote>2009-07-28</skos:historyNote>
+    <skos:altLabel xml:lang="de">Freiwillige Selbstkontrolle Fernsehen</skos:altLabel>
+    <skos:definition xml:lang="de">Freiwillige Selbskontrolle Fernsehen Altersfreigabe</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Germany</skos:scopeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18.1"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_18.4"/>
@@ -3123,12 +3114,14 @@
     <skos:note>Valid</skos:note>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.6"/>
     <skos:prefLabel xml:lang="en">GB-BBFC</skos:prefLabel>
+    <skos:altLabel xml:lang="en">British Board of Film Classification</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.1"/>
     <skos:altLabel xml:lang="en">www.bbfc.co.uk</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.2"/>
     <skos:historyNote>2009-07-28</skos:historyNote>
     <skos:changeNote>Update</skos:changeNote>
     <skos:scopeNote>Region:Britain</skos:scopeNote>
+    <skos:altLabel xml:lang="en">UK Content Provider</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_4.2.8">
     <skos:example></skos:example>
@@ -3157,6 +3150,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_47.1.3"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_15">
+    <skos:altLabel xml:lang="en">Chilean Council of Cinematographic Classification</skos:altLabel>
     <skos:definition xml:lang="es">Consejo de Calificacion Cinematografica</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Chile</skos:scopeNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
@@ -3164,14 +3158,15 @@
     <skos:example></skos:example>
     <skos:definition xml:lang="en">Movie ratings as defined by the Chilean Council of
          Cinematographic Classification</skos:definition>
+    <skos:altLabel xml:lang="es">Consejo de Calificacion Cinematografica</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_15.5"/>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
     <skos:note>Valid</skos:note>
     <skos:historyNote>2009-07-27</skos:historyNote>
     <skos:changeNote>Update</skos:changeNote>
     <skos:prefLabel xml:lang="es">CL-CCC</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_15.1"/>
     <skos:prefLabel xml:lang="en">CL-CCC</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_15.1"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_15.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_15.3"/>
   </rdf:Description>
@@ -3204,6 +3199,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_39.1"/>
     <skos:definition xml:lang="en">Office of Film and Literature Classification</skos:definition>
     <skos:example></skos:example>
+    <skos:altLabel xml:lang="en">NZ Office of Film and Literature Classification</skos:altLabel>
     <skos:changeNote>Update</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_39.8"/>
   </rdf:Description>
@@ -3377,6 +3373,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_28.6"/>
     <skos:note>Valid</skos:note>
     <skos:example></skos:example>
+    <skos:altLabel xml:lang="en">Irish Film Classification Office</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_28.5"/>
     <skos:definition xml:lang="en">Irish Film Classification Office</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_28.2"/>
@@ -3386,6 +3383,10 @@
     <skos:prefLabel xml:lang="en">IE-IFCO</skos:prefLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_28.1"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_28.4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:rest rdf:nodeID="A3"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_64.1.1">
     <skos:example></skos:example>
@@ -3408,6 +3409,10 @@
          used.</skos:definition>
     <skos:prefLabel xml:lang="en">7</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:rest rdf:nodeID="A4"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_35.1.2">
     <skos:example></skos:example>
@@ -3580,17 +3585,6 @@
     <skos:definition xml:lang="es">Comprensible para niños menores de 7 años</skos:definition>
     <skos:definition>Particularly recommended for children under 7</skos:definition>
     <skos:prefLabel xml:lang="en">AA</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.5.1">
-    <skos:example></skos:example>
-    <skos:historyNote></skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.5"/>
-    <skos:definition xml:lang="en">Parental Guidance option - children 2 years of age under the K
-         limits may access the show in presence of an accompanying adult</skos:definition>
-    <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_68.1.2">
@@ -3771,6 +3765,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_9">
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_9.4"/>
+    <skos:altLabel xml:lang="en">Alberta's Film Classification Board</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_9.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:prefLabel xml:lang="en">CA-AFR</skos:prefLabel>
@@ -4113,18 +4108,17 @@
     <skos:changeNote>Update</skos:changeNote>
     <skos:note>Valid</skos:note>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_7.4"/>
-    <skos:definition xml:lang="en">Department of Justice, Rating, Titles and
-         Qualification</skos:definition>
+    <skos:altLabel xml:lang="pt">Departamento de Justiça, Classificação, Títulos e Qualificação</skos:altLabel>
     <skos:scopeNote xml:lang="en">Region:Brazil</skos:scopeNote>
+    <skos:definition xml:lang="pt">Departamento de Justiça, Classificação, Títulos e Qualificação</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_7.7"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_7.1"/>
-    <skos:definition xml:lang="pt">Departamento de Justiça, Classificação, Títulos e
-         Qualificação</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_7.2"/>
     <skos:example></skos:example>
     <skos:historyNote>2009-07-27</skos:historyNote>
     <skos:prefLabel xml:lang="en">BR-DJCTQ</skos:prefLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_7.5"/>
+    <skos:definition xml:lang="en">Department of Justice, Rating, Titles and Qualification</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_44.4">
     <skos:example></skos:example>
@@ -4357,6 +4351,7 @@
     <skos:example></skos:example>
     <skos:historyNote>2009-07-27</skos:historyNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_8.4"/>
+    <skos:altLabel xml:lang="en">Canadian Parental Rating</skos:altLabel>
     <skos:scopeNote xml:lang="en">Region:Canada</skos:scopeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_8.2"/>
   </rdf:Description>
@@ -4392,10 +4387,6 @@
     <skos:definition xml:lang="en">12 years and above</skos:definition>
     <skos:prefLabel xml:lang="en">12</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A2">
-    <rdf:rest rdf:nodeID="A3"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_3.1">
     <skos:example></skos:example>
@@ -4474,6 +4465,14 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_66.1.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_66.1.3"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_66.1.4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:rest rdf:nodeID="A5"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_56.1.3">
     <skos:example></skos:example>
@@ -4557,17 +4556,6 @@
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:scopeNote xml:lang="en">Region:Belgium</skos:scopeNote>
     <skos:prefLabel xml:lang="en">BE</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.4.1">
-    <skos:example></skos:example>
-    <skos:historyNote></skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.4"/>
-    <skos:definition xml:lang="en">Parental Guidance option - children 2 years of age under the K
-         limits may access the show in presence of an accompanying adult</skos:definition>
-    <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_44.2">
@@ -4776,14 +4764,6 @@
     <skos:altLabel xml:lang="en">BG-NFRC</skos:altLabel>
     <skos:definition xml:lang="en">Film Industry Act</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_6.1"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A4">
-    <rdf:rest rdf:nodeID="A0"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A5">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_31"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_42.7">
     <skos:example></skos:example>
@@ -5019,6 +4999,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_41.5"/>
     <skos:changeNote>Update</skos:changeNote>
     <skos:note>Valid</skos:note>
+    <skos:altLabel xml:lang="pl">Krajowa Rada Radiofonii i Telewizji</skos:altLabel>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_16.2.6">
@@ -5289,16 +5270,16 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_42.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_42.4"/>
     <skos:scopeNote xml:lang="en">Region:Portugal</skos:scopeNote>
-    <skos:definition xml:lang="en">Scheme as defined by the Comissão de Classificação de
-         Espectáculos</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_42.3"/>
     <skos:historyNote>2009-07-28</skos:historyNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_42.5"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_42.6"/>
+    <skos:altLabel xml:lang="pt">Comissão de Classificação de Espectáculos</skos:altLabel>
     <skos:note>Valid</skos:note>
     <skos:example></skos:example>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+    <skos:definition xml:lang="en">Scheme as defined by the Comissão de Classificação de Espectáculos</skos:definition>
     <skos:prefLabel xml:lang="en">PT-CCE</skos:prefLabel>
     <skos:changeNote>Update</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_42.7"/>
@@ -5740,17 +5721,16 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_40.4"/>
     <skos:scopeNote xml:lang="en">Region:Philippines</skos:scopeNote>
     <skos:note>Valid</skos:note>
-    <skos:definition xml:lang="en">Movie and Television Review and Classification
-         Board</skos:definition>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
+    <skos:definition xml:lang="en">Movie and Television Review and Classification Board</skos:definition>
     <skos:prefLabel xml:lang="en">PH-MTRCB</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
     <skos:historyNote>2009-07-28</skos:historyNote>
+    <skos:definition>Lupon sa Pagrerepaso at Pag-uuri ng Sine at Telebisyon</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_40.1"/>
+    <skos:altLabel xml:lang="en">The Movie and Television Review and Classification Board</skos:altLabel>
     <skos:changeNote>Update</skos:changeNote>
     <skos:example></skos:example>
-    <skos:definition>Lupon sa Pagrerepaso at Pag-uuri ng Sine at
-         Telebisyon</skos:definition>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_40.3"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_40.2"/>
   </rdf:Description>
@@ -5853,10 +5833,6 @@
          and does not fall in rating A</skos:definition>
     <skos:prefLabel xml:lang="en">B</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
-    <rdf:rest rdf:nodeID="A5"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_61.1.3">
     <skos:example></skos:example>
@@ -5974,19 +5950,8 @@
     <skos:changeNote>Update</skos:changeNote>
     <skos:scopeNote xml:lang="en">Region:Latvia</skos:scopeNote>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.6.1">
-    <skos:example></skos:example>
-    <skos:historyNote></skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.6"/>
-    <skos:definition xml:lang="en">Parental Guidance option - children 2 years of age under the K
-         limits may access the show in presence of an accompanying adult</skos:definition>
-    <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#defaultSchemesList">
-    <skos:memberList rdf:nodeID="A4"/>
+    <skos:memberList rdf:nodeID="A2"/>
     <skos:definition xml:lang="en">The ordered list of Parental Guidance top concepts to be considered when no scheme is provided for a rating</skos:definition>
     <rdfs:label xml:lang="en">Default PG Schemes List</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#OrderedCollection"/>
@@ -6285,6 +6250,7 @@
     <skos:example></skos:example>
     <skos:altLabel xml:lang="en">USA_PR</skos:altLabel>
     <skos:prefLabel xml:lang="en">US-TVPG</skos:prefLabel>
+    <skos:altLabel xml:lang="en">USA Parental Rating</skos:altLabel>
     <skos:altLabel xml:lang="en">V-Chip</skos:altLabel>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.1"/>
     <skos:note>Valid</skos:note>
@@ -6470,17 +6436,6 @@
     <skos:definition xml:lang="en">Children allowed, but parental guidance is strongly
          advised.</skos:definition>
     <skos:prefLabel xml:lang="en">Yellow</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.7.1">
-    <skos:example></skos:example>
-    <skos:historyNote></skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_24.7"/>
-    <skos:definition xml:lang="en">Parental Guidance option - children 2 years of age under the K
-         limits may access the show in presence of an accompanying adult</skos:definition>
-    <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_53.1">
@@ -6734,8 +6689,9 @@
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:changeNote>Update</skos:changeNote>
     <skos:historyNote>2010-08-03</skos:historyNote>
-    <skos:prefLabel xml:lang="en">ID-LSF</skos:prefLabel>
     <skos:note>Valid</skos:note>
+    <skos:prefLabel xml:lang="en">ID-LSF</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Lembaga Sensor Film</skos:altLabel>
     <skos:scopeNote xml:lang="en">Region:Indonesia</skos:scopeNote>
     <skos:example></skos:example>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>

@@ -92,9 +92,10 @@
 
 parentalguidance:_1  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "AR-INCAA"@en ;
+        skos:altLabel     "Instituto Nacional de Cine y Artes Audiovisuales"@es ;
         skos:scopeNote    "Region:Argentina"@en ;
-        skos:definition   "Institute of Film and Audiovisual Arts through the Advisory\n         Commission of Cinematographic Exhibition"@en ;
-        skos:definition   "Instituto de Cine y Artes Audiovisuales, Comisión Asesora de\n         Exhibición Cinematográfica"@es ;
+        skos:definition   "Instituto Nacional de Cine y Artes Audiovisuales"@es ;
+        skos:definition   "National Institute of Cinema and Audiovisual Arts"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_1.1 ;
         skos:narrower     parentalguidance:_1.2 ;
@@ -256,6 +257,8 @@ parentalguidance:_2.6
 
 parentalguidance:_3  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "AU-OFLC"@en ;
+        skos:altLabel     "AU-NCS"@en ;
+        skos:altLabel     "Australian Classification Board"@en ;
         skos:scopeNote    "Region:Australia"@en ;
         skos:definition   "Office of Film and Literature Classification"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -675,9 +678,10 @@ parentalguidance:_6.5
 
 parentalguidance:_7  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "BR-DJCTQ"@en ;
+        skos:altLabel     "Departamento de Justiça, Classificação, Títulos e Qualificação"@pt ;
         skos:scopeNote    "Region:Brazil"@en ;
-        skos:definition   "Department of Justice, Rating, Titles and\n         Qualification"@en ;
-        skos:definition   "Departamento de Justiça, Classificação, Títulos e\n         Qualificação"@pt ;
+        skos:definition   "Department of Justice, Rating, Titles and Qualification"@en ;
+        skos:definition   "Departamento de Justiça, Classificação, Títulos e Qualificação"@pt ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_7.1 ;
         skos:narrower     parentalguidance:_7.2 ;
@@ -777,6 +781,7 @@ parentalguidance:_7.7
 
 parentalguidance:_8  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "CA-CHVRS"@en ;
+        skos:altLabel     "Canadian Parental Rating"@en ;
         skos:scopeNote    "Region:Canada"@en ;
         skos:definition   "Canadian Home Video Rating System"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -853,6 +858,7 @@ parentalguidance:_8.6
 
 parentalguidance:_9  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "CA-AFR"@en ;
+        skos:altLabel     "Alberta's Film Classification Board"@en ;
         skos:scopeNote    "Region:Canada"@en ;
         skos:definition   "Alberta Film rating"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -933,6 +939,7 @@ parentalguidance:_9.6
 
 parentalguidance:_10  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "CA-OFRB"@en ;
+        skos:altLabel     "Ontario Film Authority"@en ;
         skos:scopeNote    "Region:Canada"@en ;
         skos:definition   "Ontario Film Review Board"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1220,6 +1227,8 @@ parentalguidance:_13.5
 parentalguidance:_14  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "CL-ANATEL"@es ;
         skos:prefLabel    "CL-ANATEL"@en ;
+        skos:altLabel    "Chilean National Television Association"@en ;
+        skos:altLabel    "Consejo Nacional de Televisión"@es ;
         skos:scopeNote    "Region:Chile"@en ;
         skos:definition   "Asociación Nacional de Televisión"@es ;
         skos:definition   "National Broadcasting Association rating\n         system"@en ;
@@ -1304,6 +1313,8 @@ parentalguidance:_14.6
 parentalguidance:_15  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "CL-CCC"@en ;
         skos:prefLabel    "CL-CCC"@es ;
+        skos:altLabel     "Consejo de Calificacion Cinematografica"@es ;
+        skos:altLabel     "Chilean Council of Cinematographic Classification"@en ;
         skos:scopeNote    "Region:Chile"@en ;
         skos:definition   "Movie ratings as defined by the Chilean Council of\n         Cinematographic Classification"@en ;
         skos:definition   "Consejo de Calificacion Cinematografica"@es ;
@@ -1616,7 +1627,8 @@ parentalguidance:_17.6
 
 parentalguidance:_18  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "DE-FSF"@en ;
-        skos:definition   "Freiwillige Selbskontrolle Fernsehen\n         Altersfreigabe"@de ;
+        skos:altLabel     "Freiwillige Selbstkontrolle Fernsehen"@de ;
+        skos:definition   "Freiwillige Selbskontrolle Fernsehen Altersfreigabe"@de ;
         skos:scopeNote    "Region:Germany"@en ;
         skos:definition   "German TV content classification"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1693,9 +1705,10 @@ parentalguidance:_18.5
 parentalguidance:_19  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "DE-FSK"@en ;
         skos:altLabel     "www.fsk.de"@en ;
+        skos:altLabel     "Freiwillige Selbstkontrolle der Filmwirtschaft"@de ;
         skos:scopeNote    "Region:Germany"@en ;
-        skos:definition   "Voluntary Self-Control of the Film Business'\n         rating"@en ;
-        skos:definition   "Freiwillige Selbstkontrolle der Filmwirtschaft\n         Altersfreigabe"@en ;
+        skos:definition   "Voluntary Self-Control of the Film Business' rating"@en ;
+        skos:definition   "Freiwillige Selbstkontrolle der Filmwirtschaft Altersfreigabe"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_19.1 ;
         skos:narrower     parentalguidance:_19.2 ;
@@ -1869,6 +1882,8 @@ parentalguidance:_21.3
 
 parentalguidance:_22  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "ES"@en ;
+        skos:altLabel     "ES-ICAA"@en ;
+        skos:altLabel     "Instiuto de la Cinematografía y de las Artes Audiovisuales (ICAA)"@es ;
         skos:scopeNote    "Region:Spain"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_22.1 ;
@@ -2090,6 +2105,8 @@ parentalguidance:_23.2.7
 
 parentalguidance:_24  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "FI-VET"@en ;
+        skos:altLabel     "FI_MEKU"@en ;
+        skos:altLabel     "Mediakasvatus- ja kuvaohjelmakeskus"@fi ; #https://en.wikipedia.org/wiki/Finnish_Board_of_Film_Classification
         skos:scopeNote    "Region:Finland"@fi ;
         skos:definition   "Valtion elokuvatarkastamo"@fi ;
         skos:definition   "Finnish Board of Film Classification"@en ;
@@ -2137,20 +2154,11 @@ parentalguidance:_24.3
         skos:historyNote  "" ;
         skos:example      "" .
 
-parentalguidance:_24.3.1
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "PG"@en ;
-        skos:definition   "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"@en ;
-        skos:broader      parentalguidance:_24.3 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
 
 parentalguidance:_24.4
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "K-11"@en ;
-        skos:definition   "For people aged 11 years and above"@en ;
+        skos:prefLabel    "K-12"@en ;
+        skos:definition   "For people aged 12 years and above"@en ;
         skos:broader      parentalguidance:_24 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_24.4.1 ;
@@ -2158,20 +2166,10 @@ parentalguidance:_24.4
         skos:historyNote  "" ;
         skos:example      "" .
 
-parentalguidance:_24.4.1
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "PG"@en ;
-        skos:definition   "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"@en ;
-        skos:broader      parentalguidance:_24.4 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
-
 parentalguidance:_24.5
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "K-13"@en ;
-        skos:definition   "For people aged 13 years and above"@en ;
+        skos:prefLabel    "K-16"@en ;
+        skos:definition   "For people aged 16 years and above"@en ;
         skos:broader      parentalguidance:_24 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_24.5.1 ;
@@ -2179,20 +2177,10 @@ parentalguidance:_24.5
         skos:historyNote  "" ;
         skos:example      "" .
 
-parentalguidance:_24.5.1
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "PG"@en ;
-        skos:definition   "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"@en ;
-        skos:broader      parentalguidance:_24.5 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
-
 parentalguidance:_24.6
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "K-15"@en ;
-        skos:definition   "For people aged 15 years and above"@en ;
+        skos:prefLabel    "K-18"@en ;
+        skos:definition   "For people aged 18 years and above"@en ;
         skos:broader      parentalguidance:_24 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_24.6.1 ;
@@ -2200,39 +2188,10 @@ parentalguidance:_24.6
         skos:historyNote  "" ;
         skos:example      "" .
 
-parentalguidance:_24.6.1
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "PG"@en ;
-        skos:definition   "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"@en ;
-        skos:broader      parentalguidance:_24.6 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
-
-parentalguidance:_24.7
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "K-18"@en ;
-        skos:definition   "For people aged 18 years and above"@en ;
-        skos:broader      parentalguidance:_24 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:narrower     parentalguidance:_24.7.1 ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
-
-parentalguidance:_24.7.1
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "PG"@en ;
-        skos:definition   "Parental Guidance option - children 2 years of age under the K\n         limits may access the show in presence of an accompanying adult"@en ;
-        skos:broader      parentalguidance:_24.7 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
 
 parentalguidance:_25  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "FR-CNC"@en ;
+        skos:altLabel     "Centre national du cinéma et de l'image animée"@fr ;
         skos:scopeNote    "Region:France" ;
         skos:definition   "Centre National de Cinematographie"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -2303,6 +2262,7 @@ parentalguidance:_25.5
 
 parentalguidance:_26  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "FR-CSA"@en ;
+        skos:altLabel     "Conseil Superieur de l'Audiovisuel"@fr ;
         skos:scopeNote    "Region:France" ;
         skos:definition   "Conseil Superieur de l'Audiovisuel"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -2373,6 +2333,8 @@ parentalguidance:_26.5
 
 parentalguidance:_27  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "GB-BBFC"@en ;
+        skos:altLabel     "British Board of Film Classification"@en ;
+        skos:altLabel     "UK Content Provider"@en ;
         skos:altLabel     "www.bbfc.co.uk"@en ;
         skos:scopeNote    "Region:Britain" ;
         skos:definition   "British Board of Film Classification"@en ;
@@ -2451,6 +2413,7 @@ parentalguidance:_27.6
 
 parentalguidance:_28  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "IE-IFCO"@en ;
+        skos:altLabel    "Irish Film Classification Office"@en ;
         skos:scopeNote    "Region:Ireland"@en ;
         skos:definition   "Irish Film Classification Office"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3438,6 +3401,7 @@ parentalguidance:_36.2.5
 
 parentalguidance:_37  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "NL-NICAM"@en ;
+        skos:altLabel     "Kijkwijzer"@nl ;
         skos:scopeNote    "Region:Netherlands"@en ;
         skos:definition   "Nederlands Institute for the Classification of Audio-visual\n         Media"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3594,6 +3558,7 @@ parentalguidance:_37.2.6
 
 parentalguidance:_38  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "NO-Medietilsynet-Om_aldersgrenser"@en ;
+        skos:altLabel     "Medietilsynet"@no ;
         skos:scopeNote    "Region:Norway"@en ;
         skos:definition   "Scheme as defined by the Medietilsynet"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3665,6 +3630,7 @@ parentalguidance:_38.5
 
 parentalguidance:_39  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "NZ-OFLC"@en ;
+        skos:altLabel     "NZ Office of Film and Literature Classification"@en ;
         skos:scopeNote    "Region:New Zealand"@en ;
         skos:definition   "Office of Film and Literature Classification"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3767,9 +3733,10 @@ parentalguidance:_39.8
 
 parentalguidance:_40  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "PH-MTRCB"@en ;
+        skos:altLabel     "The Movie and Television Review and Classification Board"@en ;
         skos:scopeNote    "Region:Philippines"@en ;
-        skos:definition   "Movie and Television Review and Classification\n         Board"@en ;
-        skos:definition   "Lupon sa Pagrerepaso at Pag-uuri ng Sine at\n         Telebisyon" ;
+        skos:definition   "Movie and Television Review and Classification Board"@en ;
+        skos:definition   "Lupon sa Pagrerepaso at Pag-uuri ng Sine at Telebisyon" ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_40.1 ;
         skos:narrower     parentalguidance:_40.2 ;
@@ -3822,6 +3789,7 @@ parentalguidance:_40.4
 
 parentalguidance:_41  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "PL-RTP"@en ;
+        skos:altLabel     "Krajowa Rada Radiofonii i Telewizji"@pl ;
         skos:scopeNote    "Region:Portugal"@en ;
         skos:definition   "Scheme as used by the Radio Telewisja Polska"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3887,8 +3855,9 @@ parentalguidance:_41.5
 
 parentalguidance:_42  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "PT-CCE"@en ;
+        skos:altLabel     "Comissão de Classificação de Espectáculos"@pt ;
         skos:scopeNote    "Region:Portugal"@en ;
-        skos:definition   "Scheme as defined by the Comissão de Classificação de\n         Espectáculos"@en ;
+        skos:definition   "Scheme as defined by the Comissão de Classificação de Espectáculos"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_42.1 ;
         skos:narrower     parentalguidance:_42.2 ;
@@ -4741,8 +4710,9 @@ parentalguidance:_47.2.32
 
 parentalguidance:_48  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "US-MPAA"@en ;
+        skos:altLabel     "Motion Picture Association"@en ;
         skos:scopeNote    "Region:United States"@en ;
-        skos:definition   "Motion Picture Association of America movie rating\n         scheme"@en ;
+        skos:definition   "Motion Picture Association of America movie rating scheme"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_48.1 ;
         skos:narrower     parentalguidance:_48.2 ;
@@ -4844,6 +4814,7 @@ parentalguidance:_49.1
 
 parentalguidance:_50  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "US-TVPG"@en ;
+        skos:altLabel     "USA Parental Rating"@en ;
         skos:altLabel     "V-Chip"@en ;
         skos:altLabel     "USA_PR"@en ;
         skos:scopeNote    "Region:United States"@en ;
@@ -5419,6 +5390,8 @@ parentalguidance:_55.1.6
 
 parentalguidance:_56  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "IN-CFBC"@en ;
+        skos:altLabel     "Central Board of Film Certification"@en ;
+        skos:altLabel     "India Content Provider"@en ;
         skos:scopeNote    "Region:India"@en ;
         skos:definition   "Film Board"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -5708,6 +5681,7 @@ parentalguidance:_59.1.4
 
 parentalguidance:_60  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "ID-LSF"@en ;
+        skos:altLabel     "Lembaga Sensor Film"@en ;
         skos:scopeNote    "Region:Indonesia"@en ;
         skos:definition   "Lembaga Sensor Film"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
