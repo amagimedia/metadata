@@ -2117,7 +2117,6 @@ parentalguidance:_24  rdf:type  ebucore:TargetAudience ;
         skos:narrower     parentalguidance:_24.4 ;
         skos:narrower     parentalguidance:_24.5 ;
         skos:narrower     parentalguidance:_24.6 ;
-        skos:narrower     parentalguidance:_24.7 ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2009-07-28" ;
         skos:example      "" ;
@@ -2149,7 +2148,6 @@ parentalguidance:_24.3
         skos:definition   "For people aged 7 years and above"@en ;
         skos:broader      parentalguidance:_24 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:narrower     parentalguidance:_24.3.1 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -2161,7 +2159,6 @@ parentalguidance:_24.4
         skos:definition   "For people aged 12 years and above"@en ;
         skos:broader      parentalguidance:_24 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:narrower     parentalguidance:_24.4.1 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -2172,7 +2169,6 @@ parentalguidance:_24.5
         skos:definition   "For people aged 16 years and above"@en ;
         skos:broader      parentalguidance:_24 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:narrower     parentalguidance:_24.5.1 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -2183,7 +2179,6 @@ parentalguidance:_24.6
         skos:definition   "For people aged 18 years and above"@en ;
         skos:broader      parentalguidance:_24 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:narrower     parentalguidance:_24.6.1 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -6284,7 +6279,6 @@ parentalguidance:_68  rdf:type  ebucore:TargetAudience ;
         skos:definition   "Direzione generale Cinema e audiovisivo"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_68.1 ;
-        skos:narrower     parentalguidance:_68.2 ;
         skos:changeNote   "Created" ;
         skos:historyNote  "2024-04-10" ;
         skos:example      "" ;
@@ -6359,7 +6353,6 @@ parentalguidance:_69  rdf:type  ebucore:TargetAudience ;
         skos:definition   "Direzione generale Cinema e audiovisivo"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_69.1 ;
-        skos:narrower     parentalguidance:_69.2 ;
         skos:changeNote   "Created" ;
         skos:historyNote  "2024-04-10" ;
         skos:example      "" ;
