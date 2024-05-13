@@ -51,6 +51,27 @@
         rdfs:comment  "The name given to a media resource."@en .
 
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetPlatformId>
+        rdf:type      rdf:Property ;
+        rdfs:label    "targetPlatformId"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A specific platform id to which a media resource is to be targetted"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetChannelId>
+        rdf:type      rdf:Property ;
+        rdfs:label    "targetPlatformId"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A specific channel id to which a media resource is to be targetted"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetPlatformBrandId>
+        rdf:type      rdf:Property ;
+        rdfs:label    "targetPlatformId"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A specific platform brand id to which a media resource is to be targetted"@en .
+
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#annotationId> 
     rdfs:range     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier> .
 
