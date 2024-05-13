@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix part_type: <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#> .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS.rdf>
+        rdf:type         owl:Ontology ;
+        dct:title        "EBU Based SKOS Classification Scheme for Part Types"@en ;
+        dct:contributor  "Amagi metadata community" ;
+        dct:description  "An RDF vocabulary defining the type of media resource fragment/part. E.g color-bars, content, start-credits etc"@en ;
+        dct:creator      "Shashidhar, Amagi, shashidhar@amagi.com" ;
+        dct:publisher    "EBU" ;
+        dct:rights       "http://creativecommons.org/licenses/by-nc-sa/3.0/" .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS>
+        rdf:type            skos:ConceptScheme ;
+        rdfs:label          "EBU SKOS Classification Scheme for Part Type"@en ;
+        rdfs:isDefinedBy    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:hasTopConcept  part_type:_1 ;
+        skos:hasTopConcept  part_type:_2 ;
+        skos:hasTopConcept  part_type:_3 ;
+        skos:hasTopConcept  part_type:_4 ;
+        skos:hasTopConcept  part_type:_5 ;
+        skos:hasTopConcept  part_type:_6 ;
+        skos:hasTopConcept  part_type:_7 .
+
+part_type:_1
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "content"@en ;
+        skos:definition   "Part type corresponding to program content in a media resource"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-05-01" ;
+        skos:note "Valid" . 
+
+part_type:_2
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "black"@en ;
+        skos:definition   "Part type corresponding to black video that typically marks the scene boundaries"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-05-01" ;
+        skos:note "Valid" .
+
+part_type:_3
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "slate"@en ;
+        skos:definition   "Part type corresponding to a title card listing important metadata of a television program, included before the first frame of the program"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-05-01" ;
+        skos:note "Valid" . 
+
+part_type:_4
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "credits"@en ;
+        skos:definition   "Part type where list of cast and crew for the asset are listed"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:narrower    part_type:_4.1 ;
+        skos:narrower    part_type:_4.2 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-05-01" ;
+        skos:note "Valid" . 
+
+part_type:_4.1
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "opening-credits"@en ;
+        skos:definition   "Part type that appears in the beginning, where list of cast and crew for the asset are listed"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:broader     part_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-05-01" ;
+        skos:note "Valid" . 
+
+part_type:_4.2
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "end-credits"@en ;
+        skos:altLabel    "closing-credits"@en ;
+        skos:definition   "Part type that appears at the end, where list of cast and crew for the asset are listed"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:broader     part_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-05-01" ;
+        skos:note "Valid" .
+
+part_type:5
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "color-bars"@en ;
+        skos:definition   "Part type corresponding to color bars that are used to calibrate the video signal"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-05-01" ;
+        skos:note "Valid" .
+
+part_type:6
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "intro"@en ;
+        skos:definition  "Part type corresponding to the introduction of a media resource"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-05-01" ;
+        skos:note "Valid" .
+
+part_type:7
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "recap"@en ;
+        skos:definition  "Part type corresponding to a recap of the previous episode of a television program"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-05-01" ;
+        skos:note "Valid" .

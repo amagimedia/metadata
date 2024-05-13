@@ -1,0 +1,117 @@
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:part_type="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_2">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-05-01</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type corresponding to black video that typically marks the scene boundaries</skos:definition>
+    <skos:prefLabel xml:lang="en">black</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_3">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-05-01</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type corresponding to a title card listing important metadata of a television program, included before the first frame of the program</skos:definition>
+    <skos:prefLabel xml:lang="en">slate</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#5">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-05-01</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type corresponding to color bars that are used to calibrate the video signal</skos:definition>
+    <skos:prefLabel xml:lang="en">color-bars</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS.rdf">
+    <dct:rights>http://creativecommons.org/licenses/by-nc-sa/3.0/</dct:rights>
+    <dct:publisher>EBU</dct:publisher>
+    <dct:creator>Shashidhar, Amagi, shashidhar@amagi.com</dct:creator>
+    <dct:description xml:lang="en">An RDF vocabulary defining the type of media resource fragment/part. E.g color-bars, content, start-credits etc</dct:description>
+    <dct:contributor>Amagi metadata community</dct:contributor>
+    <dct:title xml:lang="en">EBU Based SKOS Classification Scheme for Part Types</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_4">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-05-01</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_4.2"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_4.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type where list of cast and crew for the asset are listed</skos:definition>
+    <skos:prefLabel xml:lang="en">credits</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#6">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-05-01</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type corresponding to the introduction of a media resource</skos:definition>
+    <skos:prefLabel xml:lang="en">intro</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#7">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-05-01</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type corresponding to a recap of the previous episode of a television program</skos:definition>
+    <skos:prefLabel xml:lang="en">recap</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_1">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-05-01</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type corresponding to program content in a media resource</skos:definition>
+    <skos:prefLabel xml:lang="en">content</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS">
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_2"/>
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_7"/>
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_5"/>
+    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for Part Type</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_3"/>
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_4"/>
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_1"/>
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_4.2">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-05-01</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_4"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type that appears at the end, where list of cast and crew for the asset are listed</skos:definition>
+    <skos:altLabel xml:lang="en">closing-credits</skos:altLabel>
+    <skos:prefLabel xml:lang="en">end-credits</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_4.1">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-05-01</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_4"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type that appears in the beginning, where list of cast and crew for the asset are listed</skos:definition>
+    <skos:prefLabel xml:lang="en">opening-credits</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
+</rdf:RDF>
