@@ -55,6 +55,7 @@
         rdf:type      rdf:Property ;
         rdfs:label    "targetPlatformId"@en ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "A specific platform id to which a media resource is to be targetted"@en .
 
@@ -62,6 +63,7 @@
         rdf:type      rdf:Property ;
         rdfs:label    "targetChannelId"@en ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "A specific channel id to which a media resource is to be targetted"@en .
 
@@ -69,6 +71,7 @@
         rdf:type      rdf:Property ;
         rdfs:label    "targetPlatformBrandId"@en ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "A specific platform brand id to which a media resource is to be targetted"@en .
 

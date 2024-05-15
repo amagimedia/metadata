@@ -52,6 +52,9 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:thumbnail/@height, specifies the height of the thumbnail, xs:integer, "1080", no
 /rss/channel/item/media:thumbnail/@width, specifies the width of the thumbnail, xs:integer, "1920", no
 /rss/channel/item/media:thumbnail/@isTitled, specifies if the image is titled that is it has title text in it, xs:bool, true, no
+/rss/channel/item/media:thumbnail/@targetPlatformIds, Comma separated list of AMGPLT platform id as defined in Amagi Master to which the thumbnail instance is to targetted or packaged, xs:string, "AMGPLT001,AMGPLT005,AMGPLT020", no
+/rss/channel/item/media:thumbnail/@targetPlatformBrandIds, Comma separated list of platform Brand ids as defined in Amagi Master to which the thumbnail instance is to targetted or packaged, xs:string, "Samsung Tv+, Roku", no
+/rss/channel/item/media:thumbnail/@targetChannelIds, Comma separated list of channel ids as defined in Amagi Master to which the thumbnail instance is to targetted or packaged, xs:string, "amgid22008c12, amgid22008c13", no
 /rss/channel/item/media:title, https://www.rssboard.org/media-rss#media-title, xs:string, "Prison Break", no
 /rss/channel/item/media:title/@amg:lang, specifies the language of the title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item/media:credit, https://www.rssboard.org/media-rss#media-credit, xs:complexType, "Tom Cruise", no
