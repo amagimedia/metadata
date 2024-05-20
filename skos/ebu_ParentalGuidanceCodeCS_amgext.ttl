@@ -276,7 +276,7 @@ parentalguidance:_3  rdf:type  ebucore:TargetAudience ;
 parentalguidance:_3.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "G"@en ;
-        skos:prefLabel    "General"@en ;
+        skos:altLabel    "General"@en ;
         skos:definition   "G classified films and computer games are for general viewing.\n         Many of the films and computer games contain content that would be of no interest to\n         children. The impact of the content is very mild."@en ;
         skos:broader      parentalguidance:_3 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -286,8 +286,8 @@ parentalguidance:_3.1
 
 parentalguidance:_3.2
         rdf:type          ebucore:TargetAudience ;
-        skos:altLabel     "PG"@en ;
-        skos:prefLabel    "Parental Guidance"@en ;
+        skos:prefLabel     "PG"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
         skos:definition   "PG classified films and computer games may contain material\n         that needs to be explained to children therefore parental guidance is recommended. The\n         impact of the content is mild."@en ;
         skos:broader      parentalguidance:_3 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -808,7 +808,8 @@ parentalguidance:_8.1
 
 parentalguidance:_8.2
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "PG - Parental Guidance"@en ;
+        skos:prefLabel    "PG"@en ;
+        skos:altLabel     "Parental Guidance"@en ;
         skos:definition   "Parental guidance advised. Theme or content may not be suitable\n         for all children."@en ;
         skos:broader      parentalguidance:_8 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -886,8 +887,8 @@ parentalguidance:_9.1
 
 parentalguidance:_9.2
         rdf:type          ebucore:TargetAudience ;
-        skos:altLabel     "PG"@en ;
-        skos:prefLabel    "Parental Guidance"@en ;
+        skos:prefLabel     "PG"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
         skos:definition   "Parental guidance advised. Theme or content may not be suitable\n         for all children."@en ;
         skos:broader      parentalguidance:_9 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -966,8 +967,8 @@ parentalguidance:_10.1
 
 parentalguidance:_10.2
         rdf:type          ebucore:TargetAudience ;
-        skos:altLabel     "PG"@en ;
-        skos:prefLabel    "Parental Guidance"@en ;
+        skos:prefLabel     "PG"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
         skos:definition   "Parental guidance advised. Theme or content may not be suitable\n         for all children."@en ;
         skos:broader      parentalguidance:_10 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1119,8 +1120,8 @@ parentalguidance:_12.3
 
 parentalguidance:_12.4
         rdf:type          ebucore:TargetAudience ;
-        skos:altLabel     "PG"@en ;
-        skos:prefLabel    "Parental Guidance"@en ;
+        skos:prefLabel     "PG"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
         skos:definition   "This programming, while intended for a general audience, may\n         not be suitable for younger children (under the age of 8). Parents/guardians should be\n         aware that there might be content elements which some could consider inappropriate for\n         unsupervised viewing by children in the 8-13 age range."@en ;
         skos:broader      parentalguidance:_12 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1407,8 +1408,8 @@ parentalguidance:_16.1
 
 parentalguidance:_16.1.1
         rdf:type          ebucore:TargetAudience ;
-        skos:altLabel     "PG"@en ;
-        skos:prefLabel    "Parental Guidance"@en ;
+        skos:prefLabel     "PG"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
         skos:definition   "Programmes classified \"PG\" may contain adult themes or concepts\n         but must remain suitable for children to watch under the guidance of a parent or\n         guardian."@en ;
         skos:broader      parentalguidance:_16.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3286,8 +3287,8 @@ parentalguidance:_36.1.1
 
 parentalguidance:_36.1.2
         rdf:type          ebucore:TargetAudience ;
-        skos:altLabel     "PG"@en ;
-        skos:prefLabel    "Parental Guidance"@en ;
+        skos:prefLabel     "PG"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
         skos:definition   "the themes or content of the film may not, in the opinion of\n         the board, be suitable for all children."@en ;
         skos:broader      parentalguidance:_36.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3655,8 +3656,8 @@ parentalguidance:_39.1
 
 parentalguidance:_39.2
         rdf:type          ebucore:TargetAudience ;
-        skos:altLabel     "PG"@en ;
-        skos:prefLabel    "Parental Guidance"@en ;
+        skos:prefLabel     "PG"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
         skos:definition   "Parental guidance recommended for younger viewers (awarded by\n         the Film and Video Labelling Body and the Office of Film and Literature\n         Classification)"@en ;
         skos:broader      parentalguidance:_39 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -4093,8 +4094,8 @@ parentalguidance:_45.1
 
 parentalguidance:_45.2
         rdf:type          ebucore:TargetAudience ;
-        skos:altLabel     "PG"@en ;
-        skos:prefLabel    "Parental Guidance"@en ;
+        skos:prefLabel     "PG"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
         skos:definition   "Parental supervision is advised"@en ;
         skos:broader      parentalguidance:_45 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -4723,7 +4724,7 @@ parentalguidance:_48  rdf:type  ebucore:TargetAudience ;
 parentalguidance:_48.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "G"@en ;
-        skos:prefLabel    "General"@en ;
+        skos:altLabel    "General"@en ;
         skos:definition   "General audiences. All ages admitted."@en ;
         skos:broader      parentalguidance:_48 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -4733,8 +4734,8 @@ parentalguidance:_48.1
 
 parentalguidance:_48.2
         rdf:type          ebucore:TargetAudience ;
-        skos:altLabel     "PG"@en ;
-        skos:prefLabel    "Parental Guidance"@en ;
+        skos:prefLabel     "PG"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
         skos:definition   "Parental guidance suggested. Theme or content may not be\n         suitable for children."@en ;
         skos:broader      parentalguidance:_48 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -4756,7 +4757,7 @@ parentalguidance:_48.3
 parentalguidance:_48.4
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "R"@en ;
-        skos:prefLabel    "Restricted"@en ;
+        skos:altLabel    "Restricted"@en ;
         skos:definition   "Under 17 requires accompyning parent or adult guardian. "@en ;
         skos:broader      parentalguidance:_48 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -5929,7 +5930,8 @@ parentalguidance:_63.1.1
 
 parentalguidance:_63.1.2
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "PG (Parental Guidance)"@en ;
+        skos:altLabel    "Parental Guidance"@en ;
+        skos:prefLabel    "PG"@en ;
         skos:definition   "Some material may be unsuitable for younger children. Children\n         under the age of 12 are to be accompanied by an adult. "@en ;
         skos:broader      parentalguidance:_63.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
