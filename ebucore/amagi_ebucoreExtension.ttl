@@ -454,10 +454,10 @@
     rdfs:comment  "The time when the Cuepoint occurs. Cuepoint examples 12.0, 55.55, 105.6. These float values are converted to strings"@en ;
     rdfs:label    "Cuepoint timestamp"@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#actualTotalNumberOfEpisodes>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#currentNumberOfEpisodes>
     rdf:type      rdf:Property ;
-    rdfs:comment  "To provide the actual total number of episodes in a Season."@en ;
-    rdfs:label    "Actual total number of episodes"@en ;
+    rdfs:comment  "To provide the current number of episodes in a Season."@en ;
+    rdfs:label    "Current number of episodes"@en ;
     rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Group> ;
     rdfs:range    <http://www.w3.org/2001/XMLSchema#string> .
 

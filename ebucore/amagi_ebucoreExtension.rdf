@@ -737,19 +737,19 @@
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp">
     <rdfs:label xml:lang="en">Cuepoint timestamp</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#actualTotalNumberOfEpisodes">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#currentNumberOfEpisodes">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#actualTotalNumberOfEpisodes">
-    <rdfs:comment xml:lang="en">To provide the actual total number of episodes in a Season.</rdfs:comment>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#currentNumberOfEpisodes">
+    <rdfs:comment xml:lang="en">To provide the current number of episodes in a Season.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#actualTotalNumberOfEpisodes">
-    <rdfs:label xml:lang="en">Actual total number of episodes</rdfs:label>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#currentNumberOfEpisodes">
+    <rdfs:label xml:lang="en">Current number of episodes</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#actualTotalNumberOfEpisodes">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#currentNumberOfEpisodes">
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Group"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#actualTotalNumberOfEpisodes">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#currentNumberOfEpisodes">
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic">
