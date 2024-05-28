@@ -459,7 +459,7 @@
     rdfs:comment  "To provide the current number of episodes in a Season."@en ;
     rdfs:label    "Current number of episodes"@en ;
     rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Group> ;
-    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> .
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#integer> .
 
 # Graphics
 
