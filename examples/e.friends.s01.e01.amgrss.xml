@@ -62,7 +62,9 @@
                 height="720" 
 		width="1280"
 		isTitled="true"
-		tags="generated_by:casjob,source:ingest"/>
+		tags="generated_by:casjob,source:ingest"
+		title="Time Traveler's Wife"
+		amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
 
             <media:subTitle 
                 type="text/vtt" 
