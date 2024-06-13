@@ -12,7 +12,7 @@
             <media:description>Clare desperately tries to build a life with her one true love, despite the fact that his time traveling forces them apart with no warning, never knowing when they will be reunited.</media:description>
             <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Clare essaie désespérément de construire une vie avec son seul véritable amour, malgré le fait que son temps de voyage les sépare sans avertissement, ne sachant jamais quand ils seront réunis.</media:description>
             <media:content url="s3://ovp-destination-886239521314/ccdd57d1-6106-452a-8508-a63e1b6d8924/mp4/Roku_2047070_TIME_TRAVELER_S_WIFE_THE_9865431_Warner_Bros_20211213T214401_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="6441" height="1080" width="1920" fileSize="546873760" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" type="video/mp4" bitrate="1500" framerate="23.976"/>
-            <media:thumbnail url="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/images/TheTimeTravelersWife_2047070_KeyArt_800x450.jpg" height="1080" width="1920" isTitled="true" tags="generated_by:casjob,source:ingest"/>
+            <media:thumbnail url="https://static-delivery.sr.roku.com/ccdd57d1-6106-452a-8508-a63e1b6d8924/images/TheTimeTravelersWife_2047070_KeyArt_800x450.jpg" height="1080" width="1920" isTitled="true" title="Time Traveler's Wife" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" tags="generated_by:casjob,source:ingest"/>
             <media:title>Time Traveler's Wife, The (UAT - 20200827) test</media:title>
             <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Épouse du voyageur temporel, Le (UAT - 20200827) test</media:title>
             <media:rating label="U">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27.1</media:rating>
@@ -79,7 +79,7 @@
             <amg:longDescription amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Silas découvre quelque chose sur Tara. La fusion Majestic et Agrestic laisse certaines personnes sans emploi. Shane installe un système de sécurité. Nancy découvre qu'elle est filée.</amg:longDescription>
             <media:description>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</media:description>
             <media:content url="s3://ovp-destination-886239521314/5cb9f349-5375-4c91-b355-a6c06ec5535f/mp4/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_Surround_QVBR-9_1920x1080_5495.mp4" medium="video" duration="1502" framerate="23.97"/>
-            <media:thumbnail url="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/images/LG_WEEDS_311.jpg" isTitled="true" tags="generated_by:casjob,source:ingest"/>
+            <media:thumbnail url="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/images/LG_WEEDS_311.jpg" isTitled="true" title="Time Traveler's Wife" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" tags="generated_by:casjob,source:ingest"/>
             <media:title>Cankles</media:title>
             <media:rating label="TV-MA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
             <media:subTitle type="text/vtt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" href="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/captions/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_cc_eng.vtt"/>
@@ -92,7 +92,7 @@
                 <amg:seasonNumber>3</amg:seasonNumber>
                 <media:title>Season-3 Title</media:title>
                 <media:title amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Titre de la saison 3</media:title>
-                <media:thumbnail url="http://www.myvideosite.com/thumbnails/123.jpg" height="1280" width="720" isTitled="true" tags="generated_by:casjob,source:ingest"/>
+                <media:thumbnail url="http://www.myvideosite.com/thumbnails/123.jpg" height="1280" width="720" isTitled="true" title="Time Traveler's Wife" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" tags="generated_by:casjob,source:ingest"/>
                 <amg:broadcastDate>2015-09-30</amg:broadcastDate>
 	        <amg:releaseDate date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
 	        <amg:releaseDate date="2016-11-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
@@ -129,7 +129,7 @@
                 <media:description>This series is a single-camera comedy about a single mother who makes ends meet by selling marijuana in the fictional suburb of Agrestic, California. The series exposes the dirty little secrets...</media:description>
                 <media:description amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Cette série est une comédie à caméra unique sur une mère célibataire qui joint les deux bouts en vendant de la marijuana dans la banlieue fictive d'Agrestic, en Californie. La série dévoile les sales petits secrets</media:description>
                 <amg:genre label="FICTION/DRAMA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4</amg:genre>
-                <media:thumbnail url="http://www.myvideosite.com/thumbnails/123.jpg" height="1280" width="720" isTitled="true" tags="generated_by:casjob,source:ingest"/>
+                <media:thumbnail url="http://www.myvideosite.com/thumbnails/123.jpg" height="1280" width="720" isTitled="true" title="Time Traveler's Wife" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" tags="generated_by:casjob,source:ingest"/>
                 <amg:keyword>drugs</amg:keyword>
                 <amg:keyword>crime</amg:keyword>
                 <amg:broadcastDate>2012-11-02</amg:broadcastDate>
