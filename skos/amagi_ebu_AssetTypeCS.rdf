@@ -245,17 +245,6 @@
     <skos:prefLabel xml:lang="en">TV Show</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.2">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2024-05-31</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Episode that is more than 10 minutes</skos:definition>
-    <skos:altLabel xml:lang="en">Long Form</skos:altLabel>
-    <skos:prefLabel xml:lang="en">Episode</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.1">
     <skos:note>Valid</skos:note>
     <skos:historyNote>2023-10-16</skos:historyNote>
@@ -337,16 +326,15 @@
     <skos:definition>Image Asset Type Top Concept</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2">
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
     <skos:note>Valid</skos:note>
-    <skos:prefLabel xml:lang="en">Episode</skos:prefLabel>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.2"/>
     <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1"/>
     <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1"/>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1"/>
     <skos:definition>Episode of a TV Show or a Program</skos:definition>
-    <skos:changeNote></skos:changeNote>
+    <skos:prefLabel xml:lang="en">Episode</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_2.1">
     <skos:note>Valid</skos:note>
