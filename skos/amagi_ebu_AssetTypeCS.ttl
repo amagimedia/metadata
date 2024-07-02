@@ -318,8 +318,52 @@ ast_type:_3.1
         skos:definition   "Poster Image" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_3 ;
+        skos:narrower    ast_type:_3.1.1 ;
+        skos:narrower    ast_type:_3.1.2 ;
+        skos:narrower    ast_type:_3.1.3 ;
+        skos:narrower    ast_type:_3.1.4 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_3.1.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "PosterTitledLight"@en ;
+        skos:definition   "Poster with titled text in light theme" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-07-02" ;
+        skos:note "Valid" .
+
+ast_type:_3.1.2
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "PosterTitledDark"@en ;
+        skos:definition   "Poster with titled text in dark theme" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-07-02" ;
+        skos:note "Valid" .
+
+ast_type:_3.1.3
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "PosterUntitledLight"@en ;
+        skos:definition  "Poster without titled text in light theme" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-07-02" ;
+        skos:note "Valid" .
+
+ast_type:_3.1.4
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "PosterUntitledDark"@en ;
+        skos:definition  "Poster without titled text in dark theme" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-07-02" ;
         skos:note "Valid" .
 
 ast_type:_3.2
@@ -338,6 +382,28 @@ ast_type:_3.3
         skos:definition   "Thumbnail Image" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_3 ;
+        skos:narrower    ast_type:_3.3.1 ;
+        skos:narrower    ast_type:_3.3.2 ;
+        skos:changeNote "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_3.3.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "ThumbnailLight"@en ;
+        skos:definition   "Light themed Thumbnail Image" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3.3 ;
+        skos:changeNote "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_3.3.2
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "ThumbnailDark"@en ;
+        skos:definition   "Dark themed Thumbnail Image" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_3.3 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" .
