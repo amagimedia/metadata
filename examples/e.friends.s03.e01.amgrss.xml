@@ -58,11 +58,13 @@
                 amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
 
             <media:thumbnail 
+		amg:imageType="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3"
                 url="gs://sb-aiml/metadata_test/friends_preview_s01_e01.png"
                 height="480" 
                 width="640"/>
 
             <media:thumbnail 
+		amg:imageType="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3"
                 url="gs://sb-aiml/metadata_test/friends_preview_s01_e01.webp"
                 height="480" 
                 width="640"/>
