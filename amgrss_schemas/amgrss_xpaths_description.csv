@@ -53,6 +53,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:thumbnail/@width, specifies the width of the thumbnail, xs:integer, "1920", no
 /rss/channel/item/media:thumbnail/@title, https://www.rssboard.org/media-rss#media-title, xs:string, "Iron Man", no
 /rss/channel/item/media:thumbnail/@amg:lang, specifies the language of the image title as defined in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
+/rss/channel/item/media:thumbnail/@amg:imageType, Asset Type of the image, xs:anyUri, "https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.1 (PosterTitledLight)", yes
 /rss/channel/item/media:thumbnail/@tags, specifies the user tags of type string with comma separated key value pairs, xs:string, "source:ingest,isTitled:true", no
 /rss/channel/item/media:thumbnail/@targetPlatformIds, Comma separated list of AMGPLT platform id as defined in Amagi Master to which the thumbnail instance is to targetted or packaged, xs:string, "AMGPLT001,AMGPLT005,AMGPLT020", no
 /rss/channel/item/media:thumbnail/@targetPlatformBrandIds, Comma separated list of platform Brand ids as defined in Amagi Master to which the thumbnail instance is to targetted or packaged, xs:string, "Samsung Tv+, Roku", no
@@ -115,6 +116,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:season/media:thumbnail/@width, specifies the width of the thumbnail, xs:integer, "1920", no
 /rss/channel/item/amg:season/media:thumbnail/@title, https://www.rssboard.org/media-rss#media-title, xs:string, "Iron Man", no
 /rss/channel/item/amg:season/media:thumbnail/@amg:lang, specifies the language of the image title as defined in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
+/rss/channel/item/amg:season/media:thumbnail/@amg:imageType, Asset Type of the image, xs:anyUri, "https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.1 (PosterTitledLight)", yes
 /rss/channel/item/amg:season/media:thumbnail/@tags, specifies the user tags of type string with comma separated key value pairs, xs:string, "source:ingest", no
 /rss/channel/item/amg:season/media:credit, Season level credit info https://www.rssboard.org/media-rss#media-credit, xs:complexType, "Tom Cruise", no
 /rss/channel/item/amg:season/media:credit/@amg:role, Role as defined in http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.rdf See: https://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9", yes
@@ -152,6 +154,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:series/media:thumbnail/@width, specifies the width of the thumbnail, xs:integer, "1920", no
 /rss/channel/item/amg:series/media:thumbnail/@title, https://www.rssboard.org/media-rss#media-title, xs:string, "Iron Man", no
 /rss/channel/item/amg:series/media:thumbnail/@amg:lang, specifies the language of the image title as defined in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
+/rss/channel/item/amg:series/media:thumbnail/@amg:imageType, Asset Type of the image, xs:anyUri, "https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.1 (PosterTitledLight)", yes
 /rss/channel/item/amg:series/media:thumbnail/@tags, specifies the user tags of type string with comma separated key value pairs, xs:string, "source:ingest,isTitled:true", no
 /rss/channel/item/amg:series/media:title, Series title if any See: https://www.rssboard.org/media-rss#media-title, xs:string, "Prison Break", no
 /rss/channel/item/amg:series/media:title/@amg:lang, specifies the language of the series title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
