@@ -119,7 +119,7 @@ ast_type:_1.1.4
 ast_type:_1.1.5
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "Trailer"@en ;
-        skos:prefLabel  "Preview"@en ;
+        skos:altLabel  "Preview"@en ;
         skos:definition   """A trailer (also known as a preview, coming attraction or attraction video) is
                  a commercial advertisement, originally for a feature film that is going to be exhibited 
                  in the future at a movie theater/cinema.""" ;
