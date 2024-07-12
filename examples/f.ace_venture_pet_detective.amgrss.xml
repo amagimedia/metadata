@@ -66,7 +66,7 @@
                 fileSize="40226340"
                 amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
 
-            <media:thumbnail 
+            <amg:image 
                 url="gs://sb-aiml/metadata_test/ace_ventura_pet_detactive_movie_trailer.webp"
                 height="720" 
                 width="1280"/>

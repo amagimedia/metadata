@@ -58,7 +58,7 @@
                 fileSize="3917495"
                 amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
 
-            <media:thumbnail 
+            <amg:image 
                 url="gs://sb-aiml/metadata_test/birds_of_america_movie_trailer.jpg"
                 height="360" 
                 width="480"/>

@@ -21,7 +21,7 @@
                                         <xs:element ref="amg:longDescription" minOccurs="0"/>
                                         <xs:element ref="media:description" minOccurs="0"/>
                                         <xs:element ref="media:group" minOccurs="0"/>
-                                        <xs:element ref="media:thumbnail" minOccurs="0" maxOccurs="unbounded"/>
+                                        <xs:element ref="amg:image" minOccurs="0" maxOccurs="unbounded"/>
                                         <xs:element ref="media:title" minOccurs="0"/>
                                         <xs:element ref="media:rating" minOccurs="0" maxOccurs="unbounded"/>
                                         <xs:element ref="media:subTitle" minOccurs="0" maxOccurs="unbounded"/>

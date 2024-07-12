@@ -57,7 +57,7 @@
                 fileSize="32525048"
                 amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
 
-            <media:thumbnail 
+            <amg:image 
 	 	amg:imageType="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3"
 		url="gs://sb-aiml/metadata_test/friends_preview_s01_e01.webp"
                 height="720" 
