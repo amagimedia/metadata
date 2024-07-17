@@ -60,6 +60,11 @@
             <amg:segment id="7" start="5800.5" end="6441.0"/>
 	    <amg:broadcastDate>2015-08-21</amg:broadcastDate>
 	    <amg:startNormalPlayTime>3559.0</amg:startNormalPlayTime>
+	    <amg:platformGuideParams>
+		<amg:category>Film</amg:category>
+		<amg:subCategory>Action||Spy</amg:subCategory>
+		<amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
+	    </amg:platformGuideParams>	    
 	    <amg:releaseDate date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
 	    <amg:releaseDate date="2016-11-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_CA"/>
 	    <amg:countryOfOrigin>http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US</amg:countryOfOrigin>
@@ -87,6 +92,11 @@
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Elizabeth Perkins</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Justin Kirk</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.1">Craig Zisk</media:credit>
+	    <amg:platformGuideParams>
+		<amg:category>TV Series</amg:category>
+		<amg:subCategory>Sports||Cricket</amg:subCategory>
+		<amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
+	    </amg:platformGuideParams>	    
             <amg:episodeNumber>10</amg:episodeNumber> 
             <amg:season> 
                 <amg:seasonNumber>3</amg:seasonNumber>
@@ -121,6 +131,11 @@
                     <amg:channelName>Tastemade Travel</amg:channelName>
                     <amg:channelId>AMG09822C1</amg:channelId>
                 </amg:rights>                
+	        <amg:platformGuideParams>
+		    <amg:category>TV Series</amg:category>
+		    <amg:subCategory>Sports</amg:subCategory>
+		    <amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
+	        </amg:platformGuideParams>	    
             </amg:season>
             <amg:series>
                 <amg:externalId amg:idType="http://www.ebu.ch/metadata/ontologies/skos/ebu_IdentifierTypeCodeCS#_3.12">tt0439100</amg:externalId>
@@ -164,6 +179,11 @@
                     <amg:channelName>Tastemade Travel</amg:channelName>
                     <amg:channelId>AMG09822C1</amg:channelId>
                 </amg:rights>                
+	        <amg:platformGuideParams>
+		    <amg:category>TV Series</amg:category>
+		    <amg:subCategory>Sports</amg:subCategory>
+		    <amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
+	        </amg:platformGuideParams>	    
             </amg:series>
             <amg:cuepoint>55.5</amg:cuepoint>
             <amg:cuepoint>140.7</amg:cuepoint>
@@ -225,6 +245,11 @@
                 <amg:channelName>Tastemade Travel</amg:channelName>
                 <amg:channelId>AMG09822C1</amg:channelId>
             </amg:rights>            
+	    <amg:platformGuideParams>
+		<amg:category>Music</amg:category>
+		<amg:subCategory>Videos</amg:subCategory>
+		<amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
+	    </amg:platformGuideParams>	    
             <amg:broadcastDate>2015-08-21</amg:broadcastDate>
 	    <amg:releaseDate date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
 	    <amg:releaseDate date="2016-11-22"/>
