@@ -75,6 +75,13 @@
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "A specific platform brand id to which a media resource is to be targetted"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#audioChannelLayout>
+	rdf:type      rdf:Property ;
+	rdfs:label    "Audio Channel Layout"@en ;
+	rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioTrack> ;
+	rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+	rdfs:comment  "The arrangement and spatial configuration of audio channels within an audio stream, such as mono, stereo, or surround sound setups"@en .
+
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#annotationId> 
     rdfs:range     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier> .
 
