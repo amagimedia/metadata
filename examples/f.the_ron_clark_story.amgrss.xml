@@ -54,7 +54,7 @@
                 fileSize="10149203"
                 amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
 
-            <media:thumbnail 
+            <amg:image 
                 url="gs://sb-aiml/metadata_test/the_ron_clark_story_movie_trailer.webp"
                 height="360" 
                 width="480"/>

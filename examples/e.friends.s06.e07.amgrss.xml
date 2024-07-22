@@ -56,12 +56,12 @@
                 fileSize="20053404"
                 amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en"/>
 
-            <media:thumbnail 
+            <amg:image 
                 url="gs://sb-aiml/metadata_test/friends_preview_s06_e07.png"
                 height="720" 
                 width="1280"/>
 
-            <media:thumbnail 
+            <amg:image 
                 url="gs://sb-aiml/metadata_test/friends_preview_s06_e07.webp"
                 height="720" 
                 width="1280"/>
