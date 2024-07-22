@@ -259,7 +259,7 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#audioChannelLayout">
-    <rdfs:comment xml:lang="en">The arrangement and spatial configuration of audio channels within an audio stream, such as mono, stereo, or surround sound setups</rdfs:comment>
+    <rdfs:comment xml:lang="en">The arrangement and spatial configuration of audio channels within an audio stream. Possible values are mono, stereo, 2.1, 3, quad, 3.1, 4.1, 5.1, 7.1. These values are derived from the standard channel layouts listed at https://trac.ffmpeg.org/wiki/AudioChannelManipulation#Listchannelnamesandstandardchannellayouts</rdfs:comment>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioTrack"/>
     <rdfs:label xml:lang="en">Audio Channel Layout</rdfs:label>
