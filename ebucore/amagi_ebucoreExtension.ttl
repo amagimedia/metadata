@@ -488,7 +488,7 @@
     rdfs:comment  "A category is a broad classification that groups similar types of content or products within a particular platform."@en ;
     rdfs:label    "Main category"@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#subCategory>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#subCategories>
     rdf:type      rdf:Property ;
     rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PlatformGuideParams> ;
     rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;

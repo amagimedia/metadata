@@ -142,6 +142,13 @@
     <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#subCategories">
+    <rdfs:label xml:lang="en">Sub category</rdfs:label>
+    <rdfs:comment xml:lang="en">A subcategory is a more specific classification within a broader category.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PlatformGuideParams"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasProductionCountry">
     <skos:definition xml:lang="en">This property denotes the country of the production studio.</skos:definition>
     <rdfs:label xml:lang="en">Production Country</rdfs:label>
@@ -235,13 +242,6 @@
     <skos:definition xml:lang="en">This is set to true if an image is titled. default is false. Titled images are ones with text e.g. banner with movie name, series name etc</skos:definition>
     <rdfs:label xml:lang="en">isTitled</rdfs:label>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#subCategory">
-    <rdfs:label xml:lang="en">Sub category</rdfs:label>
-    <rdfs:comment xml:lang="en">A subcategory is a more specific classification within a broader category.</rdfs:comment>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PlatformGuideParams"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCap">
     <rdfs:comment xml:lang="en">To express restriction on total number of times the media can be published per interval. </rdfs:comment>
