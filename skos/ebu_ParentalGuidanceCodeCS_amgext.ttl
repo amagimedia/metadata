@@ -6444,3 +6444,160 @@ parentalguidance:defaultSchemesList
         skos:definition  "The ordered list of Parental Guidance top concepts to be considered when no scheme is provided for a rating"@en ;
         skos:memberList  _:b5 .
 
+
+parentalguidance:_70  rdf:type  ebucore:TargetAudience ;
+        skos:prefLabel    "Eirin"@en ; # https://en.wikipedia.org/wiki/Eirin
+        skos:prefLabel    "映倫"@en ;
+        skos:scopeNote    "Region:Japan"@en ;
+        skos:definition   "Film Classification and Rating Organization"@en ;
+        skos:definition   "映画倫理機構,  Eiga Rinri Kikō"@ja ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_70.1 ;
+        skos:narrower     parentalguidance:_70.2 ;
+        skos:changeNote   "Create" ;
+        skos:historyNote  "2024-07-24" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
+parentalguidance:_70.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Rating"@en ;
+        skos:prefLabel    "レーティングマーク"@ja ;
+        skos:broader      parentalguidance:_70 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_70.1.1 ;
+        skos:narrower     parentalguidance:_70.1.2 ;
+        skos:narrower     parentalguidance:_70.1.3 ;
+        skos:narrower     parentalguidance:_70.1.4 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.1.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "G"@en ;
+        skos:prefLabel    "映倫"@ja ;
+        skos:definition   ""@ja ;
+        skos:definition   "Anybody can view"@en ;
+        skos:broader      parentalguidance:_70.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.1.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "PG12"@en ;
+        skos:definition   "Parental advice and guidance recommended for under 12 years old"@en ;
+        skos:broader      parentalguidance:_70.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.1.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "R15+"@en ; # https://en.wikipedia.org/wiki/Eirin
+        skos:definition   "Viewing is prohibited for those under 15 years old"@en ;
+        skos:broader      parentalguidance:_70.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.1.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "R18+"@en ;
+        skos:definition   "Viewing is prohibited for those under 18 years old"@en ;
+        skos:broader      parentalguidance:_70.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Criteria"@en ;
+        skos:prefLabel    "コンテンツアイコン"@ja ;
+        skos:broader      parentalguidance:_70 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_70.2.1 ;
+        skos:narrower     parentalguidance:_70.2.2 ;
+        skos:narrower     parentalguidance:_70.2.3 ;
+        skos:narrower     parentalguidance:_70.2.4 ;
+        skos:narrower     parentalguidance:_70.2.5 ;
+        skos:narrower     parentalguidance:_70.2.6 ;
+        skos:narrower     parentalguidance:_70.2.7 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.2.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "言語"@ja ;
+        skos:prefLabel    "Language"@en ;
+        skos:broader      parentalguidance:_70.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.2.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "セクシャル"@ja ;
+        skos:prefLabel    "Sex"@en ;
+        skos:broader      parentalguidance:_70.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.2.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "ヌード"@ja ;
+        skos:prefLabel    "Nudity"@en ;
+        skos:broader      parentalguidance:_70.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.2.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "暴力"@ja ;
+        skos:prefLabel    "Violence"@en ;
+        skos:broader      parentalguidance:_70.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.2.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "ホラー"@ja ;
+        skos:prefLabel    "Horror"@en ;
+        skos:broader      parentalguidance:_70.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.2.6
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "麻薬"@ja ;
+        skos:prefLabel    "Drugs"@en ;
+        skos:broader      parentalguidance:_70.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.2.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "犯罪"@ja ;
+        skos:prefLabel    "Crime"@en ;
+        skos:broader      parentalguidance:_70.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
