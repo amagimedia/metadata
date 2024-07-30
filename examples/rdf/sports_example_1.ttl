@@ -1,0 +1,25 @@
+@prefix ns1: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix ns2: <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#> . 
+@prefix contentgenre: <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#> .
+
+
+<https://compass.amagi.tv/gms/entity/A8kpahpfuE3VkMCauAPFGMP> a ns1:Episode ;
+    ns1:title "Bare Knuckle Boxing 2024: Episode 1" ;
+    ns1:hasGenre "Sports" ;
+    ns1:description "Bare Knuckle Boxing 2024 Program #37 Show 1: Episode 1." ;
+    ns1:dateReleased "2024" ;
+    ns1:hasRelatedEvent <https://compass.amagi.tv/gms/entity/A8kpahpfuE3VkMCauAPFGMP/ev-1234> .
+
+
+<https://compass.amagi.tv/gms/entity/A8kpahpfuE3VkMCauAPFGMP/ev-1234> a ns2:SportsEvent ;
+    ns2:league "Bare Knuckle Boxing" ;
+    ns2:hasEventGenre contentgenre:_3.2.13.2 ; # Boxing 
+    ns2:hasParticipatingTeam [
+        a ns1:Team ;
+        ns1:name "Team 1" ;
+    ],
+    [
+        a ns1:Team ;
+        ns1:name "Team 2" ;
+    ] ;
+    ns2:conference "Conference 1" .
