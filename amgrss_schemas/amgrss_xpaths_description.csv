@@ -44,7 +44,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:content/@targetPlatformIds, Comma separated list of AMGPLT platform id as defined in Amagi Master, xs:string,"AMGPLT005", no
 /rss/channel/item/media:content/@targetPlatformBrandIds, Comma separated list of platform Brand ids as defined in Amagi Master, xs:string,"Samsung Tv+,Roku", no
 /rss/channel/item/media:content/@targetChannelIds, Comma separated list of channel ids as defined in Amagi Master, xs:string,"amgid22008c12,amgid22008c13", no
-/rss/channel/item/media:category, https://www.rssboard.org/media-rss#media-category, xs:complexType,<media:category scheme="http://search.yahoo.com/mrss/category_schema">music/artist/album/song</media:category> <media:category scheme="urn:flickr:tags">mobile</media:category> <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_-_Pet_Detective</media:category>, no
+/rss/channel/item/media:category, https://www.rssboard.org/media-rss#media-category, xs:complexType,n/a, no
 /rss/channel/item/media:category/@label, specifies a human readable label for display, xs:string,"Ace Ventura - Pet Detective", no
 /rss/channel/item/media:category/@scheme, specifies the categorization scheme via a URI, xs:anyUri,"http://dmoz.org", no
 /rss/channel/item/media:thumbnail, https://www.rssboard.org/media-rss#media-thumbnails, xs:complexType, n/a, no
