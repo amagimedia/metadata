@@ -427,6 +427,9 @@ ast_type:_4
         skos:narrower    ast_type:_4.1 ;
         skos:narrower    ast_type:_4.2 ;
         skos:narrower    ast_type:_4.3 ;
+        skos:narrower    ast_type:_4.4 ;
+        skos:narrower    ast_type:_4.5 ;
+        skos:narrower    ast_type:_4.6 ;
         skos:changeNote "" ;
         skos:historyNote "2023-10-16" ;
         skos:note "Valid" . 
@@ -434,40 +437,62 @@ ast_type:_4
 
 ast_type:_4.1
         rdf:type        ebucore:AssetType ;
-        skos:prefLabel  "StaticSingle"@en ;
-        skos:definition   "Static single graphic represented in single png, tga or gif file" ;
+        skos:prefLabel  "Logo"@en ;
+        skos:altLabel   "Bug"@en ;
+        skos:definition   "A small graphic or logo placed in a corner of the screen, often used for branding" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_4 ;
         skos:changeNote "" ;
-        skos:historyNote "2023-10-16" ;
+        skos:historyNote "2024-07-12" ;
         skos:note "Valid" .
 
 ast_type:_4.2
         rdf:type        ebucore:AssetType ;
-        skos:prefLabel  "StaticAnimated"@en ;
-        skos:definition   "Static animated graphic represented in multiple png, tga or gif files which can be zipped" ;
+        skos:prefLabel  "AstonBand"@en ;
+        skos:altLabel   "LowerThird"@en ;
+        skos:definition   "Text or graphics displayed in the lower third of the screen, usually containing information such as names, titles, ads, or other contextual data" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_4 ;
         skos:changeNote "" ;
-        skos:historyNote "2023-10-16" ;
+        skos:historyNote "2024-07-12" ;
         skos:note "Valid" .
 
 ast_type:_4.3
         rdf:type        ebucore:AssetType ;
-        skos:prefLabel  "Dynamic-Aep"@en ;
-        skos:definition   "Dynamic graphics represented in Adobe After Effects Project file" ;
+        skos:prefLabel  "L-Band"@en ;
+        skos:definition   "L band ads are graphic overlays that appear in an L-shape on the screen, often during sports events or news broadcasts. These ads provide information without taking up the entire screen, allowing viewers to continue watching the main content." ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_4 ;
         skos:changeNote "" ;
-        skos:historyNote "2023-10-16" ;
+        skos:historyNote "2024-07-12" ;
         skos:note "Valid" .
 
 ast_type:_4.4
         rdf:type        ebucore:AssetType ;
-        skos:prefLabel  "Dynamic-Aep-Bitmovin"@en ;
-        skos:definition   "Dynamic graphics represented in Adobe After Effects Project as exported by bitmovin plugin" ;
+        skos:prefLabel  "FullScreenGraphic"@en ;
+        skos:definition   "Graphics that take up the entire screen, used for things like title cards, charts, maps, or detailed information." ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_4 ;
         skos:changeNote "" ;
-        skos:historyNote "2023-10-16" ;
+        skos:historyNote "2024-07-12" ;
+        skos:note "Valid" .
+
+ast_type:_4.5
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Ticker"@en ;
+        skos:definition   "A scrolling line of text, typically at the bottom of the screen, used for continuous updates like news headlines, sports scores, or stock prices." ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-07-12" ;
+        skos:note "Valid" .
+
+ast_type:_4.6
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "NowNextLater"@en ;
+        skos:definition   "A side band or boottom overlay that shows the current program, the next program, and the program after that." ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-07-12" ;
         skos:note "Valid" .
