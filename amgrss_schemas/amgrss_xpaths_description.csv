@@ -39,6 +39,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:content/@medium, the type of object that is encased in the media object, xs:enumeration {image audio video document executable},"video", no
 /rss/channel/item/media:content/@type, the standard MIME type of the object, xs:string,"video/mp4", no
 /rss/channel/item/media:content/@kind, media kind of the resource, xs:string,"preview|original|processed", no
+/rss/channel/item/media:content/@amg:isPrimary, specifies whether the media is primary, xs:bool,"true", no
 /rss/channel/item/media:content/@url, should specify the direct URL to the media object, xs:anyUri,"https://www.example.com/video.mp4", no
 /rss/channel/item/media:content/@width, the width of the media object, xs:integer,"1920", no
 /rss/channel/item/media:content/@targetPlatformIds, Comma separated list of AMGPLT platform id as defined in Amagi Master, xs:string,"AMGPLT005", no
