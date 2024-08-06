@@ -367,6 +367,20 @@
         rdfs:comment  "range: Agent or string"@en ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent> .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#league>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "League name as defined in https://en.wikipedia.org/wiki/Sports_league e.g. 'English Premeier League', 'National Football League' https://en.wikipedia.org/wiki/List_of_professional_sports_leagues, "@en ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label    "League Name"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#conference>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "Refer: https://en.wikipedia.org/wiki/Athletic_conference, e.g. 'National Football COnference' https://en.wikipedia.org/wiki/National_Football_Conference"@en ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label    "Conference Name"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent> .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#hasEventGenre>
         rdf:type      rdf:Property ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;

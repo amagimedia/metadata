@@ -62,6 +62,18 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/amg:platformGuideParams/amg:category, A category is a broad classification that groups similar types of content or products within a particular platform, xs:string,"Movie", no
 /rss/channel/item/amg:platformGuideParams/amg:subCategory, A subcategory is a more specific classification within a broader category. `X||Y||...` signifies a hierarchical structure where `Y` is a subcategory within `X` allowing for increasingly specific classification, xs:string,"Action||Superhero", no
 /rss/channel/item/amg:platformGuideParams/amg:appliesToPlatformId, specifies the platform_id for which the platform guide params are defined, xs:string,"NBC_HD_STB_STREAM", no
+/rss/channel/item/amg:event, Element to capture event details associated with asset item, xs:complexType, n/a, no
+/rss/channel/item/amg:event/@amg:eventType, Enum value belonging to {Sports|Music|Generic|Awards|Political}, xs:string, "Sports", no
+/rss/channel/item/amg:event/amg:league, League name for sports event, xs:string, "NBA", no
+/rss/channel/item/amg:event/amg:team, One or more teams associated with the event, xs:complexType, n/a, no
+/rss/channel/item/amg:event/amg:team/amg:teamName, Name of the team, xs:string, "Lakers", no
+/rss/channel/item/amg:event/amg:conference, Conference name for sports event Refer:https://en.wikipedia.org/wiki/Athletic_conference e.g. 'National Football COnference' https://en.wikipedia.org/wiki/National_Football_Conference, xs:string, "Western", no
+/rss/channel/item/amg:event/amg:description, Description of the event, xs:string, "NBA Finals", no
+/rss/channel/item/amg:event/amg:genre, Genre of the event. https://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS.htm, xs:anyUri, "http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.3.8", yes
+/rss/channel/item/amg:event/amg:eventStartDateTIme, Start date and time of the event, xs:dateTime, "2021-07-08T00:00:00Z", no 
+/rss/channel/item/amg:event/amg:eventEndDateTIme, End date and time of the event, xs:dateTime, "2021-07-08T23:59:59Z", no
+/rss/channel/item/amg:event/amg:venue, Venue of the event, xs:string, "Staples Center", no
+/rss/channel/item/amg:event/amg:name, Name of the event, xs:string, "NBA Finals", no
 /rss/channel/item/media:title, https://www.rssboard.org/media-rss#media-title, xs:string,"Prison Break", no
 /rss/channel/item/media:title/@amg:lang, specifies the language of the title as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri,"http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes
 /rss/channel/item/media:credit, https://www.rssboard.org/media-rss#media-credit, xs:complexType,"Tom Cruise", no
