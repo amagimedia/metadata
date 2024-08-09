@@ -87,7 +87,7 @@
             <media:thumbnail amg:imageType="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3" url="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/images/LG_WEEDS_311.jpg" title="Time Traveler's Wife" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" tags="generated_by:casjob,source:ingest,isTitled:true"/>
             <media:title>Cankles</media:title>
             <media:rating label="TV-MA">http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.7</media:rating>
-            <media:subTitle type="text/vtt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" href="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/captions/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_cc_eng.vtt"/>
+            <media:subTitle type="text/vtt" amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_en" href="https://static-delivery.sr.roku.com/5cb9f349-5375-4c91-b355-a6c06ec5535f/captions/LG_WEEDS_311_HD_8CH_EN_Lionsgate_20210618T120642_cc_eng.scc" isDropFrameTimcecode="true"/>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Mary-Louise Parker</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Elizabeth Perkins</media:credit>
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.9">Justin Kirk</media:credit>

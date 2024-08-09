@@ -73,6 +73,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:subTitle/@href, specifies the url of the subtitle, xs:anyUri,"https://www.example.com/subtitle.srt", no
 /rss/channel/item/media:subTitle/@amg:lang, specifies the language of the subtitle as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri,"http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes 
 /rss/channel/item/media:subTitle/@type, the standard MIME type of the object, xs:string,"text/srt", no
+/rss/channel/item/media:subTitle/@isDropFrameTimecode, Specifies if the subtitle timecode is with dropframe, xs:boolean,"true", no
 /rss/channel/item/amg:rights, Element to express rights associated with the media object, xs:complexType, n/a, no
 /rss/channel/item/amg:rights/amg:rightsLink, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html This could point to a rightsLine URL, xs:string,"https://rightsline.com/123456", no
 /rss/channel/item/amg:rights/amg:channelId, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_publicationChannelId.html, xs:anyUri,"AMG009881C1", yes
