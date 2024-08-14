@@ -158,6 +158,14 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isDirectedToChildren">
+    <skos:definition xml:lang="en">This property denotes weather the asset has been targeted to children.</skos:definition>
+    <rdfs:label xml:lang="en">Is directed to children</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPublicationRestrictions">
     <rdfs:label xml:lang="en">hasPublicationRestrictions</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy"/>
