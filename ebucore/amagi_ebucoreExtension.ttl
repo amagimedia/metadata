@@ -407,7 +407,7 @@
     rdfs:domain   ebucore:Asset ;
     rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
     rdfs:label "Is directed to children"@en ;
-    skos:definition "This property denotes weather the asset has been targeted to children."@en .
+    skos:definition "This property denotes whether the asset has been targeted to children."@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release>
     rdf:type         rdfs:Class ;
