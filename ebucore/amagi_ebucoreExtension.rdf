@@ -408,4 +408,11 @@
     <rdfs:label xml:lang="en">Graphic</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#userDefinedFps">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+    <rdfs:comment xml:lang="en">The unit used to express the user provided frame rate of a MediaResource in frames/second associated with an ebucore asset.</rdfs:comment>
+    <rdfs:label xml:lang="en">User Defined Frame Rate</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
 </rdf:RDF>
