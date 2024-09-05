@@ -510,7 +510,7 @@
         rdfs:comment     "Entity to represent the graphic to be used as overlay"@en ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#userDefinedFps>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasUserDefinedFps>
         rdf:type                rdf:Property ;
         rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment            "The unit used to express the user provided frame rate of a MediaResource in frames/second associated with an ebucore asset."@en ;
