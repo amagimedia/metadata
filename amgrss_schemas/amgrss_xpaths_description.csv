@@ -39,6 +39,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:content/@medium, the type of object that is encased in the media object, xs:enumeration {image audio video document executable},"video", no
 /rss/channel/item/media:content/@type, the standard MIME type of the object, xs:string,"video/mp4", no
 /rss/channel/item/media:content/@kind, media kind of the resource, xs:string,"preview|original|processed", no
+/rss/channel/item/media:content/@amg:isPrimary, specifies whether the media is primary, xs:bool,"true", no
 /rss/channel/item/media:content/@url, should specify the direct URL to the media object, xs:anyUri,"https://www.example.com/video.mp4", no
 /rss/channel/item/media:content/@width, the width of the media object, xs:integer,"1920", no
 /rss/channel/item/media:content/@targetPlatformIds, Comma separated list of AMGPLT platform id as defined in Amagi Master, xs:string,"AMGPLT005", no
@@ -73,6 +74,7 @@ xpath, description, valueType, exampleValues, mappingRequired
 /rss/channel/item/media:subTitle/@href, specifies the url of the subtitle, xs:anyUri,"https://www.example.com/subtitle.srt", no
 /rss/channel/item/media:subTitle/@amg:lang, specifies the language of the subtitle as defiend in https://www.ebu.ch/metadata/ontologies/skos/ebu_ISO639_1LanguageCodeCS.rdf, xs:anyUri,"http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCS#_en", yes 
 /rss/channel/item/media:subTitle/@type, the standard MIME type of the object, xs:string,"text/srt", no
+/rss/channel/item/media:subTitle/@amg:isDropFrameTimecode, Specifies if the subtitle timecode is with dropframe, xs:boolean,"true", no
 /rss/channel/item/amg:rights, Element to express rights associated with the media object, xs:complexType, n/a, no
 /rss/channel/item/amg:rights/amg:rightsLink, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_rightsLink.html This could point to a rightsLine URL, xs:string,"https://rightsline.com/123456", no
 /rss/channel/item/amg:rights/amg:channelId, https://www.ebu.ch/metadata/ontologies/ebucore/ebucore_publicationChannelId.html, xs:anyUri,"AMG009881C1", yes
