@@ -81,6 +81,8 @@
             <amg:genre label="Popular drama">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.1</amg:genre>
             <amg:genre label="broken comedy">http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7</amg:genre>
             <amg:assetType label="Episode">https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2</amg:assetType>
+            <amg:hasCreator>Sony Production house</amg:hasCreator>
+            <amg:isDirectedToChildren>true</amg:isDirectedToChildren>
             <amg:longDescription>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</amg:longDescription>
             <amg:longDescription amg:lang="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso639_1LanguageCodeCS#_fr">Silas découvre quelque chose sur Tara. La fusion Majestic et Agrestic laisse certaines personnes sans emploi. Shane installe un système de sécurité. Nancy découvre qu'elle est filée.</amg:longDescription>
             <media:description>Silas discovers something about Tara. The Majestic and Agrestic merger leaves some people without jobs. Shane installs a security system. Nancy discovers she's being tailed.</media:description>
