@@ -4787,6 +4787,16 @@ parentalguidance:_48.6
         skos:historyNote  "" ;
         skos:example      "" .
 
+parentalguidance:_48.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "TV-14"@en ;
+        skos:definition   "Parents strongly cautioned"@en ;
+        skos:broader      parentalguidance:_48 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
 parentalguidance:_49  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "US-RIAA"@en ;
         skos:scopeNote    "Region:United States"@en ;
