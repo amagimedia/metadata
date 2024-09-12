@@ -1,6 +1,6 @@
+# Ratings/Parental Guidance
 
-<!DOCTYPE html>
-<html lang="en">
+<div class="no-side-panes">
     <style>
         table {
             border-collapse: collapse;
@@ -28,17 +28,9 @@
         }
     </style>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSV Viewer with HTML, CSS & JavaScript</title>
-
-    </head>
-    <body>
-        <table id="csvRoot"></table>
+    <table class="no-side-panes" id="csvRoot"></table>
       
       <script src="https://cdn.jsdelivr.net/npm/papaparse@5.2.0/papaparse.min.js"></script>
       <script src="./table_render.js"></script>
-      <script>table_load('./amgrss_xpaths_description.csv');</script>
-    </body>
-</html>
+      <script>table_load('./ratings.csv');</script>
+</div>

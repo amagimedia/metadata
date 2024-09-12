@@ -6457,7 +6457,7 @@ parentalguidance:defaultSchemesList
 
 parentalguidance:_70  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "Eirin"@en ; # https://en.wikipedia.org/wiki/Eirin
-        skos:prefLabel    "映倫"@en ;
+        skos:prefLabel    "映倫"@ja ;
         skos:scopeNote    "Region:Japan"@en ;
         skos:definition   "Film Classification and Rating Organization"@en ;
         skos:definition   "映画倫理機構,  Eiga Rinri Kikō"@ja ;

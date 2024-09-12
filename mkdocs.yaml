@@ -102,8 +102,16 @@ markdown_extensions:
 nav:
   - Overview: index.md
   - AMGRSS Specification: amgrss.md
+  - Ratings: ratings.md
+  - Genres: 
+      Generic Genres: generic_genres.md
+      Music Genres: music_genres.md
+      Sports Genres: sports_genres.md
 
-  
+
+extra_css:
+  - stylesheets/extra.css
+
 extra_javascript:
     - javascripts/config.js
     - https://polyfill.io/v3/polyfill.min.js?features=es6
