@@ -1,0 +1,21 @@
+.md-grid {
+  max-width: 1440px; 
+
+}
+
+.md-sidebar {
+    margin-left: -10px; /* Adjust the value as needed */
+    margin-right: -50px; /* Adjust the value as needed */
+}
+
+/* Hide left (sidebar) and right (toc) side panes for this specific class */
+.no-side-panes .md-sidebar,
+.no-side-panes .md-sidebar--secondary {
+    display: none;
+}
+
+/* Expand the main content area to fill the entire width */
+.no-side-panes .md-main__inner {
+    max-width: 100%;
+    margin: 0;
+}

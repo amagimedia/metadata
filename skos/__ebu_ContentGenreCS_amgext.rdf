@@ -1030,6 +1030,17 @@
     <skos:prefLabel xml:lang="en">Doo-Wop</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.6.3">
+    <skos:note>Obsolete</skos:note>
+    <skos:example></skos:example>
+    <skos:historyNote>2008-08-20</skos:historyNote>
+    <skos:changeNote>See 3.5.4</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.6"/>
+    <skos:definition xml:lang="en"></skos:definition>
+    <skos:prefLabel xml:lang="en">Surprise</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.9.1.2.4">
     <skos:note>Valid</skos:note>
     <skos:example></skos:example>
@@ -2116,6 +2127,17 @@
     <skos:definition xml:lang="en">The means by which people communicate with each
          other.</skos:definition>
     <skos:prefLabel xml:lang="en">Languages</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.10.13">
+    <skos:note>Obsolete</skos:note>
+    <skos:example></skos:example>
+    <skos:historyNote>2008-08-20</skos:historyNote>
+    <skos:changeNote>Duplication with 3.1.10.5</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.10"/>
+    <skos:definition></skos:definition>
+    <skos:prefLabel xml:lang="en">New media</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.3.8">
@@ -7552,6 +7574,19 @@
     <skos:prefLabel xml:lang="en">Chistera corta</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.6.13">
+    <skos:note>Obsolete</skos:note>
+    <skos:example></skos:example>
+    <skos:historyNote>2007-04-12</skos:historyNote>
+    <skos:changeNote>See duplication with 3.4.6.5</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.4.6"/>
+    <skos:definition xml:lang="en">Dramatized narrative about the deeds of a traditional or
+         historical hero or heroes and/or dealing with or characterized by events of historical or
+         legendary importance e.g. El Cid</skos:definition>
+    <skos:prefLabel xml:lang="en">Epic</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.10.7">
     <skos:note>Valid</skos:note>
     <skos:example></skos:example>
@@ -9128,17 +9163,6 @@
     <skos:prefLabel xml:lang="en">Liberal Arts and Science</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.20">
-    <skos:note>Valid</skos:note>
-    <skos:example></skos:example>
-    <skos:historyNote>2024-04-10</skos:historyNote>
-    <skos:changeNote>Created. Refer: https://www.movielabs.com/md/md/common_genre.html</skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5"/>
-    <skos:definition></skos:definition>
-    <skos:prefLabel xml:lang="en">Anime</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.1.1.1">
     <skos:note>Valid</skos:note>
     <skos:example></skos:example>
@@ -9653,6 +9677,17 @@
     <skos:prefLabel xml:lang="en">Black Metal</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7.13">
+    <skos:note>Obsolete</skos:note>
+    <skos:example></skos:example>
+    <skos:historyNote>2013-06-10</skos:historyNote>
+    <skos:changeNote>Update Wikipedia</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.7"/>
+    <skos:definition xml:lang="en"></skos:definition>
+    <skos:prefLabel xml:lang="en">Slapstick</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.10.7">
     <skos:note>Valid</skos:note>
     <skos:example></skos:example>
@@ -9772,6 +9807,22 @@
     <skos:definition xml:lang="en">e.g. The Sex Pistols</skos:definition>
     <skos:prefLabel xml:lang="en">Punk Rock</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.6.2.4">
+    <skos:hiddenLabel xml:lang="en">hard bop</skos:hiddenLabel>
+    <skos:prefLabel xml:lang="en">Bop/Hard bop/Bebop/Postbop</skos:prefLabel>
+    <skos:changeNote>Duplication, changed in 3.6.2.11</skos:changeNote>
+    <skos:hiddenLabel xml:lang="en">bop</skos:hiddenLabel>
+    <skos:hiddenLabel xml:lang="en">postbop</skos:hiddenLabel>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.6.2"/>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">e.g. Sonny Rollings, Oscar Peterson, J. Coltrane, T.
+         Monk</skos:definition>
+    <skos:note>Obsolete</skos:note>
+    <skos:historyNote>2008-08-20</skos:historyNote>
+    <skos:hiddenLabel xml:lang="en">bebop</skos:hiddenLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.6.3.2">
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
@@ -12209,6 +12260,17 @@
          XML</skos:changeNote>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.1.2"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.6.6">
+    <skos:note>Obsolete</skos:note>
+    <skos:example></skos:example>
+    <skos:historyNote>2008-08-20</skos:historyNote>
+    <skos:changeNote>Duplication with 3.2.6.13</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.6"/>
+    <skos:definition></skos:definition>
+    <skos:prefLabel xml:lang="en">Water Polo</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.16">
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.16.1"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.16.4"/>
@@ -12350,6 +12412,19 @@
     <skos:prefLabel xml:lang="en">Outrigger</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.6.2.5">
+    <skos:note>Obsolete</skos:note>
+    <skos:example></skos:example>
+    <skos:hiddenLabel xml:lang="en">smooth</skos:hiddenLabel>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.6.2"/>
+    <skos:historyNote>2008-08-20</skos:historyNote>
+    <skos:changeNote>Duplicate, changed into 3.6.2.12</skos:changeNote>
+    <skos:prefLabel xml:lang="en">Traditional/Smooth</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+    <skos:definition></skos:definition>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:hiddenLabel xml:lang="en">traditional</skos:hiddenLabel>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.1.2.3">
     <skos:note>Valid</skos:note>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
@@ -12482,6 +12557,18 @@
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.16"/>
     <skos:definition></skos:definition>
     <skos:prefLabel xml:lang="en">Sabre team</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.6.3.1.12">
+    <skos:note>Valid</skos:note>
+    <skos:example></skos:example>
+    <skos:historyNote>2007-04-12</skos:historyNote>
+    <skos:changeNote>First version after conversion of P/META into
+         XML</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.6.3.1"/>
+    <skos:definition xml:lang="en">Kayak double</skos:definition>
+    <skos:prefLabel xml:lang="en">K-2 500 m</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.4.9.2">
@@ -12793,6 +12880,7 @@
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.10">
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.10.7"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1"/>
+    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.10.13"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.10.9"/>
     <skos:definition></skos:definition>
@@ -12859,6 +12947,18 @@
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.6.1"/>
     <skos:definition xml:lang="en">Small group of instruments</skos:definition>
     <skos:prefLabel xml:lang="en">Chamber</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.6.3.1.11">
+    <skos:note>Valid</skos:note>
+    <skos:example></skos:example>
+    <skos:historyNote>2007-04-12</skos:historyNote>
+    <skos:changeNote>First version after conversion of P/META into
+         XML</skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.6.3.1"/>
+    <skos:definition xml:lang="en">Kayak single</skos:definition>
+    <skos:prefLabel xml:lang="en">K-1 500 m</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.5.8.11">
@@ -15660,18 +15760,6 @@
     <skos:prefLabel xml:lang="en">Individual</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5.19">
-    <skos:note>Valid</skos:note>
-    <skos:example>Tom and Jerry, The Simpsons, South Park</skos:example>
-    <skos:historyNote>2024-04-10</skos:historyNote>
-    <skos:changeNote>First version after conversion of P/META into
-         XML</skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.5"/>
-    <skos:definition></skos:definition>
-    <skos:prefLabel xml:lang="en">Animation</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.1.2.1.1">
     <skos:note>Valid</skos:note>
     <skos:example></skos:example>
@@ -16411,18 +16499,6 @@
          XML</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.13.2.1"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.13.2.7"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.0.0">
-    <skos:note>Valid</skos:note>
-    <skos:prefLabel></skos:prefLabel>
-    <skos:example></skos:example>
-    <skos:historyNote>2024-04-03</skos:historyNote>
-    <skos:changeNote>First version after conversion of P/META into
-         XML</skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS"/>
-    <skos:definition xml:lang="en">For use where proprietary extensions are required, or the use
-         of keywords that do not fit in any classification below; Amagi Extension Undefined</skos:definition>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.2.3.1">
     <skos:historyNote>2007-04-12</skos:historyNote>

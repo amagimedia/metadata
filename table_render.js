@@ -81,9 +81,10 @@ class TableCsv {
   const tableCsv = new TableCsv(tableRoot);
 
 
-  table_load = () => {
+  table_load = (file) => {
     console.log("tableRoot.onload");
-    Papa.parse('./amgrss_xpaths_description.csv', {
+    //Papa.parse('./amgrss_xpaths_description.csv', {
+    Papa.parse(file, {
         download: true,
         delimiter: ",",
         skipEmptyLines: true,
@@ -94,6 +95,6 @@ class TableCsv {
       });
 }   
 
-table_load();
+//table_load();
 
 

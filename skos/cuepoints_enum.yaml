@@ -1,0 +1,5 @@
+CuepointType:
+  type: string
+  description: Cuepoint type of the cuepoint. Maps to amg_ext:hasCuepointType.
+  enum:
+    - ad_break

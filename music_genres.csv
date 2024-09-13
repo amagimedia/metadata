@@ -1,0 +1,250 @@
+serial_number,genre_id,genre_label
+1,3.6,MUSIC
+2,3.6.0,Serious music
+3,3.6.1,Classical music
+4,3.6.1.1,Early
+5,3.6.1.2,Classical music > Classical
+6,3.6.1.3,Romantic
+7,3.6.1.4,Contemporary
+8,3.6.1.5,Light classical
+9,3.6.1.6,Middle Ages
+10,3.6.1.7,Renaissance
+11,3.6.1.8,Baroque
+12,3.6.1.9,Opera
+13,3.6.1.10,Solo instruments
+14,3.6.1.10.1,Drum Solo
+15,3.6.1.11,Chamber
+16,3.6.1.12,Symphonic
+17,3.6.1.13,Vocal
+18,3.6.1.14,Choral
+19,3.6.1.15,Song
+20,3.6.1.16,Orchestral
+21,3.6.1.17,Organ
+22,3.6.1.18,String Quartet
+23,3.6.1.19,Experimental/Avant Garde
+24,3.6.1.20,Sonata
+25,3.6.2,Jazz
+26,3.6.2.1,New Orleans/Early jazz
+27,3.6.2.2,Big band/Swing/Dixie
+28,3.6.2.3,Blues/Soul jazz
+29,3.6.2.6,Cool
+30,3.6.2.7,Modern/Avant-garde/Free
+31,3.6.2.8,Latin and World jazz
+32,3.6.2.9,Pop jazz/Jazz funk
+33,3.6.2.10,Acid jazz/Fusion
+34,3.6.2.11,Bop/Hard bop/Bebop/Postbop
+35,3.6.2.12,Traditional/Smooth
+36,3.6.2.13,Chorus
+37,3.6.2.14,Groove
+38,3.6.3,Background music
+39,3.6.3.1,Middle-of-the-road
+40,3.6.3.2,Easy listening
+41,3.6.3.3,Ambient
+42,3.6.3.4,Mood music/Meditative
+43,3.6.3.5,Oldies
+44,3.6.3.6,Love songs
+45,3.6.3.7,Dance hall
+46,3.6.3.8,Soundtrack
+47,3.6.3.9,Trailer
+48,3.6.3.10,Showtunes
+49,3.6.3.11,TV
+50,3.6.3.12,Cabaret
+51,3.6.3.13,Instrumental
+52,3.6.3.14,Sound clip
+53,3.6.3.15,Retro
+54,3.6.3.16,Space
+55,3.6.3.17,Dream
+56,3.6.3.18,Comedy
+57,3.6.3.19,Humour
+58,3.6.3.20,Psychedelic
+59,3.6.4,Pop-rock
+60,3.6.4.1,Pop
+61,3.6.4.1.1,UK Pop
+62,3.6.4.1.2,JPop
+63,3.6.4.1.3,Soft pop
+64,3.6.4.1.4,Pop Folk
+65,3.6.4.1.5,Pop Funk
+66,3.6.4.1.6,Instrumental Pop
+67,3.6.4.2,Chanson/Ballad
+68,3.6.4.2.1,Power Ballad
+69,3.6.4.2.2,Japanese ballads / Enka
+70,3.6.4.3,Traditional rock and roll
+71,3.6.4.5,Classic/Dance/Pop-rock
+72,3.6.4.6,Folk
+73,3.6.4.6.1,Zydeco
+74,3.6.4.8,New Age
+75,3.6.4.11,Seasonal/Holiday
+76,3.6.4.12,Japanese pop-rock
+77,3.6.4.13,Karaoke/Singing contests
+78,3.6.4.14,Rock
+79,3.6.4.14.1,AOR / Slow Rock / Soft Rock
+80,3.6.4.14.2,Metal
+81,3.6.4.14.2.1,Metal > Death Metal
+82,3.6.4.14.2.2,Heavy Metal
+83,3.6.4.14.2.3,Metal > Black Metal
+84,3.6.4.14.2.4,Trash Metal
+85,3.6.4.14.3,Glam Rock
+86,3.6.4.14.4,Punk Rock
+87,3.6.4.14.5,Prog / Symphonic Rock
+88,3.6.4.14.6,Alternative / Indie / Lo-fi
+89,3.6.4.14.7,Experimental / Avant Garde
+90,3.6.4.14.8,Art Rock
+91,3.6.4.14.9,Folk Rock
+92,3.6.4.14.10,Nu Punk
+93,3.6.4.14.11,Grunge
+94,3.6.4.14.12,Garage Punk/Psychedelia
+95,3.6.4.14.13,Heavy Rock
+96,3.6.4.14.13.1,Hard Rock
+97,3.6.4.14.13.2,Southern Rock
+98,3.6.4.14.13.3,Progressive Rock
+99,3.6.4.14.14,Psychedelic Rock
+100,3.6.4.15,New Wave
+101,3.6.4.16,Easy listening / Exotica
+102,3.6.4.17,Singer/Songwriter
+103,3.6.4.14.18,Instrumental Rock
+104,3.6.5,Blues/Rhythm and Blues/Soul/Gospel/Spiritual
+105,3.6.5.1,Blues
+106,3.6.5.1.1,Doo-Wop
+107,3.6.5.2,R&B
+108,3.6.5.2.1,Hip Hop Soul
+109,3.6.5.2.2,Neo Soul
+110,3.6.5.2.3,New Jack Swing
+111,3.6.5.3,Soul
+112,3.6.5.3.1,Rythmic Soul
+113,3.6.5.4,Gospel
+114,3.6.5.5,Rhythm and Blues
+115,3.6.5.6,Funk
+116,3.6.5.6.1,Afro Funk
+117,3.6.5.6.1.1,Afro Jazz Funk
+118,3.6.5.6.2,Rare Groove
+119,3.6.6,Country and Western
+120,3.6.6.1,Bluegrass
+121,3.6.7,Rap/Hip Hop/Reggae
+122,3.6.7.1,Rap/Christian rap
+123,3.6.7.1.1,Gangsta Rap
+124,3.6.7.2,Hip Hop/Trip-Hop
+125,3.6.7.2.1,Dirty South Hip Hop
+126,3.6.7.2.2,East Coast Hip Hop
+127,3.6.7.2.4,UK Hip Hop
+128,3.6.7.2.5,West Coast Hip Hop
+129,3.6.7.3,Reggae
+130,3.6.7.3.1,Dancehall
+131,3.6.7.3.2,Dub
+132,3.6.7.3.3,Lovers Rock
+133,3.6.7.3.4,Raggamuffin
+134,3.6.7.3.5,Rocksteady
+135,3.6.7.3.6,Ska
+136,3.6.8,Electronic/Club/Urban/Dance/DJ
+137,3.6.8.1,Acid/Punk/Acid Punk
+138,3.6.8.2,Disco
+139,3.6.8.3,Techno/Euro-Techno/Techno-Industrial/Industrial
+140,3.6.8.4,House/Techno House
+141,3.6.8.4.1,Progressive House
+142,3.6.8.4.2,Euro House
+143,3.6.8.4.3,Booty Bass
+144,3.6.8.5,Rave
+145,3.6.8.6,Jungle/Tribal
+146,3.6.8.7,Trance
+147,3.6.8.11,Drum and Bass
+148,3.6.8.14,Dance/Dance-pop/Eurodance
+149,3.6.8.15,Garage (1990s)
+150,3.6.8.16,UK Garage
+151,3.6.8.16.1,2 Step
+152,3.6.8.16.2,4/4 Vocal Garage
+153,3.6.8.16.3,8 Bar
+154,3.6.8.16.4,Dubstep
+155,3.6.8.16.5,Eski-Beat
+156,3.6.8.16.6,Grime
+157,3.6.8.16.7,Soulful House and Garage
+158,3.6.8.16.8,Speed Garage
+159,3.6.8.16.9,Sublow
+160,3.6.8.17,Breakbeat
+161,3.6.8.18,Broken Beat
+162,3.6.8.22,Ambient Dance
+163,3.6.8.23,Alternative Dance
+164,3.6.8.24,Gothic
+165,3.6.8.24.1,Gothic Rock
+166,3.6.8.24.2,Gothic > Black Metal
+167,3.6.8.24.3,Gothic > Death Metal
+168,3.6.8.24.4,Death Rock
+169,3.6.8.24.5,Electrogoth
+170,3.6.8.24.6,Darkwave
+171,3.6.9,World/Traditional/Ethnic/Folk music
+172,3.6.9.1,Africa
+173,3.6.9.2,Asia
+174,3.6.9.2.1,Goa
+175,3.6.9.2.2,Folk (Japanese)
+176,3.6.9.3,Australia/Oceania
+177,3.6.9.4,Caribbean
+178,3.6.9.4.1,Calypso
+179,3.6.9.4.2,Soca
+180,3.6.9.4.3,Merengue
+181,3.6.9.5,Europe
+182,3.6.9.5.1,Celtic
+183,3.6.9.5.1.1,Ireland
+184,3.6.9.5.2,Europe > Polka
+185,3.6.9.5.3,Britain
+186,3.6.9.6,Latin America
+187,3.6.9.6.1,Salsa
+188,3.6.9.6.2,Samba
+189,3.6.9.6.3,Tango
+190,3.6.9.6.4,Rumba
+191,3.6.9.6.5,Mambo
+192,3.6.9.7,Middle East
+193,3.6.9.8,North America
+194,3.6.9.8.1,Native U.S.
+195,3.6.9.8.2,North America > Polka
+196,3.6.9.9,Fusion
+197,3.6.9.9.1,Fast Fusion
+198,3.6.9.10,Modern / Contemporary
+199,3.6.9.11,National
+200,3.6.9.12,Foreign
+201,3.6.9.13,Traditional
+202,3.6.10,Hit-Chart/Song Requests
+203,3.6.11,Children's songs
+204,3.6.12,Event music
+205,3.6.12.1,Wedding
+206,3.6.12.2,Sports
+207,3.6.12.3,Ceremonial/Chants
+208,3.6.13,Spoken
+209,3.6.14,Dance
+210,3.6.14.1,Ballet
+211,3.6.14.2,Tap
+212,3.6.14.3,Modern
+213,3.6.14.4,Dance > Classical
+214,3.6.14.5,Ballroom
+215,3.6.14.6,Cheerleading
+216,3.6.15,Religious music
+217,3.6.16,Era
+218,3.6.16.1,Medieval (before 1400)
+219,3.6.16.2,Renaissance (1400-1600)
+220,3.6.16.3,Baroque (1600-1760)
+221,3.6.16.4,Classical (1730-1820)
+222,3.6.16.5,Romantic (1815-1910)
+223,3.6.16.6,20th Century
+224,3.6.16.6.1,1910s
+225,3.6.16.6.2,1920s
+226,3.6.16.6.3,1930s
+227,3.6.16.6.4,1940s
+228,3.6.16.6.5,1950s
+229,3.6.16.6.6,1960s
+230,3.6.16.6.7,1970s
+231,3.6.16.6.8,1980s
+232,3.6.16.6.9,1990s
+233,3.6.16.7,21st Century
+234,3.6.16.7.1,2000s
+235,3.6.16.7.2,2010s
+236,3.6.16.7.3,2020s
+237,3.6.16.7.4,2030s
+238,3.6.16.7.5,2040s
+239,3.6.16.7.6,2050s
+240,3.6.16.7.7,2060s
+241,3.6.16.7.8,2070s
+242,3.6.16.7.9,2080s
+243,3.6.16.7.10,2090s
+244,3.6.17,Accoustic
+245,3.6.18,Game
+246,3.6.19,Noise
+247,3.6.20,Cult
+248,3.6.21,Freestyle
+249,3.6.22,Slam

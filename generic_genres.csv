@@ -1,0 +1,454 @@
+serial_number,genre_id,genre_label
+1,3.1,NON-FICTION/INFORMATION
+2,3.1.1,News / Pure information
+3,3.1.1.1,Daily news
+4,3.1.1.1.1,Discussion
+5,3.1.1.1.2,Interview
+6,3.1.1.1.3,Daily news > Chat
+7,3.1.1.1.4,Debate
+8,3.1.1.2,Special news/edition
+9,3.1.1.3,Special Report
+10,3.1.1.4,Commentary
+11,3.1.1.5,Periodical/General
+12,3.1.1.6,National/National politics/National assembly
+13,3.1.1.6.1,Government
+14,3.1.1.6.2,Election
+15,3.1.1.7,Economy/Market/Financial/Business
+16,3.1.1.7.1,Economics advice / Investment
+17,3.1.1.8,Foreign/International
+18,3.1.1.8.1,Non-profit organisations
+19,3.1.1.9,News / Pure information > Sports
+20,3.1.1.10,Cultural
+21,3.1.1.10.1,Cultural > Arts
+22,3.1.1.10.2,Entertainment
+23,3.1.1.10.2.1,Tabloid
+24,3.1.1.10.3,Film
+25,3.1.1.10.4,Cultural > Music
+26,3.1.1.10.5,Cultural > Radio
+27,3.1.1.10.6,TV
+28,3.1.1.11,News / Pure information > Local/Regional
+29,3.1.1.11.1,Local
+30,3.1.1.11.2,Regional
+31,3.1.1.12,Traffic
+32,3.1.1.13,Weather forecasts
+33,3.1.1.14,Service information
+34,3.1.1.15,Public affairs
+35,3.1.1.16,Current affairs
+36,3.1.1.17,Consumer affairs
+37,3.1.1.18,Warning
+38,3.1.1.19,Survey
+39,3.1.1.20,Infotainment
+40,3.1.1.21,Advice
+41,3.1.1.22,Debates / Conferences
+42,3.1.1.23,Social affairs
+43,3.1.1.23.1,Social issues
+44,3.1.1.23.2,Social advisory
+45,3.1.1.24,News / Pure information > Fashion
+46,3.1.1.25,News magazine
+47,3.1.1.26,Management
+48,3.1.2,Religion/Philosophies/Spirituality
+49,3.1.2.1,Religion
+50,3.1.2.1.1,Buddhism
+51,3.1.2.1.2,Hinduism
+52,3.1.2.1.3,Christianity
+53,3.1.2.1.4,Islam
+54,3.1.2.1.5,Judaism
+55,3.1.2.1.8,Shintoism
+56,3.1.2.1.9,Baha'i
+57,3.1.2.1.10,Confucianism
+58,3.1.2.1.11,Jainism
+59,3.1.2.1.12,Sikhism
+60,3.1.2.1.13,Taoism
+61,3.1.2.1.14,Vodun (Voodoo)
+62,3.1.2.1.15,Asatru (Nordic Paganism)
+63,3.1.2.1.16,Drudism
+64,3.1.2.1.17,Goddess worship
+65,3.1.2.1.18,Wicca
+66,3.1.2.1.19,Witchcraft
+67,3.1.2.1.20,Caodaism
+68,3.1.2.1.21,Damanhur Community
+69,3.1.2.1.22,Druse (Mowahhidoon)
+70,3.1.2.1.23,Eckankar
+71,3.1.2.1.24,Gnosticism
+72,3.1.2.1.25,Rroma (Gypsies)
+73,3.1.2.1.26,Hare Krishna and ISKCON
+74,3.1.2.1.27,Lukumi (Santeria)
+75,3.1.2.1.28,Macumba
+76,3.1.2.1.29,Native American spirituality
+77,3.1.2.1.30,New Age
+78,3.1.2.1.31,Osho
+79,3.1.2.1.32,Satanism
+80,3.1.2.1.33,Scientology
+81,3.1.2.1.34,Thelema
+82,3.1.2.1.35,Unitarian-Universalism
+83,3.1.2.1.36,The Creativity Movement
+84,3.1.2.1.37,Zoroastrianism
+85,3.1.2.1.38,Quakerism
+86,3.1.2.1.39,Rastafarianism
+87,3.1.2.1.40,Unificationism
+88,3.1.2.1.41,Protestant
+89,3.1.2.1.41.1,Lutheran
+90,3.1.2.1.41.2,Reformed
+91,3.1.2.1.41.3,Anglican
+92,3.1.2.1.42,Methodist
+93,3.1.2.1.43,Baptist
+94,3.1.2.1.44,Mennonite
+95,3.1.2.1.45,Mormon
+96,3.1.2.1.46,Roman Catholic
+97,3.1.2.1.47,Old Catholic
+98,3.1.2.1.48,Orthodoxy
+99,3.1.2.1.49,Parsasm
+100,3.1.2.1.50,Juche Idea
+101,3.1.2.1.51,Spiritism
+102,3.1.2.1.52,Jehovah Witnesses
+103,3.1.2.1.53,Tenrikyo
+104,3.1.2.1.54,Neo-Paganism
+105,3.1.2.2,Non-religious philosophies
+106,3.1.2.2.1,Communism
+107,3.1.2.2.2,Humanism
+108,3.1.2.2.5,Libertarianism
+109,3.1.2.2.7,Deism
+110,3.1.2.2.8,Falun Gong and Falun Dafa
+111,3.1.2.2.9,Objectivism
+112,3.1.2.2.10,Universism
+113,3.1.2.2.11,Atheism
+114,3.1.2.2.12,Agnosticism
+115,3.1.2.2.13,Freemasonry
+116,3.1.2.2.3,Spirituality
+117,3.1.3,General non-fiction
+118,3.1.3.1,Political
+119,3.1.3.1.1,Capitalism
+120,3.1.3.1.2,Fascism
+121,3.1.3.1.3,Republicanism
+122,3.1.3.1.4,Socialism
+123,3.1.3.2,Social
+124,3.1.3.3,Economic
+125,3.1.3.4,Legal
+126,3.1.3.5,Finance
+127,3.1.3.6,Education
+128,3.1.3.6.1,Pre-School
+129,3.1.3.6.2,Primary
+130,3.1.3.6.3,Secondary
+131,3.1.3.6.4,Colleges and Universities
+132,3.1.3.6.5,Adult education
+133,3.1.3.6.6,Non-formal education
+134,3.1.3.6.7,Homework
+135,3.1.3.6.8,Reading groups
+136,3.1.3.6.9,Distance learning
+137,3.1.3.6.10,Religious schools
+138,3.1.3.6.11,Student organisations
+139,3.1.3.6.12,Testing
+140,3.1.3.6.13,Theory and methods
+141,3.1.3.6.14,Interdisciplinary studies
+142,3.1.3.6.15,Further education
+143,3.1.3.6.16,Lifelong education
+144,3.1.3.6.17,Education > Languages
+145,3.1.3.6.18,Education > Technology
+146,3.1.3.6.19,Training
+147,3.1.3.6.20,Graduation
+148,3.1.3.7,International affairs
+149,3.1.3.8,Military/Defence
+150,3.1.3.9,Industry/Manufacturing
+151,3.1.3.10,Agriculture
+152,3.1.3.11,Construction / Civil Engineering
+153,3.1.3.12,Charity
+154,3.1.3.13,Documentary
+155,3.1.4,NON-FICTION/INFORMATION > Arts
+156,3.1.4.1,Arts > Music
+157,3.1.4.2,Dance
+158,3.1.4.3,Theatre
+159,3.1.4.3.1,Kabuki
+160,3.1.4.4,Opera
+161,3.1.4.5,Cinema
+162,3.1.4.6,Poetry
+163,3.1.4.8,Plastic arts
+164,3.1.4.9,Fine arts
+165,3.1.4.9.1,Sculpture
+166,3.1.4.9.2,Painting
+167,3.1.4.10,Experimental arts
+168,3.1.4.11,Traditional arts
+169,3.1.4.12,Industrial arts
+170,3.1.4.13,Performing arts
+171,3.1.4.14,Photography
+172,3.1.4.15,Architecture
+173,3.1.4.16,Design
+174,3.1.4.17,Visual Arts
+175,3.1.4.18,Food
+176,3.1.5,Humanities
+177,3.1.5.1,Literature
+178,3.1.5.1.1,Anthology
+179,3.1.5.2,Humanities > Languages
+180,3.1.5.3,History
+181,3.1.5.3.1,Monument and heritage site
+182,3.1.5.4,Culture/Tradition/Anthropology/Ethnic studies
+183,3.1.5.5,War/Conflict
+184,3.1.5.6,Philosophy
+185,3.1.5.7,Political Science
+186,3.1.6,Sciences
+187,3.1.6.1,Applied sciences
+188,3.1.6.2,Nature/Natural sciences
+189,3.1.6.2.1,Biology
+190,3.1.6.2.2,Geology
+191,3.1.6.2.3,Botany
+192,3.1.6.2.4,Zoology
+193,3.1.6.2.5,Paleontology
+194,3.1.6.2.6,Meteorology
+195,3.1.6.2.7,Anthropology
+196,3.1.6.2.8,Ecology
+197,3.1.6.2.9,Marine science
+198,3.1.6.3,Animals/Wildlife
+199,3.1.6.4,Environment/Geography
+200,3.1.6.5,Space/Universe
+201,3.1.6.5.1,Cosmology
+202,3.1.6.6,Physical sciences
+203,3.1.6.6.1,Physics
+204,3.1.6.6.2,Chemistry
+205,3.1.6.6.3,Mechanics
+206,3.1.6.6.4,Engineering
+207,3.1.6.6.5,Particle physics
+208,3.1.6.6.6,Material science
+209,3.1.6.6.7,Micro science
+210,3.1.6.6.8,Physical sciences > Technology
+211,3.1.6.7,Heath / Medicine
+212,3.1.6.7.1,Alternative Medicine / Alternative Health
+213,3.1.6.7.2,Sexuality
+214,3.1.6.8,Sciences > Technology
+215,3.1.6.8.1,Biotechnology
+216,3.1.6.8.2,Agricultural research and technology
+217,3.1.6.8.3,Nanotechnology
+218,3.1.6.8.4,IT/computer sciences
+219,3.1.6.9,Physiology
+220,3.1.6.10,Psychology
+221,3.1.6.11,Social sciences
+222,3.1.6.11.1,Sociology
+223,3.1.6.12,Spiritual
+224,3.1.6.13,Mathematics
+225,3.1.6.14,Archaeology
+226,3.1.6.15,Statistics
+227,3.1.6.16,Liberal Arts and Science
+228,3.1.6.17,Sciences > Gadgets
+229,3.1.7,Human interest
+230,3.1.7.1,Human interest > Reality
+231,3.1.7.2,Society/Show business/Gossip
+232,3.1.7.3,Biography/Notable personalities/Profile
+233,3.1.7.4,Personal problems
+234,3.1.7.5,Investigative journalism
+235,3.1.7.6,Museums
+236,3.1.7.7,Religious buildings
+237,3.1.7.8,Personal stories
+238,3.1.7.9,Family life
+239,3.1.7.10,Libraries
+240,3.1.7.11,Magazines
+241,3.1.8,Transport and Communications
+242,3.1.8.1,Air
+243,3.1.8.2,Land
+244,3.1.8.3,Sea
+245,3.1.8.4,Space
+246,3.1.9,Events
+247,3.1.9.1,Anniversary
+248,3.1.9.2,Fair
+249,3.1.9.3,Tradeshow
+250,3.1.9.4,Events > Musical
+251,3.1.9.5,Exhibition
+252,3.1.9.6,Royal
+253,3.1.9.7,State
+254,3.1.9.8,International
+255,3.1.9.9,National
+256,3.1.9.10,Events > Local/Regional
+257,3.1.9.11,Seasonal
+258,3.1.9.12,Sporting
+259,3.1.9.13,Festival
+260,3.1.9.13.1,Film festival
+261,3.1.9.13.2,Festive event (including carnival)
+262,3.1.9.14,Concert / Live performance
+263,3.1.9.15,Funeral / Memorial / Obituary
+264,3.1.9.16,Ceremony
+265,3.1.9.16.1,Award Ceremony
+266,3.1.9.16.2,Award and prize
+267,3.1.9.17,Special
+268,3.1.9.18,Current Events
+269,3.1.9.19,Events > Religious
+270,3.1.9.19.1,Christian
+271,3.1.9.19.2,Muslim
+272,3.1.9.19.3,Jewish
+273,3.1.9.19.4,Other
+274,3.1.10,Media
+275,3.1.10.1,Advertising
+276,3.1.10.2,Print media
+277,3.1.10.2.1,Periodicals
+278,3.1.10.2.2,Reviews
+279,3.1.10.2.3,Newspapers
+280,3.1.10.2.4,Books
+281,3.1.10.3,Television
+282,3.1.10.4,Media > Radio
+283,3.1.10.5,New media
+284,3.1.10.5.1,On-line
+285,3.1.10.5.2,Mobile
+286,3.1.10.6,Marketing
+287,3.1.10.7,Showbiz
+288,3.1.10.8,Mass media
+289,3.1.10.9,News media
+290,3.1.10.10,Internet
+291,3.1.10.11,Cinema industry
+292,3.1.10.12,Music industry
+293,3.1.11,Listings
+294,3.4,FICTION/DRAMA
+295,3.4.1,General light drama / Popular drama
+296,3.4.2,Soap
+297,3.4.2.1,Soap opera
+298,3.4.2.2,Soap special
+299,3.4.2.3,Soap talk
+300,3.4.2.4,Saga
+301,3.4.3,Romance / Melodrama
+302,3.4.4,Legal Melodrama
+303,3.4.5,Medical melodrama
+304,3.4.6,Action
+305,3.4.6.1,Adventure
+306,3.4.6.1.1,Super-Hero Fiction
+307,3.4.6.1.2,Shōnen manga
+308,3.4.6.2,Disaster
+309,3.4.6.3,Mystery
+310,3.4.6.4,Detective/Police/Crime/Murder/Gangster
+311,3.4.6.5,Historical/Epic
+312,3.4.6.6,Horror
+313,3.4.6.7,Science fiction
+314,3.4.6.7.1,Space Opera
+315,3.4.6.7.2,Apocalyptic
+316,3.4.6.8,War
+317,3.4.6.9,Western
+318,3.4.6.10,Thriller/Suspense/Spy
+319,3.4.6.11,Action > Sports
+320,3.4.6.12,Martial arts
+321,3.4.6.14,Film-Noir
+322,3.4.6.15,Heroic Bloodshed
+323,3.4.6.16,Girls with Guns and Swords
+324,3.4.7,Fantasy/Fairy tale
+325,3.4.8,Adult drama / Erotica
+326,3.4.9,Drama based on real events (docudrama)
+327,3.4.10,FICTION/DRAMA > Musical
+328,3.4.13,Classical drama
+329,3.4.14,Period drama
+330,3.4.14.1,Samurai drama
+331,3.4.15,Contemporary drama
+332,3.4.16,FICTION/DRAMA > Religious
+333,3.4.17,Poems/Stories/Readings/Story telling
+334,3.4.18,Biographical drama
+335,3.4.19,Psychological drama
+336,3.4.20,Political drama
+337,3.4.21,Philosophical
+338,3.4.22,Speculative
+339,3.4.23,Urban
+340,3.4.24,Kids
+341,3.5,AMUSEMENT/ENTERTAINMENT
+342,3.5.2,Quiz/Contest
+343,3.5.2.1,Quiz
+344,3.5.2.2,Contest
+345,3.5.3,Variety/Talent
+346,3.5.3.1,Cabaret
+347,3.5.3.2,Talent
+348,3.5.3.3,Cooking variety
+349,3.5.4,Surprise
+350,3.5.5,AMUSEMENT/ENTERTAINMENT > Reality
+351,3.5.7,Comedy
+352,3.5.7.1,Broken comedy
+353,3.5.7.2,Romantic comedy
+354,3.5.7.2.1,Musical romance
+355,3.5.7.3,Sitcom
+356,3.5.7.4,Satire
+357,3.5.7.5,Candid Camera
+358,3.5.7.6,Humour
+359,3.5.7.6.1,Out takes
+360,3.5.7.6.2,Bloopers
+361,3.5.7.7,Musical comedy
+362,3.5.7.8,Black comedy
+363,3.5.7.9,Comedy of Manners
+364,3.5.7.10,Parody
+365,3.5.7.11,Zombie Comedy
+366,3.5.7.12,Science-Fiction Comedy/Sci-Fi Comedy
+367,3.5.10,Magic/Hypnotism
+368,3.5.11,Circus
+369,3.5.12,Dating
+370,3.5.13,Bullfighting
+371,3.5.14,Rodeo
+372,3.5.14.1,Barrel racing
+373,3.5.14.2,Calf roping
+374,3.5.14.3,Bull riding
+375,3.5.14.4,Bulldogging
+376,3.5.14.5,Saddle bronc
+377,3.5.14.6,Bareback
+378,3.5.14.7,Goat roping
+379,3.5.16,AMUSEMENT/ENTERTAINMENT > Chat
+380,3.5.17,Paranormal
+381,3.5.18,Game Show
+382,3.5.19,Animation
+383,3.5.20,Anime
+384,3.8,LEISURE/HOBBY/LIFESTYLE
+385,3.8.1,General Consumer Advice
+386,3.8.1.1,Road safety
+387,3.8.1.2,Consumer advice
+388,3.8.1.2.1,Personal finance
+389,3.8.1.3,Employment Advice
+390,3.8.1.4,Self-help
+391,3.8.1.5,Programme introduction / Notices
+392,3.8.2,Computing/Technology
+393,3.8.2.1,Technology/Computing
+394,3.8.2.2,Computer Games
+395,3.8.2.3,Software How-to
+396,3.8.2.4,Podcasting
+397,3.8.3,Cookery / Food / Drink
+398,3.8.3.1,Cookery
+399,3.8.3.2,Food and Drink
+400,3.8.3.3,Gastronomy
+401,3.8.3.4,Gourmet eating
+402,3.8.3.5,Cookery / Food / Drink > Nutrition
+403,3.8.4,Homes/Interior/Gardening
+404,3.8.4.1,Do-it-yourself
+405,3.8.4.2,Home Improvement
+406,3.8.4.3,Gardening
+407,3.8.4.4,Property Buying and Selling
+408,3.8.4.5,Auction
+409,3.8.5,Hobbies
+410,3.8.5.1,Fishing
+411,3.8.5.2,Pet
+412,3.8.5.3,Craft/Handicraft
+413,3.8.5.4,Art
+414,3.8.5.5,Hobbies > Music
+415,3.8.5.6,Board Games
+416,3.8.5.7,Card games
+417,3.8.5.8,Gaming
+418,3.8.5.8.1,Lottery
+419,3.8.5.8.2,Gambling
+420,3.8.5.9,Shopping
+421,3.8.5.10,Collectibles/Antiques
+422,3.8.5.11,Jewelry
+423,3.8.5.12,Aviation
+424,3.8.5.13,Trains
+425,3.8.5.14,Boating
+426,3.8.5.15,Ornithology
+427,3.8.5.16,Fortune-telling
+428,3.8.5.17,Genealogy
+429,3.8.5.18,Hobbies > Gadgets
+430,3.8.6,Cars and Motoring
+431,3.8.6.1,Car
+432,3.8.6.2,Motorcycle
+433,3.8.7,Personal/Lifestyle/Family
+434,3.8.7.1,Fitness / Keep-fit
+435,3.8.7.2,Personal health
+436,3.8.7.2.1,Personal health > Nutrition
+437,3.8.7.3,Personal/Lifestyle/Family > Fashion
+438,3.8.7.4,House Keeping
+439,3.8.7.5,Parenting
+440,3.8.7.6,Beauty
+441,3.8.7.7,Special events
+442,3.8.7.8,Personal/Lifestyle/Family > Nutrition
+443,3.8.7.9,Sex education
+444,3.8.9,Travel/Tourism
+445,3.8.9.1,Holidays
+446,3.8.9.2,Adventure/Expeditions
+447,3.8.9.3,Outdoor pursuits
+448,3.8.9.3.1,Outdoor hunting
+449,3.8.9.4,Casino and gambling
+450,3.8.9.5,Hotel and accommodation
+451,3.8.9.6,Recreational and sporting goods
+452,3.8.9.7,Restaurant and catering
+453,3.8.9.8,Tour operator

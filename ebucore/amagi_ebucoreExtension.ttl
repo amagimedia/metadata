@@ -16,12 +16,22 @@
     skos:definition "A note to denote the scope of a grounded entity. Specifically useful to denote the manual-edits, active-meta"@en ;
     skos:scopeNote "This property may be used directly to annotate any owl:thing within ebucore scope"@en .
 
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image>
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> .
+
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#width>
         rdfs:range              <http://www.w3.org/2001/XMLSchema#integer> ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
 
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#height>
         rdfs:range              <http://www.w3.org/2001/XMLSchema#integer> ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isTitled>
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:label              "isTitled"@en ;
+        skos:definition         "This is set to true if an image is titled. default is false. Titled images are ones with text e.g. banner with movie name, series name etc"@en ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isAttributedTo>
@@ -33,6 +43,61 @@
     rdfs:label "SourceAttribution"@en ;
     skos:definition "This property allows to denote the attribution of an asset's metadata to its source url. The source urls could be media rss feed url or a source csv location."@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#mediaResourceName>
+        rdf:type      rdf:Property ;
+        rdfs:label    "Resource name"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The name given to a media resource."@en .
+
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetPlatformId>
+        rdf:type      rdf:Property ;
+        rdfs:label    "targetPlatformId"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A specific platform id to which a media resource is to be targetted"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetChannelId>
+        rdf:type      rdf:Property ;
+        rdfs:label    "targetChannelId"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A specific channel id to which a media resource is to be targetted"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetPlatformBrandId>
+        rdf:type      rdf:Property ;
+        rdfs:label    "targetPlatformBrandId"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A specific platform brand id to which a media resource is to be targetted"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#audioChannelLayout>
+	rdf:type      rdf:Property ;
+	rdfs:label    "Audio Channel Layout"@en ;
+	rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioTrack> ;
+	rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+	rdfs:comment  "The arrangement and spatial configuration of audio channels within an audio stream. Possible values are mono, stereo, 2.1, 3, quad, 3.1, 4.1, 5.1, 7.1. These values are derived from the standard channel layouts listed at https://trac.ffmpeg.org/wiki/AudioChannelManipulation#Listchannelnamesandstandardchannellayouts"@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#annotationId> 
+    rdfs:range     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#startAssetOffsetIndex>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify the asset index whose start is the start of a collection part "@en ;
+        rdfs:label    "startAssetOffsetIndex"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#endAssetOffsetIndex>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify the asset index whose start is the end of a collection part. It may have 'eos' to indicate end is the end of the last asset in a collection "@en ;
+        rdfs:label    "endAssetOffsetIndex"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> .
 
 # An asset either episode or feature will be associated with exactly one resource of class type AIAugmentedMeta
 # The above constraint means that the urriId for AIAugmentedMeta instance will be equal to fn(asset_uri_id, constant) where
@@ -41,41 +106,471 @@
 #   A744595 = fn(A1234, "AIMLAugmenedMeta"), fn could be md5sum hash
 #
 # Example of AIAugmentedMeta is as follows
-# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode .
+# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode ;
+#     ebucoreexr:hasAIAugmentedMeta <https://compass.amagi.tv/gms/entity/A1234#AIAugmentedMeta> .
 #
-# <https://compass.amagi.tv/gms/entity/A744595> a ebucoreext:AIAugmentedMeta ;
+# <https://compass.amagi.tv/gms/entity/A1234#AIAugmentedMeta> a ebucoreext:AIAugmentedMeta ;
 #         ebucore:hasRelatedAsset <https://compass.amagi.tv/gms/entity/A1234>;
 #         ebucoreext:hasAnnotation [ a ebucore:Annotation ;
-#                                ebucore:annotationType ebucore:Keyword ;
+#                                ebucore:annotationType ebucoreext:Entity ;
 #                                ebucore:annotationName "Russia"@en ;
 #                                ebucore:annotaionConfidence "3.4" ;
-#                                ebucore:annotationId <https://www.wikidata.org/wiki/Q34266> .
+#                                ebucore:annotationId [ 
+#                                       a ebucore:Identifier ;
+#                                       ebucore:identifierValue "Q34266" ;
+#                                       ebucore:identifierType <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wikidata>
 #                                ] ;
 #         ebucoreext:hasAnnotation [ a ebucore:Annotation ;
 #                                    ebucore:annotationType ebucore:Topic ;
 #                                    ebucore:annotaionConfidence "2.1" ;
-#                                    bucore:annotationId <http://cv.iptc.org/newscodes/mediatopic/20000642> .] ;
-#         ebucoreext:hasAnnotation  [ a ebucoreext:VideoAnnotation;
-#                                     ebucore:hasAnnotationRelatedArtefact <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> . ] .
+#                                   ebucore:annotationId [
+#                                       a ebucore:Identifier ;
+#                                       ebucore:identifierValue "http://cv.iptc.org/newscodes/mediatopic/20000642" ;
+#                                       ebucore:identifierType <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iptcmediatopic>
+#                                   ] ;
+#         ebucoreext:hasEtcAnnotationLocation  <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/etc_output.json> ; 
+#         ebucoreext:hasVideoAnnotationLocation  <storage://nbcu1234/{assets}/{asset_uri_id}/{asset_artefact_id}/videoken_output.json> . 
 #        
 #       
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Entity>
+        rdf:type             rdfs:Class ;
+        rdfs:comment         "To proivde key entites associated with an asset."@en ;
+        rdfs:subClassOf      skos:Concept ;
+        owl:equivalentClass  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Keyword> ;
+        rdfs:label           "Entity"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Category>
+        rdf:type         rdfs:Class ;
+        rdfs:comment     "A term describing the high level categorization of content covered by the\n            BusinessObject or resource. This is provided as free text in an annotation label or as an identifier pointing to a term in a classification scheme e.g. https://cv.iptc.org/newscodes/mediatopic"@en ;
+        rdfs:subClassOf  skos:Concept ;
+        rdfs:label       "Subject"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta>
+        rdf:type         rdfs:Class ;
+        rdfs:label       "AIAugmentedMeta"@en ;
+        rdfs:comment     "To provide AI augmented metadata for an asset."@en ;
+        rdfs:subClassOf  owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAIAugmentedMeta>
+        rdf:type      rdf:Property ;
+        rdfs:range              <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "hasAIAugmentedMeta"@en ;
+        rdfs:comment            "Property to associate an asset with its AI augmented metadata."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasVideoAnnotationLocation>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:range     <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment   "Range: A uri pointing to AI generated video metadata"@en ;
+    rdfs:label    "hasVideoAnnotationLocation"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasEtcAnnotationLocation>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:range     <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment   "Range: A uri pointing to AI generated etc(entity, topic, categories) metadata"@en ;
+    rdfs:label    "hasEtcAnnotationLocation"@en .
 
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> a rdfs:Class ;
-    rdfs:label "AIAugmentedMeta"@en ;
-    rdfs:comment """To capture auto generated metadata concepts using AI and machine 
-                    learning techniques"""@en ;
-    rdfs:subClassOf <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> .
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasPart>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:comment  "To define Parts (segments, fragments, shots, etc.)\n            within an EditorialObject."@en ;
+    rdfs:label    "Part"@en ;
+    rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> .
 
-# Is this property really required. There is a way in which ebucore:hasAnnotationTarget can be used
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAnnotation> a rdf:Property ;
-    rdfs:label "hasAnnotation"@en ;
-    rdfs:comment "To associate annotation with an Asset"@en ;
-    rdfs:domain <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
-    rdfs:range <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
+    rdfs:label      "hasAnnotation"@en ;
+    rdfs:comment    "To associate annotation with an Asset"@en ;
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
+    rdfs:range      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#VideoAnnotation> a rdfs:Class ;
-    rdfs:label "VideoAnnotation"@en ;
-    rdfs:comment "A class specific to the annotation of a video asset."@en ;
+    rdfs:label      "VideoAnnotation"@en ;
+    rdfs:comment    "A class specific to the annotation of a video asset."@en ;
     rdfs:subClassOf <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
+
+
+######################################################################
+# Properties aded for usage restrictions to express limits on the 
+# number of times an asset can be published
+######################################################################
+
+# Example of usage and publication restrictions
+# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode ;
+#         ebucoreext:hasPublicationRestrictions [
+#                 a ebucoreext:PublicationRestrictions ;
+#                ebucoreext:hasPublicationCap [
+#                                         a ebucoreext:PublicationCap ;
+#                                         ebucoreext:publicationCap "1"^^xsd:integer ;
+#                                         ebucoreext:publicationPeriod "1D"^^xsd:string ;
+#                                 ],
+#                                 [
+#                                         a ebucoreext:PublicationCap ;
+#                                         ebucoreext:publicationCap "10"^^xsd:integer ;
+#                                         ebucoreext:publicationPeriod "1W"^^xsd:string ;
+#                                 ] ;
+#         ebucore:hasUsageRestrictions [
+#                 a ebucore:UsageRestrictions ;
+#                 ebucoreext:maxPublicationEvents "10"^^xsd:integer ;
+#                 ] .
+
+# <https://compass.amagi.tv/gms/entity/A1234> a ebucore:Episode ;
+#         ebucore:isDistributedOn [ a ebucore:Platform ;
+#             ebucore:offers [ a ebucore:PublicationEvent ;
+#                     ebucore:hasCoverageRestrictions [ a ebucore:CoverageRestrictions ;
+#                             ebucore:rightsEndDateTime "2025-12-03T05:00:00+00:00" ] ] ;
+#             ebucore:serviceId "sling" ;
+#             ebucore:serviceName "sling" ;
+#             ebucore:serviceType "SVOD" ],
+#         [ a ebucore:Platform ;
+#             ebucore:offers [ a ebucore:PublicationEvent ;
+#                     ebucore:hasCoverageRestrictions [ a ebucore:CoverageRestrictions ;
+#                             ebucore:rightsEndDateTime "2025-12-03T05:00:00+00:00" ] ;
+#                     ebucoreext:hasPublicationRestrictions [
+#                                 a ebucoreext:PublicationRestrictions ;
+#                                  ebucore:rightsStartDateTime "2020-12-03T05:00:00+00:00" ;
+#                                  ebucore:rightsEndDateTime "2025-12-03T05:00:00+00:00" ;
+#                                  ebucoreext:hasPublicationCap [
+#                                         a ebucoreext:PublicationCap ;
+#                                         ebucoreext:publicationCap "1"^^xsd:integer ;
+#                                         ebucoreext:publicationPeriod "1D"^^xsd:string ;
+#                                 ],
+#                                 [
+#                                         a ebucoreext:PublicationCap ;
+#                                         ebucoreext:publicationCap "10"^^xsd:integer ;
+#                                         ebucoreext:publicationPeriod "1W"^^xsd:string ;
+#                                 ] ;
+#                         ebucore:hasUsageRestrictions [
+#                                a ebucore:UsageRestrictions ;
+#                                ebucoreext:maxPublicationEvents "10"^^xsd:integer ;
+#                                ] ] ;
+#             ebucore:serviceId "apple" ;
+#             ebucore:serviceName "apple" ;
+#             ebucore:serviceType "SVOD" ] .
+        
+
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#maxPublicationEvents>
+    a               rdf:Property ;
+    rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
+    rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#UsageRestrictions> ;
+    rdfs:label      "maxPublicationEvents"@en ;
+    rdfs:comment    "To express restriction on the maximum number of publication events for an asset in a given date range."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPublicationRestrictions>
+        rdf:type            rdf:Property ;
+        rdfs:range          <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationEvent> ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:comment        "PublicationRestrictions."@en ;
+        rdfs:comment        "To express publication restrictions like limits to airing"@en ;
+        rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy> ;
+        rdfs:label          "hasPublicationRestrictions"@en .
+
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions>
+        rdf:type         rdfs:Class ; 
+        rdfs:label       "PublicationRestrictions"@en ;
+        rdfs:comment     "To express restriction on the number of times an asset can be published."@en ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Rights> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPublicationCap>
+        rdf:type            rdf:Property ;
+        rdfs:range          <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationCap> ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationRestrictions> ;
+        rdfs:comment        "Publication Caps."@en ;
+        rdfs:comment        "To express publication limits to airing"@en ;
+        rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy> ;
+        rdfs:label          "hasPublicationCap"@en .
+
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationCap>
+        rdf:type         rdfs:Class ;
+        rdfs:label       "PublicationCap"@en ;
+        rdfs:comment     "To provide information to restrict publications in a given interval of time"@en ;
+        rdfs:subClassOf  owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCap>
+    a               rdf:Property ;
+    rdfs:range      <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationCap> ;
+    rdfs:label      "publicationCap"@en ;
+    rdfs:comment    """To express restriction on total number of times the media can be published per interval. """@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationPeriod>
+    a               rdf:Property ;
+    rdfs:range      <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationCap> ;
+    rdfs:label      "publicationPeriod"@en ;
+    rdfs:comment    """The publication period associated with the publicationCap for a given PublicationRestrictions instance. Period examples 6H, 1M, 2M, 3D, 1W, 10D, 1D6H, 1M15D where H->hours, M is month, D is day, W is week."""@en .
+
+
+# References for SportsEvent
+# https://www.wikidata.org/wiki/Wikidata:WikiProject_Sports
+# https://schema.org/SportsEvent
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#SportsEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Sports event"@en ;
+        rdfs:comment     "To describe a sports event."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#MusicalEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Musical event"@en ;
+        rdfs:comment     "To describe a musical event."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#PoliticalEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Political event"@en ;
+        rdfs:comment     "To describe a political event, e.g. election campaign, debate etc."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#superEvent>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify parent event to which an event belongs to. Equivalent to https://schema.org/superEvent"@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label    "superEvent"@en .
+
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#eventNumber>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The event number in a superEvent. e.g. match number, game number"@en ;
+        rdfs:label    "eventNumber"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#organizer>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent> ;
+        rdfs:comment  "Organizer of an event. Equivalent to https://schema.org/organizer. Example: FIFA is organizer of 2014 FIFA World Cup"@en ;
+        rdfs:label    "organizer"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#sponsor>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent> ;
+        rdfs:comment  "Sponsor of an event. Equivalent to https://schema.org/sponsor. Example: Adidas AG is sponsor of 2014 FIFA World Cup"@en ;
+        rdfs:label    "sponsor"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasParticipatingTeam>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To identify participating Agents."@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Team> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label    "Participating Team"@en ;
+        rdfs:comment  "range: Agent or string"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SportsEvent> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension/ebucore#hasEventGenre>
+        rdf:type      rdf:Property ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label    "Event genre"@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:comment  "The genre of content associated with the Event."@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Genre> ;
+        rdfs:comment  "Range: string or Genre"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasEventRelatedPicture>
+        rdf:type        rdf:Property ;
+        rdfs:label      "Event Related picture"@en ;
+        rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Picture> ;
+        rdfs:comment  "A link/locator to a picture related to an Event."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCountryOfOrigin>
+    a rdf:Property ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CountryCode> ;
+    rdfs:domain             ebucore:Asset ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label "Country Of Origin"@en ;
+    skos:definition "This property denotes the country where the content was filmed."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasProductionCountry>
+    a rdf:Property ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CountryCode> ;
+    rdfs:domain             ebucore:Asset ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label "Production Country"@en ;
+    skos:definition "This property denotes the country of the production studio."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isDirectedToChildren>
+    a rdf:Property ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label "Is directed to children"@en ;
+    skos:definition "This property denotes whether the asset has been targeted to children."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release>
+    rdf:type         rdfs:Class ;
+    rdfs:label       "Release"@en ;
+    rdfs:comment     "To provide release metadata for an asset."@en ;
+    rdfs:subClassOf  owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasRelease>
+    rdf:type      rdf:Property ;
+    rdfs:range    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release> ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:label    "hasRelease"@en ;
+    rdfs:comment  "Property to associate an asset with its release metadata."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#dateReleased>
+    rdfs:domain    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#releaseCountry>
+    a rdf:Property ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CountryCode> ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release> ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label    "releaseCountry"@en ;
+    skos:definition "This property denotes the country where the asset is released."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint>
+    rdf:type		rdfs:Class ;
+    rdf:label		"Cuepoint"@en ;
+    rdfs:comment 	"To provide cuepoint metadata for an asset."@en ;
+    rdfs:subClassOf	owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepoint>
+    rdf:type	    rdf:Property ;
+    rdfs:range	    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint> ;
+    rdfs:domain     ebucore:Asset ;
+    rdfs:label	    "hasCuepoint"@en ;
+    rdfs:comment    "Property to associate an asset with its cuepoint metadata."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCuepointType>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "A type of Cuepoint."@en ;
+    rdfs:range    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint_Type> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#anyURI> ;
+    rdfs:label    "Cuepoint type"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint_Type>
+    rdf:type         rdfs:Class ;
+    rdfs:comment     "To define a type or cuepoint."@en ;
+    rdfs:subClassOf  skos:Concept ;
+    rdfs:label       "Cuepoint type"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#cuepointTimestamp>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "The time when the Cuepoint occurs. Cuepoint examples 12.0, 55.55, 105.6. These float values are converted to strings"@en ;
+    rdfs:label    "Cuepoint timestamp"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#currentNumberOfEpisodes>
+    rdf:type      rdf:Property ;
+    rdfs:comment  "To provide the current number of episodes in a Season."@en ;
+    rdfs:label    "Current number of episodes"@en ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Group> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PlatformGuideParams>
+    rdf:type		rdfs:Class ;
+    rdf:label		"PlatformGuideParams"@en ;
+    rdfs:comment 	"To provide platform guide params metadata for an asset."@en ;
+    rdfs:subClassOf	owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPlatformGuideParams>
+    a rdf:Property ;
+    rdfs:range    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PlatformGuideParams> ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:label    "hasPlatformGuideParams"@en ;
+    rdfs:comment  "Specifies the category and its subcategories for particular platform."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#mainCategory>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PlatformGuideParams> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "A category is a broad classification that groups similar types of content or products within a particular platform."@en ;
+    rdfs:label    "Main category"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#subCategories>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PlatformGuideParams> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "A subcategory is a more specific classification within a broader category."@en ;
+    rdfs:label    "Sub category"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#appliesToPlatformId>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PlatformGuideParams> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "Specifies the platform_id for which the platform guide params are defined."@en ;
+    rdfs:label    "Applies To PlatformId"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherStartOffset>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "Publisher-provided segment start offset in timecode or timestamp format."@en ;
+    rdfs:label    "Publisher Start Offset"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherEndOffset>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "Publisher-provided segment end offset in timecode or timestamp format."@en ;
+    rdfs:label    "Publisher End Offset"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherCuepointOffset>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Cuepoint> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "Publisher-provided cuepoint offset in timecode or timestamp format."@en ;
+    rdfs:label    "Publisher Cuepoint Offset"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherStartNormalPlayTime>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "Publisher-provided start time expressed as normal play time"@en ;
+    rdfs:label    "Publisher Start Normal Play Time"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isDropFrameTimecode>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:MediaResource ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:comment  "Specifies if the subtitle timecode is with dropframe."@en ;
+    rdfs:label    "Is DropFrame Timecode"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isPrimary>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:MediaResource ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:comment  "Specifies if the media resource is primary."@en ;
+    rdfs:label    "Is Primary"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#segmentsLastModifiedAt>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "To indicate the date/time segment has been modified."@en ;
+    rdfs:label    "Segments Last Modified At"@en .
+
+# Graphics
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic>
+        rdf:type         rdfs:Class ;
+        rdfs:label       "Graphic"@en ;
+        rdfs:comment     "Entity to represent the graphic to be used as overlay"@en ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#userDefinedFps>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment            "The unit used to express the user provided frame rate of a MediaResource in frames/second associated with an ebucore asset."@en ;
+        owl:equivalentProperty  <http://www.w3.org/ns/ma-ont#frameSizeUnit> ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "User Defined Frame Rate"@en .
