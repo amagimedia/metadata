@@ -547,6 +547,7 @@ United States,US,US-MPAA,48.3,PG-13@en,Parents strongly cautioned@en</br></br>So
 United States,US,US-MPAA,48.4,R@en,Under 17 requires accompyning parent or adult guardian. @en,,,
 United States,US,US-MPAA,48.5,NC-17@en,Not one 17 and under admitted.@en,,,
 United States,US,US-MPAA,48.6,NR@en,Not rated or Unrated@en,,,
+United States,US,US-MPAA,48.7,TV-14@en,Parents strongly cautioned@en,,,
 United States,US,US-RIAA,49.1,Parental Advisory@en,"The Parental Advisory is a notice to consumers that recordings
          identified by this value may contain strong language or depiction of violence, sex or
          substance abuse. Parental discretion is advised@None",,,
@@ -637,18 +638,19 @@ Malaysia,MY,MA-FCB,62.1.1,U@en,General viewing for all ages.@en,,,
 Malaysia,MY,MA-FCB,62.1.2,PG13@en,"Parental guidance is suggested for viewers under
          13@en",,,
 Malaysia,MY,MA-FCB,62.1.3,18@en,For aged 18 and above only@en,,,
-Malta,MT,MA-BBFC,63.1.1,U /Universal)@en,General viewing for all ages.@en,,,
-Malta,MT,MA-BBFC,63.1.2,PG@en,"Some material may be unsuitable for younger children. Children
+Malta,MT,MT-MCCAA,63.1.1,U /Universal)@en,General viewing for all ages.@en,,,
+Malta,MT,MT-MCCAA,63.1.2,PG@en,"Some material may be unsuitable for younger children. Children
          under the age of 12 are to be accompanied by an adult. @en",,,
-Malta,MT,MA-BBFC,63.1.3,12@en,"Suitable only for persons 12 years and older. No one under this
+Malta,MT,MT-MCCAA,63.1.3,12@en,"Suitable only for persons 12 years and older. No one under this
          age is admitted. @en",,,
-Malta,MT,MA-BBFC,63.1.4,14@en,"Suitable only for persons 14 years and older. No one under this
+Malta,MT,MT-MCCAA,63.1.4,14@en,"Suitable only for persons 14 years and older. No one under this
          age is admitted. @en",,,
-Malta,MT,MA-BBFC,63.1.5,16@en,"Suitable only for persons 16 years and older. No one under this
+Malta,MT,MT-MCCAA,63.1.5,15@en,"Suitable only for persons 15 years and older. No one under this
          age is admitted. @en",,,
-Malta,MT,MA-BBFC,63.1.6,18@en,"Suitable only for persons 18 years and older. No one under this
+Malta,MT,MT-MCCAA,63.1.6,16@en,"Suitable only for persons 16 years and older. No one under this
          age is admitted. @en",,,
-Malta,MT,MA-BBFC,63.1.7,Banned@en,@en,,,
+Malta,MT,MT-MCCAA,63.1.7,18@en,"Suitable only for persons 18 years and older. No one under this
+         age is admitted. @en",,,
 Switzerland,CH,CH,64.1.1,0@en,General viewing for all ages.@en,,,
 Switzerland,CH,CH,64.1.2,7@en,No one under the age of 7 admitted @en,,,
 Switzerland,CH,CH,64.1.3,10@en,No one under the age of 10 admitted @en,,,

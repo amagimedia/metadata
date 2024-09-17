@@ -5902,7 +5902,7 @@ parentalguidance:_62.1.3
         skos:example      "" .
 
 parentalguidance:_63  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "MA-BBFC"@en ;
+        skos:prefLabel    "MT-MCCAA"@en ;
         skos:scopeNote    "Region:Malta"@en ;
         skos:definition   ""@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -5971,8 +5971,8 @@ parentalguidance:_63.1.4
 
 parentalguidance:_63.1.5
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "16"@en ;
-        skos:definition   "Suitable only for persons 16 years and older. No one under this\n         age is admitted. "@en ;
+        skos:prefLabel    "15"@en ;
+        skos:definition   "Suitable only for persons 15 years and older. No one under this\n         age is admitted. "@en ;
         skos:broader      parentalguidance:_63.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
@@ -5981,8 +5981,8 @@ parentalguidance:_63.1.5
 
 parentalguidance:_63.1.6
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "18"@en ;
-        skos:definition   "Suitable only for persons 18 years and older. No one under this\n         age is admitted. "@en ;
+        skos:prefLabel    "16"@en ;
+        skos:definition   "Suitable only for persons 16 years and older. No one under this\n         age is admitted. "@en ;
         skos:broader      parentalguidance:_63.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
@@ -5991,8 +5991,8 @@ parentalguidance:_63.1.6
 
 parentalguidance:_63.1.7
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "Banned"@en ;
-        skos:definition   ""@en ;
+        skos:prefLabel    "18"@en ;
+        skos:definition   "Suitable only for persons 18 years and older. No one under this\n         age is admitted. "@en ;
         skos:broader      parentalguidance:_63.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
