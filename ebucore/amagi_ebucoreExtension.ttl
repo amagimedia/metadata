@@ -574,3 +574,10 @@
         owl:equivalentProperty  <http://www.w3.org/ns/ma-ont#frameSizeUnit> ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label              "User Defined Frame Rate"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isPatched>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:comment            "Used to denote if an artefact has been added through patch."@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
+        rdfs:label              "User Defined Frame Rate"@en .
