@@ -8,6 +8,11 @@ Repository to capture all schemas for metadata representation.
 mkdocs
 ```
 
+## Steps to install mkdocs
+```
+pip3 install -r requirements.txt
+```
+
 ## GithubIO deploy
 
 ```
