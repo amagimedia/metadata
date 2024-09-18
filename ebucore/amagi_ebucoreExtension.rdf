@@ -423,4 +423,11 @@
     <rdfs:label xml:lang="en">User Defined Frame Rate</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isPatched">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean" />
+    <rdfs:comment xml:lang="en">Used to denote if an artefact has been added through patch.</rdfs:comment>
+    <rdfs:label xml:lang="en">Is Patched</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
 </rdf:RDF>
