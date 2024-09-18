@@ -580,4 +580,4 @@
         rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
         rdfs:comment            "Used to denote if an artefact has been added through patch."@en ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
-        rdfs:label              "User Defined Frame Rate"@en .
+        rdfs:label              "Is Patched"@en .
