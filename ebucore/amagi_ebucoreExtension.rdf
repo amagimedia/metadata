@@ -162,6 +162,13 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isPatched">
+    <rdfs:label xml:lang="en">Is Patched</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource"/>
+    <rdfs:comment xml:lang="en">Used to denote if an artefact has been added through patch.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPublicationRestrictions">
     <rdfs:label xml:lang="en">hasPublicationRestrictions</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy"/>
