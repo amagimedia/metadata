@@ -123,3 +123,16 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "Amagi"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cpaltid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Content partner alternate identifier. 
+        Can be used to allow the content partner who is the amagi 
+        account holder ingesting the assets to store an additional identifier. 
+        This e.g. can be used to store additional identifiers for collections."""@en ;
+    skos:example "S0_A0_123" ;
+    skos:historyNote "2024-10-25" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "ALTERNATE-ID"@en .
