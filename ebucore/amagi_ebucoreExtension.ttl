@@ -581,3 +581,13 @@
         rdfs:comment            "Used to denote if an artefact has been added through patch."@en ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
         rdfs:label              "Is Patched"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#schedulingTag>
+        rdf:type            rdf:Property ;
+        rdfs:label          "Scheduling Tags"@en ;
+        rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description> ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:comment        """To provide a list of scheduling reelated tags. It allows for content partner to 
+                                tag asset with his vocabulary and provide rules for planing a schedule. For example 
+                                'At start of a movie prefix with a MovieBumperIn asset and at every segment with ComingBackSoon asset'"""@en ;
+        rdfs:range          <http://www.w3.org/2001/XMLSchema#string> .
