@@ -581,3 +581,12 @@
         rdfs:comment            "Used to denote if an artefact has been added through patch."@en ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
         rdfs:label              "Is Patched"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isTrailerOfAsset>
+        rdf:type      rdf:Property ;
+        rdfs:comment  """To identify related trailer of a given episodic, feature, series or season asset. 
+                       It is equivalevent ot 'trailer' property defined in schema.org as defined in https://schema.org/trailer"""@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label    "isTrailerOfAsset"@en .
+    
