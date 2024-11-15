@@ -601,3 +601,10 @@
         rdfs:comment            "Value string of CustomKeyValue"@en ;
         rdfs:domain             <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
         rdfs:label              "custom value"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCustomKeyValue>
+        rdf:type                rdf:Property ;
+        rdfs:range              <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
+        rdfs:comment            "Custom keys of an entity"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "Has Custom Key Value"@en .
