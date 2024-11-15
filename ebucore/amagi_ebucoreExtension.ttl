@@ -581,3 +581,23 @@
         rdfs:comment            "Used to denote if an artefact has been added through patch."@en ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
         rdfs:label              "Is Patched"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue>
+        rdf:type         rdfs:Class ;
+        rdfs:label       "CustomKeyValue"@en ;
+        rdfs:comment     "Class to represent specific key value pairs"@en ;
+        rdfs:subClassOf  owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customKey>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment            "Key string of CustomKeyValue"@en ;
+        rdfs:domain             <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
+        rdfs:label              "Custom Key Value"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customValue>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment            "Value string of CustomKeyValue"@en ;
+        rdfs:domain             <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
+        rdfs:label              "custom value"@en .

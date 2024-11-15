@@ -430,4 +430,24 @@
     <rdfs:label xml:lang="en">Is Patched</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+    <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment xml:lang="en">Class to represent specific key value pairs</rdfs:comment>
+    <rdfs:label xml:lang="en">CustomKeyValue</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customKey">
+    <rdfs:label xml:lang="en">Custom Key Value</rdfs:label>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue"/>
+    <rdfs:comment xml:lang="en">Key string of CustomKeyValue</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+    <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customValue">
+    <rdfs:label xml:lang="en">custom value</rdfs:label>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue"/>
+    <rdfs:comment xml:lang="en">Value string of CustomKeyValue</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
 </rdf:RDF>
