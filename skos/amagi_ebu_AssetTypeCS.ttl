@@ -57,6 +57,8 @@ ast_type:_1.1
         skos:narrower    ast_type:_1.1.13 ;
         skos:narrower    ast_type:_1.1.14 ;
         skos:narrower    ast_type:_1.1.15 ;
+        skos:narrower    ast_type:_1.1.16 ;
+        skos:narrower    ast_type:_1.1.17 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" . 
@@ -88,8 +90,19 @@ ast_type:_1.1.2
         skos:definition   "Any video that is under 10 minutes is classified as a short-form video" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_1.1 ;
+        skos:narrower    ast_type:_1.1.2.1 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.1.2.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Shorts Sponsored"@en ;
+        skos:definition   "A feature that is short form and sponsored" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1.2 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-11-18" ;
         skos:note "Valid" .
 
 ast_type:_1.1.3
@@ -190,6 +203,16 @@ ast_type:_1.1.8.2
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" .
 
+ast_type:_1.1.8.3
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Bumper Sponsored"@en ;
+        skos:definition   "Bumper with sponsorship" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1.8 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-11-18" ;
+        skos:note "Valid" .
+
 ast_type:_1.1.9
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "Rescue"@en ;
@@ -268,15 +291,60 @@ ast_type:_1.1.15
         skos:historyNote "2023-09-27" ;
         skos:note "Valid" . 
 
+ast_type:_1.1.16
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Ident"@en ;
+        skos:definition   """An ident (short for identification) refers to a short piece of content that 
+                                serves to identify the broadcaster or channel. It often features the channel's 
+                                logo, branding elements, and sometimes a jingle or sound that reinforces the brand identity. """ ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1 ;
+        skos:narrower    ast_type:_1.1.16.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-11-18" ;
+        skos:note "Valid" . 
+
+ast_type:_1.1.16.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Ident Adjustable"@en ;
+        skos:definition   """An ident that can have adjustable duration similiar to a filler or wheeler""" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1.16 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-11-18" ;
+        skos:note "Valid" . 
+
+ast_type:_1.1.17
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Warning"@en ;
+        skos:definition   """A warning clip  """ ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-11-18" ;
+        skos:note "Valid" . 
+
 ast_type:_1.2.1
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "Short Form"@en ;
         skos:definition   "Episode that is less than 10 minutes" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_1.2 ;
+        skos:narrower    ast_type:_1.2.1.1 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" .
+
+ast_type:_1.2.1.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Shorts Sponsored"@en ;
+        skos:definition   "An episodic short form video that is sponsored" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.2.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2024-11-18" ;
+        skos:note "Valid" .
+
 
 ast_type:_2
         rdf:type        ebucore:AssetType ;

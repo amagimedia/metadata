@@ -7,26 +7,6 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.4">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2024-07-02</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Poster without titled text in dark theme</skos:definition>
-    <skos:prefLabel xml:lang="en">PosterUntitledDark</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3.2">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Dark themed Thumbnail Image</skos:definition>
-    <skos:prefLabel xml:lang="en">ThumbnailDark</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS.rdf">
     <dct:rights>http://creativecommons.org/licenses/by-nc-sa/3.0/</dct:rights>
     <dct:publisher>EBU</dct:publisher>
@@ -35,26 +15,6 @@
     <dct:contributor>Amagi metadata community</dct:contributor>
     <dct:title xml:lang="en">EBU Based SKOS Classification Scheme for Asset Types</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Episode that is less than 10 minutes</skos:definition>
-    <skos:prefLabel xml:lang="en">Short Form</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.2">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Any video that is under 10 minutes is classified as a short-form video</skos:definition>
-    <skos:prefLabel xml:lang="en">Short Form</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.5">
     <skos:note>Valid</skos:note>
@@ -66,41 +26,29 @@
     <skos:prefLabel xml:lang="en">Ticker</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.4">
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
-    <skos:prefLabel xml:lang="en">Advertisement</skos:prefLabel>
-    <skos:changeNote></skos:changeNote>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1">
+    <skos:note>Valid</skos:note>
     <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:altLabel xml:lang="en">Commercial</skos:altLabel>
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1.1"/>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Episode that is less than 10 minutes</skos:definition>
+    <skos:prefLabel xml:lang="en">Short Form</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.4">
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:altLabel xml:lang="en">Ad</skos:altLabel>
+    <skos:note>Valid</skos:note>
     <skos:definition>A commercial video is a short-form type of advertisement ideally 30 seconds 
                 long placed on TV, streaming services, social media platforms, and other digital channels. </skos:definition>
-    <skos:note>Valid</skos:note>
-    <skos:altLabel xml:lang="en">Ad</skos:altLabel>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.2">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2024-07-12</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Text or graphics displayed in the lower third of the screen, usually containing information such as names, titles, ads, or other contextual data</skos:definition>
-    <skos:altLabel xml:lang="en">LowerThird</skos:altLabel>
-    <skos:prefLabel xml:lang="en">AstonBand</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3">
-    <skos:prefLabel xml:lang="en">Thumbnail</skos:prefLabel>
-    <skos:definition>Thumbnail Image</skos:definition>
+    <skos:altLabel xml:lang="en">Commercial</skos:altLabel>
     <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3.1"/>
     <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3.2"/>
+    <skos:prefLabel xml:lang="en">Advertisement</skos:prefLabel>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:note>Valid</skos:note>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.5">
     <skos:note>Valid</skos:note>
@@ -115,34 +63,17 @@
     <skos:prefLabel xml:lang="en">Trailer</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.7">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3">
     <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3.2"/>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3"/>
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3.1"/>
     <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition> Interstitial ads are interactive, full-screen ads that cover the interface of 
-                        their host app or site. These ads appear between content, so they place at natural
-                         transition points or breaks, such as in between activities or game levels. Their 
-                         full-coverage is what differentiates them from other ad types, like pop-up, native,
-                          and banner ads. </skos:definition>
-    <skos:prefLabel xml:lang="en">Interstitial</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4">
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-    <skos:prefLabel xml:lang="en">Graphic</skos:prefLabel>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.1"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.6"/>
-    <skos:definition>Graphic Asset Type Top Concept</skos:definition>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.2"/>
-    <skos:note>Valid</skos:note>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.3"/>
-    <skos:historyNote>2023-10-16</skos:historyNote>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.4"/>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.5"/>
+    <skos:definition>Thumbnail Image</skos:definition>
+    <skos:prefLabel xml:lang="en">Thumbnail</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.4">
     <skos:note>Valid</skos:note>
@@ -152,25 +83,6 @@
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
     <skos:definition>Graphics that take up the entire screen, used for things like title cards, charts, maps, or detailed information.</skos:definition>
     <skos:prefLabel xml:lang="en">FullScreenGraphic</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS">
-    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4"/>
-    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3"/>
-    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_2"/>
-    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1"/>
-    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for Asset Type</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.9">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Asset Type Rescue</skos:definition>
-    <skos:prefLabel xml:lang="en">Rescue</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8.2">
@@ -183,45 +95,55 @@
     <skos:prefLabel xml:lang="en">BumperOut</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1">
-    <skos:altLabel xml:lang="en">Banner</skos:altLabel>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.3"/>
-    <skos:prefLabel xml:lang="en">Poster</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3"/>
-    <skos:historyNote>2023-08-27</skos:historyNote>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.16">
     <skos:note>Valid</skos:note>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.4"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.1"/>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-    <skos:definition>Poster Image</skos:definition>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.2"/>
+    <skos:historyNote>2024-11-18</skos:historyNote>
     <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.16.1"/>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>An ident (short for identification) refers to a short piece of content that 
+                                serves to identify the broadcaster or channel. It often features the channel's 
+                                logo, branding elements, and sometimes a jingle or sound that reinforces the brand identity. </skos:definition>
+    <skos:prefLabel xml:lang="en">Ident</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.9">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Asset Type Rescue</skos:definition>
+    <skos:prefLabel xml:lang="en">Rescue</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1">
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.1"/>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.5"/>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.2"/>
-    <skos:note>Valid</skos:note>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.10"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.11"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.6"/>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.7"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.12"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.13"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.9"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.14"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.15"/>
-    <skos:prefLabel xml:lang="en">Feature</skos:prefLabel>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.3"/>
-    <skos:changeNote></skos:changeNote>
-    <skos:definition>Standalone feature videos e.g. movies, ads etc.</skos:definition>
     <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.4"/>
+    <skos:definition>Standalone feature videos e.g. movies, ads etc.</skos:definition>
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.3"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.17"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.16"/>
+    <skos:prefLabel xml:lang="en">Feature</skos:prefLabel>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.15"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.14"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.9"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.13"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.12"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.7"/>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.6"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.11"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.10"/>
+    <skos:note>Valid</skos:note>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.2"/>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.5"/>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.12">
     <skos:note>Valid</skos:note>
@@ -243,17 +165,6 @@
     <skos:prefLabel xml:lang="en">PosterTitledLight</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.14">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Filler is video of lower cost or quality that is used to fill a certain television time slot
-                         or physical medium </skos:definition>
-    <skos:prefLabel xml:lang="en">Filler</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_2">
     <skos:note>Valid</skos:note>
     <skos:historyNote>2023-08-27</skos:historyNote>
@@ -262,16 +173,6 @@
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
     <skos:definition>Audio Only Asset Type Top Concept</skos:definition>
     <skos:prefLabel xml:lang="en">Audio</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.10">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Asset Type Other</skos:definition>
-    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3.1">
@@ -294,26 +195,6 @@
     <skos:prefLabel xml:lang="en">PosterUntitledLight</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.1">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>A film – also called a movie, motion picture, moving picture, picture, photoplay is is a series of moving images shown on a screen, usually with sound, that make up a story</skos:definition>
-    <skos:prefLabel xml:lang="en">Movie</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.6">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2024-07-12</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>A side band or boottom overlay that shows the current program, the next program, and the program after that.</skos:definition>
-    <skos:prefLabel xml:lang="en">NowNextLater</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.3">
     <skos:note>Valid</skos:note>
     <skos:historyNote>2023-08-27</skos:historyNote>
@@ -323,17 +204,6 @@
     <skos:definition>Asset Type TV Program or a Show</skos:definition>
     <skos:altLabel xml:lang="en">Program</skos:altLabel>
     <skos:prefLabel xml:lang="en">TV Show</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.1">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2024-07-12</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>A small graphic or logo placed in a corner of the screen, often used for branding</skos:definition>
-    <skos:altLabel xml:lang="en">Bug</skos:altLabel>
-    <skos:prefLabel xml:lang="en">Logo</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.2">
@@ -346,46 +216,6 @@
     <skos:prefLabel xml:lang="en">Logo</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.6">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition> Promo is a video used for the express purpose of promoting a specific marketing 
-                        initiative, sale, or event. Promos are often similar in style and tone to a teaser video,
-                         where you grab your audience’s attention and draw them in to learn more. Promos are
-                          primarily used to increase the target audience’s trust in the brand. </skos:definition>
-    <skos:prefLabel xml:lang="en">Promo</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8">
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
-    <skos:prefLabel xml:lang="en">Bumper</skos:prefLabel>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8.1"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8.2"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Little segments in shows that come between the show and the commercial break. 
-                         Most common types of bump is the 5-second logo animation that pops up reminding you 
-                         what show you are watching as you go to or come back from a commercial.</skos:definition>
-    <skos:changeNote></skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-    <skos:note>Valid</skos:note>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3">
-    <skos:definition>Image Asset Type Top Concept</skos:definition>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.2"/>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3"/>
-    <skos:note>Valid</skos:note>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.4"/>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:prefLabel xml:lang="en">Image</skos:prefLabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.3">
     <skos:note>Valid</skos:note>
     <skos:historyNote>2024-07-12</skos:historyNote>
@@ -396,15 +226,19 @@
     <skos:prefLabel xml:lang="en">L-Band</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.4">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8">
     <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Other Image</skos:definition>
-    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+    <skos:changeNote></skos:changeNote>
+    <skos:definition>Little segments in shows that come between the show and the commercial break. 
+                         Most common types of bump is the 5-second logo animation that pops up reminding you 
+                         what show you are watching as you go to or come back from a commercial.</skos:definition>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8.2"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8.1"/>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:prefLabel xml:lang="en">Bumper</skos:prefLabel>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_2.1">
     <skos:note>Valid</skos:note>
@@ -416,25 +250,14 @@
     <skos:prefLabel xml:lang="en">Podcast</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.2.1">
     <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:historyNote>2024-11-18</skos:historyNote>
     <skos:changeNote></skos:changeNote>
-    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1"/>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1"/>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.2"/>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Episode of a TV Show or a Program</skos:definition>
-    <skos:prefLabel xml:lang="en">Episode</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8.1">
-    <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8"/>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Bumper at beginning of show</skos:definition>
-    <skos:prefLabel xml:lang="en">BumperIn</skos:prefLabel>
+    <skos:definition>A feature that is short form and sponsored</skos:definition>
+    <skos:prefLabel xml:lang="en">Shorts Sponsored</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.2">
@@ -447,16 +270,14 @@
     <skos:prefLabel xml:lang="en">PosterTitledDark</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.13">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8.3">
     <skos:note>Valid</skos:note>
-    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:historyNote>2024-11-18</skos:historyNote>
     <skos:changeNote></skos:changeNote>
-    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8"/>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>Sponsored content is a long-form or otherwise in-depth asset whose production is
-                          funded by a sponsor, but whose creation and distribution is handled by a partner, 
-                          which in turn ensures that the asset closely resembles the non-ad content on its platform. </skos:definition>
-    <skos:prefLabel xml:lang="en">Sponsored</skos:prefLabel>
+    <skos:definition>Bumper with sponsorship</skos:definition>
+    <skos:prefLabel xml:lang="en">Bumper Sponsored</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.15">
@@ -493,6 +314,252 @@
                         as against a trailer which captures the beginning, middle, and end of a particular movie 
                         in a three-act structure.</skos:definition>
     <skos:prefLabel xml:lang="en">Teaser</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1.1">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-11-18</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>An episodic short form video that is sponsored</skos:definition>
+    <skos:prefLabel xml:lang="en">Shorts Sponsored</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.4">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-07-02</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Poster without titled text in dark theme</skos:definition>
+    <skos:prefLabel xml:lang="en">PosterUntitledDark</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3.2">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Dark themed Thumbnail Image</skos:definition>
+    <skos:prefLabel xml:lang="en">ThumbnailDark</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.2">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.2.1"/>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Any video that is under 10 minutes is classified as a short-form video</skos:definition>
+    <skos:prefLabel xml:lang="en">Short Form</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.2">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-07-12</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Text or graphics displayed in the lower third of the screen, usually containing information such as names, titles, ads, or other contextual data</skos:definition>
+    <skos:altLabel xml:lang="en">LowerThird</skos:altLabel>
+    <skos:prefLabel xml:lang="en">AstonBand</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4">
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.5"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.4"/>
+    <skos:historyNote>2023-10-16</skos:historyNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.3"/>
+    <skos:note>Valid</skos:note>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.2"/>
+    <skos:definition>Graphic Asset Type Top Concept</skos:definition>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.6"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.1"/>
+    <skos:prefLabel xml:lang="en">Graphic</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.7">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition> Interstitial ads are interactive, full-screen ads that cover the interface of 
+                        their host app or site. These ads appear between content, so they place at natural
+                         transition points or breaks, such as in between activities or game levels. Their 
+                         full-coverage is what differentiates them from other ad types, like pop-up, native,
+                          and banner ads. </skos:definition>
+    <skos:prefLabel xml:lang="en">Interstitial</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.16.1">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-11-18</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.16"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>An ident that can have adjustable duration similiar to a filler or wheeler</skos:definition>
+    <skos:prefLabel xml:lang="en">Ident Adjustable</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS">
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4"/>
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3"/>
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_2"/>
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1"/>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for Asset Type</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1">
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.2"/>
+    <skos:definition>Poster Image</skos:definition>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.1"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.4"/>
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:prefLabel xml:lang="en">Poster</skos:prefLabel>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1.3"/>
+    <skos:altLabel xml:lang="en">Banner</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.14">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Filler is video of lower cost or quality that is used to fill a certain television time slot
+                         or physical medium </skos:definition>
+    <skos:prefLabel xml:lang="en">Filler</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.10">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Asset Type Other</skos:definition>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.6">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-07-12</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>A side band or boottom overlay that shows the current program, the next program, and the program after that.</skos:definition>
+    <skos:prefLabel xml:lang="en">NowNextLater</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.1">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>A film – also called a movie, motion picture, moving picture, picture, photoplay is is a series of moving images shown on a screen, usually with sound, that make up a story</skos:definition>
+    <skos:prefLabel xml:lang="en">Movie</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.6">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition> Promo is a video used for the express purpose of promoting a specific marketing 
+                        initiative, sale, or event. Promos are often similar in style and tone to a teaser video,
+                         where you grab your audience’s attention and draw them in to learn more. Promos are
+                          primarily used to increase the target audience’s trust in the brand. </skos:definition>
+    <skos:prefLabel xml:lang="en">Promo</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4.1">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-07-12</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_4"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>A small graphic or logo placed in a corner of the screen, often used for branding</skos:definition>
+    <skos:altLabel xml:lang="en">Bug</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Logo</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.4">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Other Image</skos:definition>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3">
+    <skos:prefLabel xml:lang="en">Image</skos:prefLabel>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.4"/>
+    <skos:note>Valid</skos:note>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.3"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.2"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_3.1"/>
+    <skos:definition>Image Asset Type Top Concept</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1"/>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Episode of a TV Show or a Program</skos:definition>
+    <skos:prefLabel xml:lang="en">Episode</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.17">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2024-11-18</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>A warning clip  </skos:definition>
+    <skos:prefLabel xml:lang="en">Warning</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8.1">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Bumper at beginning of show</skos:definition>
+    <skos:prefLabel xml:lang="en">BumperIn</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.13">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2023-08-27</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>Sponsored content is a long-form or otherwise in-depth asset whose production is
+                          funded by a sponsor, but whose creation and distribution is handled by a partner, 
+                          which in turn ensures that the asset closely resembles the non-ad content on its platform. </skos:definition>
+    <skos:prefLabel xml:lang="en">Sponsored</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
 </rdf:RDF>
