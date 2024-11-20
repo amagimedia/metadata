@@ -88,7 +88,9 @@
         skos:hasTopConcept  parentalguidance:_66 ;
         skos:hasTopConcept  parentalguidance:_67 ;
         skos:hasTopConcept  parentalguidance:_68 ; # Italy MBACT
-        skos:hasTopConcept  parentalguidance:_69 . # Italy AGCOM
+        skos:hasTopConcept  parentalguidance:_69 ; # Italy AGCOM
+        skos:hasTopConcept  parentalguidance:_70 ; # Japan EIRIN
+        skos:hasTopConcept  parentalguidance:_71 . # Russia MKRF
 
 parentalguidance:_1  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "AR-INCAA"@en ;
