@@ -230,6 +230,7 @@
     <skos:note>Valid</skos:note>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
     <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8.3"/>
     <skos:definition>Little segments in shows that come between the show and the commercial break. 
                          Most common types of bump is the 5-second logo animation that pops up reminding you 
                          what show you are watching as you go to or come back from a commercial.</skos:definition>

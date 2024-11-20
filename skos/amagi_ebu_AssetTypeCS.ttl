@@ -179,6 +179,7 @@ ast_type:_1.1.8
         skos:broader    ast_type:_1.1 ;
         skos:narrower    ast_type:_1.1.8.1 ;
         skos:narrower    ast_type:_1.1.8.2 ;
+        skos:narrower    ast_type:_1.1.8.3 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" .
