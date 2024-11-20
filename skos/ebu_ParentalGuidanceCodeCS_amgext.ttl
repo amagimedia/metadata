@@ -6300,7 +6300,7 @@ parentalguidance:_68.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "Rating"@en ;
         skos:definition   ""@en ;
-        skos:broader      parentalguidance:_4 ;
+        skos:broader      parentalguidance:_68;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_68.1.1 ;
         skos:narrower     parentalguidance:_68.1.2 ;
@@ -6374,7 +6374,7 @@ parentalguidance:_69.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "Rating"@en ;
         skos:definition   ""@en ;
-        skos:broader      parentalguidance:_4 ;
+        skos:broader      parentalguidance:_69 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_69.1.1 ;
         skos:narrower     parentalguidance:_69.1.2 ;
@@ -6428,6 +6428,84 @@ parentalguidance:_69.1.4
         skos:historyNote  "" ;
         skos:example      "" .
 
+
+# Ref for Russian ratings: https://movielabs.com/md/ratings/v2.4.5/html/RU_MKRF_Ratings.html
+parentalguidance:_70  rdf:type  ebucore:TargetAudience ;
+        skos:prefLabel    "RU-MKRF"@en ;
+        skos:altLabel     "MKRF"@en ;
+        skos:scopeNote    "Region:RUSSIA"@en ;
+        skos:definition   "Ministry of Culture of the Russian Federation"@en ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_70.1 ;
+        skos:changeNote   "Created" ;
+        skos:historyNote  "2024-11-15" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
+parentalguidance:_70.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Rating"@en ;
+        skos:definition   ""@en ;
+        skos:broader      parentalguidance:_70 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_70.1.1 ;
+        skos:narrower     parentalguidance:_70.1.2 ;
+        skos:narrower     parentalguidance:_70.1.3 ;
+        skos:narrower     parentalguidance:_70.1.4 ;
+        skos:narrower     parentalguidance:_70.1.5 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.1.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "0+"@en ;
+        skos:definition   "Suitable for all ages"@en ;
+        skos:broader      parentalguidance:_70.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.1.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "6+"@en ;
+        skos:definition   "Media suitable for people aged 6 and older"@en ;
+        skos:broader      parentalguidance:_70.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.1.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "12+"@en ;
+        skos:definition   "Media suitable for people aged 12 and older"@en ;
+        skos:broader      parentalguidance:_70.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.1.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "16+"@en ;
+        skos:definition   "Media suitable for people aged 16 and older"@en ;
+        skos:broader      parentalguidance:_70.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_70.1.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "18+"@en ;
+        skos:definition   "Media suitable only for people aged 18 and older"@en ;
+        skos:broader      parentalguidance:_70.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
 
 
 _:b0    rdf:first  parentalguidance:_31 ;
