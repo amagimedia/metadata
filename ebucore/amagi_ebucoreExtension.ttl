@@ -559,6 +559,13 @@
     rdfs:comment  "To indicate the date/time segment has been modified."@en ;
     rdfs:label    "Segments Last Modified At"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isSegmentFromPublisher>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:comment  "Specifies if the publisher has initial provided segment or cuepoint. If true then the publisher has provided segment"@en ;
+    rdfs:label    "Is Segment From Publisher"@en .
+
 # Graphics
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic>
