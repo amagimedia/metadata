@@ -432,7 +432,7 @@
   </rdf:Description>
     <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue">
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:comment xml:lang="en">Class to represent specific key value pairs</rdfs:comment>
+    <rdfs:comment xml:lang="en">Class to represent specific key value pairs. This was introduced to allow content partner to pass through some custom key values that can be used to pass through to the platform either in vod packaging or in epg</rdfs:comment>
     <rdfs:label xml:lang="en">CustomKeyValue</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
