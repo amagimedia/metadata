@@ -585,7 +585,9 @@
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue>
         rdf:type         rdfs:Class ;
         rdfs:label       "CustomKeyValue"@en ;
-        rdfs:comment     "Class to represent specific key value pairs"@en ;
+        rdfs:comment     """Class to represent specific key value pairs. This was introduced to allow content
+			partner to pass through some custom key values that can be used to pass through to
+			the platform either in vod packaging or in epg"""@en ;
         rdfs:subClassOf  owl:Thing .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customKey>
