@@ -582,13 +582,20 @@
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
         rdfs:label              "Is Patched"@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isTrailerOfAsset>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isTrailerOf>
         rdf:type      rdf:Property ;
-        rdfs:comment  """To identify related trailer of a given episodic, feature, series or season asset. 
+        rdfs:comment  """To identify related trailer of a given episodic, feature, series or season. 
                        It is equivalevent ot 'trailer' property defined in schema.org as defined in https://schema.org/trailer"""@en ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
-        rdfs:label    "isTrailerOfAsset"@en .
+        rdfs:label    "isTrailerOf"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasTrailer>
+        rdf:type      rdf:Property ;
+	rdfs:comment  "Specifies whether the asset has Trailer"@en ;
+	rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+	rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+	rdfs:label    "hasTrailer"@en .
     
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue>
         rdf:type         rdfs:Class ;
