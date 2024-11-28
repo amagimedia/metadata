@@ -590,3 +590,31 @@
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label    "isTrailerOfAsset"@en .
     
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue>
+        rdf:type         rdfs:Class ;
+        rdfs:label       "CustomKeyValue"@en ;
+        rdfs:comment     """Class to represent specific key value pairs. This was introduced to allow content
+			partner to pass through some custom key values that can be used to pass through to
+			the platform either in vod packaging or in epg"""@en ;
+        rdfs:subClassOf  owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customKey>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment            "Key string of CustomKeyValue"@en ;
+        rdfs:domain             <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
+        rdfs:label              "Custom Key Value"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customValue>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment            "Value string of CustomKeyValue"@en ;
+        rdfs:domain             <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
+        rdfs:label              "custom value"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCustomKeyValue>
+        rdf:type                rdf:Property ;
+        rdfs:range              <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
+        rdfs:comment            "Custom keys of an entity"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "Has Custom Key Value"@en .
