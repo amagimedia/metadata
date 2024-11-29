@@ -110,8 +110,8 @@
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image">
     <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasTrailer">
-    <rdfs:label xml:lang="en">hasTrailer</rdfs:label>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#trailerPresent">
+    <rdfs:label xml:lang="en">Trailer Present</rdfs:label>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <rdfs:comment xml:lang="en">Specifies whether the asset has Trailer</rdfs:comment>

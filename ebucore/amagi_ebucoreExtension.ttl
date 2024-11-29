@@ -590,12 +590,12 @@
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label    "isTrailerOf"@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasTrailer>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#trailerPresent>
         rdf:type      rdf:Property ;
 	rdfs:comment  "Specifies whether the asset has Trailer"@en ;
 	rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
 	rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
-	rdfs:label    "hasTrailer"@en .
+	rdfs:label    "Trailer Present"@en .
     
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue>
         rdf:type         rdfs:Class ;
