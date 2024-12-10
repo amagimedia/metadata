@@ -221,7 +221,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isSegmentFromPublisher">
     <rdfs:label xml:lang="en">Is Segment From Publisher</rdfs:label>
-    <rdfs:comment xml:lang="en">Specifies if the publisher has initial provided segment or cuepoint. If true then the publisher has provided segment</rdfs:comment>
+    <rdfs:comment xml:lang="en">Specifies if the publisher has initial provided segment or cuepoint. If true then the publisher has provided segment, If false the publisher has provided cuepoint</rdfs:comment>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>

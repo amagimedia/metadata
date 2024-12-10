@@ -563,7 +563,7 @@
     rdf:type      rdf:Property ;
     rdfs:domain   ebucore:Asset ;
     rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
-    rdfs:comment  "Specifies if the publisher has initial provided segment or cuepoint. If true then the publisher has provided segment"@en ;
+    rdfs:comment  "Specifies if the publisher has initial provided segment or cuepoint. If true then the publisher has provided segment, If false the publisher has provided cuepoint"@en ;
     rdfs:label    "Is Segment From Publisher"@en .
 
 # Graphics
