@@ -571,13 +571,14 @@ parentalguidance:_4.2.11
         skos:example      "" .
 
 parentalguidance:_5  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "BE"@en ;
+        skos:prefLabel    "BE-CICF"@en ;
         skos:scopeNote    "Region:Belgium"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_5.1 ;
         skos:narrower     parentalguidance:_5.2 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
+        dct:description   "Movie labs ratings: https://www.movielabs.com/md/ratings/v2.0/html/BE_CICF_Ratings.html"@en ;
         skos:example      "" .
 
 parentalguidance:_5.1
@@ -1550,7 +1551,7 @@ parentalguidance:_16.2.11
         skos:example      "" .
 
 parentalguidance:_17  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "CO"@en ;
+        skos:prefLabel    "CO-MOC"@en ;
         skos:scopeNote    "Region:Columbia"@en ;
         skos:definition   "Movie ratings as defined by the Colombian Ministry of\n         Culture"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1563,7 +1564,9 @@ parentalguidance:_17  rdf:type  ebucore:TargetAudience ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2009-07-27" ;
         skos:example      "" ;
+        dct:description   "Movie labs ratings: https://www.movielabs.com/md/ratings/v2.0/html/CO_MOC_Ratings.html"@en ;
         skos:note         "Valid" .
+
 
 parentalguidance:_17.1
         rdf:type          ebucore:TargetAudience ;
@@ -6002,7 +6005,7 @@ parentalguidance:_63.1.7
         skos:example      "" .
 
 parentalguidance:_64  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "CH"@en ;
+        skos:prefLabel    "CH-Film"@en ;
         skos:scopeNote    "Region:Switzerland"@en ;
         skos:definition   ""@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -6010,6 +6013,7 @@ parentalguidance:_64  rdf:type  ebucore:TargetAudience ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2010-08-03" ;
         skos:example      "" ;
+        dct:description   "Movie labs ratings: https://www.movielabs.com/md/ratings/v2.0/html/CH_Film_Ratings.html"@en ;
         skos:note         "Valid" .
 
 parentalguidance:_64.1
@@ -6099,7 +6103,7 @@ parentalguidance:_64.1.7
         skos:example      "" .
 
 parentalguidance:_65  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "TH"@en ;
+        skos:prefLabel    "TH-BFVC"@en ;
         skos:scopeNote    "Region:Thailand"@en ;
         skos:definition   ""@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -6107,6 +6111,7 @@ parentalguidance:_65  rdf:type  ebucore:TargetAudience ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2010-08-03" ;
         skos:example      "" ;
+        dct:description   "Movie labs ratings: https://www.movielabs.com/md/ratings/v2.0/html/TH_BFVC_Ratings.html"@en ;
         skos:note         "Valid" .
 
 parentalguidance:_65.1
@@ -6185,7 +6190,7 @@ parentalguidance:_65.1.6
         skos:example      "" .
 
 parentalguidance:_66  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "UAB"@en ;
+        skos:prefLabel    "AE-UAB"@en ;
         skos:scopeNote    "Region:United Arab Emirates"@en ;
         skos:definition   ""@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -6457,7 +6462,7 @@ parentalguidance:defaultSchemesList
 
 
 parentalguidance:_70  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "Eirin"@en ; # https://en.wikipedia.org/wiki/Eirin
+        skos:prefLabel    "JP-EIRIN"@en ; # https://en.wikipedia.org/wiki/Eirin
         skos:prefLabel    "映倫"@ja ;
         skos:scopeNote    "Region:Japan"@en ;
         skos:definition   "Film Classification and Rating Organization"@en ;
@@ -6468,6 +6473,7 @@ parentalguidance:_70  rdf:type  ebucore:TargetAudience ;
         skos:changeNote   "Create" ;
         skos:historyNote  "2024-07-24" ;
         skos:example      "" ;
+        dct:description   "Ratings: https://www.eirin.jp/english/008.html"@en ;
         skos:note         "Valid" .
 
 parentalguidance:_70.1
