@@ -109,7 +109,6 @@ ast_type:_1.1.2.1
 ast_type:_1.1.3
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "TV Show"@en ;
-        skos:altLabel  "Program"@en ;
         skos:definition   "Asset Type TV Program or a Show" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_1.1 ;
