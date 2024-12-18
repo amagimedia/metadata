@@ -2688,7 +2688,7 @@ parentalguidance:_31.1.3
 parentalguidance:_31.1.4
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "D"@en ;
-        skos:altLabel     "橙"@ja ;
+        skos:prefLabel     "橙"@ja ;
         skos:altLabel     "Orange"@en ;
         skos:definition   "17歳以上のみ"@ja ;
         skos:definition   "17 and over"@en ;
