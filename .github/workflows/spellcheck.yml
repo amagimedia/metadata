@@ -18,6 +18,6 @@ jobs:
       - uses: streetsidesoftware/cspell-action@v3
         with:
           files: |
-            **/*.{rdf,ttl,json}
+            docs/skos/*
           incremental_files_only: true
           config: './.vscode/cspell.json'
