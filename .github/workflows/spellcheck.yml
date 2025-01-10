@@ -17,6 +17,6 @@ jobs:
 
       - uses: streetsidesoftware/cspell-action@v3
         with:
-          files: 'docs/skos/'
+          files: ''
           incremental_files_only: true
           config: './.vscode/cspell.json'
