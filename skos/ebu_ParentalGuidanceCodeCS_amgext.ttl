@@ -2194,7 +2194,7 @@ parentalguidance:_25  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "FR-CNC"@en ;
         skos:altLabel     "Centre national du cinéma et de l'image animée"@fr ;
         skos:scopeNote    "Region:France" ;
-        skos:definition   "Centre National de Cinématographie"@en ;
+        skos:definition   "Centre National de Cinematographie"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_25.1 ;
         skos:narrower     parentalguidance:_25.2 ;
