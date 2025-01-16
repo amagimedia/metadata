@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
-      - uses: streetsidesoftware/cspell-action@v3
+      - uses: streetsidesoftware/cspell-action@v6
         with:
           files: |
             docs/skos/*.{json,rdf,ttl}
