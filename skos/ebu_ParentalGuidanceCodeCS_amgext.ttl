@@ -3245,7 +3245,7 @@ parentalguidance:_35.2.3
 parentalguidance:_35.2.4
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "Adicciones"@es ;
-        skos:prefLabel    "Drugs and alcohol"@en ;
+        skos:prefLabel    "Drugs and aclohol"@en ;
         skos:broader      parentalguidance:_35.2 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
