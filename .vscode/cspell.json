@@ -546,23 +546,5 @@
     "Updfate",
     "deliver"
   ],
-  "language": "de,en,en-AU,en-GB,es,fi,fr,it,lv,nb-no,nl,pl,pt,sv,tr",
-  "import": [
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-de-ch@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-en_us@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-en-au@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-en-gb@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-eo@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-es-es@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-fi-fi@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-fr-fr@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-it-it@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-lv@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-nb-no@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-nl-nl@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-pl_pl@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-pt-br@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-sv@latest/cspell-ext.json",
-    "https://cdn.jsdelivr.net/npm/@cspell/dict-tr-tr@latest/cspell-ext.json"
-  ]
+  "language": "de,en,en-AU,en-GB,es,fi,fr,it,lv,nb-no,nl,pl,pt,sv,tr"
 }
