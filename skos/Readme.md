@@ -27,4 +27,3 @@
 ```bash
 rdfdiff ebu_ContentGenreCS_amgext.rdf ebu_ContentGenreCS.rdf rdf/xml rdf/xml | sort
 ```
-<!-- test spellchecker -->

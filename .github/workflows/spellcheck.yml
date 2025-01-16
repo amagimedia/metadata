@@ -19,4 +19,5 @@ jobs:
         with:
           files: |
             docs/skos/*.{json,rdf,ttl}
+          incremental_files_only: false
           config: './.vscode/cspell.json'
