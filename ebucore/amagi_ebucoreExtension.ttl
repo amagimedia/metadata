@@ -34,6 +34,21 @@
         skos:definition         "This is set to true if an image is titled. default is false. Titled images are ones with text e.g. banner with movie name, series name etc"@en ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
 
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isBranded>
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:label              "isBranded"@en ;
+        skos:definition         "This is set to true if an image is branded with a logo. default is false. Branded images are ones with logo of a channel, network etc"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
+
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isDarkBackground>
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:label              "isDarkBackground"@en ;
+        skos:definition         "This is set to true if an image has dark background. default is false. Dark background images are ones with dark background that could be used by platforms when dark mode enabled"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image> .
+
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isAttributedTo>
     a rdf:Property ;
     rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
