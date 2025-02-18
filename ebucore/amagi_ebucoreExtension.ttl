@@ -192,6 +192,17 @@
     rdfs:comment    "A class specific to the annotation of a video asset."@en ;
     rdfs:subClassOf <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Annotation> .
 
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#synopsis> 
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#summary> 
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasParticipatingAgent> 
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#dateReleased> 
+    rdfs:domain     <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> .
 
 ######################################################################
 # Properties aded for usage restrictions to express limits on the 
@@ -397,6 +408,7 @@
     rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
     rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CountryCode> ;
     rdfs:domain             ebucore:Asset ;
+    rdfs:domain             <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta> ;
     rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
     rdfs:label "Production Country"@en ;
     skos:definition "This property denotes the country of the production studio."@en .
