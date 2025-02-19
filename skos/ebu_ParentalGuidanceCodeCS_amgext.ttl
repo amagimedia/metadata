@@ -300,7 +300,7 @@ parentalguidance:_3.2
 parentalguidance:_3.3
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "M"@en ;
-        skos:prefLabel    "Mature"@en ;
+        skos:altLabel     "Mature"@en ;
         skos:definition   "The M category is recommended for mature audiences. A mature\n         perspective is required to view this material. The impact of the content is\n         moderate."@en ;
         skos:broader      parentalguidance:_3 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -331,7 +331,7 @@ parentalguidance:_3.5
 parentalguidance:_3.6
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "X18+"@en ;
-        skos:prefLabel    "Restricted to 18 and over"@en ;
+        skos:altLabel     "Restricted to 18 and over"@en ;
         skos:definition   "The X 18+ classification only applies to films that contain\n         sexually explicit material between consenting adults. It is restricted to persons aged 18\n         years and over and can only be sold or hired legally in the ACT and the Northern Territory.\n         The possession and supply of X 18+ films is prohibited in prescribed areas of the Northern\n         Territory."@en ;
         skos:broader      parentalguidance:_3 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -571,13 +571,14 @@ parentalguidance:_4.2.11
         skos:example      "" .
 
 parentalguidance:_5  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "BE"@en ;
+        skos:prefLabel    "BE-CICF"@en ;
         skos:scopeNote    "Region:Belgium"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_5.1 ;
         skos:narrower     parentalguidance:_5.2 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
+        dct:description   "Movie labs ratings: https://www.movielabs.com/md/ratings/v2.0/html/BE_CICF_Ratings.html"@en ;
         skos:example      "" .
 
 parentalguidance:_5.1
@@ -879,7 +880,7 @@ parentalguidance:_9  rdf:type  ebucore:TargetAudience ;
 parentalguidance:_9.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "G"@en ;
-        skos:prefLabel    "General"@en ;
+        skos:altLabel    "General"@en ;
         skos:definition   "Suitable for viewing by all ages"@en ;
         skos:broader      parentalguidance:_9 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -921,7 +922,7 @@ parentalguidance:_9.4
 parentalguidance:_9.5
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "R"@en ;
-        skos:prefLabel    "Restricted"@en ;
+        skos:altLabel     "Restricted"@en ;
         skos:definition   "Restricted to 18 years and older. No rental or purchase by\n         those under 18. Contents not suitable for minors. Contains frequent sexual activity,\n         brutality/graphic violence, intense horror, and/or other disturbing content. "@en ;
         skos:broader      parentalguidance:_9 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -932,7 +933,7 @@ parentalguidance:_9.5
 parentalguidance:_9.6
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "A"@en ;
-        skos:prefLabel    "Adult"@en ;
+        skos:altLabel     "Adult"@en ;
         skos:definition   "Admittance restricted to persons 18 years of age or older.\n         Content not suitable for minors. Contains predominantly sexually explicit activity. "@en ;
         skos:broader      parentalguidance:_9 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -959,7 +960,7 @@ parentalguidance:_10  rdf:type  ebucore:TargetAudience ;
 parentalguidance:_10.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "G"@en ;
-        skos:prefLabel    "General"@en ;
+        skos:altLabel     "General"@en ;
         skos:definition   "Suitable for viewing by all ages"@en ;
         skos:broader      parentalguidance:_10 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1001,7 +1002,7 @@ parentalguidance:_10.4
 parentalguidance:_10.5
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "R"@en ;
-        skos:prefLabel    "Restricted"@en ;
+        skos:altLabel     "Restricted"@en ;
         skos:definition   "Restricted to 18 years and older. No rental or purchase by\n         those under 18. Contents not suitable for minors. Contains frequent sexual activity,\n         brutality/graphic violence, intense horror, and/or other disturbing content. "@en ;
         skos:broader      parentalguidance:_10 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1112,7 +1113,7 @@ parentalguidance:_12.2
 parentalguidance:_12.3
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "G"@en ;
-        skos:prefLabel    "General"@en ;
+        skos:altLabel     "General"@en ;
         skos:definition   "Considered acceptable for all age groups. Appropriate viewing\n         for the entire family."@en ;
         skos:broader      parentalguidance:_12 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1422,7 +1423,7 @@ parentalguidance:_16.1.1
 parentalguidance:_16.1.2
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "M"@en ;
-        skos:prefLabel    "Mature"@en ;
+        skos:altLabel     "Mature"@en ;
         skos:definition   "Programmes classified \"M\" are recommended for viewing by\n         grown-up members of the family only."@en ;
         skos:broader      parentalguidance:_16.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1550,7 +1551,7 @@ parentalguidance:_16.2.11
         skos:example      "" .
 
 parentalguidance:_17  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "CO"@en ;
+        skos:prefLabel    "CO-MOC"@en ;
         skos:scopeNote    "Region:Columbia"@en ;
         skos:definition   "Movie ratings as defined by the Colombian Ministry of\n         Culture"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1563,7 +1564,9 @@ parentalguidance:_17  rdf:type  ebucore:TargetAudience ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2009-07-27" ;
         skos:example      "" ;
+        dct:description   "Movie labs ratings: https://www.movielabs.com/md/ratings/v2.0/html/CO_MOC_Ratings.html"@en ;
         skos:note         "Valid" .
+
 
 parentalguidance:_17.1
         rdf:type          ebucore:TargetAudience ;
@@ -2504,7 +2507,7 @@ parentalguidance:_29  rdf:type  ebucore:TargetAudience ;
 parentalguidance:_29.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "GA"@en ;
-        skos:prefLabel    "General Audience"@en ;
+        skos:altLabel     "General Audience"@en ;
         skos:prefLabel    "Lucht Féachana Ginearálta"@ga ;
         skos:definition   "A programme that would be acceptable to all ages and\n         tastes."@en ;
         skos:broader      parentalguidance:_29 ;
@@ -2516,7 +2519,7 @@ parentalguidance:_29.1
 parentalguidance:_29.2
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "CH"@en ;
-        skos:prefLabel    "Children"@en ;
+        skos:altLabel     "Children"@en ;
         skos:prefLabel    "Páistí"@ga ;
         skos:definition   "a programme aimed specifically at children ages 5–10. May\n         contain mild cartoon or fantasy violence."@en ;
         skos:broader      parentalguidance:_29 ;
@@ -2528,7 +2531,7 @@ parentalguidance:_29.2
 parentalguidance:_29.3
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "YA"@en ;
-        skos:prefLabel    "Young Adult"@en ;
+        skos:altLabel     "Young Adult"@en ;
         skos:prefLabel    "Ógra"@ga ;
         skos:definition   "a programme aimed at an adolescent audience. That is to say it\n         would not be of great interest to an adult. However, it might deal with issues which affect\n         the teenage and late preteen audience, e.g. relationships, sexual activity, sexuality, soft\n         drugs. Parents and guardians could expect that \"YA\" programmes might contain such material\n         and may choose to limit their children's access."@en ;
         skos:broader      parentalguidance:_29 ;
@@ -2540,7 +2543,7 @@ parentalguidance:_29.3
 parentalguidance:_29.4
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "PS"@en ;
-        skos:prefLabel    "Parental Supervision"@en ;
+        skos:altLabel     "Parental Supervision"@en ;
         skos:prefLabel    "Treoir Tuismitheora"@ga ;
         skos:definition   "a programme aimed at a mature audience (i.e. It might deal with\n         adult themes, be moderately violent, frightening or contain an occasional swear word.) and\n         the classification label invites parents or guardians to consider restricting children's\n         access."@en ;
         skos:broader      parentalguidance:_29 ;
@@ -2552,7 +2555,7 @@ parentalguidance:_29.4
 parentalguidance:_29.5
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "MA"@en ;
-        skos:prefLabel    "Mature Audience"@en ;
+        skos:altLabel     "Mature Audience"@en ;
         skos:prefLabel    "Lucht Féachana Lánfhásta Amháin"@ga ;
         skos:definition   "a typical \"post-watershed\" program which might contain scenes\n         of strong sexual activity and heavy violence, or the dialogue might be\n         profane."@en ;
         skos:broader      parentalguidance:_29 ;
@@ -2647,7 +2650,7 @@ parentalguidance:_31.1.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "A"@en ;
         skos:prefLabel    "黒"@ja ;
-        skos:prefLabel    "Black"@en ;
+        skos:altLabel     "Black"@en ;
         skos:definition   ""@ja ;
         skos:definition   "All ages"@en ;
         skos:broader      parentalguidance:_31.1 ;
@@ -2673,7 +2676,7 @@ parentalguidance:_31.1.3
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "C"@en ;
         skos:prefLabel    "青"@ja ;
-        skos:prefLabel    "Blue"@en ;
+        skos:altLabel     "Blue"@en ;
         skos:definition   "15歳以上のみ"@ja ;
         skos:definition   "15 and over"@en ;
         skos:broader      parentalguidance:_31.1 ;
@@ -2685,8 +2688,8 @@ parentalguidance:_31.1.3
 parentalguidance:_31.1.4
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "D"@en ;
-        skos:prefLabel    "橙"@ja ;
-        skos:prefLabel    "Orange"@en ;
+        skos:prefLabel     "橙"@ja ;
+        skos:altLabel     "Orange"@en ;
         skos:definition   "17歳以上のみ"@ja ;
         skos:definition   "17 and over"@en ;
         skos:broader      parentalguidance:_31.1 ;
@@ -2699,7 +2702,7 @@ parentalguidance:_31.1.5
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "Z"@en ;
         skos:prefLabel    "赤"@ja ;
-        skos:prefLabel    "Red"@en ;
+        skos:altLabel    "Red"@en ;
         skos:definition   "18歳以上のみ"@ja ;
         skos:definition   "18 and over"@en ;
         skos:broader      parentalguidance:_31.1 ;
@@ -2974,8 +2977,8 @@ parentalguidance:_34.1
 parentalguidance:_34.1.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "G"@en ;
-        skos:prefLabel    "General"@en ;
-        skos:prefLabel    "Green"@en ;
+        skos:altLabel     "General"@en ;
+        skos:altLabel     "Green"@en ;
         skos:definition   "Suitable for all ages"@en ;
         skos:broader      parentalguidance:_34.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3279,7 +3282,7 @@ parentalguidance:_36.1
 parentalguidance:_36.1.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "G"@en ;
-        skos:prefLabel    "General"@en ;
+        skos:altLabel     "General"@en ;
         skos:definition   "The content is considered by the board to be suitable for\n         viewing by persons of all ages."@en ;
         skos:broader      parentalguidance:_36.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3648,7 +3651,7 @@ parentalguidance:_39  rdf:type  ebucore:TargetAudience ;
 parentalguidance:_39.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "G"@en ;
-        skos:prefLabel    "General"@en ;
+        skos:altLabel     "General"@en ;
         skos:definition   "Suitable for general audiences (awarded by the Film and Video\n         Labelling Body and the Office of Film and Literature Classification)"@en ;
         skos:broader      parentalguidance:_39 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3670,7 +3673,7 @@ parentalguidance:_39.2
 parentalguidance:_39.3
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "M"@en ;
-        skos:prefLabel    "Mature"@en ;
+        skos:altLabel     "Mature"@en ;
         skos:definition   "Suitable for (but not restricted to) mature audiences 16 years\n         and over (awarded by the Film and Video Labelling Body and the Office of Film and\n         Literature Classification)"@en ;
         skos:broader      parentalguidance:_39 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -3721,7 +3724,7 @@ parentalguidance:_39.7
 parentalguidance:_39.8
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "R"@en ;
-        skos:prefLabel    "Restricted"@en ;
+        skos:altLabel     "Restricted"@en ;
         skos:definition   "Restricted to a particular class of persons, or for particular\n         purposes, or both, specified by the Office of Film and Literature\n         Classification"@en ;
         skos:broader      parentalguidance:_39 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -4086,7 +4089,7 @@ parentalguidance:_45  rdf:type  ebucore:TargetAudience ;
 parentalguidance:_45.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "G"@en ;
-        skos:prefLabel    "General"@en ;
+        skos:altLabel     "General"@en ;
         skos:definition   "Suitable for all ages and audiences"@en ;
         skos:broader      parentalguidance:_45 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -6002,7 +6005,7 @@ parentalguidance:_63.1.7
         skos:example      "" .
 
 parentalguidance:_64  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "CH"@en ;
+        skos:prefLabel    "CH-Film"@en ;
         skos:scopeNote    "Region:Switzerland"@en ;
         skos:definition   ""@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -6010,6 +6013,7 @@ parentalguidance:_64  rdf:type  ebucore:TargetAudience ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2010-08-03" ;
         skos:example      "" ;
+        dct:description   "Movie labs ratings: https://www.movielabs.com/md/ratings/v2.0/html/CH_Film_Ratings.html"@en ;
         skos:note         "Valid" .
 
 parentalguidance:_64.1
@@ -6099,7 +6103,7 @@ parentalguidance:_64.1.7
         skos:example      "" .
 
 parentalguidance:_65  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "TH"@en ;
+        skos:prefLabel    "TH-BFVC"@en ;
         skos:scopeNote    "Region:Thailand"@en ;
         skos:definition   ""@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -6107,6 +6111,7 @@ parentalguidance:_65  rdf:type  ebucore:TargetAudience ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2010-08-03" ;
         skos:example      "" ;
+        dct:description   "Movie labs ratings: https://www.movielabs.com/md/ratings/v2.0/html/TH_BFVC_Ratings.html"@en ;
         skos:note         "Valid" .
 
 parentalguidance:_65.1
@@ -6185,7 +6190,7 @@ parentalguidance:_65.1.6
         skos:example      "" .
 
 parentalguidance:_66  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "UAB"@en ;
+        skos:prefLabel    "AE-UAB"@en ;
         skos:scopeNote    "Region:United Arab Emirates"@en ;
         skos:definition   ""@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -6457,7 +6462,7 @@ parentalguidance:defaultSchemesList
 
 
 parentalguidance:_70  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "Eirin"@en ; # https://en.wikipedia.org/wiki/Eirin
+        skos:prefLabel    "JP-EIRIN"@en ; # https://en.wikipedia.org/wiki/Eirin
         skos:prefLabel    "映倫"@ja ;
         skos:scopeNote    "Region:Japan"@en ;
         skos:definition   "Film Classification and Rating Organization"@en ;
@@ -6468,6 +6473,7 @@ parentalguidance:_70  rdf:type  ebucore:TargetAudience ;
         skos:changeNote   "Create" ;
         skos:historyNote  "2024-07-24" ;
         skos:example      "" ;
+        dct:description   "Ratings: https://www.eirin.jp/english/008.html"@en ;
         skos:note         "Valid" .
 
 parentalguidance:_70.1

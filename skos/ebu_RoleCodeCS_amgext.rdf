@@ -5501,6 +5501,7 @@
       <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.49"/>
       <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.50"/>
       <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.51"/>
+      <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.52"/>
       <skos:changeNote xml:lang=""/>
       <skos:historyNote>2007-04-12</skos:historyNote>
       <skos:example/>
@@ -6306,6 +6307,19 @@
       <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
       <skos:changeNote xml:lang=""/>
       <skos:historyNote>2019-06-24</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.52">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
+      <skos:prefLabel xml:lang="en">Senior Producer</skos:prefLabel>
+      <skos:definition xml:lang="en">A person who is responsible for the making of an audio-visual
+         work, including business aspects, management of the productions, and the commercial success
+         of the work within scheduled deadlines.</skos:definition>
+      <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20"/>
+      <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
+      <skos:changeNote xml:lang=""/>
+      <skos:historyNote>2025-02-14</skos:historyNote>
       <skos:example/>
       <skos:note>Valid</skos:note>
    </rdf:Description>
