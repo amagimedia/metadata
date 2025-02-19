@@ -544,7 +544,8 @@
     "Starwagon",
     "starwagon",
     "Updfate",
-    "deliver"
+    "deliver",
+    "Stillcut"
   ],
   "ignoreWords": ["springboard", "ILES", "FASO", "ILE", "CUBA", "FRAN", "NIUE", "deliver"],
   "language": "de,en,en-AU,en-GB,es,fi,fr,it,lv,nb-no,nl,pl,pt,sv,tr",
