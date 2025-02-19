@@ -158,6 +158,14 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isDirectedToChildren">
+    <skos:definition xml:lang="en">This property denotes whether the asset has been targeted to children.</skos:definition>
+    <rdfs:label xml:lang="en">Is directed to children</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPublicationRestrictions">
     <rdfs:label xml:lang="en">hasPublicationRestrictions</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy"/>
@@ -407,5 +415,46 @@
     <rdfs:comment xml:lang="en">Entity to represent the graphic to be used as overlay</rdfs:comment>
     <rdfs:label xml:lang="en">Graphic</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#userDefinedFps">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+    <rdfs:comment xml:lang="en">The unit used to express the user provided frame rate of a MediaResource in frames/second associated with an ebucore asset.</rdfs:comment>
+    <rdfs:label xml:lang="en">User Defined Frame Rate</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isPatched">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean" />
+    <rdfs:comment xml:lang="en">Used to denote if an artefact has been added through patch.</rdfs:comment>
+    <rdfs:label xml:lang="en">Is Patched</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+    <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment xml:lang="en">Class to represent specific key value pairs. This was introduced to allow content partner to pass through some custom key values that can be used to pass through to the platform either in vod packaging or in epg</rdfs:comment>
+    <rdfs:label xml:lang="en">CustomKeyValue</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customKey">
+    <rdfs:label xml:lang="en">Custom Key Value</rdfs:label>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue"/>
+    <rdfs:comment xml:lang="en">Key string of CustomKeyValue</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+    <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customValue">
+    <rdfs:label xml:lang="en">custom value</rdfs:label>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue"/>
+    <rdfs:comment xml:lang="en">Value string of CustomKeyValue</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+    <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCustomKeyValue">
+    <rdfs:label xml:lang="en">Has Custom Key Value</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:comment xml:lang="en">Custom keys of an entity</rdfs:comment>
+    <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
 </rdf:RDF>

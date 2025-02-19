@@ -1,0 +1,694 @@
+country,country_code,rating_body,rating_id,rating_label,rating_definition,criteria_id,criteria_label,criteria_definition
+Argentina,AR,AR-INCAA,1.1,ATP@en</br></br>ATP@es,Apta (para) Todo Público@es</br></br>For all ages@en,,,
+Argentina,AR,AR-INCAA,1.2,13@en</br></br>13@es,Not under 13@en</br></br>Apto para mayores de 13 años@es,,,
+Argentina,AR,AR-INCAA,1.3,16@en</br></br>16@es,Not under 16@en</br></br>Apto para mayores de 16 años@es,,,
+Argentina,AR,AR-INCAA,1.4,18@en</br></br>18@es,Not under 18@en</br></br>Apto para mayores de 18 años@es,,,
+Argentina,AR,AR-INCAA,1.5,X@en,Explicit@en,,,
+Argentina,AR,AR-INCAA,1.6,E@en,"Exempt: sports, music, etc.@en",,,
+Austria,AT,AT-BMUKK,2.1,None@en</br></br>Ohne@de,For all ages@en</br></br>Freigegeben fur alle Altersstufen@de,,,
+Austria,AT,AT-BMUKK,2.2,6@en,6 years and above@en,,,
+Austria,AT,AT-BMUKK,2.3,10@en,10 years and above@en,,,
+Austria,AT,AT-BMUKK,2.4,12@en,12 years and above@en,,,
+Austria,AT,AT-BMUKK,2.5,14@en,14 years and above@en,,,
+Austria,AT,AT-BMUKK,2.6,16@en,16 years and above@en,,,
+Australia,AU,AU-OFLC,3.1,G@en,"G classified films and computer games are for general viewing.
+         Many of the films and computer games contain content that would be of no interest to
+         children. The impact of the content is very mild.@en",,,
+Australia,AU,AU-OFLC,3.2,PG@en,"PG classified films and computer games may contain material
+         that needs to be explained to children therefore parental guidance is recommended. The
+         impact of the content is mild.@en",,,
+Australia,AU,AU-OFLC,3.3,M@en</br></br>Mature@en,"The M category is recommended for mature audiences. A mature
+         perspective is required to view this material. The impact of the content is
+         moderate.@en",,,
+Australia,AU,AU-OFLC,3.4,MA15+@en,"The MA 15+ category is a legally restricted category. The
+         impact of the content is strong. A person under the age of 15 years must be accompanied by
+         a parent or adult guardian if viewing or buying a film or computer game classified MA
+         15+.@en",,,
+Australia,AU,AU-OFLC,3.5,R18+@en,"R 18+ classified films are legally restricted to persons 18
+         years and over because of the high impact content. Some material in this classification may
+         be offensive to some sections of the adult community. @en",,,
+Australia,AU,AU-OFLC,3.6,X18+@en</br></br>Restricted to 18 and over@en,"The X 18+ classification only applies to films that contain
+         sexually explicit material between consenting adults. It is restricted to persons aged 18
+         years and over and can only be sold or hired legally in the ACT and the Northern Territory.
+         The possession and supply of X 18+ films is prohibited in prescribed areas of the Northern
+         Territory.@en",,,
+Australia,AU,AU-ACMA,4.1.1,P@en,Pre-school@en,4.2.1,A@en,Adult@en
+Australia,AU,AU-ACMA,4.1.2,C@en,Children@en,4.2.2,V@en,Violence@en
+Australia,AU,AU-ACMA,4.1.3,G@en,General@en,4.2.3,L@en,Language@en
+Australia,AU,AU-ACMA,4.1.4,PG@en,Parental Guidance@en,4.2.4,S@en,Sex@en
+Australia,AU,AU-ACMA,4.1.5,M@en,Mature@en,4.2.5,H@en,Horror@en
+Australia,AU,AU-ACMA,4.1.6,MA15+@en,15 or older@en,4.2.6,D@en,Drugs@en
+Australia,AU,AU-ACMA,4.1.7,AV15+@en,15 or older with violent content@en,4.2.7,N@en,Nudity@en
+Australia,AU,AU-ACMA,,,,4.2.8,SN@en,Supernatural@en
+Australia,AU,AU-ACMA,,,,4.2.9,M@en,Medical@en
+Australia,AU,AU-ACMA,,,,4.2.10,W@en,War@en
+Australia,AU,AU-ACMA,,,,4.2.11,B@en,Colorful behaviour@en
+Belgium,BE,BE,5.1,KT@nl</br></br>EA@fr</br></br>Children Allowed@en,Kinderen Toegelaten@nl</br></br>Enfants admis@fr</br></br>Children admitted - Suitable for all@en,,,
+Belgium,BE,BE,5.2,KNT@nl</br></br>ENA@fr</br></br>Children Not Allowed@en,Kinderen Niet Toegelaten@nl</br></br>Enfants Non admis@fr</br></br>Children not admitted (below 16 years of age)@en,,,
+Bulgaria,BG,BG-FIA,6.1,A@po</br></br>A@en,"When the film confirms the ideals of humanism or popularizes
+         the national and world cultures or contributes to upbringing children@en",,,
+Bulgaria,BG,BG-FIA,6.2,B@en,"All ages - When the film is in no way contrary to the universal
+         rules of morality in this country, has no restrictive recommendations from the Committee
+         and does not fall in rating A@en",,,
+Bulgaria,BG,BG-FIA,6.3,C@en,"For 12 and over - When the film contains certain erotic scenes
+         or scenes with drinking, taking drugs or stimulants or a few scenes of
+         violence@en",,,
+Bulgaria,BG,BG-FIA,6.4,D@po</br></br>D@en,"For 16 and over - When the film contains quite a number of
+         erotic scenes or scenes with drinking, taking drugs or stimulants or a considerable number
+         of scenes showing violence@en",,,
+Bulgaria,BG,BG-FIA,6.5,D@po</br></br>X@en,"When the film is naturalistically erotic or shows violence in
+         an ostentatious manner@en",,,
+Brazil,BR,BR-DJCTQ,7.1,ER@pt</br></br>ER@en,"Especialmente Recomendado para Crianças e
+         Adolescentes@pt</br></br>Especially Recommended for Children and Adolescents. This
+         rating means that the film is especially advised for children and adolescents. Contains
+         educational material, and doesn't have any inappropriate content. @en",,,
+Brazil,BR,BR-DJCTQ,7.2,L@pt</br></br>L@en,"Livre para Todos os Públicos@pt</br></br>This rating means that the film/game can be watched/played by
+         anyone and doesn't have any inappropriate content@en",,,
+Brazil,BR,BR-DJCTQ,7.3,10@pt</br></br>10@en,"This film/game is recommended for persons with or over 10 years
+         of age. May contain a little inappropriate language, sexual innuendo, or mild
+         violence.@en</br></br>Não Recomendando para Menores de 10 Anos@pt",,,
+Brazil,BR,BR-DJCTQ,7.4,12@pt</br></br>12@en,"This film/game is recommended for persons with or over 12 years
+         of age. May contain a little inappropriate language, sexual innuendo, or mild
+         violence.@en</br></br>Não Recomendando para Menores de 12 Anos@pt",,,
+Brazil,BR,BR-DJCTQ,7.5,14@pt</br></br>14@en,"This film/game is recommended for persons with or over 14 years
+         of age. May contain inappropriate language, sexual innuendo and/or mild sex with no nudity
+         or the act being explicit shown, violence, mention to drug use.@en</br></br>Não Recomendando para Menores de 14 Anos@pt",,,
+Brazil,BR,BR-DJCTQ,7.6,16@pt</br></br>16@en,"This film/game is recommended for persons with or over 16 years
+         of age. May contain strong language, sexual innuendo and/or mild sex with or without mild
+         nudity, strong violence, drug use.@en</br></br>Não Recomendando para Menores de 16 Anos@pt",,,
+Brazil,BR,BR-DJCTQ,7.7,18@pt</br></br>18@en,"This film/game is forbidden for people under 18 years of age.
+         It may contain strong language, intense sex, strong nudity, strong violence, intense drug
+         use. It is also used to rate pornographic films..@en</br></br>Não Recomendando para Menores de 18 Anos@pt",,,
+Canada,CA,CA-CHVRS,8.1,G - General@en,Suitable for viewing by all ages@en,,,
+Canada,CA,CA-CHVRS,8.2,PG@en,"Parental guidance advised. Theme or content may not be suitable
+         for all children.@en",,,
+Canada,CA,CA-CHVRS,8.3,14A@en,"Suitable for people 14 years of age or older. Those under 14
+         should view with an adult. No rental or purchase by those under 14 where prohibited by law.
+         Parents cautioned. May contain violence, coarse language and/or sexually suggestive
+         scenes.@en",,,
+Canada,CA,CA-CHVRS,8.4,18A@en,"Suitable for people 18 years of age or older. Persons under 18
+         should view with an adult. No rental or purchase by those under 18. Parents strongly
+         cautioned. Will likely contain explicit violence, frequent coarse language, sexual activity
+         and/or horror.@en",,,
+Canada,CA,CA-CHVRS,8.5,R - Restricted@en,"Restricted to 18 years and older. No rental or purchase by
+         those under 18. Contents not suitable for minors. Contains frequent sexual activity,
+         brutality/graphic violence, intense horror, and/or other disturbing content. @en",,,
+Canada,CA,CA-CHVRS,8.6,E - Exempt@en,"Contains material not subject to classification, such as
+         documentaries, nature, travel, music, arts and culture, sports and leisure, educational and
+         instructional information.@en",,,
+Canada,CA,CA-AFR,9.1,G@en</br></br>General@en,Suitable for viewing by all ages@en,,,
+Canada,CA,CA-AFR,9.2,PG@en,"Parental guidance advised. Theme or content may not be suitable
+         for all children.@en",,,
+Canada,CA,CA-AFR,9.3,14A@en,"Suitable for people 14 years of age or older. Those under 14
+         should view with an adult. No rental or purchase by those under 14 where prohibited by law.
+         Parents cautioned. May contain violence, coarse language and/or sexually suggestive
+         scenes.@en",,,
+Canada,CA,CA-AFR,9.4,18A@en,"Suitable for people 18 years of age or older. Persons under 18
+         should view with an adult. No rental or purchase by those under 18. Parents strongly
+         cautioned. Will likely contain explicit violence, frequent coarse language, sexual activity
+         and/or horror.@en",,,
+Canada,CA,CA-AFR,9.5,R@en</br></br>Restricted@en,"Restricted to 18 years and older. No rental or purchase by
+         those under 18. Contents not suitable for minors. Contains frequent sexual activity,
+         brutality/graphic violence, intense horror, and/or other disturbing content. @en",,,
+Canada,CA,CA-AFR,9.6,A@en</br></br>Adult@en,"Admittance restricted to persons 18 years of age or older.
+         Content not suitable for minors. Contains predominantly sexually explicit activity. @en",,,
+Canada,CA,CA-OFRB,10.1,G@en</br></br>General@en,Suitable for viewing by all ages@en,,,
+Canada,CA,CA-OFRB,10.2,PG@en,"Parental guidance advised. Theme or content may not be suitable
+         for all children.@en",,,
+Canada,CA,CA-OFRB,10.3,14A@en,"Suitable for people 14 years of age or older. Those under 14
+         should view with an adult. No rental or purchase by those under 14 where prohibited by law.
+         Parents cautioned. May contain violence, coarse language and/or sexually suggestive
+         scenes.@en",,,
+Canada,CA,CA-OFRB,10.4,18A@en,"Suitable for people 18 years of age or older. Persons under 18
+         should view with an adult. No rental or purchase by those under 18. Parents strongly
+         cautioned. Will likely contain explicit violence, frequent coarse language, sexual activity
+         and/or horror.@en",,,
+Canada,CA,CA-OFRB,10.5,R@en</br></br>Restricted@en,"Restricted to 18 years and older. No rental or purchase by
+         those under 18. Contents not suitable for minors. Contains frequent sexual activity,
+         brutality/graphic violence, intense horror, and/or other disturbing content. @en",,,
+Canada,CA,CA-RCQ,11.1,G@en</br></br>G@fr,"General@fr</br></br>Le film peut être vu, loué ou acheté sans risque par des
+         personnes de tout âge@fr</br></br>For all ages@en",,,
+Canada,CA,CA-RCQ,11.2,13+@en</br></br>13+@fr,"Le film ne peut être vu, acheté ou loué que par des personnes
+         de 13 ans et plus. Les enfants de moins de 13 ans peuvent y avoir accès s’ils sont
+         accompagnés par un adulte.@fr</br></br>For 13 and older in presence of an adult@en",,,
+Canada,CA,CA-RCQ,11.3,16+@en</br></br>16+@fr,"Le film ne peut être vu, acheté ou loué que par des personnes
+         de 16 ans et plus.@fr</br></br>Only for 16 and older@en",,,
+Canada,CA,CA-RCQ,11.4,18+@en</br></br>18+@fr,"Le film ne peut être vu, acheté ou loué que par des personnes
+         de 18 ans et plus.@fr</br></br>Only for 18 and older@en",,,
+Canada,CA,CA-CBSC-CCNR-English and third-languages,12.1,C@en,Children@en,,,
+Canada,CA,CA-CBSC-CCNR-English and third-languages,12.2,C8@en,Children over 8 years@en,,,
+Canada,CA,CA-CBSC-CCNR-English and third-languages,12.3,G@en</br></br>General@en,"Considered acceptable for all age groups. Appropriate viewing
+         for the entire family.@en",,,
+Canada,CA,CA-CBSC-CCNR-English and third-languages,12.4,PG@en,"This programming, while intended for a general audience, may
+         not be suitable for younger children (under the age of 8). Parents/guardians should be
+         aware that there might be content elements which some could consider inappropriate for
+         unsupervised viewing by children in the 8-13 age range.@en",,,
+Canada,CA,CA-CBSC-CCNR-English and third-languages,12.5,14+@en,Over 14 Years@en,,,
+Canada,CA,CA-CBSC-CCNR-English and third-languages,12.6,18+@en,Over 18 Years@en,,,
+Canada,CA,CA-CBSC-CCNR-French,13.1,G@en</br></br>G@fr,"General@fr</br></br>Le film peut être vu, loué ou acheté sans risque par des
+         personnes de tout âge@fr</br></br>For all ages@en",,,
+Canada,CA,CA-CBSC-CCNR-French,13.2,8+@en</br></br>8+@fr,"General, non approprié pour jeunes enfants de moins e 8
+         ans@fr</br></br>General – Not Suitable for Young Children@en",,,
+Canada,CA,CA-CBSC-CCNR-French,13.3,13+@en</br></br>13+@fr,"Le film ne peut être vu, acheté ou loué que par des personnes
+         de 13 ans et plus. Les enfants de moins de 13 ans peuvent y avoir accès s’ils sont
+         accompagnés par un adulte.@fr</br></br>For 13 and older in presence of an adult@en",,,
+Canada,CA,CA-CBSC-CCNR-French,13.4,16+@en</br></br>16+@fr,"Le film ne peut être vu, acheté ou loué que par des personnes
+         de 16 ans et plus.@fr</br></br>Only for 16 and older@en",,,
+Canada,CA,CA-CBSC-CCNR-French,13.5,18+@en</br></br>18+@fr,"Le film ne peut être vu, acheté ou loué que par des personnes
+         de 18 ans et plus.@fr</br></br>Only for 18 and older@en",,,
+Chile,CL,CL-ANATEL,14.1,I@en,Infantil@es</br></br>For all ages@en,,,
+Chile,CL,CL-ANATEL,14.2,I7@en,Infantil para mayores de 7 años@es</br></br>For ages 7 and older@en,,,
+Chile,CL,CL-ANATEL,14.3,I12@en,Infantil para mayores de 12 años@es</br></br>For ages 12 and older@en,,,
+Chile,CL,CL-ANATEL,14.4,F@en,"Familiar@es</br></br>Shows suitable for all ages, regardless of specific
+         content.@en",,,
+Chile,CL,CL-ANATEL,14.5,R@en,"Responsabilidad compartida@es</br></br>Shared responsibility - Children accompanied by an
+         adult.@en",,,
+Chile,CL,CL-ANATEL,14.6,A@en,"Adulto@es</br></br>For adult audiences only (ages 18 or older). Shows that contain
+         explicit language, sex scenes, explicit situations@en",,,
+Chile,CL,CL-CCC,15.1,TE@en,Todo expectador@es</br></br>All Audiences@en,,,
+Chile,CL,CL-CCC,15.2,14@en,Mayor de 14 anos@es</br></br>Inappropriate for children under 14@en,,,
+Chile,CL,CL-CCC,15.3,18@en,Mayor de 18 anos@es</br></br>Suitable for people aged 18 and over@en,,,
+Chile,CL,CL-CCC,15.4,18/S@en,"Suitable for people aged 18 and over with sexually explicit
+         content@en",,,
+Chile,CL,CL-CCC,15.5,18/V@en,"Suitable for people aged 18 and over with extreme violence
+         content@en",,,
+Hong-Kong,,CN-HK-HKBA,16.1.1,PG@en,"Programmes classified ""PG"" may contain adult themes or concepts
+         but must remain suitable for children to watch under the guidance of a parent or
+         guardian.@en",16.2.1,Violence@en,
+Hong-Kong,,CN-HK-HKBA,16.1.2,M@en</br></br>Mature@en,"Programmes classified ""M"" are recommended for viewing by
+         grown-up members of the family only.@en",16.2.2,Language@en,
+Hong-Kong,,CN-HK-HKBA,,,,16.2.3,Sex and nudity@en,
+Hong-Kong,,CN-HK-HKBA,,,,16.2.4,Sexual Violence@en,
+Hong-Kong,,CN-HK-HKBA,,,,16.2.5,Drugs and alcohol@en,
+Hong-Kong,,CN-HK-HKBA,,,,16.2.6,Dangerous behaviour@en,
+Hong-Kong,,CN-HK-HKBA,,,,16.2.7,Hanging scenes@en,
+Hong-Kong,,CN-HK-HKBA,,,,16.2.8,Bad taste and indecency@en,
+Hong-Kong,,CN-HK-HKBA,,,,16.2.9,Scenes of extreme suffering and distress@en,
+Hong-Kong,,CN-HK-HKBA,,,,16.2.10,"Exorcism, psychic or occultic practice and depiction of the
+         supernatural@en",
+Hong-Kong,,CN-HK-HKBA,,,,16.2.11,Triad expressions and ceremonies@en,
+Columbia,,CO,17.1,T@en</br></br>T@es,Todos@es</br></br>All Audiences@en,,,
+Columbia,,CO,17.2,7@en,Suitable for people aged 7 and over@en,,,
+Columbia,,CO,17.3,12@en,Suitable for people aged 12 and over@en,,,
+Columbia,,CO,17.4,15@en,Suitable for people aged 15 and over@en,,,
+Columbia,,CO,17.5,18@en,Suitable for people aged 18 and over@en,,,
+Columbia,,CO,17.6,X@en,Adulto@es</br></br>Adult - Pornographic Content@en,,,
+Germany,DE,DE-FSF,18.1,0@en</br></br>0@de,For all ages@en</br></br>Ohne Altersbeschränkung@de,,,
+Germany,DE,DE-FSF,18.2,6@en</br></br>6@de,No one under 6 years admitted@en</br></br>Freigegeben ab 6 Jahren@de,,,
+Germany,DE,DE-FSF,18.3,12@en</br></br>12@de,"People 12 or older admitted, children between 6 and 11 only
+         when accompanied by parent or legal guardian@en</br></br>Freigegeben ab 12 Jahren@de",,,
+Germany,DE,DE-FSF,18.4,16@en</br></br>16@de,People 16 or older admitted@en</br></br>Freigegeben ab 16 Jahren@de,,,
+Germany,DE,DE-FSF,18.5,18@en</br></br>18@de,"""No youth admitted"", only adults@en</br></br>Keine Jugendfreigabe@de",,,
+Germany,DE,DE-FSK,19.1,FSK 0@en</br></br>FSK 0@de,For all ages@en</br></br>Ohne Altersbeschränkung@de,,,
+Germany,DE,DE-FSK,19.2,FSK 6@en</br></br>FSK 6@de,No one under 6 years admitted@en</br></br>Freigegeben ab 6 Jahren@de,,,
+Germany,DE,DE-FSK,19.3,FSK 12@en</br></br>FSK 12@de,"People 12 or older admitted, children between 6 and 11 only
+         when accompanied by parent or legal guardian@en</br></br>Freigegeben ab 12 Jahren@de",,,
+Germany,DE,DE-FSK,19.4,FSK 16@en</br></br>FSK 16@de,People 16 or older admitted@en</br></br>Freigegeben ab 16 Jahren@de,,,
+Germany,DE,DE-FSK,19.5,FSK 18@en</br></br>FSK 18@de,"""No youth admitted"", only adults@en</br></br>Keine Jugendfreigabe@de",,,
+Denmark,DK,DK-MBU,20.1,A@en,Approval of the film for general admittance@en,,,
+Denmark,DK,DK-MBU,20.2,7@en,"Approval of the film for general admittance, but not
+         recommended for children under the age of 7@en",,,
+Denmark,DK,DK-MBU,20.3,11@en,"Approval of the film for admittance of children from the age of
+         11@en",,,
+Denmark,DK,DK-MBU,20.4,15@en,"Approval of the film for admittance of children from the age of
+         15@en",,,
+Denmark,DK,DK-DR,21.1,Green@en,All ages@en,,,
+Denmark,DK,DK-DR,21.2,Yellow@en,Adult supervision@en,,,
+Denmark,DK,DK-DR,21.3,Red@en,Adult@en,,,
+Spain,ES,ES,22.1,ERI@en,Especial recomendado para la infancia@es</br></br>Specially recommended for children under 7@en,,,
+Spain,ES,ES,22.2,TP@en,Todos los publicos@en</br></br>Suitable for the general public@en,,,
+Spain,ES,ES,22.3,7@en,For 7 and older@en,,,
+Spain,ES,ES,22.4,13@en,For 13 and older@en,,,
+Spain,ES,ES,22.5,18@en,For 18 and older@en,,,
+Europe,,EU-PEGI,23.1.1,3+@en,"Suitable for ages 3 and over. Contains very mild violence or
+         suggestive themes.@en",23.2.1,Profanity@en,
+Europe,,EU-PEGI,23.1.2,7+@en,"These games are the same as Early Childhood ratings but may
+         include content descriptors like mild violence and in a rare case, very mild action
+         violence.@en",23.2.2,Discrimination@en,
+Europe,,EU-PEGI,23.1.3,12+@en,"Suitable only for persons of over ages 12 and older. This
+         rating contains mild action violence or suggestive themes and mildly suggestive song
+         lyrics.@en",23.2.3,Drugs@en,
+Europe,,EU-PEGI,23.1.4,16+@en,"This rating is suitable only for persons of 16 years of age or
+         older. Some situations include strong action violence, mild references to gambling, and
+         rude humor.@en",23.2.4,Fear@en,
+Europe,,EU-PEGI,23.1.5,18+@en,"This rating is suitable only for persons 18 years of age and
+         older with graphic violence, strong sexual content, explicit references to gambling, and
+         vulgar language (spoken and used in song lyrics)@en",23.2.5,Sex@en,
+Europe,,EU-PEGI,,,,23.2.6,Violence@en,
+Europe,,EU-PEGI,,,,23.2.7,Gambling@en,
+Finland,FI,FI-VET,24.1,S@en,For all ages@en,,,
+Finland,FI,FI-VET,24.2,K-3@en,For all ages@en,,,
+Finland,FI,FI-VET,24.3,K-7@en,For people aged 7 years and above@en,,,
+Finland,FI,FI-VET,24.4,K-12@en,For people aged 12 years and above@en,,,
+Finland,FI,FI-VET,24.5,K-16@en,For people aged 16 years and above@en,,,
+Finland,FI,FI-VET,24.6,K-18@en,For people aged 18 years and above@en,,,
+France,FR,FR-CNC,25.1,Tout public@fr</br></br>For all audiences@en,For all audiences@en,,,
+France,FR,FR-CNC,25.2,-12@en,"Interdiction de représentation aux moins de douze
+         ans@fr</br></br>Unsuitable for minors under 12@en",,,
+France,FR,FR-CNC,25.3,-16@en,"Interdiction de représentation aux moins de seize
+         ans@fr</br></br>Unsuitable for minors under 16@en",,,
+France,FR,FR-CNC,25.4,-18@en,"Interdiction de représentation aux moins de dix-huit ans,
+         prévoit que cette restriction peut concerner les œuvres qui comportent « des scènes de sexe
+         non simulées ou de très grande violence mais qui, par la manière dont elles sont filmées et
+         la nature du thème traité ne justifient pas » d’un classement X@fr</br></br>Unsuitable for minors under 18, may apply to works with
+         non-simulated sexual acts or extreme violence, but do not apply to X rating due to the
+         nature of the theme being treated or the way it has been filmed@en",,,
+France,FR,FR-CNC,25.5,X@en,"Programme pour adultes - Contenu de nature
+         pornographie@fr</br></br>Adult only, pornographic content@en",,,
+France,FR,FR-CSA,26.1,-10@en,Pas pour les moins de dix ans@fr</br></br>Not Recommended for children under 10@en,,,
+France,FR,FR-CSA,26.2,-12@en,Pas pour les moins de douze ans@fr</br></br>Not Recommended for children under 12@en,,,
+France,FR,FR-CSA,26.3,-16@en,Pas pour les moins de seize ans@fr</br></br>Not Recommended for children under 16@en,,,
+France,FR,FR-CSA,26.4,-18@en,"Pas pour les moins de dix-huit ans, prévoit que cette
+         restriction peut concerner les œuvres qui comportent « des scènes de sexe non simulées ou
+         de très grande violence mais qui, par la manière dont elles sont filmées et la nature du
+         thème traité ne justifient pas » d’un classement X@fr</br></br>Unsuitable for minors under 18, may apply to works with
+         non-simulated sexual acts or extreme violence, but do not apply to X rating due to the
+         nature of the theme being treated or the way it has been filmed@en",,,
+France,FR,FR-CSA,26.5,X@en,"Adulte - Contenu de nature pornographie@fr</br></br>Adult, pornographic content@en",,,
+Britain,,GB-BBFC,27.1,U@en,Suitable for all@en,,,
+Britain,,GB-BBFC,27.2,PG@en,"General viewing but some scenes may be unsuitable for young
+         children@en",,,
+Britain,,GB-BBFC,27.3,12A/12@en,"Suitable for 12 years and older. No 12 year old child may see a
+         12A film without the presence of an accompanying adult.@en",,,
+Britain,,GB-BBFC,27.4,15@en,"No one under 15 years of age may see a ""15"" film or rent or buy
+         a ""15"" video@en",,,
+Britain,,GB-BBFC,27.5,18@en,Suitable only for adults@en,,,
+Britain,,GB-BBFC,27.6,R18@en,"To be supplied only in licensed sex shops or cinemas to adults
+         of not less than 18 years of age@en",,,
+Ireland,IE,IE-IFCO,28.1,G@en,"'A film classified as 'General' should be suitable for children
+         of school going age.@en",,,
+Ireland,IE,IE-IFCO,28.2,PG@en,"A film with a 'PG' cert may be watched by unaccompanied
+         children of any age.@en",,,
+Ireland,IE,IE-IFCO,28.3,12A@en,"Films classified in this category are considered to be suitable
+         for those of twelve and upwards. They may also be seen by younger children provided a
+         parent or adult guardian accompanies them.@en",,,
+Ireland,IE,IE-IFCO,28.4,15A@en,"Films classified in this category are considered to be suitable
+         for those of fifteen and upwards. They may also be seen by younger children provided a
+         parent or adult guardian accompanies them.@en",,,
+Ireland,IE,IE-IFCO,28.5,16@en,"Films classified in this category are considered to be suitable
+         for persons of sixteen or over. Children under this age cannot be admitted to
+         cinemas.@en",,,
+Ireland,IE,IE-IFCO,28.6,18@en,Adults only@en,,,
+Ireland,IE,IE-RTE,29.1,GA@en</br></br>General Audience@en</br></br>Lucht Féachana Ginearálta@ga,"A programme that would be acceptable to all ages and
+         tastes.@en",,,
+Ireland,IE,IE-RTE,29.2,CH@en</br></br>Children@en</br></br>Páistí@ga,"a programme aimed specifically at children ages 5–10. May
+         contain mild cartoon or fantasy violence.@en",,,
+Ireland,IE,IE-RTE,29.3,YA@en</br></br>Young Adult@en</br></br>Ógra@ga,"a programme aimed at an adolescent audience. That is to say it
+         would not be of great interest to an adult. However, it might deal with issues which affect
+         the teenage and late preteen audience, e.g. relationships, sexual activity, sexuality, soft
+         drugs. Parents and guardians could expect that ""YA"" programmes might contain such material
+         and may choose to limit their children's access.@en",,,
+Ireland,IE,IE-RTE,29.4,PS@en</br></br>Parental Supervision@en</br></br>Treoir Tuismitheora@ga,"a programme aimed at a mature audience (i.e. It might deal with
+         adult themes, be moderately violent, frightening or contain an occasional swear word.) and
+         the classification label invites parents or guardians to consider restricting children's
+         access.@en",,,
+Ireland,IE,IE-RTE,29.5,MA@en</br></br>Mature Audience@en</br></br>Lucht Féachana Lánfhásta Amháin@ga,"a typical ""post-watershed"" program which might contain scenes
+         of strong sexual activity and heavy violence, or the dialogue might be
+         profane.@en",,,
+Italy,IT,IT-RAI,30.1,Green@en,All audiences allowed@en,,,
+Italy,IT,IT-RAI,30.2,Yellow@en,"Children allowed, but parental guidance is strongly
+         advised.@en",,,
+Italy,IT,IT-RAI,30.3,Red@en,adults only.@en,,,
+Japan,JP,JA-CERO,31.1.1,A@en</br></br>黒@ja</br></br>Black@en,@ja</br></br>All ages@en,31.2.1,恋愛@ja</br></br>Love@en,
+Japan,JP,JA-CERO,31.1.2,B@en</br></br>緑@ja</br></br>Green@en,12歳以上のみ@ja</br></br>12 and over@en,31.2.2,セクシャル@ja</br></br>Sex@en,
+Japan,JP,JA-CERO,31.1.3,C@en</br></br>青@ja</br></br>Blue@en,15歳以上のみ@ja</br></br>15 and over@en,31.2.3,暴力@ja</br></br>Violence@en,
+Japan,JP,JA-CERO,31.1.4,D@en</br></br>橙@ja</br></br>Orange@en,17歳以上のみ@ja</br></br>17 and over@en,31.2.4,恐怖@ja</br></br>Surnatural@en,
+Japan,JP,JA-CERO,31.1.5,Z@en</br></br>赤@ja</br></br>Red@en,18歳以上のみ@ja</br></br>18 and over@en,31.2.5,飲酒・喫煙@ja</br></br>Alcohol & Tobacco@en,
+Japan,JP,JA-CERO,,,,31.2.6,ギャンブル@ja</br></br>Gambling@en,
+Japan,JP,JA-CERO,,,,31.2.7,犯罪@ja</br></br>Murder@en,
+Japan,JP,JA-CERO,,,,31.2.8,麻薬@ja</br></br>Drugs@en,
+Japan,JP,JA-CERO,,,,31.2.9,言葉・その他@ja</br></br>Strong vocabulary@en,
+South Korea,KR,KR-KBS,32.1,All@en,Suitable for all ages@en,,,
+South Korea,KR,KR-KBS,32.2,7@en,"This rating is for programming that may contain material
+         inappropriate for children younger than 7, and parental discretion should be
+         used.@en",,,
+South Korea,KR,KR-KBS,32.3,12@en,"This rating is for programs that may contain material
+         inappropriate for those younger than 12, and parental discretion should be used. Usually
+         used for animations that have stronger themes or violence then those designed for
+         childrens, or for reality variety programs that have mild violence, theme, or
+         language.@en",,,
+South Korea,KR,KR-KBS,32.4,15@en,"This rating is for programs that contain material that may be
+         inappropriate for children under 15, and that parental discretion should be
+         used.@en",,,
+South Korea,KR,KR-KBS,32.5,19@en,"This rating is for programs that are not recommended to those
+         younger than 19.@en",,,
+South Korea,KR,KR-KMRB,33.1,All@en,Suitable for all ages@en,,,
+South Korea,KR,KR-KMRB,33.2,12+@en,Suitable for those aged 12 and over@en,,,
+South Korea,KR,KR-KMRB,33.3,15+@en,Suitable for those aged 15 and over@en,,,
+South Korea,KR,KR-KMRB,33.4,Teenager Restricted@en,Unsuitable for those aged under 18@en,,,
+South Korea,KR,KR-KMRB,33.5,Restricted@en,Suitable for those aged 18 and over@en,,,
+Maldives,MV,MV-NBC,34.1.1,G@en</br></br>General@en</br></br>Green@en,Suitable for all ages@en,34.2.1,Violence@en,
+Maldives,MV,MV-NBC,34.1.2,12+@en,Ages 12 and above@en,34.2.2,Sexual acts@en,
+Maldives,MV,MV-NBC,34.1.3,15+@en,Suitable for ages 15 and above@en,34.2.3,Scary@en</br></br>Angst@nl,
+Maldives,MV,MV-NBC,34.1.4,18+@en,Suitable for ages 18 and above@en,34.2.4,Nudity@en,
+Maldives,MV,MV-NBC,34.1.5,PU@en,For Professional Use Only@en,34.2.5,Drugs abuse@en,
+Maldives,MV,MV-NBC,,,,34.2.6,Harshness of language@en,
+Maldives,MV,MV-NBC,,,,34.2.7,Religion@en,
+Mexico,MX,MX-RTC,35.1.1,AA@en,Particularly recommended for children under 7@None</br></br>Comprensible para niños menores de 7 años@es,35.2.1,Violence@en</br></br>Violencia@es,
+Mexico,MX,MX-RTC,35.1.2,A@en,"For all audiences containing no content requiring parent
+         supervision@None</br></br>Para todo público. Todos los programas bajo esta clasificación
+         son aptos para todo público y no deben contener elementos inadecuados para que los niños
+         los vean sin la supervisión de personas adultas.@es",35.2.2,Sexuality@en</br></br>Sexualidad@es,
+Mexico,MX,MX-RTC,35.1.3,B@en,"For teenagers (ages 12 and older) and adults@en</br></br>Para adolescentes de 12 años en adelante. Son programas aptos
+         para adolescentes y adultos. El material contiene temas o conceptos para adultos, sin
+         embargo es adecuado para que lo vean adolescentes mayores de 12 años.@es",35.2.3,Language@en</br></br>Lenguaje@es,
+Mexico,MX,MX-RTC,35.1.4,B15@en,"For ages 15 and older preferably in presence of supervising
+         adults@en</br></br>No recomendada para menores de 15 años. Aptos para mayores de
+         15 años. El material clasificado contiene temas o conceptos para adultos, pero sigue siendo
+         adecuado para ser visto por adolescentes, preferentemente con la guía de personas
+         adultas.@es",35.2.4,Adicciones@es</br></br>Drugs and aclohol@en,
+Mexico,MX,MX-RTC,35.1.5,C@en,"For ages 18 and above@en</br></br>Para adultos de 18 años en adelante. Programas aptos para
+         mayores de 18 años.@es",,,
+Mexico,MX,MX-RTC,35.1.6,D@en,"For ages 18 and above, strictly@en</br></br>Para Adultos. Programas exclusivamente para mayores de 18
+         años@es",,,
+Nigeria,NG,NG-NFVCB,36.1.1,G@en</br></br>General@en,"The content is considered by the board to be suitable for
+         viewing by persons of all ages.@en",36.2.1,Violence@en,
+Nigeria,NG,NG-NFVCB,36.1.2,PG@en,"the themes or content of the film may not, in the opinion of
+         the board, be suitable for all children.@en",36.2.2,Sex@en,
+Nigeria,NG,NG-NFVCB,36.1.3,12A/12@en,"Suitable for viewing by persons 12 years of age or older but
+         not for children under 12 years of age unless accompanied by an adult@en",36.2.3,Coarse language@en,
+Nigeria,NG,NG-NFVCB,36.1.4,15@en,"Suitable for viewing by persons over 15 years of
+         age@en",36.2.4,Strong themes@en,
+Nigeria,NG,NG-NFVCB,36.1.5,18@en,"Suitable for viewing by persons over 18 years of
+         ages@en",36.2.5,Horror or ritual scenes@en,
+Nigeria,NG,NG-NFVCB,36.1.6,RE@en,"not suitable for viewing by persons under 18 years of age with
+         certain sensitvities to classification criteria@en",,,
+Netherlands,NL,NL-NICAM,37.1.1,AL@en,Suitable for all ages@en</br></br>Alle leeftijden@nl,37.2.1,Violence@en</br></br>Geweld@nl,
+Netherlands,NL,NL-NICAM,37.1.2,6@en,"Not recommended for viewers younger than 6
+         years@en</br></br>Let op met kinderen tot 6 jaar@nl",37.2.2,Sex@en</br></br>Seks@nl,
+Netherlands,NL,NL-NICAM,37.1.3,9@en,"Not recommended for viewers younger than 9
+         years@en</br></br>Let op met kinderen tot 9 jaar@nl",37.2.3,Scary@en</br></br>Angst@nl,
+Netherlands,NL,NL-NICAM,37.1.4,12@en,"Not recommended for viewers younger than 12
+         years@en</br></br>Let op met kinderen tot 12 jaar@nl",37.2.4,Discrimination@en</br></br>Discriminatie@nl,
+Netherlands,NL,NL-NICAM,37.1.5,16@en,"Movie shops/cinemas aren't allowed to show these movies to
+         people younger than 16 years@en</br></br>Let op met kinderen tot 16 jaar@nl",37.2.5,Drugs & alcohol@en</br></br>Drugs- en alcoholmisbruik@nl,
+Netherlands,NL,NL-NICAM,,,,37.2.6,Bad language@en</br></br>Grof taalgebruik@nl,
+Norway,NO,NO-Medietilsynet-Om_aldersgrenser,38.1,All@en</br></br>Alle@no,Tillaten for alle@no</br></br>For all@en,,,
+Norway,NO,NO-Medietilsynet-Om_aldersgrenser,38.2,7@en,"7 år (barn ned til 4 år i følgje med
+         føresette)@no</br></br>7 and older or from 4 in presence of an accompanying
+         adult@en",,,
+Norway,NO,NO-Medietilsynet-Om_aldersgrenser,38.3,11@en,"11 år (barn ned til 8 år i følgje med
+         føresette)@no</br></br>11 and older or from 8 in presence of an accompanying
+         adult@en",,,
+Norway,NO,NO-Medietilsynet-Om_aldersgrenser,38.4,15@en,"15 år (unge ned til 12 år i følgje med
+         føresette)@no</br></br>15 and older, not under 12, above 12 in presence of an
+         accompanying adult@en",,,
+Norway,NO,NO-Medietilsynet-Om_aldersgrenser,38.5,18@en,18 år (absolutt nedre grense)@no</br></br>Not under 18@en,,,
+New Zealand,NZ,NZ-OFLC,39.1,G@en</br></br>General@en,"Suitable for general audiences (awarded by the Film and Video
+         Labelling Body and the Office of Film and Literature Classification)@en",,,
+New Zealand,NZ,NZ-OFLC,39.2,PG@en,"Parental guidance recommended for younger viewers (awarded by
+         the Film and Video Labelling Body and the Office of Film and Literature
+         Classification)@en",,,
+New Zealand,NZ,NZ-OFLC,39.3,M@en</br></br>Mature@en,"Suitable for (but not restricted to) mature audiences 16 years
+         and over (awarded by the Film and Video Labelling Body and the Office of Film and
+         Literature Classification)@en",,,
+New Zealand,NZ,NZ-OFLC,39.4,R13@en,"Suitable to persons 13 years of age and over (awarded by the
+         Office of Film and Literature Classification only)@en",,,
+New Zealand,NZ,NZ-OFLC,39.5,R15@en,"Suitable to persons 15 years of age and over (awarded by the
+         Office of Film and Literature Classification only)@en",,,
+New Zealand,NZ,NZ-OFLC,39.6,R16@en,"Suitable to persons 16 years of age and over (awarded by the
+         Office of Film and Literature Classification only)@en",,,
+New Zealand,NZ,NZ-OFLC,39.7,R18@en,"Suitable to persons 18 years of age and over (awarded by the
+         Office of Film and Literature Classification only)@en",,,
+New Zealand,NZ,NZ-OFLC,39.8,R@en</br></br>Restricted@en,"Restricted to a particular class of persons, or for particular
+         purposes, or both, specified by the Office of Film and Literature
+         Classification@en",,,
+Philippines,PH,PH-MTRCB,40.1,G@en,General Patronage. All ages admitted.@en,,,
+Philippines,PH,PH-MTRCB,40.2,PG-13@en,"Viewers below 13 years old must be accompanied by a parent or
+         an adult.@en",,,
+Philippines,PH,PH-MTRCB,40.3,R-13@en,"Only those who are 13 and above may view an “R-13”
+         film.@en",,,
+Philippines,PH,PH-MTRCB,40.4,R-18@en,"Only those who are 13 and above may view an “R-13”
+         film.@en",,,
+Portugal,PT,PL-RTP,41.1,G@en,For all audiences@en,,,
+Portugal,PT,PL-RTP,41.2,7@en,"For persons of age 10 and above. Parental Guidance is
+         suggested.@en",,,
+Portugal,PT,PL-RTP,41.3,12@en,"For persons of age 12 and above. Parental Guidance is
+         suggested.@en",,,
+Portugal,PT,PL-RTP,41.4,16@en,For persons of age 16 and above.@en,,,
+Portugal,PT,PL-RTP,41.5,R@en,Adults only (18 and over)@en,,,
+Portugal,PT,PT-CCE,42.1,M/4@en,"For persons of age 4 and above@en</br></br>os espectáculos de curta duração e de fácil compreensão que não
+         provoquem reacções de pavor e que não colidam com a fantasia e com o sentido lúdico deste
+         nível etário.@pt",,,
+Portugal,PT,PT-CCE,42.2,M/6@en,"For persons of age 6 and above@en</br></br>os espectáculos que, pela sua temática ou extensão, não sejam
+         abrangidos pelos critérios fixados para os níveis etários superiores.@pt",,,
+Portugal,PT,PT-CCE,42.3,M/12@en,"For persons of age 12 and above@en</br></br>os espectáculos que, pela sua extensão e complexidade, possam
+         provocar nos espectadores de nível etário inferior fadiga excessiva e ou traumatismo
+         psíquico.@pt",,,
+Portugal,PT,PT-CCE,42.4,M/16@en,"For persons of age 16 and above@en</br></br>os espectáculos que explorem, em termos excessivos, aspectos da
+         sexualidade e da violência física e psíquica.@pt",,,
+Portugal,PT,PT-CCE,42.5,M/18@en,"For persons of age 18 and above@en</br></br>os espectáculos pornográficos e os que explorem formas
+         patológicas de violência física e psíquica.@pt",,,
+Portugal,PT,PT-CCE,42.6,Pornográficos@en,"For persons of age 18 and above, sexual
+         content@en</br></br>Serão classificados no 1º escalão (hard-core) os espectáculos
+         que apresentem uma descrição ostensiva e insistente de actos sexuais realmente praticados
+         com exibição dos órgãos genitais; Serão classificados no 2º escalão (soft-core) os
+         espectáculos que apresentem uma descrição ostensiva e insistente de actos sexuais
+         simulados.@pt",,,
+Portugal,PT,PT-CCE,42.7,De Qualidade@en,"Of quality from an artistic, thematic, pedagogic or technical
+         realisation perspective@en</br></br>Os espectáculos que, pelos seus aspectos artístico, temático,
+         pedagógico e técnico mereçam esse atributo.@pt",,,
+Portugal,PT,PT-RTP,43.1,T@en,For all audiences@en</br></br>Todos@pt,,,
+Portugal,PT,PT-RTP,43.2,10@en,"For persons of age 10 and above. Parental Guidance is
+         suggested.@en",,,
+Portugal,PT,PT-RTP,43.3,12@en,"For persons of age 12 and above. Parental Guidance is
+         suggested.@en",,,
+Portugal,PT,PT-RTP,43.4,16@en,For persons of age 16 and above.@en,,,
+Sweden,SE,SE-SB,44.1,Btl@en,Barntillåten@sv</br></br>Suitable for all ages@en,,,
+Sweden,SE,SE-SB,44.2,7@en,"Suitable for children of at least 7 years of
+         age@en",,,
+Sweden,SE,SE-SB,44.3,11@en,"Suitable for children of at least 11 years of
+         age@en",,,
+Sweden,SE,SE-SB,44.4,15@en,No one under 15 years of age admitted@en,,,
+Sweden,SE,SE-SB,44.5,18@en,No one under 18 years of age admitted@en,,,
+Singapore,SG,SG-MDA,45.1,G@en</br></br>General@en,Suitable for all ages and audiences@en,,,
+Singapore,SG,SG-MDA,45.2,PG@en,Parental supervision is advised@en,,,
+Singapore,SG,SG-MDA,45.3,NC16@en,No children below 16 years old@en,,,
+Singapore,SG,SG-MDA,45.4,M18@en,Mature 18 for persons 18 years and above@en,,,
+Singapore,SG,SG-MDA,45.5,R21@en,Restricted to persons 21 years and above@en,,,
+Turkey,TR,TR-AISS,46.1.1,All@en,Genel izleyici kitlesi@tr</br></br>Suitable for all ages@en,46.2.1,Cinsellik içerir@tr</br></br>Sexual content@en,
+Turkey,TR,TR-AISS,46.1.2,7+@en,"7 yaş ve üzeri için uygun@tr</br></br>Suitable for children of at least 7 years of
+         age@en",46.2.2,Şiddet ya da korku içerir@tr</br></br>Violence@en,
+Turkey,TR,TR-AISS,46.1.3,13+@en,"13 yaş ve üzeri için uygun@tr</br></br>Suitable for children of at least 11 years of
+         age@en",46.2.3,Olumsuz örnek oluşturabilecek davranışlar içerir@tr</br></br>Negative behaviour@en,
+Turkey,TR,TR-AISS,46.1.4,18+@en,18 yaş ve üzeri için uygun@tr</br></br>No one under 15 years of age admitted@en,,,
+United States,US,US-ESRB,47.1.1,EC@en,"Titles rated EC (Early Childhood) have content that may be
+         suitable for ages 3 and older. Contains no material that parents would find
+         inappropriate@None",47.2.1,Alcohol Reference@en,"Reference to and/or images of alcoholic
+         beverages@None"
+United States,US,US-ESRB,47.1.2,E@en,"Titles rated E (Everyone) have content that may be suitable for
+         ages 6 and older. Titles in this category may contain minimal cartoon, fantasy or mild
+         violence and/or infrequent use of mild language@None",47.2.2,Animated Blood@en,"Discoloured and/or unrealistic depictions of
+         blood@None"
+United States,US,US-ESRB,47.1.3,E10+@en,"Titles rated E10+ (Everyone 10 and older) have content that may
+         be suitable for ages 10 and older. Titles in this category may contain more cartoon,
+         fantasy or mild violence, mild language and/or minimal suggestive themes@None",47.2.3,Blood@en,Depictions of blood@None
+United States,US,US-ESRB,47.1.4,T@en,"Titles rated T (Teen) have content that may be suitable for ages
+         13 and older. Titles in this category may contain violence, suggestive themes, crude
+         humour, minimal blood, simulated gambling, and/or infrequent use of strong
+         language@None",47.2.4,Blood and Gore@en,"Depictions of blood or the mutilation of body
+         parts@None"
+United States,US,US-ESRB,47.1.5,M@en,"Titles rated M (Mature) have content that may be suitable for
+         persons ages 17 and older. Titles in this category may contain intense violence, blood and
+         gore, sexual content and/or strong language@None",47.2.5,Cartoon Violence@en,"Violent actions involving cartoon-like situations and characters.
+         May include violence where a character is unharmed after the action has been
+         inflicted@None"
+United States,US,US-ESRB,47.1.6,AO@en,"Titles rated AO (Adults Only) have content that should only be
+         played by persons 18 years and older. Titles in this category may include prolonged scenes
+         of intense violence and/or graphic sexual content and nudity@None",47.2.6,Comic Mischief@en,"Depictions or dialogue involving slapstick or suggestive
+         humour@None"
+United States,US,US-ESRB,47.1.7,RP@en,"Titles listed as RP (Rating Pending) have been submitted to the
+         ESRB and are awaiting final rating. (This symbol appears only in advertising prior to a
+         game's release)@None",47.2.7,Crude Humour@en,"Depictions or dialogue involving vulgar antics, including
+         'bathroom"" humour@None"
+United States,US,US-ESRB,,,,47.2.8,Drug Reference@en,Reference to and/or images of illegal drugs@None
+United States,US,US-ESRB,,,,47.2.9,Edutainment@en,"Content of product provides user with specific skills development
+         or reinforcement learning within an entertainment setting. Skill development is an integral
+         part of product@None"
+United States,US,US-ESRB,,,,47.2.10,Fantasy Violence@en,"Violent actions of a fantasy nature, involving human or non-human
+         characters in situations easily distinguishable from real life@None"
+United States,US,US-ESRB,,,,47.2.11,Informational@en,"Overall content of product contains data, facts, resource
+         information, reference materials or instructional text@None"
+United States,US,US-ESRB,,,,47.2.12,Intense Violence@en,"Graphic and realistic-looking depictions of physical conflict.
+         May involve extreme and/or realistic blood, gore, weapons and depictions of human injury
+         and death@None"
+United States,US,US-ESRB,,,,47.2.13,Language@en,Mild to moderate use of profanity@None
+United States,US,US-ESRB,,,,47.2.14,Lyrics@en,"Mild references to profanity, sexuality, violence, alcohol or
+         drug use in music@None"
+United States,US,US-ESRB,,,,47.2.15,Mature Humour@en,"Depictions or dialogue involving ""adult"" humour, including sexual
+         references@None"
+United States,US,US-ESRB,,,,47.2.16,Mild Violence@en,"Mild scenes depicting characters in unsafe and/or violent
+         situations@None"
+United States,US,US-ESRB,,,,47.2.17,Nudity@en,Graphic or prolonged depictions of nudity@None
+United States,US,US-ESRB,,,,47.2.18,Partial Nudity@en,Brief and/or mild depictions of nudity@None
+United States,US,US-ESRB,,,,47.2.19,Real Gambling@en,"Player can gamble, including betting or wagering real cash or
+         currency@None"
+United States,US,US-ESRB,,,,47.2.20,Sexual Themes@en,"Mild to moderate sexual references and/or depictions. May include
+         partial nudity@None"
+United States,US,US-ESRB,,,,47.2.21,Sexual Violence@en,Depictions of rape or other violent sexual acts@None
+United States,US,US-ESRB,,,,47.2.22,Simulated Gambling@en,"Player can gamble without betting or wagering real cash or
+         currency@None"
+United States,US,US-ESRB,,,,47.2.23,Some Adult Assistance May Be Needed@en,Intended for very young ages@None
+United States,US,US-ESRB,,,,47.2.24,Strong Language@en,Explicit and/or frequent use of profanity@None
+United States,US,US-ESRB,,,,47.2.25,Strong Lyrics@en,"Explicit and/or frequent references to profanity, sex, violence,
+         alcohol or drug use in music@None"
+United States,US,US-ESRB,,,,47.2.26,Strong Sexual Content@en,"Graphic references to and/or depictions of sexual behaviour,
+         possibly including nudity@None"
+United States,US,US-ESRB,,,,47.2.27,Suggestive Themes@en,Mild provocative references or materials@None
+United States,US,US-ESRB,,,,47.2.28,Tobacco Reference@en,Reference to and/or images of tobacco products@None
+United States,US,US-ESRB,,,,47.2.29,Use of Drugs@en,The consumption or use of illegal drugs@None
+United States,US,US-ESRB,,,,47.2.30,Use of Alcohol@en,The consumption of alcoholic beverages@None
+United States,US,US-ESRB,,,,47.2.31,Use of Tobacco@en,The consumption of tobacco products@None
+United States,US,US-ESRB,,,,47.2.32,Violence@en,Scenes involving aggressive conflict@None
+United States,US,US-MPAA,48.1,G@en,General audiences. All ages admitted.@en,,,
+United States,US,US-MPAA,48.2,PG@en,"Parental guidance suggested. Theme or content may not be
+         suitable for children.@en",,,
+United States,US,US-MPAA,48.3,PG-13@en,Parents strongly cautioned@en</br></br>Some material may be inappropriate for children under 13. @en,,,
+United States,US,US-MPAA,48.4,R@en,Under 17 requires accompyning parent or adult guardian. @en,,,
+United States,US,US-MPAA,48.5,NC-17@en,Not one 17 and under admitted.@en,,,
+United States,US,US-MPAA,48.6,NR@en,Not rated or Unrated@en,,,
+United States,US,US-MPAA,48.7,TV-14@en,Parents strongly cautioned@en,,,
+United States,US,US-RIAA,49.1,Parental Advisory@en,"The Parental Advisory is a notice to consumers that recordings
+         identified by this value may contain strong language or depiction of violence, sex or
+         substance abuse. Parental discretion is advised@None",,,
+United States,US,US-TVPG,50.1,TV-Y@en,All children@en,,,
+United States,US,US-TVPG,50.2,TV-Y7@en,Directed to other children above 7@en,,,
+United States,US,US-TVPG,50.3,TV-Y7-FV@en,"Directed to other children above 7 due to fantasy and violent
+         content@en",,,
+United States,US,US-TVPG,50.4,TV-G@en,General Audience - All ages admitted@en,,,
+United States,US,US-TVPG,50.5,TV-PG@en,Parental guidance suggested@en,,,
+United States,US,US-TVPG,50.6,TV-14@en,Parents strongly cautioned@en,,,
+United States,US,US-TVPG,50.7,TV-MA@en,Mature audience only@en,,,
+South Africa,ZA,ZA-FPB,51.1.1,A@en,All ages@en,51.2.1,D@en,Drug and alocohol abuse@en
+South Africa,ZA,ZA-FPB,51.1.2,PG@en,"A category with content that may be disturbing to or
+         inappropriate for children@en",51.2.2,L@en,Strong language@en
+South Africa,ZA,ZA-FPB,51.1.3,10M@en,"Children under the age of 10 years must be accompanied by an
+         adult@en",51.2.3,N@en,Nudity@en
+South Africa,ZA,ZA-FPB,51.1.4,10M-13PG@en,"Persons under the age of 13 must be accompanied by an adult to
+         any filem classfied 13M, while a DVB or VHS or an interactive computer game classfied 13 PG
+         requires Parental Guidance for persons under the age of 13@en",51.2.4,P@en,"Biased or prejudiced with regard to race, ethnicity, gender,
+         religion, or other group identifiable characteristics@en"
+South Africa,ZA,ZA-FPB,51.1.5,10@en,10 years and older only@en,51.2.5,S@en,Sex@en
+South Africa,ZA,ZA-FPB,51.1.6,16@en,16 years and older only@en,51.2.6,V@en,Violence@en
+South Africa,ZA,ZA-FPB,51.1.7,18@en,Adults only@en,,,
+Germany,DE,DE-USK,52.1,ALL@en</br></br>ALL AGES@de,For all ages@en</br></br>Ohne Altersbeschränkung@de,,,
+Germany,DE,DE-USK,52.2,6+@en</br></br>6+@de,No one under 6 years admitted@en</br></br>Freigegeben ab 6 Jahren@de,,,
+Germany,DE,DE-USK,52.3,12+@en</br></br>12+@de,"People 12 or older admitted, children between 6 and 11 only
+         when accompanied by parent or legal guardian@en</br></br>Freigegeben ab 12 Jahren@de",,,
+Germany,DE,DE-USK,52.4,16+@en</br></br>16+@de,People 16 or older admitted@en</br></br>Freigegeben ab 16 Jahren@de,,,
+Germany,DE,DE-USK,52.5,18+@en</br></br>18+@de,"""No youth admitted"", only adults@en</br></br>Keine Jugendfreigabe@de",,,
+Czech republic,,CZ-Film,53.1.1,U@en,Suitable for all audiences @en,,,
+Czech republic,,CZ-Film,53.1.2,12@en,@en,,,
+Czech republic,,CZ-Film,53.1.3,15@en,@en,,,
+Czech republic,,CZ-Film,53.1.4,18@en,@en,,,
+Czech republic,,CZ-Film,53.1.5,E@en,Exempt from classification@en,,,
+Hungary,HU,HU-Film,54.1.1,KN@en,suitable for all (category I.) @en,,,
+Hungary,HU,HU-Film,54.1.2,12@en,"parental guidance suggested for children under 12. (category
+         II.) @en",,,
+Hungary,HU,HU-Film,54.1.3,16@en,not suitable for children under 16. (category III.) @en,,,
+Hungary,HU,HU-Film,54.1.4,18@en,not suitable for people under 18. (category IV.) @en,,,
+Hungary,HU,HU-Film,54.1.5,X@en,only for adults (category V.) @en,,,
+Iceland,IS,IS-Smais,55.1.1,L@en,Suitable for all @en,,,
+Iceland,IS,IS-Smais,55.1.2,7@en,Passed only for 7 and older @en,,,
+Iceland,IS,IS-Smais,55.1.3,12@en,Passed only for 12 and older @en,,,
+Iceland,IS,IS-Smais,55.1.4,14@en,Passed only for 14 and older @en,,,
+Iceland,IS,IS-Smais,55.1.5,16@en,Passed only for 16 and older @en,,,
+Iceland,IS,IS-Smais,55.1.6,18@en,Passed only for 18 and older @en,,,
+India,IN,IN-CFBC,56.1.1,U@en,"Unrestricted Public Exhibition throughout
+         India,@en",,,
+India,IN,IN-CFBC,56.1.2,U/A@en,"Unrestricted public exhibition with parental guidance for
+         children below the age of 12 @en",,,
+India,IN,IN-CFBC,56.1.3,A@en,"Public exhibition restricted to adults above 18 years only, @en",,,
+India,IN,IN-CFBC,56.1.4,S@en,"Exhibition to restricted audience such as doctors
+         etc.@en",,,
+Egypt,EG,EG-Film,57.1.1,General Audience@en,Everyone is admitted@en,,,
+Egypt,EG,EG-Film,57.1.2,Adults Only@en,Restricted to audiences aged 18 and above@en,,,
+Egypt,EG,EG-Film,57.1.3,Exempt from classification@en,@en,,,
+Estonia,EE,ES-Film,58.1.1,Pere@en,Family film@en,,,
+Estonia,EE,ES-Film,58.1.2,L@en,For all audiences@en,,,
+Estonia,EE,ES-Film,58.1.3,MS-6@en,Younger than 6 Not Recommended @en,,,
+Estonia,EE,ES-Film,58.1.4,MS-12@en,Younger than 12 Not Recommended @en,,,
+Estonia,EE,ES-Film,58.1.5,K-12@en,Younger than 12 Prohibited@en,,,
+Estonia,EE,ES-Film,58.1.6,K-14@en,Younger than 14 Prohibited@en,,,
+Estonia,EE,ES-Film,58.1.7,K-16@en,Younger than 16 Prohibited@en,,,
+Estonia,EE,ES-Film,58.1.8,K-6@en,"Younger than 6 Prohibited. Commonly know as
+         K-E@en",,,
+Greece,GR,GR-Film,59.1.1,K@en,"Suitable film for everyone, including children. The film does
+         not contain violence, drug abuse, or sexual content.@en",,,
+Greece,GR,GR-Film,59.1.2,K-13@en,"Suitable film for children over the age of 13. The film may
+         contain mild violence and adult themes. @en",,,
+Greece,GR,GR-Film,59.1.3,K-17@en,"Suitable film for adults over the age of 17. The film may
+         contain violence, drug abuse, and mild pornographic scenes. An ID card certifying the age
+         is required in all Greek cinemas and DVD rental shops in order to get a cinema ticket or
+         rent a DVD of a ""K-17"" rated film. This category is legally restricted. @en",,,
+Greece,GR,GR-Film,59.1.4,E@en,Exempt from classification @en,,,
+Indonesia,ID,ID-LSF,60.1.1,SU@en,(Semua Umur): All ages @en,,,
+Indonesia,ID,ID-LSF,60.1.2,A@en,(Anak-anak): Children (3–12 years) @en,,,
+Indonesia,ID,ID-LSF,60.1.3,BO@en,"BO (Bimbingan Orangtua): Parental Guidance (parental
+         supervision is recommended for persons under 13 years) @en",,,
+Indonesia,ID,ID-LSF,60.1.4,R@en,Remaja): Teen (13–15 years and over) @en,,,
+Indonesia,ID,ID-LSF,60.1.5,D@en,(Dewasa): Mature (17 years and over) @en,,,
+Latvia,LV,LV-NCC,61.1.1,U@en,rated for all ages (added in July 2007).@en,,,
+Latvia,LV,LV-NCC,61.1.2,7+@en,Not recommended until 7 @en,,,
+Latvia,LV,LV-NCC,61.1.3,12+@en,Not recommended until 12 @en,,,
+Latvia,LV,LV-NCC,61.1.4,16+@en,Not recommended until 16 @en,,,
+Latvia,LV,LV-NCC,61.1.5,18+ (blue)@en,Not recommended until 18 @en,,,
+Latvia,LV,LV-NCC,61.1.6,18+ (red)@en,Prohibited for minors @en,,,
+Malaysia,MY,MA-FCB,62.1.1,U@en,General viewing for all ages.@en,,,
+Malaysia,MY,MA-FCB,62.1.2,PG13@en,"Parental guidance is suggested for viewers under
+         13@en",,,
+Malaysia,MY,MA-FCB,62.1.3,18@en,For aged 18 and above only@en,,,
+Malta,MT,MT-MCCAA,63.1.1,U /Universal)@en,General viewing for all ages.@en,,,
+Malta,MT,MT-MCCAA,63.1.2,PG@en,"Some material may be unsuitable for younger children. Children
+         under the age of 12 are to be accompanied by an adult. @en",,,
+Malta,MT,MT-MCCAA,63.1.3,12@en,"Suitable only for persons 12 years and older. No one under this
+         age is admitted. @en",,,
+Malta,MT,MT-MCCAA,63.1.4,14@en,"Suitable only for persons 14 years and older. No one under this
+         age is admitted. @en",,,
+Malta,MT,MT-MCCAA,63.1.5,15@en,"Suitable only for persons 15 years and older. No one under this
+         age is admitted. @en",,,
+Malta,MT,MT-MCCAA,63.1.6,16@en,"Suitable only for persons 16 years and older. No one under this
+         age is admitted. @en",,,
+Malta,MT,MT-MCCAA,63.1.7,18@en,"Suitable only for persons 18 years and older. No one under this
+         age is admitted. @en",,,
+Switzerland,CH,CH,64.1.1,0@en,General viewing for all ages.@en,,,
+Switzerland,CH,CH,64.1.2,7@en,No one under the age of 7 admitted @en,,,
+Switzerland,CH,CH,64.1.3,10@en,No one under the age of 10 admitted @en,,,
+Switzerland,CH,CH,64.1.4,12@en,No one under the age of 12 admitted @en,,,
+Switzerland,CH,CH,64.1.5,14@en,No one under the age of 14 admitted @en,,,
+Switzerland,CH,CH,64.1.6,16@en,No one under the age of 16 admitted @en,,,
+Switzerland,CH,CH,64.1.7,18@en,No one under the age of 18 admitted @en,,,
+Thailand,TH,TH,65.1.1,P@en,"Promotional, film is educational and viewing is encouraged for
+         all Thai people..@en",,,
+Thailand,TH,TH,65.1.2,G@en,Suitable for general audiences @en,,,
+Thailand,TH,TH,65.1.3,13+@en,No one under the age of 13 admitted @en,,,
+Thailand,TH,TH,65.1.4,15+@en,No one under the age of 15 admitted @en,,,
+Thailand,TH,TH,65.1.5,18+@en,No one under the age of 18 admitted @en,,,
+Thailand,TH,TH,65.1.6,20+@en,For views over 20 years old only @en,,,
+United Arab Emirates,AE,UAB,66.1.1,G@en,Suitable for general audiences @en,,,
+United Arab Emirates,AE,UAB,66.1.2,PG-13@en,"Under 13 not admitted unless accompanied by an individual over
+         13. Some material may not be suitable for children @en",,,
+United Arab Emirates,AE,UAB,66.1.3,PG15@en,"Under 15 not admitted unless accompanied by an individual over
+         15. Some material may not be suitable for children @en",,,
+United Arab Emirates,AE,UAB,66.1.4,15+@en,No one under the age of 15 admitted @en,,,
+United Arab Emirates,AE,UAB,66.1.5,18+@en,No one under the age of 18 admitted @en,,,
+Italy,IT,IT-MBACT,68.1.1,T@en,Film for everyone@en</br></br>Pellicola per tutti@it,,,
+Italy,IT,IT-MBACT,68.1.2,VM6@en,Opere non adatte ai minori di anni 6@it</br></br>Works not suitable for children under 6 years@en,,,
+Italy,IT,IT-MBACT,68.1.3,VM14@en,14 anni@it</br></br>14 years@en,,,
+Italy,IT,IT-MBACT,68.1.4,VM18@en,18 anni@it</br></br>18 years@en,,,
+Italy,IT,IT-AGCOM,69.1.1,T@en,Film for everyone@en</br></br>Pellicola per tutti@it,,,
+Italy,IT,IT-AGCOM,69.1.2,VM6@en,Film Vietati ai minori di 6 anni@it</br></br>Films prohibited to minors under 6 years@en,,,
+Italy,IT,IT-AGCOM,69.1.3,VM14@en,Film Vietati ai minori di 14 anni@it</br></br>Films prohibited to minors under 14 years@en,,,
+Italy,IT,IT-AGCOM,69.1.4,VM18@en,Film Vietati ai minori di 18 anni@it</br></br>Films prohibited to minors under 18 years@en,,,
+Japan,JP,Eirin,70.1.1,G@en</br></br>映倫@ja,@ja</br></br>Anybody can view@en,70.2.1,言語@ja</br></br>Language@en,
+Japan,JP,Eirin,70.1.2,PG12@en,Parental advice and guidance recommended for under 12 years old@en,70.2.2,セクシャル@ja</br></br>Sex@en,
+Japan,JP,Eirin,70.1.3,R15+@en,Viewing is prohibited for those under 15 years old@en,70.2.3,ヌード@ja</br></br>Nudity@en,
+Japan,JP,Eirin,70.1.4,R18+@en,Viewing is prohibited for those under 18 years old@en,70.2.4,暴力@ja</br></br>Violence@en,
+Japan,JP,Eirin,,,,70.2.5,ホラー@ja</br></br>Horror@en,
+Japan,JP,Eirin,,,,70.2.6,麻薬@ja</br></br>Drugs@en,
+Japan,JP,Eirin,,,,70.2.7,犯罪@ja</br></br>Crime@en,
+RUSSIA,,RU-MKRF,71.1.1,0+@en,Suitable for all ages@en,,,
+RUSSIA,,RU-MKRF,71.1.2,6+@en,Media suitable for people aged 6 and older@en,,,
+RUSSIA,,RU-MKRF,71.1.3,12+@en,Media suitable for people aged 12 and older@en,,,
+RUSSIA,,RU-MKRF,71.1.4,16+@en,Media suitable for people aged 16 and older@en,,,
+RUSSIA,,RU-MKRF,71.1.5,18+@en,Media suitable only for people aged 18 and older@en,,,

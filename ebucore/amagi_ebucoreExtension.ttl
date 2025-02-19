@@ -401,6 +401,14 @@
     rdfs:label "Production Country"@en ;
     skos:definition "This property denotes the country of the production studio."@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isDirectedToChildren>
+    a rdf:Property ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:isDefinedBy <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> ;
+    rdfs:label "Is directed to children"@en ;
+    skos:definition "This property denotes whether the asset has been targeted to children."@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Release>
     rdf:type         rdfs:Class ;
     rdfs:label       "Release"@en ;
@@ -502,6 +510,55 @@
     rdfs:comment  "Specifies the platform_id for which the platform guide params are defined."@en ;
     rdfs:label    "Applies To PlatformId"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherStartOffset>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "Publisher-provided segment start offset in timecode or timestamp format."@en ;
+    rdfs:label    "Publisher Start Offset"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherEndOffset>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "Publisher-provided segment end offset in timecode or timestamp format."@en ;
+    rdfs:label    "Publisher End Offset"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherCuepointOffset>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Cuepoint> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "Publisher-provided cuepoint offset in timecode or timestamp format."@en ;
+    rdfs:label    "Publisher Cuepoint Offset"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherStartNormalPlayTime>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "Publisher-provided start time expressed as normal play time"@en ;
+    rdfs:label    "Publisher Start Normal Play Time"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isDropFrameTimecode>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:MediaResource ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:comment  "Specifies if the subtitle timecode is with dropframe."@en ;
+    rdfs:label    "Is DropFrame Timecode"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isPrimary>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:MediaResource ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:comment  "Specifies if the media resource is primary."@en ;
+    rdfs:label    "Is Primary"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#segmentsLastModifiedAt>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "To indicate the date/time segment has been modified."@en ;
+    rdfs:label    "Segments Last Modified At"@en .
+
 # Graphics
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic>
@@ -509,3 +566,47 @@
         rdfs:label       "Graphic"@en ;
         rdfs:comment     "Entity to represent the graphic to be used as overlay"@en ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#userDefinedFps>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment            "The unit used to express the user provided frame rate of a MediaResource in frames/second associated with an ebucore asset."@en ;
+        owl:equivalentProperty  <http://www.w3.org/ns/ma-ont#frameSizeUnit> ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "User Defined Frame Rate"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isPatched>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:comment            "Used to denote if an artefact has been added through patch."@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Resource> ;
+        rdfs:label              "Is Patched"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue>
+        rdf:type         rdfs:Class ;
+        rdfs:label       "CustomKeyValue"@en ;
+        rdfs:comment     """Class to represent specific key value pairs. This was introduced to allow content
+			partner to pass through some custom key values that can be used to pass through to
+			the platform either in vod packaging or in epg"""@en ;
+        rdfs:subClassOf  owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customKey>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment            "Key string of CustomKeyValue"@en ;
+        rdfs:domain             <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
+        rdfs:label              "Custom Key Value"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customValue>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment            "Value string of CustomKeyValue"@en ;
+        rdfs:domain             <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
+        rdfs:label              "custom value"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCustomKeyValue>
+        rdf:type                rdf:Property ;
+        rdfs:range              <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue> ;
+        rdfs:comment            "Custom keys of an entity"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "Has Custom Key Value"@en .
