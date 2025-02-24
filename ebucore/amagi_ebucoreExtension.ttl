@@ -611,12 +611,19 @@
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label              "Has Custom Key Value"@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isChildCollection>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasChildCollections>
         rdf:type                rdf:Property ;
         rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
         rdfs:comment            "To denote whether a Series/Season can have Collections has its child"@en ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
-        rdfs:label              "Has Custom Key Value"@en .
+        rdfs:label              "Has Child Collections"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isChildCollection>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:comment            "To denote whether a Collection can belong to a Series/Season"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "Is Child Collection"@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#EpisodeCollection>
         rdf:type         rdfs:Class ;
