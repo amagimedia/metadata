@@ -509,19 +509,6 @@
     <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isChildCollection">
-    <rdfs:label xml:lang="en">Has Custom Key Value</rdfs:label>
-    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
-    <rdfs:comment xml:lang="en">To denote whether a Series/Season can have Collections has its child</rdfs:comment>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#EpisodeCollection">
-    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Collection"/>
-    <rdfs:comment xml:lang="en">Collection object that can be child of series/season</rdfs:comment>
-    <rdfs:label xml:lang="en">EpisodeCollection</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasChildCollections">
     <rdfs:label xml:lang="en">Has Child Collections</rdfs:label>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
@@ -541,5 +528,19 @@
     <rdfs:comment xml:lang="en">Collection object that can be child of series/season</rdfs:comment>
     <rdfs:label xml:lang="en">EpisodeCollection</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isCollectionOfSeason">
+    <rdfs:label xml:lang="en">Is Collection Of Season</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Collection"/>
+    <rdfs:comment xml:lang="en">To denote the collections of a Season</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Season"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isCollectionOfSeries">
+    <rdfs:label xml:lang="en">Is Collection Of Series</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Collection"/>
+    <rdfs:comment xml:lang="en">To denote the collections of a Series</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Series"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
 </rdf:RDF>

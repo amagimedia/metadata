@@ -625,6 +625,20 @@
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label              "Is Child Collection"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isCollectionOfSeries>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Series> ;
+        rdfs:comment            "To denote the collections of a Series"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Collection> ;
+        rdfs:label              "Is Collection Of Series"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isCollectionOfSeason>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Season> ;
+        rdfs:comment            "To denote the collections of a Season"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Collection> ;
+        rdfs:label              "Is Collection Of Season"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#EpisodeCollection>
         rdf:type         rdfs:Class ;
         rdfs:label       "EpisodeCollection"@en ;
