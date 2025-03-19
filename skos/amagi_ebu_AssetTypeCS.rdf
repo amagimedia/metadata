@@ -50,6 +50,8 @@
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
     <skos:definition>A commercial video is a short-form type of advertisement ideally 30 seconds 
                 long placed on TV, streaming services, social media platforms, and other digital channels. </skos:definition>
+    <skos:altLabel xml:lang="en">adslate</skos:altLabel>
+    <skos:altLabel xml:lang="en">adbreakslate</skos:altLabel>
     <skos:altLabel xml:lang="en">Ad</skos:altLabel>
     <skos:altLabel xml:lang="en">Commercial</skos:altLabel>
     <skos:prefLabel xml:lang="en">Advertisement</skos:prefLabel>

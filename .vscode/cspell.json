@@ -545,9 +545,20 @@
     "starwagon",
     "Updfate",
     "deliver",
-    "Stillcut"
+    "Stillcut",
+    "adbreakslate",
+    "adslate"
   ],
-  "ignoreWords": ["springboard", "ILES", "FASO", "ILE", "CUBA", "FRAN", "NIUE", "deliver"],
+  "ignoreWords": [
+    "springboard",
+    "ILES",
+    "FASO",
+    "ILE",
+    "CUBA",
+    "FRAN",
+    "NIUE",
+    "deliver"
+  ],
   "language": "de,en,en-AU,en-GB,es,fi,fr,it,lv,nb-no,nl,pl,pt,sv,tr",
   "import": [
     "https://cdn.jsdelivr.net/npm/@cspell/dict-de-ch@latest/cspell-ext.json",
