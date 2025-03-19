@@ -509,7 +509,7 @@
     <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Cuepoint"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasChildCollections">
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasChildCollection">
     <rdfs:label xml:lang="en">Has Child Collections</rdfs:label>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
     <rdfs:comment xml:lang="en">To denote whether a Series/Season can have Collections has its child</rdfs:comment>

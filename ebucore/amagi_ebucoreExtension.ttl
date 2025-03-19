@@ -611,7 +611,7 @@
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label              "Has Custom Key Value"@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasChildCollections>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasChildCollection>
         rdf:type                rdf:Property ;
         rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
         rdfs:comment            "To denote whether a Series/Season can have Collections has its child"@en ;
