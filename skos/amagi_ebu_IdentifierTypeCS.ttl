@@ -136,3 +136,13 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "ALTERNATE-ID"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aichatctxid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Chat-ID provided in response of AI metadata generation. This chat-id will be used in the UI to call chat interaction to fine tune the response"""@en ;
+    skos:example "39ij490jk" ;
+    skos:historyNote "2025-03-25" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "ai_chat_context_id"@en .
