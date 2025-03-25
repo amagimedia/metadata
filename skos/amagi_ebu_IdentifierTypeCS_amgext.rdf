@@ -51,6 +51,26 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisummarychatid">
+    <skos:prefLabel xml:lang="en">ai_summary_chat_id</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-03-25</skos:historyNote>
+    <skos:example>39ij490jk</skos:example>
+    <skos:definition xml:lang="en">Chat-ID provided in response of AI summary metadata generation. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsischatid">
+    <skos:prefLabel xml:lang="en">ai_synopsis_chat_id</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-03-25</skos:historyNote>
+    <skos:example>39ij490jk</skos:example>
+    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tastemade">
     <skos:prefLabel xml:lang="en">tastemade</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -111,16 +131,6 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aichatctxid">
-    <skos:prefLabel xml:lang="en">ai_chat_context_id</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2025-03-25</skos:historyNote>
-    <skos:example>39ij490jk</skos:example>
-    <skos:definition xml:lang="en">Chat-ID provided in response of AI metadata generation. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_imdb">
     <skos:prefLabel xml:lang="en">IMDB</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -128,6 +138,16 @@
     <skos:historyNote>2022-11-29</skos:historyNote>
     <skos:example></skos:example>
     <skos:definition xml:lang="en">IMDB identifier. Check https://www.imdb.org/</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aichatid">
+    <skos:prefLabel xml:lang="en">ai_chat_id</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-03-25</skos:historyNote>
+    <skos:example>39ij490jk</skos:example>
+    <skos:definition xml:lang="en">Chat-ID provided in response of AI metadata generation. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
