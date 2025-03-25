@@ -6,16 +6,6 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wikidata">
-    <skos:prefLabel xml:lang="en">WIKI</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2023-10-25</skos:historyNote>
-    <skos:example></skos:example>
-    <skos:definition xml:lang="en">Wikidata identifier. Check https://www.wikidata.org/</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid">
     <skos:prefLabel xml:lang="en">TMSID</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -25,6 +15,11 @@
     <skos:definition xml:lang="en">Gracenote TMSID. Check https://en.wikipedia.org/wiki/TMS_(entertainment_data) and https://www.gracenote.com/gracenote-id/</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS">
+    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for media IdentifierType</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_amgastid">
     <skos:prefLabel xml:lang="en">AMAGI-ASSETID</skos:prefLabel>
@@ -36,23 +31,35 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cpaltid">
-    <skos:prefLabel xml:lang="en">ALTERNATE-ID</skos:prefLabel>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wikidata">
+    <skos:prefLabel xml:lang="en">WIKI</skos:prefLabel>
     <skos:note>Valid</skos:note>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2024-10-25</skos:historyNote>
-    <skos:example>S0_A0_123</skos:example>
-    <skos:definition xml:lang="en">Content partner alternate identifier. 
-        Can be used to allow the content partner who is the amagi 
-        account holder ingesting the assets to store an additional identifier. 
-        This e.g. can be used to store additional identifiers for collections.</skos:definition>
+    <skos:historyNote>2023-10-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">Wikidata identifier. Check https://www.wikidata.org/</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS">
-    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for media IdentifierType</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_gracenote">
+    <skos:prefLabel xml:lang="en">gracenote</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2023-11-10</skos:historyNote>
+    <skos:example>MV003331980000</skos:example>
+    <skos:definition xml:lang="en">Gracenote TMSID. Check https://en.wikipedia.org/wiki/TMS_(entertainment_data) and https://www.gracenote.com/gracenote-id</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tastemade">
+    <skos:prefLabel xml:lang="en">tastemade</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2023-11-10</skos:historyNote>
+    <skos:example>37190</skos:example>
+    <skos:definition xml:lang="en">external id provided from tastemade</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iab30">
     <skos:prefLabel xml:lang="en">IAB-3.0</skos:prefLabel>
@@ -74,46 +81,6 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_gracenote">
-    <skos:prefLabel xml:lang="en">gracenote</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2023-11-10</skos:historyNote>
-    <skos:example>MV003331980000</skos:example>
-    <skos:definition xml:lang="en">Gracenote TMSID. Check https://en.wikipedia.org/wiki/TMS_(entertainment_data) and https://www.gracenote.com/gracenote-id</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_provider_guid">
-    <skos:prefLabel xml:lang="en">provider_guid</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2023-11-10</skos:historyNote>
-    <skos:example>tmk-video-2779f930951347e0ad939b05f43a8ff8</skos:example>
-    <skos:definition xml:lang="en">Unique id from the provider</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tastemade">
-    <skos:prefLabel xml:lang="en">tastemade</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2023-11-10</skos:historyNote>
-    <skos:example>37190</skos:example>
-    <skos:definition xml:lang="en">external id provided from tastemade</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_imdb">
-    <skos:prefLabel xml:lang="en">IMDB</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2022-11-29</skos:historyNote>
-    <skos:example></skos:example>
-    <skos:definition xml:lang="en">IMDB identifier. Check https://www.imdb.org/</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_iptcmediatopic">
     <skos:prefLabel xml:lang="en">IPTC-MEDIATOPIC</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -131,6 +98,49 @@
     <skos:historyNote>2023-11-10</skos:historyNote>
     <skos:example>ACm1io6d5z76aehcyESGbki</skos:example>
     <skos:definition xml:lang="en">external id provided by amagi</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_provider_guid">
+    <skos:prefLabel xml:lang="en">provider_guid</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2023-11-10</skos:historyNote>
+    <skos:example>tmk-video-2779f930951347e0ad939b05f43a8ff8</skos:example>
+    <skos:definition xml:lang="en">Unique id from the provider</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aichatctxid">
+    <skos:prefLabel xml:lang="en">ai_chat_context_id</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-03-25</skos:historyNote>
+    <skos:example>39ij490jk</skos:example>
+    <skos:definition xml:lang="en">Chat-ID provided in response of AI metadata generation. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_imdb">
+    <skos:prefLabel xml:lang="en">IMDB</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2022-11-29</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">IMDB identifier. Check https://www.imdb.org/</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cpaltid">
+    <skos:prefLabel xml:lang="en">ALTERNATE-ID</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2024-10-25</skos:historyNote>
+    <skos:example>S0_A0_123</skos:example>
+    <skos:definition xml:lang="en">Content partner alternate identifier. 
+        Can be used to allow the content partner who is the amagi 
+        account holder ingesting the assets to store an additional identifier. 
+        This e.g. can be used to store additional identifiers for collections.</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
