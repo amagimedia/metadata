@@ -64,6 +64,7 @@
     <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
     <skos:definition>A film – also called a movie, motion picture, moving picture, picture, photoplay is is a series of moving images shown on a screen, usually with sound, that make up a story</skos:definition>
+    <skos:altLabel xml:lang="en">Film</skos:altLabel>
     <skos:prefLabel xml:lang="en">Movie</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
