@@ -78,7 +78,8 @@ ast_type:_1.2
 ast_type:_1.1.1
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "Movie"@en ;
-        skos:definition   "A film – also called a movie, motion picture, moving picture, picture, photoplay is is a series of moving images shown on a screen, usually with sound, that make up a story" ;
+        skos:altLabel   "Film"@en ;
+	skos:definition   "A film – also called a movie, motion picture, moving picture, picture, photoplay is is a series of moving images shown on a screen, usually with sound, that make up a story" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_1.1 ;
         skos:changeNote "" ;
