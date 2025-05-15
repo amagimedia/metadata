@@ -26,8 +26,8 @@ jobs:
         with:
           repository: amagimedia/amgrss-xslts
           token: ${{ github.token }}
+          ref: main
           path: amgrss-xslts
-          fetch: main
 
       - name: Install dependencies
         run: |
