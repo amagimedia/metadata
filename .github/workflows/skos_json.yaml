@@ -1,0 +1,73 @@
+name: Generate SKOS JSON
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Create GitHub App Token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.AMAGI_REPO_READ_APP_ID }}
+          private-key: ${{ secrets.AMAGI_REPO_READ_KEY }}
+          owner: amagimedia
+          repositories: |
+            amgrss-xslts
+
+      - name: Get the latest amgrss-xslts
+        uses: actions/checkout@v3
+        with:
+          repository: amagimedia/amgrss-xslts
+          token: ${{ steps.app-token.outputs.token }}
+          path: amgrss-xslts
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pwd
+          cd amgrss-xslts
+          pip install .
+          cd ..
+
+      - name: Check if skos folder is changed
+        id: check_skos
+        run: |
+          if git diff --name-only ${{github.event.before }} ${{ github.sha }} | grep -q '^metadata/skos/'; then
+            echo "generate_skos_json=true" >> $GITHUB_ENV
+          else
+            echo "generate_skos_json=false" >> $GITHUB_ENV
+          fi
+
+      - name: Generate skos json and commit
+        run: |
+          if [ "${{ env.generate_skos_json }}" = "true" ]; then
+            amgrss-tool ebucs-rdf-2-json -i ./skos/amagi_ebu_AssetTypeCS.rdf -o ./skos/json/asset_type_skos.json
+            amgrss-tool ebucs-rdf-2-json -i ./skos/ebu_Iso3166_CountryCodeCS_amgext.rdf -o ./skos/json/country_code_skos.json
+            amgrss-tool ebucs-rdf-2-json -i ./skos/ebu_ContentGenreCS_amgext.rdf -o ./skos/json/genre_skos.json
+            amgrss-tool ebucs-rdf-2-json -i ./skos/amagi_ebu_IdentifierTypeCS.rdf -o ./skos/json/identifier_type_skos.json
+            amgrss-tool ebucs-rdf-2-json -i ./skos/ebu_ISO639_1LanguageCodeCS_amgext.rdf -o ./skos/json/language_code_skos.json
+            amgrss-tool ebucs-rdf-2-json -i ./skos/ebu_ParentalGuidanceCodeCS_amgext.rdf -o ./skos/json/parental_guidance_skos.json
+            amgrss-tool ebucs-rdf-2-json -i ./skos/ebu_RoleCodeCS_amgext.rdf -o ./skos/json/role_skos.json
+            git config --global user.name "GitHub Action[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add ./skos/json/*.json
+            git commit -m "Update skos json files"
+            git push origin HEAD:${{ github.head_ref }}
