@@ -644,3 +644,17 @@
         rdfs:label       "EpisodeCollection"@en ;
         rdfs:comment     "Collection object that can be child of series/season"@en ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Collection> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#liveIngestTemplateId>
+        rdf:type         rdf:Property ;
+        rdfs:label       "Live Ingest Template ID"@en ;
+        rdfs:comment     "A reference to the ingest template used to configure standard live ingest settings like protocols, codecs, and destinations."@en ;
+        rdfs:domain      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range       xsd:string .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#liveIngestUri>
+        rdf:type         rdf:Property ;
+        rdfs:label       "Live Ingest URI"@en ;
+        rdfs:comment     "The URI or endpoint used for live stream ingestion (e.g., RTMP/SRT/Zixi endpoint)."@en ;
+        rdfs:domain      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range       xsd:anyURI .
