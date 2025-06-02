@@ -495,6 +495,12 @@
     <rdfs:label xml:lang="en">isTitled</rdfs:label>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isBranded">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image"/>
+    <skos:definition xml:lang="en">This is set to true if an image is branded. default is false.</skos:definition>
+    <rdfs:label xml:lang="en">isBranded</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publicationCap">
     <rdfs:comment xml:lang="en">To express restriction on total number of times the media can be published per interval. </rdfs:comment>
     <rdfs:label xml:lang="en">publicationCap</rdfs:label>
