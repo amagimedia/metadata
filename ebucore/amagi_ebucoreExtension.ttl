@@ -658,3 +658,9 @@
         rdfs:comment     "The URI or endpoint used for live stream ingestion (e.g., RTMP/SRT/Zixi endpoint)."@en ;
         rdfs:domain      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:range       xsd:anyURI .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#GenericLiveEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Generic live event"@en ;
+        rdfs:comment     "To describe a sports event."@en .
