@@ -10881,7 +10881,8 @@ contentgenre:_3.4.6.6
 contentgenre:_3.4.6.7
         rdf:type          ebucore:Genre ;
         skos:prefLabel    "Science fiction"@en ;
-        skos:hiddenLabel  "scifi"@en ;
+        skos:altLabel      "Animation - Science Fiction"@en ;
+	skos:hiddenLabel  "scifi"@en ;
         skos:definition   "e.g. Dr Who, Star Trek"@en ;
         skos:broader      contentgenre:_3.4.6 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
@@ -11681,6 +11682,7 @@ contentgenre:_3.5.18  rdf:type  ebucore:Genre ;
 
 contentgenre:_3.5.19  rdf:type  ebucore:Genre ;
         skos:prefLabel    "Animation"@en ;
+	skos:altLabel    "Kids Animation"@en ;
         skos:definition   "" ;
         skos:broader      contentgenre:_3.5 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS> ;
