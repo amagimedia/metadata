@@ -543,4 +543,28 @@
     <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Series"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+    <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#liveIngestTemplateId">
+    <rdfs:label xml:lang="en">Live Ingest Template ID</rdfs:label>
+    <rdfs:comment xml:lang="en">
+      A reference to the ingest template used to configure standard live ingest settings like protocols, codecs, and destinations.
+    </rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+<rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#liveIngestUri">
+  <rdfs:label xml:lang="en">Live Ingest URI</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    The URI or endpoint used for live stream ingestion (e.g., RTMP/SRT/Zixi endpoint).
+  </rdfs:comment>
+  <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#GenericLiveEvent">
+    <rdfs:comment xml:lang="en">To describe a generic live event.</rdfs:comment>
+    <rdfs:label xml:lang="en">Generic live event</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
 </rdf:RDF>
