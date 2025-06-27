@@ -644,3 +644,12 @@
         rdfs:label       "EpisodeCollection"@en ;
         rdfs:comment     "Collection object that can be child of series/season"@en ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Collection> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#creditLanguage>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language> ;
+        rdfs:comment            "The language of the credit"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent> ;
+        rdfs:label              "Credit Language"@en .
+
