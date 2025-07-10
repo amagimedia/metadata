@@ -672,3 +672,24 @@
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:label       "Generic live event"@en ;
         rdfs:comment     "To describe a sports event."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasManualEditedProperty>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label              "Has Manual Edited Property"@en ;
+        rdfs:comment            "Store the property name that has been manually edited."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAIEditedProperty>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label              "Has AI Edited Property"@en ;
+        rdfs:comment            "Store the property name that has been edited by AI."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasRelatedOriginalProperty>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "Has Related Original Property"@en ;
+        rdfs:comment            "To store state of property subgraph before AI editing."@en .
