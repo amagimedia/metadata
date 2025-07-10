@@ -617,3 +617,57 @@
         rdfs:comment            "Custom keys of an entity"@en ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label              "Has Custom Key Value"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasChildCollection>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:comment            "To denote whether a Series/Season can have Collections has its child"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "Has Child Collections"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isChildCollection>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:comment            "To denote whether a Collection can belong to a Series/Season"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "Is Child Collection"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isCollectionOfSeries>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Series> ;
+        rdfs:comment            "To denote the collections of a Series"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EpisodeCollection> ;
+        rdfs:label              "Is Collection Of Series"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isCollectionOfSeason>
+        rdf:type                rdf:Property ;
+        rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Season> ;
+        rdfs:comment            "To denote the collections of a Season"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EpisodeCollection> ;
+        rdfs:label              "Is Collection Of Season"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#EpisodeCollection>
+        rdf:type         rdfs:Class ;
+        rdfs:label       "EpisodeCollection"@en ;
+        rdfs:comment     "Collection object that can be child of series/season"@en ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Collection> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#liveIngestTemplateId>
+        rdf:type         rdf:Property ;
+        rdfs:label       "Live Ingest Template ID"@en ;
+        rdfs:comment     "A reference to the ingest template used to configure standard live ingest settings like protocols, codecs, and destinations."@en ;
+        rdfs:domain      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range       xsd:string .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#liveIngestUri>
+        rdf:type         rdf:Property ;
+        rdfs:label       "Live Ingest URI"@en ;
+        rdfs:comment     "The URI or endpoint used for live stream ingestion (e.g., RTMP/SRT/Zixi endpoint)."@en ;
+        rdfs:domain      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range       xsd:anyURI .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#GenericLiveEvent>
+        rdf:type         rdfs:Class ;
+        rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:label       "Generic live event"@en ;
+        rdfs:comment     "To describe a sports event."@en .

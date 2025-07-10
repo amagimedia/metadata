@@ -6420,6 +6420,7 @@
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_22.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
       <skos:prefLabel xml:lang="en">Author / Screenplay / Scriptwriter / Adaptor / Dramatiser</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Writer</skos:altLabel>
       <skos:definition xml:lang="en">A screenplay or script is a blueprint for producing a motion
          picture or broadcast drama. It can be adapted from a previous work such as a novel, play or
          short story, or it may be an original work in and of itself. A screenplay differs from a
@@ -6953,6 +6954,7 @@
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.7">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
       <skos:prefLabel xml:lang="en">Voice Over Artist</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Voice</skos:altLabel>
       <skos:definition xml:lang="en"/>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25"/>
       <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
