@@ -4,6 +4,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> rdf:type owl:Ontology ;
@@ -558,6 +559,13 @@
     rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
     rdfs:comment  "To indicate the date/time segment has been modified."@en ;
     rdfs:label    "Segments Last Modified At"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isSegmentFromPublisher>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:comment  "Specifies if the publisher has initial provided segment or cuepoint. If true then the publisher has provided segment, If false the publisher has provided cuepoint"@en ;
+    rdfs:label    "Is Segment From Publisher"@en .
 
 # Graphics
 
