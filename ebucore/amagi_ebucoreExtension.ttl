@@ -694,9 +694,9 @@
         rdfs:label              "Has Related Original Property"@en ;
         rdfs:comment            "To store state of property subgraph before AI editing."@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasUpdatedProperty>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasLastUpdatedProperty>
         rdf:type                rdf:Property ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
-        rdfs:label              "Has Updated Property"@en ;
+        rdfs:label              "Has Last Updated Property"@en ;
         rdfs:comment            "To store the property name that was updated in the last successful write."@en .
