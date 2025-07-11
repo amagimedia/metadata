@@ -214,6 +214,14 @@
     <rdfs:label xml:lang="en">hasAnnotation</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#creditLanguage">
+    <rdfs:label xml:lang="en">Credit Language</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent"/>
+    <rdfs:comment xml:lang="en">The language of the credit</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#mainCategory">
     <rdfs:label xml:lang="en">Main category</rdfs:label>
     <rdfs:comment xml:lang="en">A category is a broad classification that groups similar types of content or products within a particular platform.</rdfs:comment>
