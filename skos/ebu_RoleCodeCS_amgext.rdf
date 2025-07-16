@@ -9159,7 +9159,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_0">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
-      <skos:prefLabel xml:lang="en">Amagi Extension Undefined</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Role Undefined</skos:prefLabel>
       <skos:definition xml:lang="en">For use where proprietary extensions are required, or the use of role codes that do not fit in any classification below; Amagi Extension Undefined</skos:definition>
       <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
       <skos:changeNote xml:lang="">First version after conversion of P/META into XML</skos:changeNote>
