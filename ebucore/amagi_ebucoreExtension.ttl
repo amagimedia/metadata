@@ -700,3 +700,17 @@
         rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:label              "Has Last Updated Property"@en ;
         rdfs:comment            "To store the property name that was updated in the last successful write."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#roleInputText>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label              "Role Input Text"@en ;
+        rdfs:comment            "To store the role input text."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#creditLanguage>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label              "Credit Language"@en ;
+        rdfs:comment            "To store the credit language."@en .
