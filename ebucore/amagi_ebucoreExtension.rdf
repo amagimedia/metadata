@@ -176,13 +176,6 @@
     <rdfs:label xml:lang="en">targetPlatformBrandId</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isEpisodeEmpty">
-    <rdfs:comment xml:lang="en">To denote whether the series has episodes or not. Set to false if episodes exist, true if no episodes.</rdfs:comment>
-    <rdfs:label xml:lang="en">Is Episode Empty</rdfs:label>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Series"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#customValue">
     <rdfs:label xml:lang="en">custom value</rdfs:label>
     <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CustomKeyValue"/>
@@ -363,6 +356,13 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#annotationId">
     <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isEmpty">
+    <rdfs:comment xml:lang="en">To denote whether the series has episodes or not. Set to false if episodes exist, true if no episodes.</rdfs:comment>
+    <rdfs:label xml:lang="en">Is Empty</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Series"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCustomKeyValue">
     <rdfs:label xml:lang="en">Has Custom Key Value</rdfs:label>

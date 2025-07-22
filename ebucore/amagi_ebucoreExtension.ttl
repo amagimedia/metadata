@@ -715,9 +715,9 @@
         rdfs:label              "Credit Language"@en ;
         rdfs:comment            "To store the credit language."@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isEpisodeEmpty>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isEmpty>
         rdf:type                rdf:Property ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Series> ;
         rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
-        rdfs:label              "Is Episode Empty"@en ;
+        rdfs:label              "Is Empty"@en ;
         rdfs:comment            "To denote whether the series has episodes or not. Set to false if episodes exist, true if no episodes."@en .
