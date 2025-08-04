@@ -547,7 +547,21 @@
     "deliver",
     "Stillcut",
     "adbreakslate",
-    "adslate"
+    "adslate",
+    "العربية",
+    "Čeština",
+    "Ελληνικά",
+    "Singlish",
+    "Romandy",
+    "עברית",
+    "हिन्दी",
+    "മലയാളം",
+    "Русский",
+    "Slovenčina",
+    "தமிழ்",
+    "తెలుగు",
+    "Tiếng",
+    "Việt"
   ],
   "ignoreWords": [
     "springboard",
@@ -559,7 +573,7 @@
     "NIUE",
     "deliver"
   ],
-  "language": "de,en,en-AU,en-GB,es,fi,fr,it,lv,nb-no,nl,pl,pt,sv,tr",
+  "language": "de,en,en-AU,en-GB,es,fi,fr,it,lv,nb-no,nl,pl,pt,sv,tr,hi,ta,te,ml,ru,sk,vi,zh,ar",
   "import": [
     "https://cdn.jsdelivr.net/npm/@cspell/dict-de-ch@latest/cspell-ext.json",
     "https://cdn.jsdelivr.net/npm/@cspell/dict-en_us@latest/cspell-ext.json",
