@@ -4,6 +4,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension> rdf:type owl:Ontology ;
@@ -559,6 +560,13 @@
     rdfs:comment  "To indicate the date/time segment has been modified."@en ;
     rdfs:label    "Segments Last Modified At"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isSegmentFromPublisher>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:comment  "Specifies if the publisher has initial provided segment or cuepoint. If true then the publisher has provided segment, If false the publisher has provided cuepoint"@en ;
+    rdfs:label    "Is Segment From Publisher"@en .
+
 # Graphics
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic>
@@ -673,3 +681,52 @@
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:label       "Generic live event"@en ;
         rdfs:comment     "To describe a sports event."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasManualEditedProperty>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label              "Has Manual Edited Property"@en ;
+        rdfs:comment            "Store the property name that has been manually edited."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAIEditedProperty>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label              "Has AI Edited Property"@en ;
+        rdfs:comment            "Store the property name that has been edited by AI."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasRelatedOriginalProperty>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label              "Has Related Original Property"@en ;
+        rdfs:comment            "To store state of property subgraph before AI editing."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasLastUpdatedProperty>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label              "Has Last Updated Property"@en ;
+        rdfs:comment            "To store the property name that was updated in the last successful write."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#roleInputText>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label              "Role Input Text"@en ;
+        rdfs:comment            "To store the role input text."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#creditLanguage>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label              "Credit Language"@en ;
+        rdfs:comment            "To store the credit language."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isEmpty>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Series> ;
+        rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:label              "Is Empty"@en ;
+        rdfs:comment            "To denote whether the series has episodes or not. Set to false if episodes exist, true if no episodes."@en .
