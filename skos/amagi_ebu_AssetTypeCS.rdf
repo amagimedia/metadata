@@ -680,6 +680,8 @@
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
     <skos:definition>Asset Type Rescue</skos:definition>
     <skos:prefLabel xml:lang="en">Rescue</skos:prefLabel>
+    <skos:altLabel xml:lang="en">breakout_wheel</skos:altLabel>
+    <skos:altLabel xml:lang="en">scheduled_rescue</skos:altLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.8">
