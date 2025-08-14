@@ -231,6 +231,8 @@ ast_type:_1.1.8.3
 ast_type:_1.1.9
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "Rescue"@en ;
+		skos:altLabel  "breakout_wheel"@en ;
+		skos:altLabel  "scheduled_rescue"@en ;
         skos:definition   "Asset Type Rescue" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_1.1 ;
