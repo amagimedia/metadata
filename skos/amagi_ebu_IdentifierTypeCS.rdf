@@ -164,4 +164,1549 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_del_records">
+    <skos:prefLabel xml:lang="en">Del Records</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Del Records</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_viz">
+    <skos:prefLabel xml:lang="en">VIZ</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from VIZ</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_serious_kids">
+    <skos:prefLabel xml:lang="en">Serious Kids</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Serious Kids</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_j2911_casa_garabato">
+    <skos:prefLabel xml:lang="en">J2911 - Casa Garabato</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from J2911 - Casa Garabato</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_one_vault">
+    <skos:prefLabel xml:lang="en">One Vault</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from One Vault</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_veracruz">
+    <skos:prefLabel xml:lang="en">Veracruz</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Veracruz</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rcn_tv">
+    <skos:prefLabel xml:lang="en">RCN TV</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from RCN TV</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_latin_media_group">
+    <skos:prefLabel xml:lang="en">LATIN MEDIA GROUP</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from LATIN MEDIA GROUP</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_signo_de_gato">
+    <skos:prefLabel xml:lang="en">Signo de Gato</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Signo de Gato</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_bbc">
+    <skos:prefLabel xml:lang="en">BBC</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from BBC</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_playmakers">
+    <skos:prefLabel xml:lang="en">Playmakers</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Playmakers</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_zee_entertainment">
+    <skos:prefLabel xml:lang="en">Zee Entertainment</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Zee Entertainment</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cantoalegre">
+    <skos:prefLabel xml:lang="en">CANTOALEGRE</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from CANTOALEGRE</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_filmhub">
+    <skos:prefLabel xml:lang="en">FilmHub</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from FilmHub</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_chapulin_films">
+    <skos:prefLabel xml:lang="en">Chapulin Films</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Chapulin Films</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_globo">
+    <skos:prefLabel xml:lang="en">Globo</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Globo</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_comarex">
+    <skos:prefLabel xml:lang="en">Comarex</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Comarex</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_calinos">
+    <skos:prefLabel xml:lang="en">Calinos</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Calinos</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_thema">
+    <skos:prefLabel xml:lang="en">Thema</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Thema</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_dori_media">
+    <skos:prefLabel xml:lang="en">Dori Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Dori Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_marvista">
+    <skos:prefLabel xml:lang="en">Marvista</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Marvista</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_b_r_360">
+    <skos:prefLabel xml:lang="en">B&amp;R 360</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from B&amp;R 360</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_new_films">
+    <skos:prefLabel xml:lang="en">New FIlms</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from New FIlms</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_itoydani">
+    <skos:prefLabel xml:lang="en">Itoydani</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Itoydani</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_camino_films">
+    <skos:prefLabel xml:lang="en">Camino Films</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Camino Films</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_polka">
+    <skos:prefLabel xml:lang="en">Polka</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Polka</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cerro_records">
+    <skos:prefLabel xml:lang="en">Cerro Records</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Cerro Records</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_canela_media">
+    <skos:prefLabel xml:lang="en">Canela Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Canela Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tecate">
+    <skos:prefLabel xml:lang="en">Tecate</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Tecate</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rctv_internacional">
+    <skos:prefLabel xml:lang="en">RCTV Internacional</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from RCTV Internacional</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_blue_ant_media">
+    <skos:prefLabel xml:lang="en">Blue Ant Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Blue Ant Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_bare_knuckle_fighting">
+    <skos:prefLabel xml:lang="en">Bare Knuckle Fighting</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Bare Knuckle Fighting</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_imira_toonz_ent">
+    <skos:prefLabel xml:lang="en">Imira Toonz Ent</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Imira Toonz Ent</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_de_a_planeta">
+    <skos:prefLabel xml:lang="en">De A Planeta</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from De A Planeta</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_hollywood_lic">
+    <skos:prefLabel xml:lang="en">HOLLYWOOD LIC</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from HOLLYWOOD LIC</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_vip2000">
+    <skos:prefLabel xml:lang="en">VIP2000</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from VIP2000</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_homosapiens">
+    <skos:prefLabel xml:lang="en">Homosapiens</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Homosapiens</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_flitv_alacocina">
+    <skos:prefLabel xml:lang="en">Flitv(Alacocina)</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Flitv(Alacocina)</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_multiplatino">
+    <skos:prefLabel xml:lang="en">Multiplatino</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Multiplatino</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mattel">
+    <skos:prefLabel xml:lang="en">Mattel</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Mattel</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_punctum">
+    <skos:prefLabel xml:lang="en">Punctum</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Punctum</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_active_entertainment">
+    <skos:prefLabel xml:lang="en">Active Entertainment</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Active Entertainment</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_airbudsentertainment">
+    <skos:prefLabel xml:lang="en">AirBudsEntertainment</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from AirBudsEntertainment</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_medialuna">
+    <skos:prefLabel xml:lang="en">Medialuna</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Medialuna</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cinelatino">
+    <skos:prefLabel xml:lang="en">Cinelatino</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Cinelatino</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_sabbatical_entertainment">
+    <skos:prefLabel xml:lang="en">Sabbatical Entertainment</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Sabbatical Entertainment</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_dream_factory">
+    <skos:prefLabel xml:lang="en">Dream Factory</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Dream Factory</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_top_rank_publicidad">
+    <skos:prefLabel xml:lang="en">Top Rank Publicidad</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Top Rank Publicidad</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_fdla">
+    <skos:prefLabel xml:lang="en">FDLA</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from FDLA</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mondo_tv">
+    <skos:prefLabel xml:lang="en">Mondo TV</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Mondo TV</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_krh_media">
+    <skos:prefLabel xml:lang="en">KRH Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from KRH Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_lionsgate">
+    <skos:prefLabel xml:lang="en">Lionsgate</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Lionsgate</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_canela_diana">
+    <skos:prefLabel xml:lang="en">Canela-Diana</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Canela-Diana</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_transparent_bussines">
+    <skos:prefLabel xml:lang="en">Transparent Bussines</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Transparent Bussines</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_la_oreja_media_group">
+    <skos:prefLabel xml:lang="en">La Oreja Media Group</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from La Oreja Media Group</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_canela_kids_originals">
+    <skos:prefLabel xml:lang="en">Canela Kids Originals</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Canela Kids Originals</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cisneros_media_distribution">
+    <skos:prefLabel xml:lang="en">Cisneros Media Distribution</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Cisneros Media Distribution</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_film_movement">
+    <skos:prefLabel xml:lang="en">Film Movement</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Film Movement</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mi_musica">
+    <skos:prefLabel xml:lang="en">Mi Musica</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Mi Musica</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cineflix">
+    <skos:prefLabel xml:lang="en">Cineflix</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Cineflix</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_9story">
+    <skos:prefLabel xml:lang="en">9story</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from 9story</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_knights_of_columbus">
+    <skos:prefLabel xml:lang="en">Knights of Columbus</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Knights of Columbus</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_evrit">
+    <skos:prefLabel xml:lang="en">EVRIT</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from EVRIT</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pickone_animaccord">
+    <skos:prefLabel xml:lang="en">PICKONE-ANIMACCORD</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from PICKONE-ANIMACCORD</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_idealismo">
+    <skos:prefLabel xml:lang="en">Idealismo</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Idealismo</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_asylum">
+    <skos:prefLabel xml:lang="en">Asylum</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Asylum</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aztecatv">
+    <skos:prefLabel xml:lang="en">AztecaTV</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from AztecaTV</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_circular_media">
+    <skos:prefLabel xml:lang="en">Circular Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Circular Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_hasbro">
+    <skos:prefLabel xml:lang="en">Hasbro</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Hasbro</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_nelvana">
+    <skos:prefLabel xml:lang="en">Nelvana</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Nelvana</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_arrayofhope">
+    <skos:prefLabel xml:lang="en">Arrayofhope</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Arrayofhope</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_one_world">
+    <skos:prefLabel xml:lang="en">One World</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from One World</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_kaltura">
+    <skos:prefLabel xml:lang="en">kaltura</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from kaltura</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_olympusat">
+    <skos:prefLabel xml:lang="en">Olympusat</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Olympusat</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_sensofmedia">
+    <skos:prefLabel xml:lang="en">SensOfMedia</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from SensOfMedia</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_kanal_d">
+    <skos:prefLabel xml:lang="en">Kanal D</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Kanal D</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_canela_sports_original">
+    <skos:prefLabel xml:lang="en">Canela Sports Original</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Canela Sports Original</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_camara_digital">
+    <skos:prefLabel xml:lang="en">Camara Digital</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Camara Digital</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_jorge_cervantes">
+    <skos:prefLabel xml:lang="en">Jorge Cervantes</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Jorge Cervantes</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_recordtv">
+    <skos:prefLabel xml:lang="en">RecordTV</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from RecordTV</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_masl">
+    <skos:prefLabel xml:lang="en">MASL</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from MASL</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_bxstrs_promotion">
+    <skos:prefLabel xml:lang="en">BXSTRS Promotion</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from BXSTRS Promotion</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cozumel">
+    <skos:prefLabel xml:lang="en">Cozumel</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Cozumel</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_j2911_artnation">
+    <skos:prefLabel xml:lang="en">J2911-ARTNATION</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from J2911-ARTNATION</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_world_poker_tour">
+    <skos:prefLabel xml:lang="en">World Poker Tour</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from World Poker Tour</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_canela_music_originals">
+    <skos:prefLabel xml:lang="en">Canela Music Originals</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Canela Music Originals</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_atv">
+    <skos:prefLabel xml:lang="en">ATV</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from ATV</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_bruder_releasing">
+    <skos:prefLabel xml:lang="en">Bruder Releasing</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Bruder Releasing</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_itn">
+    <skos:prefLabel xml:lang="en">ITN</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from ITN</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_nacional_records">
+    <skos:prefLabel xml:lang="en">Nacional Records</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Nacional Records</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_j2911_nima_gaspar_audioviduales">
+    <skos:prefLabel xml:lang="en">J2911 - Nima Gaspar Audioviduales</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from J2911 - Nima Gaspar Audioviduales</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rominapuga">
+    <skos:prefLabel xml:lang="en">RominaPuga</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from RominaPuga</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_netminds">
+    <skos:prefLabel xml:lang="en">Netminds</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Netminds</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_echelon_studios">
+    <skos:prefLabel xml:lang="en">Echelon Studios</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Echelon Studios</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_harmony_media">
+    <skos:prefLabel xml:lang="en">Harmony Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Harmony Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_symphonic">
+    <skos:prefLabel xml:lang="en">Symphonic</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Symphonic</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_metro_tv">
+    <skos:prefLabel xml:lang="en">Metro TV</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Metro TV</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_world_boxing_championship">
+    <skos:prefLabel xml:lang="en">World Boxing Championship</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from World Boxing Championship</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_g_padilla_enterprises_llc">
+    <skos:prefLabel xml:lang="en">G-Padilla Enterprises LLC</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from G-Padilla Enterprises LLC</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_hemisphere">
+    <skos:prefLabel xml:lang="en">Hemisphere</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Hemisphere</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_oceanavenue">
+    <skos:prefLabel xml:lang="en">OceanAvenue</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from OceanAvenue</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_caracol">
+    <skos:prefLabel xml:lang="en">Caracol</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Caracol</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_leda_films">
+    <skos:prefLabel xml:lang="en">LEDA Films</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from LEDA Films</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_storybook">
+    <skos:prefLabel xml:lang="en">StoryBook</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from StoryBook</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS">
+    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for media IdentifierType</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_grupo_vrdg">
+    <skos:prefLabel xml:lang="en">Grupo VRDG</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Grupo VRDG</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_ananda_media">
+    <skos:prefLabel xml:lang="en">Ananda Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Ananda Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_big_media">
+    <skos:prefLabel xml:lang="en">Big Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Big Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_omni_media">
+    <skos:prefLabel xml:lang="en">Omni Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Omni Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_langley">
+    <skos:prefLabel xml:lang="en">Langley</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Langley</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_yahayra_films">
+    <skos:prefLabel xml:lang="en">Yahayra Films</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Yahayra Films</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_somos_distribucion">
+    <skos:prefLabel xml:lang="en">Somos Distribucion</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Somos Distribucion</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_exile_concepts">
+    <skos:prefLabel xml:lang="en">Exile Concepts</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Exile Concepts</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_gussi">
+    <skos:prefLabel xml:lang="en">Gussi</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Gussi</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_vision_films">
+    <skos:prefLabel xml:lang="en">Vision Films</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Vision Films</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_film_rise">
+    <skos:prefLabel xml:lang="en">Film Rise</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Film Rise</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tvfilms">
+    <skos:prefLabel xml:lang="en">TVFILMS</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from TVFILMS</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_latin_entertainment_group">
+    <skos:prefLabel xml:lang="en">Latin entertainment Group</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Latin entertainment Group</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_montiel">
+    <skos:prefLabel xml:lang="en">Montiel</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Montiel</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crespo_luva_films">
+    <skos:prefLabel xml:lang="en">Crespo Luva films</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Crespo Luva films</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wild_brain">
+    <skos:prefLabel xml:lang="en">Wild Brain</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Wild Brain</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_probox_tv">
+    <skos:prefLabel xml:lang="en">Probox TV</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Probox TV</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cinenauta">
+    <skos:prefLabel xml:lang="en">Cinenauta</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Cinenauta</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_ammo_vip">
+    <skos:prefLabel xml:lang="en">Ammo-VIP</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Ammo-VIP</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pgs">
+    <skos:prefLabel xml:lang="en">PGS</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from PGS</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_premiere">
+    <skos:prefLabel xml:lang="en">Premiere</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Premiere</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_inverleigh">
+    <skos:prefLabel xml:lang="en">Inverleigh</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Inverleigh</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_alfhaville">
+    <skos:prefLabel xml:lang="en">Alfhaville</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Alfhaville</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_vchannels">
+    <skos:prefLabel xml:lang="en">VChannels</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from VChannels</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_synergetic">
+    <skos:prefLabel xml:lang="en">Synergetic</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Synergetic</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_canela_music">
+    <skos:prefLabel xml:lang="en">Canela Music</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Canela Music</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aci">
+    <skos:prefLabel xml:lang="en">ACI</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from ACI</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_futbolsites">
+    <skos:prefLabel xml:lang="en">FutbolSites</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from FutbolSites</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_redbull">
+    <skos:prefLabel xml:lang="en">RedBull</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from RedBull</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_oro_films">
+    <skos:prefLabel xml:lang="en">Oro films</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Oro films</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rm_vistar">
+    <skos:prefLabel xml:lang="en">RM Vistar</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from RM Vistar</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_alameda">
+    <skos:prefLabel xml:lang="en">Alameda</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Alameda</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cybergroup">
+    <skos:prefLabel xml:lang="en">Cybergroup</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Cybergroup</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mediatoon">
+    <skos:prefLabel xml:lang="en">MediaToon</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from MediaToon</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pocket_watch">
+    <skos:prefLabel xml:lang="en">Pocket Watch</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Pocket Watch</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_container_group">
+    <skos:prefLabel xml:lang="en">Container group</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Container group</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cake">
+    <skos:prefLabel xml:lang="en">CAKE</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from CAKE</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_doscorazones">
+    <skos:prefLabel xml:lang="en">DosCorazones</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from DosCorazones</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_th_music_group">
+    <skos:prefLabel xml:lang="en">TH Music Group</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from TH Music Group</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_fundacion_la_morada">
+    <skos:prefLabel xml:lang="en">Fundacion La Morada</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Fundacion La Morada</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_touche_films">
+    <skos:prefLabel xml:lang="en">Touche Films</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Touche Films</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_msb">
+    <skos:prefLabel xml:lang="en">MSB</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from MSB</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_hitn">
+    <skos:prefLabel xml:lang="en">HITN</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from HITN</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_ottera">
+    <skos:prefLabel xml:lang="en">ottera</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from ottera</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_hombre_nuevo">
+    <skos:prefLabel xml:lang="en">Hombre Nuevo</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Hombre Nuevo</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_reelone">
+    <skos:prefLabel xml:lang="en">ReelOne</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from ReelOne</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_preciosa_media">
+    <skos:prefLabel xml:lang="en">Preciosa Media</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Preciosa Media</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_screen_bright">
+    <skos:prefLabel xml:lang="en">Screen Bright</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Screen Bright</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_anima">
+    <skos:prefLabel xml:lang="en">Anima</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Anima</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tesera_entertainment">
+    <skos:prefLabel xml:lang="en">Tesera Entertainment</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Tesera Entertainment</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
 </rdf:RDF>
