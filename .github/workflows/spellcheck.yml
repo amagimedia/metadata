@@ -19,5 +19,8 @@ jobs:
         with:
           files: |
             docs/skos/*.{json,rdf,ttl}
+            !docs/skos/amagi_ebu_IdentifierTypeCS.ttl  # Exclude specific file
+            !docs/skos/amagi_ebu_IdentifierTypeCS.rdf  # Exclude specific file
+            !docs/skos/amagi_ebu_IdentifierTypeCS_amgext.rdf  # Exclude specific file
           incremental_files_only: false
           config: './.vscode/cspell.json'
