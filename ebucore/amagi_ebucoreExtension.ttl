@@ -743,3 +743,17 @@
     rdf:label		"AdditionalMetadata"@en ;
     rdfs:comment 	"To provide additional metadata for an asset."@en ;
     rdfs:subClassOf	owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetType>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "The type of the target. Possible values are: platform, channel."@en ;
+    rdfs:label    "Target Type"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetId>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "The id of the target."@en ;
+    rdfs:label    "Target Id"@en .
