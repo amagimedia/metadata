@@ -67,6 +67,13 @@
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAdditionalMetadata">
+    <rdfs:comment xml:lang="en">To store the additional metadata.</rdfs:comment>
+    <rdfs:label xml:lang="en">Has Additional Metadata</rdfs:label>
+    <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AdditionalMetadata"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasManualEditedProperty">
     <rdfs:comment xml:lang="en">Store the property name that has been manually edited.</rdfs:comment>
     <rdfs:label xml:lang="en">Has Manual Edited Property</rdfs:label>
@@ -216,9 +223,12 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#creditLanguage">
     <rdfs:comment xml:lang="en">To store the credit language.</rdfs:comment>
-    <rdfs:label xml:lang="en">Credit Language</rdfs:label>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:label xml:lang="en">Credit Language</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent"/>
+    <rdfs:comment xml:lang="en">The language of the credit</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Language"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#mainCategory">
@@ -403,6 +413,12 @@
     <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Rights"/>
     <rdfs:comment xml:lang="en">To express restriction on the number of times an asset can be published.</rdfs:comment>
     <rdfs:label xml:lang="en">PublicationRestrictions</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AdditionalMetadata">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment xml:lang="en">To provide additional metadata for an asset.</rdfs:comment>
+    <rdf:label xml:lang="en">AdditionalMetadata</rdf:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasCountryOfOrigin">

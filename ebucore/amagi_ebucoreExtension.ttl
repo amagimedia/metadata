@@ -730,3 +730,16 @@
         rdfs:range              <http://www.w3.org/2001/XMLSchema#boolean> ;
         rdfs:label              "Is Empty"@en ;
         rdfs:comment            "To denote whether the series has episodes or not. Set to false if episodes exist, true if no episodes."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAdditionalMetadata>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AdditionalMetadata> ;
+        rdfs:label              "Has Additional Metadata"@en ;
+        rdfs:comment            "To store the additional metadata."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AdditionalMetadata>
+    rdf:type		rdfs:Class ;
+    rdf:label		"AdditionalMetadata"@en ;
+    rdfs:comment 	"To provide additional metadata for an asset."@en ;
+    rdfs:subClassOf	owl:Thing .
