@@ -4887,7 +4887,8 @@ parentalguidance:_50.1.6 rdf:type ebucore:TargetAudience ;
         skos:prefLabel "TV-MA"@en ;
         skos:definition "Mature Audience Only"@en ;
         skos:broader parentalguidance:_50.1 ;
-        skos:inScheme <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> .
+        skos:inScheme <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:hiddenLabel  "adult"@en .
 
 parentalguidance:_50.2 rdf:type ebucore:TargetAudience ;
         skos:prefLabel "Criteria"@en ;
