@@ -90,7 +90,8 @@
         skos:hasTopConcept  parentalguidance:_68 ; # Italy MBACT
         skos:hasTopConcept  parentalguidance:_69 ; # Italy AGCOM
         skos:hasTopConcept  parentalguidance:_70 ; # Japan EIRIN
-        skos:hasTopConcept  parentalguidance:_71 . # Russia MKRF
+        skos:hasTopConcept  parentalguidance:_71 ; # Russia MKRF
+        skos:hasTopConcept  parentalguidance:_72 .
 
 parentalguidance:_1  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "AR-INCAA"@en ;
@@ -4823,96 +4824,89 @@ parentalguidance:_49.1
         skos:historyNote  "" ;
         skos:example      "" .
 
-parentalguidance:_50  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "US-TVPG"@en ;
-        skos:altLabel     "USA Parental Rating"@en ;
-        skos:altLabel     "V-Chip"@en ;
-        skos:altLabel     "USA_PR"@en ;
-        skos:scopeNote    "Region:United States"@en ;
-        skos:definition   "The TV Parental Guidelines"@en ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:narrower     parentalguidance:_50.1 ;
-        skos:narrower     parentalguidance:_50.2 ;
-        skos:narrower     parentalguidance:_50.3 ;
-        skos:narrower     parentalguidance:_50.4 ;
-        skos:narrower     parentalguidance:_50.5 ;
-        skos:narrower     parentalguidance:_50.6 ;
-        skos:narrower     parentalguidance:_50.7 ;
-        skos:changeNote   "Update" ;
-        skos:historyNote  "2009-07-27" ;
-        skos:example      "" ;
-        skos:note         "Valid" .
+parentalguidance:_50  rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "US-TVPG"@en ;
+        skos:altLabel "US-V-Chip"@en ;
+        skos:altLabel "USA Parental Rating"@en ;
+        skos:altLabel "USA_PR"@en ;
+        skos:scopeNote "Region: United States"@en ;
+        skos:definition "The US TV Parental Guidelines system (V-Chip)"@en ;
+        skos:inScheme <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower parentalguidance:_50.1 ;
+        skos:narrower parentalguidance:_50.2 .
 
-parentalguidance:_50.1
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "TV-Y"@en ;
-        skos:definition   "All children"@en ;
-        skos:broader      parentalguidance:_50 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
+parentalguidance:_50.1 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "Ratings"@en ;
+        skos:broader parentalguidance:_50 ;
+        skos:narrower parentalguidance:_50.1.1 ;
+        skos:narrower parentalguidance:_50.1.2 ;
+        skos:narrower parentalguidance:_50.1.3 ;
+        skos:narrower parentalguidance:_50.1.4 ;
+        skos:narrower parentalguidance:_50.1.5 ;
+        skos:narrower parentalguidance:_50.1.6 .
 
-parentalguidance:_50.2
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "TV-Y7"@en ;
-        skos:definition   "Directed to other children above 7"@en ;
-        skos:broader      parentalguidance:_50 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
+parentalguidance:_50.1.1 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "TV-Y"@en ;
+        skos:definition "All Children"@en ;
+        skos:broader parentalguidance:_50.1 .
 
-parentalguidance:_50.3
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "TV-Y7-FV"@en ;
-        skos:definition   "Directed to other children above 7 due to fantasy and violent\n         content"@en ;
-        skos:broader      parentalguidance:_50 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
+parentalguidance:_50.1.2 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "TV-Y7"@en ;
+        skos:definition "Directed to Older Children"@en ;
+        skos:broader parentalguidance:_50.1 .
 
-parentalguidance:_50.4
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "TV-G"@en ;
-        skos:definition   "General Audience - All ages admitted"@en ;
-        skos:broader      parentalguidance:_50 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
+parentalguidance:_50.1.2.1 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "TV-Y7-FV"@en ;
+        skos:definition "Directed to Older Children - Fantasy Violence"@en ;
+        skos:broader parentalguidance:_50.1.2 .
 
-parentalguidance:_50.5
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "TV-PG"@en ;
-        skos:definition   "Parental guidance suggested"@en ;
-        skos:broader      parentalguidance:_50 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
+parentalguidance:_50.1.3 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "TV-G"@en ;
+        skos:definition "General Audience"@en ;
+        skos:broader parentalguidance:_50.1 .
 
-parentalguidance:_50.6
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "TV-14"@en ;
-        skos:definition   "Parents strongly cautioned"@en ;
-        skos:broader      parentalguidance:_50 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
+parentalguidance:_50.1.4 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "TV-PG"@en ;
+        skos:definition "Parental Guidance Suggested"@en ;
+        skos:broader parentalguidance:_50.1 .
 
-parentalguidance:_50.7
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "TV-MA"@en ;
-        skos:definition   "Mature audience only"@en ;
-        skos:broader      parentalguidance:_50 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" ;
-        skos:hiddenLabel  "adult"@en .
+parentalguidance:_50.1.5 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "TV-14"@en ;
+        skos:definition "Parents Strongly Cautioned"@en ;
+        skos:broader parentalguidance:_50.1 .
+
+parentalguidance:_50.1.6 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "TV-MA"@en ;
+        skos:definition "Mature Audience Only"@en ;
+        skos:broader parentalguidance:_50.1 .
+
+parentalguidance:_50.2 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "Criteria"@en ;
+        skos:broader parentalguidance:_50 ;
+        skos:narrower parentalguidance:_50.2.1 ;
+        skos:narrower parentalguidance:_50.2.2 ;
+        skos:narrower parentalguidance:_50.2.3 ;
+        skos:narrower parentalguidance:_50.2.4 .
+
+parentalguidance:_50.2.1 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "V"@en ;
+        skos:definition "Violence"@en ;
+        skos:broader parentalguidance:_50.2 .
+
+parentalguidance:_50.2.2 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "L"@en ;
+        skos:definition "Coarse Language"@en ;
+        skos:broader parentalguidance:_50.2 .
+
+parentalguidance:_50.2.3 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "S"@en ;
+        skos:definition "Sexual Content"@en ;
+        skos:broader parentalguidance:_50.2 .
+
+parentalguidance:_50.2.4 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "D"@en ;
+        skos:definition "Suggestive Dialogue"@en ;
+        skos:broader parentalguidance:_50.2 .
 
 parentalguidance:_51  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "ZA-FPB"@en ;
@@ -5400,7 +5394,7 @@ parentalguidance:_55.1.6
         skos:example      "" .
 
 parentalguidance:_56  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "IN-CFBC"@en ;
+        skos:prefLabel    "IN-CBFC"@en ;
         skos:altLabel     "Central Board of Film Certification"@en ;
         skos:altLabel     "India Content Provider"@en ;
         skos:scopeNote    "Region:India"@en ;
@@ -5421,6 +5415,8 @@ parentalguidance:_56.1
         skos:narrower     parentalguidance:_56.1.2 ;
         skos:narrower     parentalguidance:_56.1.3 ;
         skos:narrower     parentalguidance:_56.1.4 ;
+        skos:narrower     parentalguidance:_56.1.5 ;
+        skos:narrower     parentalguidance:_56.1.6 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -5428,7 +5424,7 @@ parentalguidance:_56.1
 parentalguidance:_56.1.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "U"@en ;
-        skos:definition   "Unrestricted Public Exhibition throughout\n         India,"@en ;
+        skos:definition   "Unrestricted Public Exhibition throughout India"@en ;
         skos:broader      parentalguidance:_56.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
@@ -5437,8 +5433,8 @@ parentalguidance:_56.1.1
 
 parentalguidance:_56.1.2
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "U/A"@en ;
-        skos:definition   "Unrestricted public exhibition with parental guidance for\n         children below the age of 12 "@en ;
+        skos:prefLabel    "U/A 7+"@en ;
+        skos:definition   "Suitable for children aged 7 and above with parental guidance"@en ;
         skos:broader      parentalguidance:_56.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
@@ -5447,8 +5443,8 @@ parentalguidance:_56.1.2
 
 parentalguidance:_56.1.3
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "A"@en ;
-        skos:definition   "Public exhibition restricted to adults above 18 years only, "@en ;
+        skos:prefLabel    "U/A 13+"@en ;
+        skos:definition   "Suitable for children aged 13 and above with parental guidance"@en ;
         skos:broader      parentalguidance:_56.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
@@ -5457,8 +5453,28 @@ parentalguidance:_56.1.3
 
 parentalguidance:_56.1.4
         rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "U/A 16+"@en ;
+        skos:definition   "Suitable for children aged 16 and above with parental guidance"@en ;
+        skos:broader      parentalguidance:_56.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_56.1.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "A"@en ;
+        skos:definition   "Public exhibition restricted to adults above 18 years only"@en ;
+        skos:broader      parentalguidance:_56.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_56.1.6
+        rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "S"@en ;
-        skos:definition   "Exhibition to restricted audience such as doctors\n         etc."@en ;
+        skos:definition   "Exhibition to restricted audience such as doctors etc."@en ;
         skos:broader      parentalguidance:_56.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
@@ -6699,3 +6715,50 @@ parentalguidance:_71.1.5
         skos:historyNote  "" ;
         skos:example      "" .
 
+parentalguidance:_72 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "CA-TVPG"@en ;
+        skos:altLabel "CA-V-Chip"@en ;
+        skos:scopeNote "Region: Canada"@en ;
+        skos:definition "The Canadian TV parental guidelines system (V-Chip)"@en ;
+        skos:inScheme <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower parentalguidance:_72.1 .
+
+parentalguidance:_72.1 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "Ratings"@en ;
+        skos:broader parentalguidance:_72 ;
+        skos:narrower parentalguidance:_72.1.1 ;
+        skos:narrower parentalguidance:_72.1.2 ;
+        skos:narrower parentalguidance:_72.1.3 ;
+        skos:narrower parentalguidance:_72.1.4 ;
+        skos:narrower parentalguidance:_72.1.5 ;
+        skos:narrower parentalguidance:_72.1.6 .
+
+parentalguidance:_72.1.1 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "C"@en ;
+        skos:definition "Children – Suitable for ages under 8 years"@en ;
+        skos:broader parentalguidance:_72.1 .
+
+parentalguidance:_72.1.2 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "C8+"@en ;
+        skos:definition "Children Over 8 Years – Suitable for ages 8 and older"@en ;
+        skos:broader parentalguidance:_72.1 .
+
+parentalguidance:_72.1.3 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "G"@en ;
+        skos:definition "General – Suitable for all audiences"@en ;
+        skos:broader parentalguidance:_72.1 .
+
+parentalguidance:_72.1.4 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "PG"@en ;
+        skos:definition "Parental Guidance Suggested"@en ;
+        skos:broader parentalguidance:_72.1 .
+
+parentalguidance:_72.1.5 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "14+"@en ;
+        skos:definition "Parents Strongly Cautioned – Suitable for ages 14 and older"@en ;
+        skos:broader parentalguidance:_72.1 .
+
+parentalguidance:_72.1.6 rdf:type ebucore:TargetAudience ;
+        skos:prefLabel "18+"@en ;
+        skos:definition "Mature Audience – Suitable for ages 18 and older"@en ;
+        skos:broader parentalguidance:_72.1 .
