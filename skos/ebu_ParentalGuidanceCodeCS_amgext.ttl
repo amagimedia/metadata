@@ -93,7 +93,8 @@
         skos:hasTopConcept  parentalguidance:_71 ; # Russia MKRF
         skos:hasTopConcept  parentalguidance:_72 ;
         skos:hasTopConcept  parentalguidance:_73 ;
-        skos:hasTopConcept  parentalguidance:_74 .
+        skos:hasTopConcept  parentalguidance:_74 ;
+        skos:hasTopConcept  parentalguidance:_75 .
 
 parentalguidance:_1  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "AR-INCAA"@en ;
@@ -6936,6 +6937,83 @@ parentalguidance:_74.1.6
         skos:prefLabel    "S"@en ;
         skos:definition   "Exhibition to restricted audience such as doctors etc."@en ;
         skos:broader      parentalguidance:_74.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_75  rdf:type  ebucore:TargetAudience ;
+        skos:prefLabel    "IT-MC"@en ;
+        skos:altLabel     "Ministero della Cultura"@en ;
+        skos:altLabel     "Ministry of Culture"@en ;
+        skos:scopeNote    "Region:Italy"@en ;
+        skos:definition   "Ministry of Culture"@en ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_75.1 ;
+        skos:changeNote   "Update" ;
+        skos:historyNote  "2025-09-19" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
+parentalguidance:_75.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Ratings"@en ;
+        skos:broader      parentalguidance:_75 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_75.1.1 ;
+        skos:narrower     parentalguidance:_75.1.2 ;
+        skos:narrower     parentalguidance:_75.1.3 ;
+        skos:narrower     parentalguidance:_75.1.4 ;
+        skos:narrower     parentalguidance:_75.1.5 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_75.1.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "T"@en ;
+        skos:definition   "All Audiences"@en ;
+        skos:broader      parentalguidance:_75.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_75.1.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "6+"@en ;
+        skos:definition   "Suitable for children aged 6 and older"@en ;
+        skos:broader      parentalguidance:_75.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_75.1.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "10+"@en ;
+        skos:definition   "Suitable for children aged 10 and older"@en ;
+        skos:broader      parentalguidance:_75.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_75.1.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "14+"@en ;
+        skos:definition   "Suitable for children aged 14 and older"@en ;
+        skos:broader      parentalguidance:_75.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_75.1.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "18+"@en ;
+        skos:definition   "Public exhibition restricted to adults above 18 years only"@en ;
+        skos:broader      parentalguidance:_75.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
