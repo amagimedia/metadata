@@ -6943,7 +6943,8 @@ parentalguidance:_74.1.6
         skos:example      "" .
 
 parentalguidance:_75  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "IT-MC"@en ;
+        skos:prefLabel    "IT-MIC"@en ;
+        skos:altLabel     "MIC"@en ;
         skos:altLabel     "Ministero della Cultura"@en ;
         skos:altLabel     "Ministry of Culture"@en ;
         skos:scopeNote    "Region:Italy"@en ;
