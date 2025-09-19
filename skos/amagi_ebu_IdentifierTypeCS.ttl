@@ -167,6 +167,46 @@
     skos:note "Valid" ;
     skos:prefLabel "ai_synopsis_chat_id"@en .
 
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsis60chatid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 60 characters. This chat-id will be used in the UI to call chat interaction to fine tune the response"""@en ;
+    skos:example "39ij490jk" ;
+    skos:historyNote "2025-03-25" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "ai_synopsis_60_chat_id"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsis130chatid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 130 characters. This chat-id will be used in the UI to call chat interaction to fine tune the response"""@en ;
+    skos:example "39ij490jk" ;
+    skos:historyNote "2025-03-25" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "ai_synopsis_130_chat_id"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsis250chatid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 250 characters. This chat-id will be used in the UI to call chat interaction to fine tune the response"""@en ;
+    skos:example "39ij490jk" ;
+    skos:historyNote "2025-03-25" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "ai_synopsis_250_chat_id"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsis400chatid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 400 characters. This chat-id will be used in the UI to call chat interaction to fine tune the response"""@en ;
+    skos:example "39ij490jk" ;
+    skos:historyNote "2025-03-25" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "ai_synopsis_400_chat_id"@en .
+
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_ottera>
     a ebucore:IdentifierType ;
     skos:changeNote """First version""" ;
