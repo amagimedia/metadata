@@ -6957,7 +6957,7 @@ parentalguidance:_75  rdf:type  ebucore:TargetAudience ;
 
 parentalguidance:_75.1
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "Ratings"@en ;
+        skos:prefLabel    "Rating"@en ;
         skos:broader      parentalguidance:_75 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_75.1.1 ;
