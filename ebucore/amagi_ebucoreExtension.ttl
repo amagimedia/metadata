@@ -731,6 +731,33 @@
         rdfs:label              "Is Empty"@en ;
         rdfs:comment            "To denote whether the series has episodes or not. Set to false if episodes exist, true if no episodes."@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAdditionalMetadata>
+        rdf:type                rdf:Property ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range              <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AdditionalMetadata> ;
+        rdfs:label              "Has Additional Metadata"@en ;
+        rdfs:comment            "To store the additional metadata."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AdditionalMetadata>
+    rdf:type		rdfs:Class ;
+    rdf:label		"AdditionalMetadata"@en ;
+    rdfs:comment 	"To provide additional metadata for an asset."@en ;
+    rdfs:subClassOf	owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetType>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AdditionalMetadata> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "The type of the target. Possible values are: platform, channel."@en ;
+    rdfs:label    "Target Type"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#targetId>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AdditionalMetadata> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "The id of the target."@en ;
+    rdfs:label    "Target Id"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#synopsis60>
         rdf:type            rdf:Property ;
         rdfs:label          "Synopsis60"@en ;
