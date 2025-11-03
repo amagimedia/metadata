@@ -705,7 +705,7 @@ ast_type:_4.6
 
 ast_type:_1.1.18
         rdf:type        ebucore:AssetType ;
-        skos:prefLabel  "RecordedLive"@en ;
+        skos:prefLabel  "Recorded Live"@en ;
         skos:definition   "Any Live content recorded and streamed which later forms a regular TV show" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_1.1 ;
@@ -715,7 +715,7 @@ ast_type:_1.1.18
 
 ast_type:_1.1.19
         rdf:type        ebucore:AssetType ;
-        skos:prefLabel  "DeferredLive"@en ;
+        skos:prefLabel  "Deferred Live"@en ;
         skos:definition   "Any Live content recorded and deferred to a later date" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_1.1 ;
