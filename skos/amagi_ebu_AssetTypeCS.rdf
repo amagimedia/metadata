@@ -708,7 +708,7 @@
     <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
     <skos:definition>Any Live content recorded and streamed which later forms a regular TV show</skos:definition>
-    <skos:prefLabel xml:lang="en">RecordedLive</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Recorded Live</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.19">
@@ -718,7 +718,7 @@
     <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
     <skos:definition>Any Live content recorded and deferred to a later date</skos:definition>
-    <skos:prefLabel xml:lang="en">DeferredLive</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Deferred Live</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
 </rdf:RDF>
