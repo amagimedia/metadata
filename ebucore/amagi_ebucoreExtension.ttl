@@ -763,7 +763,7 @@
         rdfs:label          "Synopsis Small"@en ;
         rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description> ;
         rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
-        rdfs:comment        "To provide a synopsis, max 60 characters. Used for short descriptions."@en ;
+        rdfs:comment        "To provide a synopsis. Used for small short descriptions."@en ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#synopsisMedium>
@@ -771,7 +771,7 @@
         rdfs:label          "Synopsis Medium"@en ;
         rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description> ;
         rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
-        rdfs:comment        "To provide a synopsis, max 130 characters. Used for medium descriptions."@en ;
+        rdfs:comment        "To provide a synopsis. Used for medium short descriptions."@en ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#synopsisLarge>
@@ -779,7 +779,7 @@
         rdfs:label          "Synopsis Large"@en ;
         rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description> ;
         rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
-        rdfs:comment        "To provide a synopsis, max 250 characters. Used for large descriptions."@en ;
+        rdfs:comment        "To provide a synopsis. Used for large short descriptions."@en ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#synopsisExtraLarge>
@@ -787,7 +787,7 @@
         rdfs:label          "Synopsis Extra Large"@en ;
         rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description> ;
         rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
-        rdfs:comment        "To provide a synopsis, max 400 characters. Used for extra large descriptions."@en ;
+        rdfs:comment        "To provide a synopsis. Used for extra large short descriptions."@en ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#synopsisExtraExtraLarge>
@@ -795,5 +795,5 @@
         rdfs:label          "Synopsis Extra Extra Large"@en ;
         rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description> ;
         rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
-        rdfs:comment        "To provide a synopsis, max 1000 characters. Used for extra extra large descriptions."@en ;
+        rdfs:comment        "To provide a synopsis. Used for extra extra large short descriptions."@en ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
