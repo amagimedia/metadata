@@ -216,6 +216,16 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsisextraextralargechatid">
+    <skos:prefLabel xml:lang="en">ai_synopsis_extra_extra_large_chat_id</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-03-25</skos:historyNote>
+    <skos:example>39ij490jk</skos:example>
+    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 1000 characters. Used for extra extra large descriptions. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_thema">
     <skos:prefLabel xml:lang="en">Thema</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -336,6 +346,16 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsismediumchatid">
+    <skos:prefLabel xml:lang="en">ai_synopsis_medium_chat_id</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-03-25</skos:historyNote>
+    <skos:example>39ij490jk</skos:example>
+    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 130 characters. Used for medium descriptions. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rctv_internacional">
     <skos:prefLabel xml:lang="en">RCTV Internacional</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -453,6 +473,16 @@
     <skos:historyNote>2025-08-25</skos:historyNote>
     <skos:example></skos:example>
     <skos:definition xml:lang="en">External id provided from Punctum</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsissmallchatid">
+    <skos:prefLabel xml:lang="en">ai_synopsis_small_chat_id</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-03-25</skos:historyNote>
+    <skos:example>39ij490jk</skos:example>
+    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 60 characters. Used for short descriptions. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
@@ -646,16 +676,6 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsis60chatid">
-    <skos:prefLabel xml:lang="en">ai_synopsis_60_chat_id</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2025-03-25</skos:historyNote>
-    <skos:example>39ij490jk</skos:example>
-    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 60 characters. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mi_musica">
     <skos:prefLabel xml:lang="en">Mi Musica</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -833,16 +853,6 @@
     <skos:historyNote>2025-08-25</skos:historyNote>
     <skos:example></skos:example>
     <skos:definition xml:lang="en">External id provided from Olympusat</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsis130chatid">
-    <skos:prefLabel xml:lang="en">ai_synopsis_130_chat_id</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2025-03-25</skos:historyNote>
-    <skos:example>39ij490jk</skos:example>
-    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 130 characters. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
@@ -1146,20 +1156,20 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS">
-    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for media IdentifierType</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsis250chatid">
-    <skos:prefLabel xml:lang="en">ai_synopsis_250_chat_id</skos:prefLabel>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsisextralargechatid">
+    <skos:prefLabel xml:lang="en">ai_synopsis_extra_large_chat_id</skos:prefLabel>
     <skos:note>Valid</skos:note>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
     <skos:historyNote>2025-03-25</skos:historyNote>
     <skos:example>39ij490jk</skos:example>
-    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 250 characters. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
+    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 400 characters. Used for extra large descriptions. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS">
+    <rdfs:label xml:lang="en">EBU SKOS Classification Scheme for media IdentifierType</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_grupo_vrdg">
     <skos:prefLabel xml:lang="en">Grupo VRDG</skos:prefLabel>
@@ -1351,6 +1361,16 @@
     <skos:historyNote>2025-08-25</skos:historyNote>
     <skos:example></skos:example>
     <skos:definition xml:lang="en">External id provided from Wild Brain</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsislargechatid">
+    <skos:prefLabel xml:lang="en">ai_synopsis_large_chat_id</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-03-25</skos:historyNote>
+    <skos:example>39ij490jk</skos:example>
+    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 250 characters. Used for large descriptions. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
@@ -1551,16 +1571,6 @@
     <skos:historyNote>2025-08-25</skos:historyNote>
     <skos:example></skos:example>
     <skos:definition xml:lang="en">External id provided from Alameda</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aisynopsis400chatid">
-    <skos:prefLabel xml:lang="en">ai_synopsis_400_chat_id</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2025-03-25</skos:historyNote>
-    <skos:example>39ij490jk</skos:example>
-    <skos:definition xml:lang="en">Chat-ID provided in response of AI synopsis metadata generation, synopsis should be max 400 characters. This chat-id will be used in the UI to call chat interaction to fine tune the response</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
