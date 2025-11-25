@@ -1903,7 +1903,6 @@ parentalguidance:_22  rdf:type  ebucore:TargetAudience ;
         skos:narrower     parentalguidance:_22.5 ;
         skos:narrower     parentalguidance:_22.6 ;
         skos:narrower     parentalguidance:_22.7 ;
-        skos:narrower     parentalguidance:_22.8 ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2009-07-28" ;
         skos:example      "" ;
@@ -1982,18 +1981,6 @@ parentalguidance:_22.7
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
-
-parentalguidance:_22.8
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "ER"@en ;
-        skos:definition   "Especially recommended for children"@en ;
-        skos:definition   "Especialmente recomendada para la infancia"@es ;
-        skos:broader      parentalguidance:_22 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "" ;
-        skos:example      "" .
-
 
 parentalguidance:_23  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "EU-PEGI"@en ;
