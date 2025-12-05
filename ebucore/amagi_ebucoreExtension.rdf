@@ -268,6 +268,13 @@
     <rdfs:label xml:lang="en">Live Ingest Template ID</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#graphicParams">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:comment xml:lang="en">A json string that contains the graphic parameters.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">Graphic Params</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#synopsisMedium">
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
     <rdfs:comment xml:lang="en">To provide a synopsis. Used for medium short descriptions.</rdfs:comment>

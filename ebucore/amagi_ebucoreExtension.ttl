@@ -797,3 +797,10 @@
         rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment        "To provide a synopsis. Used for extra extra large short descriptions."@en ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#graphicParams>
+        rdf:type            rdf:Property ;
+        rdfs:label          "Graphic Params"@en ;
+        rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment        "A json string that contains the graphic parameters."@en ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
