@@ -704,8 +704,8 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails">
-    <rdfs:label xml:lang="en">TournamentDetails</rdfs:label>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail">
+    <rdfs:label xml:lang="en">TournamentDetail</rdfs:label>
     <rdfs:comment xml:lang="en">To provide tournament details for a sports event.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
@@ -714,34 +714,34 @@
     <rdfs:label xml:lang="en">Has Tournament Details</rdfs:label>
     <rdfs:comment xml:lang="en">Property to associate an event with its tournament details.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
-    <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails"/>
+    <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#tournamentName">
     <rdfs:label xml:lang="en">Tournament Name</rdfs:label>
     <rdfs:comment xml:lang="en">The name of the tournament.</rdfs:comment>
-    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails"/>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#tournamentRound">
     <rdfs:label xml:lang="en">Tournament Round</rdfs:label>
     <rdfs:comment xml:lang="en">The round of the tournament (e.g., Quarterfinal, Semifinal, Final).</rdfs:comment>
-    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails"/>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#tournamentFormat">
     <rdfs:label xml:lang="en">Tournament Format</rdfs:label>
     <rdfs:comment xml:lang="en">The format of the tournament (e.g., Singles, Doubles).</rdfs:comment>
-    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails"/>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#tournamentGender">
     <rdfs:label xml:lang="en">Tournament Gender</rdfs:label>
     <rdfs:comment xml:lang="en">The gender category of the tournament (e.g., Men, Women, Mixed).</rdfs:comment>
-    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails"/>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>

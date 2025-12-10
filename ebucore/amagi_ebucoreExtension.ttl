@@ -813,7 +813,7 @@
 # <https://compass.amagi.tv/gms/entity/E1234> a ebucoreext:SportsEvent ;
 #         ebucoreext:isCanceled false ;
 #         ebucoreext:hasTournamentDetails [
-#                 a ebucoreext:TournamentDetails ;
+#                 a ebucoreext:TournamentDetail ;
 #                 ebucoreext:tournamentName "Roland Garros"@en ;
 #                 ebucoreext:tournamentRound "Quarterfinal"@en ;
 #                 ebucoreext:tournamentFormat "Singles"@en ;
@@ -827,9 +827,9 @@
         rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
         rdfs:comment  "To indicate whether an event has been canceled."@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail>
         rdf:type         rdfs:Class ;
-        rdfs:label       "TournamentDetails"@en ;
+        rdfs:label       "TournamentDetail"@en ;
         rdfs:comment     "To provide tournament details for a sports event."@en ;
         rdfs:subClassOf  owl:Thing .
 
@@ -837,34 +837,34 @@
         rdf:type      rdf:Property ;
         rdfs:label    "Has Tournament Details"@en ;
         rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
-        rdfs:range    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails> ;
+        rdfs:range    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail> ;
         rdfs:comment  "Property to associate an event with its tournament details."@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#tournamentName>
         rdf:type      rdf:Property ;
         rdfs:label    "Tournament Name"@en ;
-        rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails> ;
+        rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail> ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "The name of the tournament."@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#tournamentRound>
         rdf:type      rdf:Property ;
         rdfs:label    "Tournament Round"@en ;
-        rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails> ;
+        rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail> ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "The round of the tournament (e.g., Quarterfinal, Semifinal, Final)."@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#tournamentFormat>
         rdf:type      rdf:Property ;
         rdfs:label    "Tournament Format"@en ;
-        rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails> ;
+        rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail> ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "The format of the tournament (e.g., Singles, Doubles)."@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#tournamentGender>
         rdf:type      rdf:Property ;
         rdfs:label    "Tournament Gender"@en ;
-        rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetails> ;
+        rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TournamentDetail> ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "The gender category of the tournament (e.g., Men, Women, Mixed)."@en .
 
