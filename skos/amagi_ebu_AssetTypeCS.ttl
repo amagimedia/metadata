@@ -706,6 +706,7 @@ ast_type:_4.6
 ast_type:_1.1.18
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "Recorded Live"@en ;
+        skos:altLabel  "live_rec"@en ;
         skos:definition   "Any Live content recorded and streamed which later forms a regular TV show" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader    ast_type:_1.1 ;
