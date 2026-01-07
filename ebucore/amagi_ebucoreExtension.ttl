@@ -868,3 +868,9 @@
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "The gender category of the tournament (e.g., Men, Women, Mixed)."@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#sourceType>
+        rdf:type      rdf:Property ;
+        rdfs:label    "Source Type"@en ;
+        rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucore#Event> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The source type of the event (e.g., native, dynamic)."@en .
