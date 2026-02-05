@@ -421,6 +421,15 @@
     <skos:prefLabel xml:lang="en">Teaser</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_5">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2026-02-05</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>OverlayGraphic Asset Type Top Concept</skos:definition>
+    <skos:prefLabel xml:lang="en">OverlayGraphic</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.2.1.1">
     <skos:note>Valid</skos:note>
     <skos:historyNote>2024-11-18</skos:historyNote>
