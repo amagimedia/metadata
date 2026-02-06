@@ -1394,6 +1394,16 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_vendor_context_id">
+    <skos:prefLabel xml:lang="en">Vendor Context ID</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2025-08-25</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Vendor Context ID</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_ammo_vip">
     <skos:prefLabel xml:lang="en">Ammo-VIP</skos:prefLabel>
     <skos:note>Valid</skos:note>
