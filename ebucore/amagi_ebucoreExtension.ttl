@@ -805,6 +805,13 @@
         rdfs:comment        "A json string that contains the graphic parameters."@en ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isFullScreen>
+        rdf:type            rdf:Property ;
+        rdfs:label          "Is Full Screen"@en ;
+        rdfs:range          <http://www.w3.org/2001/XMLSchema#boolean> ;
+        rdfs:comment        "To denote if the graphic is full screen."@en ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
+
 ######################################################################
 # Tournament Details extensions for Sports Events
 ######################################################################
