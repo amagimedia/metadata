@@ -59,6 +59,8 @@ ast_type:_1.1
         skos:narrower    ast_type:_1.1.15 ;
         skos:narrower    ast_type:_1.1.16 ;
         skos:narrower    ast_type:_1.1.17 ;
+        skos:narrower    ast_type:_1.1.18 ;
+        skos:narrower    ast_type:_1.1.19 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" . 
@@ -699,4 +701,25 @@ ast_type:_4.6
         skos:broader    ast_type:_4 ;
         skos:changeNote "" ;
         skos:historyNote "2024-07-12" ;
+        skos:note "Valid" .
+
+ast_type:_1.1.18
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Recorded Live"@en ;
+        skos:altLabel  "live_rec"@en ;
+        skos:definition   "Any Live content recorded and streamed which later forms a regular TV show" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.1.19
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Deferred Live"@en ;
+        skos:definition   "Any Live content recorded and deferred to a later date" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2023-08-27" ;
         skos:note "Valid" .
