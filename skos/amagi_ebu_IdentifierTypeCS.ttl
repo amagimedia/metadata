@@ -1756,3 +1756,13 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "De A Planeta"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_vendor_context_id>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from Vendor Context ID"""@en ;
+    skos:example "" ;
+    skos:historyNote "2025-08-25" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "Vendor Context ID"@en .
