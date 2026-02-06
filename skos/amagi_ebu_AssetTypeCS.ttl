@@ -39,6 +39,7 @@ ast_type:_1
 ast_type:_1.1
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "Feature"@en ;
+        skos:altLabel   "Replace"@en ;
         skos:definition   "Standalone feature videos e.g. movies, ads etc." ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:broader     ast_type:_1 ;
