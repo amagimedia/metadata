@@ -733,3 +733,12 @@ ast_type:_5
         skos:changeNote "" ;
         skos:historyNote "2026-02-05" ;
         skos:note "Valid" . 
+
+ast_type:_6
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "TimelineGraphic"@en ;
+        skos:definition   "TimelineGraphic Asset Type Top Concept" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-02-11" ;
+        skos:note "Valid" . 
