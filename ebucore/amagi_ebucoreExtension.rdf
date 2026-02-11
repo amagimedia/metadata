@@ -548,6 +548,12 @@
     <rdfs:label xml:lang="en">Tournament Name</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TimelineGraphic">
+    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject"/>
+    <rdfs:comment xml:lang="en">Entity to represent the graphic to be used as now next later graphic</rdfs:comment>
+    <rdfs:label xml:lang="en">TimelineGraphic</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherStartNormalPlayTime">
     <rdfs:label xml:lang="en">Publisher Start Normal Play Time</rdfs:label>
     <rdfs:comment xml:lang="en">Publisher-provided start time expressed as normal play time</rdfs:comment>
