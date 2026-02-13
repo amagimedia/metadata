@@ -736,8 +736,8 @@ ast_type:_5
 
 ast_type:_6
         rdf:type        ebucore:AssetType ;
-        skos:prefLabel  "TimelineGraphic"@en ;
-        skos:definition   "TimelineGraphic Asset Type Top Concept" ;
+        skos:prefLabel  "RenderedGraphic"@en ;
+        skos:definition   "RenderedGraphic Asset Type Top Concept" ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
         skos:changeNote "" ;
         skos:historyNote "2026-02-11" ;

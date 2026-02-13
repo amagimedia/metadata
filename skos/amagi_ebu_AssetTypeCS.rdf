@@ -415,8 +415,8 @@
     <skos:historyNote>2026-02-11</skos:historyNote>
     <skos:changeNote></skos:changeNote>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
-    <skos:definition>TimelineGraphic Asset Type Top Concept</skos:definition>
-    <skos:prefLabel xml:lang="en">TimelineGraphic</skos:prefLabel>
+    <skos:definition>RenderedGraphic Asset Type Top Concept</skos:definition>
+    <skos:prefLabel xml:lang="en">RenderedGraphic</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.11">
