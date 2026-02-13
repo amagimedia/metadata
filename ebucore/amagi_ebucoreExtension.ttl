@@ -888,8 +888,8 @@
         rdfs:comment     "Entity to represent the graphic to be used as overlay"@en ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#TimelineGraphic>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#RenderedGraphic>
         rdf:type         rdfs:Class ;
-        rdfs:label       "TimelineGraphic"@en ;
+        rdfs:label       "RenderedGraphic"@en ;
         rdfs:comment     "Entity to represent the graphic to be used as now next later graphic"@en ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> .
