@@ -567,6 +567,33 @@
     rdfs:comment  "Specifies if the publisher has initial provided segment or cuepoint. If true then the publisher has provided segment, If false the publisher has provided cuepoint"@en ;
     rdfs:label    "Is Segment From Publisher"@en .
 
+######################################################################
+# End credit offsets
+######################################################################
+# Example:
+# <uri> ebucoreext:hasEndCreditOffset [ a ebucoreext:endCreditOffset ;
+#     ebucore:startOffsetNormalPlayTime "1522.355" ;
+#     ebucore:endOffsetNormalPlayTime "1913.747" ] .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#endCreditOffset>
+    rdf:type         rdfs:Class ;
+    rdfs:label       "End Credit Offsets"@en ;
+    rdfs:comment     "To provide start and end time offsets for end credits in normal play time."@en ;
+    rdfs:subClassOf  owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasEndCreditOffset>
+    rdf:type      rdf:Property ;
+    rdfs:range    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#endCreditOffset> ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:label    "Has End Credit Offsets"@en ;
+    rdfs:comment  "Property to associate an asset with its end credit offset range (start and end in normal play time)."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#startOffsetNormalPlayTime>
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#endCreditOffset> .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#endOffsetNormalPlayTime>
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#endCreditOffset> .
+
 # Graphics
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic>
