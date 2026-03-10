@@ -266,6 +266,7 @@
         rdfs:range          <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationEvent> ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CoverageRestrictions> ;
         rdfs:comment        "PublicationRestrictions."@en ;
         rdfs:comment        "To express publication restrictions like limits to airing"@en ;
         rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy> ;

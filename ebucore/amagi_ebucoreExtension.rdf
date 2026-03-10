@@ -17,6 +17,7 @@
     <rdfs:subPropertyOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy"/>
     <rdfs:comment xml:lang="en">To express publication restrictions like limits to airing</rdfs:comment>
     <rdfs:comment xml:lang="en">PublicationRestrictions.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CoverageRestrictions"/>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationEvent"/>
     <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions"/>
