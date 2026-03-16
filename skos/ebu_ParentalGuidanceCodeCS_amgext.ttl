@@ -3463,6 +3463,8 @@ parentalguidance:_37.1
         skos:narrower     parentalguidance:_37.1.3 ;
         skos:narrower     parentalguidance:_37.1.4 ;
         skos:narrower     parentalguidance:_37.1.5 ;
+        skos:narrower     parentalguidance:_37.1.6 ;
+        skos:narrower     parentalguidance:_37.1.7 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -3516,6 +3518,28 @@ parentalguidance:_37.1.5
         skos:prefLabel    "16"@en ;
         skos:definition   "Movie shops/cinemas aren't allowed to show these movies to\n         people younger than 16 years"@en ;
         skos:definition   "Let op met kinderen tot 16 jaar"@nl ;
+        skos:broader      parentalguidance:_37.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_37.1.6
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "14"@en ;
+        skos:definition   "Not recommended for viewers younger than 14\n         years"@en ;
+        skos:definition   "Let op met kinderen tot 14 jaar"@nl ;
+        skos:broader      parentalguidance:_37.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_37.1.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "18"@en ;
+        skos:definition   "Movie shops/cinemas aren't allowed to show these movies to\n         people younger than 18 years"@en ;
+        skos:definition   "Let op met kinderen tot 18 jaar"@nl ;
         skos:broader      parentalguidance:_37.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
