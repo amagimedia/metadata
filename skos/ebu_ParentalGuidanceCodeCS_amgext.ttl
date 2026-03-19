@@ -1734,6 +1734,8 @@ parentalguidance:_19.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "FSK 0"@en ;
         skos:prefLabel    "FSK 0"@de ;
+        skos:altLabel     "0"@en ;
+        skos:altLabel     "0"@de ;
         skos:definition   "For all ages"@en ;
         skos:definition   "Ohne Altersbeschränkung"@de ;
         skos:broader      parentalguidance:_19 ;
@@ -1746,6 +1748,8 @@ parentalguidance:_19.2
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "FSK 6"@en ;
         skos:prefLabel    "FSK 6"@de ;
+        skos:altLabel     "6"@en ;
+        skos:altLabel     "6"@de ;
         skos:definition   "No one under 6 years admitted"@en ;
         skos:definition   "Freigegeben ab 6 Jahren"@de ;
         skos:broader      parentalguidance:_19 ;
@@ -1758,6 +1762,8 @@ parentalguidance:_19.3
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "FSK 12"@en ;
         skos:prefLabel    "FSK 12"@de ;
+        skos:altLabel     "12"@en ;
+        skos:altLabel     "12"@de ;
         skos:definition   "People 12 or older admitted, children between 6 and 11 only\n         when accompanied by parent or legal guardian"@en ;
         skos:definition   "Freigegeben ab 12 Jahren"@de ;
         skos:broader      parentalguidance:_19 ;
@@ -1771,6 +1777,8 @@ parentalguidance:_19.4
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "FSK 16"@en ;
         skos:prefLabel    "FSK 16"@de ;
+        skos:altLabel     "16"@en ;
+        skos:altLabel     "16"@de ;
         skos:definition   "People 16 or older admitted"@en ;
         skos:definition   "Freigegeben ab 16 Jahren"@de ;
         skos:broader      parentalguidance:_19 ;
@@ -1784,6 +1792,8 @@ parentalguidance:_19.5
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "FSK 18"@en ;
         skos:prefLabel    "FSK 18"@de ;
+        skos:altLabel     "18"@en ;
+        skos:altLabel     "18"@de ;
         skos:definition   "\"No youth admitted\", only adults"@en ;
         skos:definition   "Keine Jugendfreigabe"@de ;
         skos:broader      parentalguidance:_19 ;
