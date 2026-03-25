@@ -4902,6 +4902,7 @@ parentalguidance:_50  rdf:type  ebucore:TargetAudience ;
         skos:altLabel     "USA Parental Rating"@en ;
         skos:altLabel     "V-Chip"@en ;
         skos:altLabel     "USA_PR"@en ;
+        skos:altLabel     "TV Parental Guidelines Monitoring Board"@en ;
         skos:scopeNote    "Region:United States"@en ;
         skos:definition   "The TV Parental Guidelines"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
