@@ -908,3 +908,11 @@
     rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationRestrictions> ;
     rdfs:label      "overallMin"@en ;
     rdfs:comment    "To express restriction on the minimum number of publication events for an asset in a given date range."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#detailedDescription>
+        rdf:type            rdf:Property ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label          "Detailed Description"@en ;
+        rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description> ;
+        rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment        "To provide a detailed description."@en .

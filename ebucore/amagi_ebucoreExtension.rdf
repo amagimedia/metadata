@@ -603,6 +603,14 @@
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#detailedDescription">
+    <rdfs:comment xml:lang="en">To provide a detailed description.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description"/>
+    <rdfs:label xml:lang="en">Detailed Description</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#SportsEvent">
     <rdfs:comment xml:lang="en">To describe a sports event.</rdfs:comment>
     <rdfs:label xml:lang="en">Sports event</rdfs:label>
