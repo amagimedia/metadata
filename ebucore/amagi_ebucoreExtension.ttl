@@ -266,6 +266,7 @@
         rdfs:range          <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationEvent> ;
         rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CoverageRestrictions> ;
         rdfs:comment        "PublicationRestrictions."@en ;
         rdfs:comment        "To express publication restrictions like limits to airing"@en ;
         rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#isCoveredBy> ;
@@ -920,6 +921,28 @@
         rdfs:label       "RenderedGraphic"@en ;
         rdfs:comment     "Entity to represent the graphic to be used as now next later graphic"@en ;
         rdfs:subClassOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#overallMax>
+    a               rdf:Property ;
+    rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
+    rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationRestrictions> ;
+    rdfs:label      "overallMax"@en ;
+    rdfs:comment    "To express restriction on the maximum number of publication events for an asset in a given date range."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#overallMin>
+    a               rdf:Property ;
+    rdfs:range      <http://www.w3.org/2001/XMLSchema#integer> ;
+    rdfs:domain     <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationRestrictions> ;
+    rdfs:label      "overallMin"@en ;
+    rdfs:comment    "To express restriction on the minimum number of publication events for an asset in a given date range."@en .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#detailedDescription>
+        rdf:type            rdf:Property ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label          "Detailed Description"@en ;
+        rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description> ;
+        rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment        "To provide a detailed description."@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasNamedSegment>
         rdf:type      rdf:Property ;
