@@ -673,6 +673,13 @@
     <rdfs:label xml:lang="en">PublicationRestrictions</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasNamedSegment">
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part"/>
+    <rdfs:label xml:lang="en">Named Segment</rdfs:label>
+    <rdfs:comment xml:lang="en">To define a named segment within an EditorialObject.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AdditionalMetadata">
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdfs:comment xml:lang="en">To provide additional metadata for an asset.</rdfs:comment>
