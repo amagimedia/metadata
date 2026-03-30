@@ -943,3 +943,10 @@
         rdfs:subPropertyOf  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#description> ;
         rdfs:range          <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment        "To provide a detailed description."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAnnotatedSegment>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:comment  "To define an annotated segment within an EditorialObject."@en ;
+        rdfs:label    "Annotated Segment"@en ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> .
