@@ -87,7 +87,7 @@ part_type:_4.2
         skos:historyNote "2024-05-01" ;
         skos:note "Valid" .
 
-part_type:5
+part_type:_5
         rdf:type        ebucore:Part_Type ;
         skos:prefLabel  "color-bars"@en ;
         skos:definition   "Part type corresponding to color bars that are used to calibrate the video signal"@en ;
@@ -96,7 +96,7 @@ part_type:5
         skos:historyNote "2024-05-01" ;
         skos:note "Valid" .
 
-part_type:6
+part_type:_6
         rdf:type        ebucore:Part_Type ;
         skos:prefLabel  "intro"@en ;
         skos:definition  "Part type corresponding to the introduction of a media resource"@en ;
@@ -105,7 +105,7 @@ part_type:6
         skos:historyNote "2024-05-01" ;
         skos:note "Valid" .
 
-part_type:7
+part_type:_7
         rdf:type        ebucore:Part_Type ;
         skos:prefLabel  "recap"@en ;
         skos:definition  "Part type corresponding to a recap of the previous episode of a television program"@en ;
