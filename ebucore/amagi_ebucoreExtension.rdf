@@ -168,6 +168,14 @@
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasRelatedAudioResource">
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:label xml:lang="en">Related award resource</rdfs:label>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/ns/ma-ont#hasRelatedResource"/>
+    <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioResource"/>
+    <rdfs:comment xml:lang="en">To identify an AudioResource associated with an Asset.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#roleInputText">
     <rdfs:comment xml:lang="en">To store the role input text.</rdfs:comment>
     <rdfs:label xml:lang="en">Role Input Text</rdfs:label>
@@ -583,6 +591,12 @@
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdfs:comment xml:lang="en">To provide platform guide params metadata for an asset.</rdfs:comment>
     <rdf:label xml:lang="en">PlatformGuideParams</rdf:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioResource">
+    <rdfs:comment xml:lang="en">The use of AudioResource is reserved to audio content.</rdfs:comment>
+    <rdfs:label xml:lang="en">Audio Resource</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#tournamentRound">

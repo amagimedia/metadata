@@ -950,3 +950,17 @@
         rdfs:comment  "To define an annotated segment within an EditorialObject."@en ;
         rdfs:label    "Annotated Segment"@en ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasRelatedAudioResource>
+        rdf:type                rdf:Property ;
+        rdfs:comment            "To identify an AudioResource associated with an Asset."@en ;
+        rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioResource> ;
+        owl:equivalentProperty  <http://www.w3.org/ns/ma-ont#hasRelatedResource> ;
+        rdfs:label              "Related award resource"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
+
+<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioResource>
+        rdf:type          rdfs:Class ;
+        rdfs:subClassOf   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label        "Audio Resource"@en ;
+        rdfs:comment      "The use of AudioResource is reserved to audio content."@en .
