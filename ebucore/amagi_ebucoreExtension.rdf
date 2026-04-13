@@ -614,6 +614,13 @@
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasSegmentSource">
+    <rdfs:label xml:lang="en">Has Segment Source</rdfs:label>
+    <rdfs:comment xml:lang="en">To identify the source of the segment associated with an asset.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#SportsEvent">
     <rdfs:comment xml:lang="en">To describe a sports event.</rdfs:comment>
     <rdfs:label xml:lang="en">Sports event</rdfs:label>
