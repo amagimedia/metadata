@@ -951,7 +951,7 @@
         rdfs:label    "Annotated Segment"@en ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasRelatedAudioResource>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasRelatedAudioResource>
         rdf:type                rdf:Property ;
         rdfs:comment            "To identify an AudioResource associated with an Asset."@en ;
         rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioResource> ;
@@ -959,7 +959,7 @@
         rdfs:label              "Related award resource"@en ;
         rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
 
-<http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioResource>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AudioResource>
         rdf:type          rdfs:Class ;
         rdfs:subClassOf   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
         rdfs:label        "Audio Resource"@en ;
