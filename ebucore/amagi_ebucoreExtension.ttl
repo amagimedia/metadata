@@ -595,6 +595,13 @@
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#endOffsetNormalPlayTime>
     rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#EndCreditOffset> .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasSegmentSource>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "To identify the source of the segment associated with an asset."@en ;
+    rdfs:label    "Has Segment Source"@en .
+
 # Graphics
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic>
