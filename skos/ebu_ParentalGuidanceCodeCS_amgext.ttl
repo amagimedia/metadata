@@ -5950,9 +5950,6 @@ parentalguidance:_62.1
         skos:narrower     parentalguidance:_62.1.4 ;
         skos:narrower     parentalguidance:_62.1.5 ;
         skos:narrower     parentalguidance:_62.1.6 ;
-        skos:narrower     parentalguidance:_62.1.7 ;
-        skos:narrower     parentalguidance:_62.1.8 ;
-        skos:narrower     parentalguidance:_62.1.9 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -5969,28 +5966,28 @@ parentalguidance:_62.1.1
 
 parentalguidance:_62.1.2
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "P12"@en ;
-        skos:definition   "Parental guidance required for viewers under 12"@en ;
+        skos:prefLabel    "PG13"@en ;
+        skos:definition   "Parental guidance is suggested for viewers under 13"@en ;
         skos:broader      parentalguidance:_62.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "Update" ;
-        skos:historyNote  "2023-02-01" ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
         skos:example      "" .
 
 parentalguidance:_62.1.3
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "13"@en ;
-        skos:definition   "For viewers aged 13 and above"@en ;
+        skos:prefLabel    "18"@en ;
+        skos:definition   "For aged 18 and above only"@en ;
         skos:broader      parentalguidance:_62.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "Created" ;
-        skos:historyNote  "2023-02-01" ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
         skos:example      "" .
 
 parentalguidance:_62.1.4
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "16"@en ;
-        skos:definition   "For viewers aged 16 and above"@en ;
+        skos:prefLabel    "P12"@en ;
+        skos:definition   "Parental guidance required for audiences under 12"@en ;
         skos:broader      parentalguidance:_62.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "Created" ;
@@ -5999,48 +5996,18 @@ parentalguidance:_62.1.4
 
 parentalguidance:_62.1.5
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "18"@en ;
-        skos:definition   "For viewers aged 18 and above"@en ;
+        skos:prefLabel    "13"@en ;
+        skos:definition   "For audiences aged 13 and above"@en ;
         skos:broader      parentalguidance:_62.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "Update" ;
+        skos:changeNote   "Created" ;
         skos:historyNote  "2023-02-01" ;
         skos:example      "" .
 
 parentalguidance:_62.1.6
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "18SX"@en ;
-        skos:definition   "For viewers aged 18 and above - sexual content"@en ;
-        skos:broader      parentalguidance:_62.1 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "Created" ;
-        skos:historyNote  "2023-02-01" ;
-        skos:example      "" .
-
-parentalguidance:_62.1.7
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "18PA"@en ;
-        skos:definition   "For viewers aged 18 and above - strong religious or political elements"@en ;
-        skos:broader      parentalguidance:_62.1 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "Created" ;
-        skos:historyNote  "2023-02-01" ;
-        skos:example      "" .
-
-parentalguidance:_62.1.8
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "18SG"@en ;
-        skos:definition   "For viewers aged 18 and above - graphic violence and horror"@en ;
-        skos:broader      parentalguidance:_62.1 ;
-        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "Created" ;
-        skos:historyNote  "2023-02-01" ;
-        skos:example      "" .
-
-parentalguidance:_62.1.9
-        rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "18PL"@en ;
-        skos:definition   "For viewers aged 18 and above - mixed objectionable content"@en ;
+        skos:prefLabel    "16"@en ;
+        skos:definition   "For audiences aged 16 and above"@en ;
         skos:broader      parentalguidance:_62.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "Created" ;
