@@ -957,3 +957,10 @@
         rdfs:comment  "To define an annotated segment within an EditorialObject."@en ;
         rdfs:label    "Annotated Segment"@en ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasBlackoutPeriod>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To express restriction on the blackout period for an asset in a given date range."@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:label    "Has Blackout Period"@en .
