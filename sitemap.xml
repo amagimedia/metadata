@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/index.html</loc>
-         <lastmod>2024-09-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/amgrss.html</loc>
-         <lastmod>2024-09-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-04-21</lastmod>
+    </url>
+    <url>
+         <loc>https://squidfunk.github.io/mkdocs-material/asset_types.html</loc>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/generic_genres.html</loc>
-         <lastmod>2024-09-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/music_genres.html</loc>
-         <lastmod>2024-09-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/ratings.html</loc>
-         <lastmod>2024-09-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-04-21</lastmod>
+    </url>
+    <url>
+         <loc>https://squidfunk.github.io/mkdocs-material/roles.html</loc>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/sports_genres.html</loc>
-         <lastmod>2024-09-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/ebucore/Readme.html</loc>
-         <lastmod>2024-09-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://squidfunk.github.io/mkdocs-material/skos/Readme.html</loc>
-         <lastmod>2024-09-13</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-04-21</lastmod>
     </url>
 </urlset>

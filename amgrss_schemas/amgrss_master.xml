@@ -63,7 +63,7 @@
 	    <amg:startNormalPlayTime>3559.0</amg:startNormalPlayTime>
 	    <amg:platformGuideParams>
 		<amg:category>Film</amg:category>
-		<amg:subCategory>Action||Spy</amg:subCategory>
+		<amg:subCategories>Action||Spy</amg:subCategories>
 		<amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
 	    </amg:platformGuideParams>	    
 	    <amg:releaseDate date="2016-10-22" country="http://www.ebu.ch/metadata/ontologies/skos/ebu_Iso3166_CountryCodeCS#_US"/>
@@ -97,7 +97,7 @@
             <media:credit amg:role="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_10.1.1">Craig Zisk</media:credit>
 	    <amg:platformGuideParams>
 		<amg:category>TV Series</amg:category>
-		<amg:subCategory>Sports||Cricket</amg:subCategory>
+		<amg:subCategories>Sports||Cricket</amg:subCategories>
 		<amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
 	    </amg:platformGuideParams>	    
             <amg:episodeNumber>10</amg:episodeNumber> 
@@ -136,7 +136,7 @@
                 </amg:rights>                
 	        <amg:platformGuideParams>
 		    <amg:category>TV Series</amg:category>
-		    <amg:subCategory>Sports</amg:subCategory>
+		    <amg:subCategories>Sports</amg:subCategories>
 		    <amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
 	        </amg:platformGuideParams>	    
             </amg:season>
@@ -184,7 +184,7 @@
                 </amg:rights>                
 	        <amg:platformGuideParams>
 		    <amg:category>TV Series</amg:category>
-		    <amg:subCategory>Sports</amg:subCategory>
+		    <amg:subCategories>Sports</amg:subCategories>
 		    <amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
 	        </amg:platformGuideParams>	    
             </amg:series>
@@ -250,7 +250,7 @@
             </amg:rights>            
 	    <amg:platformGuideParams>
 		<amg:category>Music</amg:category>
-		<amg:subCategory>Videos</amg:subCategory>
+		<amg:subCategories>Videos</amg:subCategories>
 		<amg:appliesToPlatformId>LG</amg:appliesToPlatformId>
 	    </amg:platformGuideParams>	    
             <amg:broadcastDate>2015-08-21</amg:broadcastDate>

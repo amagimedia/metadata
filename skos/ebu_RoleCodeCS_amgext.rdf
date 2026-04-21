@@ -94,6 +94,12 @@
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_37"/>
       <skos:hasTopConcept
          rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_38"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_39"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_40"/>
+      <skos:hasTopConcept
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_0"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_1">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
@@ -5501,6 +5507,7 @@
       <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.49"/>
       <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.50"/>
       <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.51"/>
+      <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.52"/>
       <skos:changeNote xml:lang=""/>
       <skos:historyNote>2007-04-12</skos:historyNote>
       <skos:example/>
@@ -6309,6 +6316,19 @@
       <skos:example/>
       <skos:note>Valid</skos:note>
    </rdf:Description>
+   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20.52">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
+      <skos:prefLabel xml:lang="en">Senior Producer</skos:prefLabel>
+      <skos:definition xml:lang="en">A person who is responsible for the making of an audio-visual
+         work, including business aspects, management of the productions, and the commercial success
+         of the work within scheduled deadlines.</skos:definition>
+      <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_20"/>
+      <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
+      <skos:changeNote xml:lang=""/>
+      <skos:historyNote>2025-02-14</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_21">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
       <skos:prefLabel xml:lang="en">PROMOTION</skos:prefLabel>
@@ -6406,6 +6426,7 @@
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_22.2">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
       <skos:prefLabel xml:lang="en">Author / Screenplay / Scriptwriter / Adaptor / Dramatiser</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Writer</skos:altLabel>
       <skos:definition xml:lang="en">A screenplay or script is a blueprint for producing a motion
          picture or broadcast drama. It can be adapted from a previous work such as a novel, play or
          short story, or it may be an original work in and of itself. A screenplay differs from a
@@ -6939,6 +6960,7 @@
    <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25.7">
       <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
       <skos:prefLabel xml:lang="en">Voice Over Artist</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Voice</skos:altLabel>
       <skos:definition xml:lang="en"/>
       <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_25"/>
       <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
@@ -9136,6 +9158,38 @@
       <skos:changeNote xml:lang="">TV-Anytime maintenance 2011, see termID 38.xxx
          STUDIO</skos:changeNote>
       <skos:historyNote>2007-04-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_39">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
+      <skos:prefLabel xml:lang="en">Influencer</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Influenceur</skos:altLabel>
+      <skos:definition xml:lang="en"/>
+      <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
+      <skos:changeNote xml:lang="">NA</skos:changeNote>
+      <skos:historyNote>2011-10-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_40">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
+      <skos:prefLabel xml:lang="en">Anonymous</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Anonyme</skos:altLabel>
+      <skos:definition xml:lang="en"/>
+      <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
+      <skos:changeNote xml:lang="">NA</skos:changeNote>
+      <skos:historyNote>2011-10-12</skos:historyNote>
+      <skos:example/>
+      <skos:note>Valid</skos:note>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS#_0">
+      <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
+      <skos:prefLabel xml:lang="en">Role Undefined</skos:prefLabel>
+      <skos:definition xml:lang="en">For use where proprietary extensions are required, or the use of role codes that do not fit in any classification below; Amagi Extension Undefined</skos:definition>
+      <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_RoleCodeCS"/>
+      <skos:changeNote xml:lang="">First version after conversion of P/META into XML</skos:changeNote>
+      <skos:historyNote>2024-12-19</skos:historyNote>
       <skos:example/>
       <skos:note>Valid</skos:note>
    </rdf:Description>
