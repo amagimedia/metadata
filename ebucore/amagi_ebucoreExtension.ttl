@@ -526,6 +526,13 @@
     rdfs:comment  "Publisher-provided segment end offset in timecode or timestamp format."@en ;
     rdfs:label    "Publisher End Offset"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isTcInRelative>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:comment  "When true, the segment timecode-in (TC-IN) is relative to a reference (e.g. programme or file start); when false, it is absolute."@en ;
+    rdfs:label    "Is TC-IN Relative"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherCuepointOffset>
     rdf:type      rdf:Property ;
     rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Cuepoint> ;
