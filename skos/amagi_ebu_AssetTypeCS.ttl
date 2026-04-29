@@ -62,6 +62,7 @@ ast_type:_1.1
         skos:narrower    ast_type:_1.1.17 ;
         skos:narrower    ast_type:_1.1.18 ;
         skos:narrower    ast_type:_1.1.19 ;
+        skos:narrower    ast_type:_1.1.20 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" . 
@@ -723,6 +724,17 @@ ast_type:_1.1.19
         skos:broader    ast_type:_1.1 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.1.20
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Credit Squeeze"@en ;
+        skos:altLabel   "credit-squeeze"@en ;
+        skos:definition   "A short segment in which end credits are compressed, sped up, or shown in a reduced window so the programme can continue or the next item can start on schedule" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-04-29" ;
         skos:note "Valid" .
 
 ast_type:_5
