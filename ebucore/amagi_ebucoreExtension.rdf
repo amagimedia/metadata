@@ -243,6 +243,12 @@
     <rdfs:label xml:lang="en">RenderedGraphic</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CreditSqueeze">
+    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject"/>
+    <rdfs:comment xml:lang="en">Entity to represent a credit-squeeze feature segment (compressed or windowed end credits)</rdfs:comment>
+    <rdfs:label xml:lang="en">CreditSqueeze</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isCollectionOfSeries">
     <rdfs:label xml:lang="en">Is Collection Of Series</rdfs:label>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EpisodeCollection"/>
