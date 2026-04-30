@@ -243,12 +243,6 @@
     <rdfs:label xml:lang="en">RenderedGraphic</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#CreditSqueeze">
-    <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject"/>
-    <rdfs:comment xml:lang="en">Entity to represent a credit-squeeze feature segment (compressed or windowed end credits)</rdfs:comment>
-    <rdfs:label xml:lang="en">CreditSqueeze</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isCollectionOfSeries">
     <rdfs:label xml:lang="en">Is Collection Of Series</rdfs:label>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EpisodeCollection"/>
@@ -300,6 +294,13 @@
     <rdfs:comment xml:lang="en">Collection object that can be child of series/season</rdfs:comment>
     <rdfs:label xml:lang="en">EpisodeCollection</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#dynamicGraphicParams">
+    <rdfs:label xml:lang="en">Dynamic Graphic Params</rdfs:label>
+    <rdfs:comment xml:lang="en">A json string that contains the dynamic graphic parameters.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherStartOffset">
     <rdfs:label xml:lang="en">Publisher Start Offset</rdfs:label>
@@ -438,6 +439,13 @@
     <rdfs:comment xml:lang="en">Sponsor of an event. Equivalent to https://schema.org/sponsor. Example: Adidas AG is sponsor of 2014 FIFA World Cup</rdfs:comment>
     <rdfs:range rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Agent"/>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isTcInRelative">
+    <rdfs:label xml:lang="en">Is TC-IN Relative</rdfs:label>
+    <rdfs:comment xml:lang="en">When true, the segment timecode-in (TC-IN) is relative to a reference (e.g. programme or file start); when false, it is absolute.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isDropFrameTimecode">
@@ -771,13 +779,6 @@
     <rdfs:label xml:lang="en">Publisher End Offset</rdfs:label>
     <rdfs:comment xml:lang="en">Publisher-provided segment end offset in timecode or timestamp format.</rdfs:comment>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isTcInRelative">
-    <rdfs:label xml:lang="en">Is TC-IN Relative</rdfs:label>
-    <rdfs:comment xml:lang="en">When true, the segment timecode-in (TC-IN) is relative to a reference (e.g. programme or file start); when false, it is absolute.</rdfs:comment>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
