@@ -972,3 +972,10 @@
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationChannel>,
                       <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Platform> ;
         rdfs:label    "Has Blackout Period"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#dynamicGraphicParams>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A json string that contains the dynamic graphic parameters."@en ;
+        rdfs:label    "Dynamic Graphic Params"@en .
