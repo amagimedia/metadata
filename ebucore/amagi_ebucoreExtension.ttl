@@ -979,3 +979,24 @@
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "A json string that contains the dynamic graphic parameters."@en ;
         rdfs:label    "Dynamic Graphic Params"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#graphicContent>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A json string that contains the graphic content."@en ;
+        rdfs:label    "Graphic Content"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#templateAssetId>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The publisher id of the template asset."@en ;
+        rdfs:label    "Template Asset ID"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#templateContentType>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The content type of the template asset."@en ;
+        rdfs:label    "Template Content Type"@en .
