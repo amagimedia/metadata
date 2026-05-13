@@ -1000,3 +1000,10 @@
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "The content type of the template asset."@en ;
         rdfs:label    "Template Content Type"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAssociatedEntities>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "Publisher asset IDs for associated assets."@en ;
+        rdfs:label    "Has Associated Entities"@en .
