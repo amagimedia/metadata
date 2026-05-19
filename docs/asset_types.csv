@@ -60,5 +60,6 @@ serial_number,asset_type_id,asset_type_label,asset_type_alt_labels
 59,4.4,FullScreenGraphic,
 60,4.5,Ticker,
 61,4.6,NowNextLater,
-62,5,OverlayGraphic,
-63,6,RenderedGraphic,
+62,4.7,Credit Squeeze,credit-squeeze
+63,5,OverlayGraphic,
+64,6,RenderedGraphic,
