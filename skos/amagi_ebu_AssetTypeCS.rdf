@@ -186,6 +186,8 @@
     <skos:note>Valid</skos:note>
     <skos:historyNote>2023-08-27</skos:historyNote>
     <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.21"/>
+    <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.20"/>
     <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.19"/>
     <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.18"/>
     <skos:narrower rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.17"/>
@@ -318,6 +320,28 @@
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
     <skos:definition>Asset Type TV Program or a Show</skos:definition>
     <skos:prefLabel xml:lang="en">Program</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.21">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2026-05-19</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>A short video segment played at the end of a programme, show, or segment to conclude the content, often including credits, branding, or a sign-off</skos:definition>
+    <skos:altLabel xml:lang="en">outro</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Outro</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.20">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2026-05-19</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:broader rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1"/>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS"/>
+    <skos:definition>A short video segment played at the beginning of a programme, show, or segment to introduce the content, brand, or upcoming material</skos:definition>
+    <skos:altLabel xml:lang="en">intro</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Intro</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AssetType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS#_1.1.19">
