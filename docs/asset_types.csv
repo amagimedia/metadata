@@ -21,9 +21,11 @@ serial_number,asset_type_id,asset_type_label,asset_type_alt_labels
 20,1.1.17,Warning,
 21,1.1.18,Recorded Live,live_rec
 22,1.1.19,Deferred Live,
-23,1.2.1,Short Form,
-24,1.2.2,Program,
-25,1.1.2.1,Shorts Sponsored,
+23,1.1.20,Intro,intro
+24,1.1.21,Outro,outro
+25,1.2.1,Short Form,
+26,1.2.2,Program,
+27,1.1.2.1,Shorts Sponsored,
 26,1.1.3.1,Program,
 27,1.1.8.1,BumperIn,
 28,1.1.8.2,BumperOut,
