@@ -23,7 +23,8 @@
         skos:hasTopConcept  ast_type:_1 ;
         skos:hasTopConcept  ast_type:_2 ;
         skos:hasTopConcept  ast_type:_3 ;
-        skos:hasTopConcept  ast_type:_4 .
+        skos:hasTopConcept  ast_type:_4 ;
+        skos:hasTopConcept  ast_type:_7 .
 
 ast_type:_1
         rdf:type        ebucore:AssetType ;
@@ -778,3 +779,23 @@ ast_type:_6
         skos:changeNote "" ;
         skos:historyNote "2026-02-11" ;
         skos:note "Valid" . 
+
+ast_type:_7
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Collection"@en ;
+        skos:definition   "Collection Asset Type Top Concept" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:narrower    ast_type:_7.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-05-24" ;
+        skos:note "Valid" .
+
+ast_type:_7.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Episode_Collection"@en ;
+        skos:definition   "A collection of episodes that can be a child of a series or season" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_7 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-05-24" ;
+        skos:note "Valid" .
