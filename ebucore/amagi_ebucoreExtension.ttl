@@ -1008,9 +1008,16 @@
         rdfs:comment  "Publisher asset IDs for associated assets."@en ;
         rdfs:label    "Has Associated Entities"@en .
 
-<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pid>
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pcrPid>
     rdf:type      rdf:Property ;
     rdfs:domain   ebucore:MediaResource ;
     rdfs:range    <http://www.w3.org/2001/XMLSchema#integer> ;
-    rdfs:comment  "The pid of the media resource."@en ;
+    rdfs:comment  "The pcr pid of the media resource."@en ;
+    rdfs:label    "Pcr Pid"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pid>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:AudioTrack, ebucore:VideoTrack, ebucore:SubtitleTrack;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#integer> ;
+    rdfs:comment  "The pid of the audio track, video track or subtitle track."@en ;
     rdfs:label    "Pid"@en .
