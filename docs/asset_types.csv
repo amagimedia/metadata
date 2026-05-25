@@ -65,3 +65,5 @@ serial_number,asset_type_id,asset_type_label,asset_type_alt_labels
 62,4.7,Credit Squeeze,credit-squeeze
 63,5,OverlayGraphic,
 64,6,RenderedGraphic,
+65,7,Collection,
+66,7.1,Episode_Collection,
