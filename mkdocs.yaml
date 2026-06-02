@@ -102,6 +102,8 @@ nav:
 - Overview: index.md
 - AMGRSS Specification: amgrss.md
 - Ratings: ratings.md
+- Asset Types: asset_types.md
+- Role codes: roles.md
 - Genres:
     Generic Genres: generic_genres.md
     Music Genres: music_genres.md

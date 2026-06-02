@@ -526,6 +526,13 @@
     rdfs:comment  "Publisher-provided segment end offset in timecode or timestamp format."@en ;
     rdfs:label    "Publisher End Offset"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isTcInRelative>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#boolean> ;
+    rdfs:comment  "When true, the segment timecode-in (TC-IN) is relative to a reference (e.g. programme or file start); when false, it is absolute."@en ;
+    rdfs:label    "Is TC-IN Relative"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#publisherCuepointOffset>
     rdf:type      rdf:Property ;
     rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Cuepoint> ;
@@ -594,6 +601,13 @@
 
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#endOffsetNormalPlayTime>
     rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#EndCreditOffset> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasSegmentSource>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "To identify the source of the segment associated with an asset."@en ;
+    rdfs:label    "Has Segment Source"@en .
 
 # Graphics
 
@@ -950,6 +964,63 @@
         rdfs:comment  "To define an annotated segment within an EditorialObject."@en ;
         rdfs:label    "Annotated Segment"@en ;
         rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasBlackoutPeriod>
+        rdf:type      rdf:Property ;
+        rdfs:comment  "To express restriction on the blackout period for an asset in a given date range."@en ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#PublicationChannel>,
+                      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Platform> ;
+        rdfs:label    "Has Blackout Period"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#dynamicGraphicParams>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A json string that contains the dynamic graphic parameters."@en ;
+        rdfs:label    "Dynamic Graphic Params"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#graphicContent>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "A json string that contains the graphic content."@en ;
+        rdfs:label    "Graphic Content"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#templateAssetId>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The publisher id of the template asset."@en ;
+        rdfs:label    "Template Asset ID"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#templateContentType>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "The content type of the template asset."@en ;
+        rdfs:label    "Template Content Type"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAssociatedEntities>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "Publisher asset IDs for associated assets."@en ;
+        rdfs:label    "Has Associated Entities"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pcrPid>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:MediaResource ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#integer> ;
+    rdfs:comment  "The pcr pid of the media resource."@en ;
+    rdfs:label    "Pcr Pid"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pid>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:AudioTrack, ebucore:VideoTrack, ebucore:SubtitleTrack;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#integer> ;
+    rdfs:comment  "The pid of the audio track, video track or subtitle track."@en ;
+    rdfs:label    "Pid"@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasRelatedAudioResource>
         rdf:type                rdf:Property ;

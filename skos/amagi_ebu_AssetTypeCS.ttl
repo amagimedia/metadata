@@ -23,7 +23,8 @@
         skos:hasTopConcept  ast_type:_1 ;
         skos:hasTopConcept  ast_type:_2 ;
         skos:hasTopConcept  ast_type:_3 ;
-        skos:hasTopConcept  ast_type:_4 .
+        skos:hasTopConcept  ast_type:_4 ;
+        skos:hasTopConcept  ast_type:_7 .
 
 ast_type:_1
         rdf:type        ebucore:AssetType ;
@@ -62,6 +63,8 @@ ast_type:_1.1
         skos:narrower    ast_type:_1.1.17 ;
         skos:narrower    ast_type:_1.1.18 ;
         skos:narrower    ast_type:_1.1.19 ;
+        skos:narrower    ast_type:_1.1.20 ;
+        skos:narrower    ast_type:_1.1.21 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" . 
@@ -637,6 +640,7 @@ ast_type:_4
         skos:narrower    ast_type:_4.4 ;
         skos:narrower    ast_type:_4.5 ;
         skos:narrower    ast_type:_4.6 ;
+        skos:narrower    ast_type:_4.7 ;
         skos:changeNote "" ;
         skos:historyNote "2023-10-16" ;
         skos:note "Valid" . 
@@ -704,6 +708,17 @@ ast_type:_4.6
         skos:historyNote "2024-07-12" ;
         skos:note "Valid" .
 
+ast_type:_4.7
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Credit Squeeze"@en ;
+        skos:altLabel   "credit-squeeze"@en ;
+        skos:definition   "A short segment in which end credits are compressed, sped up, or shown in a reduced window so the programme can continue or the next item can start on schedule" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-04-29" ;
+        skos:note "Valid" .
+
 ast_type:_1.1.18
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "Recorded Live"@en ;
@@ -725,6 +740,28 @@ ast_type:_1.1.19
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" .
 
+ast_type:_1.1.20
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Intro"@en ;
+        skos:altLabel   "intro"@en ;
+        skos:definition   "A short video segment played at the beginning of a programme, show, or segment to introduce the content, brand, or upcoming material" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-05-19" ;
+        skos:note "Valid" .
+
+ast_type:_1.1.21
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Outro"@en ;
+        skos:altLabel   "outro"@en ;
+        skos:definition   "A short video segment played at the end of a programme, show, or segment to conclude the content, often including credits, branding, or a sign-off" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-05-19" ;
+        skos:note "Valid" .
+
 ast_type:_5
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "OverlayGraphic"@en ;
@@ -742,3 +779,23 @@ ast_type:_6
         skos:changeNote "" ;
         skos:historyNote "2026-02-11" ;
         skos:note "Valid" . 
+
+ast_type:_7
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Collection"@en ;
+        skos:definition   "Collection Asset Type Top Concept" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:narrower    ast_type:_7.1 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-05-24" ;
+        skos:note "Valid" .
+
+ast_type:_7.1
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Episode_Collection"@en ;
+        skos:definition   "A collection of episodes that can be a child of a series or season" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_7 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-05-24" ;
+        skos:note "Valid" .
