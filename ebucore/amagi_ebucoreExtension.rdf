@@ -153,6 +153,22 @@
     <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AIAugmentedMeta"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pid">
+    <rdfs:label xml:lang="en">Pid</rdfs:label>
+    <rdfs:comment xml:lang="en">The pid of the audio track, video track or subtitle track.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#SubtitleTrack"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#VideoTrack"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioTrack"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pcrPid">
+    <rdfs:label xml:lang="en">Pcr Pid</rdfs:label>
+    <rdfs:comment xml:lang="en">The pcr pid of the media resource.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#height">
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -788,6 +804,13 @@
     <rdfs:subClassOf rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event"/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAssociatedEntities">
+    <rdfs:label xml:lang="en">Has Associated Entities</rdfs:label>
+    <rdfs:comment xml:lang="en">Publisher asset IDs for associated assets.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#scopeNote">
     <skos:scopeNote xml:lang="en">This property may be used directly to annotate any owl:thing within ebucore scope</skos:scopeNote>
     <skos:definition xml:lang="en">A note to denote the scope of a grounded entity. Specifically useful to denote the manual-edits, active-meta</skos:definition>
@@ -869,12 +892,5 @@
     <rdfs:comment xml:lang="en">Entity to represent the graphic to be used as overlay</rdfs:comment>
     <rdfs:label xml:lang="en">OverlayGraphic</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAssociatedEntities">
-    <rdfs:label xml:lang="en">Has Associated Entities</rdfs:label>
-    <rdfs:comment xml:lang="en">Publisher asset IDs for associated assets.</rdfs:comment>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
 </rdf:RDF>
