@@ -641,6 +641,12 @@ ast_type:_4
         skos:narrower    ast_type:_4.5 ;
         skos:narrower    ast_type:_4.6 ;
         skos:narrower    ast_type:_4.7 ;
+        skos:narrower    ast_type:_4.8 ;
+        skos:narrower    ast_type:_4.9 ;
+        skos:narrower    ast_type:_4.10 ;
+        skos:narrower    ast_type:_4.11 ;
+        skos:narrower    ast_type:_4.12 ;
+        skos:narrower    ast_type:_4.13 ;
         skos:changeNote "" ;
         skos:historyNote "2023-10-16" ;
         skos:note "Valid" . 
@@ -717,6 +723,66 @@ ast_type:_4.7
         skos:broader    ast_type:_4 ;
         skos:changeNote "" ;
         skos:historyNote "2026-04-29" ;
+        skos:note "Valid" .
+
+ast_type:_4.8
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Fullscreen NNL"@en ;
+        skos:definition   "Fullscreen Now/Next/Later graphic" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-06-02" ;
+        skos:note "Valid" .
+
+ast_type:_4.9
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Overlay NNL"@en ;
+        skos:definition   "Overlay Now/Next/Later graphic" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-06-02" ;
+        skos:note "Valid" .
+
+ast_type:_4.10
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Fullscreen L Band"@en ;
+        skos:definition   "Fullscreen L-band graphic" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-06-02" ;
+        skos:note "Valid" .
+
+ast_type:_4.11
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Overlay L Band"@en ;
+        skos:definition   "Overlay L-band graphic" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-06-02" ;
+        skos:note "Valid" .
+
+ast_type:_4.12
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Fullscreen Aston Band"@en ;
+        skos:definition   "Fullscreen aston band graphic" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-06-02" ;
+        skos:note "Valid" .
+
+ast_type:_4.13
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Overlay Aston Band"@en ;
+        skos:definition   "Overlay aston band graphic" ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_4 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-06-02" ;
         skos:note "Valid" .
 
 ast_type:_1.1.18
