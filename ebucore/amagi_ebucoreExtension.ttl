@@ -1028,3 +1028,17 @@
     rdfs:range    <http://www.w3.org/2001/XMLSchema#dateTime> ;
     rdfs:comment  "The date and time when the asset was last played out."@en ;
     rdfs:label    "Last Played Out At"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasRelatedAudioResource>
+        rdf:type                rdf:Property ;
+        rdfs:comment            "To identify an AudioResource associated with an Asset."@en ;
+        rdfs:range              <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#AudioResource> ;
+        owl:equivalentProperty  <http://www.w3.org/ns/ma-ont#hasRelatedResource> ;
+        rdfs:label              "Related award resource"@en ;
+        rdfs:domain             <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#AudioResource>
+        rdf:type          rdfs:Class ;
+        rdfs:subClassOf   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:label        "Audio Resource"@en ;
+        rdfs:comment      "The use of AudioResource is reserved to audio content."@en .
