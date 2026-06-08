@@ -94,7 +94,8 @@
         skos:hasTopConcept  parentalguidance:_72 ;
         skos:hasTopConcept  parentalguidance:_73 ;
         skos:hasTopConcept  parentalguidance:_74 ;
-        skos:hasTopConcept  parentalguidance:_75 .
+        skos:hasTopConcept  parentalguidance:_75 ;
+        skos:hasTopConcept  parentalguidance:_76 .  # Luxembourg ALIA
 
 parentalguidance:_1  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "AR-INCAA"@en ;
@@ -7119,6 +7120,74 @@ parentalguidance:_75.1.5
         skos:prefLabel    "18+"@en ;
         skos:definition   "Public exhibition restricted to adults above 18 years only"@en ;
         skos:broader      parentalguidance:_75.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_76  rdf:type  ebucore:TargetAudience ;
+        skos:prefLabel    "LU-ALIA"@en ;
+        skos:altLabel     "LU-CSCF"@en ;
+        skos:scopeNote    "Region:Luxembourg"@en ;
+        skos:definition   "Autorité luxembourgeoise indépendante de l'audiovisuel"@fr ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_76.1 ;
+        skos:narrower     parentalguidance:_76.2 ;
+        skos:narrower     parentalguidance:_76.3 ;
+        skos:narrower     parentalguidance:_76.4 ;
+        skos:narrower     parentalguidance:_76.5 ;
+        skos:changeNote   "Update" ;
+        skos:historyNote  "2025-06-08" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
+parentalguidance:_76.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "EA"@en ;
+        skos:altLabel     "Tous"@fr ;
+        skos:altLabel     "Enfants admis"@fr ;
+        skos:definition   "Films accessible to all ages"@en ;
+        skos:broader      parentalguidance:_76 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_76.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "6"@en ;
+        skos:definition   "Accessible to persons aged 6 and over"@en ;
+        skos:broader      parentalguidance:_76 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_76.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "12"@en ;
+        skos:definition   "Accessible to persons aged 12 and over"@en ;
+        skos:broader      parentalguidance:_76 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_76.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "16"@en ;
+        skos:definition   "Accessible to persons aged 16 and over"@en ;
+        skos:broader      parentalguidance:_76 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_76.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "18"@en ;
+        skos:definition   "Accessible to persons aged 18 and over"@en ;
+        skos:broader      parentalguidance:_76 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
