@@ -1022,6 +1022,13 @@
     rdfs:comment  "The pid of the audio track, video track or subtitle track."@en ;
     rdfs:label    "Pid"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#lastPlayedOutAt>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#dateTime> ;
+    rdfs:comment  "The date and time when the asset was last played out."@en ;
+    rdfs:label    "Last Played Out At"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasRelatedAudioResource>
         rdf:type                rdf:Property ;
         rdfs:comment            "To identify an AudioResource associated with an Asset."@en ;
