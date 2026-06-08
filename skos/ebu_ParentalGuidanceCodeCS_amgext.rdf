@@ -964,31 +964,31 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_74.1.4">
     <skos:example></skos:example>
-    <skos:changeNote>Update</skos:changeNote>
-    <skos:historyNote>2024-11-15</skos:historyNote>
+    <skos:historyNote></skos:historyNote>
+    <skos:changeNote></skos:changeNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_74.1"/>
-    <skos:definition xml:lang="en">Unrestricted public exhibition, but with parental guidance for children below the age of 16 years</skos:definition>
+    <skos:definition xml:lang="en">Suitable for children aged 16 and above with parental guidance</skos:definition>
     <skos:prefLabel xml:lang="en">U/A 16+</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_74.1.3">
     <skos:example></skos:example>
-    <skos:changeNote>Update</skos:changeNote>
-    <skos:historyNote>2024-11-15</skos:historyNote>
+    <skos:historyNote></skos:historyNote>
+    <skos:changeNote></skos:changeNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_74.1"/>
-    <skos:definition xml:lang="en">Unrestricted public exhibition, but with parental guidance for children below the age of 13 years</skos:definition>
+    <skos:definition xml:lang="en">Suitable for children aged 13 and above with parental guidance</skos:definition>
     <skos:prefLabel xml:lang="en">U/A 13+</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_74.1.2">
     <skos:example></skos:example>
-    <skos:changeNote>Update</skos:changeNote>
-    <skos:historyNote>2024-11-15</skos:historyNote>
+    <skos:historyNote></skos:historyNote>
+    <skos:changeNote></skos:changeNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_74.1"/>
-    <skos:definition xml:lang="en">Unrestricted public exhibition, but with parental guidance for children below the age of 7 years</skos:definition>
+    <skos:definition xml:lang="en">Suitable for children aged 7 and above with parental guidance</skos:definition>
     <skos:prefLabel xml:lang="en">U/A 7+</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
