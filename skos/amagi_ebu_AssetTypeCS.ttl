@@ -69,7 +69,7 @@ ast_type:_1.1
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" . 
 
-ast_type:_1.2 
+ast_type:_1.2
         rdf:type        ebucore:AssetType ;
         skos:prefLabel  "Episode"@en ;
         skos:definition   "Episode of a TV Show or a Program" ;
@@ -77,6 +77,8 @@ ast_type:_1.2
         skos:broader     ast_type:_1 ;
         skos:narrower    ast_type:_1.2.1 ;
         skos:narrower    ast_type:_1.2.2 ;
+        skos:narrower    ast_type:_1.2.3 ;
+        skos:narrower    ast_type:_1.2.4 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
         skos:note "Valid" .
@@ -376,6 +378,34 @@ ast_type:_1.2.2
         skos:broader    ast_type:_1.2 ;
         skos:changeNote "" ;
         skos:historyNote "2023-08-27" ;
+        skos:note "Valid" .
+
+ast_type:_1.2.3
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Promo"@en ;
+        skos:definition   """ A promo is a short video used for the express purpose of promoting a specific
+                        episode or its parent series. Episode promos are often similar in style and tone
+                        to a teaser, grabbing the audience's attention and drawing them in to watch the
+                        episode. They are primarily used to increase viewer anticipation and engagement
+                        with the episodic content. """ ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.2 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-06-19" ;
+        skos:note "Valid" .
+
+ast_type:_1.2.4
+        rdf:type        ebucore:AssetType ;
+        skos:prefLabel  "Interstitial"@en ;
+        skos:definition   """ Interstitial content associated with an episode appears between content
+                        segments at natural transition points or breaks, such as between acts or scenes.
+                        Unlike standalone interstitial ads, episode interstitials are contextually tied
+                        to the episode and may include recaps, bridging content, or short clips that
+                        connect segments within or around the episode. """ ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_AssetTypeCS> ;
+        skos:broader    ast_type:_1.2 ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-06-19" ;
         skos:note "Valid" .
 
 ast_type:_2
