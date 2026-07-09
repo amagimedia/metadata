@@ -824,6 +824,7 @@
     <skos:example>37190</skos:example>
     <skos:definition xml:lang="en">external id provided from tastemade</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
+    <skos:altLabel xml:lang="en">TastemadeGUID</skos:altLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_one_world">

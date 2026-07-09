@@ -106,6 +106,7 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tastemade>
     a ebucore:IdentifierType ;
+    skos:altLabel "TastemadeGUID"@en ;
     skos:changeNote """First version""" ;
     skos:definition """external id provided from tastemade"""@en ;
     skos:example "37190" ;
