@@ -2714,7 +2714,7 @@ parentalguidance:_31.1.2
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "B"@en ;
         skos:prefLabel    "緑"@ja ;
-        skos:prefLabel    "Green"@en ;
+        skos:altLabel     "Green"@en ;
         skos:definition   "12歳以上のみ"@ja ;
         skos:definition   "12 and over"@en ;
         skos:broader      parentalguidance:_31.1 ;

@@ -1,0 +1,458 @@
+country	country_code	rating_body	rating_id	rating_label
+Argentina	AR	AR-INCAA	1.1	ATP
+Argentina	AR	AR-INCAA	1.2	13
+Argentina	AR	AR-INCAA	1.3	16
+Argentina	AR	AR-INCAA	1.4	18
+Argentina	AR	AR-INCAA	1.5	X
+Argentina	AR	AR-INCAA	1.6	E
+Austria	AT	AT-BMUKK	2.1	Ohne
+Austria	AT	AT-BMUKK	2.2	6
+Austria	AT	AT-BMUKK	2.3	10
+Austria	AT	AT-BMUKK	2.4	12
+Austria	AT	AT-BMUKK	2.5	14
+Austria	AT	AT-BMUKK	2.6	16
+Australia	AU	AU-OFLC	3.1	G
+Australia	AU	AU-OFLC	3.2	PG
+Australia	AU	AU-OFLC	3.3	"M
+Mature"
+Australia	AU	AU-OFLC	3.4	MA15+
+Australia	AU	AU-OFLC	3.5	R18+
+Australia	AU	AU-OFLC	3.6	"X18+
+Restricted to 18 and over"
+Australia	AU	AU-ACMA	4.1.1	P
+Australia	AU	AU-ACMA	4.1.2	C
+Australia	AU	AU-ACMA	4.1.3	G
+Australia	AU	AU-ACMA	4.1.4	PG
+Australia	AU	AU-ACMA	4.1.5	M
+Australia	AU	AU-ACMA	4.1.6	MA15+
+Australia	AU	AU-ACMA	4.1.7	AV15+
+Australia	AU	AU-ACMA		
+Australia	AU	AU-ACMA		
+Australia	AU	AU-ACMA		
+Australia	AU	AU-ACMA		
+Belgium	BE	BE	5.1	"KT
+EA
+Children Allowed"
+Belgium	BE	BE	5.2	"KNT
+ENA
+Children Not Allowed"
+Bulgaria	BG	BG-FIA	6.1	A
+Bulgaria	BG	BG-FIA	6.2	B
+Bulgaria	BG	BG-FIA	6.3	C
+Bulgaria	BG	BG-FIA	6.4	D
+Bulgaria	BG	BG-FIA	6.5	"D
+X"
+Brazil	BR	BR-DJCTQ	7.1	ER
+Brazil	BR	BR-DJCTQ	7.2	L
+Brazil	BR	BR-DJCTQ	7.3	10
+Brazil	BR	BR-DJCTQ	7.4	12
+Brazil	BR	BR-DJCTQ	7.5	14
+Brazil	BR	BR-DJCTQ	7.6	16
+Brazil	BR	BR-DJCTQ	7.7	18
+Canada	CA	CA-CHVRS	8.1	G - General
+Canada	CA	CA-CHVRS	8.2	PG
+Canada	CA	CA-CHVRS	8.3	14A
+Canada	CA	CA-CHVRS	8.4	18A
+Canada	CA	CA-CHVRS	8.5	R - Restricted
+Canada	CA	CA-CHVRS	8.6	E - Exempt
+Canada	CA	CA-AFR	9.1	"G
+General"
+Canada	CA	CA-AFR	9.2	PG
+Canada	CA	CA-AFR	9.3	14A
+Canada	CA	CA-AFR	9.4	18A
+Canada	CA	CA-AFR	9.5	"R
+Restricted"
+Canada	CA	CA-AFR	9.6	"A
+Adult"
+Canada	CA	CA-OFRB	10.1	"G
+General"
+Canada	CA	CA-OFRB	10.2	PG
+Canada	CA	CA-OFRB	10.3	14A
+Canada	CA	CA-OFRB	10.4	18A
+Canada	CA	CA-OFRB	10.5	"R
+Restricted"
+Canada	CA	CA-RCQ	11.1	G
+Canada	CA	CA-RCQ	11.2	13+
+Canada	CA	CA-RCQ	11.3	16+
+Canada	CA	CA-RCQ	11.4	18+
+Canada	CA	CA-CBSC-CCNR-English and third-languages	12.1	C
+Canada	CA	CA-CBSC-CCNR-English and third-languages	12.2	C8
+Canada	CA	CA-CBSC-CCNR-English and third-languages	12.3	"G
+General"
+Canada	CA	CA-CBSC-CCNR-English and third-languages	12.4	PG
+Canada	CA	CA-CBSC-CCNR-English and third-languages	12.5	14+
+Canada	CA	CA-CBSC-CCNR-English and third-languages	12.6	18+
+Canada	CA	CA-CBSC-CCNR-French	13.1	G
+Canada	CA	CA-CBSC-CCNR-French	13.2	8+
+Canada	CA	CA-CBSC-CCNR-French	13.3	13+
+Canada	CA	CA-CBSC-CCNR-French	13.4	16+
+Canada	CA	CA-CBSC-CCNR-French	13.5	18+
+Chile	CL	CL-ANATEL	14.1	I
+Chile	CL	CL-ANATEL	14.2	I7
+Chile	CL	CL-ANATEL	14.3	I12
+Chile	CL	CL-ANATEL	14.4	F
+Chile	CL	CL-ANATEL	14.5	R
+Chile	CL	CL-ANATEL	14.6	A
+Chile	CL	CL-CCC	15.1	TE
+Chile	CL	CL-CCC	15.2	14
+Chile	CL	CL-CCC	15.3	18
+Chile	CL	CL-CCC	15.4	18/S
+Chile	CL	CL-CCC	15.5	18/V
+Hong-Kong		CN-HK-HKBA	16.1.1	PG
+Hong-Kong		CN-HK-HKBA	16.1.2	"M
+Mature"
+Hong-Kong		CN-HK-HKBA		
+Hong-Kong		CN-HK-HKBA		
+Hong-Kong		CN-HK-HKBA		
+Hong-Kong		CN-HK-HKBA		
+Hong-Kong		CN-HK-HKBA		
+Hong-Kong		CN-HK-HKBA		
+Hong-Kong		CN-HK-HKBA		
+Hong-Kong		CN-HK-HKBA		
+Hong-Kong		CN-HK-HKBA		
+Columbia		CO	17.1	T
+Columbia		CO	17.2	7
+Columbia		CO	17.3	12
+Columbia		CO	17.4	15
+Columbia		CO	17.5	18
+Columbia		CO	17.6	X
+Germany	DE	DE-FSF	18.1	0
+Germany	DE	DE-FSF	18.2	6
+Germany	DE	DE-FSF	18.3	12
+Germany	DE	DE-FSF	18.4	16
+Germany	DE	DE-FSF	18.5	18
+Germany	DE	DE-FSK	19.1	FSK 0
+Germany	DE	DE-FSK	19.2	FSK 6
+Germany	DE	DE-FSK	19.3	FSK 12
+Germany	DE	DE-FSK	19.4	FSK 16
+Germany	DE	DE-FSK	19.5	FSK 18
+Denmark	DK	DK-MBU	20.1	A
+Denmark	DK	DK-MBU	20.2	7
+Denmark	DK	DK-MBU	20.3	11
+Denmark	DK	DK-MBU	20.4	15
+Denmark	DK	DK-DR	21.1	Green
+Denmark	DK	DK-DR	21.2	Yellow
+Denmark	DK	DK-DR	21.3	Red
+Spain	ES	ES	22.1	ERI
+Spain	ES	ES	22.2	TP
+Spain	ES	ES	22.3	7
+Spain	ES	ES	22.4	13
+Spain	ES	ES	22.5	18
+Europe		EU-PEGI	23.1.1	3+
+Europe		EU-PEGI	23.1.2	7+
+Europe		EU-PEGI	23.1.3	12+
+Europe		EU-PEGI	23.1.4	16+
+Europe		EU-PEGI	23.1.5	18+
+Europe		EU-PEGI		
+Europe		EU-PEGI		
+Finland	FI	FI-VET	24.1	S
+Finland	FI	FI-VET	24.2	K-3
+Finland	FI	FI-VET	24.3	K-7
+Finland	FI	FI-VET	24.4	K-12
+Finland	FI	FI-VET	24.5	K-16
+Finland	FI	FI-VET	24.6	K-18
+France	FR	FR-CNC	25.1	"Tout public
+For all audiences"
+France	FR	FR-CNC	25.2	-12
+France	FR	FR-CNC	25.3	-16
+France	FR	FR-CNC	25.4	-18
+France	FR	FR-CNC	25.5	X
+France	FR	FR-CSA	26.1	-10
+France	FR	FR-CSA	26.2	-12
+France	FR	FR-CSA	26.3	-16
+France	FR	FR-CSA	26.4	-18
+France	FR	FR-CSA	26.5	X
+Britain		GB-BBFC	27.1	U
+Britain		GB-BBFC	27.2	PG
+Britain		GB-BBFC	27.3	12A/12
+Britain		GB-BBFC	27.4	15
+Britain		GB-BBFC	27.5	18
+Britain		GB-BBFC	27.6	R18
+Ireland	IE	IE-IFCO	28.1	G
+Ireland	IE	IE-IFCO	28.2	PG
+Ireland	IE	IE-IFCO	28.3	12A
+Ireland	IE	IE-IFCO	28.4	15A
+Ireland	IE	IE-IFCO	28.5	16
+Ireland	IE	IE-IFCO	28.6	18
+Ireland	IE	IE-RTE	29.1	"GA
+General Audience
+Lucht Féachana Ginearálta"
+Ireland	IE	IE-RTE	29.2	"CH
+Children
+Páistí"
+Ireland	IE	IE-RTE	29.3	"YA
+Young Adult
+Ógra"
+Ireland	IE	IE-RTE	29.4	"PS
+Parental Supervision
+Treoir Tuismitheora"
+Ireland	IE	IE-RTE	29.5	"MA
+Mature Audience
+Lucht Féachana Lánfhásta Amháin"
+Italy	IT	IT-RAI	30.1	Green
+Italy	IT	IT-RAI	30.2	Yellow
+Italy	IT	IT-RAI	30.3	Red
+Japan	JP	JA-CERO	31.1.1	"A
+黒
+Black"
+Japan	JP	JA-CERO	31.1.2	"B
+緑
+Green"
+Japan	JP	JA-CERO	31.1.3	"C
+青
+Blue"
+Japan	JP	JA-CERO	31.1.4	"D
+橙
+Orange"
+Japan	JP	JA-CERO	31.1.5	"Z
+赤
+Red"
+Japan	JP	JA-CERO		
+Japan	JP	JA-CERO		
+Japan	JP	JA-CERO		
+Japan	JP	JA-CERO		
+South Korea	KR	KR-KBS	32.1	All
+South Korea	KR	KR-KBS	32.2	7
+South Korea	KR	KR-KBS	32.3	12
+South Korea	KR	KR-KBS	32.4	15
+South Korea	KR	KR-KBS	32.5	19
+South Korea	KR	KR-KMRB	33.1	All
+South Korea	KR	KR-KMRB	33.2	12+
+South Korea	KR	KR-KMRB	33.3	15+
+South Korea	KR	KR-KMRB	33.4	Teenager Restricted
+South Korea	KR	KR-KMRB	33.5	Restricted
+Maldives	MV	MV-NBC	34.1.1	"G
+General
+Green"
+Maldives	MV	MV-NBC	34.1.2	12+
+Maldives	MV	MV-NBC	34.1.3	15+
+Maldives	MV	MV-NBC	34.1.4	18+
+Maldives	MV	MV-NBC	34.1.5	PU
+Maldives	MV	MV-NBC		
+Maldives	MV	MV-NBC		
+Mexico	MX	MX-RTC	35.1.1	AA
+Mexico	MX	MX-RTC	35.1.2	A
+Mexico	MX	MX-RTC	35.1.3	B
+Mexico	MX	MX-RTC	35.1.4	B15
+Mexico	MX	MX-RTC	35.1.5	C
+Mexico	MX	MX-RTC	35.1.6	D
+Nigeria	NG	NG-NFVCB	36.1.1	"G
+General"
+Nigeria	NG	NG-NFVCB	36.1.2	PG
+Nigeria	NG	NG-NFVCB	36.1.3	12A/12
+Nigeria	NG	NG-NFVCB	36.1.4	15
+Nigeria	NG	NG-NFVCB	36.1.5	18
+Nigeria	NG	NG-NFVCB	36.1.6	RE
+Netherlands	NL	NL-NICAM	37.1.1	AL
+Netherlands	NL	NL-NICAM	37.1.2	6
+Netherlands	NL	NL-NICAM	37.1.3	9
+Netherlands	NL	NL-NICAM	37.1.4	12
+Netherlands	NL	NL-NICAM	37.1.5	16
+Netherlands	NL	NL-NICAM		
+Norway	NO	NO-Medietilsynet-Om_aldersgrenser	38.1	"All
+Alle"
+Norway	NO	NO-Medietilsynet-Om_aldersgrenser	38.2	7
+Norway	NO	NO-Medietilsynet-Om_aldersgrenser	38.3	11
+Norway	NO	NO-Medietilsynet-Om_aldersgrenser	38.4	15
+Norway	NO	NO-Medietilsynet-Om_aldersgrenser	38.5	18
+New Zealand	NZ	NZ-OFLC	39.1	"G
+General"
+New Zealand	NZ	NZ-OFLC	39.2	PG
+New Zealand	NZ	NZ-OFLC	39.3	"M
+Mature"
+New Zealand	NZ	NZ-OFLC	39.4	R13
+New Zealand	NZ	NZ-OFLC	39.5	R15
+New Zealand	NZ	NZ-OFLC	39.6	R16
+New Zealand	NZ	NZ-OFLC	39.7	R18
+New Zealand	NZ	NZ-OFLC	39.8	"R
+Restricted"
+Philippines	PH	PH-MTRCB	40.1	G
+Philippines	PH	PH-MTRCB	40.2	PG-13
+Philippines	PH	PH-MTRCB	40.3	R-13
+Philippines	PH	PH-MTRCB	40.4	R-18
+Portugal	PT	PL-RTP	41.1	G
+Portugal	PT	PL-RTP	41.2	7
+Portugal	PT	PL-RTP	41.3	12
+Portugal	PT	PL-RTP	41.4	16
+Portugal	PT	PL-RTP	41.5	R
+Portugal	PT	PT-CCE	42.1	M/4
+Portugal	PT	PT-CCE	42.2	M/6
+Portugal	PT	PT-CCE	42.3	M/12
+Portugal	PT	PT-CCE	42.4	M/16
+Portugal	PT	PT-CCE	42.5	M/18
+Portugal	PT	PT-CCE	42.6	Pornográficos
+Portugal	PT	PT-CCE	42.7	De Qualidade
+Portugal	PT	PT-RTP	43.1	T
+Portugal	PT	PT-RTP	43.2	10
+Portugal	PT	PT-RTP	43.3	12
+Portugal	PT	PT-RTP	43.4	16
+Sweden	SE	SE-SB	44.1	Btl
+Sweden	SE	SE-SB	44.2	7
+Sweden	SE	SE-SB	44.3	11
+Sweden	SE	SE-SB	44.4	15
+Sweden	SE	SE-SB	44.5	18
+Singapore	SG	SG-MDA	45.1	"G
+General"
+Singapore	SG	SG-MDA	45.2	PG
+Singapore	SG	SG-MDA	45.3	NC16
+Singapore	SG	SG-MDA	45.4	M18
+Singapore	SG	SG-MDA	45.5	R21
+Turkey	TR	TR-AISS	46.1.1	All
+Turkey	TR	TR-AISS	46.1.2	7+
+Turkey	TR	TR-AISS	46.1.3	13+
+Turkey	TR	TR-AISS	46.1.4	18+
+United States	US	US-ESRB	47.1.1	EC
+United States	US	US-ESRB	47.1.2	E
+United States	US	US-ESRB	47.1.3	E10+
+United States	US	US-ESRB	47.1.4	T
+United States	US	US-ESRB	47.1.5	M
+United States	US	US-ESRB	47.1.6	AO
+United States	US	US-ESRB	47.1.7	RP
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-ESRB		
+United States	US	US-MPAA	48.1	G
+United States	US	US-MPAA	48.2	PG
+United States	US	US-MPAA	48.3	PG-13
+United States	US	US-MPAA	48.4	R
+United States	US	US-MPAA	48.5	NC-17
+United States	US	US-MPAA	48.6	NR
+United States	US	US-MPAA	48.7	TV-14
+United States	US	US-RIAA	49.1	Parental Advisory
+United States	US	US-TVPG	50.1	TV-Y
+United States	US	US-TVPG	50.2	TV-Y7
+United States	US	US-TVPG	50.3	TV-Y7-FV
+United States	US	US-TVPG	50.4	TV-G
+United States	US	US-TVPG	50.5	TV-PG
+United States	US	US-TVPG	50.6	TV-14
+United States	US	US-TVPG	50.7	TV-MA
+South Africa	ZA	ZA-FPB	51.1.1	A
+South Africa	ZA	ZA-FPB	51.1.2	PG
+South Africa	ZA	ZA-FPB	51.1.3	10M
+South Africa	ZA	ZA-FPB	51.1.4	10M-13PG
+South Africa	ZA	ZA-FPB	51.1.5	10
+South Africa	ZA	ZA-FPB	51.1.6	16
+South Africa	ZA	ZA-FPB	51.1.7	18
+Germany	DE	DE-USK	52.1	"ALL
+ALL AGES"
+Germany	DE	DE-USK	52.2	6+
+Germany	DE	DE-USK	52.3	12+
+Germany	DE	DE-USK	52.4	16+
+Germany	DE	DE-USK	52.5	18+
+Czech republic		CZ-Film	53.1.1	U
+Czech republic		CZ-Film	53.1.2	12
+Czech republic		CZ-Film	53.1.3	15
+Czech republic		CZ-Film	53.1.4	18
+Czech republic		CZ-Film	53.1.5	E
+Hungary	HU	HU-Film	54.1.1	KN
+Hungary	HU	HU-Film	54.1.2	12
+Hungary	HU	HU-Film	54.1.3	16
+Hungary	HU	HU-Film	54.1.4	18
+Hungary	HU	HU-Film	54.1.5	X
+Iceland	IS	IS-Smais	55.1.1	L
+Iceland	IS	IS-Smais	55.1.2	7
+Iceland	IS	IS-Smais	55.1.3	12
+Iceland	IS	IS-Smais	55.1.4	14
+Iceland	IS	IS-Smais	55.1.5	16
+Iceland	IS	IS-Smais	55.1.6	18
+India	IN	IN-CFBC	56.1.1	U
+India	IN	IN-CFBC	56.1.2	U/A
+India	IN	IN-CFBC	56.1.3	A
+India	IN	IN-CFBC	56.1.4	S
+Egypt	EG	EG-Film	57.1.1	General Audience
+Egypt	EG	EG-Film	57.1.2	Adults Only
+Egypt	EG	EG-Film	57.1.3	Exempt from classification
+Estonia	EE	ES-Film	58.1.1	Pere
+Estonia	EE	ES-Film	58.1.2	L
+Estonia	EE	ES-Film	58.1.3	MS-6
+Estonia	EE	ES-Film	58.1.4	MS-12
+Estonia	EE	ES-Film	58.1.5	K-12
+Estonia	EE	ES-Film	58.1.6	K-14
+Estonia	EE	ES-Film	58.1.7	K-16
+Estonia	EE	ES-Film	58.1.8	K-6
+Greece	GR	GR-Film	59.1.1	K
+Greece	GR	GR-Film	59.1.2	K-13
+Greece	GR	GR-Film	59.1.3	K-17
+Greece	GR	GR-Film	59.1.4	E
+Indonesia	ID	ID-LSF	60.1.1	SU
+Indonesia	ID	ID-LSF	60.1.2	A
+Indonesia	ID	ID-LSF	60.1.3	BO
+Indonesia	ID	ID-LSF	60.1.4	R
+Indonesia	ID	ID-LSF	60.1.5	D
+Latvia	LV	LV-NCC	61.1.1	U
+Latvia	LV	LV-NCC	61.1.2	7+
+Latvia	LV	LV-NCC	61.1.3	12+
+Latvia	LV	LV-NCC	61.1.4	16+
+Latvia	LV	LV-NCC	61.1.5	18+ (blue)
+Latvia	LV	LV-NCC	61.1.6	18+ (red)
+Malaysia	MY	MA-FCB	62.1.1	U
+Malaysia	MY	MA-FCB	62.1.2	PG13
+Malaysia	MY	MA-FCB	62.1.3	18
+Malta	MT	MT-MCCAA	63.1.1	U /Universal)
+Malta	MT	MT-MCCAA	63.1.2	PG
+Malta	MT	MT-MCCAA	63.1.3	12
+Malta	MT	MT-MCCAA	63.1.4	14
+Malta	MT	MT-MCCAA	63.1.5	15
+Malta	MT	MT-MCCAA	63.1.6	16
+Malta	MT	MT-MCCAA	63.1.7	18
+Switzerland	CH	CH	64.1.1	0
+Switzerland	CH	CH	64.1.2	7
+Switzerland	CH	CH	64.1.3	10
+Switzerland	CH	CH	64.1.4	12
+Switzerland	CH	CH	64.1.5	14
+Switzerland	CH	CH	64.1.6	16
+Switzerland	CH	CH	64.1.7	18
+Thailand	TH	TH	65.1.1	P
+Thailand	TH	TH	65.1.2	G
+Thailand	TH	TH	65.1.3	13+
+Thailand	TH	TH	65.1.4	15+
+Thailand	TH	TH	65.1.5	18+
+Thailand	TH	TH	65.1.6	20+
+United Arab Emirates	AE	UAB	66.1.1	G
+United Arab Emirates	AE	UAB	66.1.2	PG-13
+United Arab Emirates	AE	UAB	66.1.3	PG15
+United Arab Emirates	AE	UAB	66.1.4	15+
+United Arab Emirates	AE	UAB	66.1.5	18+
+Italy	IT	IT-MBACT	68.1.1	T
+Italy	IT	IT-MBACT	68.1.2	VM6
+Italy	IT	IT-MBACT	68.1.3	VM14
+Italy	IT	IT-MBACT	68.1.4	VM18
+Italy	IT	IT-AGCOM	69.1.1	T
+Italy	IT	IT-AGCOM	69.1.2	VM6
+Italy	IT	IT-AGCOM	69.1.3	VM14
+Italy	IT	IT-AGCOM	69.1.4	VM18
+Japan	JP	Eirin	70.1.1	"G
+映倫"
+Japan	JP	Eirin	70.1.2	PG12
+Japan	JP	Eirin	70.1.3	R15+
+Japan	JP	Eirin	70.1.4	R18+
+Japan	JP	Eirin		
+Japan	JP	Eirin		
+Japan	JP	Eirin		
+RUSSIA		RU-MKRF	71.1.1	0+
+RUSSIA		RU-MKRF	71.1.2	6+
+RUSSIA		RU-MKRF	71.1.3	12+
+RUSSIA		RU-MKRF	71.1.4	16+
+RUSSIA		RU-MKRF	71.1.5	18+
