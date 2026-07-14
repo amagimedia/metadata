@@ -20,6 +20,7 @@
         rdf:type            skos:ConceptScheme ;
         rdfs:label          "EBU SKOS Classification Scheme for Parental Guidance"@en ;
         rdfs:isDefinedBy    <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:hasTopConcept  parentalguidance:_0 ;
         skos:hasTopConcept  parentalguidance:_1 ;
         skos:hasTopConcept  parentalguidance:_2 ;
         skos:hasTopConcept  parentalguidance:_3 ;
@@ -96,6 +97,49 @@
         skos:hasTopConcept  parentalguidance:_74 ;
         skos:hasTopConcept  parentalguidance:_75 ;
         skos:hasTopConcept  parentalguidance:_76 .  # Luxembourg ALIA
+
+parentalguidance:_0  rdf:type  ebucore:TargetAudience ;
+        skos:prefLabel    "EBUCore-Fallback"@en ;
+        skos:scopeNote    "Region:Global"@en ;
+        skos:definition   "Default fallback rating codes for EBUCore compliance status"@en ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_0.1 ;
+        skos:narrower     parentalguidance:_0.2 ;
+        skos:narrower     parentalguidance:_0.3 ;
+        skos:changeNote   "Add" ;
+        skos:historyNote  "2026-07-14" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
+parentalguidance:_0.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "MetadataSubstatusTypeRatingProviderMissing"@en ;
+        skos:definition   "Rating does not officially comply because the rating body is missing."@en ;
+        skos:broader      parentalguidance:_0 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_0.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "MetadataSubstatusTypeRatingNotCompliantWithStandards"@en ;
+        skos:definition   "The provided rating does not officially comply with the selected rating body."@en ;
+        skos:broader      parentalguidance:_0 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_0.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "MetadataSubstatusTypeRatingValueMissing"@en ;
+        skos:definition   "Rating value not provided."@en ;
+        skos:broader      parentalguidance:_0 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
 
 parentalguidance:_1  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "AR-INCAA"@en ;
