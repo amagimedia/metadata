@@ -1787,3 +1787,33 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "Horse & Country"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_hnc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from HNC"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-07-27" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "HNC"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_xite>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from Xite"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-07-27" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "Xite"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_isrc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from ISRC"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-07-27" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "ISRC"@en .
