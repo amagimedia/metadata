@@ -1777,3 +1777,13 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "Vendor Context ID"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_horse_and_country>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from Horse & Country"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-07-27" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "Horse & Country"@en .
