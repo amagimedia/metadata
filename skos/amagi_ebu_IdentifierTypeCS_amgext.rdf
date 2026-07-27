@@ -86,6 +86,16 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_hnc">
+    <skos:prefLabel xml:lang="en">HNC</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2026-07-27</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from HNC</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rcn_tv">
     <skos:prefLabel xml:lang="en">RCN TV</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -1077,6 +1087,16 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_isrc">
+    <skos:prefLabel xml:lang="en">ISRC</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2026-07-27</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from ISRC</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_metro_tv">
     <skos:prefLabel xml:lang="en">Metro TV</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -1502,6 +1522,16 @@
     <skos:historyNote>2025-08-25</skos:historyNote>
     <skos:example></skos:example>
     <skos:definition xml:lang="en">External id provided from Alfhaville</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_xite">
+    <skos:prefLabel xml:lang="en">Xite</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2026-07-27</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Xite</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
