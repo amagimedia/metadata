@@ -1087,6 +1087,16 @@
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_horse_and_country">
+    <skos:prefLabel xml:lang="en">Horse &amp; Country</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2026-07-27</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">External id provided from Horse &amp; Country</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_world_boxing_championship">
     <skos:prefLabel xml:lang="en">World Boxing Championship</skos:prefLabel>
     <skos:note>Valid</skos:note>
@@ -1134,6 +1144,16 @@
     <skos:historyNote>2025-08-25</skos:historyNote>
     <skos:example></skos:example>
     <skos:definition xml:lang="en">External id provided from Caracol</skos:definition>
+    <skos:changeNote>First version</skos:changeNote>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_reconcileid">
+    <skos:prefLabel xml:lang="en">ReconcileID</skos:prefLabel>
+    <skos:note>Valid</skos:note>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
+    <skos:historyNote>2026-07-17</skos:historyNote>
+    <skos:example></skos:example>
+    <skos:definition xml:lang="en">ReconcileID identifier</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
@@ -1762,16 +1782,6 @@
     <skos:historyNote>2025-08-25</skos:historyNote>
     <skos:example></skos:example>
     <skos:definition xml:lang="en">External id provided from Tesera Entertainment</skos:definition>
-    <skos:changeNote>First version</skos:changeNote>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_reconcileid">
-    <skos:prefLabel xml:lang="en">ReconcileID</skos:prefLabel>
-    <skos:note>Valid</skos:note>
-    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS"/>
-    <skos:historyNote>2026-07-17</skos:historyNote>
-    <skos:example></skos:example>
-    <skos:definition xml:lang="en">ReconcileID identifier</skos:definition>
     <skos:changeNote>First version</skos:changeNote>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#IdentifierType"/>
   </rdf:Description>
