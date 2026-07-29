@@ -1015,6 +1015,13 @@
     rdfs:comment  "The pcr pid of the media resource."@en ;
     rdfs:label    "Pcr Pid"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#preprocessType>
+    rdf:type      rdf:Property ;
+    rdfs:domain   ebucore:MediaResource ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "The type of preprocessing applied to the media resource before ingestion (e.g., hard_segment, m3u8_to_ts)."@en ;
+    rdfs:label    "Preprocess Type"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pid>
     rdf:type      rdf:Property ;
     rdfs:domain   ebucore:AudioTrack, ebucore:VideoTrack, ebucore:SubtitleTrack;
