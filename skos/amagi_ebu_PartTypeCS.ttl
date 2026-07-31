@@ -99,6 +99,7 @@ part_type:_5
 part_type:_6
         rdf:type        ebucore:Part_Type ;
         skos:prefLabel  "intro"@en ;
+        skos:altLabel    "introduction"@en ;
         skos:definition  "Part type corresponding to the introduction of a media resource"@en ;
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
         skos:changeNote "" ;
