@@ -31,6 +31,7 @@
     <skos:changeNote></skos:changeNote>
     <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
     <skos:definition xml:lang="en">Part type corresponding to the introduction of a media resource</skos:definition>
+    <skos:altLabel xml:lang="en">introduction</skos:altLabel>
     <skos:prefLabel xml:lang="en">intro</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
   </rdf:Description>
