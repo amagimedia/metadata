@@ -1052,7 +1052,7 @@
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#annotationTypeCode>
         rdf:type      rdf:Property ;
-        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
         rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
         rdfs:comment  "The code of the annotation type."@en ;
         rdfs:label    "Annotation Type Code"@en .
