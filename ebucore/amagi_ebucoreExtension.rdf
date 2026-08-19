@@ -76,6 +76,14 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#systemTag">
+    <rdfs:label xml:lang="en">System Tag</rdfs:label>
+    <skos:definition xml:lang="en">A repeatable system-managed tag associated with a subtitling resource. This property is distinct from ebucore:tag, which remains reserved for user tags.</skos:definition>
+    <rdfs:comment xml:lang="en">To provide a list of system tags for a subtitling resource.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Subtitling"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#userDefinedFps">
     <rdfs:label xml:lang="en">User Defined Frame Rate</rdfs:label>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
