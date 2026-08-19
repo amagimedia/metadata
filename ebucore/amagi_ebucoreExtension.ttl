@@ -554,6 +554,14 @@
     rdfs:comment  "Specifies if the subtitle timecode is with dropframe."@en ;
     rdfs:label    "Is DropFrame Timecode"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#systemTag>
+    rdf:type         rdf:Property ;
+    rdfs:domain      ebucore:Subtitling ;
+    rdfs:range       <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment     "To provide a list of system tags for a subtitling resource."@en ;
+    skos:definition  "A repeatable system-managed tag associated with a subtitling resource. This property is distinct from ebucore:tag, which remains reserved for user tags."@en ;
+    rdfs:label       "System Tag"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#isPrimary>
     rdf:type      rdf:Property ;
     rdfs:domain   ebucore:MediaResource ;
