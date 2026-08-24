@@ -42,6 +42,13 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#resourceType">
+    <rdfs:label xml:lang="en">Resource Type</rdfs:label>
+    <rdfs:comment xml:lang="en">The resource type the preprocessor applies to (e.g., audio, video, subtitle).</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Preprocessor"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#annotationTypeCode">
     <rdfs:label xml:lang="en">Annotation Type Code</rdfs:label>
     <rdfs:comment xml:lang="en">The code of the annotation type.</rdfs:comment>
@@ -184,6 +191,12 @@
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Preprocessor">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment xml:lang="en">To describe preprocessing applied to a resource type (audio, video, subtitle) before ingestion.</rdfs:comment>
+    <rdfs:label xml:lang="en">Preprocessor</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#height">
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Image"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -270,9 +283,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#preprocessType">
     <rdfs:label xml:lang="en">Preprocess Type</rdfs:label>
-    <rdfs:comment xml:lang="en">The type of preprocessing applied to the media resource before ingestion (e.g., hard_segment, m3u8_to_ts).</rdfs:comment>
+    <rdfs:comment xml:lang="en">The type of preprocessing applied to the resource before ingestion (e.g., hard_segment, m3u8_to_ts).</rdfs:comment>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource"/>
+    <rdfs:domain rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Preprocessor"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#RenderedGraphic">
@@ -881,6 +894,13 @@
     <rdfs:comment xml:lang="en">To identify the source of the segment associated with an asset.</rdfs:comment>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPreprocessor">
+    <rdfs:comment xml:lang="en">Property to associate an asset with preprocessing configuration for its resource types.</rdfs:comment>
+    <rdfs:label xml:lang="en">Has Preprocessor</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset"/>
+    <rdfs:range rdf:resource="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Preprocessor"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#VideoAnnotation">
