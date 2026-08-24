@@ -1023,11 +1023,45 @@
     rdfs:comment  "The pcr pid of the media resource."@en ;
     rdfs:label    "Pcr Pid"@en .
 
+######################################################################
+# Preprocessor
+######################################################################
+# Example:
+# <uri> ebucoreext:hasPreprocessor [ a ebucoreext:Preprocessor ;
+#     ebucoreext:resourceType "audio" ;
+#     ebucoreext:preprocessType "{extensible-for-future}" ] ,
+#   [ a ebucoreext:Preprocessor ;
+#     ebucoreext:resourceType "subtitle" ;
+#     ebucoreext:preprocessType "{extensible-for-future}" ] ,
+#   [ a ebucoreext:Preprocessor ;
+#     ebucoreext:resourceType "video" ;
+#     ebucoreext:preprocessType "hard_segment" ] .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Preprocessor>
+    rdf:type         rdfs:Class ;
+    rdfs:label       "Preprocessor"@en ;
+    rdfs:comment     "To describe preprocessing applied to a resource type (audio, video, subtitle) before ingestion."@en ;
+    rdfs:subClassOf  owl:Thing .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPreprocessor>
+    rdf:type      rdf:Property ;
+    rdfs:range    <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Preprocessor> ;
+    rdfs:domain   ebucore:Asset ;
+    rdfs:label    "Has Preprocessor"@en ;
+    rdfs:comment  "Property to associate an asset with preprocessing configuration for its resource types."@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#resourceType>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Preprocessor> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+    rdfs:comment  "The resource type the preprocessor applies to (e.g., audio, video, subtitle)."@en ;
+    rdfs:label    "Resource Type"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#preprocessType>
     rdf:type      rdf:Property ;
-    rdfs:domain   ebucore:MediaResource ;
+    rdfs:domain   <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Preprocessor> ;
     rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
-    rdfs:comment  "The type of preprocessing applied to the media resource before ingestion (e.g., hard_segment, m3u8_to_ts)."@en ;
+    rdfs:comment  "The type of preprocessing applied to the resource before ingestion (e.g., hard_segment, m3u8_to_ts)."@en ;
     rdfs:label    "Preprocess Type"@en .
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pid>
