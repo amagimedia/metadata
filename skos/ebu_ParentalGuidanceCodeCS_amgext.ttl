@@ -96,7 +96,8 @@
         skos:hasTopConcept  parentalguidance:_73 ;
         skos:hasTopConcept  parentalguidance:_74 ;
         skos:hasTopConcept  parentalguidance:_75 ;
-        skos:hasTopConcept  parentalguidance:_76 .  # Luxembourg ALIA
+        skos:hasTopConcept  parentalguidance:_76 ;  # Luxembourg ALIA
+        skos:hasTopConcept  parentalguidance:_77 .  # Saudi Arabia GCAM / GAMR
 
 parentalguidance:_0  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "EBUCore-Fallback"@en ;
@@ -7268,6 +7269,157 @@ parentalguidance:_76.5
         skos:prefLabel    "18"@en ;
         skos:definition   "Accessible to persons aged 18 and over"@en ;
         skos:broader      parentalguidance:_76 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+# https://rating-system.fandom.com/wiki/General_Authority_of_Media_Regulation
+# https://gmedia.gov.sa/en/age-classification
+# MovieLabs: http://www.movielabs.com/md/ratings/SA/GCAM/0
+parentalguidance:_77  rdf:type  ebucore:TargetAudience ;
+        skos:prefLabel    "SA-GCAM"@en ;
+        skos:altLabel     "Gmedia"@en ;
+        skos:altLabel     "GAMR"@en ;
+        skos:altLabel     "GCAM"@en ;
+        skos:altLabel     "General Authority of Media Regulation"@en ;
+        skos:altLabel     "General Commission for Audiovisual Media"@en ;
+        skos:altLabel     "الهيئة العامة لتنظيم الإعلام"@ar ;
+        skos:scopeNote    "Region:Saudi Arabia"@en ;
+        skos:definition   "General Authority of Media Regulation (Gmedia), formerly GCAM. Official age classification systems for films and video games."@en ;
+        skos:definition   "الهيئة العامة لتنظيم الإعلام"@ar ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_77.1 ;
+        skos:changeNote   "Create" ;
+        skos:historyNote  "2026-08-26" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
+parentalguidance:_77.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Rating"@en ;
+        skos:broader      parentalguidance:_77 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_77.1.1 ;
+        skos:narrower     parentalguidance:_77.1.2 ;
+        skos:narrower     parentalguidance:_77.1.3 ;
+        skos:narrower     parentalguidance:_77.1.4 ;
+        skos:narrower     parentalguidance:_77.1.5 ;
+        skos:narrower     parentalguidance:_77.1.6 ;
+        skos:narrower     parentalguidance:_77.1.7 ;
+        skos:narrower     parentalguidance:_77.1.8 ;
+        skos:narrower     parentalguidance:_77.1.9 ;
+        skos:narrower     parentalguidance:_77.1.10 ;
+        skos:narrower     parentalguidance:_77.1.11 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "G"@en ;
+        skos:definition   "Cinema: Suitable for all audiences."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "PG"@en ;
+        skos:definition   "Cinema: General viewing; parental guidance is recommended for children under 12."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "PG12"@en ;
+        skos:definition   "Cinema: May not be suitable for children under 12; mandatory adult supervision for minors under 12."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "PG15"@en ;
+        skos:definition   "Cinema: May not be suitable for viewers under 15; mandatory adult supervision for minors under 15 (covers action, mild war, and sci-fi elements)."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "R15"@en ;
+        skos:definition   "Cinema: Strictly restricted; no one under 15 admitted."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.6
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "R18"@en ;
+        skos:definition   "Cinema: Strictly restricted; no one under 18 admitted."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "3"@en ;
+        skos:definition   "Video game: Suitable for ages 3 and older."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.8
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "7"@en ;
+        skos:definition   "Video game: Suitable for ages 7 and older."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.9
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "12"@en ;
+        skos:definition   "Video game: Suitable for ages 12 and older."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.10
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "16"@en ;
+        skos:definition   "Video game: Suitable for ages 16 and older."@en ;
+        skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_77.1.11
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "18"@en ;
+        skos:definition   "Video game: Suitable for ages 18 and older (restricted to adults)."@en ;
+        skos:broader      parentalguidance:_77.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
