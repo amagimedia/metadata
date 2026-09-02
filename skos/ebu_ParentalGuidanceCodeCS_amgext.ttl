@@ -97,7 +97,8 @@
         skos:hasTopConcept  parentalguidance:_74 ;
         skos:hasTopConcept  parentalguidance:_75 ;
         skos:hasTopConcept  parentalguidance:_76 ;  # Luxembourg ALIA
-        skos:hasTopConcept  parentalguidance:_77 .  # Saudi Arabia GCAM / GAMR
+        skos:hasTopConcept  parentalguidance:_77 ;  # Saudi Arabia GCAM / GAMR
+        skos:hasTopConcept  parentalguidance:_78 .  # Saudi Arabia OSN
 
 parentalguidance:_0  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "EBUCore-Fallback"@en ;
@@ -7429,6 +7430,87 @@ parentalguidance:_77.1.11
         skos:prefLabel    "18"@en ;
         skos:definition   "Video game: Suitable for ages 18 and older (restricted to adults)."@en ;
         skos:broader      parentalguidance:_77.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_78  rdf:type  ebucore:TargetAudience ;
+        skos:prefLabel    "SA-OSN"@en ;
+        skos:altLabel     "OSN"@en ;
+        skos:scopeNote    "Region:Saudi Arabia"@en ;
+        skos:definition   "OSN streaming platform content ratings for Saudi Arabia."@en ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_78.1 ;
+        skos:changeNote   "Create" ;
+        skos:historyNote  "2026-09-02" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
+parentalguidance:_78.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Rating"@en ;
+        skos:broader      parentalguidance:_78 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_78.1.1 ;
+        skos:narrower     parentalguidance:_78.1.2 ;
+        skos:narrower     parentalguidance:_78.1.3 ;
+        skos:narrower     parentalguidance:_78.1.4 ;
+        skos:narrower     parentalguidance:_78.1.5 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_78.1.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "FAM"@en ;
+        skos:definition   "Suitable for all the family."@en ;
+        skos:broader      parentalguidance:_78.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_78.1.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "PG"@en ;
+        skos:definition   "Parental guidance advised"@en ;
+        skos:broader      parentalguidance:_78.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_78.1.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "PG15"@en ;
+        skos:altLabel     "PG 15"@en ;
+        skos:altLabel     "PG 15-D"@en ;
+        skos:altLabel     "PG15-D"@en ;
+        skos:altLabel     "15"@en ;
+        skos:definition   "Suitable for ages 15 and older."@en ;
+        skos:broader      parentalguidance:_78.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" ;
+        skos:note         "PG 15 and PG 15-D are both valid; PG 15-D uses the same rating graphics as PG15." .
+
+parentalguidance:_78.1.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "18"@en ;
+        skos:definition   "Unsuitable for ages under 18."@en ;
+        skos:broader      parentalguidance:_78.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_78.1.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "R"@en ;
+        skos:definition   "Adults only."@en ;
+        skos:broader      parentalguidance:_78.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
