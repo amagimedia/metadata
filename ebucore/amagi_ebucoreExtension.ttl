@@ -261,6 +261,13 @@
     rdfs:label      "maxPublicationEvents"@en ;
     rdfs:comment    "To express restriction on the maximum number of publication events for an asset in a given date range."@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#applyTo>
+        rdf:type            rdf:Property ;
+        rdfs:range          <http://www.w3.org/2001/XMLSchema#anyURI> ;
+        rdfs:domain         <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#CoverageRestrictions> ;
+        rdfs:label          "applyTo"@en ;
+        rdfs:comment        "Specifies the entity type (PublicationChannel or Platform) that a root-level coverage restriction should be broadcast onto. Values are full type URIs."@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasPublicationRestrictions>
         rdf:type            rdf:Property ;
         rdfs:range          <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#PublicationRestrictions> ;
