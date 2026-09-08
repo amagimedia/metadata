@@ -2443,6 +2443,7 @@ parentalguidance:_27  rdf:type  ebucore:TargetAudience ;
         skos:narrower     parentalguidance:_27.4 ;
         skos:narrower     parentalguidance:_27.5 ;
         skos:narrower     parentalguidance:_27.6 ;
+        skos:narrower     parentalguidance:_27.7 ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2009-07-28" ;
         skos:example      "" ;
@@ -2470,14 +2471,13 @@ parentalguidance:_27.2
 
 parentalguidance:_27.3
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "12A/12"@en ;
-        skos:definition   "Suitable for 12 years and older. No 12 year old child may see a\n         12A film without the presence of an accompanying adult."@en ;
+        skos:prefLabel    "12"@en ;
+        skos:definition   "No one younger than 12 may rent or buy a 12-rated video.\n         Video content classified 12 is not generally suitable for children aged under 12."@en ;
         skos:broader      parentalguidance:_27 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
-        skos:example      "" ;
-        skos:hiddenLabel  "12"@en .
+        skos:example      "" .
 
 parentalguidance:_27.4
         rdf:type          ebucore:TargetAudience ;
@@ -2503,6 +2503,16 @@ parentalguidance:_27.6
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "R18"@en ;
         skos:definition   "To be supplied only in licensed sex shops or cinemas to adults\n         of not less than 18 years of age"@en ;
+        skos:broader      parentalguidance:_27 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_27.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "12A"@en ;
+        skos:definition   "No one younger than 12 may see a 12A film in a cinema unless\n         accompanied by an adult. Not recommended for a child below 12; an adult may take a\n         younger child if they judge the film suitable for that child."@en ;
         skos:broader      parentalguidance:_27 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
