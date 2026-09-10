@@ -726,6 +726,13 @@
         rdfs:domain      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
         rdfs:range       <http://www.w3.org/2001/XMLSchema#string> .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#defaultLiveIngestTemplateId>
+        rdf:type         rdf:Property ;
+        rdfs:label       "Default Live Ingest Template ID"@en ;
+        rdfs:comment     "The default ingest template to use when acquiring a live feed. Must be one of the values in liveIngestTemplateId."@en ;
+        rdfs:domain      <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Event> ;
+        rdfs:range       <http://www.w3.org/2001/XMLSchema#string> .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#liveIngestUri>
         rdf:type         rdf:Property ;
         rdfs:label       "Live Ingest URI"@en ;
