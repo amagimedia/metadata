@@ -1030,6 +1030,20 @@
         rdfs:comment  "Publisher asset IDs for associated assets."@en ;
         rdfs:label    "Has Associated Entities"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAssociatedPromo>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "Publisher asset IDs of associated promo assets."@en ;
+        rdfs:label    "Has Associated Promo"@en .
+
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#hasAssociatedTrailer>
+        rdf:type      rdf:Property ;
+        rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Asset> ;
+        rdfs:range    <http://www.w3.org/2001/XMLSchema#string> ;
+        rdfs:comment  "Publisher asset IDs of associated trailer assets."@en ;
+        rdfs:label    "Has Associated Trailer"@en .
+
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#pcrPid>
     rdf:type      rdf:Property ;
     rdfs:domain   ebucore:MediaResource ;
