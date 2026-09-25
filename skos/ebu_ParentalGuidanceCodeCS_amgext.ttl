@@ -627,6 +627,7 @@ parentalguidance:_5  rdf:type  ebucore:TargetAudience ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_5.1 ;
         skos:narrower     parentalguidance:_5.2 ;
+        skos:narrower     parentalguidance:_5.3 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         dct:description   "Movie labs ratings: https://www.movielabs.com/md/ratings/v2.0/html/BE_CICF_Ratings.html"@en ;
@@ -634,9 +635,10 @@ parentalguidance:_5  rdf:type  ebucore:TargetAudience ;
 
 parentalguidance:_5.1
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "KT"@nl ;
-        skos:prefLabel    "EA"@fr ;
-        skos:prefLabel    "Children Allowed"@en ;
+        skos:prefLabel    "KT/EA"@en ;
+        skos:altLabel    "EA"@fr ;
+        skos:altLabel    "KT"@nl ;
+        skos:altLabel    "Children Allowed"@en ;
         skos:definition   "Kinderen Toegelaten"@nl ;
         skos:definition   "Enfants admis"@fr ;
         skos:definition   "Children admitted - Suitable for all"@en ;
@@ -648,12 +650,23 @@ parentalguidance:_5.1
 
 parentalguidance:_5.2
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "KNT"@nl ;
-        skos:prefLabel    "ENA"@fr ;
-        skos:prefLabel    "Children Not Allowed"@en ;
+        skos:prefLabel    "KNT/ENA"@en ;
+        skos:altLabel    "KNT"@nl ;
+        skos:altLabel    "ENA"@fr ;
+        skos:altLabel    "Children Not Allowed"@en ;
         skos:definition   "Kinderen Niet Toegelaten"@nl ;
         skos:definition   "Enfants Non admis"@fr ;
         skos:definition   "Children not admitted (below 16 years of age)"@en ;
+        skos:broader      parentalguidance:_5 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_5.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "E"@en ;
+        skos:definition   "Content that is completely exempt from formal age classification"@en ;
         skos:broader      parentalguidance:_5 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
@@ -2369,6 +2382,7 @@ parentalguidance:_26  rdf:type  ebucore:TargetAudience ;
         skos:narrower     parentalguidance:_26.3 ;
         skos:narrower     parentalguidance:_26.4 ;
         skos:narrower     parentalguidance:_26.5 ;
+        skos:narrower     parentalguidance:_26.6 ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2009-07-28" ;
         skos:example      "" ;
@@ -2423,6 +2437,17 @@ parentalguidance:_26.5
         skos:prefLabel    "X"@en ;
         skos:definition   "Adulte - Contenu de nature pornographie"@fr ;
         skos:definition   "Adult, pornographic content"@en ;
+        skos:broader      parentalguidance:_26 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_26.6
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Tous publics"@en ;
+        skos:altlabel     "All audiences"@en ;
+        skos:definition   "Tous publics"@en ;
         skos:broader      parentalguidance:_26 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
