@@ -26,7 +26,8 @@
         skos:hasTopConcept  part_type:_4 ;
         skos:hasTopConcept  part_type:_5 ;
         skos:hasTopConcept  part_type:_6 ;
-        skos:hasTopConcept  part_type:_7 .
+        skos:hasTopConcept  part_type:_7 ;
+        skos:hasTopConcept  part_type:_8 .
 
 part_type:_1
         rdf:type        ebucore:Part_Type ;
@@ -113,4 +114,13 @@ part_type:_7
         skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
         skos:changeNote "" ;
         skos:historyNote "2024-05-01" ;
+        skos:note "Valid" .
+
+part_type:_8
+        rdf:type        ebucore:Part_Type ;
+        skos:prefLabel  "DBI"@en ;
+        skos:definition  "Part type corresponding to a Dynamic Brand Insertion (DBI) segment within program content, typically used for in-content advertising markers"@en ;
+        skos:inScheme    <https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS> ;
+        skos:changeNote "" ;
+        skos:historyNote "2026-09-25" ;
         skos:note "Valid" .

@@ -16,6 +16,15 @@
     <dct:title xml:lang="en">EBU Based SKOS Classification Scheme for Part Types</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_8">
+    <skos:note>Valid</skos:note>
+    <skos:historyNote>2026-09-25</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:inScheme rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS"/>
+    <skos:definition xml:lang="en">Part type corresponding to a Dynamic Brand Insertion (DBI) segment within program content, typically used for in-content advertising markers</skos:definition>
+    <skos:prefLabel xml:lang="en">DBI</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_7">
     <skos:note>Valid</skos:note>
     <skos:historyNote>2024-05-01</skos:historyNote>
@@ -36,6 +45,7 @@
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part_Type"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS">
+    <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_8"/>
     <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_7"/>
     <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_6"/>
     <skos:hasTopConcept rdf:resource="https://metadata.amagi.tv/skos/amagi_ebu_PartTypeCS#_5"/>
