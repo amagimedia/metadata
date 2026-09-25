@@ -636,9 +636,9 @@ parentalguidance:_5  rdf:type  ebucore:TargetAudience ;
 parentalguidance:_5.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "KT/EA"@en ;
-        skos:altLabel    "EA"@fr ;
-        skos:altLabel    "KT"@nl ;
-        skos:altLabel    "Children Allowed"@en ;
+        skos:altLabel     "EA"@fr ;
+        skos:altLabel     "KT"@nl ;
+        skos:altLabel     "Children Allowed"@en ;
         skos:definition   "Kinderen Toegelaten"@nl ;
         skos:definition   "Enfants admis"@fr ;
         skos:definition   "Children admitted - Suitable for all"@en ;
@@ -651,9 +651,9 @@ parentalguidance:_5.1
 parentalguidance:_5.2
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "KNT/ENA"@en ;
-        skos:altLabel    "KNT"@nl ;
-        skos:altLabel    "ENA"@fr ;
-        skos:altLabel    "Children Not Allowed"@en ;
+        skos:altLabel     "KNT"@nl ;
+        skos:altLabel     "ENA"@fr ;
+        skos:altLabel     "Children Not Allowed"@en ;
         skos:definition   "Kinderen Niet Toegelaten"@nl ;
         skos:definition   "Enfants Non admis"@fr ;
         skos:definition   "Children not admitted (below 16 years of age)"@en ;
