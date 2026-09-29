@@ -636,8 +636,8 @@ parentalguidance:_5  rdf:type  ebucore:TargetAudience ;
 parentalguidance:_5.1
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "KT/EA"@en ;
-        skos:altLabel     "EA"@fr ;
         skos:altLabel     "KT"@nl ;
+        skos:altLabel     "EA"@fr ;
         skos:altLabel     "Children Allowed"@en ;
         skos:definition   "Kinderen Toegelaten"@nl ;
         skos:definition   "Enfants admis"@fr ;
