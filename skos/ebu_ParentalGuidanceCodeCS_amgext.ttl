@@ -416,6 +416,9 @@ parentalguidance:_4.1
         skos:narrower     parentalguidance:_4.1.5 ;
         skos:narrower     parentalguidance:_4.1.6 ;
         skos:narrower     parentalguidance:_4.1.7 ;
+        skos:narrower     parentalguidance:_4.1.8 ;
+        skos:narrower     parentalguidance:_4.1.9 ;
+        skos:narrower     parentalguidance:_4.1.10 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -484,6 +487,39 @@ parentalguidance:_4.1.7
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "AV15+"@en ;
         skos:definition   "15 or older with violent content"@en ;
+        skos:broader      parentalguidance:_4.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_4.1.8
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "R18+"@en ;
+        skos:altLabel     "Restricted R 18+"@en ;
+        skos:definition   "18 or older"@en ;
+        skos:broader      parentalguidance:_4.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_4.1.9
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "X18+"@en ;
+        skos:altLabel     "Restricted X 18+"@en ;
+        skos:definition   "18 or older with sexually explicit content"@en ;
+        skos:broader      parentalguidance:_4.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_4.1.10
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "E"@en ;
+        skos:altLabel     "Exempt"@en ;
+        skos:definition   "Exempt from classification"@en ;
         skos:broader      parentalguidance:_4.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
