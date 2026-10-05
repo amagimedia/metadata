@@ -4273,6 +4273,7 @@ parentalguidance:_45  rdf:type  ebucore:TargetAudience ;
         skos:narrower     parentalguidance:_45.3 ;
         skos:narrower     parentalguidance:_45.4 ;
         skos:narrower     parentalguidance:_45.5 ;
+        skos:narrower     parentalguidance:_45.6 ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2009-07-28" ;
         skos:example      "" ;
@@ -4324,6 +4325,17 @@ parentalguidance:_45.5
         rdf:type          ebucore:TargetAudience ;
         skos:prefLabel    "R21"@en ;
         skos:definition   "Restricted to persons 21 years and above"@en ;
+        skos:broader      parentalguidance:_45 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_45.6
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "PG13"@en ;
+        skos:altLabel     "Parental Guidance 13"@en ;
+        skos:definition   "Suitable for persons 13 and above but parental guidance is advised for children below 13"@en ;
         skos:broader      parentalguidance:_45 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
