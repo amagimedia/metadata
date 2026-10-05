@@ -2382,6 +2382,7 @@ parentalguidance:_26  rdf:type  ebucore:TargetAudience ;
         skos:narrower     parentalguidance:_26.3 ;
         skos:narrower     parentalguidance:_26.4 ;
         skos:narrower     parentalguidance:_26.5 ;
+        skos:narrower     parentalguidance:_26.6 ;
         skos:changeNote   "Update" ;
         skos:historyNote  "2009-07-28" ;
         skos:example      "" ;
@@ -2436,6 +2437,17 @@ parentalguidance:_26.5
         skos:prefLabel    "X"@en ;
         skos:definition   "Adulte - Contenu de nature pornographie"@fr ;
         skos:definition   "Adult, pornographic content"@en ;
+        skos:broader      parentalguidance:_26 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_26.6
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Tous publics"@en ;
+        skos:altLabel     "All audiences"@en ;
+        skos:definition   "Tous publics"@en ;
         skos:broader      parentalguidance:_26 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
