@@ -1061,7 +1061,9 @@ parentalguidance:_8  rdf:type  ebucore:TargetAudience ;
 
 parentalguidance:_8.1
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "G - General"@en ;
+        skos:prefLabel    "G"@en ;
+        skos:altLabel    "General"@en ;
+        skos:altLabel    "G - General"@en ;
         skos:definition   "Suitable for viewing by all ages"@en ;
         skos:broader      parentalguidance:_8 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1102,7 +1104,9 @@ parentalguidance:_8.4
 
 parentalguidance:_8.5
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "R - Restricted"@en ;
+        skos:prefLabel    "R"@en ;
+        skos:altLabel    "Restricted"@en ;
+        skos:altLabel    "R - Restricted"@en ;
         skos:definition   "Restricted to 18 years and older. No rental or purchase by\n         those under 18. Contents not suitable for minors. Contains frequent sexual activity,\n         brutality/graphic violence, intense horror, and/or other disturbing content. "@en ;
         skos:broader      parentalguidance:_8 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
@@ -1112,7 +1116,9 @@ parentalguidance:_8.5
 
 parentalguidance:_8.6
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "E - Exempt"@en ;
+        skos:prefLabel    "E"@en ;
+        skos:altLabel    "Exempt"@en ;
+        skos:altLabel    "E - Exempt"@en ;
         skos:definition   "Contains material not subject to classification, such as\n         documentaries, nature, travel, music, arts and culture, sports and leisure, educational and\n         instructional information."@en ;
         skos:broader      parentalguidance:_8 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;

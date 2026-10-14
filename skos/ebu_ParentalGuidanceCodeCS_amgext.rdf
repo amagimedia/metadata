@@ -1910,10 +1910,6 @@
     <skos:prefLabel xml:lang="en">W</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_31"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_43.1">
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
@@ -1972,7 +1968,7 @@
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#defaultSchemesList">
-    <skos:memberList rdf:nodeID="A1"/>
+    <skos:memberList rdf:nodeID="A0"/>
     <skos:definition xml:lang="en">The ordered list of Parental Guidance top concepts to be considered when no scheme is provided for a rating</skos:definition>
     <rdfs:label xml:lang="en">Default PG Schemes List</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#OrderedCollection"/>
@@ -2432,10 +2428,6 @@
     <skos:definition xml:lang="en">Parental guidance rating: All</skos:definition>
     <skos:prefLabel xml:lang="en">All</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdf:rest rdf:nodeID="A2"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_45.1">
     <skos:example></skos:example>
@@ -3011,7 +3003,9 @@
     <skos:definition xml:lang="en">Contains material not subject to classification, such as
          documentaries, nature, travel, music, arts and culture, sports and leisure, educational and
          instructional information.</skos:definition>
-    <skos:prefLabel xml:lang="en">E - Exempt</skos:prefLabel>
+    <skos:altLabel xml:lang="en">E - Exempt</skos:altLabel>
+    <skos:altLabel xml:lang="en">Exempt</skos:altLabel>
+    <skos:prefLabel xml:lang="en">E</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_111.1.2">
@@ -3034,7 +3028,9 @@
     <skos:definition xml:lang="en">Restricted to 18 years and older. No rental or purchase by
          those under 18. Contents not suitable for minors. Contains frequent sexual activity,
          brutality/graphic violence, intense horror, and/or other disturbing content. </skos:definition>
-    <skos:prefLabel xml:lang="en">R - Restricted</skos:prefLabel>
+    <skos:altLabel xml:lang="en">R - Restricted</skos:altLabel>
+    <skos:altLabel xml:lang="en">Restricted</skos:altLabel>
+    <skos:prefLabel xml:lang="en">R</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_8.2">
@@ -3056,7 +3052,9 @@
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_8"/>
     <skos:definition xml:lang="en">Suitable for viewing by all ages</skos:definition>
-    <skos:prefLabel xml:lang="en">G - General</skos:prefLabel>
+    <skos:altLabel xml:lang="en">G - General</skos:altLabel>
+    <skos:altLabel xml:lang="en">General</skos:altLabel>
+    <skos:prefLabel xml:lang="en">G</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_88">
@@ -7200,6 +7198,10 @@
     <skos:prefLabel xml:lang="en">8</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:rest rdf:nodeID="A1"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_58.1.5">
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
@@ -7400,6 +7402,10 @@
     <skos:definition xml:lang="en">Public exhibition restricted to adults above 18 years only</skos:definition>
     <skos:prefLabel xml:lang="en">A</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:rest rdf:nodeID="A3"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_13.1">
     <skos:example></skos:example>
@@ -8078,10 +8084,6 @@
     <skos:definition xml:lang="en">Suitable for children aged 14 and older</skos:definition>
     <skos:prefLabel xml:lang="en">14+</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
-    <rdf:rest rdf:nodeID="A4"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_121.1.8">
     <skos:example></skos:example>
@@ -10243,10 +10245,6 @@
     <skos:prefLabel xml:lang="en">14A</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A4">
-    <rdf:rest rdf:nodeID="A5"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_9.2">
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
@@ -10295,6 +10293,10 @@
     <skos:altLabel xml:lang="en">General</skos:altLabel>
     <skos:prefLabel xml:lang="en">G</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_31"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50.1">
     <skos:example></skos:example>
@@ -10700,10 +10702,6 @@
     <skos:altLabel xml:lang="en">Restricted</skos:altLabel>
     <skos:prefLabel xml:lang="en">R</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A5">
-    <rdf:rest rdf:nodeID="A0"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_47.1.7">
     <skos:example></skos:example>
@@ -11412,6 +11410,10 @@
     <skos:prefLabel xml:lang="en">15</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:rest rdf:nodeID="A2"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_105.1.2">
     <skos:example></skos:example>
     <skos:historyNote>2026-10-14</skos:historyNote>
@@ -11595,6 +11597,10 @@
     <skos:prefLabel xml:lang="en">KT/EA</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:rest rdf:nodeID="A4"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS.rdf">
     <dct:rights>http://creativecommons.org/licenses/by-nc-sa/3.0/</dct:rights>
     <dct:publisher>EBU</dct:publisher>
@@ -11617,6 +11623,10 @@
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_92"/>
     <skos:prefLabel xml:lang="en">Rating</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:rest rdf:nodeID="A5"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_51.1.12">
     <skos:example></skos:example>
@@ -12246,10 +12256,6 @@
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_23.2"/>
     <skos:prefLabel xml:lang="en">Gambling</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A2">
-    <rdf:rest rdf:nodeID="A3"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_94.1">
     <skos:example></skos:example>
