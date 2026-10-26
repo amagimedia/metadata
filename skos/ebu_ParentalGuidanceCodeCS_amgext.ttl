@@ -2544,8 +2544,9 @@ parentalguidance:_25  rdf:type  ebucore:TargetAudience ;
 
 parentalguidance:_25.1
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "Tout public"@fr ;
         skos:prefLabel    "For all audiences"@en ;
+        skos:altLabel     "Tout public"@fr ;
+        skos:altLabel     "Tout public"@en ;
         skos:definition   "For all audiences"@en ;
         skos:broader      parentalguidance:_25 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
