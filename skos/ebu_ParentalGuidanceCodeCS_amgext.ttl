@@ -202,8 +202,7 @@
         skos:hasTopConcept  parentalguidance:_179 ;  # SE-SM-SA
         skos:hasTopConcept  parentalguidance:_180 ;  # SI-PEGI
         skos:hasTopConcept  parentalguidance:_181 ;  # SK-PEGI
-        skos:hasTopConcept  parentalguidance:_182 ;  # TR-IBMCT
-        skos:hasTopConcept  parentalguidance:_183 .  # ZZ-UNRATED
+        skos:hasTopConcept  parentalguidance:_182 .  # TR-IBMCT
 
 parentalguidance:_0  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "EBUCore-Fallback"@en ;
