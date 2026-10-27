@@ -1697,7 +1697,8 @@ parentalguidance:_11.4
         skos:example      "" .
 
 parentalguidance:_12  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "CA-CBSC-CCNR-English and third-languages"@en ;
+        skos:prefLabel    "CA-CBSC"@en ;
+        skos:altLabel     "CA-CBSC-CCNR-English and third-languages"@en ;
         skos:altLabel     "www.cbsc.ca"@en ;
         skos:scopeNote    "Region:Canada"@en ;
         skos:definition   "Ratings Classification for Canadian English-Language and\n         Third-Language Broadcasters"@en ;
@@ -2114,7 +2115,8 @@ parentalguidance:_15.8
         skos:example      "" .
 
 parentalguidance:_16  rdf:type  ebucore:TargetAudience ;
-        skos:prefLabel    "CN-HK-HKBA"@en ;
+        skos:prefLabel    "HK-HKBA"@en ;
+        skos:altLabel     "CN-HK-HKBA"@en ;
         skos:definition   "Hong-Kong Broadcasting Authority"@en ;
         skos:scopeNote    "Region:Hong-Kong"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
