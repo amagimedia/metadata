@@ -6,7 +6,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS>
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
@@ -22,9 +21,9 @@
     skos:note "Valid" ;
     skos:prefLabel "AMAGI-ASSETID"@en .
 
-
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmsid>
     a ebucore:IdentifierType ;
+    skos:altLabel "tms"@en ;
     skos:changeNote """First version""" ;
     skos:definition """Gracenote TMSID. Check https://en.wikipedia.org/wiki/TMS_(entertainment_data) and https://www.gracenote.com/gracenote-id/"""@en ;
     skos:example "MV003331980000" ;
@@ -32,7 +31,6 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "TMSID"@en .
-
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_eidr>
     a ebucore:IdentifierType ;
@@ -96,6 +94,7 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_provider_guid>
     a ebucore:IdentifierType ;
+    skos:altLabel "providerid"@en ;
     skos:changeNote """First version""" ;
     skos:definition """Unique id from the provider"""@en ;
     skos:example "tmk-video-2779f930951347e0ad939b05f43a8ff8" ;
@@ -117,6 +116,8 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_amagi>
     a ebucore:IdentifierType ;
+    skos:altLabel "amagitest"@en ;
+    skos:altLabel "amagi-assetid"@en ;
     skos:changeNote """First version""" ;
     skos:definition """external id provided by amagi"""@en ;
     skos:example "ACm1io6d5z76aehcyESGbki" ;
@@ -290,6 +291,7 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_film_rise>
     a ebucore:IdentifierType ;
+    skos:altLabel "filmrise"@en ;
     skos:changeNote """First version""" ;
     skos:definition """External id provided from Film Rise"""@en ;
     skos:example "" ;
@@ -480,6 +482,7 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tesera_entertainment>
     a ebucore:IdentifierType ;
+    skos:altLabel "tesera"@en ;
     skos:changeNote """First version""" ;
     skos:definition """External id provided from Tesera Entertainment"""@en ;
     skos:example "" ;
@@ -640,6 +643,7 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_top_rank_publicidad>
     a ebucore:IdentifierType ;
+    skos:altLabel "toprank inc"@en ;
     skos:changeNote """First version""" ;
     skos:definition """External id provided from Top Rank Publicidad"""@en ;
     skos:example "" ;
@@ -820,6 +824,7 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_probox_tv>
     a ebucore:IdentifierType ;
+    skos:altLabel "proboxtv llc"@en ;
     skos:changeNote """First version""" ;
     skos:definition """External id provided from Probox TV"""@en ;
     skos:example "" ;
@@ -950,6 +955,7 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pocket_watch>
     a ebucore:IdentifierType ;
+    skos:altLabel "pocketwatch"@en ;
     skos:changeNote """First version""" ;
     skos:definition """External id provided from Pocket Watch"""@en ;
     skos:example "" ;
@@ -980,6 +986,7 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_redbull>
     a ebucore:IdentifierType ;
+    skos:altLabel "red bull media house gmbh"@en ;
     skos:changeNote """First version""" ;
     skos:definition """External id provided from RedBull"""@en ;
     skos:example "" ;
@@ -1580,6 +1587,7 @@
 
 <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_screen_bright>
     a ebucore:IdentifierType ;
+    skos:altLabel "screenbright media llc"@en ;
     skos:changeNote """First version""" ;
     skos:definition """External id provided from Screen Bright"""@en ;
     skos:example "" ;
@@ -1817,3 +1825,1989 @@
     skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
     skos:note "Valid" ;
     skos:prefLabel "ISRC"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_a24_distribution_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from a24 distribution llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "a24 distribution llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_a71>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from a71"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "a71"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_aande>
+    a ebucore:IdentifierType ;
+    skos:altLabel "aande"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from a&e"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "a&e"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_actf>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from actf"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "actf"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_adventure_tv>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from adventure tv"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "adventure tv"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_all3media>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from all3media"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "all3media"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_amc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from amc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "amc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_america_salutes_you_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from america salutes you llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "america salutes you llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_american_classics>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from american classics"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "american classics"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_ammo>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from ammo"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "ammo"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_b_a_s_s_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from b a s s llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "b a s s llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_banijay>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from banijay"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "banijay"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_bd4_productions_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from bd4 productions llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "bd4 productions llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_be_sunshine_unscripted_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from be sunshine unscripted llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "be sunshine unscripted llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_bell_media_inc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from bell media inc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "bell media inc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_big_media_holdings_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from big media holdings llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "big media holdings llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_boat_rocker>
+    a ebucore:IdentifierType ;
+    skos:altLabel "boat rocker media"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from boat rocker"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "boat rocker"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_breaking_glass>
+    a ebucore:IdentifierType ;
+    skos:altLabel "breaking glass pictures"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from breaking glass"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "breaking glass"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_bridgestone>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from bridgestone"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "bridgestone"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_britbox>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from britbox"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "britbox"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_broadview>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from broadview"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "broadview"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_buffalo_8>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from buffalo 8"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "buffalo 8"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_c5>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from c5"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "c5"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_canicaazul>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from canicaazul"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "canicaazul"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cbc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from cbc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "cbc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cbs>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from cbs"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "cbs"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_channel_5>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from channel 5"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "channel 5"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_chase_hollywood>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from chase hollywood"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "chase hollywood"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_chromata>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from chromata"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "chromata"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_cinedigm>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from cinedigm"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "cinedigm"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_condenast_tv>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from condenast tv"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "condenast tv"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle_ckccs_internal>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle-ckccs-internal"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle-ckccs-internal"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle_ckccs_media>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle-ckccs-media"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle-ckccs-media"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle_ckccs_program>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle-ckccs-program"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle-ckccs-program"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle_internal>
+    a ebucore:IdentifierType ;
+    skos:altLabel "cracle-internal"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle-internal"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle-internal"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle_media>
+    a ebucore:IdentifierType ;
+    skos:altLabel "cracle-media"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle-media"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle-media"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle_pflix_internal>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle-pflix-internal"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle-pflix-internal"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle_pflix_media>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle-pflix-media"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle-pflix-media"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle_pflix_program>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle-pflix-program"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle-pflix-program"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_crackle_program>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from crackle-program"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "crackle-program"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_curiosity>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from curiosity"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "curiosity"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_deepcdigital>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from deepcdigital"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "deepcdigital"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_digicom>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from digicom"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "digicom"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_dinter>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from dinter"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "dinter"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_disney>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from disney"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "disney"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_dooya>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from dooya"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "dooya"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_dotstudiopro>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from dotstudiopro"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "dotstudiopro"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_downrange_production_inc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from downrange production inc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "downrange production inc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_electric_distribution>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from electric distribution"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "electric distribution"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_electric_entertainment>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from electric entertainment"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "electric entertainment"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_encompass_digital_media_services_limited>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from encompass digital media services limited"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "encompass digital media services limited"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_enhanced_us_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from enhanced us llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "enhanced us llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_eone>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from eone"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "eone"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_epix>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from epix"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "epix"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_europa>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from europa"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "europa"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_fairground>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from fairground"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "fairground"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_fans_first_entertainment>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from fans first entertainment"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "fans first entertainment"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_fernando_canavati>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from fernando canavati"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "fernando canavati"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_fl_newsletter_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from fl newsletter llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "fl newsletter llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_formula_e>
+    a ebucore:IdentifierType ;
+    skos:altLabel "formula e operations limited"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from formula e"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "formula e"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_fox_nation>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from fox nation"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "fox nation"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_france24>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from france24"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "france24"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_fremantle>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from fremantle"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "fremantle"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_front_door>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from front door"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "front door"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_fw_caid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from fw_caid"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "fw_caid"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_g4tv>
+    a ebucore:IdentifierType ;
+    skos:altLabel "g4-tv"@en ;
+    skos:altLabel "g4tv"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from g4"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "g4"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_giant_interactive>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from giant interactive"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "giant interactive"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_giant_pictures>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from giant pictures"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "giant pictures"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_good_morning_football>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from good morning football"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "good morning football"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_graham_bensinger>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from graham bensinger"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "graham bensinger"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_gravitas>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from gravitas"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "gravitas"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_great_british_baking_show>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from great british baking show"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "great british baking show"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_guid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from guid"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "guid"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_gunpowder_sky>
+    a ebucore:IdentifierType ;
+    skos:altLabel "gunpowdersky"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from gunpowder & sky"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "gunpowder & sky"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_hallmark>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from hallmark"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "hallmark"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_high_octane>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from high octane"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "high octane"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_hoho>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from hoho"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "hoho"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_in_sync_productions_inc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from in sync productions inc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "in sync productions inc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_incendo>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from incendo"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "incendo"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_itv>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from itv"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "itv"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_j2911_dbm_communications>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from j2911 - dbm communications"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "j2911 - dbm communications"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_jabo_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from jabo llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "jabo llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_janson_media>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from janson media"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "janson media"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_jkn_universe_llc_dba_the_miss_universe>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from jkn universe llc dba the miss universe"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "jkn universe llc dba the miss universe"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_jr_videos>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from jr videos"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "jr videos"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_jtbc_assetid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from jtbc-assetid"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "jtbc-assetid"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_jtbc_episode_guid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from jtbc-episode-guid"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "jtbc-episode-guid"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_jtbc_episode_item_guid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from jtbc-episode-item-guid"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "jtbc-episode-item-guid"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_kaito_ent>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from kaito ent"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "kaito ent"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_kochmedia>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from kochmedia"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "kochmedia"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_kocowa>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from kocowa"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "kocowa"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_kool_toon>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from kool toon"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "kool toon"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_laugh_out_loud>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from laugh out loud"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "laugh out loud"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_legacy_distribution>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from legacy distribution"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "legacy distribution"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_levelfilm>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from levelfilm"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "levelfilm"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_lightning_one_inc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from lightning one inc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "lightning one inc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_love_productions>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from love productions"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "love productions"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_magellantv>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from magellantv"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "magellantv"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_magnolia>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from magnolia"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "magnolia"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mar_gomez>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from mar gomez"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "mar gomez"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_marquee_tv>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from marquee tv"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "marquee tv"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_maverick>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from maverick"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "maverick"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_maximo_futbol>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from maximo futbol"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "maximo futbol"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mgm>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from mgm"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "mgm"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mini_teve>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from mini teve"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "mini teve"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_miss_universe>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from miss universe"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "miss universe"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mlb>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from mlb"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "mlb"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mtcd_productions>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from mtcd productions"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "mtcd productions"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_multicom>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from multicom"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "multicom"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_mvd>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from mvd"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "mvd"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_nascar_digital_media>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from nascar digital media"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "nascar digital media"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_national_womens_soccer_league_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from national womens soccer league llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "national womens soccer league llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_nba_properties_inc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from nba properties inc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "nba properties inc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_nbcu>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from nbcu"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "nbcu"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_new_kingdom>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from new kingdom"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "new kingdom"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_nexus_tv>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from nexus tv"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "nexus tv"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_nfl>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from nfl"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "nfl"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_nicely>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from nicely"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "nicely"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_off_the_fence>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from off the fence"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "off the fence"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_omava>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from omava"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "omava"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pac12>
+    a ebucore:IdentifierType ;
+    skos:altLabel "pac12"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from pac-12"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "pac-12"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_paramount_plus>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from paramount plus"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "paramount plus"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_paranormal_encounters>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from paranormal encounters"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "paranormal encounters"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_passion>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from passion"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "passion"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pbs>
+    a ebucore:IdentifierType ;
+    skos:altLabel "pbsd"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from pbs"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "pbs"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pbs_crid>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from pbs-crid"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "pbs-crid"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pbs_dvb_event_id>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from pbs-dvb-event-id"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "pbs-dvb-event-id"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pokergo>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from pokergo"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "pokergo"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_polar>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from polar"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "polar"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_powderkeg>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from powderkeg"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "powderkeg"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_pro_volleyball_federation_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from pro volleyball federation llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "pro volleyball federation llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_project_runway>
+    a ebucore:IdentifierType ;
+    skos:altLabel "project-runway"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from project runway"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "project runway"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_public_domain>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from public domain"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "public domain"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_radiant_studios>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from radiant studios"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "radiant studios"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rich_eisen>
+    a ebucore:IdentifierType ;
+    skos:altLabel "the rich eisen show"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from rich eisen"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "rich eisen"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rights_booster>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from rights booster"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "rights booster"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rkcan>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from rkcan"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "rkcan"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rkmtvb>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from rkmtvb"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "rkmtvb"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rkspt>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from rkspt"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "rkspt"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_rkylg>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from rkylg"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "rkylg"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_roku>
+    a ebucore:IdentifierType ;
+    skos:altLabel "rokuid"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from roku"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "roku"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_roku_channel_black_movies_and_tv>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from roku channel black movies & tv"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "roku channel black movies & tv"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_roku_channel_black_movies_tv>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from roku channel black movies tv"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "roku channel black movies tv"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_roku_channel_westerns>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from roku channel westerns"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "roku channel westerns"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_roku_oo_promos>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from roku oo promos"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "roku oo promos"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_roku_originals>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from roku originals"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "roku originals"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_roku_qa>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from roku qa"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "roku qa"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_roku_recommends>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from roku_recommends"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "roku_recommends"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_saban>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from saban"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "saban"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_samsunguk>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from samsunguk"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "samsunguk"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_samuel_goldwyn>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from samuel goldwyn"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "samuel goldwyn"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_scottish_premiership>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from scottish premiership"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "scottish premiership"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_shout_factory>
+    a ebucore:IdentifierType ;
+    skos:altLabel "shout! factory tv"@en ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from shout factory"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "shout factory"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_silverspring>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from silverspring"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "silverspring"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_small_town_monsters>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from small town monsters"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "small town monsters"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_sony>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from sony"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "sony"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_spanglish>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from spanglish"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "spanglish"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_sports_content_creation_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from sports content creation llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "sports content creation llc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_spyglass>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from spyglass"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "spyglass"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_square_peg_films>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from square peg films"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "square peg films"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_stareable>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from stareable"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "stareable"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_studio71>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from studio71"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "studio71"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_stx_entertainment>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from stx entertainment"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "stx entertainment"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_sunwoo>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from sunwoo"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "sunwoo"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_swerve>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from swerve"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "swerve"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_syndicado>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from syndicado"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "syndicado"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_t_r_t>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from t r t"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "t r t"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tastemadees>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from tastemadees"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "tastemadees"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_team_toon>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from team toon"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "team toon"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_telemundo>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from telemundo"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "telemundo"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_televisaunivision>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from televisaunivision"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "televisaunivision"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tennis>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from tennis"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "tennis"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_test>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from test"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "test"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tgbrg>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from tgbrg"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "tgbrg"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_this_old_house>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from this old house"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "this old house"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_thunder_nights>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from thunder nights"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "thunder nights"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tis>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from tis"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "tis"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_tmdb>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from tmdb"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "tmdb"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_trc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from trc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "trc"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_vevo>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from vevo"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "vevo"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_viacomcbs>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from viacomcbs"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "viacomcbs"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_virtual_channel>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from virtual channel"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "virtual channel"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_vizio_studio>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from vizio_studio"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "vizio_studio"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_vmi>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from vmi"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "vmi"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wag_entertainment>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from wag entertainment"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "wag entertainment"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_warner_bros>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from warner bros"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "warner bros"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_waypoint_internal>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from waypoint-internal"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "waypoint-internal"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wb_tv_all_together>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from wb tv all together"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "wb tv all together"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wb_tv_keeping_it_real>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from wb tv keeping it real"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "wb tv keeping it real"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wb_tv_watchlist>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from wb tv watchlist"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "wb tv watchlist"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wellgo>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from wellgo"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "wellgo"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_wild_sheep>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from wild sheep"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "wild sheep"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_younghollywood>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from younghollywood"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "younghollywood"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_zattoo_id>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from zattoo id"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "zattoo id"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_zmg>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from zmg"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "zmg"@en .
+
+<https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS#_zuffa_llc>
+    a ebucore:IdentifierType ;
+    skos:changeNote """First version""" ;
+    skos:definition """External id provided from zuffa llc"""@en ;
+    skos:example "" ;
+    skos:historyNote "2026-10-29" ;
+    skos:inScheme <https://metadata.amagi.tv/skos/amagi_ebu_IdentifierTypeCS> ;
+    skos:note "Valid" ;
+    skos:prefLabel "zuffa llc"@en .
+

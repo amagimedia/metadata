@@ -202,7 +202,8 @@
         skos:hasTopConcept  parentalguidance:_179 ;  # SE-SM-SA
         skos:hasTopConcept  parentalguidance:_180 ;  # SI-PEGI
         skos:hasTopConcept  parentalguidance:_181 ;  # SK-PEGI
-        skos:hasTopConcept  parentalguidance:_182 .  # TR-IBMCT
+        skos:hasTopConcept  parentalguidance:_182 ;  # TR-IBMCT
+        skos:hasTopConcept  parentalguidance:_183 .  # ZZ-UNRATED
 
 parentalguidance:_0  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "EBUCore-Fallback"@en ;
@@ -7247,6 +7248,7 @@ parentalguidance:_55  rdf:type  ebucore:TargetAudience ;
         skos:definition   "National Film Office"@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_55.1 ;
+        skos:narrower     parentalguidance:_55.2 ;
         skos:changeNote   "Correct subterm termId 54.1.5 into 55.1.5" ;
         skos:historyNote  "2019-06-24" ;
         skos:example      "" ;
@@ -7263,6 +7265,8 @@ parentalguidance:_55.1
         skos:narrower     parentalguidance:_55.1.4 ;
         skos:narrower     parentalguidance:_55.1.5 ;
         skos:narrower     parentalguidance:_55.1.6 ;
+        skos:narrower     parentalguidance:_55.1.7 ;
+        skos:narrower     parentalguidance:_55.1.8 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -7327,6 +7331,99 @@ parentalguidance:_55.1.6
         skos:historyNote  "" ;
         skos:example      "" .
 
+parentalguidance:_55.1.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "6"@en ;
+        skos:definition   "This film is not suitable under 6 years (Kvikmyndaskodun)."@en ;
+        skos:broader      parentalguidance:_55.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_55.1.8
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "9"@en ;
+        skos:definition   "This film is not suitable under 9 years (Kvikmyndaskodun)."@en ;
+        skos:broader      parentalguidance:_55.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_55.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Criteria"@en ;
+        skos:broader      parentalguidance:_55 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_55.2.1 ;
+        skos:narrower     parentalguidance:_55.2.2 ;
+        skos:narrower     parentalguidance:_55.2.3 ;
+        skos:narrower     parentalguidance:_55.2.4 ;
+        skos:narrower     parentalguidance:_55.2.5 ;
+        skos:narrower     parentalguidance:_55.2.6 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_55.2.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "V"@en ;
+        skos:altLabel     "Violence"@en ;
+        skos:definition   "Violence content descriptor (Kvikmyndaskodun / Kijkwijzer-style)."@en ;
+        skos:broader      parentalguidance:_55.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_55.2.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "F"@en ;
+        skos:altLabel     "Fear"@en ;
+        skos:definition   "Fear / scary content descriptor."@en ;
+        skos:broader      parentalguidance:_55.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_55.2.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "S"@en ;
+        skos:altLabel     "Sex"@en ;
+        skos:definition   "Sex content descriptor."@en ;
+        skos:broader      parentalguidance:_55.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_55.2.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "D"@en ;
+        skos:altLabel     "Discrimination"@en ;
+        skos:definition   "Discrimination content descriptor."@en ;
+        skos:broader      parentalguidance:_55.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_55.2.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "A"@en ;
+        skos:altLabel     "Drugs/alcohol"@en ;
+        skos:definition   "Drugs and/or alcohol content descriptor."@en ;
+        skos:broader      parentalguidance:_55.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_55.2.6
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "L"@en ;
+        skos:altLabel     "Strong language"@en ;
+        skos:definition   "Strong language content descriptor."@en ;
+        skos:broader      parentalguidance:_55.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
 parentalguidance:_56  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "IN-CFBC"@en ;
         skos:altLabel     "Central Board of Film Certification"@en ;
@@ -11534,6 +11631,10 @@ parentalguidance:_96.1
         skos:narrower     parentalguidance:_96.1.2 ;
         skos:narrower     parentalguidance:_96.1.3 ;
         skos:narrower     parentalguidance:_96.1.4 ;
+        skos:narrower     parentalguidance:_96.1.5 ;
+        skos:narrower     parentalguidance:_96.1.6 ;
+        skos:narrower     parentalguidance:_96.1.7 ;
+        skos:narrower     parentalguidance:_96.1.8 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -11580,6 +11681,43 @@ parentalguidance:_96.1.4
         skos:historyNote  "2026-10-14" ;
         skos:example      "" .
 
+parentalguidance:_96.1.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "GE"@en ;
+        skos:definition   "General Exhibition - suitable for general family viewing; all ages (KFCB)."@en ;
+        skos:broader      parentalguidance:_96.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_96.1.6
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "16"@en ;
+        skos:definition   "Unsuitable for persons under 16; legally restricted (KFCB)."@en ;
+        skos:broader      parentalguidance:_96.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_96.1.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "18"@en ;
+        skos:definition   "Adults only - no person under 18 admitted (KFCB)."@en ;
+        skos:broader      parentalguidance:_96.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_96.1.8
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Restricted"@en ;
+        skos:altLabel     "Restricted/Banned"@en ;
+        skos:definition   "Not approved for commercial screening; may offend public order/decency or national interest (KFCB)."@en ;
+        skos:broader      parentalguidance:_96.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
 parentalguidance:_97  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "KH-MCFA-KH"@en ;
         skos:altLabel     "MCFA-KH"@en ;
@@ -11875,6 +12013,13 @@ parentalguidance:_100.1
         skos:narrower     parentalguidance:_100.1.4 ;
         skos:narrower     parentalguidance:_100.1.5 ;
         skos:narrower     parentalguidance:_100.1.6 ;
+        skos:narrower     parentalguidance:_100.1.7 ;
+        skos:narrower     parentalguidance:_100.1.8 ;
+        skos:narrower     parentalguidance:_100.1.9 ;
+        skos:narrower     parentalguidance:_100.1.10 ;
+        skos:narrower     parentalguidance:_100.1.11 ;
+        skos:narrower     parentalguidance:_100.1.12 ;
+        skos:narrower     parentalguidance:_100.1.13 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -11939,6 +12084,76 @@ parentalguidance:_100.1.6
         skos:historyNote  "2026-10-14" ;
         skos:example      "" .
 
+parentalguidance:_100.1.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "0-6"@en ;
+        skos:altLabel     "Under 6 years"@en ;
+        skos:definition   "Films intended for children under 6 (Law on Cinematography)."@en ;
+        skos:broader      parentalguidance:_100.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_100.1.8
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "6+"@en ;
+        skos:altLabel     "From age 6"@en ;
+        skos:definition   "From age 6 (Law on Cinematography)."@en ;
+        skos:broader      parentalguidance:_100.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_100.1.9
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "12+"@en ;
+        skos:altLabel     "From age 12"@en ;
+        skos:definition   "From age 12 (Law on Cinematography)."@en ;
+        skos:broader      parentalguidance:_100.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_100.1.10
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "14+"@en ;
+        skos:altLabel     "From age 14"@en ;
+        skos:definition   "From age 14 (Law on Cinematography)."@en ;
+        skos:broader      parentalguidance:_100.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_100.1.11
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "16+"@en ;
+        skos:altLabel     "From age 16"@en ;
+        skos:definition   "From age 16 (Law on Cinematography)."@en ;
+        skos:broader      parentalguidance:_100.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_100.1.12
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "18+"@en ;
+        skos:altLabel     "From age 18"@en ;
+        skos:definition   "From age 18 (Law on Cinematography)."@en ;
+        skos:broader      parentalguidance:_100.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_100.1.13
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "21+"@en ;
+        skos:altLabel     "From age 21"@en ;
+        skos:definition   "From age 21; restricted exhibition hours (Law on Cinematography)."@en ;
+        skos:broader      parentalguidance:_100.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
 parentalguidance:_101  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "LB-LCB"@en ;
         skos:altLabel     "LCB"@en ;
@@ -12679,6 +12894,7 @@ parentalguidance:_108  rdf:type  ebucore:TargetAudience ;
         skos:definition   "Scheme as defined by Slovakia Ministry of Culture (SK-TV)."@en ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:narrower     parentalguidance:_108.1 ;
+        skos:narrower     parentalguidance:_108.2 ;
         skos:changeNote   "Create" ;
         skos:historyNote  "2026-10-14" ;
         skos:example      "" ;
@@ -12803,6 +13019,92 @@ parentalguidance:_108.1.10
         skos:historyNote  "2026-10-14" ;
         skos:example      "" .
 
+parentalguidance:_108.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Criteria"@en ;
+        skos:broader      parentalguidance:_108 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_108.2.1 ;
+        skos:narrower     parentalguidance:_108.2.2 ;
+        skos:narrower     parentalguidance:_108.2.3 ;
+        skos:narrower     parentalguidance:_108.2.4 ;
+        skos:narrower     parentalguidance:_108.2.5 ;
+        skos:narrower     parentalguidance:_108.2.6 ;
+        skos:narrower     parentalguidance:_108.2.7 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_108.2.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "N"@en ;
+        skos:altLabel     "Violence"@en ;
+        skos:definition   "Violence content descriptor (JSO / vyhlaska 328/2023)."@en ;
+        skos:broader      parentalguidance:_108.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_108.2.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "D"@en ;
+        skos:altLabel     "Discrimination"@en ;
+        skos:definition   "Discrimination content descriptor (JSO)."@en ;
+        skos:broader      parentalguidance:_108.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_108.2.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "S"@en ;
+        skos:altLabel     "Fear"@en ;
+        skos:definition   "Fear content descriptor (JSO)."@en ;
+        skos:broader      parentalguidance:_108.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_108.2.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Z"@en ;
+        skos:altLabel     "Addiction"@en ;
+        skos:definition   "Addiction content descriptor (JSO)."@en ;
+        skos:broader      parentalguidance:_108.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_108.2.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "X"@en ;
+        skos:altLabel     "Sex"@en ;
+        skos:definition   "Sex content descriptor (JSO)."@en ;
+        skos:broader      parentalguidance:_108.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_108.2.6
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "V"@en ;
+        skos:altLabel     "Vulgar language"@en ;
+        skos:definition   "Vulgar language content descriptor (JSO)."@en ;
+        skos:broader      parentalguidance:_108.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_108.2.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "H"@en ;
+        skos:altLabel     "Nudity"@en ;
+        skos:definition   "Nudity content descriptor (JSO)."@en ;
+        skos:broader      parentalguidance:_108.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
 parentalguidance:_109  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "SV-Film"@en ;
         skos:altLabel     "Film"@en ;
@@ -22872,6 +23174,7 @@ parentalguidance:_177.1
         skos:narrower     parentalguidance:_177.1.4 ;
         skos:narrower     parentalguidance:_177.1.5 ;
         skos:narrower     parentalguidance:_177.1.6 ;
+        skos:narrower     parentalguidance:_177.1.7 ;
         skos:changeNote   "" ;
         skos:historyNote  "" ;
         skos:example      "" .
@@ -22936,6 +23239,15 @@ parentalguidance:_177.1.6
         skos:historyNote  "2026-10-25" ;
         skos:example      "" .
 
+parentalguidance:_177.1.7
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "PG15"@en ;
+        skos:definition   "Adult accompaniment required for viewers under 15; may include mature themes (action, romance, mild war) not suitable for younger viewers without guidance."@en ;
+        skos:broader      parentalguidance:_177.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
 parentalguidance:_178  rdf:type  ebucore:TargetAudience ;
         skos:prefLabel    "SE-PEGI"@en ;
         skos:altLabel     "Pan European Game Information"@en ;
@@ -23165,12 +23477,13 @@ parentalguidance:_179.1
 
 parentalguidance:_179.1.1
         rdf:type          ebucore:TargetAudience ;
-        skos:prefLabel    "Barntillåten"@en ;
-        skos:definition   "En barntillåten film ska kunna ses på biograf av ett barn under 7 år utan vuxens sällskap."@en ;
+        skos:prefLabel    "All ages"@en ;
+        skos:altLabel     "Barntillåten"@en ;
+        skos:definition   "An all-ages film should be viewable in a cinema by a child under 7 without an adult."@en ;
         skos:broader      parentalguidance:_179.1 ;
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
-        skos:changeNote   "" ;
-        skos:historyNote  "2026-10-25" ;
+        skos:changeNote   "Englishized prefLabel to MovieLabs All ages; kept Barntillåten as altLabel" ;
+        skos:historyNote  "2026-10-29" ;
         skos:example      "" .
 
 parentalguidance:_179.1.2
@@ -23822,4 +24135,128 @@ parentalguidance:_182.2.3
         skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
         skos:changeNote   "" ;
         skos:historyNote  "2026-10-25" ;
+        skos:example      "" .
+
+parentalguidance:_183  rdf:type  ebucore:TargetAudience ;
+        skos:prefLabel    "ZZ-UNRATED"@en ;
+        skos:altLabel     "UNRATED"@en ;
+        skos:scopeNote    "Region:Global"@en ;
+        skos:definition   "Scheme as defined by MovieLabs global unrated / synthetic ratings (ZZ-UNRATED). MovieLabs: http://www.movielabs.com/md/ratings/ZZ/UNRATED/0"@en ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_183.1 ;
+        skos:narrower     parentalguidance:_183.2 ;
+        skos:changeNote   "Create" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" ;
+        skos:note         "Valid" .
+
+parentalguidance:_183.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Rating"@en ;
+        skos:broader      parentalguidance:_183 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_183.1.1 ;
+        skos:narrower     parentalguidance:_183.1.2 ;
+        skos:narrower     parentalguidance:_183.1.3 ;
+        skos:narrower     parentalguidance:_183.1.4 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_183.1.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "ALL"@en ;
+        skos:altLabel     "All Audiences"@en ;
+        skos:definition   "All Audiences"@en ;
+        skos:broader      parentalguidance:_183.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_183.1.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "UNRATED"@en ;
+        skos:definition   "UNRATED"@en ;
+        skos:broader      parentalguidance:_183.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_183.1.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "ADULT"@en ;
+        skos:altLabel     "Adults"@en ;
+        skos:definition   "Adults"@en ;
+        skos:broader      parentalguidance:_183.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_183.1.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "PROSCRIBED"@en ;
+        skos:definition   "PROSCRIBED"@en ;
+        skos:broader      parentalguidance:_183.1 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_183.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "Criteria"@en ;
+        skos:broader      parentalguidance:_183 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:narrower     parentalguidance:_183.2.1 ;
+        skos:narrower     parentalguidance:_183.2.2 ;
+        skos:narrower     parentalguidance:_183.2.3 ;
+        skos:narrower     parentalguidance:_183.2.4 ;
+        skos:narrower     parentalguidance:_183.2.5 ;
+        skos:changeNote   "" ;
+        skos:historyNote  "" ;
+        skos:example      "" .
+
+parentalguidance:_183.2.1
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "LOWER"@en ;
+        skos:definition   "LOWER"@en ;
+        skos:broader      parentalguidance:_183.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_183.2.2
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "NEUTRAL"@en ;
+        skos:definition   "NEUTRAL"@en ;
+        skos:broader      parentalguidance:_183.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_183.2.3
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "HIGHER"@en ;
+        skos:definition   "HIGHER"@en ;
+        skos:broader      parentalguidance:_183.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_183.2.4
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "NOT YET RATED"@en ;
+        skos:definition   "NOT YET RATED"@en ;
+        skos:broader      parentalguidance:_183.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
+        skos:example      "" .
+parentalguidance:_183.2.5
+        rdf:type          ebucore:TargetAudience ;
+        skos:prefLabel    "NOT RATED"@en ;
+        skos:definition   "NOT RATED"@en ;
+        skos:broader      parentalguidance:_183.2 ;
+        skos:inScheme     <http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS> ;
+        skos:changeNote   "" ;
+        skos:historyNote  "2026-10-29" ;
         skos:example      "" .
