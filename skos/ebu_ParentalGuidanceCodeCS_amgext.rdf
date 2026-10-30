@@ -304,6 +304,10 @@
     <skos:prefLabel xml:lang="en">18</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:rest rdf:nodeID="A1"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_170.1.1">
     <skos:example></skos:example>
     <skos:historyNote>2026-10-25</skos:historyNote>
@@ -434,6 +438,7 @@
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
     <skos:changeNote></skos:changeNote>
+    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1.5"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1.4"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1.3"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1.2"/>
@@ -451,20 +456,6 @@
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_100.1"/>
     <skos:definition xml:lang="en">фильмы, разрешенные для показа детям, достигшим двенадцати лет</skos:definition>
     <skos:prefLabel xml:lang="en">BA</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2">
-    <skos:example></skos:example>
-    <skos:historyNote></skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.5"/>
-    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.4"/>
-    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.3"/>
-    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.2"/>
-    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.1"/>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183"/>
-    <skos:prefLabel xml:lang="en">Criteria</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_100.1.1">
@@ -1303,16 +1294,6 @@
     <skos:prefLabel xml:lang="en">I-10</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.5">
-    <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2"/>
-    <skos:definition xml:lang="en">NOT RATED</skos:definition>
-    <skos:prefLabel xml:lang="en">NOT RATED</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_47.2.8">
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
@@ -1346,16 +1327,6 @@
     <skos:prefLabel xml:lang="en">Edutainment</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.3">
-    <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2"/>
-    <skos:definition xml:lang="en">HIGHER</skos:definition>
-    <skos:prefLabel xml:lang="en">HIGHER</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_136.1.2">
     <skos:example></skos:example>
     <skos:historyNote>2026-10-25</skos:historyNote>
@@ -1376,16 +1347,6 @@
     <skos:definition>Depictions or dialogue involving slapstick or suggestive
          humour</skos:definition>
     <skos:prefLabel xml:lang="en">Comic Mischief</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.4">
-    <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2"/>
-    <skos:definition xml:lang="en">NOT YET RATED</skos:definition>
-    <skos:prefLabel xml:lang="en">NOT YET RATED</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_136.1.3">
@@ -1870,26 +1831,6 @@
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_54"/>
     <skos:prefLabel xml:lang="en">Rating</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.1">
-    <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2"/>
-    <skos:definition xml:lang="en">LOWER</skos:definition>
-    <skos:prefLabel xml:lang="en">LOWER</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2.2">
-    <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
-    <skos:changeNote></skos:changeNote>
-    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2"/>
-    <skos:definition xml:lang="en">NEUTRAL</skos:definition>
-    <skos:prefLabel xml:lang="en">NEUTRAL</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_129.1.1">
@@ -3642,12 +3583,24 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1.4">
     <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
+    <skos:historyNote>2026-10-30</skos:historyNote>
     <skos:changeNote></skos:changeNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1"/>
-    <skos:definition xml:lang="en">PROSCRIBED</skos:definition>
-    <skos:prefLabel xml:lang="en">PROSCRIBED</skos:prefLabel>
+    <skos:definition xml:lang="en">Suitable for ages 13+; contains some mature elements</skos:definition>
+    <skos:altLabel xml:lang="en">13 - Some Mature Elements</skos:altLabel>
+    <skos:prefLabel xml:lang="en">13-M</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1.5">
+    <skos:example></skos:example>
+    <skos:historyNote>2026-10-30</skos:historyNote>
+    <skos:changeNote></skos:changeNote>
+    <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
+    <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1"/>
+    <skos:definition xml:lang="en">Suitable for ages 13+; contains some disturbing elements</skos:definition>
+    <skos:altLabel xml:lang="en">13 - Some Disturbing Elements</skos:altLabel>
+    <skos:prefLabel xml:lang="en">13-D</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_144.2">
@@ -5581,10 +5534,6 @@
     <skos:definition xml:lang="en">Film may contain a mixture of objectionable content from two or more categories.</skos:definition>
     <skos:prefLabel xml:lang="en">18PL</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdf:rest rdf:nodeID="A1"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS">
     <skos:hasTopConcept rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183"/>
@@ -7742,34 +7691,33 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1.2">
     <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
+    <skos:historyNote>2026-10-30</skos:historyNote>
     <skos:changeNote></skos:changeNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1"/>
-    <skos:definition xml:lang="en">UNRATED</skos:definition>
-    <skos:prefLabel xml:lang="en">UNRATED</skos:prefLabel>
+    <skos:definition xml:lang="en">Parental guidance recommended</skos:definition>
+    <skos:prefLabel xml:lang="en">PG</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1.3">
     <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
+    <skos:historyNote>2026-10-30</skos:historyNote>
     <skos:changeNote></skos:changeNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1"/>
-    <skos:definition xml:lang="en">Adults</skos:definition>
-    <skos:altLabel xml:lang="en">Adults</skos:altLabel>
-    <skos:prefLabel xml:lang="en">ADULT</skos:prefLabel>
+    <skos:definition xml:lang="en">Suitable for ages 13+; contains some violence</skos:definition>
+    <skos:altLabel xml:lang="en">13 - Some Violence</skos:altLabel>
+    <skos:prefLabel xml:lang="en">13-V</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1.1">
     <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
+    <skos:historyNote>2026-10-30</skos:historyNote>
     <skos:changeNote></skos:changeNote>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
     <skos:broader rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1"/>
-    <skos:definition xml:lang="en">All Audiences</skos:definition>
-    <skos:altLabel xml:lang="en">All Audiences</skos:altLabel>
-    <skos:prefLabel xml:lang="en">ALL</skos:prefLabel>
+    <skos:definition xml:lang="en">Suitable for general audiences</skos:definition>
+    <skos:prefLabel xml:lang="en">G</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_128.2.3">
@@ -8098,10 +8046,6 @@
     <skos:definition xml:lang="en">Mayores de 21 años</skos:definition>
     <skos:prefLabel xml:lang="en">E</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A2">
-    <rdf:rest rdf:nodeID="A3"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_173.1">
     <skos:example></skos:example>
@@ -9642,10 +9586,6 @@
     <skos:prefLabel xml:lang="en">D</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A4">
-    <rdf:rest rdf:nodeID="A2"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_114.2.11">
     <skos:example></skos:example>
     <skos:historyNote>2026-10-25</skos:historyNote>
@@ -10300,10 +10240,6 @@
     <skos:prefLabel xml:lang="en">G</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
-    <rdf:rest rdf:nodeID="A0"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_25"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_70.1.2">
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
@@ -10489,6 +10425,10 @@
     <skos:altLabel xml:lang="en">PEGI 3</skos:altLabel>
     <skos:prefLabel xml:lang="en">PEGI-3</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_31"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_144.1.2">
     <skos:example></skos:example>
@@ -10953,10 +10893,6 @@
     <skos:definition xml:lang="en">Apto a mayores de 18 años.</skos:definition>
     <skos:prefLabel xml:lang="en">AM18</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A5">
-    <rdf:rest rdf:nodeID="A4"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_148.1.2">
     <skos:example></skos:example>
@@ -11665,6 +11601,10 @@
     <skos:prefLabel xml:lang="en">Sex</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:rest rdf:nodeID="A4"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_50"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_94.1">
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
@@ -11903,7 +11843,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_111.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Ministry of Culture - Tawan (TW-MOC-TW).</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Culture — Bureau of Audiovisual and Music Industry Development (BAMID)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Taiwan</skos:scopeNote>
     <skos:altLabel xml:lang="en">Ministry of Culture - Tawan</skos:altLabel>
     <skos:prefLabel xml:lang="en">TW-MOC-TW</skos:prefLabel>
@@ -11916,7 +11856,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_112.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Ministry of Culture - Tawan (TW-MOC-TW-TV).</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Culture — Bureau of Audiovisual and Music Industry Development (BAMID)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Taiwan</skos:scopeNote>
     <skos:altLabel xml:lang="en">Ministry of Culture - Tawan</skos:altLabel>
     <skos:prefLabel xml:lang="en">TW-MOC-TW-TV</skos:prefLabel>
@@ -11929,7 +11869,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_113.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Ukrainian State Film Agency (UA-Ukraine).</skos:definition>
+    <skos:definition xml:lang="en">Ukrainian State Film Agency (USFA / Держкіно)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Ukraine</skos:scopeNote>
     <skos:altLabel xml:lang="en">Ukrainian State Film Agency</skos:altLabel>
     <skos:prefLabel xml:lang="en">UA-Ukraine</skos:prefLabel>
@@ -11943,7 +11883,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_114.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_114.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Film Advisory Board (US-FAB).</skos:definition>
+    <skos:definition xml:lang="en">Film Advisory Board (FAB)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:United States</skos:scopeNote>
     <skos:altLabel xml:lang="en">Film Advisory Board</skos:altLabel>
     <skos:prefLabel xml:lang="en">US-FAB</skos:prefLabel>
@@ -11957,7 +11897,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_110.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_110.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Akilli Isaretler (TR-AI).</skos:definition>
+    <skos:definition xml:lang="en">RTÜK — Akıllı İşaretler</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Turkey</skos:scopeNote>
     <skos:altLabel xml:lang="en">Akilli Isaretler</skos:altLabel>
     <skos:prefLabel xml:lang="en">TR-AI</skos:prefLabel>
@@ -12033,7 +11973,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_108.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_108.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Slovakia Ministry of Culture (SK-TV).</skos:definition>
+    <skos:definition xml:lang="en">Rada pre mediálne služby (Council for Media Services) — Jednotný systém označovania (JSO)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Slovakia</skos:scopeNote>
     <skos:altLabel xml:lang="en">Slovakia Ministry of Culture</skos:altLabel>
     <skos:prefLabel xml:lang="en">SK-TV</skos:prefLabel>
@@ -12046,7 +11986,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_109.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Film (SV-Film).</skos:definition>
+    <skos:definition xml:lang="en">Dirección de Espectáculos Públicos, Radio y Televisión — Ministerio de Gobernación y Desarrollo Territorial (El Salvador)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:El Salvador</skos:scopeNote>
     <skos:altLabel xml:lang="en">Film</skos:altLabel>
     <skos:prefLabel xml:lang="en">SV-Film</skos:prefLabel>
@@ -12069,7 +12009,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_104.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by MDC (PE-Film).</skos:definition>
+    <skos:definition xml:lang="en">Ministerio de Cultura / Dirección General de Industrias Culturales y Artes (Peru) — exhibition age labeling</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Peru</skos:scopeNote>
     <skos:altLabel xml:lang="en">MDC</skos:altLabel>
     <skos:prefLabel xml:lang="en">PE-Film</skos:prefLabel>
@@ -12092,7 +12032,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_105.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by CONSILIUL NATIONAL AL AUDIOVIZUALULUI - CNA (RO-CNA).</skos:definition>
+    <skos:definition xml:lang="en">CONSILIUL NATIONAL AL AUDIOVIZUALULUI - CNA</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Romania</skos:scopeNote>
     <skos:altLabel xml:lang="en">CONSILIUL NATIONAL AL AUDIOVIZUALULUI - CNA</skos:altLabel>
     <skos:prefLabel xml:lang="en">RO-CNA</skos:prefLabel>
@@ -12117,7 +12057,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_106.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_106.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Infocomm Media Development Authority (SG-MDA-VG).</skos:definition>
+    <skos:definition xml:lang="en">Infocomm Media Development Authority</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Singapore</skos:scopeNote>
     <skos:altLabel xml:lang="en">Infocomm Media Development Authority</skos:altLabel>
     <skos:prefLabel xml:lang="en">SG-MDA-VG</skos:prefLabel>
@@ -12141,7 +12081,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_107.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by SK-Film (SK-Film).</skos:definition>
+    <skos:definition xml:lang="en">Jednotný systém označovania (JSO) / Komisia na ochranu maloletých, Slovakia</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Slovakia</skos:scopeNote>
     <skos:prefLabel xml:lang="en">SK-Film</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
@@ -12153,7 +12093,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_122.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by MOI (AE-MOI). MovieLabs: http://www.movielabs.com/md/ratings/AE/NMC/0</skos:definition>
+    <skos:definition xml:lang="en">National Media Authority (NMA), UAE — cinematic film age classification</skos:definition>
     <skos:scopeNote xml:lang="en">Region:UNITED ARAB EMIRATES</skos:scopeNote>
     <skos:altLabel xml:lang="en">MOI</skos:altLabel>
     <skos:prefLabel xml:lang="en">AE-MOI</skos:prefLabel>
@@ -12166,7 +12106,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_123.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Ministry of Culture of the Russian Federation (AM-MKRF). MovieLabs: http://www.movielabs.com/md/ratings/RU/MKRF/1</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Culture of the Russian Federation (MKRF)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:ARMENIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Ministry of Culture of the Russian Federation</skos:altLabel>
     <skos:prefLabel xml:lang="en">AM-MKRF</skos:prefLabel>
@@ -12180,7 +12120,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_124.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_124.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (AT-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:AUSTRIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">AT-PEGI</skos:prefLabel>
@@ -12194,7 +12134,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_125.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_125.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Nederlands Instituut voor de Classificatie van Audiovisuele Media (BE-Kijkwijzer). MovieLabs: http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2</skos:definition>
+    <skos:definition xml:lang="en">Nederlands Instituut voor de Classificatie van Audiovisuele Media</skos:definition>
     <skos:scopeNote xml:lang="en">Region:BELGIUM</skos:scopeNote>
     <skos:altLabel xml:lang="en">Nederlands Instituut voor de Classificatie van Audiovisuele Media</skos:altLabel>
     <skos:prefLabel xml:lang="en">BE-Kijkwijzer</skos:prefLabel>
@@ -12207,7 +12147,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_120.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by SiBCI (VE-RESORTE-Violencia).</skos:definition>
+    <skos:definition xml:lang="en">CONATEL — Ley de Responsabilidad Social (RESORTE)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Venezuela</skos:scopeNote>
     <skos:altLabel xml:lang="en">SiBCI</skos:altLabel>
     <skos:prefLabel xml:lang="en">VE-RESORTE-Violencia</skos:prefLabel>
@@ -12220,7 +12160,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_121.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Ministry of Culture, Sports and Tourism of Viet Nam (VN-MCST).</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Culture, Sports and Tourism of Viet Nam</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Vietnam</skos:scopeNote>
     <skos:altLabel xml:lang="en">Ministry of Culture, Sports and Tourism of Viet Nam</skos:altLabel>
     <skos:prefLabel xml:lang="en">VN-MCST</skos:prefLabel>
@@ -12335,7 +12275,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_119.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by SiBCI (VE-RESORTE-Sexo).</skos:definition>
+    <skos:definition xml:lang="en">CONATEL — Ley de Responsabilidad Social (RESORTE)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Venezuela</skos:scopeNote>
     <skos:altLabel xml:lang="en">SiBCI</skos:altLabel>
     <skos:prefLabel xml:lang="en">VE-RESORTE-Sexo</skos:prefLabel>
@@ -12368,7 +12308,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_115.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Motion Picture Association of America, Inc. (US-MPAAT).</skos:definition>
+    <skos:definition xml:lang="en">Motion Picture Association of America, Inc.</skos:definition>
     <skos:scopeNote xml:lang="en">Region:United States</skos:scopeNote>
     <skos:altLabel xml:lang="en">Motion Picture Association of America, Inc.</skos:altLabel>
     <skos:prefLabel xml:lang="en">US-MPAAT</skos:prefLabel>
@@ -12381,7 +12321,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_116.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by del Instituto del Niño y el Adolescente de Uruguay (UY-INAU).</skos:definition>
+    <skos:definition xml:lang="en">Instituto del Niño y Adolescente del Uruguay (INAU)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Uruguay</skos:scopeNote>
     <skos:altLabel xml:lang="en">del Instituto del Niño y el Adolescente de Uruguay</skos:altLabel>
     <skos:prefLabel xml:lang="en">UY-INAU</skos:prefLabel>
@@ -12394,7 +12334,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_117.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by SiBCI (VE-RESORTE-Health).</skos:definition>
+    <skos:definition xml:lang="en">CONATEL — Ley de Responsabilidad Social (RESORTE)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Venezuela</skos:scopeNote>
     <skos:altLabel xml:lang="en">SiBCI</skos:altLabel>
     <skos:prefLabel xml:lang="en">VE-RESORTE-Health</skos:prefLabel>
@@ -12407,7 +12347,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_118.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by SiBCI (VE-RESORTE-Language).</skos:definition>
+    <skos:definition xml:lang="en">CONATEL — Ley de Responsabilidad Social (RESORTE)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Venezuela</skos:scopeNote>
     <skos:altLabel xml:lang="en">SiBCI</skos:altLabel>
     <skos:prefLabel xml:lang="en">VE-RESORTE-Language</skos:prefLabel>
@@ -12683,7 +12623,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_100.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by KCB (KZ-KCB).</skos:definition>
+    <skos:definition xml:lang="en">Authorized body for cinematography / film distribution certificates (Kazakhstan)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Kazakhstan</skos:scopeNote>
     <skos:altLabel xml:lang="en">KCB</skos:altLabel>
     <skos:prefLabel xml:lang="en">KZ-KCB</skos:prefLabel>
@@ -12706,7 +12646,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_101.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by LCB (LB-LCB).</skos:definition>
+    <skos:definition xml:lang="en">Lebanese Censorship Board (General Security / LCB)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Lebanon</skos:scopeNote>
     <skos:altLabel xml:lang="en">LCB</skos:altLabel>
     <skos:prefLabel xml:lang="en">LB-LCB</skos:prefLabel>
@@ -12733,7 +12673,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_102.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Lietuvos kino centras (LT-LKC).</skos:definition>
+    <skos:definition xml:lang="en">Lietuvos kino centras</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Lithuania</skos:scopeNote>
     <skos:altLabel xml:lang="en">Lietuvos kino centras</skos:altLabel>
     <skos:prefLabel xml:lang="en">LT-LKC</skos:prefLabel>
@@ -12746,7 +12686,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_103.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Film Censorship Board of Malaysia (MY-FCBM).</skos:definition>
+    <skos:definition xml:lang="en">Lembaga Penapis Filem (LPF) / Film Censorship Board of Malaysia, Ministry of Home Affairs</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Malaysia</skos:scopeNote>
     <skos:altLabel xml:lang="en">Film Censorship Board of Malaysia</skos:altLabel>
     <skos:prefLabel xml:lang="en">MY-FCBM</skos:prefLabel>
@@ -14210,7 +14150,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_177.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by General Commission For Audiovisual Media (SA-CIC-SA). MovieLabs: http://www.movielabs.com/md/ratings/SA/GCAM/0</skos:definition>
+    <skos:definition xml:lang="en">General Authority for Media Regulation (Gmedia; formerly GCAM)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:SAUDI ARABIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">General Commission For Audiovisual Media</skos:altLabel>
     <skos:prefLabel xml:lang="en">SA-CIC-SA</skos:prefLabel>
@@ -14224,7 +14164,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_178.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_178.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (SE-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:SWEDEN</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">SE-PEGI</skos:prefLabel>
@@ -14237,7 +14177,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_179.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Statens medieråd (National Media Council) (SE-SM-SA). MovieLabs: http://www.movielabs.com/md/ratings/SE/SM-SA/1</skos:definition>
+    <skos:definition xml:lang="en">Mediemyndigheten (Swedish Media Authority; formerly Statens medieråd)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:SWEDEN</skos:scopeNote>
     <skos:altLabel xml:lang="en">Statens medieråd (National Media Council)</skos:altLabel>
     <skos:prefLabel xml:lang="en">SE-SM-SA</skos:prefLabel>
@@ -14250,7 +14190,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_173.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by National Broadcasting Council (PL-NBC-PL). MovieLabs: http://www.movielabs.com/md/ratings/PL/NBC-PL/1</skos:definition>
+    <skos:definition xml:lang="en">National Broadcasting Council</skos:definition>
     <skos:scopeNote xml:lang="en">Region:POLAND</skos:scopeNote>
     <skos:altLabel xml:lang="en">National Broadcasting Council</skos:altLabel>
     <skos:prefLabel xml:lang="en">PL-NBC-PL</skos:prefLabel>
@@ -14264,7 +14204,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_174.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_174.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (PL-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:POLAND</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">PL-PEGI</skos:prefLabel>
@@ -14278,7 +14218,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_175.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_175.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (PT-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:PORTUGAL</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">PT-PEGI</skos:prefLabel>
@@ -14292,7 +14232,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_176.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_176.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (RO-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:ROMANIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">RO-PEGI</skos:prefLabel>
@@ -14306,7 +14246,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_170.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_170.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Nederlands Instituut voor de Classificatie van Audiovisuele Media (NL-Kijkwijzer). MovieLabs: http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2</skos:definition>
+    <skos:definition xml:lang="en">Nederlands Instituut voor de Classificatie van Audiovisuele Media</skos:definition>
     <skos:scopeNote xml:lang="en">Region:NETHERLANDS</skos:scopeNote>
     <skos:altLabel xml:lang="en">Nederlands Instituut voor de Classificatie van Audiovisuele Media</skos:altLabel>
     <skos:prefLabel xml:lang="en">NL-Kijkwijzer</skos:prefLabel>
@@ -14320,7 +14260,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_171.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_171.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (NL-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:NETHERLANDS</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">NL-PEGI</skos:prefLabel>
@@ -14334,7 +14274,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_172.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_172.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (NO-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:NORWAY</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">NO-PEGI</skos:prefLabel>
@@ -14424,7 +14364,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_180.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_180.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (SI-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:SLOVENIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">SI-PEGI</skos:prefLabel>
@@ -14455,7 +14395,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_181.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_181.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (SK-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:SLOVAKIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">SK-PEGI</skos:prefLabel>
@@ -14469,7 +14409,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_182.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_182.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Inspection Board, Ministry of Culture and Tourism (TR-IBMCT). MovieLabs: http://www.movielabs.com/md/ratings/TR/IBMCT/1</skos:definition>
+    <skos:definition xml:lang="en">Inspection Board, Ministry of Culture and Tourism</skos:definition>
     <skos:scopeNote xml:lang="en">Region:TURKEY</skos:scopeNote>
     <skos:altLabel xml:lang="en">Inspection Board, Ministry of Culture and Tourism</skos:altLabel>
     <skos:prefLabel xml:lang="en">TR-IBMCT</skos:prefLabel>
@@ -14491,15 +14431,15 @@
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183">
     <skos:note>Valid</skos:note>
     <skos:example></skos:example>
-    <skos:historyNote>2026-10-29</skos:historyNote>
+    <skos:historyNote>2026-10-30</skos:historyNote>
     <skos:changeNote>Create</skos:changeNote>
-    <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_183.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by MovieLabs global unrated / synthetic ratings (ZZ-UNRATED). MovieLabs: http://www.movielabs.com/md/ratings/ZZ/UNRATED/0</skos:definition>
-    <skos:scopeNote xml:lang="en">Region:Global</skos:scopeNote>
-    <skos:altLabel xml:lang="en">UNRATED</skos:altLabel>
-    <skos:prefLabel xml:lang="en">ZZ-UNRATED</skos:prefLabel>
+    <skos:definition xml:lang="en">KC Global Media Singapore Pte Ltd</skos:definition>
+    <skos:scopeNote xml:lang="en">Region:Australia</skos:scopeNote>
+    <skos:altLabel xml:lang="en">KCM</skos:altLabel>
+    <skos:altLabel xml:lang="en">KC Global Media Singapore Pte Ltd</skos:altLabel>
+    <skos:prefLabel xml:lang="en">AU-KCM</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_35.1.2">
@@ -14647,7 +14587,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_155.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Office for Film, Newspaper and Article Administration (HK-FCO). MovieLabs: http://www.movielabs.com/md/ratings/HK/FCO/1</skos:definition>
+    <skos:definition xml:lang="en">Office for Film, Newspaper and Article Administration</skos:definition>
     <skos:scopeNote xml:lang="en">Region:HONG KONG</skos:scopeNote>
     <skos:altLabel xml:lang="en">Office for Film, Newspaper and Article Administration</skos:altLabel>
     <skos:prefLabel xml:lang="en">HK-FCO</skos:prefLabel>
@@ -14661,7 +14601,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_156.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_156.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (HU-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:HUNGARY</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">HU-PEGI</skos:prefLabel>
@@ -14674,7 +14614,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_157.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by NATIONAL MEDIA AND COMMUNICATIONS AUTHORITY (HU-RCNOF). MovieLabs: http://www.movielabs.com/md/ratings/HU/RCNOF/2</skos:definition>
+    <skos:definition xml:lang="en">NATIONAL MEDIA AND COMMUNICATIONS AUTHORITY</skos:definition>
     <skos:scopeNote xml:lang="en">Region:HUNGARY</skos:scopeNote>
     <skos:altLabel xml:lang="en">NATIONAL MEDIA AND COMMUNICATIONS AUTHORITY</skos:altLabel>
     <skos:prefLabel xml:lang="en">HU-RCNOF</skos:prefLabel>
@@ -14698,7 +14638,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_158.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_158.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Irish Film Classification Office (IE-IFCOF). MovieLabs: http://www.movielabs.com/md/ratings/IE/IFCOF/1</skos:definition>
+    <skos:definition xml:lang="en">Irish Film Classification Office</skos:definition>
     <skos:scopeNote xml:lang="en">Region:IRELAND</skos:scopeNote>
     <skos:altLabel xml:lang="en">Irish Film Classification Office</skos:altLabel>
     <skos:prefLabel xml:lang="en">IE-IFCOF</skos:prefLabel>
@@ -14712,7 +14652,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_151.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_151.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (FI-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:FINLAND</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">FI-PEGI</skos:prefLabel>
@@ -14726,7 +14666,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_152.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_152.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (FR-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:FRANCE</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">FR-PEGI</skos:prefLabel>
@@ -14740,7 +14680,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_153.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_153.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (GB-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:UNITED KINGDOM</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">GB-PEGI</skos:prefLabel>
@@ -14754,7 +14694,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_154.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_154.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (GR-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:GREECE</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">GR-PEGI</skos:prefLabel>
@@ -14798,7 +14738,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_150.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_150.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Media Education and Image Program Unit, National Audiovisual Institute (FI-MEKU). MovieLabs: http://www.movielabs.com/md/ratings/FI/MEKU/2</skos:definition>
+    <skos:definition xml:lang="en">Media Education and Image Program Unit, National Audiovisual Institute</skos:definition>
     <skos:scopeNote xml:lang="en">Region:FINLAND</skos:scopeNote>
     <skos:altLabel xml:lang="en">Media Education and Image Program Unit, National Audiovisual Institute</skos:altLabel>
     <skos:prefLabel xml:lang="en">FI-MEKU</skos:prefLabel>
@@ -14975,7 +14915,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_148.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_148.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (EE-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:ESTONIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">EE-PEGI</skos:prefLabel>
@@ -15003,7 +14943,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_149.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_149.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (ES-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:SPAIN</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">ES-PEGI</skos:prefLabel>
@@ -15016,7 +14956,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_166.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by National Film Center of Latvia (LV-NKC-LV). MovieLabs: http://www.movielabs.com/md/ratings/LV/NKC-LV/1</skos:definition>
+    <skos:definition xml:lang="en">National Film Center of Latvia</skos:definition>
     <skos:scopeNote xml:lang="en">Region:LATVIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">National Film Center of Latvia</skos:altLabel>
     <skos:prefLabel xml:lang="en">LV-NKC-LV</skos:prefLabel>
@@ -15030,7 +14970,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_167.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_167.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (LV-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:LATVIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">LV-PEGI</skos:prefLabel>
@@ -15043,7 +14983,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_168.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Comissão de Classificação de Espectáculos (MO-CCE). MovieLabs: http://www.movielabs.com/md/ratings/PT/CCE/1</skos:definition>
+    <skos:definition xml:lang="en">IGAC — Comissão de Classificação de Espectáculos</skos:definition>
     <skos:scopeNote xml:lang="en">Region:MACAO</skos:scopeNote>
     <skos:altLabel xml:lang="en">Comissão de Classificação de Espectáculos</skos:altLabel>
     <skos:prefLabel xml:lang="en">MO-CCE</skos:prefLabel>
@@ -15057,7 +14997,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_169.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_169.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (MT-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:MALTA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">MT-PEGI</skos:prefLabel>
@@ -15071,7 +15011,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_162.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_162.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (IT-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:ITALY</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">IT-PEGI</skos:prefLabel>
@@ -15085,7 +15025,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_163.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_163.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (LT-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:LITHUANIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">LT-PEGI</skos:prefLabel>
@@ -15098,7 +15038,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_164.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Commission de surveillance de la classification des films (LU-CSCF). MovieLabs: http://www.movielabs.com/md/ratings/LU/CSCF/1</skos:definition>
+    <skos:definition xml:lang="en">Commission de surveillance de la classification des films</skos:definition>
     <skos:scopeNote xml:lang="en">Region:LUXEMBOURG</skos:scopeNote>
     <skos:altLabel xml:lang="en">Commission de surveillance de la classification des films</skos:altLabel>
     <skos:prefLabel xml:lang="en">LU-CSCF</skos:prefLabel>
@@ -15112,7 +15052,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_165.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_165.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (LU-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:LUXEMBOURG</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">LU-PEGI</skos:prefLabel>
@@ -15126,7 +15066,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_160.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_160.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (IL-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:ISRAEL</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">IL-PEGI</skos:prefLabel>
@@ -15140,7 +15080,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_161.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_161.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (IS-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:ICELAND</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">IS-PEGI</skos:prefLabel>
@@ -15232,7 +15172,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_159.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_159.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (IE-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:IRELAND</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">IE-PEGI</skos:prefLabel>
@@ -15289,7 +15229,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_133.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Consumer Protection BC (CA-BC-CPBC-T). MovieLabs: http://www.movielabs.com/md/ratings/CA/CPBC-T/2</skos:definition>
+    <skos:definition xml:lang="en">Consumer Protection BC</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Consumer Protection BC</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-BC-CPBC-T</skos:prefLabel>
@@ -15312,7 +15252,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_134.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Entertainment Software Rating Board (CA-ESRB). MovieLabs: http://www.movielabs.com/md/ratings/US/ESRB/0</skos:definition>
+    <skos:definition xml:lang="en">Entertainment Software Rating Board</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Entertainment Software Rating Board</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-ESRB</skos:prefLabel>
@@ -15335,7 +15275,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_135.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Maritime Film Classification Board (CA-NB-MFCB). MovieLabs: http://www.movielabs.com/md/ratings/CA/MFCB/2</skos:definition>
+    <skos:definition xml:lang="en">Maritime Film Classification Board</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Maritime Film Classification Board</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-NB-MFCB</skos:prefLabel>
@@ -15348,7 +15288,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_136.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Maritime Film Classification Board (CA-NS-MFCB). MovieLabs: http://www.movielabs.com/md/ratings/CA/MFCB/2</skos:definition>
+    <skos:definition xml:lang="en">Maritime Film Classification Board</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Maritime Film Classification Board</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-NS-MFCB</skos:prefLabel>
@@ -15371,10 +15311,11 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_130.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Ministry of Culture of the Russian Federation (BY-MKRF@RU/MKRF). MovieLabs: http://www.movielabs.com/md/ratings/RU/MKRF/1</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Culture of the Russian Federation (MKRF)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:BELARUS</skos:scopeNote>
+    <skos:altLabel xml:lang="en">RU/MKRF</skos:altLabel>
     <skos:altLabel xml:lang="en">Ministry of Culture of the Russian Federation</skos:altLabel>
-    <skos:prefLabel xml:lang="en">BY-MKRF@RU/MKRF</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">BY-MKRF</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_131">
@@ -15385,7 +15326,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_131.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_131.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Alberta Film Classification (CA-AB-AFC). MovieLabs: http://www.movielabs.com/md/ratings/CA/AFC/2</skos:definition>
+    <skos:definition xml:lang="en">Alberta Film Classification</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Alberta Film Classification</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-AB-AFC</skos:prefLabel>
@@ -15398,7 +15339,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_132.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Consumer Protection BC (CA-BC-CPBC). MovieLabs: http://www.movielabs.com/md/ratings/CA/CPBC/2</skos:definition>
+    <skos:definition xml:lang="en">Consumer Protection BC</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Consumer Protection BC</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-BC-CPBC</skos:prefLabel>
@@ -15432,7 +15373,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_126.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_126.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (BE-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:BELGIUM</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">BE-PEGI</skos:prefLabel>
@@ -15445,7 +15386,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_127.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Conseil supérieur de l’audiovisuel (BE-WAL-CSA). MovieLabs: http://www.movielabs.com/md/ratings/BE/CSA/1</skos:definition>
+    <skos:definition xml:lang="en">Conseil supérieur de l’audiovisuel</skos:definition>
     <skos:scopeNote xml:lang="en">Region:BELGIUM</skos:scopeNote>
     <skos:altLabel xml:lang="en">Conseil supérieur de l’audiovisuel</skos:altLabel>
     <skos:prefLabel xml:lang="en">BE-WAL-CSA</skos:prefLabel>
@@ -15459,7 +15400,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_128.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_128.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (BG-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:BULGARIA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">BG-PEGI</skos:prefLabel>
@@ -15472,7 +15413,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_129.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by MKRF (BY-IBC). MovieLabs: http://www.movielabs.com/md/ratings/BY/IBC/0</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Culture of the Russian Federation (MKRF) age-marking framework (adoptive)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:BELARUS</skos:scopeNote>
     <skos:altLabel xml:lang="en">MKRF</skos:altLabel>
     <skos:prefLabel xml:lang="en">BY-IBC</skos:prefLabel>
@@ -15486,7 +15427,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_144.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_144.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (CY-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CYPRUS</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">CY-PEGI</skos:prefLabel>
@@ -15500,7 +15441,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_145.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_145.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (CZ-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CZECH REPUBLIC</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">CZ-PEGI</skos:prefLabel>
@@ -15513,7 +15454,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_146.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by The Media Council for Children and Young People (DK-MCCYP). MovieLabs: http://www.movielabs.com/md/ratings/DK/MCCYP/1</skos:definition>
+    <skos:definition xml:lang="en">The Media Council for Children and Young People</skos:definition>
     <skos:scopeNote xml:lang="en">Region:DENMARK</skos:scopeNote>
     <skos:altLabel xml:lang="en">The Media Council for Children and Young People</skos:altLabel>
     <skos:prefLabel xml:lang="en">DK-MCCYP</skos:prefLabel>
@@ -15527,7 +15468,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_147.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_147.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (DK-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:DENMARK</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">DK-PEGI</skos:prefLabel>
@@ -15540,7 +15481,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_140.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Canadian Broadcast Standards Council (CA-QC-CBSC-F). MovieLabs: http://www.movielabs.com/md/ratings/CA/CBSC-F/1</skos:definition>
+    <skos:definition xml:lang="en">Canadian Broadcast Standards Council</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Canadian Broadcast Standards Council</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-QC-CBSC-F</skos:prefLabel>
@@ -15554,7 +15495,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_141.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_141.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Ministre de la Culture et des Communications (CA-QC-RCQ). MovieLabs: http://www.movielabs.com/md/ratings/CA/RCQ/2</skos:definition>
+    <skos:definition xml:lang="en">Ministre de la Culture et des Communications</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Ministre de la Culture et des Communications</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-QC-RCQ</skos:prefLabel>
@@ -15568,7 +15509,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_142.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_142.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Pan European Game Information (CH-PEGI). MovieLabs: http://www.movielabs.com/md/ratings/BE/PEGI/1</skos:definition>
+    <skos:definition xml:lang="en">Pan European Game Information</skos:definition>
     <skos:scopeNote xml:lang="en">Region:SWITZERLAND</skos:scopeNote>
     <skos:altLabel xml:lang="en">Pan European Game Information</skos:altLabel>
     <skos:prefLabel xml:lang="en">CH-PEGI</skos:prefLabel>
@@ -15581,7 +15522,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_143.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by ΔΙ.Κ.Ο.Μ. / Film suitability committees, Ministry of Culture (Greece) (CY-Film). MovieLabs: http://www.movielabs.com/md/ratings/GR/Film/0</skos:definition>
+    <skos:definition xml:lang="en">ΔΙ.Κ.Ο.Μ. / Film suitability committees, Ministry of Culture (Greece)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CYPRUS</skos:scopeNote>
     <skos:altLabel xml:lang="en">ΔΙ.Κ.Ο.Μ. / Film suitability committees, Ministry of Culture (Greece)</skos:altLabel>
     <skos:prefLabel xml:lang="en">CY-Film</skos:prefLabel>
@@ -15638,7 +15579,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_137.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_137.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Canadian Broadcast Standards Council (CA-ON-CBSC). MovieLabs: http://www.movielabs.com/md/ratings/CA/CBSC/2</skos:definition>
+    <skos:definition xml:lang="en">Canadian Broadcast Standards Council</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Canadian Broadcast Standards Council</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-ON-CBSC</skos:prefLabel>
@@ -15661,7 +15602,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_138.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Ontario Film Review Board, (CA-ON-OFRB). MovieLabs: http://www.movielabs.com/md/ratings/CA/OFRB/2</skos:definition>
+    <skos:definition xml:lang="en">Ontario Film Review Board,</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Ontario Film Review Board,</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-ON-OFRB</skos:prefLabel>
@@ -15684,7 +15625,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_139.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Maritime Film Classification Board (CA-PE-MFCB). MovieLabs: http://www.movielabs.com/md/ratings/CA/MFCB/2</skos:definition>
+    <skos:definition xml:lang="en">Maritime Film Classification Board</skos:definition>
     <skos:scopeNote xml:lang="en">Region:CANADA</skos:scopeNote>
     <skos:altLabel xml:lang="en">Maritime Film Classification Board</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-PE-MFCB</skos:prefLabel>
@@ -15707,7 +15648,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_84.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by MKRF (BY-MKRF).</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Culture of the Russian Federation (MKRF)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Belarus</skos:scopeNote>
     <skos:altLabel xml:lang="en">MKRF</skos:altLabel>
     <skos:prefLabel xml:lang="en">BY-MKRF</skos:prefLabel>
@@ -15720,7 +15661,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_83.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by BO-Film (BO-Film).</skos:definition>
+    <skos:definition xml:lang="en">Consejo Nacional del Cine (CONACINE), Bolivia</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Bolivia</skos:scopeNote>
     <skos:prefLabel xml:lang="en">BO-Film</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
@@ -15732,7 +15673,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_86.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Consumer Protection BC (CA-CPBC-T).</skos:definition>
+    <skos:definition xml:lang="en">Consumer Protection BC</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Canada</skos:scopeNote>
     <skos:altLabel xml:lang="en">Consumer Protection BC</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-CPBC-T</skos:prefLabel>
@@ -15745,7 +15686,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_85.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Consumer Protection BC (CA-CPBC).</skos:definition>
+    <skos:definition xml:lang="en">Consumer Protection BC</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Canada</skos:scopeNote>
     <skos:altLabel xml:lang="en">Consumer Protection BC</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-CPBC</skos:prefLabel>
@@ -15758,7 +15699,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_80.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Conseil supérieur de l’audiovisuel (BE-CSA).</skos:definition>
+    <skos:definition xml:lang="en">Conseil supérieur de l’audiovisuel</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Belgium</skos:scopeNote>
     <skos:altLabel xml:lang="en">Conseil supérieur de l’audiovisuel</skos:altLabel>
     <skos:prefLabel xml:lang="en">BE-CSA</skos:prefLabel>
@@ -15771,7 +15712,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_82.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by BN-Film (BN-Film).</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Home Affairs (MOHA) — Film/Public Entertainment Censorship, Brunei</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Brunei</skos:scopeNote>
     <skos:prefLabel xml:lang="en">BN-Film</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
@@ -15783,7 +15724,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_81.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by MIA (BH-MIA).</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Information (MIA), Kingdom of Bahrain</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Bahrain</skos:scopeNote>
     <skos:altLabel xml:lang="en">MIA</skos:altLabel>
     <skos:prefLabel xml:lang="en">BH-MIA</skos:prefLabel>
@@ -15849,7 +15790,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_88.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by CCEP (CR-CCEP).</skos:definition>
+    <skos:definition xml:lang="en">CCEP</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Costa Rica</skos:scopeNote>
     <skos:altLabel xml:lang="en">CCEP</skos:altLabel>
     <skos:prefLabel xml:lang="en">CR-CCEP</skos:prefLabel>
@@ -15862,7 +15803,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_87.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Maritime Film Classification Board (CA-MFCB).</skos:definition>
+    <skos:definition xml:lang="en">Maritime Film Classification Board</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Canada</skos:scopeNote>
     <skos:altLabel xml:lang="en">Maritime Film Classification Board</skos:altLabel>
     <skos:prefLabel xml:lang="en">CA-MFCB</skos:prefLabel>
@@ -15875,7 +15816,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_89.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by CNE (EC-CNE).</skos:definition>
+    <skos:definition xml:lang="en">Instituto de Cine y Creación Audiovisual (ICCA), Ecuador (successor to CNE classification function)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Ecuador</skos:scopeNote>
     <skos:altLabel xml:lang="en">CNE</skos:altLabel>
     <skos:prefLabel xml:lang="en">EC-CNE</skos:prefLabel>
@@ -15888,7 +15829,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_95.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by MC-JO (JO-MC-JO).</skos:definition>
+    <skos:definition xml:lang="en">Jordan Media Commission (هيئة الإعلام)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Jordan</skos:scopeNote>
     <skos:altLabel xml:lang="en">MC-JO</skos:altLabel>
     <skos:prefLabel xml:lang="en">JO-MC-JO</skos:prefLabel>
@@ -15902,7 +15843,7 @@
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_94.2"/>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_94.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Félag rétthafa í sjónvarps- og kvikmyndaiðnaði (IS-FRISK).</skos:definition>
+    <skos:definition xml:lang="en">Félag rétthafa í sjónvarps- og kvikmyndaiðnaði</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Iceland</skos:scopeNote>
     <skos:altLabel xml:lang="en">Félag rétthafa í sjónvarps- og kvikmyndaiðnaði</skos:altLabel>
     <skos:prefLabel xml:lang="en">IS-FRISK</skos:prefLabel>
@@ -15915,7 +15856,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_97.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by MCFA-KH (KH-MCFA-KH).</skos:definition>
+    <skos:definition xml:lang="en">MCFA-KH</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Cambodia</skos:scopeNote>
     <skos:altLabel xml:lang="en">MCFA-KH</skos:altLabel>
     <skos:prefLabel xml:lang="en">KH-MCFA-KH</skos:prefLabel>
@@ -15928,7 +15869,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_96.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Kenya Film Classification Board (KE-KFCB).</skos:definition>
+    <skos:definition xml:lang="en">Kenya Film Classification Board</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Kenya</skos:scopeNote>
     <skos:altLabel xml:lang="en">Kenya Film Classification Board</skos:altLabel>
     <skos:prefLabel xml:lang="en">KE-KFCB</skos:prefLabel>
@@ -15941,7 +15882,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_91.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Film (HN-Film).</skos:definition>
+    <skos:definition xml:lang="en">Dirección de Régimen Departamental / Secretaría de Gobernación, Justicia y Descentralización (Honduras)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Honduras</skos:scopeNote>
     <skos:altLabel xml:lang="en">Film</skos:altLabel>
     <skos:prefLabel xml:lang="en">HN-Film</skos:prefLabel>
@@ -15954,7 +15895,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_90.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Ecuador National Assembly (EC-TV).</skos:definition>
+    <skos:definition xml:lang="en">Ecuador National Assembly</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Ecuador</skos:scopeNote>
     <skos:altLabel xml:lang="en">Ecuador National Assembly</skos:altLabel>
     <skos:prefLabel xml:lang="en">EC-TV</skos:prefLabel>
@@ -15967,7 +15908,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_93.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Film Review Board (IL-Film).</skos:definition>
+    <skos:definition xml:lang="en">Film Review Council (המועצה לביקורת סרטים), Ministry of Culture and Sport (Israel)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Israel</skos:scopeNote>
     <skos:altLabel xml:lang="en">Film Review Board</skos:altLabel>
     <skos:prefLabel xml:lang="en">IL-Film</skos:prefLabel>
@@ -15980,7 +15921,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_92.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by HVAC (HR-HAVC).</skos:definition>
+    <skos:definition xml:lang="en">Hrvatski audiovizualni centar (HAVC)</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Croatia</skos:scopeNote>
     <skos:altLabel xml:lang="en">HVAC</skos:altLabel>
     <skos:prefLabel xml:lang="en">HR-HAVC</skos:prefLabel>
@@ -16127,7 +16068,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_99.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by KCB (KW-KCB).</skos:definition>
+    <skos:definition xml:lang="en">Ministry of Information (Kuwait) — press/publications &amp; film age classifications</skos:definition>
     <skos:scopeNote xml:lang="en">Region:Kuwait</skos:scopeNote>
     <skos:altLabel xml:lang="en">KCB</skos:altLabel>
     <skos:prefLabel xml:lang="en">KW-KCB</skos:prefLabel>
@@ -16140,7 +16081,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_98.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by Korean Communications Commission (KR-KCC).</skos:definition>
+    <skos:definition xml:lang="en">Korean Communications Commission</skos:definition>
     <skos:scopeNote xml:lang="en">Region:South Korea</skos:scopeNote>
     <skos:altLabel xml:lang="en">Korean Communications Commission</skos:altLabel>
     <skos:prefLabel xml:lang="en">KR-KCC</skos:prefLabel>
@@ -16576,7 +16517,7 @@
     <skos:changeNote>Create</skos:changeNote>
     <skos:narrower rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_79.1"/>
     <skos:inScheme rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS"/>
-    <skos:definition xml:lang="en">Scheme as defined by MOI-G (AE-MOI-G).</skos:definition>
+    <skos:definition xml:lang="en">National Media Authority (NMA), UAE — games/age classification framework</skos:definition>
     <skos:scopeNote xml:lang="en">Region:United Arab Emirates</skos:scopeNote>
     <skos:altLabel xml:lang="en">MOI-G</skos:altLabel>
     <skos:prefLabel xml:lang="en">AE-MOI-G</skos:prefLabel>
@@ -20516,6 +20457,10 @@
     <skos:prefLabel xml:lang="en">-18</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:rest rdf:nodeID="A3"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_48"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_26.5">
     <skos:example></skos:example>
     <skos:historyNote></skos:historyNote>
@@ -23174,6 +23119,10 @@
     <skos:prefLabel xml:lang="en">6+</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:rest rdf:nodeID="A2"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_19"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_52.3">
     <skos:example></skos:example>
     <skos:historyNote>2019-06-24</skos:historyNote>
@@ -23458,6 +23407,10 @@
     <skos:definition xml:lang="en">F</skos:definition>
     <skos:prefLabel xml:lang="en">F</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:rest rdf:nodeID="A0"/>
+    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_27"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_94.2.2">
     <skos:example></skos:example>
@@ -24490,10 +24443,6 @@
     <skos:definition xml:lang="es">Adulto</skos:definition>
     <skos:prefLabel xml:lang="en">X</skos:prefLabel>
     <rdf:type rdf:resource="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#TargetAudience"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    <rdf:first rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_31"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/skos/ebu_ParentalGuidanceCodeCS#_81.1.10">
     <skos:example></skos:example>
