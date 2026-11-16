@@ -624,6 +624,13 @@
     rdfs:comment  "To identify the source of the segment associated with an asset."@en ;
     rdfs:label    "Has Segment Source"@en .
 
+<https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#segmentConfidenceScore>
+    rdf:type      rdf:Property ;
+    rdfs:domain   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Part> ;
+    rdfs:range    <http://www.w3.org/2001/XMLSchema#decimal> ;
+    rdfs:comment  "Confidence score of the segment, ranging from 0.0 to 100.0. Set by the caller and preserved as-is; never computed or transformed by the system."@en ;
+    rdfs:label    "Segment Confidence Score"@en .
+
 # Graphics
 
 <https://metadata.amagi.tv/ebu/amagi_ebucoreExtension#Graphic>
